@@ -14,6 +14,11 @@ image_alt: "Designed cover for The Paper Galaxy Audit: pale violet quotation mar
 
 *Recovered from a drifting broadcast fragment, signal degraded past any station-of-origin tag. Visual: a single held frame, a singer before a painted, swirling field of light standing in for a galaxy. Audio: one performance, repeating. Filed for Ledger review under standing policy — any artifact claiming public circulation is auditable for [Allocation Units of Cognition (AUC)](/star-rangers/glossary/ai-usage-credits-auc/), whether or not its origin can be confirmed.*
 
+<audio controls preload="none" style="width:100%;max-width:32rem;display:block;margin:1.5rem 0">
+  <source src="/star-rangers/audio/paper-galaxies.m4a" type="audio/mp4">
+  Your browser does not support the audio element. <a href="/star-rangers/audio/paper-galaxies.m4a">Download the fragment</a>.
+</audio>
+
 ---
 
 **Auditor Kestrel:** Start with the obvious question. Does it earn.

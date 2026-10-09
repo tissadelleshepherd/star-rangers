@@ -4,6 +4,8 @@ title: "Orbital Compute Complexes"
 category: "Technology"
 tags: [orbital-compute, data-centres, quantum-computing, technology, infrastructure, earth, mars, aspenar, orbital-habitat]
 description: "The vast orbital supercomputer and data-centre complexes above Earth, Mars, Aspenar and other settled worlds — classical machines without exception, since no quantum computer flies — linked by shielded telecommunications to the subterranean quantum compute centres on each planet."
+image: "orbital-compute-complexes.jpg"
+image_alt: "Rank upon rank of white radiator panels on a dark truss stretching away above the curve of a planet at night, city lights faint on the surface below"
 plain: "The big computer centres of settled space float in orbit, where sunlight for power is constant and there is room to grow. None of them contains a quantum computer — those only work deep underground in sealed caves, so every planet keeps its quantum machines below ground and connects them to the orbital centres with carefully shielded communication links. The orbital centres do nearly all the everyday computing; the underground vaults handle only the few special problems quantum machines are good at."
 ---
 
@@ -11,7 +13,7 @@ The largest machines the Concord runs cast shadows on the worlds they serve. Fro
 
 ## What They Are
 
-**Orbital compute complexes** are the vast supercomputer and data-centre installations in orbit about Earth, Mars, [Aspenar](/star-rangers/lore/planets/aspenar/) and other settled worlds — the physical seat of the Concord's bulk computation, archival storage, simulation, and traffic-management load. They are built in orbit for reasons that have not changed since the first Earth complexes went up: continuous solar power without weather or night, expansion without land, isolation from seismic and civic risk, and adjacency to the orbital industry and habitats that generate most of the demand. What bounds them is not power but **heat** — a computer in vacuum can only cool by radiating, so a complex's true size is its radiator field, and by area the installations are mostly wing: kilometres of foil running warm so the cores can run at all.
+**Orbital compute complexes** are the vast supercomputer and data-centre installations in orbit about Earth, [Mars](/star-rangers/lore/planets/mars/), [Aspenar](/star-rangers/lore/planets/aspenar/) and other settled worlds — the physical seat of the Concord's bulk computation, archival storage, simulation, and traffic-management load. They are built in orbit for reasons that have not changed since the first Earth complexes went up: continuous solar power without weather or night, expansion without land, isolation from seismic and civic risk, and adjacency to the orbital industry and habitats that generate most of the demand. What bounds them is not power but **heat** — a computer in vacuum can only cool by radiating, so a complex's true size is its radiator field, and by area the installations are mostly wing: kilometres of foil running warm so the cores can run at all.
 
 ## No Quantum Computer Flies
 

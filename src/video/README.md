@@ -1,0 +1,5 @@
+# `src/video/` — video assets
+
+Six files. Three recordings referenced from codex entries (`baby-universe.mp4`, and since 7 October 2026 the two Slipwave videocasts `odonata-raise-your-banners.mp4` and `borrow-the-angle.mp4`, each with a `-poster.jpg` frame beside it for the player); `story-bible/video-prompts.md` records that none has a prompt kept, and that a second, an orphan nothing referenced, was removed on 18 September 2026 at Dermot's instruction. The house motion signature and the camera-is-a-witness rule live in that note. Check what references a file (`grep -rn <name> src lib`) before adding, replacing or removing one.
+
+Three ten-second clips referenced from lore pages since 8 October 2026, generated on Grok Imagine from the prompts in `story-bible/video-prompts.md` (*Three clips offered 8 October 2026*) and judged from their frames: `the-honest-dark.mp4` (the drithle run), `quern.mp4` (the standing storm) and `the-generation-ark-era.mp4` (the ark's drum turning), each with its `-poster.jpg`. 720p, 24 fps, 16:9; the plan's ceiling, so they sit beside the stills at the page's width and are not upscaled.

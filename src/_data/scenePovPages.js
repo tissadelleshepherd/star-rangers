@@ -8,11 +8,15 @@
 // applied per character here, not per chapter: an excluded character still
 // gets a page at their normal URL (so links from other scenes/characters
 // never 404), it just renders a placeholder instead of the real POV text.
+// Since 2026-09-13 the chapter has to be on the build too (isChapterIncluded
+// inside isCharacterPovIncluded): a carried witness's page under an excluded
+// chapter is a placeholder, not a leak of that chapter's prose.
 const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
-const { createMarkdownRenderer } = require("../../lib/markdown-containers");
+const { createMarkdownRenderer, parsePovInfo } = require("../../lib/markdown-containers");
 const { getContentFilter, isCharacterPovIncluded } = require("../../lib/content-filter");
+const { getEdition } = require("../../lib/editions");
 
 const SEASONS_DIR = path.join(__dirname, "..", "seasons");
 const CHARACTERS_DIR = path.join(__dirname, "..", "characters");
@@ -76,13 +80,17 @@ function extractScenes(md, body) {
       if (currentScene) scenes.push(currentScene);
       currentScene = null;
     } else if (token.type === "container_pov_open") {
-      const id = token.info.trim().match(/^pov\s+(\S+)/);
-      currentPov = { id: id ? id[1] : "", tokens: [] };
+      // A tier-gated block the build may not show never reaches here: the
+      // renderer's tier_gate core rule has already dropped it from the
+      // stream md.parse() returns, so the scene simply has fewer POVs on a
+      // lower tier - no page, no placeholder, no button.
+      const info = parsePovInfo(token.info) || { id: "", tier: null };
+      currentPov = { id: info.id, tier: info.tier, tokens: [] };
     } else if (token.type === "container_pov_close") {
       if (currentPov) {
         const html = md.renderer.render(currentPov.tokens, md.options, {});
         const scene = currentScene || ensureImplicitScene();
-        scene.povs.push({ id: currentPov.id, html });
+        scene.povs.push({ id: currentPov.id, tier: currentPov.tier, html });
       }
       currentPov = null;
     } else if (currentPov) {
@@ -94,7 +102,9 @@ function extractScenes(md, body) {
 }
 
 module.exports = function() {
-  const md = createMarkdownRenderer();
+  // The build's own tier gates which POV blocks exist at all - see
+  // lib/markdown-containers.js. Same renderer options as .eleventy.js.
+  const md = createMarkdownRenderer({ buildTier: getEdition().tier });
   const filter = getContentFilter();
   const portraits = loadCharacterPortraits();
   const entries = [];
@@ -143,6 +153,7 @@ module.exports = function() {
           image: sceneImages[scene.number] || null,
           imageAlt: sceneImageAlts[scene.number] || `Scene ${scene.number} of "${data.title}"`,
           character: characterInfo(pov.id, povLabels.get(pov.id.toLowerCase()) || pov.id),
+          tier: pov.tier || null,
           included,
           html: included ? pov.html : null,
           url: `/seasons/s${season}/e${episode}/${data.id}/scene-${scene.number}/${pov.id}/`

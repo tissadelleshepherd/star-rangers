@@ -7,7 +7,7 @@ Each section below maps to a Story Bible field — copy the section body into th
 
 ## Genre
 
-Science fantasy / speculative cosmology. Multi-POV serialized institutional drama with a hard-magic-adjacent (no-magic-permitted) cosmological system. Tone sits between hopepunk and procedural mystery: the emotional register is "protect what is good, learn what is true," but the plot mechanics are closer to an incident investigation — contested records, conflicting testimony, and slow-burn revelation of what a forty-second clock discrepancy actually means.
+Hard science fiction with one licensed deviation (Dermot's label, 2026-09-10; formerly filed as science fantasy). The deviation is the cosmology: real-world physics holds at the Material and Physical layers, and every difference the record specifies — the Cascade and its tiers, the Etheric layer, fold transit, higher-dimensional beings, membrane phenomena, the ten domains of `src/lore/physics-comparison.md` — is a consequence of that one architectural choice, filed at its own scope per `src/lore/the-scope-of-physical-law.md` and priced per `src/lore/what-the-record-refuses.md`. A "new deviation" in the 2026-08-09 hard-SF rule therefore means a new consequence of the cosmology needing its own licence, never a second root. Multi-POV serialized institutional drama with a hard-magic-adjacent (no-magic-permitted) cosmological system. Tone sits between hopepunk and procedural mystery: the emotional register is "protect what is good, learn what is true," but the plot mechanics are closer to an incident investigation — contested records, conflicting testimony, and slow-burn revelation of what a forty-second clock discrepancy actually means.
 
 ---
 
@@ -29,7 +29,7 @@ A station clock has shown an impossible reading for eleven years, and nobody has
 
 *Star Rangers* is built around the idea that history itself can slip — that public record, institutional memory, and eyewitness testimony can drift apart the same way two chronometers on a wall can disagree by forty seconds and just... stay that way, indefinitely, because closing the incident report is politically easier than explaining the discrepancy. The whole series treats "who gets to name the truth" as the central conflict, playing out across a boundary-zone space station, an oceanic causeway outpost, and the wider history of how a burned-out military bureaucracy gave rise to an independent, neutral, humanitarian frontier corps (the Star Rangers) that answers to an oversight council instead of a chain of command.
 
-Cosmologically, reality is stratified into Five Layers (Spiritual → Conceptual → Etheric → Physical → Material), and discrete "Concordants" are bounded regions of internally-consistent physical/Etheric law, produced under "Worldwright" authority. Where two Concordants meet, you get boundary zones: measurable instrument drift, lawful disagreement rather than law failure, and — because ambiguity is a feeding condition for certain entities (Court-Fae, Gilded Saints) — a genuine operational hazard, not just a scientific curiosity. Nothing here is magic. Everything is a rule system waiting to be correctly named — and "magic" is simply the name pre-instrumentation cultures and characters give to a rule system they haven't correctly named yet.
+Cosmologically, reality is stratified into Five Layers (Spiritual → Conceptual → Etheric → Physical → Material), and discrete "Concordants" are bounded regions of internally-consistent physical/Etheric law, produced under "Worldwright" authority. Where two Concordants meet, you get boundary zones: measurable instrument drift, lawful disagreement rather than law failure, and — because ambiguity is a feeding condition for certain entities (Obligers, Gilded Saints) — a genuine operational hazard, not just a scientific curiosity. Nothing here is magic. Everything is a rule system waiting to be correctly named — and "magic" is simply the name pre-instrumentation cultures and characters give to a rule system they haven't correctly named yet.
 
 The series follows a small mixed human/alien/Krenyi/robot survey and Ranger team at Threshold Station as they investigate the drift, in parallel with a boundary practitioner alone at a causeway outpost fighting something she's identified the method of but not the nature of. Multiple POV threads per chapter let the same event get logged, felt, and analyzed simultaneously — a human survey lead who refuses to mythologize anything, a 150-year-old Krenyi analyst who treats ambiguity as a threat vector, and a robot whose field logs double as dry commentary on everyone else's blind spots.
 
@@ -41,7 +41,7 @@ Threshold Station keeps logging the same impossible discrepancy — two chronome
 
 *Star Rangers* follows navigators, wardens, witnesses, analysts, and guardians as they try to keep public order intact while old archives, folded space, and living memory refuse to align. The story moves across stations, causeways, archives, and boundary zones in the long afterlight of empire. As viewpoints converge, the question sharpens: who gets to name the truth when history itself has started to slip?
 
-Season 1 opens with a new survey team — Sir Galahad Thorne (human, Survey Corps lead), Syra (Krenyi boundary analyst), and Rook-7 (investigative robot) — arriving at Threshold Station to formally take up the eleven-year-old drift report. In parallel, Elvira, a contested-classification boundary practitioner, has spent three years alone at the Marsh Causeway outpost fighting a Court-Fae feeding pattern she's identified but can't yet fully name, watched over by Aldera, a cyber-enhanced detective-agency cat who has been quietly logging the same anomaly for longer than anyone realizes. The season builds toward the convergence of both threads at the causeway, where naming the threat correctly is the only thing that can break its feeding loop.
+Season 1 opens with a new survey team — Sir Galahad Thorne (human, Survey Corps lead), Syra (Krenyi boundary analyst), and Rook-7 (investigative robot) — arriving at Threshold Station to formally take up the eleven-year-old drift report. In parallel, Elvira, a contested-classification boundary practitioner, has spent three years alone at the Marsh Causeway outpost fighting an Obliger feeding pattern she's identified but can't yet fully name, watched over by Aldera, a cyber-enhanced detective-agency cat who has been quietly logging the same anomaly for longer than anyone realizes. The season builds toward the convergence of both threads at the causeway, where naming the threat correctly is the only thing that can break its feeding loop.
 
 ---
 
@@ -66,7 +66,7 @@ Above and prior to the Five Layers (which describe how phenomena at Threshold St
 ### The Star Rangers — institutional history
 - **Pre-2718 UCSD:** The Military Space Command (MSC) is the sole authority over deep-range/boundary installations. Its committee-mediated chain of command cannot produce operational response times faster than six weeks — useless for boundary-proximate incidents that need hours.
 - **Triggers:** the Eden fold route confirms extrasolar transit is a present operational fact (2712 UCSD); the MSC sits on a first-contact-class discovery for over 7 years; the *Patience First* disappearance creates unabsorbable political pressure.
-- **2719 UCSD — Outer Stations Consolidation Hearing:** scheduled for 3 weeks, runs 6 months. General Krast's defense ("I would rather be called a tyrant than repeat the [Coherence Wars] experiment") backfires publicly. Formal finding: the MSC is structurally inadequate for 2719 conditions, and the gap is widening.
+- **2719 UCSD — Outer Stations Consolidation Hearing:** scheduled for 3 weeks, runs 6 months. General Krast's defence ("I would rather be called a tyrant than repeat the [Coherence Wars] experiment") backfires publicly. Formal finding: the MSC is structurally inadequate for 2719 conditions, and the gap is widening.
 - **2722 UCSD — Consolidation Accords:** narrow the MSC into the Solar System Defence Command (SSDC), add civilian oversight.
 - **2723 UCSD — Star Rangers Charter signed.** Creates an independent, neutral, humanitarian boundary-operations body, answerable only to an Oversight Council, explicitly forbidden from political alignment, planetary/habitat jurisdiction, or government funding (self-funded via data licensing and fold-route fees, precisely so no one can buy leverage over Ranger action).
 - Unanswered founding-era questions (what *Patience First*'s crew met at the fold terminus; whether other fold routes exist; whether Threshold Station's chronometer discrepancy is the same phenomenon class as the Eden anomalies) remain open story threads.
@@ -84,7 +84,7 @@ This is a hard continuity constraint, not a flavour note, and it is the one that
 - **Two distinct facts, and don't merge them.** The *ceiling* is about 125. The *healthy* span reaches into the hundreds. A character at 104 needs no explanation and no apology; a character at 124 is at the edge of the possible and should be written as remarkable.
 - **This is cultural as well as medical.** "A fitness health mentality" is a fact about how people in this setting live, not just what their clinics can do — which means it is unevenly distributed, and someone who has spent forty years on stations, on short rations, under boundary-proximate conditions, has not had the same access to it as someone who has not. That is available as texture and has not been used yet.
 
-This rule caused one relocation already: the rescue chapter (*A Person's Name*) was drafted into the Founding Era at 2717 and moved the same day to **Year -38 (2788 UCSD)**, Season 1's prequel episode, because the founding-era placement made Karla Wender a hundred-and-fourteen-year-old Chief Pilot. See `src/seasons/s01/e00/s01e00c04.md`, whose header comment carries the arithmetic.
+This rule caused one relocation already: the rescue chapter (*A Person's Name*) was drafted into the Founding Era at 2717 and moved the same day to **2788 UCSD**, thirty-eight years before the 2826 present, in Season 1's prequel episode, because the founding-era placement made Karla Wender a hundred-and-fourteen-year-old Chief Pilot. See `src/seasons/s01/e00/s01e00c04.md`, whose header comment carries the arithmetic.
 
 ### No interbreeding, no hybrids, no safe cross-species transfusion
 
@@ -148,22 +148,22 @@ The ages above are the ordinary route, not the only one. Written up as a new sec
 - **Marsh Causeway** — an isolated boundary outpost, Class II oscillatory, where Elvira works Etheric-responsive materials (chalk, thread, water, records) to map and redirect boundary pattern activity.
 
 ### Threats/entities (non-magical, rule-based)
-- **Court-Fae / Gilded Saints** — entities that feed on ambiguity, consent erosion, and unresolved obligation loops; naming the threat precisely is a functional weapon against them, not a narrative flourish. Author-facing counter-mechanism detail (deliberately kept out of `src/lore/predatory-entities.md` so the public site doesn't hand readers the answer ahead of the story — see "Editorial note" below): Court-Fae feed on unresolved loops and cannot feed on one that has already been broken by making the ambiguity explicit and discharging the social debt — this is the exact mechanic Season 1 dramatizes at the Marsh Causeway (S01E03C02, "The Right Question") and that Season 7 ("Naming the Line") is planned to reuse. Gilded Saints feed on closure-prevention and are countered by recognizing that pattern and accepting that enough can be enough — not yet dramatized in any published chapter.
-- **Levrils (dragons)** — bounded but powerful; meta-dragons exist across boundary mismatches.
+- **Obligers / Gilded Saints** — entities that feed on ambiguity, consent erosion, and unresolved obligation loops; naming the threat precisely is a functional weapon against them, not a narrative flourish. Author-facing counter-mechanism detail (deliberately kept out of `src/lore/predatory-entities.md` so the public site doesn't hand readers the answer ahead of the story — see "Editorial note" below): Obligers feed on unresolved loops and cannot feed on one that has already been broken by making the ambiguity explicit and discharging the social debt — this is the exact mechanic Season 1 dramatizes at the Marsh Causeway (S01E03C01, "The Right Question") and that Season 7 ("Naming the Line") is planned to reuse. Gilded Saints feed on closure-prevention and are countered by recognizing that pattern and accepting that enough can be enough — not yet dramatized in any published chapter.
+- **Levrils** (the lower rank are Dragons) — bounded but powerful; meta-Levrils exist across boundary mismatches.
 - **Krenyi ("Quiet-Built")** — a long-lived species (Syra is ~150 years old, not unusually old for her kind); explicitly cannot interbreed with humans and must not be enslaved or mythologized — this is stated as hard canon, not subtext.
 
 ### Canon rules stated explicitly in-text
 - Threshold Station sits where two Concordants meet, producing measurable instrument drift.
 - Krenyi do not interbreed with humans and cannot be enslaved or mythified.
 - There is no magic; apparent "supernatural" effects are boundary interference or Etheric pattern expression.
-- Levrils are bounded but powerful; meta-dragons exist across boundary mismatches.
+- Levrils are bounded but powerful; meta-Levrils exist across boundary mismatches.
 - Magic does not exist as a real ontological force. Historical figures, legends, and characters who describe events as magical are using a period- or culture-specific belief system, or a pre-instrumentation cognitive shorthand, for lawful higher-dimensional/Etheric phenomena — a narrative or in-universe framing choice, never a statement of underlying mechanism.
 - No scene has an impartial, omniscient narrator, except a passage explicitly told from Kieme's perspective — the sole non-anthropomorphic Upper-Structure tier for which that register is earned rather than a craft shortcut.
 
 ### Canon vs. record: what's actually true vs. what's on file
 The series' central conflict ("who gets to name the truth") only works if these three tiers are kept distinct and never silently merged:
 - **Lore entries and the story bible (this document) are canonical.** They state what is objectively true in-world, full stop — not one character's read on it.
-- **The Codex is POV, not canon.** Every codex document (incident reports, protocols, doctrine records, recovered dialogue, etc.) is an in-universe artifact written by a specific person or office, and may be incomplete, biased, self-serving, or simply wrong. Treat codex content the way an in-world reader would: a primary source to be cross-checked, not a narrator's statement of fact. Every codex entry accordingly names an author, an institution, and a physical archive location. This includes any codex entry that describes events using magical or supernatural language — that language documents the author's belief or culture, not the mechanism.
+- **The Codex is POV, not canon.** Every codex document (incident reports, protocols, doctrine records, recovered dialogue, etc.) is an in-universe artifact written by a specific person or office, and may be incomplete, biased, self-serving, or simply wrong. Treat codex content the way an in-world reader would: a primary source to be cross-checked, not a narrator's statement of fact. Every codex entry accordingly names an author, an institution, and a physical archive location. This includes any codex entry that describes events using magical or supernatural language — that language documents the author's belief or culture, not the mechanism. **The narrative mode is the author's** (Dermot's ruling, 12 September 2026, verbatim: *Codex authors are allowed to use first person or apparently omniscient narrator modes or similar*): first person, an apparently omniscient narrator, a ballad, a transcript, a school reader — whatever a document of that kind is written in. The `::::: scene` / `::: pov` structure and `prose-style.md` govern chapters, not the Codex; the mode changes nothing about standing, and a Codex narrator who seems to know everything is *apparently* omniscient, a posture the in-world reader weighs like any other.
 - **The Timeline is public in-story knowledge**, not omniscient narration. It records what is confirmed and on the public record — which can itself lag, omit, or misdate events relative to what actually happened (see: the Currach Fleet's transit, unconfirmed for centuries after the fact).
 - **Thoughts and dreams belong in story/chapter prose (POV blocks), not the Codex** — a codex entry can only exist once something has been externalized into a physical document (a filed report, a recorded conversation, a written note). An unwritten thought never generates a codex entry on its own.
 
@@ -183,11 +183,11 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 
 **Syra** — Krenyi ("Quiet-Built"), ~150 years old, Boundary Analyst. Cannot interbreed with humans; physically attractive by human standards, which combined with the above produces predictable misreadings she catches instantly. No deep fear (but does feel anxiety); no fury (but does feel annoyance); polyamorous but loyal; uncomfortably honest and considers that other people's problem. Arrived at Threshold Station because she caught a chronometer-discrepancy misclassification in public survey data and someone needed to say so. Resists ambiguity because it's literally a feeding condition for certain entities — keeps her models explicit, withdraws from situations rather than making scenes, refuses to be mythologized.
 
-**Rook-7** — Robot, Investigative/Analytical chassis, Field Analyst. Logs continuously; the logs are not neutral — they carry hypotheses, recommendations, dry commentary. Non-standard sensor arrays of unconfirmed origin, cleaner near "dryadic anchors" than standard boundary events (unexplained). Detects asymmetry/consent-erosion/obligation-loops (the feeding signature of Court-Fae-class entities) with more accuracy than humanoid observers because it doesn't rationalize over raw signal. Current limitation: can identify feeding conditions but can't yet predict escalation timing.
+**Rook-7** — Robot, Investigative/Analytical chassis, Field Analyst. Logs continuously; the logs are not neutral — they carry hypotheses, recommendations, dry commentary. Non-standard sensor arrays of unconfirmed origin, cleaner near "dryadic anchors" than standard boundary events (unexplained). Detects asymmetry/consent-erosion/obligation-loops (the feeding signature of Obligers-class entities) with more accuracy than humanoid observers because it doesn't rationalize over raw signal. Current limitation: can identify feeding conditions but can't yet predict escalation timing.
 
-**Elvira** — Unclassified species (contested — locals call her "the Enchantress," which she finds inaccurate and annoying), Boundary Practitioner / Outpost Keeper at Marsh Causeway for 3 years. Works Etheric-responsive materials (chalk, thread, water, old records) through craft, not magic — mapped, tested, procedural. Structurally incapable of deep fear (a trait she once saw as a flaw, no longer does). Correctly identified the *method* of the Court-Fae feeding at the causeway but not yet its *nature* — a gap actively being exploited. Notices precise boundary-event vocabulary immediately (this is how she starts to trust Galahad).
+**Elvira** — species filed as *Person, kind not established* (contested — locals call her "the Enchantress," which she finds inaccurate and annoying), Boundary Practitioner / Outpost Keeper at Marsh Causeway for 3 years. Works Etheric-responsive materials (chalk, thread, water, old records) through craft, not magic — mapped, tested, procedural. Structurally incapable of deep fear (a trait she once saw as a flaw, no longer does). Correctly identified the *method* of the Obligers feeding at the causeway but not yet its *nature* — a gap actively being exploited. Notices precise boundary-event vocabulary immediately (this is how she starts to trust Galahad).
 
-**Aldera** — Cyber-enhanced cat, Field Observer for the detective agency network, stationed at Marsh Causeway before Elvira arrived (Elvira doesn't know this yet). Communicates only through filed logs, never volunteers unrequested information (agency doctrine: unsolicited information gets dismissed; requested information gets used). Identified the Court-Fae feeding signature before Galahad arrived — has the answer that breaks the loop, is simply waiting for someone to ask the right question. Aware of Rook-7 via the network; no direct contact yet.
+**Aldera** — Cyber-enhanced cat, Field Observer for the detective agency network, stationed at Marsh Causeway before Elvira arrived (Elvira doesn't know this yet). Communicates only through filed logs, never volunteers unrequested information (agency doctrine: unsolicited information gets dismissed; requested information gets used). Identified the Obliger feeding signature before Galahad arrived — has the answer that breaks the loop, is simply waiting for someone to ask the right question. Aware of Rook-7 via the network; no direct contact yet.
 
 **Sen** — Human, Senior Archivist at the Survey Archive. A plural mind: three people, Cael (the verifier), Wyn (who holds what the dry record leaves out), and Sen (who fronts most often), sharing one body and one desk. Reconciles institutional records against what actually happened for a living, and has been quietly correcting the record on the Threshold Station chronometer discrepancy — among other closed files — for over a decade, unsigned. Plurality is played as ordinary and lawful, not a disorder or a twist.
 
@@ -213,7 +213,7 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 
 **Micro level — parallel strands within a season.** Within a season, two (occasionally more) storylines run with no shared scenes, no shared POV cast, and no narrative contact until a defined convergence point. These are **strands**, not threads — see the terminology note below, which exists because this document spent its first year calling both levels "threads":
 
-- **Season 1:** Strand A — the Threshold Station survey team (Galahad, Syra, Rook-7) investigating the forty-second chronometer discrepancy. Strand B — Elvira and Aldera at the Marsh Causeway, working a Court-Fae feeding pattern alone. Convergence: the two strands meet at the causeway, where Galahad's precise vocabulary lets Elvira ask the question Aldera has been waiting to answer, breaking the feeding loop.
+- **Season 1:** Strand A — the Threshold Station survey team (Galahad, Syra, Rook-7) investigating the forty-second chronometer discrepancy. Strand B — Elvira and Aldera at the Marsh Causeway, working an Obliger feeding pattern alone. Convergence: the two strands meet at the causeway, where Galahad's precise vocabulary lets Elvira ask the question Aldera has been waiting to answer, breaking the feeding loop.
 - **Season 6-7 arc treatment** (`story-bible/tissadelle-arc-s6-7.md`): Strand A — the institutional strand (external POVs: Wender, Sen, Rook-7, Syra) working the Last Stand's aftermath from Threshold Station. Strand B — the interior strand (Tissadelle's own POV, fragmented and non-chronological). Convergence: a Season 6 endpoint correlating a detail only Tissadelle could know against the institutional team's physical evidence, resolved in Season 7 by the same naming-defeats-ambiguity mechanic Season 1 established.
 - **Season 3 and Season 5**, as published, each run a single dominant POV (Tissadelle) paired with one contrasting local POV (Sohrel; Órla) rather than two fully independent strands — noted here as the current exception to the pattern, not a second template. A future S3/S5-position season is free to run a genuinely independent second strand instead, the way S1 and the S6-7 treatment do.
 
@@ -224,6 +224,36 @@ Plurality — a single body hosting more than one person (headmates, or tulpas w
 3. Strands share a thematic throughline (most often: precise naming is what defeats ambiguity-feeding entities) without sharing plot mechanics or a common villain-of-the-week.
 4. The convergence point is decided before either strand is drafted, even if the season isn't fully written yet — see the "Established future-canon waypoints" and Season 6-7 treatment for examples of convergence points fixed well ahead of the prose.
 5. Convergence merges information or action, not necessarily the cast going forward — characters can separate again after the strands meet.
+
+### The shape of the saga (Dermot's line, 21 September 2026; approved the same day)
+
+The spine, stated whole, in his fourteen beats and his order — verbatim in
+`intake-2026-09-21.md`: **exploration, discovery, betrayal, loss, pain, false
+accusations, despair, deep roots, hope, silent gradual recovery,
+transformation, sacrifice and healing, with eternal rewards.** It describes
+the arc from Threshold to the ruled terminus, and it is a shape rather than
+a plan: the order names weight, not slot (the roots are planted in `s05e02c01`
+before the loss and hold the interior together in Season 6; sacrifice occurs
+twice, at Dock Seven and at the terminus). Where each beat sits on the page:
+
+| Beat | Where |
+|---|---|
+| Exploration, discovery | Seasons 1 and 3; `s05e02c01`–`c03` |
+| Betrayal | Institutional and depleted, never personal — the Combine, the citation, the Institute's account (`s05e02c03`, `s06e01c02`, the comparanda) |
+| Loss, pain | `s05e02c03`; the interior chapters of Season 6 |
+| False accusations | `s06e02c01` — the one beat the record held nowhere until it was drafted; the claims `s07e01c03` says were tested in the open, given their page |
+| Despair | Season 6's interior, hinted; as cosmology, a Gilded Saint's feeding condition |
+| Deep roots | The Boirinn holding, the Hollow, the holding's oldest discipline (`s05e02c01`, `s07e01c02`) |
+| Hope | `s06e01c03` — something at the edge that refuses to leave |
+| Silent gradual recovery | Season 7; the long chosen interval before the terminus; the doctrine's attrition, a lie starving |
+| Transformation | The noöseed, the protouniverse — settled, Tobble-centred |
+| Sacrifice | `s05e02c03` and the terminus (27 August rulings); the act, never the martyrdom narrative, which is the arc's antagonist |
+| Healing | *Shown, Not Healed*; the debt discharged; the well running warm |
+| Eternal rewards | The founding — *Happy New Universe, Tobble dear* — the cosmology's own reading, ruled 21 September; the overlay's *life beyond death* stays the overlay's, per the 26 August rule |
+
+**Publication:** story bible now, and the line may front the work — the
+README synopsis, the thread intro — only once the terminus chapters are
+published, since its last four beats pre-tell them.
 
 ### Season ordering: total as an index, partial in time, no branches (settled 2026-08-05)
 
@@ -317,14 +347,14 @@ The second cluster of engine terms that gets confused, for the same reason as th
 |---|---|
 | **Included by default** | The baseline. A build that sets no `CHARACTERS`/`TOPICS`/`THREADS` at all ships every page. Inclusion is not something ordinary content has to earn. |
 | **Narrowed build** | A clone whose `deploy.conf` sets one or more of those keys, trimming an otherwise-full site down to a subset. Subtractive, per-clone, and it can only ever remove. |
-| **Private** | **Opt-in inclusion — the inverse.** Private content is *excluded unless a build names it in*, including on the unfiltered full-site build. The distinguishing case is the no-filter build: with nothing set, an ordinary page ships and a private page still does not. That asymmetry is why privacy cannot be expressed in `deploy.conf`, which can only say "narrow this build", never "off by default everywhere". |
-| **Private thread vs. private page** | Privacy is *declared* only on a thread (`private: true`, `lib/storyline-threads.js`). A **page** acquires it by membership — a chapter via its season, a character/lore/codex/glossary/timeline page via its tags or category, a landing page via an explicit `threadId`. So "private page" is a fair description and never a declaration; there is no per-page `private` front-matter field. |
+| **Tier-gated** | **Absent below a reading tier, ordinary at or above it.** A thread that names a `tier` (`lib/storyline-threads.js`) is *excluded on every build whose edition sits below that tier*, the unfiltered full-site build included, whatever the filter says; on a build at or above the tier it is ordinary content, included unless narrowed out. The build's tier is its edition's (`lib/editions.js`), resolved by domain, which is why the gate cannot be expressed in `deploy.conf` and no clone can open it by naming the thread. Replaced **Private** — opt-in inclusion, *excluded unless a build names it in* — on 4 September 2026 at Dermot's ruling; same page set on every domain, one concept instead of two. |
+| **Gated thread vs. gated page** | The gate is *declared* only on a thread. A **page** acquires it by membership — a chapter via its season, a character/lore/codex/glossary/timeline page via its tags or category, a landing page or Season 8 index via an explicit `threadId`. So "gated page" is a fair description and never a declaration; there is no per-page whole-page tier field (a chapter's `povs:` entries carry a `tier` for individual blocks, which is the same ladder applied one level down). |
 | **Excluded page** | What both mechanisms actually produce. Not a missing page: it still builds at its normal URL as an `excluded.njk` placeholder, so no internal link ever 404s. |
-| **Reference domain / `homeDomain`** | Where a placeholder sends the reader. Ordinary excluded pages point at `DEFAULT_REFERENCE_DOMAIN` (the full-site superset). A private thread overrides that with its own `homeDomain`, because the default domain excludes it too — without the override the placeholder would point at a site that also doesn't have the page. |
+| **Reference domain / `homeDomain`** | Where a placeholder sends the reader. Ordinary excluded pages point at `DEFAULT_REFERENCE_DOMAIN` (the full-site superset, a general-tier build). A gated thread overrides that with its own `homeDomain`, a domain at its tier, because the default domain excludes it too — without the override the placeholder would point at a site that also doesn't have the page. |
 
-`church-space` is the only private thread and is intended to stay the only one: it exists because that material belongs to one pair of domains, not because privacy is a general per-deploy feature. Every other per-domain difference is narrowing. A second `private: true` thread is a design decision, not configuration.
+`church-space` is the only gated thread and is intended to stay the only one: it exists because that material belongs to the contemplative readership, not because gating is a general per-deploy feature. Every other per-domain difference is narrowing or the tier ladder. Gating a second thread is a design decision, not configuration.
 
-**Why the church-space fit is awkward, and why it's kept anyway** (noted 2026-07-25). It sits in a registry of *storyline threads* while not being a storyline. It has no chapters and `seasons: []`; what exists is lore, codex entries, characters, and an author's FAQ. It is an **overlay** — see the canon-status table below — and the registry entry is a housing of convenience, because the two things an overlay actually needs are exactly what a private thread provides: membership by tag rather than by season, and opt-in-per-domain visibility. The mismatch is in the *vocabulary*, not the behaviour, and the cost of the mismatch is that `threadForSeason` and the `/threads/` grouping describe it in storyline terms it doesn't earn.
+**Why the church-space fit is awkward, and why it's kept anyway** (noted 2026-07-25). It sits in a registry of *storyline threads* while not being a storyline. It has no chapters and `seasons: []`; what exists is lore, codex entries, characters, and an author's FAQ. It is an **overlay** — see the canon-status table below — and the registry entry is a housing of convenience, because the two things an overlay actually needs are exactly what a gated thread provides: membership by tag rather than by season, and visibility bounded to one readership (per-domain opt-in until 4 September 2026, the contemplative tier since). The mismatch is in the *vocabulary*, not the behaviour, and the cost of the mismatch is that `threadForSeason` and the `/threads/` grouping describe it in storyline terms it doesn't earn.
 
 Worth revisiting only if the overlay ever grows chapters of its own. At that point it becomes genuinely two things — an overlay *and* a storyline — and the honest fix is a separate `OVERLAYS` registry with its own tag-membership and privacy handling, leaving `STORYLINE_THREADS` to mean seasons only. Until then, one registry with a corrected description is less machinery than the problem deserves.
 
@@ -339,7 +369,7 @@ Five pairs where the wrong choice is silent — the build passes and the damage 
 | **`date`** | Real-world publication date, `YYYY-MM-DD`. Drives the Atom feed and `recentChapters` sorting. | Not story time. |
 | **`timestamp`** | In-universe time, free text ("2831 UCSD, Deep Winter — and a morning that has agreed, at last, to stay unfinished"). | Not sortable, and not meant to be. |
 | **`canon_facts`** | World rules a chapter affirms. Chapters only — **codex entries never carry them**, because a codex entry establishes nothing. | Not a summary. A line belongs here when later writing must not contradict it. |
-| **`povs`** | Which characters narrate, as `{id, label}`. Must stay in sync with the `::: pov` blocks actually present. | Drifts silently when a POV block is added or cut without updating it. |
+| **`povs`** | Which characters narrate, as `{id, label}`. Must stay in sync with the `::: pov` blocks actually present. The `label` is rendered verbatim as the POV block's header, the "View from" button and the scene-POV page's title and H1, and takes one shape (settled 2026-10-07, Dermot's choice among three): **`<rank as held in this chapter> <name> (<frame>[, <one qualifier>])`** — frame first (the species, with the augmentation the record marks: *Smart Pet*, *Cyber-Enhanced*, *plural*, *unaugmented*), then at most one qualifier the chapter needs (a posting, a time, a relation: *Fliade survey lead*, *years before the Causeway*, *as remembered*), commas only, nothing after the name outside the bracket. *Line Captain Tissadelle Shepherd (Human)*, *Aldera (Cyber-Enhanced Cat, Detective Agency)*, *Carried-It-Sleeping (Pandoid, the deep networks)*. Every human is *(Human)*, because a human is one case among the cases and never the baseline (2026-09-28). The rank before the name changes as the character's does; a name that has grown (*Stone-First* to *Stone-First-Who-Waited*) is the record's. `validate-content.js` warns on a label outside the shape. | Drifts silently when a POV block is added or cut without updating it — and, until the sweep of 2026-10-07, the bracket had drifted into four kinds of thing in four orders across 85 distinct labels: *Human — the eldest survivor* beside *Human, aged eight*, *Órla Shepherd, as remembered (Human)* beside *Aldera (Cat, years before the Causeway)*, and Elvira with no bracket at all in five chapters. |
 
 ### Terminology: canon status (settled 2026-07-25)
 
@@ -349,7 +379,7 @@ Five pairs where the wrong choice is silent — the build passes and the damage 
 | **Valid-for-its-author** | The Codex's standard, and a different promise: an entry is *not* canon, it is a named source's account. It may contradict lore, a chapter, or another entry. What it may not be is arbitrary — the test is "could this person have known this, and would they have written it this way?", not "is this true?". `author` is required for exactly this reason: no source, no viewpoint to be valid from. |
 | **Lore/codex boundary** | Lore and the Glossary stay internally consistent; anything contested, paradoxical, or devotional moves *into* the Codex under somebody's name. When two lore pages disagree, relocate the contested reading — don't pick a winner inside lore. |
 | **Overlay** | The third status, and the one that had no name until 2026-07-25. An overlay reads the *same* reality the main record shows — same events, same cosmology, same people — through a declared lens, and is optional: opted into per domain, never load-bearing for the story it comments on. `church-space` is the only one. It is **not canon** (nothing in it binds the published seasons, and they never depend on it) and **not Codex** (a codex entry is one named source's account filed *inside* the record; an overlay is a layer laid *across* it). Note the near-collision: **overlay** is craft vocabulary, the in-universe **Overfold** is something else entirely. |
-| **Chartered** | The fourth status (settled 2026-07-26), for approved derivative work by another hand — above a fan work, below canon. One rule governs it: **canon binds it; it does not bind canon.** It must be consistent with canon as it stood at approval; later canon may contradict it freely, and when that happens the chartered work is *superseded*, not retconned or withdrawn. The main story may never depend on it, and it carries **no `canon_facts`** — same reason the Codex doesn't: it establishes nothing. Distinct from the other three by *who wrote it and where they stand*: Codex is in-universe authorship (a named source inside the world), Overlay is a lens across the same events, Chartered is **new events by another hand, out-of-universe, endorsed**. None exist yet. |
+| **Chartered** | The fourth status (settled 2026-07-26), for approved derivative work by another hand — above a fan work, below canon. One rule governs it: **canon binds it; it does not bind canon.** It must be consistent with canon as it stood at approval; later canon may contradict it freely, and when that happens the chartered work is *superseded*, not retconned or withdrawn. The main story may never depend on it, and it carries **no `canon_facts`** — same reason the Codex doesn't: it establishes nothing. Distinct from the other three by *who wrote it and where they stand*: Codex is in-universe authorship (a named source inside the world), Overlay is a lens across the same events, Chartered is **new events by another hand, out-of-universe, endorsed**. None exist yet. Also the **ceiling**: a television, streaming or cinematic adaptation is chartered at most, never canon (12 September 2026). |
 | **House voice** | The prose register of the existing corpus, approved 2026-07-25 as the reference for new work. Approval covered voice and style; the separate ratification covered content. |
 
 ### Chartered works: register, not host (settled 2026-07-26)
@@ -378,6 +408,26 @@ prevent:
 | **Licence** | May it exist at all? | `CONTENT-LICENSE.md`. Fan works have a *standing blanket* exception; a chartered work needs an **individual grant**, and a commercial one needs a real licence — the standing exception is non-commercial only. |
 | **Canon force** | Does it bind future writing? | The canon-status table above. For chartered works: no, one-directionally. |
 | **Visibility** | Does the official site point at it? | The referencing rule below. Independent of the other two — a fan work can be linked without becoming chartered, and a chartered work needn't be linked. |
+
+**A reader comment is a case of this, not an exception to it** (12 September
+2026, `intake-2026-09-12.md`, third section). A well-written comment on the
+boards cannot be filed as Codex with attribution, because Codex lives under
+`src/` and the rule above keeps another hand's text out of that scope. Its
+three homes are the existing ones: in circulation and referenced; chartered
+by individual grant and registered; or, with the commenter's explicit licence
+of the text and a plausible in-universe author, the Codex. The nicer word
+Dermot asked after is *chartered*.
+
+**Chartered is the ceiling for any screen adaptation** (Dermot's direction,
+12 September 2026, verbatim: *Any TV or Video Streaming or Cinematic
+adaptation would be treated as Chartered but never as Canon* —
+`intake-2026-09-12.md`, fourth section). An adaptation for television, a
+streaming service or cinema is at most a chartered work, whatever its scale
+or his involvement: endorsed, registered, bound by canon and binding
+nothing. The published text stays the only canon; the screen never becomes
+the record, and the record never adjusts to the screen. Being commercial, an
+adaptation also sits outside the fan-works exception and needs a real
+licence, which grants the right to adapt and at most chartered standing.
 
 ### Referencing fan images and music (settled 2026-07-26)
 
@@ -483,7 +533,7 @@ Notes that keep the tiers honest:
   are devotional narrative kept beside the shared record, never
   load-bearing, and carry no `canon_facts` (empty list), the same
   establishes-nothing posture as the Codex. Season membership is what
-  hides them (season → thread → private), so no per-chapter tagging is
+  hides them (season → thread → tier gate), so no per-chapter tagging is
   needed; the s08 index pages carry `threadId` instead, having no season
   front matter of their own.
 - **Domains front tiers (settled 2026-08-05, Dermot's direction).** Each
@@ -500,13 +550,161 @@ Notes that keep the tiers honest:
   arc, in its own edition entry since 2026-08-05 — a *narrowed* domain
   now, not a second full site); and **fianilchruinne.com** (with GitHub
   Pages) holds everything — the full record, which still excludes the
-  church-space overlay, since a private thread is opt-in on every build
-  including the canonical one. Dermot has also said the precise domain
+  church-space overlay, since that thread is gated to the contemplative
+  tier and the canonical site sits at the general one. Dermot has also said the precise domain
   *names* matter less than the focus — the association is by thread id,
   never by domain string, so a rebrand or re-pointing moves nothing here.
   One maintenance duty falls out: THREADS can't express "everything
   except", so each future general-tier thread must be added to the
   sciencefiction edition's list when registered, or it won't ship there.
+- **The tiers nest (3 September 2026, Dermot's direction, all readings
+  confirmed the same day — `intake-2026-09-03.md`).** The children's tier is
+  visible from the young-adult tier, both from the general tier, and all from
+  the contemplative edition, which may add POV scenes to any chapter. Realized
+  as a tier ladder defined once in `lib/editions.js` and spread into the
+  entries, with `validateEditions` asserting the chain — so the maintenance
+  duty above now lives on `GENERAL_TIER`, once, and the tiers above inherit
+  it. The canonical site stays unfiltered at the general tier. A
+  contemplative-tier POV scene is an overlay the tiers below never see, and
+  the self-containment rule climbs with it: every tier's reading of a chapter
+  is complete without the blocks the tier above adds.
+- **The young-adult tier gets a young viewpoint (3 September 2026, Dermot's
+  ruling — `intake-2026-09-03.md`, third direction).** Asked whether the
+  young-adult tier should focus on younger adults as protagonists the way the
+  children's tier focuses on pets, he approved the middle option: the Five-O
+  thread gains a raw Deputy or trainee inside the task force as the reader's
+  proxy, added by new chapters, nothing published recast. The tier's band and
+  register are unchanged; the device is the same one the pet POVs are — a
+  body the reader's size in the room. Same day: **the younger Shepherd or the
+  younger Wender may guest in Five-O if the chronology lines up** — Shepherd
+  does (2826, her Season 1 year, on Eden); Wender only in a chapter set
+  around 2800–2810, which the thread has not claimed.
+- **The tiers are a ladder of life stages (3 September 2026, Dermot's
+  direction, readings flagged — `intake-2026-09-03.md`, fifth direction).**
+  Each tier has a body its reader's size in the room: pets and small animals
+  for the child; a raw Deputy, and the younger Shepherd or Wender as guests,
+  for the young adult; the middle-aged and the aliens (perhaps in a specific
+  edition) for the general reader; the oldest, and the existing cast in their
+  later years, for the contemplative reader. A character's weight in a tier
+  follows their age in that tier's years — older characters support in the
+  lower tiers and may lead in the upper two — unless the chronology makes the
+  same person the right age at the right time, in which case they may carry
+  any tier. A default for where new viewpoints go, not a filter on who may
+  appear.
+  Same day, the standing shape: **four tiers are expected to be enough for
+  most kinds of reader, and editions are open-ended** — added within a tier
+  as a face, a page set or an institution warrants one, on a subdomain of an
+  existing domain when the existing domains are not enough.
+- **The young-adult tier gets a second thread, Young Star Rangers (3
+  September 2026, Dermot's direction, readings flagged —
+  `intake-2026-09-03.md`, sixth direction).** Cadets and Deputies inside the
+  Corps, beside Orbital Five-O rather than instead of it: a new storyline
+  thread with its own season (the next free is 9), joining the young-adult
+  tier's filters and inherited upward. The young Deputy of the third
+  direction is its natural protagonist and Shepherd's 2826 its guest window.
+  Realized the same day, readings confirmed and the subdomain approved: thread
+  `young-star-rangers` (Season 9; first chapter *Nothing to Report*, 13 September 2026), edition
+  `young-star-rangers` on `young.fianilchruinne.com` carrying the young-adult
+  floor plus the thread, Zoe Smith cast. The thread is listed on
+  `GENERAL_TIER`, not the young-adult floor, so starquest.site keeps the
+  procedural's own page set and the tiers above carry the thread anyway.
+- **The young-adult tier addresses awkwardness, flirting, signalling and
+  misread cues between younger characters (14 September 2026, Dermot's
+  direction, verbatim in `intake-2026-09-14.md`, last section).** A standing
+  direction for both young-adult threads, Orbital Five-O and Young Star
+  Rangers, and for any edition on that floor: relationships between the
+  younger cast are written with the signal and the reading of the signal
+  both on the page, and the misreading is a scene, not a joke. Held to the
+  cast principles as they stand — no gender stereotypes, strength and
+  vulnerability orthogonal — and to the tier rule: reading level,
+  protagonists and depth, never a content gate. What the tier is *for*, not a
+  quota; a chapter that has no such scene owes none.
+- **The general tier addresses mid-life crisis and similar career issues
+  (14 September 2026, Dermot's direction, verbatim in
+  `intake-2026-09-14.md`, last section).** A standing direction for the
+  general tier's threads — the Tissadelle arc, the Founding Era, and any
+  thread the tier table does not name — and for any edition on that floor.
+  The ladder already gives this tier the middle-aged body in the room; the
+  direction says what that body carries: the questions of the middle of a
+  working life — the posting that stopped meaning what it did, the rank
+  that came too early or too late, the work that had become the self, the
+  years counted differently after the midpoint, and what a person does when
+  the career they built no longer answers. Written as the record writes
+  everything, as a scene in the register of duty and memory, never as a
+  diagnosis; the crisis is a career's and a person's, never a type's. Held
+  to the cast principles (strength and vulnerability orthogonal; no
+  stereotypes of age any more than of gender) and to the tier rule. Like
+  the young-adult direction above, what the tier is *for*, not a quota.
+- **The contemplative tier is more focused on legacy and the meaning of
+  life: what survives after death, and what it all means (14 September
+  2026, Dermot's direction, verbatim in `intake-2026-09-14.md`, last
+  section).** The third of the evening's tier directions, completing the
+  ladder: the young adult misreads a cue, the general reader's career stops
+  answering, the contemplative reader asks what is left. A standing
+  direction for the church-space thread and for every contemplative
+  edition, carried by the oldest body in the room and the existing cast in
+  their later years. The record's own vocabulary is already on the shelf —
+  Conceptual Conservation as the Archive's narrow mechanism, Kiemeic
+  translation as what the traditions hold, the three-way reading of every
+  contested event — and the direction is written the way the record writes
+  all of it: both positions on the page, adjudicating none, the mysterious
+  left hard to define rather than over-specified. Legacy is what a life
+  leaves in others and in the record; meaning is asked, never issued. What
+  the tier is *for*, not a quota, and no gate.
+- **The three tier questions are human ones; alien cultures answer them
+  differently, or not at all (14 September 2026, Dermot's direction, verbatim
+  in `intake-2026-09-14.md`, last section: *Alien cultures have very
+  different concepts of relationships, life, death, family, career, role,
+  status, legacy, individuality and personhood*).** The qualifier on the
+  three directions above. A non-human people's answer to each of the ten is
+  derived from its world and sensorium, never assigned from a list of
+  alternatives, and may be *present*, *shaped*, *absent* or *unaskable*;
+  a different concept is never a lesser one; and when a non-human viewpoint
+  carries a tier's question, the scene asks the human question in the
+  people's own terms and lets the answer be theirs. Realized as the eighth
+  question in `mind-design.md`, answered for every people that gets a mind
+  note, and a trap in `species-design.md`.
+- **Every alien culture, and every view within one, has its own way of
+  interpreting, understanding and relating to the Cosmic Cascade (14
+  September 2026, Dermot's direction, verbatim in `intake-2026-09-14.md`,
+  last section).** The Archive's *devotional tradition* flattened every
+  human faith; it was never wide enough. A people's relation to the Cascade
+  is derived from its sensorium, from which strata have ever touched its
+  world, and from what its ten concepts leave room for; it is never one
+  view, the planet-of-hats trap applying to cosmology as to temperament;
+  and the three-way reading of a contested event extends to their accounts
+  unchanged. The record adjudicates none of it, and the Global Invariants
+  say what the Cascade admits, never what anyone holds. Realized as the
+  ninth question in `mind-design.md`.
+- **The children's tier gets a second thread, Below the Roof (6 September
+  2026, Dermot's ruling — `intake-2026-09-06.md`, third section: *Pandoid
+  thread in child reader tier*).** The Pandoids of Fliade from inside, the
+  record's first storyline carried by a non-human ensemble, with its own season
+  (the next free is 11). Realized the same day as a registry entry, a season
+  index and a landing page, no chapter: thread `below-the-roof` (a working
+  title from the Fliade entry, his to replace before the first chapter, since
+  *Pandoid* is the survey's word), listed on `GENERAL_TIER` like
+  young-star-rangers so no narrowed face gains it by accident. Still his
+  before a line is drafted: the endonym, a Pandoid section in
+  `mind-design.md`, Pandoid young, and which edition shows it to a child — a
+  new one on a subdomain, or undercover-pets.com by one line on
+  `CHILDREN_TIER`. **The edition was ruled 7 September 2026** (`intake-2026-09-07.md`):
+  a new subdomain edition, registered as `the-told` on
+  `told.fianilchruinne.com` (his *door's name is told*, the same day) — the
+  children's floor plus the thread, primer posture, comments off; the thread
+  keeps its working title until he says otherwise. **The same morning: two
+  or more strands**, the survey side beside the deep side, convergence fixed
+  before drafting — **ruled the same day, *one act, two records***, in
+  `below-the-roof-treatment.md`.
+- **A tier is not a posture (21 August 2026).** Each edition now also carries a
+  *presentation mode* — `story`, `primer`, `archive` or `contemplative` — and
+  it deliberately does not map one-to-one onto the tiers above. The tiers are
+  about register and the block lengths in this table; a posture is about what
+  the reader is doing: reading straight through, being helped to finish a block,
+  sitting with a page, or looking something up. So the young-adult and general
+  tiers share `story`, while the Fellowship's codex site is `archive` despite
+  sharing its family's tier and its palette. Per-edition reasoning, and a reader
+  profile for each domain: `edition-reader-profiles.md`.
 
 ### Craft: plain-animal POV (settled 2026-08-04)
 
@@ -659,7 +857,7 @@ There is deliberately **no major/supporting/minor character hierarchy**. Three t
   - (episode 2 contains additional chapters carrying the causeway strand toward convergence)
 - **Episode 3** — chapter(s) continuing toward the Season 1 convergence point.
 
-**Season 1 endpoint (per site synopsis):** the survey-team strand (Threshold Station) and the causeway strand (Elvira/Aldera/Court-Fae) converge at the Marsh Causeway, where correctly *naming* the threat is what breaks its feeding loop — Aldera already has the identification; Galahad's precise vocabulary is what will let Elvira ask the right question.
+**Season 1 endpoint (per site synopsis):** the survey-team strand (Threshold Station) and the causeway strand (Elvira/Aldera/Obligers) converge at the Marsh Causeway, where correctly *naming* the threat is what breaks its feeding loop — Aldera already has the identification; Galahad's precise vocabulary is what will let Elvira ask the right question.
 
 **Established future-canon waypoints (not yet dramatized):**
 - Karla Wender: Chief Pilot → High Captain (progression TBD in-story).
@@ -676,9 +874,9 @@ There is deliberately **no major/supporting/minor character hierarchy**. Three t
 - **MSC** — Military Space Command; the pre-Rangers military authority, narrowed into the SSDC after 2722 UCSD.
 - **SSDC** — Solar System Defence Command; what the MSC became after the Consolidation Accords.
 - **Star Rangers** — independent, neutral, self-funded humanitarian boundary-operations corps chartered 2723 UCSD; accountable only to an Oversight Council; no planetary/large-habitat jurisdiction; cannot take political sides.
-- **Krenyi ("Quiet-Built")** — long-lived species (Syra's is ~150yo, unremarkable for them); cannot interbreed with humans; must not be enslaved or mythologized (explicit hard canon). "Nai" prefix (as in "Nai Syra") signals "still relevant here," not a title or greeting.
-- **Court-Fae / Gilded Saints** — entities that feed on ambiguity, consent erosion, and unresolved obligation loops; precise naming disrupts their feeding mechanism.
-- **Levrils** — dragons; bounded but powerful. Meta-dragons exist across boundary mismatches.
+- **Krenyi ("Quiet-Built")** — long-lived species (Syra's is ~150yo, unremarkable for them); cannot interbreed with humans; must not be enslaved or mythologized (explicit hard canon). "Nai" prefix (as in "Nai Syra") is a state-marker signalling "still relevant here," not a title, a greeting, or a name for the people.
+- **Obligers / Gilded Saints** — entities that feed on ambiguity, consent erosion, and unresolved obligation loops; precise naming disrupts their feeding mechanism.
+- **Levrils** — two ranks, Higher Levrils and Dragons; bounded but powerful. Meta-Levrils exist across boundary mismatches.
 - **Worldwright** — the authority under which Concordants are produced/maintained.
 - **Instrument drift** — the measurable symptom of standing near a boundary zone (e.g., Threshold Station's 40-second chronometer disagreement).
 - **"Magic" (in-world usage)** — not a real force in this setting's cosmology. A colloquial, legendary, or period-specific term some characters and historical sources use for Etheric/boundary phenomena they haven't correctly modeled — e.g. Elvira being called "the Enchantress" by locals, or old records describing an "enchantment" or "curse." Always resolves mechanically (Five Layers, Concordants, boundary interference) under the hood; treat any in-text use of "magic" as a statement about the speaker's belief or culture, never about the underlying mechanism.
@@ -694,7 +892,7 @@ Two standing editorial rules, adopted 2026-07-18, for anyone (human or AI) draft
 1. **Lore and glossary are for settled, in-universe-objective fact, told with a leaning toward hard/semi-hard science fiction and speculative cosmology — minimal or light fantasy framing, and internally consistent and logical.** Contested doctrine, devotional readings, and paradoxical or divergent tellings belong in the Codex instead, where a named in-universe author, institution, and physical record make the bias legible (see `README.md`'s Codex-as-primary-source framing, and the "Canon vs. record" section above). POV inconsistency and paradox are expected and fine *inside* the Codex; they are not fine inside Lore/Glossary, which readers are told confirms "truths the characters have not yet proved" (`src/lore/index.md`'s own page intro).
    - Case in point: **"The Cosmic Limitation on Evil"** moved from `src/lore/cosmic-limitation-on-evil.md` to `src/codex/cosmic-limitation-on-evil.md`. Its Archive-theorist-vs-devotional-tradition framing, its "designed vs. inferred" doctrinal argument, and its unresolved tension with the Cascade's own no-moral-cosmology invariant are exactly the kind of contested, POV-laden content that reads as an argued position, not a flat cosmological fact — so it is now filed as a Doctrinal Division working paper (author, institution, and archive location included), the same treatment `src/codex/life-of-saint-aoife.md` gives a comparably contested vision account. `src/lore/cosmic-cascade.md`, `src/glossary/kieme.md`, `src/lore/kieme-visible-hand.md`, and `src/lore/communion-of-the-called.md` were updated to link the new location; none needed their own substantive rewrite, since each already hedged the claim as "Archive-credited" or "contested" rather than stating it flatly.
 2. **General (public-site) lore should not hand readers the specific mechanism that resolves an upcoming, not-yet-published story beat**, even though the site's lore section is explicitly allowed to run ahead of the narrative on settled worldbuilding facts. The distinction: a cosmological rule (e.g. "no magic, ever") is fair game to state plainly ahead of the prose; a tactical "here is exactly how the protagonist defeats this specific antagonist class" is not, once it maps onto a concrete planned or dramatized story beat.
-   - Case in point: `src/lore/predatory-entities.md` used to include a **"How to counter them"** paragraph for Court-Fae and Gilded Saints, stating outright that naming the threat and discharging the social debt breaks a Court-Fae feeding loop. That is the literal mechanism Season 1 dramatizes at the Marsh Causeway convergence (S01E03C02) and that Season 7 is planned to reuse (`story-bible/narrative-gaps-checklist.md`). Those two paragraphs were removed from the public lore entry; the underlying craft/canon detail now lives here, in this document's "Threats/entities" bullet above (story-bible content is never rendered on the site — see this file's own header note and `CLAUDE.md`), and in `prompts/star-rangers-universe-engine.md` for AI-assisted drafting. The Cute Predators counter (robots/cyber-animals detecting them via asymmetry, not social pressure) stayed in the public lore entry, since it describes a detection method rather than the specific resolving action of an already-planned convergence.
+   - Case in point: `src/lore/predatory-entities.md` used to include a **"How to counter them"** paragraph for Obligers and Gilded Saints, stating outright that naming the threat and discharging the social debt breaks an Obliger feeding loop. That is the literal mechanism Season 1 dramatizes at the Marsh Causeway convergence (S01E03C01) and that Season 7 is planned to reuse (`story-bible/narrative-gaps-checklist.md`). Those two paragraphs were removed from the public lore entry; the underlying craft/canon detail now lives here, in this document's "Threats/entities" bullet above (story-bible content is never rendered on the site — see this file's own header note and `CLAUDE.md`), and in `prompts/star-rangers-universe-engine.md` for AI-assisted drafting. The Cute Predators counter (robots/cyber-animals detecting them via asymmetry, not social pressure) stayed in the public lore entry, since it describes a detection method rather than the specific resolving action of an already-planned convergence.
 
 3. **Some gaps are not withheld answers. They are the answer, and they never resolve.** Adopted 2026-08-13. The standing spoiler rule above assumes a mechanism exists and is being held back until the prose gets there. This third rule covers the opposite case, which is easy to mistake for the second and much easier to ruin: a gap the author has decided has no reveal behind it at all.
    - **The registered case: the Krenyi origin.** Dermot, 13 August 2026: **"The mysterious origin of the Krenyi is intentional and they never talk about it."** `src/lore/krenyi.md` already carries the in-universe half of this well — the record holds no Krenyi homeworld, the absence is theirs rather than the archive's, and the page states plainly that filling the entry "would replace a fact the Krenyi have stated, that they decline to be placed, with a fabrication they have not." What the page cannot say, because it is an in-universe document, is the author-facing half: **there is no reserved answer.** No chapter reveals it, no Codex fragment half-discloses it, no character deduces it, and no future session should treat the empty entry as a to-do.

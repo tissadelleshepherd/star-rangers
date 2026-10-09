@@ -4,6 +4,8 @@ title: "Universal Concord Standard Date: Count and Calibration"
 category: "Timeline Notes"
 tags: [timeline, timekeeping, ucsd, standards, calibration]
 description: "What the civil date actually is: a continuous count renumbered from old Earth's, kept as a paper timescale by an ensemble of clocks no institution owns, reconciled by courier and proven in closed loops. Time is simple; measuring it is the hard part."
+image: "universal-cosmic-stardate.jpg"
+image_alt: "Six identical sealed metal cylinders standing on rough stone plinths in a row against a plain pale wall, evenly spaced"
 plain: "Time in this story is ordinary: one real timeline, running one way, no branches. The date system is just very careful measurement of it. The year count continues old Earth's with 200 added. There is no single master clock — many well-kept clocks are compared, corrected, and averaged after the fact, and couriers physically carry time between places because no signal travels faster than a ship."
 ---
 
@@ -15,7 +17,7 @@ Time in the Grand Ensemble is linear, one-dimensional, and real. There is one hi
 
 The count is continuous with old Earth's common-era calendar — no reset, one number line — renumbered by a fixed offset: **UCSD year = CE year + 200**. The conversion is arithmetic, not a conversion table; a document that says *2140 CE* files as *2340 UCSD* and nothing more is required. The count's zero point is given no in-world significance: the standard commemorates no founding, which is deliberate — a spine that honoured an event would belong to whoever owned the event.
 
-Format conventions are unchanged from the count's earliest use: the primary form is **`<year> UCSD`**; seasonal qualifiers and day markers remain valid (`2826 UCSD, Early Autumn, Day 3`); and relative references (`Year -11`, `Year -3`) remain valid in archival narratives when tied to a major incident anchor.
+Format conventions are unchanged from the count's earliest use: the primary form is **`<year> UCSD`**; seasonal qualifiers and day markers remain valid (`2826 UCSD, Early Autumn, Day 3`); and a relative reckoning counted from an incident anchor (*eleven years before the Threshold posting*) belongs to the narrative that makes it and is converted to the spine on filing, so that no filed date is relative.
 
 Adoption was not universal on the day it was declared. Communities that lost contact with Solar System institutions before standardisation took hold — most notably the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), whose Currach Fleet arks departed Earth on legacy CE dating and stayed out of contact for centuries afterward — never fully retired CE in their own records. Union clan archives, in the same cultural-preservation instinct that kept their founding languages alive, still cite CE dates alongside UCSD; [New London](/star-rangers/lore/new-london-space-habitat/) prints both for its own custodial reasons. Solar System institutional records carry no such exception.
 

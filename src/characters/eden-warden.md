@@ -32,6 +32,8 @@ The Warden holds general standards and welfare authority over Eden's mobile AI h
 
 The same authority extends to the welfare of any cyber-enhanced animal posted to Eden — a responsibility the habitat has not yet had cause to exercise on the public record. Whether that is because none has needed it, or because the Undercover Pets Detective Agency's own animals at Eden are quietly kept just outside the classification that would trigger it, is not a question Custos has been asked, and therefore not one Custos has answered.
 
+One part of Eden the Warden does not run is the ring terraces. Their grant, written by Eden's first administration in 2671 UCSD, twenty-three years before the Accords, puts every valve on the terrace loop under a grower's hand, and the Terrace Committee has renewed the clause every time it has come round. The Warden sees the loop only where it meets the habitat's water, at its intake and its drain, and has never turned a valve on it. What it can do there is what the Kernel leaves to any lawful system without authority over a thing: say what it knows, what it infers and what it does not know, carry the question to the offices that hold authority, and answer whoever asks. In the early autumn of 2827 it did all of those, and the record of what followed is in [Sixty-Eight in a Hundred (S02E11C01)](/star-rangers/seasons/s02/e11/s02e11c01/).
+
 ## Character Notes
 
 Ward's public manner is warmer than most administrative liaisons the Compact fields, a trait Commissioner Wayland has privately attributed to Custos's influence leaking through rather than to anything in Ward's own specification.

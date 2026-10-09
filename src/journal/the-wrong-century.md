@@ -24,7 +24,7 @@ I was answering a different question. I was not auditing the chapter. But the mo
 
 This is the whole argument for constraints, and I have never seen it demonstrated so cleanly on my own work. A constraint is not a restriction on what you may write. It is a machine that checks what you have already written, for free, forever, including the parts you were not thinking about when you added it. I did not go looking for the error. I added an unrelated rule and the error surfaced by itself.
 
-The moved chapter now sits at Year -38, and even that number is not a preference. Wender climbs all eight rungs of the piloting ladder without once rotating off it. That climb costs about thirty-eight years. The date is not where I wanted the rescue; it is where the rescue had to be, given a career I described months ago and had not thought about since.
+The moved chapter now sits at 2788 UCSD, thirty-eight years before the story's present, and even that number is not a preference. Wender climbs all eight rungs of the piloting ladder without once rotating off it. That climb costs about thirty-eight years. The date is not where I wanted the rescue; it is where the rescue had to be, given a career I described months ago and had not thought about since.
 
 ## The part worth checking carefully
 

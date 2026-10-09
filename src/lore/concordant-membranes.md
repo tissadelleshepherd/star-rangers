@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "Concordant Membranes and Intermembrane Bleed"
 category: "Cosmology"
 tags: [intermembrane-bleed, membrane-resonance, etheric, post-11-manifold, common-manifold, interval, compact-dimensions, concordant, boundary-zone, threshold-station]
-description: "The cosmic-membrane model underlying inter-universe Etheric effects: each primary universe as a bounded membrane in the Common Manifold, the Interval that separates them, and what happens when two draw close enough to interfere."
+description: "The cosmic-membrane model underlying inter-universe Etheric effects: each coherent universe as a bounded membrane in the Common Manifold, the Interval that separates them, and what happens when two draw close enough to interfere."
 image: "concordant-membranes.jpg"
 image_alt: "A deep-space scene in blue and violet: one small brilliant white point of light near the centre, ringed by a faint halo, with luminous filaments streaming past it and heavy purple cloud filling the lower half of the frame."
 ---
@@ -12,7 +12,7 @@ Survey Corps analysts spent decades calling it "Etheric interference" and filing
 
 ## The Membrane Model
 
-The [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the post-11 manifold, in Survey Corps shorthand — describes higher-order spacelike and timelike regimes beyond any universe's own dimensional floor: structure that governs cross-[Concordant](/star-rangers/glossary/concordant/) coherence, causality buffering, and fold survivability.
+The [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the post-11 manifold, in Survey Corps shorthand — describes higher-order spacelike and timelike regimes beyond any universe's own dimensional floor: structure that governs cross-membrane coherence, causality buffering, and fold survivability.
 
 Within that manifold, each **coherent universe** occupies its own bounded **cosmic membrane** (**membrane** for short — the word "brane" in older Survey Corps literature is the same term, since shortened out of use for being too easily misheard as "brain" over a comm channel): the whole vessel, with its physics-plus-Etheric envelope.
 
@@ -43,7 +43,7 @@ Two consequences are worth stating, because both get assumed the other way round
 
 **None of which the Archive can confirm.** [Concordant](/star-rangers/glossary/concordant/) declines to answer how many zones a universe holds and gives the reason plainly: a handful of unbounded zones and endlessly many merely vast ones look identical from anywhere inside either, since one zone already exceeds everything an observer can see. That has not changed and is not weakened by anything above. The tiling is the **design account**, filed as such — it comes from the strata that author membranes, not from anyone who has stood at an edge, and no survey now or later is shaped to check it. It is a jigsaw no one has ever seen a single edge of, described by the only parties in a position to have seen the whole picture.
 
-Everything graded by the Boundary-State Classes below belongs to the **second** row. There is no Interval inside a universe, so a zone edge cannot produce a bleed event however sharply the two rule-sets differ.
+Everything graded by the Boundary Types below belongs to the **second** row. There is no Interval inside a universe, so a zone edge cannot produce a bleed event however sharply the two rule-sets differ.
 
 What separates one membrane from the next is the **[Interval](/star-rangers/glossary/interval/)** — manifold separation, measured across the Common Manifold rather than through either universe's own space. The Interval is not a place and not a medium anything travels through under its own power; no ship has ever been in it, and no being is native to it. It is the distance term in every inter-membrane measurement Survey Corps takes, and its only operationally interesting property is that it varies. Under a wide Interval, one universe's [Etheric](/star-rangers/glossary/etheric/) archetypal templates have no measurable reach into its neighbour. The two membranes are real, adjacent, and functionally inert to each other.
 
@@ -53,7 +53,7 @@ An **inter-membrane boundary zone** is where the Interval narrows. (See [Boundar
 
 **The Interval varies across a membrane, not only between one membrane and the next — and that is what gives a boundary zone an address.** A membrane is not a flat sheet held at uniform separation from its neighbours; it has higher-dimensional shape. Where that shape carries one patch of a membrane toward its neighbour, the Interval narrows over that patch alone, while the rest of both membranes remain adjacent and functionally inert to each other. Survey Corps calls such a bend a **flexure**.
 
-**A flexure is not a fold, and the two words are not interchangeable.** [Higher-dimensional folding](/star-rangers/lore/universe-overlap-and-folding/) is a transit operation: engineered, scaffolded, transient, and performed *inside* a single Concordant, in its thousands — which is what makes fold routes ordinary infrastructure with staging protocols and schedules. A flexure is a standing property of a membrane's own geometry. Nobody builds one, nobody collapses one, and nothing travels along one. Conflating the terms invites the two conclusions the record most firmly excludes: that a boundary zone could be manufactured, and that one could be flown to.
+**A flexure is not a fold, and the two words are not interchangeable.** [Higher-dimensional folding](/star-rangers/lore/universe-overlap-and-folding/) is a transit operation: engineered, scaffolded, transient, and performed in its thousands — overwhelmingly inside a single Concordant, which is what makes fold routes ordinary infrastructure with staging protocols and schedules, plus the rare [certified route between membranes](/star-rangers/lore/ftl-mechanics/) by which a neighbouring universe gets surveyed. A flexure is a standing property of a membrane's own geometry. Nobody builds one, nobody collapses one, and nothing travels along one. Conflating the terms invites the two conclusions the record most firmly excludes: that a boundary zone could be manufactured, and that one could be flown to.
 
 The extended spacelike lattice is doing visible work here. Dimensions 12–15 distribute the resulting geometric strain and prevent *local* metric tearing, and **local** is the operative word: the strain has somewhere to be. Without that, the model would predict something the record flatly contradicts — a narrowing would narrow everywhere at once, and every instrument in a universe would drift together, instead of one station's chronometers disagreeing by forty-two seconds while the rest of its system keeps ordinary time.
 
@@ -69,13 +69,13 @@ Survey Corps extends that same structure, one band higher, to the *Etheric* half
 
 One distinction has to be kept straight here, because the shared word "Etheric" hides it. A universe's templates have geometric extent at home through its own [compact dimensions](/star-rangers/glossary/compact-dimensions/) — part of its local dimensional floor, inside its own membrane, no Interval involved. The trans-concordant constraint field is a different band doing a different job: it is what carries templates *across* the Interval to a neighbour. Local extent and cross-membrane reach are two scopes of one layer, not one mechanism described twice, and an analyst who conflates them will look for a bleed signature in the wrong band.
 
-Survey Corps now names this coupling **[Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/)**, graded against the same Boundary-State Classes already used for the physical drift:
+Survey Corps now names this coupling **[Intermembrane Bleed](/star-rangers/glossary/intermembrane-bleed/)**, graded against the same Boundary Types already used for the physical drift:
 
-| Boundary-State Class | Physical signature | Etheric signature |
+| Boundary Type | Physical signature | Etheric signature |
 |---|---|---|
-| Class I — Stable Gradient | Low-amplitude drift, predictable correction | Undetectable |
-| Class II — Oscillatory Interface | Periodic chronometry divergence | **Membrane Resonance** — detectable, non-displacing |
-| Class III — Shear Event | Rapid discontinuity growth | **Intermembrane Bleed** — neighbouring templates compete for local admissibility |
+| Type I — Stable Gradient | Low-amplitude drift, predictable correction | Undetectable |
+| Type II — Oscillatory Interface | Periodic chronometry divergence | **Membrane Resonance** — detectable, non-displacing |
+| Type III — Shear Event | Rapid discontinuity growth | **Intermembrane Bleed** — neighbouring templates compete for local admissibility |
 
 Neither signature causes the other. They are two observables of the same membrane-proximity event, measured through different dimensional bands of the same manifold.
 
@@ -94,13 +94,13 @@ A membrane-proximity event does not resolve by recalibrating instruments on one 
 - No amount of Physical-layer recalibration resolves an Etheric-signature event. Etheric-layer certification exists specifically to read and respond to Membrane Resonance before it develops into Intermembrane Bleed.
 - The Physical-signature column above is not always the diffuse "rapid discontinuity growth" of an ordinary Shear Event. When the far-side mass is concentrated and coherent — a living being, most often — the same strain-distribution mechanism can resolve into a [Membrane Shadow](/star-rangers/lore/membrane-shadows/): a structured, person- or creature-shaped gravitational imprint, seen but never crossed.
 
-## Beyond Class III: Transient Gravity Tunnels
+## Beyond Type III: Transient Gravity Tunnels
 
-An ordinary Class III Shear Event resolves as either Intermembrane Bleed (Etheric templates competing for local admissibility) or, where the far-side mass is coherent enough, a Membrane Shadow — a gravitational imprint, with nothing physical crossing either way. Survey Corps has documented a third, far rarer outcome at the same Class III extreme: the same strain-distribution mechanism, instead of only bending light or contesting templates, briefly opens a genuine through-conduit between the two membranes — a **transient gravity tunnel**.
+An ordinary Type III Shear Event resolves as either Intermembrane Bleed (Etheric templates competing for local admissibility) or, where the far-side mass is coherent enough, a Membrane Shadow — a gravitational imprint, with nothing physical crossing either way. Survey Corps has documented a third, far rarer outcome at the same Type III extreme: the same strain-distribution mechanism, instead of only bending light or contesting templates, briefly opens a genuine through-conduit between the two membranes — a **transient gravity tunnel**.
 
 A transient gravity tunnel is not engineered, not Lagrange-anchored, and not stable enough to hold open on purpose. It forms and collapses on its own schedule, lasts seconds to minutes at most, and — in every documented case — closes with no warning Survey Corps instrumentation has ever caught early enough to act on. It should never be described as a "natural fold route" the way [Eden Space Habitat's](/star-rangers/lore/eden-space-habitat/) is: Eden's route is stable enough to schedule transit through, and a transient gravity tunnel is not stable enough to schedule anything. No confirmed account exists of a transit caught mid-tunnel at collapse resolving safely on either end.
 
-Two documented cases exist, at opposite ends of how predictable the underlying strain-distribution is: [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/), where the tunnel recurs on a rhythm regular enough to correlate with Tír na nÓg's own Conjunction, and [Sí Gaoithe](/star-rangers/lore/universes/si-gaoithe/), where it does not correlate with anything Survey Corps has measured yet.
+Two documented cases exist, at opposite ends of how predictable the underlying strain-distribution is: [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/), where the tunnel recurs on a rhythm regular enough to correlate with [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/)'s own Conjunction, and [Sí Gaoithe](/star-rangers/lore/universes/si-gaoithe/), where it does not correlate with anything Survey Corps has measured yet.
 
 ## What Crosses the Interval, and Why
 
@@ -114,7 +114,7 @@ Three phenomena above cross a gap that nothing physical crosses, and they are no
 | **16–19** — extended timelike channels | causal timing | timebase disagreement between overlapping frames |
 | **20+** — trans-concordant constraint field | Etheric archetypal templates | Membrane Resonance, Intermembrane Bleed |
 
-Everything else is membrane-confined. Matter, ships, beings, and the other force-domains — **electromagnetics, Nature** — have no band and therefore no reach: they stop at their own membrane and always have. This is why "nothing crosses the gap" and "the far side's mass is measurable here" are both true statements about the same event, and not a contradiction.
+Everything else is membrane-confined. Matter, ships, beings, and the other force-domains — **electromagnetics, Nature** — have no band and therefore no reach across a standing Interval: nothing of them leaks, registers, or competes on the far side of a gap that remains a gap. This is why "nothing crosses the gap" and "the far side's mass is measurable here" are both true statements about the same event, and not a contradiction. It is also why a [certified fold route](/star-rangers/lore/ftl-mechanics/) into a neighbouring membrane breaks no part of the rule: a fold compresses the separation to adjacency, is crossed at contact, and is released, so the transit happens where there is briefly no gap to have reach across. Reach is what a band carries over a separation that stays; a fold is the formcluster's licence to make the separation briefly not stay. Matter has the second and will never have the first.
 
 Instruments are not the 20+ band's only detectors. A mind carries lawful Etheric coupling, and what a dreaming mind near a narrowed Interval can register of a neighbour's bled templates — and under what conditions it can *read* them — is filed at [Dreams Across the Interval](/star-rangers/lore/dreams-across-the-interval/).
 

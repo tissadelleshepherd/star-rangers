@@ -164,7 +164,7 @@ Rangers' own unwillingness to close the file — or all three, compounding.
 
 ## Season 7 — "Naming the Line" (working title)
 
-**A. Doctrine as the actual weapon.** Ranger counter-doctrine against Court-Fae and Gilded
+**A. Doctrine as the actual weapon.** Ranger counter-doctrine against Obligers and Gilded
 Saints is explicit and already canon: *name what you know, discharge the debt, recognize the
 closure-prevention pattern, accept that enough is enough*
 (`predatory-entities.md`). The season's climax is not a fight. It's Wender, Syra, and
@@ -946,3 +946,273 @@ has any authority to stop either one.
    option and nothing above requires it.
 3. **Whether Órla knows** the expulsion followed from being helped, and whether
    Tissadelle would ever let her find out.
+
+---
+
+## The inner world's architecture (Dermot, 27 August 2026 — direction, all readings confirmed)
+
+Direction verbatim and canon survey in `intake-2026-08-27.md`: Tissadelle's
+inner world is structured like a high fantasy RPG; Tobble's deeper internal
+subsystem is much more disciplined and scientific. All four readings confirmed
+the same day (the typo; the in-life inner world, not the S6 interior;
+architecture, not scenery; depth, not rank). Realized as "The inner world" on
+the character page — spoiler-guarded there (no IWD, no noögenics, no Dock
+Seven); this section carries the arc-side half.
+
+What it gives this arc:
+
+- **It explains the preserver.** The protouniverse-centred-on-Tobble direction
+  (28 July, above) always needed Tobble to be the member "with structure to
+  spend" at the moment of collapse. The disciplined, scientific subsystem is
+  that structure, named: preservation onto the lost vessel's archival stores
+  is his own idiom — kept records, checked procedure — doing under fire what
+  it had always done quietly. `s05e02c03`'s *"Do the arithmetic again"* and
+  *"Hold still"* are the subsystem speaking, and the chapter wrote it before
+  the direction named it.
+- **It sharpens the partial preservation.** What Shepherd wakes into — the
+  holding, the made Órla, the made Wender — is pastoral, and it is canonically
+  a *fragment* ("only part of it was preserved", `s06e01c01`). The direction
+  confirms the fragment is not representative of the whole: the interior the
+  system held in life was RPG-structured, and the saved part is the part that
+  reads as memory rather than architecture. The cognitive-horror premise
+  stays "not fantasy content" per the standing note above — nothing here
+  licenses redecorating the S6 chapters.
+- ~~**The fate of the RPG-structured layer at Dock Seven is deliberately
+  open**~~ — **ruled by Dermot, 27 August 2026: a pure fantasy world-system
+  would not survive the transition; most of the magical fantasy elements
+  lost or downgraded** (verbatim and full reading in `intake-2026-08-27.md`,
+  second direction). So: **lost or downgraded, not held** — the card-not-
+  played option is off the table, and the grief reading is the ruled one.
+  The mechanism comes free from what the chapters already bind: the
+  transference went through Tobble's disciplined subsystem onto *archival*
+  stores, and an archive carries enacted things — magic done, quests lived,
+  rules that hold because they are played — only as their own record: the
+  map, not the territory; the rulebook, not the game; a named thing that no
+  longer does anything. That is "downgraded", mechanically, and it is why
+  the preserved interior reads as pastoral memory: the S6 chapters were
+  showing the downgrade before it was named. "Pure" is load-bearing in the
+  ruling — a *pure* fantasy system would have crossed not at all, because
+  nothing in it could have done the preserving; the disciplined subsystem
+  made the rescue possible at the price of carrying only what its idiom can
+  hold. The rescue and the loss have the same cause. **For S7: grief
+  material with its mechanism settled** — hers, and Tobble's (the archivist
+  who saved too little; his "not holding anything" material in `s05e02c03`
+  is the seed). How the downgrade is shown on the page is deliberately
+  unwritten until its chapters.
+- **IWD, grounded.** The RPG structure is what "self-model multiplicity" and
+  "layered intention" (`inner-world-depth-iwd.md`) look like from inside for
+  this system — a concrete reason this mind in particular carried the
+  noöseed viability the arc turns on. The standing rule is untouched: high
+  IWD is a consequence, not a purpose. Tobble is a person, not an upgrade —
+  and now, specifically, a person whose own idiom is the registry beneath
+  the romance.
+
+### The redacted book (Dermot, 27 August 2026 — third direction, same intake)
+
+Tobble's half of the grief residue is answered (verbatim and full canon check
+in `intake-2026-08-27.md`, third direction): he **could** have cultivated a
+new tulpa to represent the lost fantasy world, judged it would be "a museum
+or ghost of the original", and instead made a **redacted book — an internal
+codex** of the lost world, some scenes glossed over for modesty.
+
+What this gives the arc:
+
+- **The grief has an object, and S7 prose has a prop.** A book can be opened
+  on the page; a glossed passage shows the loss and the modesty in one
+  gesture without depicting either. This is the answer to "how is the
+  downgrade shown": you show the book being what it is — an account, not a
+  world.
+- **The refusal is the deeper beat.** A tulpa is a person
+  (`plural-minds.md`), so the museum would have been a *person made to be a
+  monument* — the refusal is personhood ethics in Tobble's idiom, rhyming
+  with the Borrowed Silhouette's unoccupiable category and with Marked
+  Absences (a redaction is a marked gap; a reconstruction is an explained
+  one). The book is the downgrade admitted; the tulpa would have been the
+  downgrade denied.
+- **Still open, deliberately**: her half (does Tissadelle read it; does she
+  ask what the glosses cover — a scene where she does not ask may be worth
+  more than one where she does); whether the book has a title; what a
+  glossed page looks like in prose. The modesty reading (propriety, and/or
+  Tobble's self-effacement — his "not holding anything" register) is
+  flagged for confirmation in the intake.
+
+### The terminus register (Dermot, 27 August 2026 — fourth direction, same intake)
+
+Direction verbatim and full canon check in `intake-2026-08-27.md`: **her final
+moments carry almost no grief — only fond farewell to Tobble and the other
+surviving headmates.** The published chapters stop short of the terminus
+(`s07e01c03` ends on "a woman still becoming"), so this rules unwritten
+ground, and it rules the *register*, not the mechanism — death, dissolution
+and completed Phase 7 transference all remain compatible with "final moments
+as herself", and the treatment's Tobble-centred protouniverse answer stands.
+
+What it settles and opens for the terminus chapters:
+
+- **The farewell scene has its emotional key**: fondness, "almost" doing
+  real work (not zero grief, and not the closing note). It is the
+  counter-doctrine's "enough is enough" and the Mnemari relinquishment
+  custom at the scale of a life — a true ending taken cleanly, which is the
+  *opposite* of the false-homecoming mercy `s07e01c02` disciplines her
+  against, not an instance of it.
+- **The grief distribution is complete, and none of it is hers**: the
+  author's (second direction), Tobble's book (third), the survivors', the
+  reader's. She does not spend her last moments on it — the same economy
+  she has run all her life.
+- **The system's other members step on-page**: "the other surviving
+  headmates", plural, present at the farewell — the character page's "more
+  people in it than the form has boxes for" promoted from implication to
+  participants. Unnamed still; how many, who, and where seated is newly
+  open, as is the grave question "surviving" implies: whether members were
+  lost — and whether the lost were seated in the fantasy layer, which would
+  extend "lost or downgraded" to persons. Flagged for confirmation in the
+  intake before anything builds on it.
+- **"Headmates" keeps the persons/constructs boundary**: the farewell is
+  addressed to members, not to the made Órla and made Wender — whatever
+  else the scene does with memory's figures.
+
+**The closing line is authored (Dermot, 27 August 2026 — fifth direction,
+same intake), verbatim and not to be paraphrased:**
+
+> *"Happy New Universe, Tobble dear."*
+
+Tissadelle, inward, to Tobble, in her final moments — the terminus scene's
+capstone and, on the natural reading, her last words. It fixes the terminus
+against the protouniverse's founding (her ending and his beginning as one
+moment, named from the celebratory side), realizes the almost-no-grief
+ruling in a single sentence — a greeting, not a goodbye: she addresses the
+one who stays and puts herself on the other side of the doorway without
+comment — and answers the system's own oldest habit: Tobble's first words
+in the preserved interior were *"Good morning"*, said to nobody who could
+hear it yet. Thresholds get greetings in this system. Build the scene to
+earn this line; do not build the line.
+
+---
+
+## The shadow at the edge (Dermot, 5 September 2026 — direction, drafted same day)
+
+Direction verbatim and canon check in `intake-2026-09-05.md`: *a lingering
+shadow tries to invade Tobble's noögenic universe by assuming Tissadelle's
+appearance and form, but behaves in a way the real Tissadelle never would
+have.* Drafted the same session as `scene-draft-youre-up-early.md` (Tobble
+and Wender POVs, unpublished, slot unfixed — it sits after the terminus and
+cannot publish before it).
+
+What it gives this arc, and what it does not touch:
+
+- **The record already had the shadow.** The Noögenic Seeding System's third
+  operational constraint — *failed compression events may produce nonviable
+  shadow-seeds* — has been on the page since the system was written, and
+  Dock Seven was the one compression in the corpus that produced something
+  viable only in part. The draft files the thing as consistent with a
+  shadow-seed of that event and claims no more; the three readings of what
+  it is (shadow-seed; an Unfounded pattern that found the founding; the
+  unpreserved remainder arriving in her shape) stay open in the intake.
+- **It is the museum-or-ghost, arriving from outside.** Tobble declined to
+  make a tulpa of the lost world because it would be a person made to be a
+  monument. What comes to the edge is what that refusal foresaw, and it is
+  not a person at all — which is the point the draft lets the reader find:
+  the counterfeit of a lost thing is still a counterfeit, and the book was
+  the honest choice for the reason it was made.
+- **The counter is the arc's own, one last time.** Shown-not-healed against
+  the false homecoming (*I came home*); the debt named in full so nothing
+  can feed on it (he says he wanted her back, plainly, as the discharge);
+  enough is enough; and, on the station side, the file staying closed
+  because the woman never once asked anyone for anything. The ethic that
+  nobody decides what her story meant is tested against something claiming
+  to be her and telling him what it meant — *you did all this for me* — and
+  holds.
+- **Her page supplies every tell.** The draft's shadow speaks the negative
+  of the character page's declining, line by line, and the intake lists the
+  pairs. The costume tells rest on two rulings: the dress is under a gloss
+  (27 August, propriety), and rank never goes on the garment (4 September,
+  *Reading Rank at a Glance*).
+- **The members.** The other surviving headmates are present and marked,
+  not named — they kept indoors, having read the edge before he had — so
+  the names-and-count question stays as open as the terminus left it. The
+  made Órla does not come out for the shadow; the draft notes beside it
+  that memory is not a witness.
+- **Guardrails carried over.** Not a fight: nothing to fight, nobody home.
+  Not the joke: *there's my cat* is a tell, not a gag, and the deadpan
+  holds. Tone: the record does not describe either costume beyond the
+  finding, and the thing at the edge is unsettling by being fluent and off
+  by one, never by menace.
+
+**The scene was approved by Dermot the same day** ("The scene is
+approved"), both scenes on the inverted-titles rewrite, so the coda stays
+and the *Empress* meaning is stated on the page. Open, in
+`open-questions.md`: what the shadow is (the draft holds all three
+shapes); whether it ever leaves; and the slot, which waits on the
+terminus.
+
+### The formation stage, and the Empress (Dermot, 5 September 2026 — second and third directions, same intake)
+
+Verbatim and canon checks in `intake-2026-09-05.md`. The first is general
+and went to the glossary (`noogenic-protouniverse.md`, *Formation*):
+protouniverses are most vulnerable while forming, and the forming stage
+resembles a medieval fantasy world because a universe built from an
+interior is ordered by roles before law — a court before a code — and a
+title there is a claim to a seat. For this arc it is a rhyme with a cost:
+the questing layer was lost or downgraded, and the young ground past the
+holding looks like it anyway, in shape and not in magic. The draft has
+Tobble file the resemblance under structure and find it hard to look at.
+
+The second is hers: the shadow claims to be *Empress*, and the word means
+something else in her private inner world. ~~Drafted on the empty-seat
+reading; two other shapes in the intake.~~ **Ruled the same day (fourth
+direction): titles were inverted in her secret world.** The grandest names
+went to the smallest jobs and the top office had the plainest name, so
+*Empress* was the bottom rung — the errand rank, held by everyone once on
+arrival and wanted by nobody. The shadow claims the top of every court the
+young ground resembles and the bottom of the one it was made from, in one
+word; Tobble answers in the world's own grammar — *then you would be the
+least of us* — and the ground stops leaning. The top office's name is a
+marked absence; why she ran the titles backwards is his suspicion,
+unfiled. The beat is added to the draft's tells, not substituted for them:
+"partly" is honoured.
+
+## The siege below the questing layer (Dermot, 23 September 2026 — direction, ruled same day)
+
+Verbatim in `intake-2026-09-23.md`, last section. **Planning canon, held off
+the page** like the Aoife identification above: nothing here goes into
+`src/` until the seasons reach it.
+
+**What happens.** From the fall into the overfold at Dock Seven (2831 UCSD,
+Mid-Autumn) until the founding, Unfounded counterfeits besiege her inner
+world. They arrive separately, like scavengers at the same wound, and never
+coordinate, because the class cannot. One of them wears Tissadelle's own
+shape. The siege runs in **Tobble's subsystem, deeper than the questing
+layer** (ruling 2a). The published S6–7 chapters are her view from the
+layer above, where *"the danger was inside, and it was gentle"*. So the
+siege adds to what they show without contradicting it: each viewpoint
+withholds what the others supply, and nothing reaches into her layer.
+
+**How it ends.** *Regaining control* is the founder's refusal, the
+mechanism the protouniverse glossary already holds: *"a claim to a title is
+a structural act"*, and *"a claim the founder declines has nothing to seat
+itself in."* The counterfeit wearing her face is a claim to be her. Tobble
+declines it, and it has nothing to seat in. It is starved, not destroyed,
+because the Unfounded cannot be destroyed. At and after the founding, the
+Telearch avatar that the young universe understands as Saint Aoife
+ministers to its new Harmonarchs until a Universal Authority stabilises. The
+avatar helps the stabilising and does not rescue: an avatar has *"limited
+power"*, and nothing reaches in.
+
+**Two things wear her face, and they are different (ruling 1a).** The
+Unfounded counterfeit of the siege is a pattern founded by nothing. The
+shadow at the edge after the founding stays as ruled on 6 September: a
+nonviable shadow-seed of the Dock Seven compression, her own remainder and
+not a counterfeit. Tobble's in-scene *"consistent with"* filing is what
+lets a reader wonder whether they are one thing, and the record never says.
+
+**Bounds kept.**
+- The event is *the overfold*, per ruling 2 above. *Common manifold* was the
+  direction's shorthand, and the Manifold is not a place anyone falls into.
+- There is no protouniverse during the stall. It begins at completed
+  transference. What the siege besieges is her inner world, carried in his
+  layer; formation-stage vulnerability applies only after the founding.
+- Tone: unsettling, never horror. Her face on a thing that is not her is the
+  dark fact, and it is hinted, not depicted.
+- Plural terms: headmates are persons, and Tobble is not a vessel. A
+  counterfeit wearing a member's shape is not a member.
+
+**Open:** see `open-questions.md`, the section of the same name.

@@ -29,6 +29,8 @@ Options -Indexes
 # wherever it is available. Paths are root-relative because cpanel-deploy.sh
 # strips the /star-rangers/ prefix from the built output before rsync.
 Redirect 301 /lore/solar-system-concordant/ /lore/solar-system-concord/
+Redirect 301 /codex/the-false-dragon/ /codex/the-borrowed-silhouette/
+Redirect 301 /glossary/court-fae/ /glossary/obligers/
 
 # GitHub-Pages-shaped URLs. On github.io this site lives under /star-rangers/,
 # so links copied from there (or old bookmarks) carry the prefix; the cPanel

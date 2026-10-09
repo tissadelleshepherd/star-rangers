@@ -4,7 +4,7 @@ title: "Survey Corps Boundary Monitoring Protocol — Threshold Class Stations"
 category: "Official Documents"
 library: "Earth Institutional Archives"
 tags: [survey-corps, protocol, boundary, threshold-station, official]
-description: "The official Survey Corps protocol for boundary monitoring at Threshold-class stations. Issued Year -15."
+description: "The official Survey Corps protocol for boundary monitoring at Threshold-class stations. Issued 2811 UCSD."
 author: "Chief Surveyor Wren Ansell"
 institution: "Survey Corps — Star Rangers"
 location: "Survey Corps Standards Office, Earth (master copy); mirrored to every Threshold-class station by courier update"
@@ -16,7 +16,7 @@ image_alt: "Designed cover for the Survey Corps Boundary Monitoring Protocol: a 
 **BOUNDARY MONITORING PROTOCOL**
 **CLASS: THRESHOLD STATIONS**
 **Issuing Officer:** Chief Surveyor Wren Ansell, Survey Corps Standards Office
-**Issued:** Year -15
+**Issued:** 2811 UCSD
 **Current version:** 2.3
 
 ---
@@ -34,7 +34,7 @@ Its purpose is to:
 
 Each Threshold-class station must maintain at least two independently calibrated chronometers. Any discrepancy greater than one second between those chronometers is to be logged as an instrument anomaly and investigated.
 
-*[Note in margin, handwriting, unsigned: "The two-chronometer requirement was added in Year -17 after an incident at Station Kelvar where a 3-minute discrepancy went undetected for six months. The requirement has never been followed up with any guidance on what to do when the discrepancy does not resolve on recalibration."]*
+*[Note in margin, handwriting, unsigned: "The two-chronometer requirement was added in 2809 UCSD after an incident at Station Kelvar where a 3-minute discrepancy went undetected for six months. The requirement has never been followed up with any guidance on what to do when the discrepancy does not resolve on recalibration."]*
 
 ## Section 3 — Reporting
 

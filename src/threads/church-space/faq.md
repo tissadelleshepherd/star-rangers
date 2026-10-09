@@ -32,7 +32,7 @@ threadId: church-space
   I'd rather dramatize it than adjudicate it for the reader.
 </p>
 
-<h2>Doesn't marking the whole thread <code>private: true</code>, hidden from every build except church-space.site/.online, mean even you don't think it belongs in the same story?</h2>
+<h2>Doesn't gating the whole thread to the contemplative tier, absent from every edition below it, mean even you don't think it belongs in the same story?</h2>
 <p>
   It means I don't think it belongs in front of every reader by default, which isn't the same
   claim. A reader who came for space-opera procedural drama didn't sign up for an evangelical
@@ -68,7 +68,7 @@ threadId: church-space
   reader who wandered in. I wrote it because I wanted a version of this universe that spoke
   directly to readers who already hold the tradition the Communion of the Called describes,
   without making the main canon carry that weight for everyone else. If that's still a
-  bait-and-switch for someone who finds it anyway, the private flag is the actual answer, not
+  bait-and-switch for someone who finds it anyway, the tier gate is the actual answer, not
   an argument I can win in an FAQ.
 </p>
 

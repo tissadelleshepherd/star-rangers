@@ -20,34 +20,38 @@ permalink: /seasons/s03/
 <p class="page-intro">
   A quiet season on purpose: archives, verification, and the long discipline of being right slowly. The stakes are the records themselves — what gets filed, what gets read, and who decides the difference. New readers can begin at Season 1; returning ones will recognise every habit Threshold taught her being put to work.
 </p>
+<p class="page-intro">
+  Episode 2 brings her back to Threshold on general operations, where a transit window is hers to state and the Chief Pilot is in the room more often than the rooms require, and then, a Chief Ranger, through the fold to Counterpane, where every instrument asked one question answers as it does at home and the one difference is a thing no ear can hear.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (3 | threadForSeason).id }}/">{{ (3 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "3" %}
+{% include "season-portraits.njk" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
 {% for chapter in collections.chapters %}
-  {% if (chapter.data.season ~ "") == seasonNumber %}
-    {% if not hasSeasonChapters %}{% set hasSeasonChapters = true %}{% endif %}
-    {% set episodeValue = chapter.data.episode ~ "" %}
-    {% if episodeValue != currentEpisode %}
-      {% if currentEpisode %}</ul></div>{% endif %}
-      {% set currentEpisode = episodeValue %}
+  {%- if (chapter.data.season ~ "") == seasonNumber -%}
+    {%- if not hasSeasonChapters %}{% set hasSeasonChapters = true %}{% endif -%}
+    {%- set episodeValue = chapter.data.episode ~ "" -%}
+    {%- if episodeValue != currentEpisode -%}
+      {%- if currentEpisode %}</ul></div>{% endif -%}
+      {%- set currentEpisode = episodeValue -%}
       <div class="season-block">
         <h2 class="season-block__title">
           <a href="/star-rangers/seasons/s03/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
-    {% endif %}
+    {%- endif -%}
           <li class="chapter-list__item">
             <a href="/star-rangers{{ chapter.url }}">
               <span class="chapter-list__code">{{ chapter.data.id | upper }}</span>
               <span class="chapter-list__title">{{ chapter.data.title }}</span>
-              {% if chapter.data.location %}
+              {%- if chapter.data.location -%}
               <span class="chapter-list__loc">{{ chapter.data.location }}</span>
-              {% endif %}
+              {%- endif -%}
             </a>
           </li>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 {% if hasSeasonChapters %}
   </ul></div>

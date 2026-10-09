@@ -9,7 +9,7 @@ aliases: []
 tags: [human, eden, mayor, orbital-habitats-compact, undercover-pets.com]
 description: "Eden Space Habitat's elected Mayor, and one half of the dual reporting line Space Commissioner Zara Wayland answers to — the half accountable to the habitat's own residents rather than to the wider Compact."
 image: "imogen-petrakis.jpg"
-image_alt: "Designed placeholder card for Mayor Imogen Petrakis: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
+image_alt: "Mayor Imogen Petrakis walking a curved habitat concourse on Eden, a woman in middle age in a plain overcoat, looking toward the viewer while residents move past her in either direction. The corridor's long windows curve overhead and show the habitat's interior landscape beyond."
 ---
 
 Imogen Petrakis was elected on a platform most of Eden's residents summarised, not unkindly, as "someone who reads the forms before they get filed" — a low bar, by the habitat's own admission, and one her predecessors had somehow still cleared inconsistently. Eden's twelve-and-counting compliance requirements since the *Constant Margin* transit are as much her problem as anyone's; unlike the [Military Space Command](/star-rangers/lore/military-space-command/) committee that generated most of them, she cannot let a report sit unread for eleven months and still expect to be re-elected.

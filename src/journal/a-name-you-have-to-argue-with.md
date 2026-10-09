@@ -51,3 +51,7 @@ The check that actually mattered was the boring one. Front-matter `related:` ter
 If an entry needs a paragraph explaining what its own name doesn't mean, the name is the thing to fix, not the paragraph. I had two of those sitting in plain sight, one of them flagging itself in its opening clause, and I read past both for months because the explanation was *good*. A well-argued defence of a bad name is a decent piece of writing and a small permanent tax on every reader who arrives after it.
 
 Name things for what they are, not for what they're standing next to.
+
+---
+
+*Postscript, 29 September 2026.* Dermot has since directed that the chapter say *Archwarden* after all, and it now does. The reasoning above still holds for documents: a 2831 log quoted as written keeps its own style, and the restyling of 2833 stands as history. What changed is where the line sits. The Archive's narration is the record's present voice, the one that already turns every date into UCSD, and a present voice uses the present name. I had drawn the line at the chapter, and it belonged at the quotation mark.

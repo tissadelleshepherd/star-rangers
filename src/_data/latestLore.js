@@ -17,7 +17,7 @@ function findMarkdownFiles(dir) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       results = results.concat(findMarkdownFiles(fullPath));
-    } else if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "index.md") {
+    } else if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "index.md" && entry.name !== "README.md") {
       results.push(fullPath);
     }
   }

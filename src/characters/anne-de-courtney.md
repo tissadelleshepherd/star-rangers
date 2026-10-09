@@ -3,12 +3,14 @@ layout: character.njk
 title: "Anne de Courtney"
 id: anne-de-courtney
 species: Human
-role: "Chief Ranger, Survey Corps — head of the standing delegation, Vellamar (Kingdom of the Four Islands)"
+role: "Chief Ranger, Survey Corps — head of the standing delegation, Vellamar (Kingdom of the Five Islands)"
 status: Active
 aliases:
   - "de Courtney"
-tags: [human, star-rangers, survey-corps, four-islands, vellamar, chief-ranger, first-contact, standing-delegation]
-description: "Chief Ranger heading the Survey Corps' one standing delegation in the Kingdom of the Four Islands — the officer whose entire method is not asking the court for the second thing before the first one is understood."
+tags: [human, star-rangers, survey-corps, five-islands, vellamar, chief-ranger, first-contact, standing-delegation]
+description: "Chief Ranger heading the Survey Corps' one standing delegation in the Kingdom of the Five Islands — the officer whose entire method is not asking the court for the second thing before the first one is understood."
+image: "anne-de-courtney.jpg"
+image_alt: "Anne de Courtney, a woman in her fifties with grey hair and a dark blue scarf, standing inside a plain cool stone room and looking out through an open doorway at a harbour town of tiled roofs and terraced hills in warm afternoon light. She has not stepped toward it."
 ---
 
 The Kingdom granted the Survey Corps a single standing delegation on Vellamar and nothing else. Anne de Courtney has spent her tenure making sure that stays exactly what it is, which has required declining considerably more from her own side of the table than from the Kingdom's.
@@ -17,7 +19,7 @@ She holds the delegation as a Chief Ranger — a general operational section, in
 
 ## Known History
 
-- Certified through the Survey Corps' ordinary ladder and posted to boundary-adjacent survey work before the Four Islands assignment, which is her first standing delegation and her first posting on an inhabited world with a government of its own.
+- Certified through the Survey Corps' ordinary ladder and posted to boundary-adjacent survey work before the Five Islands assignment, which is her first standing delegation and her first posting on an inhabited world with a government of its own.
 - Took the delegation on its establishment and has held it since, through the whole of the translation effort and none of the diplomatic progress that would ordinarily be expected to accompany it.
 - Has forwarded no request for expanded access to the court: not a second delegation site on Aduine, not sampling rights on the terraces, not instrument placement on the caldera rim, all of which have been proposed to her from the Solar System side and none of which the Kingdom has refused, because none of them has been put.
 - Keeps the charter's withdrawal clause — that Rangers may enter a self-governing world by invitation only and must leave when the invitation is withdrawn — posted in the delegation's working room, where it has been since her first week.
@@ -33,4 +35,4 @@ What she does instead is unglamorous and takes up most of her time: she reads ev
 
 She is aware, and has said in writing exactly once, that the arrangement she is protecting is one the Kingdom could end in an afternoon and that nothing she does makes it durable. Her position is that a relationship you cannot secure is still a relationship you can decline to spend, and that these are not the same thing, whatever the Archive's periodic reviews imply by pairing them.
 
-See also: [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/), [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/).
+See also: [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Five Islands](/star-rangers/lore/planets/kingdom-of-the-five-islands/), [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/), [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/).

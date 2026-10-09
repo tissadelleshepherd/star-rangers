@@ -14,7 +14,7 @@ image_alt: "Designed cover for Maintenance Log Day 49: a terminal-style log read
 
 **THRESHOLD STATION — MAINTENANCE DIVISION**
 **SYSTEM:** Dock Seven Chronometer Array (C-7A / C-7B)
-**Date:** Year -11, Late Summer, Day 49
+**Date:** 2815 UCSD, Late Summer, Day 49
 **Shift:** Night rotation, 03:10 station time
 **Logged by:** Technician N. Isern
 

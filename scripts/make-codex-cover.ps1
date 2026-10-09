@@ -21,6 +21,30 @@
 # Motifs: rules (ruled lines, the template default seen on Redline Protocol),
 #         dissolution (a ring fading round its circumference),
 #         none.
+#
+# -Underlay puts a photograph behind the lettering instead of the gradient, so
+# this becomes the compositor for picture-led cards as well as designed ones:
+#
+#   .\scripts\make-codex-cover.ps1 `
+#       -Underlay art\slipwave-common-room.jpg -Scrim 66 `
+#       -TitleLines "BALLAD OF THE STARS" `
+#       -Category "CULTURAL RECORD" `
+#       -Institution "Eden Space Habitat Collections" `
+#       -Out src\images\codex\ballad-of-the-stars.jpg
+#
+# WHY IT EXISTS: an image generator cannot spell, and every card it letters
+# arrives with a word like "superical" in it. Generate the picture wordless,
+# then run it through here - the font engine sets the type, so the words are
+# typed rather than drawn, and they are correct by construction.
+#
+# The underlay is centre-cropped to fill the square, then darkened by a scrim
+# heaviest at the two bands the lettering occupies: the category line at the
+# top and the title block below the divider. That is what keeps text legible
+# over an unknown photograph without hiding the middle of it.
+#
+# Generate the underlay SQUARE. The card is 1:1 and cropping is centred, so a
+# 16:9 source loses a third of its width and a panorama loses most of itself -
+# and what it loses is whatever the composition put at the edges.
 
 param(
   [Parameter(Mandatory = $true)][string[]]$TitleLines,
@@ -30,10 +54,17 @@ param(
   [string]$Author = "",
   [string]$Stamp = "",
   [ValidateSet("rules", "dissolution", "none")][string]$Motif = "rules",
+  [string]$Underlay = "",
+  [ValidateRange(0, 100)][int]$Scrim = 62,
   [Parameter(Mandatory = $true)][string]$Out,
   [int]$Size = 1600,
   [int]$Quality = 94
 )
+
+# A motif drawn over a photograph fights it, so an underlay turns the motif off
+# unless one was asked for explicitly. Passing -Motif rules alongside -Underlay
+# still does exactly what it says.
+if ($Underlay -and -not $PSBoundParameters.ContainsKey("Motif")) { $Motif = "none" }
 
 Add-Type -AssemblyName System.Drawing
 
@@ -77,17 +108,72 @@ function Draw-Tracked {
   }
 }
 
-# ---------- background ----------
-$rect = New-Object System.Drawing.Rectangle(0, 0, $W, $H)
-$lg = New-Object System.Drawing.Drawing2D.LinearGradientBrush($rect, (New-Col 255 26 32 46), (New-Col 255 8 10 16), 50.0)
-$g.FillRectangle($lg, $rect)
+# Vertical alpha wash between two y positions. The brush is built over a
+# rectangle one pixel taller than the fill on each side: GDI+ otherwise renders
+# a hairline of the wrong colour along a gradient's first row.
+function Fill-VWash {
+  param([double]$y0, [double]$y1, [System.Drawing.Color]$top, [System.Drawing.Color]$bottom)
+  if ($y1 -le $y0) { return }
+  $fill = New-Object System.Drawing.Rectangle(0, [int]$y0, $script:W, [int]($y1 - $y0))
+  $span = New-Object System.Drawing.Rectangle(0, [int]($y0 - 1), $script:W, [int]($y1 - $y0 + 2))
+  $br = New-Object System.Drawing.Drawing2D.LinearGradientBrush($span, $top, $bottom, 90.0)
+  $script:g.FillRectangle($br, $fill)
+  $br.Dispose()
+}
 
-$path = New-Object System.Drawing.Drawing2D.GraphicsPath
-$path.AddEllipse((-500 * $s), (-700 * $s), (2200 * $s), (1900 * $s))
-$pgb = New-Object System.Drawing.Drawing2D.PathGradientBrush($path)
-$pgb.CenterColor = (New-Col 46 92 124 190)
-$pgb.SurroundColors = @((New-Col 0 10 12 20))
-$g.FillPath($pgb, $path)
+# ---------- background ----------
+if ($Underlay) {
+  $underFull = $Underlay
+  if (-not [System.IO.Path]::IsPathRooted($underFull)) {
+    $underFull = Join-Path (Get-Location) $Underlay
+  }
+  if (-not (Test-Path -LiteralPath $underFull)) {
+    throw "make-codex-cover.ps1: -Underlay file not found: $underFull"
+  }
+
+  $img = [System.Drawing.Image]::FromFile($underFull)
+  try {
+    # Centre-crop to fill the square: scale by the larger ratio, centre the
+    # overflow. A card is square and a photograph rarely is, so something has
+    # to go, and cropping beats letterboxing a designed card.
+    $scale = [Math]::Max($W / [double]$img.Width, $H / [double]$img.Height)
+    $dw = $img.Width * $scale
+    $dh = $img.Height * $scale
+    $g.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+    $g.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+    $g.DrawImage($img, [single](($W - $dw) / 2.0), [single](($H - $dh) / 2.0), [single]$dw, [single]$dh)
+  }
+  finally {
+    $img.Dispose()
+  }
+
+  # Scrim, in the template's navy rather than neutral black so the photograph
+  # is tinted toward the set's palette instead of merely darkened. Three
+  # passes: an overall veil, then the two bands the lettering sits in.
+  $veil = [int](255 * ($Scrim / 100.0) * 0.35)
+  $topA = [int](255 * ($Scrim / 100.0) * 0.85)
+  $botA = [Math]::Min(235, [int](255 * ($Scrim / 100.0)))
+
+  $allRect = New-Object System.Drawing.Rectangle(0, 0, $W, $H)
+  $veilBrush = New-Object System.Drawing.SolidBrush(New-Col $veil 10 12 20)
+  $g.FillRectangle($veilBrush, $allRect)
+  $veilBrush.Dispose()
+
+  Fill-VWash -y0 0 -y1 (420 * $s) -top (New-Col $topA 8 10 16) -bottom (New-Col 0 8 10 16)
+  Fill-VWash -y0 (760 * $s) -y1 $H -top (New-Col 0 8 10 16) -bottom (New-Col $botA 8 10 16)
+}
+else {
+  $rect = New-Object System.Drawing.Rectangle(0, 0, $W, $H)
+  $lg = New-Object System.Drawing.Drawing2D.LinearGradientBrush($rect, (New-Col 255 26 32 46), (New-Col 255 8 10 16), 50.0)
+  $g.FillRectangle($lg, $rect)
+
+  $path = New-Object System.Drawing.Drawing2D.GraphicsPath
+  $path.AddEllipse((-500 * $s), (-700 * $s), (2200 * $s), (1900 * $s))
+  $pgb = New-Object System.Drawing.Drawing2D.PathGradientBrush($path)
+  $pgb.CenterColor = (New-Col 46 92 124 190)
+  $pgb.SurroundColors = @((New-Col 0 10 12 20))
+  $g.FillPath($pgb, $path)
+}
 
 $barRect = New-Object System.Drawing.Rectangle(0, 0, $W, [int](7 * $s))
 $bar = New-Object System.Drawing.Drawing2D.LinearGradientBrush($barRect, (New-Col 255 74 104 164), (New-Col 255 128 158 216), 0.0)

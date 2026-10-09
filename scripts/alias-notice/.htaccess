@@ -1,0 +1,28 @@
+# Served on a domain registered as an ALIAS in lib/editions.js, by
+# scripts/cpanel-deploy.sh's deploy_alias_notice(). Generated from
+# scripts/alias-notice/.htaccess - edit the template, not the deployed copy.
+#
+# This domain shares nothing with __TARGET__ yet. Until it is repointed at that
+# domain's document root in cPanel, this tiny deployment does the redirecting
+# itself, which means the consolidation is real from the first deploy rather
+# than waiting on a manual step.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # AutoSSL fetches its domain-control check over plain http; redirecting that
+  # path can fail the renewal of the certificate the redirect depends on.
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  # 301 the whole namespace, path and query preserved, so a deep link lands on
+  # its counterpart rather than on the target's front page.
+  RewriteRule ^(.*)$ https://__TARGET__/$1 [R=301,L,QSA]
+</IfModule>
+
+# Only reachable where mod_rewrite is unavailable - then index.html carries the
+# canonical and a meta refresh instead. Two mechanisms for the same move, the
+# same belt-and-braces pairing the in-site rename stubs use.
+ErrorDocument 404 /index.html
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

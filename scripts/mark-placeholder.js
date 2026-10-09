@@ -10,6 +10,11 @@
 // hand rather than pulling in an image library, because this repo has no image
 // dependency and should not gain one for a stamping job.
 //
+// The marker string and its detection live in lib/placeholder-marker.js -
+// shared with the build (the homepage slideshow excludes stamped cards) and
+// with validate-content.js's hero-cast check. This script keeps only the
+// writing/removal half.
+//
 // THE PROBLEM IT FIXES
 //
 // image-prompts.js decides an entry is `done` when its target file exists.
@@ -42,14 +47,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const MARKER = 'STAR-RANGERS-PLACEHOLDER';
+const { MARKER, isPlaceholderBuffer: isMarked } = require('../lib/placeholder-marker');
 const REPO_ROOT = path.resolve(__dirname, '..');
-
-function isMarked(buf) {
-  // Only look at the header region: the text could occur by chance in entropy-
-  // coded image data, and a false positive here would hide real work.
-  return buf.slice(0, 4096).includes(MARKER);
-}
 
 function mark(file) {
   const buf = fs.readFileSync(file);

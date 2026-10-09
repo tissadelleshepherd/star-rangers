@@ -22,8 +22,9 @@ threadId: church-space
 <p class="page-intro">
   It is not canon: nothing here binds the main published story, and the main story never depends on it. Nor is it
   Codex, whose entries are each one named in-universe source's account. This is a layer laid over the whole record
-  rather than a document inside it, and it is opt-in by domain — private, in this site's own sense of the word:
-  excluded everywhere unless a build names it in. See TECHNICAL-README.md's cPanel deployment section for how a clone opts in.
+  rather than a document inside it, and it belongs to the contemplative reading tier: present on the editions
+  built at that tier, absent — not hidden behind a link, simply not there — on every edition below it.
+  See TECHNICAL-README.md's cPanel deployment section for how a clone's tier is resolved.
 </p>
 <p class="page-intro">
   See also: <a href="/star-rangers/threads/church-space/faq/">Questions I Ask Myself</a>, an
@@ -35,27 +36,27 @@ threadId: church-space
 {% set hasThreadChapters = false %}
 {% set currentSeason = -1 %}
 {% for chapter in allChapters %}
-  {% if (chapter.data.season | threadForSeason).id == threadId %}
-    {% if not hasThreadChapters %}{% set hasThreadChapters = true %}{% endif %}
-    {% if chapter.data.season != currentSeason %}
-      {% if currentSeason != -1 %}</ul></div>{% endif %}
-      {% set currentSeason = chapter.data.season %}
+  {%- if (chapter.data.season | threadForSeason).id == threadId -%}
+    {%- if not hasThreadChapters %}{% set hasThreadChapters = true %}{% endif -%}
+    {%- if chapter.data.season != currentSeason -%}
+      {%- if currentSeason != -1 %}</ul></div>{% endif -%}
+      {%- set currentSeason = chapter.data.season -%}
       <div class="season-block">
         <h2 class="season-block__title">
           <a href="/star-rangers/seasons/s{{ currentSeason | zeroPad }}/">Season {{ currentSeason }}</a>
         </h2>
         <ul class="chapter-list" role="list">
-    {% endif %}
+    {%- endif -%}
           <li class="chapter-list__item">
             <a href="/star-rangers{{ chapter.url }}">
               <span class="chapter-list__code">{{ chapter.data.id | upper }}</span>
               <span class="chapter-list__title">{{ chapter.data.title }}</span>
-              {% if chapter.data.location %}
+              {%- if chapter.data.location -%}
               <span class="chapter-list__loc">{{ chapter.data.location }}</span>
-              {% endif %}
+              {%- endif -%}
             </a>
           </li>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 {% if hasThreadChapters %}
   </ul></div>

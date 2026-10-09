@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "2826 UCSD Timeline Events"
 category: "Timeline Notes"
 image: "year-zero.jpg"
-image_alt: "A steampunk relief panel in weathered grey-brown metal: dozens of embossed cogs and gearwheels of every size crowded edge to edge, with a hot-air balloon, two small clock faces, scattered raised letters and the digits 1870 pressed into the surface among them."
+image_alt: "Designed cover for 2826 UCSD Timeline Events: a sundial device, a circle with tick marks and a single hand, in a warm amber glow on a near-black field, the category TIMELINE NOTES above and the title beneath, with the lines Year Zero and The events of 2826 UCSD."
 ---
 
 *Timeline entries are each filed individually in the [Timeline](/star-rangers/timeline/) section. This article notes the 2826 UCSD starting conditions.*

@@ -6,7 +6,7 @@ library: "Eden Space Habitat Collections"
 author: "Sister Ione Marrec, comparative-archive correspondent"
 institution: "Fellowship of Light, contemplative chapter — comparative archive"
 location: "Cross-chapter correspondence series; current filing held at the Eden chapter house, 2831 UCSD"
-tags: [arilon, fellowship-of-light, cosmic-cascade, msc, maren-solveig-krast, comparative-archive, terran-scripture, culture, religion]
+tags: [arilon, fellowship-of-light, cosmic-cascade, msc, maren-solveig-krast, comparative-archive, terran-scripture, culture, devotional-traditions]
 description: "A Fellowship comparative-archive note pairing an Old-Earth scriptural pair — the prophet Elijah and the captain Jehu — with two figures from Solar System political memory: the Arilon-pattern witness who named the boundary truth first, and General Krast, whose word founded a technocracy that ended one failure by keeping its deeper one."
 ---
 

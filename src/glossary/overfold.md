@@ -1,6 +1,9 @@
 ---
 layout: glossary-entry.njk
 title: "Overfold"
+irish: "An Forfhilleadh"
+irish_gloss: "the over-fold"
+revealed_by: s01e00c01
 id: overfold
 category: "Cosmology"
 short: "The Fellowship of Light's traditional term for boundary-zone Etheric phenomena — older than Etheric, Concordant, or Intermembrane Bleed, and naming the same lawful thing."

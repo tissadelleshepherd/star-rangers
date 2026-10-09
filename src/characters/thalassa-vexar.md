@@ -9,6 +9,8 @@ aliases:
   - "Viceroy Vexar"
 tags: [imperium, belt, bureaucracy, human, history, msc]
 description: "The best-liked Imperium officer in the Belt, holding a grade with no authority to change anything there — whose fairness made a punitive administration bearable to the people it was administering, and whose figures were the most accurate Solar Command ever had."
+image: "thalassa-vexar.jpg"
+image_alt: "Thalassa Vexar, a woman in her fifties in a plain worn administrative jacket, seated at a bare metal counter in a cramped amber-lit Belt office, turned attentively toward someone standing out of frame. A queue of people waits behind her, out of focus."
 ---
 
 Thalassa Vexar was the most trusted Imperium officer in the Belt, and she held a grade two full steps below anyone who could alter a single condition in it.

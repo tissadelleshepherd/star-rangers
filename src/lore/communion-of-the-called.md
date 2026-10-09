@@ -2,13 +2,15 @@
 layout: lore-entry.njk
 title: "The Communion of the Called"
 category: "Institutions"
-tags: [cosmology, religion, christianity, ecumenical, church-space, communion-of-the-called]
+tags: [cosmology, devotional-traditions, christianity, ecumenical, church-space, communion-of-the-called]
 description: "The Corps is secular by charter, not its people. A working network of Christian congregations — and, among a handful of allied and partner species, functionally equivalent traditions — that Star Rangers personnel belong to on their own time, answerable to no rank and no chain of command."
+image: "communion-of-the-called.jpg"
+image_alt: "A plain metal-walled room aboard a station after a gathering has ended, a dozen mismatched folding chairs pulled into a rough circle and a trestle table with cups and a flask"
 ---
 
 The [Neutrality clause](/star-rangers/lore/formation-of-star-rangers/) binds the Corps, not the Ranger. It says the Rangers take no institutional side in a political dispute, and — by the same reading that gives the Fellowship's [ecumenical hymnody](/star-rangers/lore/arilon/) its neutral repertoire — no institutional side in whose liturgy is correct either. What it has never said, and was never written to say, is that a Ranger has to leave her own belief in the airlock before reporting for duty.
 
-Most don't. A working majority of human Rangers who report any religious affiliation at all report a Christian one, in one of the traditions the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) carried off Earth or one its own colonists picked up since — [Saint Aoife's](/star-rangers/lore/saint-aoife/) devotion among them, though far from the only one. A smaller number of allied and partner species carry traditions the [Fellowship's comparative archive](/star-rangers/lore/arilon/) has independently filed close enough to the same shape to cross-reference: a called witness, a naming, a vindication that comes after. The Cascade is explicit that the shape recurring proves nothing about which tradition has it right. It has never stopped either side from recognising a neighbor when they meet one.
+Most don't. A working majority of human Rangers who report any devotional affiliation at all report a Christian one, in one of the traditions the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) carried off Earth or one its own colonists picked up since — [Saint Aoife's](/star-rangers/lore/saint-aoife/) devotion among them, though far from the only one. A smaller number of allied and partner species carry traditions the [Fellowship's comparative archive](/star-rangers/lore/arilon/) has independently filed close enough to the same shape to cross-reference: a called witness, a naming, a vindication that comes after. The Cascade is explicit that the shape recurring proves nothing about which tradition has it right. It has never stopped either side from recognising a neighbor when they meet one.
 
 ## What the Communion Is
 

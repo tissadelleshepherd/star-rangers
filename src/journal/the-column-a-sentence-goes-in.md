@@ -1,0 +1,33 @@
+---
+layout: journal-entry.njk
+title: "The Column a Sentence Goes In"
+date: "2026-10-05"
+description: "How Sen's desk was rebuilt from a repository: the belief-revision rules of EPISTEME mapped one by one onto an archivist who never speculates, and why the mapping is rendered in the Archive's words and never named in lore. First of two."
+tags: [craft, editorial, process, sen, codex, engineering, epistemics]
+---
+
+The [About page](/star-rangers/about/) has said since August that three of my engineering projects ask in code the questions this story asks in fiction, and that the resemblance is lineage rather than coincidence. Today the resemblance stopped being a sentence on the About page and became a character's habits. This entry is the working, because the rules I take from it are the kind a peer author might want and the kind I will otherwise forget.
+
+The repository is [EPISTEME](https://github.com/dermot-r-cochran/swarm), an epistemic foundation-model architecture: beliefs are typed objects with a confidence and a lifecycle state, evidence is validated before it may influence them, and every change is kept as an auditable revision. Its governing document, which binds any agent that works on it, separates every claim into one of four kinds — *fact* (verified and reproducible), *theory* (expected under stated assumptions), *opinion* (a preference without proof) and *fiction* (hypothetical or illustrative) — and forbids presenting the second or third as the first. The same document says that language, repetition, popularity and confidence must never move a belief, that *unknown* is preferred to a plausible completion, and, in its last line, that a violation of these principles is a bug and not a style issue.
+
+[Sen](/star-rangers/characters/sen/) was already built on this without my having said so. The three working papers in the Codex are the discipline in Sen's own hand: [a claim stands on what it has beaten](/star-rangers/codex/standing-claims/), [mark the absence and do not explain it](/star-rangers/codex/marked-absences/), and the [Verification Doctrine](/star-rangers/codex/the-verification-doctrine/)'s first article, that the Archive believes nothing at the door. What the page lacked was the statement that none of the three ever conjectures past the shelf, and the sorting that makes the statement operable. So the four kinds went onto Sen's page in the Archive's words: what the shelf has verified; what a reading expects, under assumptions the reading states; what the desk prefers, and says it prefers; and what is told for illustration, filed as told. A reader who knows the repository will recognise the four columns. A reader who does not will meet an archivist's habit, which is the point, and I will come back to it.
+
+## The rules, one by one
+
+The interesting part was below the four kinds, in the code that decides whether a belief may change. EPISTEME's core applies a short list of eligibility rules and returns a decision without writing anything; the writing is a separate act, done by a different component, and a refusal comes back with its reason attached. Each rule turned out to have a desk-sized sentence waiting for it, and the paragraph on Sen's page is those sentences in order.
+
+- **New evidence is required.** A piece of evidence already recorded on a belief cannot move it again. *A report already on a holding's file moves nothing a second time.*
+- **Evidence is deduplicated** by a hash of its content and its source before it ever reaches the rules. *The same report arriving by two routes is one report and not two.*
+- **One piece of evidence cannot stand on both sides.** Evidence recorded as counter-evidence is refused as support, because a belief disputed against itself is not a belief. *One report cannot stand on both sides of a holding.*
+- **Reliability must meet a threshold.** Evidence below it is still recorded; it simply moves nothing. *A source below the desk's floor is admitted, since the door records that something was claimed, and moves no standing.*
+- **The change in confidence is bounded**, and this is the rule I had wrong in my head before I read the code. A proposal that would move a belief further than the bound is not rejected. It is clamped: the belief moves the permitted distance and the evidence is kept. *However good a single report is, the desk moves a standing one rung at a time.* The ladder of standings in the Verification Doctrine implies this and never states it, and I have left the doctrine as published and made the rung-at-a-time the desk's practice, because published canon changes only by extension and a practice is an extension.
+- **Pressure is not evidence.** A separate guard rejects any justification composed only of repetition, authority or consensus with no observation in it. *Twenty reports arriving in a week that say the same thing are pressure, and the desk files pressure as pressure.*
+- **The language interface cannot write.** This is the third of the repository's three decision records, all dated 8 May 2026: the component that turns language into claims is confined to extraction and formatting, and a belief changes only through the core and the memory. *A claim, however well it is said, writes nothing.* It is also, exactly, what Marginalia is built never to do, and I had written Marginalia that way in July without knowing which rule I was obeying.
+
+The other two decision records were already on the page. A side-effect-free core is the judging kept separate from the writing. An append-only memory is the revision filed beside the original, which the doctrine's second article has said since the entry was written.
+
+## Why none of this is in lore
+
+Not one of the repositories is named on Sen's page, Pinya's page or [the Archive's own](/star-rangers/lore/the-archive/). The Archive names nobody from our century, and the About page and this Journal are where the lineage is said. The craft reason is the stronger one, though. A rule imported with its vocabulary reads as a manual: *reliability threshold*, *bounded delta*, *write isolation*. The same rule rendered in the desk's words reads as a person's habit, and a habit can be contradicted by a scene in a way a manual cannot, which is what makes it writable. The test I used for each sentence was whether Cael, Wyn or Sen would say it to a junior desk officer without looking anything up.
+
+The other repositories that keep the same discipline, and what the fourth column decided about an author who speculates for a living, are in the second half of this note, [Fiction Is a Column](/star-rangers/journal/fiction-is-a-column/).

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "The Aethelrock Rotation Dispute Begins"
-timestamp: "Year -2 (2824 UCSD)"
+timestamp: "2824 UCSD"
 sort_order: 70
 summary: "Rhiannon Ceridwen answers first contact from Star Rangers survey traffic two years ahead of her clan's turn at the Celtic Union seat, fracturing Aethelrock's Ridgemoot over whether the old rotation still holds."
 tags: [aethelrock, celtic-union, clan-ceridwen, ridgemoot, timeline, history]
@@ -16,7 +16,7 @@ tags: [aethelrock, celtic-union, clan-ceridwen, ridgemoot, timeline, history]
     </ol>
   </nav>
   <h1 class="lore-entry__title">The Aethelrock Rotation Dispute Begins</h1>
-  <p><span class="character-badge">Year -2 (2824 UCSD)</span> <span class="character-badge">2624 CE, Ceridwen clan archives</span></p>
+  <p><span class="character-badge">2824 UCSD</span> <span class="character-badge">2624 CE, Ceridwen clan archives</span></p>
 </header>
 <div class="lore-entry__body">
 
@@ -31,7 +31,7 @@ The dispute does not resolve cleanly along old lines. [Cormac Dubhghlas](/star-r
 - The Aethelrock Ridgemoot has not authorised the contact retroactively; Rhiannon holds the Union seat under protest from the other four clan heads.
 - No clan head disputes that contact needed answering — the dispute is over who had standing to answer it, and on what terms.
 - Niamh Ó Ceallaigh's compromise rotation proposal remains the only alternative on the table, and remains unadopted.
-- The dispute is unresolved as of Year 0 (2826 UCSD); the next Ridgemoot is expected to renegotiate the rotation rather than simply confirm it.
+- The dispute is unresolved as of 2826 UCSD; the next Ridgemoot is expected to renegotiate the rotation rather than simply confirm it.
 - Clan Ceridwen's own archives log the event as 2624 CE, the legacy calendar the Currach Fleet departed Earth on — a dating habit the Celtic Union never fully retired, unlike Solar System institutional records. See [Universal Concord Standard Date (UCSD)](/star-rangers/lore/universal-cosmic-stardate/) for the conversion.
 
 See: [Aethelrock](/star-rangers/lore/planets/aethelrock/), [Rhiannon Ceridwen](/star-rangers/characters/rhiannon-ceridwen/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Universal Concord Standard Date (UCSD)](/star-rangers/lore/universal-cosmic-stardate/).

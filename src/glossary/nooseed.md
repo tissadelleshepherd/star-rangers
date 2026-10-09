@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Noöseed"
+irish: "Nóishíol"
+irish_gloss: "a mind-seed"
 id: nooseed
 category: "Noögenics"
 short: "A compressed, transferable mind-state that preserves generative interior structure for successor universe initialization."

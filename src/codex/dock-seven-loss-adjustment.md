@@ -16,7 +16,7 @@ tags: [farline, dock-seven, threshold-station, boundary, levril, tissadelle, com
 
 ### 1. The charter
 
-At 0447, 2831 UCSD, Mid-Autumn, three Guild hulls on the Threshold data circuit — *Ninth Draft*, *Reasonable Notice*, *Held Open* — were diverted by request of Line Captain T. Shepherd, Star Rangers, to a position four hundred kilometres off Dock Seven.
+At 0447, 2831 UCSD, Mid-Autumn, three Guild hulls on the Threshold data circuit — *Ninth Draft*, *Reasonable Notice*, *Held Open* — were diverted by request of Line Captain T. Shepherd, Star Rangers, to a position forty kilometres off Dock Seven.
 
 The request came in on an open channel and was not an order. The Guild is not chartered to the Star Rangers and takes no direction from them; the Line Captain appeared to know this and did not pretend otherwise. She asked. Our vessel masters agreed before a rate was discussed, which I record here because the Guild's public reputation is that it does not, and because the file should show that on this occasion it did.
 

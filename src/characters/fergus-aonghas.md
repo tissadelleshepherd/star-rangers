@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-aonghas, ridgemoot, human]
 description: "Clan head of Aonghas on Aethelrock, holder of the eastern granite highlands and the bulk of the planet's mining claims — the Ridgemoot's sharpest and most consistent critic of Rhiannon Ceridwen, and its nearest neighbour."
 image: "fergus-aonghas.jpg"
-image_alt: "Designed placeholder card for Fergus Aonghas: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
+image_alt: "Fergus Aonghas outside the cut of a mine working in the granite highlands, a broad, solidly built man in a scuffed quilted jacket with his arms folded, looking directly at the viewer. Bare rock rises on both sides of the opening behind him and the workings stand on the ridge above."
 ---
 
 Fergus Aonghas has never once softened an objection for the room, and the Ridgemoot has largely stopped expecting him to. He is the head most likely to say plainly what the other clan heads leave implied, which has made him useful to reporters and exhausting to mediators in roughly equal measure.

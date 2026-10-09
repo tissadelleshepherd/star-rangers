@@ -1,98 +1,38 @@
 const path = require("path");
 const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const { createMarkdownRenderer } = require("./lib/markdown-containers");
+const { createMarkdownRenderer, povTierVisible } = require("./lib/markdown-containers");
 const { imageSize } = require("./lib/image-size");
+const { isPlaceholderImage } = require("./lib/placeholder-marker");
+const { seasonPortraits } = require("./lib/season-portraits");
 const {
   getContentFilter,
   isCharacterIncluded,
   isChapterIncluded,
   isTopicPageIncluded,
-  isThreadIncluded,
-  isPrivatelyExcluded,
-  privateThreadForPage,
+  gatedThreadForPage,
+  threadForPage,
   getRelatedContentUrls
 } = require("./lib/content-filter");
+const { resolveRelatedTerm, resolvedRelatedTerms } = require("./lib/related-terms");
+const {
+  classifyContentPath,
+  isRelatedTopicPageIncluded,
+  isContentIncluded
+} = require("./lib/classify-content");
 const { threadForSeason, DEFAULT_REFERENCE_DOMAIN } = require("./lib/storyline-threads");
-const { getEdition, validateEditions } = require("./lib/editions");
+const { statusKey } = require("./lib/status-key");
+const { findArchiveBacklinks } = require("./lib/archive-backlinks");
+const { findArchiveCompanions } = require("./lib/archive-companions");
+const { getEdition, validateEditions, PRESENTATION_MODES, editionForDomain } = require("./lib/editions");
+const { unlinkExcluded } = require("./lib/unlink-excluded");
+const matter = require("gray-matter");
+const fs = require("fs");
 
-// Classifies a content file by where it LIVES (its inputPath), not by its
-// `layout` front-matter field. `layout` is itself one of the eleventyComputed
-// keys overridden below, so reading `data.layout` from inside a computed
-// field's own evaluator is unsafe: Eleventy's computed-data resolution
-// doesn't guarantee `layout` has already settled to its ORIGINAL value by
-// the time some other field (title, description, ogImage, ...) asks for it
-// - it can just as easily see the ALREADY-REWRITTEN "excluded.njk", which
-// matches none of the checks below and silently falls through to the final
-// `return true`. That mismatch let an excluded page's real title/
-// description/image leak into its meta tags even while its body correctly
-// showed the placeholder (layout itself, resolved first, was fine - every
-// OTHER field reading data.layout afterward wasn't). inputPath is never
-// touched by anything in this file, so it can't suffer the same hazard.
-// Every content dir's own top-level (and per-season/per-episode) `index.md`
-// listing page uses `layout: base.njk`, not a content layout, so those are
-// excluded here the same way the timeline check already excluded its own.
-function classifyContentPath(inputPath) {
-  if (!inputPath || inputPath.endsWith("/index.md")) return null;
-  if (inputPath.includes("/characters/")) return "character";
-  if (inputPath.includes("/seasons/")) return "chapter";
-  if (inputPath.includes("/lore/")) return "lore";
-  if (inputPath.includes("/glossary/")) return "glossary";
-  if (inputPath.includes("/codex/")) return "codex";
-  if (inputPath.includes("/timeline/")) return "timeline";
-  if (inputPath.includes("/journal/")) return "journal";
-  return null;
-}
-
-// Whether a lore/timeline/glossary page earns inclusion either the normal
-// way (tag/category match) or because some included character's own bio
-// links to it directly - see getRelatedContentUrls's own comment for why
-// that second path exists: a character page is already the record of what
-// background matters for understanding them.
-function isRelatedTopicPageIncluded(data, filter, url) {
-  // The relatedUrls fallback below exists to pull in background an INCLUDED
-  // character's own bio links to (see getRelatedContentUrls); it must not
-  // become a backdoor around a private thread's own veto, so that's checked
-  // first and short-circuits the whole thing regardless of relatedUrls.
-  if (isPrivatelyExcluded(data, filter)) return false;
-  return isTopicPageIncluded(data, filter) || filter.relatedUrls.has(url);
-}
-
-// Drives the eleventyComputed override below: decides whether a
-// standalone content-leaf page renders its real content or a placeholder.
-// Anything outside the 6 filterable content types plus a private thread's
-// own landing page (nav/index/structural pages) always passes through.
-// Deliberately does NOT short-circuit on `!filter.active` the way it used
-// to - a private thread (lib/storyline-threads.js's `private: true`) must
-// stay hidden on the unfiltered full-site build too, and each isXIncluded
-// call below already applies that veto before its own `!filter.active`
-// check, so delegating unconditionally is what makes that work.
-function isContentIncluded(data, filter) {
-  const inputPath = data.page && data.page.inputPath;
-  const url = data.page && data.page.url;
-  const kind = classifyContentPath(inputPath);
-  if (kind === "character") return isCharacterIncluded(data, filter);
-  if (kind === "chapter") return isChapterIncluded(data, filter);
-  if (kind === "lore" || kind === "glossary" || kind === "timeline") {
-    return isRelatedTopicPageIncluded(data, filter, url);
-  }
-  if (kind === "codex") return isTopicPageIncluded(data, filter);
-  // Journal entries are out-of-character author notes about making the work,
-  // not the work. They were falling through to the unconditional `return true`
-  // below, so every branded edition published them regardless of its filters -
-  // which meant a search for the book's own name could land a reader on the
-  // Fellowship of Light or Undercover Pets framing of an essay about naming
-  // decisions. Filtered like codex: on a narrowed edition an entry appears only
-  // if its tags match, and on the unbranded full site `filter.active` is false
-  // so all of them still appear.
-  if (kind === "journal") return isTopicPageIncluded(data, filter);
-  // A thread's own standalone landing page (src/threads/<id>/index.md)
-  // opts into this system via a `threadId` front-matter field, since it's
-  // otherwise just a hand-written base.njk page outside the content dirs
-  // above - see src/threads/founding-era/index.md for the shape without it.
-  if (data.threadId) return isThreadIncluded(data.threadId, filter);
-  return true;
-}
+// classifyContentPath / isRelatedTopicPageIncluded / isContentIncluded moved
+// verbatim to lib/classify-content.js (required above) so they can be
+// unit-tested without booting Eleventy - the inputPath-not-layout hazard
+// they guard against is documented there.
 
 // Drives the eleventyComputed "ogImage" override below: maps a content
 // type's own `image` front-matter field (already used by that layout's own
@@ -129,10 +69,22 @@ const DEFAULT_OG_IMAGE_ALT =
 // Twitter Card preview, regardless of computed-field evaluation order. Keyed
 // by classifyContentPath's inputPath-based `kind`, not data.layout, for the
 // same reason isContentIncluded is - see that function's own comment.
+// Journal entries carry no image of their own (all 38 at 8 October 2026),
+// so every one of them fell back to the launch hero - which is how a chat
+// app previewing "Almost Despaired" showed a space shuttle, a real
+// twentieth-century vehicle, as the face of a 29th-century record (Dermot's
+// Replika screenshot, 8 October 2026). The Journal has its own hero, the
+// notebook the index shows, and that is what a journal card should carry.
+const JOURNAL_OG_IMAGE = "/images/hero/journal-notebook.jpg";
+const JOURNAL_OG_IMAGE_ALT =
+  "An open journal on a wooden desk, headed Author's Journal in cursive above a dated handwritten entry, with an ink bottle behind it";
+
 function computeOgImage(data, included) {
   if (!included) return DEFAULT_OG_IMAGE;
-  const dir = OG_IMAGE_DIRS[classifyContentPath(data.page && data.page.inputPath)];
-  return dir && data.image ? `/images/${dir}/${data.image}` : DEFAULT_OG_IMAGE;
+  const kind = classifyContentPath(data.page && data.page.inputPath);
+  const dir = OG_IMAGE_DIRS[kind];
+  if (dir && data.image) return `/images/${dir}/${data.image}`;
+  return kind === "journal" ? JOURNAL_OG_IMAGE : DEFAULT_OG_IMAGE;
 }
 
 // Alt text for whatever computeOgImage settled on, so a card has a text
@@ -143,6 +95,7 @@ function computeOgImage(data, included) {
 // found on-page and story-bible/images.md now has a standing rule against.
 function computeOgImageAlt(data, ogImage) {
   if (ogImage === DEFAULT_OG_IMAGE) return DEFAULT_OG_IMAGE_ALT;
+  if (ogImage === JOURNAL_OG_IMAGE) return JOURNAL_OG_IMAGE_ALT;
   return data.image_alt || data.title || undefined;
 }
 
@@ -188,15 +141,36 @@ function glossaryAlphaKey(title) {
 // domain the "Not included in this edition" placeholder (excluded.njk)
 // links a reader to for a page THIS build excludes. Defaults to the
 // full-site reference domain, which is a superset of every page ordinary
-// CHARACTERS/TOPICS/THREADS narrowing excludes. A private thread is the
-// exception - the reference domain excludes it too (it's opt-in on every
-// build), so pointing there would just loop back to another placeholder;
-// its pages point at the thread's own homeDomain instead, the one clone
-// that actually opts it in. Computed for every page but only ever read by
-// excluded.njk, so its value on an included page is harmless.
+// CHARACTERS/TOPICS/THREADS narrowing excludes. A tier-gated thread is the
+// exception - the reference domain sits at the general tier and excludes a
+// contemplative thread too, so pointing there would just loop back to
+// another placeholder; its pages point at the thread's own homeDomain
+// instead, a domain at the thread's tier that actually carries it. Computed
+// for every page but only ever read by excluded.njk, so its value on an
+// included page is harmless.
 function computeReferenceDomain(data) {
-  const thread = privateThreadForPage(data);
+  const thread = gatedThreadForPage(data);
   return (thread && thread.homeDomain) || DEFAULT_REFERENCE_DOMAIN;
+}
+
+// Drives the eleventyComputed "giscusBoard" override below: the comments
+// board THIS page's widget posts to. A page in a thread that names a
+// `giscusProfile` (lib/storyline-threads.js - church-space, the Communion's
+// board) uses that thread's board on whatever domain renders it; every other
+// page uses the build's board (src/_data/giscus.js). Dermot's ruling,
+// 2026-09-04: pick the board per page, so a shared chapter carries one
+// conversation across every tier that shows it and the overlay keeps its
+// own room. Membership comes from the same walk the tier gate uses. A
+// scene-POV page carries its season on the pagination item rather than on
+// its own front matter, so the probe reads either. On a fork the data file
+// returns no thread boards at all and this is the build's board throughout.
+function computeGiscusBoard(data) {
+  const giscus = data.giscus;
+  if (!giscus || !giscus.boards) return giscus;
+  const season = data.season !== undefined ? data.season : data.item && data.item.season;
+  const probe = { season, tags: data.tags, category: data.category, threadId: data.threadId };
+  const thread = threadForPage(probe, (t) => Boolean(t.giscusProfile));
+  return (thread && giscus.boards[thread.id]) || giscus;
 }
 
 module.exports = function(eleventyConfig) {
@@ -224,9 +198,26 @@ module.exports = function(eleventyConfig) {
   // rather than by check-internal-links.js.
   validateEditions({
     audioDir: path.join(__dirname, "src", "audio"),
-    cssDir: path.join(__dirname, "src", "css")
+    cssDir: path.join(__dirname, "src", "css"),
+    heroDir: path.join(__dirname, "src", "images", "hero")
   });
   eleventyConfig.addGlobalData("edition", getEdition());
+  // The <title> of a placeholder page follows the edition's own notice when
+  // it carries one (src/_includes/excluded.njk renders the same string as
+  // its heading), so the tab and the page agree on a plain-register domain.
+  const excludedTitle = () => {
+    const notice = getEdition().excludedNotice;
+    return notice ? notice.title : "Not included in this edition";
+  };
+
+  // The presentation-mode registry, for the reader-side switcher in base.njk.
+  // Exposed as data rather than hardcoded in the template so the control and
+  // lib/editions.js cannot list different modes - the failure would be a button
+  // that sets an attribute no CSS matches, which looks like nothing happening.
+  // The id list is separate because the inline <head> script needs it as a JSON
+  // array to validate a stored value against, and Nunjucks has no keys filter.
+  eleventyConfig.addGlobalData("presentationModes", PRESENTATION_MODES);
+  eleventyConfig.addGlobalData("presentationModeIds", Object.keys(PRESENTATION_MODES));
 
   // Same pattern as THEME above, but a plain on/off switch: lets a build
   // suppress the giscus comment widget entirely (see src/_includes/base.njk)
@@ -244,11 +235,33 @@ module.exports = function(eleventyConfig) {
   // segment written out by hand for GitHub Pages' /star-rangers/
   // project-site subpath to resolve at all). Forking this repo under a
   // different name/host means setting SITE_PATH_PREFIX once instead of
-  // hand-editing every file it appears in. Unset (this project's own
-  // local/CI/GitHub Pages builds never set it) leaves output byte-for-byte
-  // unchanged, and cPanel builds don't need it either -
-  // scripts/cpanel-deploy.sh already strips this same prefix with its own
-  // post-build sed step, independently of this.
+  // hand-editing every file it appears in. Unset (local and CI builds)
+  // leaves output byte-for-byte unchanged; the GitHub Pages workflow sets
+  // it to "/" since 2026-10-06, when fianilchruinne.com became the Pages
+  // custom domain and that build moved to the root; and cPanel builds don't
+  // need it either - scripts/cpanel-deploy.sh already strips this same
+  // Links to pages THIS build excludes are rendered as plain text, so no
+  // reader reaches a "Not included in this edition" stub by clicking (Dermot's
+  // choice, 2026-10-09, after a site review read the four such stubs reachable
+  // from inside the canonical site as dead ends). The stub still builds at its
+  // URL for a direct hit and now says what the page is (excluded.njk). The set
+  // of excluded URLs is gathered by the `excludedPages` collection below;
+  // collections resolve before any transform runs. Registered BEFORE the
+  // SITE_PATH_PREFIX rewrite, which is why lib/unlink-excluded.js matches the
+  // hardcoded /star-rangers/ form every href in the corpus is written in.
+  const excludedUrls = new Set();
+  eleventyConfig.addCollection("excludedPages", (collectionApi) => {
+    excludedUrls.clear();
+    const pages = collectionApi.getAll().filter((item) => item.data.layout === "excluded.njk");
+    for (const item of pages) if (item.url) excludedUrls.add(item.url);
+    return pages;
+  });
+  eleventyConfig.addTransform("unlinkExcluded", function (content, outputPath) {
+    if (outputPath && /\.html$/.test(outputPath)) return unlinkExcluded(content, excludedUrls);
+    return content;
+  });
+
+  // prefix with its own post-build sed step, independently of this.
   const sitePathPrefix = process.env.SITE_PATH_PREFIX;
   if (sitePathPrefix && sitePathPrefix !== "/star-rangers/") {
     eleventyConfig.addTransform("rewriteSitePathPrefix", function (content, outputPath) {
@@ -263,7 +276,13 @@ module.exports = function(eleventyConfig) {
         // https://dermot-r-cochran.github.io/ on every cPanel domain. The
         // character before /star-rangers/ in an absolute url belongs to the
         // host; anchoring on the delimiter is what tells the two apart.
-        return content.replace(/(["'(])\/star-rangers\//g, `$1${sitePathPrefix}`);
+        // `url=` is the one other delimiter a root-relative path follows: the
+        // meta-refresh stubs in src/chapter-aliases.njk and src/version-latest.njk
+        // write `content="0; url=/star-rangers/..."`, unquoted. On cPanel the
+        // .htaccess RedirectMatch forwards the /star-rangers/ namespace anyway,
+        // so the sed step never needed it; a root-served Pages build has no
+        // .htaccess, and without this the stubs would land on a 404.
+        return content.replace(/(["'(]|url=)\/star-rangers\//g, `$1${sitePathPrefix}`);
       }
       return content;
     });
@@ -272,15 +291,31 @@ module.exports = function(eleventyConfig) {
   // Wires up the :::pov / :::::scene custom containers used in chapter
   // content (see lib/markdown-containers.js) - without this, markdown-it
   // has no idea what those fences mean and renders them as literal text.
-  eleventyConfig.setLibrary("md", createMarkdownRenderer());
+  // The renderer also gates tier-marked POV blocks (`::: pov <id>
+  // tier=contemplative`) by this build's edition tier - see the TIER-GATED
+  // section of lib/markdown-containers.js. scenePovPages.js builds its own
+  // instance with the same option, so both views of a chapter agree.
+  eleventyConfig.setLibrary("md", createMarkdownRenderer({ buildTier: getEdition().tier }));
+
+  // The chapter layout's "View from" buttons come from `povs:` front matter,
+  // not from the rendered body, so they need the same gate: an entry carrying
+  // `tier:` above this build's tier names a block the body no longer has.
+  eleventyConfig.addFilter("povsForTier", (povs) =>
+    (povs || []).filter((p) => povTierVisible(p && p.tier, getEdition().tier))
+  );
 
   eleventyConfig.addPlugin(pluginNavigation);
 
-  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
-  eleventyConfig.addPassthroughCopy({ "src/js": "js" });
-  eleventyConfig.addPassthroughCopy({ "src/images": "images" });
-  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" });
-  eleventyConfig.addPassthroughCopy({ "src/video": "video" });
+  // Each asset directory carries a README.md for people (2026-09-06).
+  // .eleventyignore keeps Eleventy from rendering them as pages, but
+  // passthrough copy is a file copy and ignores that file, so the copy
+  // itself has to leave them behind or every domain would serve /css/README.md.
+  const notReadme = (filePath) => path.basename(filePath) !== "README.md";
+  eleventyConfig.addPassthroughCopy({ "src/css": "css" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/js": "js" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/images": "images" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" }, { filter: notReadme });
+  eleventyConfig.addPassthroughCopy({ "src/video": "video" }, { filter: notReadme });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/static/.htaccess": ".htaccess" });
   // /favicon.ico at the site root, in addition to the <link rel="icon"> tags in
@@ -330,6 +365,9 @@ module.exports = function(eleventyConfig) {
   // to the shared "Unsorted" placeholder), never null, so templates never
   // need their own default-handling for an unassigned season.
   eleventyConfig.addFilter("threadForSeason", (seasonNumber) => threadForSeason(seasonNumber));
+  // The class key for a character's status badge: head clause, slugified -
+  // see lib/status-key.js for why neither `lower` nor `slugify` was enough.
+  eleventyConfig.addFilter("statusKey", (status) => statusKey(status));
 
   // Distinct season numbers (sorted) that have at least one published
   // chapter in the given thread id. Templates use its length to decide
@@ -355,11 +393,24 @@ module.exports = function(eleventyConfig) {
     (glossaryAlphaKey(title).charAt(0) || "").toUpperCase()
   );
 
+  // Kept for any caller that wants a URL no matter what: on a miss it still
+  // falls back to the glossary index. The glossary layout no longer uses it
+  // for Related Terms (2026-10-04) - see resolvedRelatedTerms below.
   eleventyConfig.addFilter("glossaryUrl", function(term, glossaryCollection, loreCollection) {
-    const match =
-      (glossaryCollection || []).find((item) => item.data.title === term) ||
-      (loreCollection || []).find((item) => item.data.title === term);
-    return `/star-rangers${match ? match.url : "/glossary/"}`;
+    const url = resolveRelatedTerm(term, glossaryCollection, loreCollection);
+    return `/star-rangers${url || "/glossary/"}`;
+  });
+
+  // The `related:` terms that resolve ON THIS BUILD, each with its
+  // prefixed url, so a layout links only pages the edition carries. On a
+  // narrowed edition the collections are already filtered, so an excluded
+  // page's term simply drops out of the list instead of linking to the
+  // glossary index (the undercover-pets.com Smart Pet case, 2026-10-04).
+  eleventyConfig.addFilter("resolvedRelatedTerms", function(related, glossaryCollection, loreCollection) {
+    return resolvedRelatedTerms(related, glossaryCollection, loreCollection).map(({ term, url }) => ({
+      term,
+      url: `/star-rangers${url}`
+    }));
   });
 
   // For the Atom feed (src/feed.njk) - formats a chapter's real-world
@@ -389,6 +440,55 @@ module.exports = function(eleventyConfig) {
   // null past either end, and naturally skips anything CHARACTERS/TOPICS/
   // THREADS filtering has excluded, since the collection itself already
   // omits those chapters - no dead links to hidden content.
+  // The chapter layout's "In the Archive" block: every lore, glossary, codex
+  // and journal page the build includes whose source cites this chapter (by
+  // its URL or its /c/ alias) or names it in revealed_by / revised_by.
+  // Derived, never authored; see lib/archive-backlinks.js. Scans the source
+  // (rawInput) rather than rendered output so it is prefix-stable and does
+  // not depend on render order.
+  eleventyConfig.addFilter("archiveBacklinks", function(chapterData, lore, glossary, codex, journal) {
+    const pages = [];
+    const add = (items, section) => (items || []).forEach((item) => pages.push({
+      title: item.data.title,
+      url: item.url,
+      section,
+      raw: typeof item.rawInput === "string"
+        ? item.rawInput
+        : (item.template && item.template.frontMatter && item.template.frontMatter.content) || "",
+      revealedBy: item.data.revealed_by,
+      revisedBy: item.data.revised_by,
+    }));
+    add(lore, "lore"); add(glossary, "glossary"); add(codex, "codex"); add(journal, "journal");
+    return findArchiveBacklinks(chapterData, pages);
+  });
+
+  // The chapter layout's "From the Archive" aside: the Archive entries that
+  // accompany this chapter - every glossary, lore or codex page the build
+  // includes whose revealed_by names the chapter, plus those the chapter's
+  // own `related:` names by title - each with its one-line account (short or
+  // description; the plain line on a children's-tier build). Authored
+  // anchors, derived rendering; see lib/archive-companions.js and the
+  // 2026-10-05 ruling it realizes. Resolves against the build's own
+  // collections, so a narrowed edition never shows an entry it excludes.
+  eleventyConfig.addFilter("fromTheArchive", function(chapterData, related, glossary, lore, codex, tier) {
+    const pages = [];
+    const add = (items, section) => (items || []).forEach((item) => pages.push({
+      title: item.data.title,
+      url: item.url,
+      section,
+      category: item.data.category,
+      short: item.data.short,
+      description: item.data.description,
+      plain: item.data.plain,
+      revealedBy: item.data.revealed_by,
+    }));
+    add(glossary, "glossary"); add(lore, "lore"); add(codex, "codex");
+    return findArchiveCompanions(chapterData, related, pages, { tier }).map((entry) => ({
+      ...entry,
+      url: `/star-rangers${entry.url}`,
+    }));
+  });
+
   eleventyConfig.addFilter("previousChapterIn", (chapters, id) => {
     const index = (chapters || []).findIndex((c) => c.data.id === id);
     return index > 0 ? chapters[index - 1] : null;
@@ -416,10 +516,53 @@ module.exports = function(eleventyConfig) {
   // CHARACTERS/TOPICS/THREADS narrowing (see lib/content-filter.js) simply
   // isn't in that collection and is silently skipped here, the same way a
   // typo'd id would be, rather than needing its own separate filtering pass.
+  // Front matter can carry an absent, empty or whitespace-only value and all
+  // three mean "no image"; only the first is falsy on its own.
+  const isBlankValue = (v) => v === undefined || v === null || String(v).trim() === "";
+
   eleventyConfig.addFilter("charactersByIds", (characters, ids) =>
     (ids || [])
       .map((id) => (characters || []).find((c) => c.data.id === id))
       .filter(Boolean)
+  );
+
+  // Pages that actually have a picture. Kept separate from charactersByIds
+  // rather than folded into it: that filter answers "which characters are
+  // these ids", which a future caller may want for a list of names, and a
+  // resolver that silently drops entries for a reason in its own name is the
+  // kind of surprise that costs an afternoon.
+  //
+  // Added 2026-08-21 for the homepage hero. An edition's heroCharacterIds may
+  // name a character with no `image:` - 24 of the 76 character pages have
+  // none - and the slideshow rendered that as <img src=".../characters/">,
+  // a request for the directory itself. Elvira is in the DEFAULT cast, so
+  // every domain but undercover-pets.com was serving one broken slide of six
+  // on the one page every reader lands on first. Silent, because a hero slide
+  // is aria-hidden and decorative: nothing announces it and the crossfade
+  // simply showed a gap where a portrait should be.
+  //
+  // Since 2026-08-29 a PLACEHOLDER-stamped portrait (a designed PORTRAIT
+  // PENDING card - see scripts/mark-placeholder.js) is dropped the same way:
+  // the front page shows finished portraits or nothing, on every domain. The
+  // characters/ path here is the same one the slideshow template hardcodes
+  // in src/index.md, which is the only caller of this filter.
+  eleventyConfig.addFilter("withImages", (pages) =>
+    (pages || []).filter((p) =>
+      p && p.data && !isBlankValue(p.data.image) &&
+      !isPlaceholderImage(path.join(__dirname, "src", "images", "characters", String(p.data.image)))
+    )
+  );
+
+  // The character portraits a season page shows (src/_includes/season-portraits.njk),
+  // keyed on the character by `image_season` / a gallery item's `season` -
+  // rules and the reason they are authored rather than derived in
+  // lib/season-portraits.js. Takes `collections.characters`, so the strip
+  // narrows with the edition like every other listing, and drops PLACEHOLDER
+  // cards the way withImages does above.
+  eleventyConfig.addFilter("seasonPortraits", (characters, seasonNumber) =>
+    seasonPortraits(characters, seasonNumber, {
+      isPlaceholder: (rel) => isPlaceholderImage(path.join(__dirname, "src", "images", "characters", rel))
+    })
   );
 
   // Same resolve-by-id pattern as charactersByIds, but codex entries have no
@@ -478,7 +621,7 @@ module.exports = function(eleventyConfig) {
   );
 
   // Every chapter, UNFILTERED - the one chapter collection that ignores
-  // CHARACTERS/TOPICS/THREADS and private threads alike. Feeds the permanent
+  // CHARACTERS/TOPICS/THREADS and the tier gate alike. Feeds the permanent
   // citation aliases in src/chapter-aliases.njk and nothing else.
   //
   // It has to be unfiltered so an external citation of /c/<comment_id>/ never
@@ -573,7 +716,7 @@ module.exports = function(eleventyConfig) {
   // a no-op whenever contentFilter.active is false.
   eleventyConfig.addGlobalData("eleventyComputed", {
     layout: (data) => (isContentIncluded(data, contentFilter) ? data.layout : "excluded.njk"),
-    title: (data) => (isContentIncluded(data, contentFilter) ? data.title : "Not included in this edition"),
+    title: (data) => (isContentIncluded(data, contentFilter) ? data.title : excludedTitle()),
     // Falls back to `undefined` (not a placeholder string) so base.njk's
     // `{{ description | default(site.description) }}` renders the same
     // generic site description an ordinary description-less page already
@@ -587,10 +730,36 @@ module.exports = function(eleventyConfig) {
       computeOgImageSize(computeOgImage(data, isContentIncluded(data, contentFilter))),
     ogType: (data) => computeOgType(data),
     // Only read by excluded.njk (see computeReferenceDomain) - the domain a
-    // reader is sent to for a page this build hides. A private thread's
+    // reader is sent to for a page this build hides. A tier-gated thread's
     // excluded page points at its own homeDomain instead of the default
     // reference domain, so it never loops back to another placeholder.
     referenceDomain: (data) => computeReferenceDomain(data),
+    // What the stub may say about the page it stands in for (excluded.njk,
+    // since 2026-10-09): the page's own title and description, read back from
+    // its file rather than from `data`, because the computed `title` and
+    // `description` above have already been replaced by the time any other
+    // computed field could read them. Only an excluded content file is read;
+    // a paginated page has no file of its own and gets nothing. The edition
+    // the reader is sent to is named by tier, so the sentence can say "the
+    // contemplative edition" or "the full record" without a hand-kept table.
+    excludedPage: (data) => {
+      if (isContentIncluded(data, contentFilter)) return undefined;
+      const inputPath = data.page && data.page.inputPath;
+      let title, description;
+      if (inputPath && /\.md$/.test(inputPath) && fs.existsSync(inputPath)) {
+        try {
+          const fm = matter(fs.readFileSync(inputPath, "utf8")).data || {};
+          title = fm.title;
+          description = fm.description;
+        } catch (e) { /* a stub with nothing to say is still a stub */ }
+      }
+      const domain = computeReferenceDomain(data);
+      const edition = editionForDomain(domain);
+      return { title, description, domain, tier: edition ? edition.tier : null };
+    },
+    // The comments board this page posts to - see computeGiscusBoard. Read by
+    // base.njk in place of the build-wide `giscus` global.
+    giscusBoard: (data) => computeGiscusBoard(data),
     // A hidden page still returns HTTP 200 with a real placeholder body -
     // that IS the design, so no cross-link ever 404s - which means without
     // this a narrowed clone publishes up to a few hundred indexable "Not

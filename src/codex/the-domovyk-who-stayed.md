@@ -3,7 +3,7 @@ layout: codex.njk
 title: "The Domovyk Who Stayed"
 category: "Cultural Record"
 library: "Survey Archive, Threshold Station"
-tags: [kate-ukrainka, nostalgic-fantasy, earth-diaspora, folklore, domovyk, culture, fiction]
+tags: [kate-ukrainka, nostalgic-fantasy, earth-diaspora, folklore, domovyk, culture, fiction, undercover-pets.com]
 description: "The opening story from Kate Ukrainka's Tales from the Old Hearth — a nostalgic fantasy about a household spirit who stays behind when a family leaves Earth, and the descendants who come back to a house none of them have ever seen."
 author: "Kate Ukrainka"
 institution: "Hearth & Horizon Press"

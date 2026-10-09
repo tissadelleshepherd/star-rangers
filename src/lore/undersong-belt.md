@@ -1,6 +1,7 @@
 ---
 layout: lore-entry.njk
 title: "The Undersong Belt"
+revealed_by: s10e01c02
 category: "Locations"
 tags: [undersong-belt, chthonari, skarn-system, asteroid-belt, federation-of-sentient-beings, locations]
 description: "A dense asteroid cluster in the Skarn System, home to the Chthonari — hollowed, resonance-tuned from the first strike of excavation rather than as an afterthought."

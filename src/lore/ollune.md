@@ -4,6 +4,8 @@ title: "Ollune (the Held)"
 category: "Species"
 tags: [ollune, species, cirrane, vantine-system, federation-of-sentient-beings, safety-corps, buoyancy, low-gravity]
 description: "A sapient people native to the upper atmosphere of the gas giant Cirrane, who have never stood on a surface, never lit a fire, and never in their history confused a warning with a promise — because in Ollune physiology the two travel on different channels."
+image: "ollune.jpg"
+image_alt: "Several translucent sail-like beings with a single glowing core each, drifting above the cloud bands of a gas giant in sunlight"
 ---
 
 Ask an Ollune why they cried out, and the question does not translate. Crying out is free. It costs nothing, binds nothing, and commits no one to anything, and an Ollune who felt the air go wrong and said so has not made a claim, laid an accusation, or accepted a duty. They have only made a noise that everyone in the band can hear. To an Ollune, asking why someone raised an alarm is like asking why they exhaled.

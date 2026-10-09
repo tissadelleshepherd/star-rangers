@@ -12,6 +12,12 @@ commentsCategory: lore
       </ol>
     </nav>
     <h1 class="glossary-entry__term">{{ title }}</h1>
+    {% if irish %}
+    {#- "Union Irish" is the Celtic Union's 29th-century Gaelic, an in-story language
+        (Dermot, 2026-09-24 and 2026-10-05); the label links the canonical guide's
+        definition so a reader who knows Irish is not told this is theirs. -#}
+    <p class="glossary-entry__irish">In <a class="glossary-entry__irish-label" href="/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/#union-irish" title="The Celtic Union's 29th-century Gaelic, an in-story language">Union Irish</a>: <span lang="ga">{{ irish }}</span>{% if irish_gloss %} <span class="glossary-entry__irish-gloss">— {{ irish_gloss }}</span>{% endif %}</p>
+    {% endif %}
     {% if category %}
     <p class="glossary-entry__category">
       <span class="character-badge">{{ category }}</span>
@@ -33,12 +39,16 @@ commentsCategory: lore
     {{ content | safe }}
   </div>
 
-  {% if related and related.length %}
+  {# Only the related terms whose pages THIS build carries: on a narrowed
+     edition an excluded page's term drops out rather than linking to the
+     glossary index, and the aside goes with it when none are left. #}
+  {% set relatedHere = related | resolvedRelatedTerms(collections.glossary, collections.lore) %}
+  {% if relatedHere and relatedHere.length %}
   <aside class="glossary-related">
     <h2 class="glossary-related__heading">Related Terms</h2>
     <ul class="glossary-related__list" role="list">
-      {% for term in related %}
-      <li><a href="{{ term | glossaryUrl(collections.glossary, collections.lore) }}">{{ term }}</a></li>
+      {% for item in relatedHere %}
+      <li><a href="{{ item.url }}">{{ item.term }}</a></li>
       {% endfor %}
     </ul>
   </aside>

@@ -4,6 +4,8 @@ title: "The Commonwealth"
 category: "Institutions"
 tags: [commonwealth, new-london, earth, governance, diplomacy, cultural-preservation, institutions]
 description: "A voluntary association of communities descended from the pre-collapse British Isles, anchored at New London Space Habitat — thin by design, and named for a word that has meant both a crown's family of realms and a republic without one."
+image: "the-commonwealth.jpg"
+image_alt: "A small meeting room in an orbital habitat with a long plain table and chairs, three cups at one end, bare walls, and a wide window onto the habitat's interior curve of terraces, water and trees far below"
 ---
 
 The association outlived the country it was named for, the throne it was founded under, and most of the coastline its members came from. It has never seriously considered changing the name.

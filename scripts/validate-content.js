@@ -10,8 +10,10 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const matter = require("gray-matter");
-const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor } = require("../lib/content-schema");
-const { privateThreadForPage, checkPrivateThreadSignatureTags } = require("../lib/content-filter");
+const { CONTENT_TYPES, TIMELINE_TYPE, CHAPTER_ID_PATTERN, isTimelineEntry, chapterIdFor, characterStatusProblem } = require("../lib/content-schema");
+const { checkGatedThreadSignatureTags } = require("../lib/content-filter");
+const { isPlaceholderImage } = require("../lib/placeholder-marker");
+const { TIER_ORDER } = require("../lib/editions");
 
 const SRC_DIR = path.join(__dirname, "..", "src");
 
@@ -33,7 +35,11 @@ function findMarkdownFiles(dir) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       results = results.concat(findMarkdownFiles(fullPath));
-    } else if (entry.name.endsWith(".md")) {
+    } else if (entry.name.endsWith(".md") && entry.name !== "README.md") {
+      // A README.md documents the directory for people (2026-09-06); it is
+      // not a content file, has no front matter, and .eleventyignore keeps
+      // Eleventy from rendering it. Every walker that treats .md as content
+      // skips it the same way.
       results.push(fullPath);
     }
   }
@@ -71,6 +77,17 @@ function checkAgainstSchema(data, schema) {
     }
   }
 
+  // A glossary entry's `irish_gloss` explains its `irish` term, so one
+  // without the other would render a literal sense of nothing.
+  if (!isBlank(data.irish_gloss) && isBlank(data.irish)) {
+    problems.push(`"irish_gloss" is set but "irish" is not - the gloss explains a term that is missing`);
+  }
+  for (const field of ["irish", "irish_gloss"]) {
+    if (!isBlank(data[field]) && typeof data[field] !== "string") {
+      problems.push(`field "${field}" must be a string, got ${JSON.stringify(data[field])}`);
+    }
+  }
+
   for (const field of schema.numeric || []) {
     if (!isBlank(data[field]) && !Number.isFinite(Number(data[field]))) {
       problems.push(`field "${field}" must be a number, got ${JSON.stringify(data[field])}`);
@@ -98,6 +115,33 @@ function checkChapterConsistency(inputPath, data, relativePath) {
     data.povs.forEach((pov, index) => {
       if (!pov || isBlank(pov.id) || isBlank(pov.label)) {
         problems.push(`povs[${index}] needs both an "id" and a "label"`);
+      }
+      // A tier-gated block (`::: pov <id> tier=<tier>` in the body) is
+      // mirrored here so the "View from" buttons can be gated the same way.
+      // An unknown tier would render the block everywhere while hiding its
+      // button nowhere, silently - so it fails here instead.
+      if (pov && pov.tier !== undefined && !TIER_ORDER.includes(String(pov.tier))) {
+        problems.push(`povs[${index}] names tier "${pov.tier}", which is not one of ${TIER_ORDER.join(", ")}`);
+      }
+      // The label convention (2026-10-07, Dermot's choice among three shapes
+      // after the 85 distinct labels were found carrying four kinds of thing
+      // in four orders): `<rank as held in this chapter> <name> (<frame>[, <one
+      // qualifier>])` - the frame first (species, with the augmentation the
+      // record marks: Smart Pet, Cyber-Enhanced, plural, unaugmented), then at
+      // most one qualifier the chapter needs, commas only, nothing after the
+      // name outside the bracket. A warning rather than a failure: the label
+      // is presentation, not canon, and a chapter with a bare name still
+      // builds; what the warning catches is the drift that put "Human - the
+      // eldest survivor" and "Órla Shepherd, as remembered (Human)" beside
+      // "Human, the eldest survivor" and "(Human, as remembered)".
+      if (pov && !isBlank(pov.label)) {
+        const label = String(pov.label);
+        const bracket = label.match(/^(.*\S)\s+\(([^()]+)\)$/);
+        if (!bracket) {
+          console.warn(`WARN: ${relativePath}: povs[${index}] label "${label}" has no bracket - the convention is "<rank> <name> (<frame>[, <qualifier>])"`);
+        } else if (/[—–;]/.test(bracket[2]) || /,\s*(as remembered|[A-Z])/.test(bracket[1])) {
+          console.warn(`WARN: ${relativePath}: povs[${index}] label "${label}" - the bracket takes commas only, and anything after the name goes inside it`);
+        }
       }
     });
 
@@ -173,53 +217,13 @@ function urlForContentFile(filePath, data) {
   return rel;
 }
 
-// Enforces the one-way visibility boundary between public and private
-// storyline threads. A private thread (lib/storyline-threads.js `private:
-// true`) is hidden on every build that doesn't opt into it - including the
-// full site - so a PUBLIC page that hardcodes a link INTO a private-thread
-// page produces a dead end there: the target renders the "not included in
-// this edition" placeholder (src/_includes/excluded.njk) rather than the
-// real page. The reverse direction is fine - a private page is only ever
-// seen on a clone that opted its thread in, where the public pages it links
-// to exist too - so this flags only public -> private links, letting a
-// private page link out to public ones freely. Returns grouped problems in
-// the same shape as the schema checks below.
-function checkPrivateThreadLinkBoundary(files) {
-  const pages = files.map((filePath) => {
-    const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
-    return {
-      filePath,
-      content,
-      isPrivate: Boolean(privateThreadForPage(data)),
-      urlPath: urlForContentFile(filePath, data).replace(/\/$/, "")
-    };
-  });
-
-  const privatePaths = pages.filter((p) => p.isPrivate).map((p) => p.urlPath);
-  const results = [];
-  if (!privatePaths.length) return results;
-
-  for (const page of pages) {
-    if (page.isPrivate) continue;
-    const problems = [];
-    for (const priv of privatePaths) {
-      // A link target of the private page's URL, with or without this
-      // project's own /star-rangers Pages prefix, anchored on the trailing
-      // slash so /lore/foo/ can't spuriously match /lore/foo-bar/.
-      const escaped = priv.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      if (new RegExp(`(?:/star-rangers)?${escaped}/`).test(page.content)) {
-        problems.push(
-          `links into private-thread page ${priv}/ - a public page must not link into a private thread ` +
-          `(private threads may link out to public pages, not the reverse; see lib/storyline-threads.js)`
-        );
-      }
-    }
-    if (problems.length) {
-      results.push({ relativePath: path.relative(process.cwd(), page.filePath), label: "private-thread link boundary", problems });
-    }
-  }
-  return results;
-}
+// The public -> private link boundary that used to live here was retired on
+// 2026-09-04 with `private: true` itself (lib/storyline-threads.js, HISTORY).
+// A general-tier page that links into a thread gated to the contemplative
+// tier now gets what any narrowed link gets: the excluded.njk placeholder,
+// pointing at the thread's homeDomain. That is the ordinary contract of this
+// site ("no link ever 404s"), and a reader-facing page that describes the
+// tier ladder has every reason to point at the tier above it.
 
 // ---------------------------------------------------------------------------
 // Image bookkeeping
@@ -296,6 +300,251 @@ function checkFrontMatterImageExists(data, relativePath, index) {
   const bare = path.basename(value).replace(/\.[^.]+$/, "");
   if (index.byBasename.has(bare)) return [];
   return [`image "${data.image}" does not exist under src/images/`];
+}
+
+// The check above proves the FILE exists somewhere under src/images/. This one
+// proves the URL the layout emits actually resolves, which is not the same
+// question and is the one a reader experiences.
+//
+// Found 2026-08-21 by a broken image on a live page. src/lore/planets/drithane.md
+// carried `image: "drithane.jpg"` and the file was the only one in the corpus
+// sitting in src/images/lore/planets/ rather than flat in src/images/lore/ with
+// every other planet's. lore-entry.njk hardcodes /images/lore/ and appends the
+// front-matter value, so the page requested /images/lore/drithane.jpg and got a
+// 404 - while the check above passed, because it falls back to matching the
+// BASENAME anywhere under src/images/ and found the file one directory over.
+//
+// That fallback is not a bug and is deliberately left alone: front matter
+// legitimately carries a partial path ("universes/si-gaoithe.jpg") that the
+// layout completes, so the basename match is what lets one check serve every
+// content type. What was missing is the stricter question underneath it, asked
+// per type: layout directory + front-matter value, exactly as the template
+// builds it.
+//
+// The map mirrors the five layouts that hardcode a category directory
+// (character.njk, codex.njk, lore-entry.njk, glossary-entry.njk, chapter.njk).
+// Two of them - glossary and chapters - have no page carrying an `image:`
+// today, so those rows are dormant rather than dead: they cost nothing and the
+// first such page gets checked instead of quietly 404ing.
+const IMAGE_DIR_BY_SECTION = {
+  characters: "characters",
+  codex: "codex",
+  lore: "lore",
+  glossary: "glossary",
+  seasons: "chapters"
+};
+
+function checkFrontMatterImageUrlResolves(data, relativePath, index) {
+  if (isBlank(data.image)) return [];
+  const section = relativePath.split(/[/\\]/)[1]; // "src/lore/planets/x.md" -> "lore"
+  const dir = IMAGE_DIR_BY_SECTION[section];
+  if (!dir) return [];
+  const value = String(data.image).replace(/^\/+/, "");
+  const rel = `${dir}/${value}`;
+  if (index.byRelPath.has(rel)) return [];
+  const elsewhere = index.byBasename.get(path.basename(value).replace(/\.[^.]+$/, "")) || [];
+  return [
+    `image "${data.image}" resolves to /star-rangers/images/${rel}, which does not exist` +
+    (elsewhere.length ? ` - the file is at src/images/${elsewhere.join(", src/images/")}` : "") +
+    ". The layout supplies the directory, so the front-matter value is the path BELOW it."
+  ];
+}
+
+// A character's gallery and season keys. Added 2026-10-07 with the season
+// pages' portrait strip (lib/season-portraits.js). Three things a page can
+// get wrong that nothing else sees:
+//
+//   1. A gallery item's `image` names no file under src/images/characters/<id>/.
+//      character.njk hardcodes that directory, so a frame filed one level up
+//      passes the orphan check (the file IS referenced) and 404s on the page -
+//      the drithane.jpg failure, for galleries.
+//   2. `image_season` or an item's `season` is not a whole number, so the
+//      strip's number comparison never matches and the frame silently never
+//      surfaces on any season page.
+//   3. The key names a season with no index page (src/seasons/sNN/index.md),
+//      so there is no page for the frame to surface on. A typo'd 15 for 5
+//      would otherwise look exactly like a frame nobody had keyed.
+const SEASONS_DIR = path.join(SRC_DIR, "seasons");
+function existingSeasonNumbers() {
+  if (!fs.existsSync(SEASONS_DIR)) return new Set();
+  return new Set(
+    fs.readdirSync(SEASONS_DIR, { withFileTypes: true })
+      .filter((d) => d.isDirectory() && /^s\d{2}$/.test(d.name) && fs.existsSync(path.join(SEASONS_DIR, d.name, "index.md")))
+      .map((d) => Number(d.name.slice(1)))
+  );
+}
+
+function seasonKeyProblem(value, label, seasons) {
+  if (isBlank(value)) return null;
+  const n = Number(value);
+  if (!Number.isInteger(n) || n < 0) {
+    return `${label} "${value}" is not a whole season number - the season pages compare it as a number, so this frame would surface nowhere`;
+  }
+  if (!seasons.has(n)) {
+    return `${label} ${n} names no season page (no src/seasons/s${String(n).padStart(2, "0")}/index.md), so there is nowhere for the frame to surface`;
+  }
+  return null;
+}
+
+function checkCharacterGallery(data, index, seasons) {
+  const problems = [];
+  const headerProblem = seasonKeyProblem(data.image_season, "image_season", seasons);
+  if (headerProblem) problems.push(headerProblem);
+  if (!isBlank(data.image_season) && isBlank(data.image)) {
+    problems.push("image_season is set but the page has no image: to key");
+  }
+  if (!isBlank(data.image_caption) && isBlank(data.image)) {
+    problems.push("image_caption is set but the page has no image: to caption");
+  }
+  if (data.gallery === undefined || data.gallery === null) return problems;
+  if (!Array.isArray(data.gallery)) return problems.concat("gallery must be a list of {image, caption?, image_alt?, season?} items");
+  data.gallery.forEach((item, i) => {
+    const where = `gallery[${i}]`;
+    if (!item || typeof item !== "object" || isBlank(item.image)) {
+      problems.push(`${where} has no image`);
+      return;
+    }
+    const rel = `characters/${data.id}/${String(item.image).replace(/^\/+/, "")}`;
+    if (!index.byRelPath.has(rel)) {
+      const elsewhere = index.byBasename.get(path.basename(String(item.image)).replace(/\.[^.]+$/, "")) || [];
+      problems.push(
+        `${where} image "${item.image}" resolves to /star-rangers/images/${rel}, which does not exist` +
+        (elsewhere.length ? ` - the file is at src/images/${elsewhere.join(", src/images/")}` : "") +
+        ". character.njk supplies images/characters/<id>/, so the value is the file name below it."
+      );
+    }
+    const seasonProblem = seasonKeyProblem(item.season, `${where} season`, seasons);
+    if (seasonProblem) problems.push(seasonProblem);
+  });
+  return problems;
+}
+
+// Every edition's hero cast has to be able to RENDER on that edition. Four
+// ways it silently cannot, the first three found live on 2026-08-21:
+//
+//   1. The id names no character page at all.
+//   2. The page exists but has no `image:`. src/index.md drops it (the
+//      withImages filter), and before that filter existed it emitted an <img>
+//      pointing at the characters directory. Elvira was in the DEFAULT cast.
+//   3. The page exists and has a portrait, but this edition's own filter
+//      excludes it - so the slide is not there on the domain that asked for it.
+//   4. The portrait file is a PLACEHOLDER-stamped PENDING card (added
+//      2026-08-29, when the withImages filter started dropping those so the
+//      slideshow only ever shows finished portraits). The page validates, the
+//      file exists, and the slide silently vanishes on every domain casting it.
+//
+// (3) is the one that had eaten the site. Four of the seven editions listed a
+// cast made entirely of characters their own CHARACTERS/TOPICS/THREADS filtered
+// out, so heroCharacters resolved empty and the homepage quietly fell back to
+// the static hero image. Five of seven domains had no slideshow and nothing
+// anywhere said so: the fallback is deliberate, correct, and indistinguishable
+// from a design decision.
+//
+// Nothing else can catch this. lib/editions.js knows the cast but not the
+// corpus; validate-content.js knows the corpus but had no reason to look at the
+// registry; the build renders a perfectly valid page either way. It is exactly
+// the shape of failure this file exists for, so it lives here rather than in a
+// local tool - a cast that cannot render should fail CI.
+//
+// A WARNING, not an error, for an edition whose whole pool is empty: that is a
+// statement about what the domain carries rather than a mistake in the cast,
+// and the fix is a decision about the domain (widen it, or accept the static
+// hero) rather than an edit to this list.
+function checkEditionHeroCasts(characterPages) {
+  const { DEFAULT_EDITION, allEditions, editionFor } = require("../lib/editions");
+  const { getContentFilter, isCharacterIncluded } = require("../lib/content-filter");
+
+  const byId = new Map();
+  for (const { data, relativePath } of characterPages) {
+    if (!isBlank(data.id)) byId.set(String(data.id).toLowerCase(), { data, relativePath });
+  }
+
+  // getContentFilter() reads the three env vars and caches nothing, so setting
+  // them around the call is the honest way to ask "what would this edition's
+  // build see?" without duplicating the filter's own union logic here - which
+  // would then be a second copy to keep in step with lib/content-filter.js.
+  function filterFor(edition) {
+    const saved = {
+      CHARACTERS: process.env.CHARACTERS,
+      TOPICS: process.env.TOPICS,
+      THREADS: process.env.THREADS
+    };
+    try {
+      process.env.CHARACTERS = (edition.characters || []).join(",");
+      process.env.TOPICS = (edition.topics || []).join(",");
+      process.env.THREADS = (edition.threads || []).join(",");
+      const filter = getContentFilter();
+      // The build's tier is the edition's own (lib/editions.js), not the
+      // tier of whatever EDITION this validation happens to run under -
+      // without this, Brother Fintan (church-space) fails the fellowship
+      // cast on a general-tier run, which is not what that domain sees.
+      filter.tier = edition.tier;
+      return filter;
+    } finally {
+      for (const [key, value] of Object.entries(saved)) {
+        if (value === undefined) delete process.env[key];
+        else process.env[key] = value;
+      }
+    }
+  }
+
+  const problems = [];
+  for (const entry of [DEFAULT_EDITION, ...allEditions()]) {
+    const edition = editionFor(entry.id);
+    const filter = filterFor(edition);
+    const ids = edition.heroCharacterIds || [];
+    const renderable = [];
+
+    for (const rawId of ids) {
+      const id = String(rawId).toLowerCase();
+      const page = byId.get(id);
+      if (!page) {
+        problems.push(`edition "${edition.id}" casts "${rawId}", which is not a character id`);
+        continue;
+      }
+      if (isBlank(page.data.image)) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", whose page has no image: - the slideshow drops it`
+        );
+        continue;
+      }
+      if (isPlaceholderImage(path.join(SRC_DIR, "images", "characters", String(page.data.image)))) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", whose portrait is a PLACEHOLDER-stamped pending card - ` +
+          "the slideshow only shows finished portraits, so the slide never renders; " +
+          "replace the card with a real portrait or recast the edition"
+        );
+        continue;
+      }
+      if (!isCharacterIncluded(page.data, filter)) {
+        problems.push(
+          `edition "${edition.id}" casts "${rawId}", which its own filter excludes - the slide never renders on that domain`
+        );
+        continue;
+      }
+      renderable.push(id);
+    }
+
+    // An edition with a pool of zero cannot be fixed from this list, so say so
+    // once and do not fail: the static hero is a legitimate front page.
+    if (!renderable.length && ids.length) {
+      const pool = [...byId.values()].filter(
+        (p) => !isBlank(p.data.image) &&
+          !isPlaceholderImage(path.join(SRC_DIR, "images", "characters", String(p.data.image))) &&
+          isCharacterIncluded(p.data, filter)
+      ).length;
+      console.warn(
+        `WARN: edition "${edition.id}" renders no hero slideshow - ` +
+        (pool
+          ? `none of its cast survives its own filter (${pool} character(s) with a portrait do).`
+          : "it carries no character page with a portrait at all, so the homepage uses the static hero image.")
+      );
+    }
+  }
+
+  return problems.length
+    ? [{ relativePath: "lib/editions.js", label: "hero casts", problems }]
+    : [];
 }
 
 // An image no page references is either a leftover from a deleted entry or a
@@ -428,6 +677,13 @@ function main() {
   // silently mixing their comments (see comment_id's own doc in
   // lib/content-schema.js for why it must stay unique and permanent).
   const commentIdOwners = new Map();
+  // character id -> relativePath of the first character page seen with it.
+  // A chapter's `povs:` and the editions' hero casts name a character by this
+  // id (.eleventy.js resolves `c.data.id`), so two pages sharing one id would
+  // both answer to it and the wrong portrait or viewpoint could render. Found
+  // 2026-10-09 by scripts/extract-characters.js: sorcha.md and
+  // sorcha-shepherd.md both carried `id: sorcha`.
+  const characterIdOwners = new Map();
   const codexSlugs = loadCodexSlugs();
   // Every URL the site builds, so a version chain's forward and backward links
   // can be checked against something real rather than assumed.
@@ -440,6 +696,9 @@ function main() {
   const chainCurrent = new Map();
   const imageFiles = findImageFiles(IMAGES_DIR);
   const imageIndex = indexImages(imageFiles);
+  const seasonNumbers = existingSeasonNumbers();
+  // Collected on the way past, for the hero-cast check below.
+  const characterPages = [];
 
   for (const filePath of files) {
     const relativePath = path.relative(process.cwd(), filePath);
@@ -456,17 +715,24 @@ function main() {
 
     const problems = checkAgainstSchema(data, schema);
     if (isChapter) problems.push(...checkChapterConsistency(filePath, data, relativePath));
-    if (schema === CONTENT_TYPES.character) problems.push(...checkKnownCodex(data, codexSlugs));
+    if (schema === CONTENT_TYPES.character) {
+      problems.push(...checkKnownCodex(data, codexSlugs));
+      problems.push(...checkCharacterGallery(data, imageIndex, seasonNumbers));
+      const statusProblem = characterStatusProblem(data.status);
+      if (statusProblem) problems.push(statusProblem);
+      characterPages.push({ data, relativePath });
+    }
     problems.push(...checkVersionChain(data, urlSet));
     if (!isBlank(data.version_of) && isBlank(data.superseded_by)) {
       const base = String(data.version_of);
       chainCurrent.set(base, (chainCurrent.get(base) || []).concat(relativePath));
     }
     problems.push(...checkFrontMatterImageExists(data, relativePath, imageIndex));
-    for (const { threadId, signatureTag } of checkPrivateThreadSignatureTags(data)) {
+    problems.push(...checkFrontMatterImageUrlResolves(data, relativePath, imageIndex));
+    for (const { threadId, signatureTag } of checkGatedThreadSignatureTags(data)) {
       problems.push(
         `tagged "${signatureTag}" (a "${threadId}" signature tag - see lib/storyline-threads.js) but missing ` +
-        `the "${threadId}" tag itself - likely meant to be private-thread content that's about to leak onto every public domain`
+        `the "${threadId}" tag itself - likely meant for that tier-gated thread, and about to ship on every domain below its tier`
       );
     }
 
@@ -479,12 +745,19 @@ function main() {
       }
     }
 
+    if (schema === CONTENT_TYPES.character && !isBlank(data.id)) {
+      const owner = characterIdOwners.get(String(data.id));
+      if (owner) {
+        problems.push(`id "${data.id}" is already used by ${owner} - a chapter's povs: and an edition's hero cast name a character by id, so each page needs its own`);
+      } else {
+        characterIdOwners.set(String(data.id), relativePath);
+      }
+    }
+
     if (problems.length) {
       fileProblems.push({ relativePath, label: schema.label, problems });
     }
   }
-
-  fileProblems.push(...checkPrivateThreadLinkBoundary(files));
 
   for (const [base, pages] of chainCurrent) {
     if (pages.length > 1) {
@@ -518,6 +791,7 @@ function main() {
   fileProblems.push(...checkOrphanImages(imageIndex, corpus));
   fileProblems.push(...checkDuplicateImages(imageFiles));
   fileProblems.push(...checkStoryBibleImageRefs(imageIndex));
+  fileProblems.push(...checkEditionHeroCasts(characterPages));
 
   if (fileProblems.length === 0) {
     console.log(`Content validation passed (${files.length} files, ${imageIndex.byRelPath.size} images checked).`);

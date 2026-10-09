@@ -11,7 +11,7 @@ aliases:
 tags: [human, survey, threshold-station, season-1]
 description: "Senior boundary surveyor assigned to lead the new team at Threshold Station."
 image: "galahad-thorne.jpg"
-image_alt: "Designed cover for Sir Galahad Thorne: a blue compass/surveying emblem in a ringed seal, on a dark background, evoking his boundary-survey role."
+image_alt: "Sir Galahad Thorne on a misted marsh at first light, one hand steadying a plain unmarked optical survey instrument on its tripod, a line of bare wooden marker posts receding into the haze behind him."
 ---
 
 Twelve years in the Survey Corps teaches a person to read incident reports the way a geologist reads strata: not for the events themselves, but for the gaps between them — what was not filed, what was filed and quietly revised, what the official record decided to call noise.
@@ -24,10 +24,10 @@ He is methodical without being rigid. He is cautious without being fearful. He h
 
 ## Known History
 
-- Joined the Survey Corps in Year -12 (pre-story).
+- Joined the Survey Corps in 2814 UCSD, twelve years before the Threshold posting.
 - Boundary posting experience: six prior stations, two of which recorded unexplained events.
 - Transferred to Threshold Station in 2826 UCSD as team lead for new survey group.
-- Has no documented contact with Court-Fae or Levrils prior to the Threshold posting.
+- Has no documented contact with Obligers or Levrils prior to the Threshold posting.
 - Married, and left the marriage some years before the Threshold transfer. Nothing about it is on the survey record, and he has never given anyone at a boundary post a reason to ask.
 
 ## The Marriage
@@ -46,4 +46,4 @@ Galahad does not mythologise things. When he encounters something he cannot expl
 
 He is not immune to patterns he does not yet understand. He is simply unwilling to name a pattern before the data supports it. He knows these are different qualities.
 
-His title — "Sir" — comes from a territorial honour that applies to a territory that still technically exists. He uses it because rank carries less weight than title at the boundary posts, and because he has never particularly cared what it means to other people.
+His title — "Sir" — comes from a territorial honour that applies to a territory that still technically exists: an old Earth-descended grant, of the kind the Expansion left scattered behind it. He uses it because rank carries less weight than title at the boundary posts, and because he has never particularly cared what it means to other people.

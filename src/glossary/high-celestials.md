@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "High Celestials"
+irish: "Ardneamhaithe"
+irish_gloss: "high heavenly ones, retired in Irish as in English"
 id: high-celestials
 category: "Cosmic Cascade"
 short: "Ambiguous legacy designation, retired: used loosely both for Telearchs ('High Celestials') and for the force-governing Mediarchs ('higher celestials')."

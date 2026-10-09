@@ -33,7 +33,7 @@ Residents describe the trade-off, when asked, in terms that would sound familiar
 
 ## Venice in 2826 UCSD
 
-Civil administration of the platform system falls to the same standing environmental authority that maintains Earth's wildlife preserves under Solar System Defence Command — the institutional throughline the Crisis Centuries record traces from early coalition action through the United Space Consortium's civil administration to today. Venice itself remains, as it was for most of its pre-expansion history, a city rather than a fully sovereign world or habitat: no Star Rangers jurisdiction limit applies to it in the way one applies to a charter planet, and its day-to-day governance is a civic matter rather than a Concord one.
+Civil administration of the platform system falls to the same standing environmental authority that maintains Earth's wildlife preserves under Solar System Defence Command — the institutional throughline the Crisis Centuries record traces from early coalition action through the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration to today. Venice itself remains, as it was for most of its pre-expansion history, a city rather than a fully sovereign world or habitat: no Star Rangers jurisdiction limit applies to it in the way one applies to a charter planet, and its day-to-day governance is a civic matter rather than a Concord one.
 
 What draws visitors now is not so different from what always drew them: a historic city that should not, by any reasonable engineering expectation, still exist in recognisable form. The difference is that in 2826 UCSD, nobody visiting Venice is gambling on the tide.
 

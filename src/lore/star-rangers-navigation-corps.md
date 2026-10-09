@@ -4,6 +4,8 @@ title: "The Star Rangers Navigation Corps"
 category: "Institutions"
 tags: [star-rangers, navigation-corps, drift-routes, certification, fold-transit, survey-corps, lagrange, institutions]
 description: "The corps that certifies routes rather than hulls, why route certificates expire when hull certificates do not, and why the body that measures a corridor's drift cannot be the body that clears it."
+image: "star-rangers-navigation-corps.jpg"
+image_alt: "A small plain cylindrical buoy with an antenna mast tumbling slowly against a dense starfield, unlit and unmarked"
 ---
 
 A corridor that was safe last year is not a corridor that is safe. The Navigation Corps exists because that sentence costs money and nobody has found a way to stop it being true.
@@ -76,7 +78,7 @@ Two recognitions are settled, and between them they are the reason a Corps certi
 
 The [Solar System Concord](/star-rangers/lore/solar-system-concord/) recognises the Star Rangers at home. That is the domestic case and the older one: a Corps certificate is lawful currency across every polity that has adopted Concord standards, which is most of them and never all.
 
-The [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) recognises them as well, which matters more than the arithmetic of one confederation suggests: Union space carries a great deal of the traffic the Corps clears, and a standard honoured at Tír na nÓg is a standard honoured along most of the routes that reach it.
+The [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) recognises them as well, which matters more than the arithmetic of one confederation suggests: Union space carries a great deal of the traffic the Corps clears, and a standard honoured at [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) is a standard honoured along most of the routes that reach it.
 
 The [Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/) recognises them beyond it. That recognition took the long form of the process above, and it is the sole reason a Ranger certificate means anything whatever outside human space. The Corps' own archivists note, without pressing the point, that the charter constraints which made the Rangers legible to a non-interference confederation were written by outer-station delegates who had never met one and were arguing about something else entirely.
 

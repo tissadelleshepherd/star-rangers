@@ -15,9 +15,9 @@ permalink: /seasons/s02/e04/
 
 <h1 class="page-title">Season 2 · Episode 4</h1>
 <p class="page-intro">
-  The Survey Corps goes back to Drithane to instrument the crossing itself, and the engineer assigned to the
-  job packs the one instrument Eden never had a form for — because everyone on that world watches the drithle,
-  and nobody has ever once listened to it.
+  The Survey Corps goes back to Drithane to measure the crossing itself. The engineer sent to do it packs the
+  one instrument Eden never had a form for. Everyone on that world watches the drithle. Nobody has ever once
+  listened to it.
 </p>
 
 {% set seasonNumber = "2" %}
@@ -25,18 +25,21 @@ permalink: /seasons/s02/e04/
 {% set hasEpisodeChapters = false %}
 <ul class="chapter-list" role="list">
 {% for chapter in collections.chapters %}
-  {% if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber %}
-    {% if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif %}
+  {%- if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber -%}
+    {%- if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif -%}
     <li class="chapter-list__item">
       <a href="/star-rangers{{ chapter.url }}">
         <span class="chapter-list__code">{{ chapter.data.id | upper }}</span>
         <span class="chapter-list__title">{{ chapter.data.title }}</span>
-        {% if chapter.data.location %}
+        {%- if chapter.data.location -%}
         <span class="chapter-list__loc">{{ chapter.data.location }}</span>
-        {% endif %}
+        {%- endif -%}
+        {%- if chapter.data.description -%}
+        <span class="chapter-list__desc">{{ chapter.data.description }}</span>
+        {%- endif -%}
       </a>
     </li>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 </ul>
 {% if not hasEpisodeChapters %}

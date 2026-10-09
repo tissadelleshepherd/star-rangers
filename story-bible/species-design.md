@@ -18,6 +18,16 @@ terrestrial bears, despite the name**. The published refusal now turns on the
 built on it, and an upright body arrived at independently is not a second entry
 on that list.
 
+**The frame is the point — 30 September 2026.** Dermot's direction, verbatim:
+*"Krenyi are the strangest non-human people because they look superficially
+humanoid and could pass as almost human."* This is the 22 September exception
+(*too humanoid unless that is the point of the story*) applied to the one
+people on the human frame: the resemblance is the work, and every difference
+lands as a correction to an assumption the frame invited. Realized on the lore
+page as *The Nearest Frame Is the Strangest*. For the other species nothing
+changes — they still owe the record a body that follows from a world, and the
+Krenyi are not a licence for a second near-human people.
+
 **So nothing here needs redoing.** The five species below still owe the record a
 body that follows from a world, and *"could this be a human with features
 applied?"* is still the test that fails a drifted portrait. What changed is that
@@ -226,6 +236,13 @@ distinct histories, rather than five body plans with the same story attached.
   *fluid-boundary anomalies*, a phrase that means almost nothing on a
   single-ocean world. Now a standing refusal on
   `src/lore/what-the-record-refuses.md`.
+- **The allegory.** A species designed as a metaphor for a human subgroup
+  or country — the Star Trek pattern, rejected by Dermot outright
+  (29 August 2026, verbatim in `intake-2026-08-29.md`; theme note in
+  `ideas.md`). The test: if the page summarises as "they're basically X"
+  for any human group, start over from the world. This file's method is
+  the antidote — a people derived from gravity, cold, or dense air has no
+  room to be a cipher, because the world got there first.
 - **The planet of hats.** One environment, one temperament, one job, no internal
   disagreement. The cast principles forbid it for humans and the same reasoning
   applies here. The Krenyi page is the standard to match — a whole practice, a
@@ -245,6 +262,77 @@ distinct histories, rather than five body plans with the same story attached.
   that is good. But a species should also be *better* at something than
   everyone around it, or the difference reads as a disability rather than a
   different world.
+- **The human concept with alien furniture.** A people whose body was derived
+  from their world and whose family, career, status, death and personhood
+  are ours with the nouns changed. Dermot's direction, 14 September 2026:
+  *alien cultures have very different concepts of relationships, life, death,
+  family, career, role, status, legacy, individuality and personhood* — see
+  `mind-design.md`'s eighth question, which asks each of the ten for every
+  people and allows *absent* and *unaskable* as answers. The body note gets
+  a people's senses right; if the mind note is skipped, the senses end up
+  serving a human life.
+
+## The uniform equivalent (Dermot's direction, 10 September 2026)
+
+*"Aliens have uniform equivalents"* (`intake-2026-09-10.md`, fourth
+section), on the day the Rangers' uniform was given its reason — the
+hospital's: a mark a stranger in a working place reads to know who does
+what, built for the work, announcing a function and not a claim on anyone.
+That adds one question to the ones above that decide a body, and it is a
+question about the *medium*, since the job is universal and the form is
+each people's own. `src/lore/rank-insignia-and-uniform.md` now says this
+generally and asserts nothing per species; this is where the per-species
+answer gets derived when a page needs it. Nothing below is canon.
+
+- **Krenyi** — a clothed, humanoid, calendar-keeping people; cloth and a
+  worn mark are available and would be the boring answer. Shapes: (a) worn
+  marks of their own grammar, deliberately unlike the Rangers' geometry;
+  (b) a mark carried in the calendar-keeping itself — what a Krenyi
+  officer is, told by which count she keeps.
+- **Pelagene Littoral** — an ocean people; cloth is a poor medium in water.
+  Shapes: (a) colour or pattern on the body, controllable, as some
+  cephalopods have; (b) a carried object that reads in the water — a
+  sound-maker, a tool worn where it can be seen.
+- **Veyr Basaltborn** — shapes: (a) a mark worked into the body's own
+  surface; (b) a worn plate, on the Rangers' own magnetic principle,
+  which would explain why the Veyr took to the Rangers' tab standard
+  easily.
+- **Serephine Dunekin** — a scout people; shapes: (a) posture or gait —
+  a role told by how a body carries itself, which a desert people who
+  read distance would find natural; (b) a worn mark.
+- **Chthonari** — thought as the Undersong (`mind-design.md`); the obvious
+  medium is sound. Shapes: (a) a role carried as a standing tone or a
+  phrase in the Undersong, so that who does what is heard, not seen;
+  (b) nothing — a people who cannot read one another needing no mark, and
+  saying so.
+- **Verdani** — the lore page notes strain-linked coloration; that is
+  biology, not a mark, and must not be conscripted as one. Shapes: (a) a
+  worn or grown token, distinct from strain colour; (b) an absence, with
+  the reason stated.
+- **The Told** — read the three Below the Roof chapters before claiming
+  anything: a people whose names are tellings may carry role the same
+  way, and a visual mark for a deep-side people is the first thing to
+  doubt. Shapes: (a) a role is told, not shown; (b) nothing yet, absence
+  marked.
+- **Pandoids** — the Fliade entry and Teddy's page describe an observational
+  register; nothing about marks. Absence marked.
+  *Scale and frame, ruled 7 October 2026* (Dermot, verbatim: *"Pandoids are
+  less humanoid than the Kyreni but more humanoid than almost any other
+  people."*, and the same evening *"Pandoids look more like cute giant teddy
+  bears than like sloths"* and *"A human in a cold suit would almost be the
+  size of a Pandoid and almost blend in if the suit had black and white
+  markings."*): upright on two legs with forelimbs of equal length, about
+  the size of a suited human, a round head on a round body; the Krenyi are
+  the only people on the human frame (`src/lore/krenyi.md`), and the
+  Pandoids sit just below them on the humanoid scale, above every other
+  people the record holds. The cold-suit reading is noted in
+  `intake-2026-10-07.md` and not yet on a page.
+
+Rule for using this list: pick a shape only in the page that needs it, in
+that page's own voice, and log the pick in the canonical guide if it coins
+a term. A people whose equivalent is *nothing* is a valid answer and an
+interesting one, and the lore page's *"does not guess"* line is there to
+keep it available.
 
 ## Where this goes
 
@@ -256,3 +344,95 @@ page at all; the Verdani have one that never says what a Verdani looks like.
 
 Currently blocked on prose, with placeholder cards standing: **Sethka Ru**
 (Serephine), **Qiren Tal** (Veyr), **Isren Farrowkin** (Verdani).
+
+---
+
+**Status correction, 23 August 2026** — the paragraph above and "four of the
+five have no page at all" are stale: `src/lore/serephine-dunekin.md`,
+`src/lore/pelagene-littoral.md`, `src/lore/chthonari.md` and
+`src/lore/verdani.md` all exist alongside the Veyr page, and Sethka Ru's
+portrait is live. Verified against the repo per the standing rule; the lines
+are left in place as history of what this file was for.
+
+**And a sixth species now exists** — the Ilveth of Sardain
+(`src/lore/ilveth.md`, drafted 23 August 2026 from the "aliens with thermal
+night vision" direction, **approved by Dermot and merged the same day**).
+Designed by this file's method: the world is cold and dim, so the body is
+cold, so thermal imaging is affordable (a warm eye drowns in its own glow —
+the reason nobody warm has the sense), and the culture follows from heat
+being the only wealth. The remaining open ends (Sardain's location, the
+star's name, a named individual, a pronoun paradigm) are in
+`open-questions.md` under "Decisions awaiting Dermot".
+
+**And a seventh is drafted, not yet approved** — the Ovruhn of Thavren
+(`src/lore/ovruhn.md`, drafted 29 August 2026 from the hybrid-species
+direction after Dermot ruled the convergent-alien reading; draft-and-stop,
+on the branch). Designed by this file's method, and a direct continuation
+of the 13 August dexterity question above: the world is deep-aired and
+permanently hazed, so sight is short and sound is the far sense, so the
+body is a sounding instrument — hydrostat tendrils for the manipulation
+half, mass and resonant chambers for the infrasonic under-song, chorus-kept
+memory in place of writing. The bottleneck is deliberately *not* energy
+(dense air burns willingly) but externalization: knowledge scaling at the
+speed of teaching, which is what the direction's "humans dominate
+technological scaling" becomes without a ladder. Differentiation handled in
+the entry: not Mnemari (memory as mortal practice and pool, loss central),
+not Chthonari (airborne acoustics, not substrate vibration in vacuum), not
+Ilveth (their involuntary channel is *addressed to everyone*, so their
+contact failure was answering it — the opposite courtesy). Open ends
+indexed in `open-questions.md` under the 29 August section.
+
+---
+
+## Prismeri — Prismere (derived 3 September 2026, Dermot's direction: *"derive the prismere body form based on their planetary ecology please"*)
+
+Drafted into `src/lore/prismeri.md` as three sections (*A Body for Thin Ground
+and Thick Air*, *What They Are Structurally Bad At*, *The Thing Outsiders Get
+Wrong*) on the Krenyi pattern; draft-and-stop. The seven questions, answered
+from `src/lore/planets/prismere.md` and what the Prismeri page already held:
+
+1. **What the world does to a body.** Low gravity, dense particulate air, a
+   biosphere that lights itself from below, a silent apex glider that hunts
+   from above at dusk. So: flight is cheap and honest; a light, long, level-
+   spined frame; wings as forelimbs, not as an addition to arms; an upward-
+   looking threat sense; a curfew written into the body.
+2. **How it senses.** Two forward eyes low on the head for a flier's depth of
+   field; a crystalline facet band along the skull ridge that images nothing
+   and reads change in the overhead light (the ray-shadow sense); in Full
+   Wings, the canon tendrils from the same ridge, reading corridor geometry
+   directly. The Lattice is a thing the world shows; the tendrils are the
+   organ that reads it without the haze.
+3. **Limbs and what they are for.** Four. Wing-forelimbs with three free
+   clawed fingers at the leading edge (the hands); prehensile long-toed hind
+   feet (the hold). Quadrupedal on the ground, knuckle-walking on folded
+   wings, four-point launch — the umbral ray's own method, so the world
+   already has it. Manipulation finer than the manipulator comes from the
+   division: feet hold, fingers work, which needs the body to hang.
+4. **Symmetry.** Bilateral; flight favours it and nothing here needs
+   otherwise.
+5. **Life cycle.** Already canon: two adult forms, an irreversible moult in a
+   self-secreted mineral shell, not universal, no hierarchy. The derivation
+   adds only that the forms are one body at two hardnesses and that the
+   weight of Full Wings is what divides the work — forest flight versus haze
+   flight — so neither would trade.
+6. **What a Ranger station costs them.** Gravity: cannot fly, cannot hang,
+   spends the posting on four knuckles with nothing overhead. Plus the
+   spectrum and corridor-geometry accommodations already in canon. Plus the
+   drone startle: a shape crossing overhead is the one thing the body cannot
+   be talked out of noticing.
+7. **What the biology made them good at, and the job that followed.** Sky-
+   reading, hence the astrogation guilds (canon). And the materials
+   bottleneck: no fire on a glass world, so light-concentration instead —
+   the lens foliage taught them to fuse silica with focused sun; no
+   metallurgy of their own; the Federation's alloy is Aspenar's, and
+   Prismere's contribution is expertise "because expertise is what the world
+   made cheap" (the planet page already says the contribution is expertise;
+   this gives it a reason).
+
+**Traps avoided.** No human frame: the spine is level, the wings are the
+forelimbs, rest is hanging, ground travel is quadrupedal. No insectoid head
+on a biped (the Qiren Tal failure). No planet of hats: the two forms do
+different work for a physical reason, and the outsiders-get-wrong section is
+about posture, which is the Krenyi standard applied.
+
+**Readings flagged in `intake-2026-09-03.md`, eleventh direction.**

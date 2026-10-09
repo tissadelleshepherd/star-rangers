@@ -1,6 +1,7 @@
 ---
 layout: lore-entry.njk
 title: "Chthonari"
+revealed_by: s02e04c01
 category: "Species"
 tags: [chthonari, species, undersong-belt, federation-of-sentient-beings, engineering-corps, star-rangers, low-gravity, harmonics]
 description: "A low-gravity, asteroid-burrowing insectoid people whose vibration-based senses gave them an intuitive grasp of harmonic mathematics long before they had a word for it — and who are now disproportionately represented in the Star Rangers' Engineering Corps fold-scaffold specialization."
@@ -52,5 +53,9 @@ Where the Undersong Belt's negligible gravity shapes Chthonari engineering, it a
 ## Interspecies Notes
 
 Chthonari tolerate standard humanoid life-support without difficulty and interact easily with other Federation species in shared facilities, but the Undersong itself does not translate. Outside observers can be taught to recognize it exists; none, so far, have been documented learning to perceive it the way a Chthonari does natively. Chthonari serving off-world describe this as the one persistent, low-grade loneliness of the posting — not unkindness from colleagues, just a shared structure nobody else in the room can feel.
+
+The record renders a Chthonari person as *they*. Nothing in the biology the survey has described sorts Chthonari persons by sex, and their own speech does not sort them that way either: the Undersong marks a person by contact — felt through the structure the speaker stands on, or not felt — a distinction the translation lets go, since a reader on a page is in contact with no one.
+
+A Chthonari name is struck, not spoken: a short signature of strikes on whatever structure is underfoot, sharp and high so that it carries through rock and is told from every other name. A strike on plating makes airborne sound too, and that is how the record comes to spell them — as a human ear renders a run of taps, in unvoiced clicks and the vowels the ear supplies between them. *Tikket*, *Kattik*, *Tekka*, *Tsikk* are what a crew sounds like to people who cannot feel them, which is a fair description of a transliteration and, Chthonari serving off-world have noted, of the posting.
 
 See also: [The Undersong Belt](/star-rangers/lore/undersong-belt/), [The Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/), [Lagrange Fold Points](/star-rangers/lore/lagrange-fold-points/), [Quantum Space Harmonics](/star-rangers/lore/quantum-space-harmonics/), [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/), [Mnemari](/star-rangers/lore/mnemari/), [Ollune](/star-rangers/lore/ollune/) — the Federation's other low-gravity people, and the opposite solution to it.

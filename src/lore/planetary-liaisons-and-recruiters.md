@@ -4,6 +4,8 @@ title: "The Star Ranger Liaison Corps"
 category: "Institutions"
 tags: [star-rangers, liaison-corps, liaison, representative, recruiter, planetary-jurisdiction, invitation, reassignment, celtic-union, rhiannon-ceridwen, institutions]
 description: "The Liaison Corps and its Planetary Representatives — the specialist corps that resolves the charter's no-jurisdiction clause, and the berth a Ranger moves to when front-line work stops being possible without leaving the force."
+image: "planetary-liaisons-and-recruiters.jpg"
+image_alt: "A modest ground-floor office with its door open onto a quiet street of blank plastered walls, one plain desk with a sealed grey housing on it, two chairs on the public side, a coat on a hook, warm daylight reaching in"
 ---
 
 The charter that keeps the Star Rangers off a planet's ground is the same charter that made it inevitable someone would eventually need to stand on that ground anyway. The **Liaison Corps** is how the Corps resolves that contradiction without breaking its own rule.
@@ -30,7 +32,7 @@ Handles day-to-day boundary-zone and fold-route coordination between a world's o
 
 ### Representative
 
-The formal point of contact for charter-bound interactions that require a standing relationship rather than a one-time request: data-licensing exchanges, courier-of-last-resort arrangements, and — critically — the standing invitation itself, renewed or withdrawn at the world's discretion, that lets Survey Corps traffic operate there at all. [Rhiannon Ceridwen](/star-rangers/characters/rhiannon-ceridwen/)'s direct correspondence with Survey Corps liaison staff over Aethelrock's fold-relay traffic is what this role looks like from the outside, even though she holds it by circumstance and clan authority rather than by a Ranger's service record — the two paths converge on the same function.
+The formal point of contact for charter-bound interactions that require a standing relationship rather than a one-time request: data-licensing exchanges, courier-of-last-resort arrangements, and — critically — the standing invitation itself, renewed or withdrawn at the world's discretion, that lets Survey Corps traffic operate there at all. [Rhiannon Ceridwen](/star-rangers/characters/rhiannon-ceridwen/)'s direct correspondence with Survey Corps liaison staff over [Aethelrock](/star-rangers/lore/planets/aethelrock/)'s fold-relay traffic is what this role looks like from the outside, even though she holds it by circumstance and clan authority rather than by a Ranger's service record — the two paths converge on the same function.
 
 ### Recruiter
 
@@ -90,7 +92,7 @@ Being a corps, the Liaison Corps carries the rest of what that word means here. 
 
 ## The Neutrality Constraint Doesn't Retire With Her
 
-The charter's neutrality and non-political mandate bind a liaison's *Ranger-facing* conduct exactly as they bound her in uniform: she cannot use the standing to campaign, endorse a faction in local politics, or commit the Corps to a side in a home-world dispute. What changes is that she is now also, simultaneously, a private citizen of that world with her own politics, family, and stake in local disputes — and the charter has no mechanism to silence that half of her, nor does it try to. The tension this produces is not a loophole anyone is exploiting. It is simply what happens when the same person is asked to be neutral in one capacity and is a full, opinionated member of a community in the other, at the same time, on the same afternoon.
+The charter's neutrality and non-political mandate bind a liaison's *Ranger-facing* conduct exactly as they bound her on active service: she cannot use the standing to campaign, endorse a faction in local politics, or commit the Corps to a side in a home-world dispute. What changes is that she is now also, simultaneously, a private citizen of that world with her own politics, family, and stake in local disputes — and the charter has no mechanism to silence that half of her, nor does it try to. The tension this produces is not a loophole anyone is exploiting. It is simply what happens when the same person is asked to be neutral in one capacity and is a full, opinionated member of a community in the other, at the same time, on the same afternoon.
 
 The tension is sharper still in the reserve years, and for a reason the section heading understates: before about seventy-five, she has not retired at all. She is on the reserve list and recallable. A world dealing with its representative in that period is dealing with a serving Ranger who happens to be living at home — which is, from certain angles, precisely the arrangement the charter's no-jurisdiction clause was written to prevent. Nobody has ever argued it that way in a formal setting. The argument is available.
 

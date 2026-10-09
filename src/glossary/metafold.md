@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Metafold"
+irish: "Meitifhilleadh"
+irish_gloss: "a misnomer in Irish as in English"
 id: metafold
 category: "Misconception"
 short: "A popular misnomer that conflates the Overfold with Higher-Dimensional Folding; not a recognized name for either."

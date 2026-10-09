@@ -1,6 +1,7 @@
 ---
 layout: lore-entry.njk
 title: "Eden Space Habitat"
+revealed_by: s00e02c01
 category: "Locations"
 tags: [eden, space-habitat, fold-route, msc, history, formation, boundary]
 description: "Eden Space Habitat: built in the wrong place for the right reasons, and accidentally positioned near one of the Solar System's first confirmed natural higher-dimensional fold routes."
@@ -48,7 +49,7 @@ In 2714 UCSD, the six-person *Patience First* followed. It did not return. Its f
 
 ## The MSC Response
 
-The MSC responded to *Constant Margin* by classifying the data, assigning three more monitoring officers, and expanding Eden's compliance framework by twelve requirements.
+The MSC responded to *Constant Margin* by classifying the data, assigning three more monitoring officers, and expanding Eden's compliance framework to twelve requirements.
 
 It responded to the disappearance of *Patience First* by opening an inquiry, assigning that inquiry to a committee, and noting that the expedition had been unauthorized and therefore beyond MSC liability. See [Unauthorised, Therefore (S00E02C01)](/star-rangers/seasons/s00/e02/s00e02c01/) for what that classification meant to one of the six families it closed the door on.
 
@@ -66,4 +67,4 @@ Eden remains active. It is now designated a Class I Fold-Proximate Research Plat
 
 The route is now mapped, monitored, and named: the Eden Passage.
 
-*Patience First* was found in 2732 UCSD. The crew were alive. The classified record contains the full account. Publicly, only this is stated: they were found by entities who were not human, not Krenyi, and not mechanical—and who had been waiting for someone to arrive.
+*Patience First* was found in 2732 UCSD. The crew were alive. The classified record contains the full account. Publicly, only this is stated: they were found by entities who were not human, not [Krenyi](/star-rangers/lore/krenyi/), and not mechanical—and who had been waiting for someone to arrive.

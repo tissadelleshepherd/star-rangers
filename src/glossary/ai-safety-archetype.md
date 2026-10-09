@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "AI Safety Archetype"
+irish: "Seanchló Sábháilteachta na hIntleachta Saorga"
+irish_gloss: "the safety archetype of made intelligence; seanchló, archetype, is literally an old mould"
 id: ai-safety-archetype
 category: "Cosmic Cascade"
 short: "The archecluster-scoped archetype from which unrelated cultures keep assembling recognisably similar constraints on made minds. It explains convergence, never enforcement — nothing in the Cascade holds a kernel shut."

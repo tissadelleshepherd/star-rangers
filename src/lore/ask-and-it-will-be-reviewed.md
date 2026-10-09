@@ -4,6 +4,8 @@ title: "Ask, and It Will Be Reviewed"
 category: "Cosmology"
 tags: [cosmology, church-space, prayer, levrils, celestials, spiritual-life, cascade]
 description: "The church-space telling of prayer and magic as the work of a permissions office: Levrils as planning officers, Celestials as enforcement, the Mediarchs' forces as the building code, and appeals heard by the Telearchs in conceptual time. The elders concede the title is a joke, and keep it, because the joke is load-bearing."
+image: "ask-and-it-will-be-reviewed.jpg"
+image_alt: "A plain municipal waiting room in late afternoon light through frosted glass, a row of wooden chairs against the wall with a folded coat on one, a bare cork board, a low cupboard, a potted plant, and one sealed grey housing with a single indicator on the wall"
 ---
 
 The Archive files a [Levril's](/star-rangers/lore/levrils/) probability work as lawful maintenance, a [Celestial's](/star-rangers/glossary/celestials/) action as enforcement at the boundary interfaces, and states plainly that [prayers are not answered by the cosmology](/star-rangers/lore/what-the-record-refuses/). This telling accepts every word of that, as it accepts the whole record it is laid across, and adds only the tradition's own picture of what those files describe. The picture is an office.

@@ -1,7 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ site.language | default('en') }}">
+{#- data-presentation is the PRESENTATION MODE this edition asked for
+    (lib/editions.js PRESENTATION_MODES, implemented in src/css/main.css).
+    On <html> rather than <body> so the mode can move :root custom properties -
+    including the root font-size, which a body-level attribute could not reach.
+    Always emitted, since every edition record resolves a mode: "story" is a
+    real value with no rules of its own rather than an absent one. -#}
+<html lang="{{ site.language | default('en') }}" data-presentation="{{ edition.presentation }}">
 <head>
   <meta charset="UTF-8" />
+  {#- READER'S PRESENTATION MODE, RESTORED BEFORE FIRST PAINT.
+
+      This has to be inline and blocking. src/js/presentation.js is deferred,
+      like every other script here, and a deferred script cannot do this job:
+      the page would paint in the edition's own mode and then jump to the
+      reader's when the type size changed under it. A visible reflow on every
+      page load is worse than not offering the choice at all.
+
+      Small enough to be cheap, and wrapped because localStorage ACCESS itself
+      throws in some privacy modes rather than returning null. On any failure
+      the attribute base.njk already wrote on <html> stands, which is the
+      edition's mode - a correct page, just not this reader's preference.
+
+      The key is duplicated in presentation.js and noted there. The valid list
+      comes from lib/editions.js via .eleventy.js so the two cannot drift; an
+      unrecognised stored value (a retired mode, a hand-edited key) is ignored
+      rather than applied, since applying it would select no CSS at all. -#}
+  <script>
+    (function () {
+      try {
+        var stored = window.localStorage.getItem("fi:presentation-mode");
+        if (stored && {{ presentationModeIds | dump | safe }}.indexOf(stored) !== -1) {
+          document.documentElement.setAttribute("data-presentation", stored);
+        }
+      } catch (err) { /* storage unavailable - keep the edition's mode */ }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{{ description | default(site.description) }}" />
   {#- What this domain is serving; also at /version.txt. See src/_data/build.js. -#}
@@ -43,8 +76,22 @@
       lore/solar-system-concordant.njk) are unaffected: they hand-write their
       own head and keep canonical + noindex, which is the conventional pairing
       for a redirect rather than for a placeholder. -#}
+  {#- `site.canonicalBase` is this build's own host EXCEPT on a domain that is
+      a non-ranking member of a tier family, where it is the family's ranking
+      host (lib/editions.js's `ranksAt`). So the self-canonical described above
+      is still what the default, sciencefiction and pets editions emit - a
+      family of one is its own canonical - and the fellowship, church-space and
+      starquest siblings point at the one domain in their family that ranks.
+
+      Note this DIVERGES from og:url below, which stays self-referential on
+      purpose. The two answer different questions: rel=canonical tells a
+      crawler which of several identical copies to index, while og:url is what
+      a reader gets when they share the page they are actually looking at. A
+      reader who shares a church-space page should hand their friend a
+      church-space link, not a fellowship one - consolidating the search signal
+      was the decision, rebranding the reader's own share was not. -#}
   {%- if (not robots or "noindex" not in robots) and not site.noindex %}
-  <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}" />
+  <link rel="canonical" href="{{ page.url | absoluteUrl(site.canonicalBase) }}" />
   {%- endif %}
   <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — New Episodes" href="{{ '/feed/feed.xml' | absoluteUrl(site.url) }}" />
 
@@ -96,14 +143,31 @@
       <nav class="site-nav" aria-label="Main navigation">
         <ul class="site-nav__list" role="list">
           <li><a href="/star-rangers/" {% if page.url == "/star-rangers/" %}aria-current="page"{% endif %}>Home</a></li>
+          {#- The Reading Plan is the front door for a first visit, and until
+              2026-10-09 it was reachable only from the homepage's Begin
+              Reading button; a site review that day found a new reader
+              walking the catalogue sections instead. It sits second, before
+              the shelves it introduces. -#}
+          <li><a href="/star-rangers/start/" {% if "/start/" in page.url %}aria-current="page"{% endif %}>Start</a></li>
           <li><a href="/star-rangers/seasons/" {% if "/seasons/" in page.url %}aria-current="page"{% endif %}>Seasons</a></li>
           <li><a href="/star-rangers/threads/" {% if "/threads/" in page.url %}aria-current="page"{% endif %}>Threads</a></li>
           <li><a href="/star-rangers/characters/" {% if "/characters/" in page.url %}aria-current="page"{% endif %}>Characters</a></li>
-          <li><a href="/star-rangers/timeline/" {% if "/timeline/" in page.url %}aria-current="page"{% endif %}>Timeline</a></li>
-          <li><a href="/star-rangers/lore/" {% if "/lore/" in page.url %}aria-current="page"{% endif %}>Lore</a></li>
-          <li><a href="/star-rangers/atlas/" {% if "/atlas/" in page.url %}aria-current="page"{% endif %}>Atlas</a></li>
-          <li><a href="/star-rangers/glossary/" {% if "/glossary/" in page.url %}aria-current="page"{% endif %}>Glossary</a></li>
-          <li><a href="/star-rangers/codex/" {% if "/codex/" in page.url %}aria-current="page"{% endif %}>Codex</a></li>
+          {#- A header item is a promise that the section behind it has
+              something on it (the same rule the homepage cards follow). On a
+              narrowed edition Lore, Atlas, Timeline, Glossary or Codex can be
+              empty - undercover-pets.com had three items opening on "nothing
+              published yet" - so each is shown only when its filtered
+              collection is non-empty. Seasons, Threads, Characters, Story
+              Engine and About always have a page behind them. 2026-09-13. -#}
+          {%- set atlasHasPlaces = false -%}
+          {%- for entry in collections.lore -%}
+            {%- if entry.data.category == "Locations" and entry.data.galaxy %}{% set atlasHasPlaces = true %}{% endif -%}
+          {%- endfor %}
+          {% if collections.timelineEvents.length %}<li><a href="/star-rangers/timeline/" {% if "/timeline/" in page.url %}aria-current="page"{% endif %}>Timeline</a></li>{% endif %}
+          {% if collections.lore.length %}<li><a href="/star-rangers/lore/" {% if "/lore/" in page.url %}aria-current="page"{% endif %}>Lore</a></li>{% endif %}
+          {% if atlasHasPlaces %}<li><a href="/star-rangers/atlas/" {% if "/atlas/" in page.url %}aria-current="page"{% endif %}>Atlas</a></li>{% endif %}
+          {% if collections.glossary.length %}<li><a href="/star-rangers/glossary/" {% if "/glossary/" in page.url %}aria-current="page"{% endif %}>Glossary</a></li>{% endif %}
+          {% if collections.codex.length %}<li><a href="/star-rangers/codex/" {% if "/codex/" in page.url %}aria-current="page"{% endif %}>Codex</a></li>{% endif %}
           <li><a href="/star-rangers/story-engine/" {% if "/story-engine/" in page.url or "/journal/" in page.url %}aria-current="page"{% endif %}>Story Engine</a></li>
           <li><a href="/star-rangers/about/" {% if "/about/" in page.url %}aria-current="page"{% endif %}>About</a></li>
         </ul>
@@ -122,6 +186,55 @@
         </form>
         <div class="site-search__results" id="site-search-results" hidden></div>
       </div>
+      {#- The reader-side presentation switcher. Rendered hidden and unhidden by
+          src/js/presentation.js, so a reader with no JS sees no control at all
+          rather than four buttons that do nothing. The page reads fine either
+          way: what JS adds is the CHOICE, not the reading.
+
+          In the header rather than the footer because it changes the whole
+          site's posture and applies to every page, which is what site chrome
+          is for - and because a reader who wants larger type wants it before
+          reading, not after scrolling past everything they could not read.
+
+          The options carry the modes' READER-FACING labels ("Large print",
+          not "primer"): a reader on this domain is choosing a type size, not
+          declaring an allegiance to another edition. See PRESENTATION_MODES. -#}
+      <div class="reading-mode" data-presentation-ui hidden>
+        <details class="reading-mode__details">
+          <summary class="reading-mode__summary">Reading</summary>
+          <div
+            class="reading-mode__panel"
+            data-presentation-switcher
+            data-site-default="{{ edition.presentation }}"
+            hidden
+          >
+            <p class="reading-mode__note" id="reading-mode-note">
+              Type size and spacing. Kept in this browser only — nothing is sent anywhere,
+              and it changes how the pages look, never what they say.
+            </p>
+            <div class="reading-mode__options" role="group" aria-labelledby="reading-mode-note">
+              <button type="button" class="reading-mode__btn" data-presentation-mode="" aria-pressed="true">
+                This site's setting<span class="reading-mode__btn-note"> ({{ presentationModes[edition.presentation].label }})</span>
+              </button>
+              {#- The edition's OWN mode is skipped here: the first button already is
+                  it, and offering "Large print" beside "This site's setting (Large
+                  print)" asks a reader to tell apart two buttons that do the same
+                  thing to the page. The difference is real but it is a
+                  maintainer's distinction (follow the edition vs pin a value),
+                  and it survives where it matters - the first button clears the
+                  stored preference, so a reader who never chose anything keeps
+                  following this domain if its posture is ever changed. -#}
+              {%- for id, mode in presentationModes %}
+              {%- if id != edition.presentation %}
+              <button type="button" class="reading-mode__btn" data-presentation-mode="{{ id }}" aria-pressed="false">
+                {{ mode.label }}
+              </button>
+              {%- endif %}
+              {%- endfor %}
+            </div>
+          </div>
+        </details>
+      </div>
     </div>
   </header>
 
@@ -129,12 +242,36 @@
     {{ content | safe }}
 
     {% if comments and commentsEnabled %}
-    {% set commentsCategoryConfig = giscus.categories[commentsCategory] %}
+    {#- The board is the PAGE's, not the build's: .eleventy.js's giscusBoard
+        picks a thread's own board (church-space -> the Communion's) on any
+        domain, and the build's board otherwise. Falls back to the global for
+        a template that reaches here without the computed field. -#}
+    {% set board = giscusBoard or giscus %}
+    {% set commentsCategoryConfig = board.categories[commentsCategory] %}
     <section class="site-comments" aria-label="Comments" data-pagefind-ignore>
       <h2 class="site-comments__heading">Discussion</h2>
+      {#- COLLAPSED BY DEFAULT, AND SAID TO BE MODERATED (Dermot's ruling,
+          2026-09-04, story-bible/intake-2026-09-04.md, ninth message). giscus
+          renders GitHub Discussions live and has no approval queue, so what
+          this stack can honestly offer is (a) after-the-fact moderation from
+          the comments repos, which the note below states and the repo watch
+          delivers to his inbox, and (b) nothing on the page until a reader
+          asks: the widget sits inside a closed <details>, so a reader who
+          arrived by accident meets no comment they did not open. Hidden
+          until OPENED, not until approved - the note does not claim more.
+          data-loading="lazy" keeps the iframe from loading until the
+          disclosure is near the viewport, which for a closed one is never
+          until it is opened. The heading stays outside so the section is
+          still announced and findable. -#}
+      <details class="site-comments__toggle">
+        <summary class="site-comments__summary">Show discussion</summary>
+        <p class="site-comments__note">
+          Comments are read after they are posted and anything unsuitable is removed.
+          Posting needs a GitHub account; reading needs nothing.
+        </p>
       <script src="https://giscus.app/client.js"
-        data-repo="{{ giscus.repo }}"
-        data-repo-id="{{ giscus.repoId }}"
+        data-repo="{{ board.repo }}"
+        data-repo-id="{{ board.repoId }}"
         data-category="{{ commentsCategoryConfig.name }}"
         data-category-id="{{ commentsCategoryConfig.id }}"
         {% if comment_id %}
@@ -157,9 +294,11 @@
         data-input-position="bottom"
         data-theme="dark"
         data-lang="en"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
       </script>
+      </details>
     </section>
     {% endif %}
   </main>
@@ -173,20 +312,28 @@
         </audio>
       </div>
       <p>
-        <span>{{ site.name }}</span> — Interactive Fiction.
+        <span>{{ site.name }}</span> — A Multi-Viewpoint Novel.
         Copyright © {{ build.copyrightYears }} Dermot R. Cochran.
         Released under the <a href="/star-rangers/#license" rel="license">CC BY-NC-ND 4.0</a> licence.
         <a href="/star-rangers/official/">Official editions</a>.
+        <a href="/star-rangers/tiers/">Reading tiers</a>.
       </p>
       <p class="site-lang-note">
         Written in English, its canonical language. Your browser can translate any page into
         another language — those translations are automatic and <strong>unofficial</strong>, and
-        the English text is always the authority on canon. A human translation offered as a
+        the English text is always the authority on canon.
+        {#- The fan-works anchor exists only on the site-wide About; a tier
+            with its own plain-register About (lib/editions.js `about`) has no
+            such section, and the sentence is written for the adult reader
+            in any case. -#}
+        {%- if not edition.about %} A human translation offered as a
         <a href="/star-rangers/about/#fan-works">fan work</a> is welcome too.
+        {%- endif %}
       </p>
     </div>
   </footer>
 
+  <script src="/star-rangers/js/presentation.js?v={{ build.assetVersion }}" defer></script>
   <script src="/star-rangers/js/pov.js?v={{ build.assetVersion }}" defer></script>
   <script src="/star-rangers/js/search.js?v={{ build.assetVersion }}" defer></script>
 </body>

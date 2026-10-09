@@ -29,6 +29,6 @@ Lorien keeps her own log the way a Survey Corps analyst keeps a field report —
 
 She is not reckless. She is thorough in a hurry, which reads as reckless to anyone used to institutional timelines. A corridor that a Survey Corps team would spend a season clearing, Lorien will assess, chart, and be gone from in a week — not because she cuts the safety margins Survey Corps protocol calls for, but because she carries no crew to keep briefed, no chain of command to report through, and no infrastructure back home waiting on her before it can move.
 
-Where her contracts intersect with confirmed boundary-zone activity, she hands the data over and steps back. She has no interest in what waits past a Class III proximity reading, and no illusions about being equipped for it.
+Where her contracts intersect with confirmed boundary-zone activity, she hands the data over and steps back. She has no interest in what waits past a Type III proximity reading, and no illusions about being equipped for it.
 
 See also: [Lagrange Points and Fold-Space Transit](/star-rangers/lore/lagrange-fold-points/), [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/).

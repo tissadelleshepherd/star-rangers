@@ -2,8 +2,10 @@
 layout: lore-entry.njk
 title: "Saint Aoife"
 category: "Culture"
-tags: [saint-aoife, celtic-union, culture, religion, levril, brother-daire]
+tags: [saint-aoife, celtic-union, culture, devotional-traditions, levril, brother-daire]
 description: "A locally venerated Irish holy woman of the thirteenth century, carried into space as living devotion by the Currach Fleet, and the founding figure of the Celtic Union's most-cited reinterpretation debate between hagiography and Levril encounter."
+image: "cill-aoife-devotion.jpg"
+image_alt: "A recessed niche in a scratched steel corridor wall aboard a station, a sprig of blossom in a tin cup and a dark stone beside it, a figure walking away down the corridor"
 ---
 
 Most saints the Currach Fleet's founders carried off Earth stayed exactly what they had always been: names on a calendar, patrons of a trade, comfort at a deathbed. Aoife is the one who kept changing shape.
@@ -18,9 +20,13 @@ Brother Daire's account preserves Aoife's own hesitation about what she'd seen m
 
 That distinction is the single most consequential sentence in the devotion, and not for devotional reasons. Aoife refused to collapse two claims into one even though collapsing them would have made her far easier to categorise — and fourteen centuries later the refusal turns out to be a usable discipline rather than a scruple. [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/) is where it gets used: a mind under pressure to let a consolation resolve a question that is not actually resolved, taught the counter by the two women her interior keeps closest, one of them Aoife. The counter is not to reject the comfort. It is to decline to let comfort stand in for an answer.
 
+## Her Century
+
+Aoife lived through the first generations of Anglo-Norman lordship in Ireland, and some of what the newcomers brought reached Irish shores within her lifetime. One of the smaller and better documented imports was the fallow deer. In 1213 AD — three years before Brother Daire set down her *Life*, when she was about twenty-seven — the Archbishop of Dublin was granted thirty fallow deer from Brewood Park in England. It is the earliest record of the animal in Ireland. The deer came with the idea of the park: walled or paled ground kept by the new elite for hunting, beside their castles. For the rest of her life the fallow deer was a park animal and a lord's possession, not yet a creature of the open country. The Archive records the coincidence of dates as the background of her century and nothing more. The *Life* mentions no deer, and nothing here puts one at the well.
+
 ## Carried Off Earth
 
-Unlike most Currach Fleet cultural cargo, Aoife's devotion did not travel as archived text waiting to be revived on arrival. It travelled as living observance — feast kept, well-water blessing continued in symbolic form aboard ship, the story retold to children who had never seen Ireland and never would. That continuity is part of why the Union treats her differently from other historical religious figures preserved in its archives: Aoife was never a subject of antiquarian interest. She was, and remains, someone's grandmother's saint.
+Unlike most Currach Fleet cultural cargo, Aoife's devotion did not travel as archived text waiting to be revived on arrival. It travelled as living observance — feast kept, well-water blessing continued in symbolic form aboard ship, the story retold to children who had never seen Ireland and never would. That continuity is part of why the Union treats her differently from other historical figures of devotion preserved in its archives: Aoife was never a subject of antiquarian interest. She was, and remains, someone's grandmother's saint.
 
 ## The Reinterpretation
 
@@ -30,8 +36,12 @@ The reading is not a modern liberty taken with the text. Union cultural scholars
 
 Union cultural authorities have not resolved the two readings against each other, and have shown little institutional appetite for doing so. The prevailing position, articulated informally by more than one Ridgemoot chaplain across the Union's charter worlds, is that a thirteenth-century Irish holy woman and a twenty-ninth-century Cascade taxonomist were never answering the same question in the first place — one asking what Aoife met, the other asking what to call it once met, and neither answer obliged to unseat the other.
 
+A third telling stands beside the two readings without joining either. The river abbey on the Boyne near Dún Rí, a contemplative chapter of the [Fellowship of Light](/star-rangers/lore/fellowship-of-light/), reads its own legend of Aoife on the eve of her feast — [The Champion at the Thorn Well](/star-rangers/codex/the-champion-at-the-thorn-well/) — in which she comes to the well in bondage, is chosen by what she meets there, says what the townland's authorities will not, and is taken into a house of the Fellowship that kept itself hidden. It is the abbey's, valid for the abbey, and its keeper's own margin says so: the Fellowship's comparative archive files it among the [Arilon](/star-rangers/lore/arilon/) comparanda, where the shape recurs and is not a verdict. Nothing in it moves the record's position that what Aoife met has never been placed in the Cascade.
+
+What the record will say is narrower than the abbey's word and firmer than nothing. [Champion](/star-rangers/glossary/champions-heroes/) selection reads constraint literacy and causal relevance, and the discipline the *Life* preserves — sixteen years with the sick, a vigil kept alone, *shown* held apart from *healed* against every pressure to collapse them — is the pattern it reads. A devoutly spiritual human of Aoife's kind is a suitable Champion by that measure, as suitable as [the Krenyi](/star-rangers/lore/krenyi/) are by theirs, and the record states the suitability without stating the selection: what she met is unplaced, and whether she was chosen by it stays the abbey's word and not the Archive's.
+
 ## Devotional Standing Today
 
-Aoife's feast remains kept across Celtic Union charter worlds on the anniversary of the vision rather than her death, unchanged from Brother Daire's community's own choice fourteen centuries prior. She has no formal devotional standing recognised outside Union practice, and none of her devotees have ever asked for one.
+Aoife's feast remains kept across Celtic Union charter worlds on the anniversary of the vision rather than her death, unchanged from Brother Daire's community's own choice fourteen centuries prior. She has no formal devotional standing recognised outside Union practice, and none of her devotees have ever asked for one. The feast-day office reads the last leaf of [What Was Carried](/star-rangers/codex/what-was-carried/), the unnamed Cill Aoife continuation of Brother Daire's *Life* that records her death in 1241 AD and the house's belief about what was taken of her; the Union's devotional word *carried*, for what the Archive files as [translation](/star-rangers/lore/five-layers/) and takes no position on, is that text's before it is anyone else's.
 
-See also: [Aoife (character profile)](/star-rangers/characters/saint-aoife/), [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), [Brother Daire](/star-rangers/characters/brother-daire/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Levrils: Dragons and Constraint Literacy](/star-rangers/lore/levrils/), [The Well Ran Warm Again (S06E01C03)](/star-rangers/seasons/s06/e01/s06e01c03/), [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/).
+See also: [Aoife (character profile)](/star-rangers/characters/saint-aoife/), [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), [What Was Carried](/star-rangers/codex/what-was-carried/), [The Champion at the Thorn Well](/star-rangers/codex/the-champion-at-the-thorn-well/), [Brother Daire](/star-rangers/characters/brother-daire/), [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), [Levrils: Dragons and Constraint Literacy](/star-rangers/lore/levrils/), [The Well Ran Warm Again (S06E01C03)](/star-rangers/seasons/s06/e01/s06e01c03/), [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/).

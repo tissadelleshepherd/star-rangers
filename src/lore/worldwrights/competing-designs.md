@@ -65,7 +65,7 @@ Cross-universe coupling creates phase offsets and cognitive gradient differentia
 
 - high anomaly incidence,
 - elevated Concordant intervention demand,
-- substantial Levril monitoring presence around overlap boundaries,
+- substantial [Levril](/star-rangers/lore/levrils/) monitoring presence around overlap boundaries,
 - above-median UFI due to high-IWD population opportunities.
 
 ---

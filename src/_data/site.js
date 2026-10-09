@@ -22,9 +22,13 @@ module.exports = function () {
   // as both umbrella and work title. The corps keeps its name in the
   // fiction, and the /star-rangers/ URL paths and alias domains are
   // deliberately unchanged - only front-of-house branding has ever moved.
-  // The tab carries the settled hyphenated form "Fian-ilchruinne"; the
-  // header/footer/homepage-heading carry "Fian Ilchruinne", the spaced,
-  // capitalised display variant Dermot chose for on-page branding. Old
+  // The tab, header, footer and homepage heading all carry "Fian Ilchruinne".
+  // Until 2026-10-09 the tab alone kept the hyphenated umbrella spelling
+  // "Fian-ilchruinne" from 2026-08-03; a site review that day found a
+  // reader meeting two spellings and Dermot ruled the tab should match the
+  // headings (story-bible/intake-2026-10-09.md). The hyphenated form
+  // survives only in the alias domain names, which are spelling insurance
+  // (lib/editions.js). Old
   // Irish fian (the warrior-band) + ilchruinne (Irish for multiverse) -
   // "the multiverse Fianna"; the fused, single-n and fiann- variants are
   // all superseded (story-bible/the-title-and-its-risk.md has the full
@@ -34,7 +38,7 @@ module.exports = function () {
   // (src/lore/ensemble-multiverse.md), which is why the description still
   // says it.
   const name = process.env.SITE_NAME || "Fian Ilchruinne";
-  const title = process.env.SITE_TITLE || "Fian-ilchruinne";
+  const title = process.env.SITE_TITLE || "Fian Ilchruinne";
 
   // SITE_NOINDEX=true (deploy.conf, threaded per-domain by
   // scripts/cpanel-deploy.sh) marks this build as a testing/staging domain
@@ -43,11 +47,28 @@ module.exports = function () {
   // (see src/robots.njk and src/_includes/base.njk).
   const noindex = String(process.env.SITE_NOINDEX || "").toLowerCase() === "true";
 
+  // SITE_RANKS_AT names the domain in this build's tier family that carries
+  // the ranking signal (lib/editions.js's `ranksAt`, threaded through by
+  // scripts/cpanel-deploy.sh). Compared against this build's own domain: equal
+  // or empty means self-canonical, different means every page canonicals to
+  // the same path on that host. Normalised the same way `domain` is so a
+  // trailing slash or a stray scheme can't make a host compare unequal to
+  // itself and silently canonicalise a family's ranking domain away from
+  // itself - the one failure mode here that would be invisible and total.
+  const ranksAtRaw = String(process.env.SITE_RANKS_AT || "")
+    .replace(/^https?:\/\//i, "")
+    .replace(/\/+$/, "");
+  const ranksAt = ranksAtRaw && ranksAtRaw !== domain ? ranksAtRaw : "";
+
   return {
     name,
     title,
     noindex,
-    description: "Fian Ilchruinne is an interactive science-fantasy novel of the Grand Ensemble Multiverse: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
+    // Empty unless this build is a NON-ranking member of its family; the
+    // ranking domain and any family of one both see "".
+    ranksAt,
+    canonicalBase: ranksAt ? `https://${ranksAt}/` : `https://${domain}/`,
+    description: "Fian Ilchruinne is a multi-viewpoint hard-science-fiction novel of the Grand Ensemble Multiverse, with one licensed deviation: a station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
     url: `https://${domain}/`,
     author: "Fian Ilchruinne",
     language: "en",

@@ -1,6 +1,9 @@
 ---
 layout: glossary-entry.njk
 title: "Concordant"
+irish: "Comhréir"
+irish_gloss: "accord, things agreeing in proportion; plural Comhréireanna"
+revealed_by: s01e01c02
 id: concordant
 category: "Cosmology"
 short: "A bounded region of reality with internally consistent physical and Etheric rules; Concordance is the plural form."
@@ -14,11 +17,11 @@ related:
 tags: [concordant, concordance, cosmology, boundary]
 ---
 
-A **Concordant** (pronounced: **KON-kor-dant**; in full, **Concordant Zone**) is a bounded region of reality *within a universe*, with internally consistent physical and Etheric conditions — a zone where the rules hold.
+A **Concordant** (pronounced: **KON-kor-dant**; in full, **Concordant Zone**) is a bounded region of reality *within a universe*, with internally consistent physical and [Etheric](/star-rangers/glossary/etheric/) conditions — a zone where the rules hold.
 
 **Two other names for it are in circulation, and they are not equivalent.** A **coherent cosmic region** is the Survey Corps' plain-language gloss, used on first mention and in cross-species records where *Concordant* would need a footnote; it is exact, and correspondingly awkward in running prose. A **megaexpanse** is the popular word, and it is the one to be careful with: it names the *size* and drops the *consistency*, which is the entire content of the term. A megaexpanse is merely enormous. A Concordant Zone is enormous **and internally lawful**, and only the second half of that does any work — the first half is why a boundary zone is measurable, but the second half is why anything inside one can be relied on at all. The word is not wrong, and the Archive does not use it.
 
-**The scale is cosmological.** A Concordant Zone spans the visible universe — which is a lower bound and not a measurement, the horizon being the largest thing an instrument can be carried across. Nothing at stellar or system scale is a Concordant, or a meaningful fraction of one — the [Solar System Concord](/star-rangers/lore/solar-system-concord/) is a body of civil law that borrowed the word until 2790 UCSD, not a zone.
+**The scale is cosmological.** A Concordant Zone spans the visible universe — which is a lower bound and not a measurement, the horizon being the largest thing an instrument can be carried across. Nothing at stellar or system scale is a Concordant, or a meaningful fraction of one — the [Solar System Concord](/star-rangers/lore/solar-system-concord/) is a body of civil law that borrowed the word until 2790 [UCSD](/star-rangers/glossary/ucsd/), not a zone.
 
 **How many a universe holds is not a question instruments can settle**, and the Archive declines to answer it. A handful of unbounded zones and endlessly many merely vast ones would look identical from anywhere inside either, since one zone already exceeds everything an observer can see. What the record does support is local and sufficient: in every volume anyone has ever surveyed, zones are sparse and no internal edge has been encountered. Two consequences follow — **internal zone edges are unreachable**, lying at least a horizon away wherever anyone has looked, while **higher-dimensional folds are common**, occurring in their thousands inside a single Concordant, which is why fold transit is routine infrastructure and a boundary discrepancy is not.
 

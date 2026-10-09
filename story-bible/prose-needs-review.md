@@ -78,4 +78,4 @@ central, most-revisited characters. Also on the image audit's flagged list:
 
 ## Seasons (3 files)
 
-`s01/e00/index.md`, `s01/e03/index.md`, `s01/e03/s01e03c01.md`.
+`s01/e00/index.md`, `s01/e03/index.md`, `s01/e03/s01e03c04.md`.

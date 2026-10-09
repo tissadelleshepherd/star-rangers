@@ -22,7 +22,9 @@ description: "The complete list of official Fian Ilchruinne deployments. If the 
 <p>
   Each of these is a framing of the same record — a different door into the same
   canon, never a different canon. Filtering only ever narrows what a domain
-  shows; no edition can assert anything the others deny.
+  shows; no edition can assert anything the others deny. Which storylines each
+  one carries, and why, is explained on the
+  <a href="/star-rangers/tiers/">Reading Tiers</a> page.
 </p>
 <ul>
   <li><strong>starquest.site</strong> and <strong>starquest.online</strong> — StarQuest.</li>

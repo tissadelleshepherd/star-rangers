@@ -56,7 +56,7 @@ The Static Synod does not attempt forced re-ignition of CEI. It prioritizes lawf
 
 ## Levrils and Anomaly Monitoring
 
-Levrils serve there as long-horizon technical custodians.
+[Levrils](/star-rangers/lore/levrils/) serve there as long-horizon technical custodians.
 Their mandate includes:
 - baseline drift surveillance,
 - overlap-distortion diagnostics,

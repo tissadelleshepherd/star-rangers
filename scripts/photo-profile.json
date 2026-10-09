@@ -1,0 +1,32 @@
+{
+  "about": "Medians (and quartiles) of Dermot's published photographs at 1200 px wide, measured by scripts/photo-finish.py; the target a generated image is finished toward.",
+  "source": "F:\\CLAUDE\\dermot-cochran-photography\\src\\images\\photos",
+  "count": 217,
+  "median": {
+    "sat": 0.347,
+    "p1": 16.0,
+    "p50": 109.0,
+    "p995": 209.0,
+    "clipb": 0.004,
+    "noise": 7.485,
+    "flat": 39.573
+  },
+  "p25": {
+    "sat": 0.236,
+    "p1": 9.0,
+    "p50": 83.0,
+    "p995": 180.0,
+    "clipb": 0.0,
+    "noise": 5.688,
+    "flat": 23.249
+  },
+  "p75": {
+    "sat": 0.463,
+    "p1": 32.0,
+    "p50": 133.0,
+    "p995": 238.0,
+    "clipb": 0.137,
+    "noise": 9.235,
+    "flat": 61.355
+  }
+}

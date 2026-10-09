@@ -72,7 +72,7 @@ matter once they bind.
 
 - Season 0 (Founding Era): all of `s00/e01`, `s00/e02`, `s00/e03` (indexes + 6 chapters)
 - Season 1: `s01/e00` (4 chapters, Elvira/Aldera prequel), `s01/e01` (2 ch),
-  `s01/e02` (5 ch), `s01/e03/s01e03c02.md`
+  `s01/e02` (5 ch), `s01/e03/s01e03c01.md`
 - Season 2: `s02/e01` (index + 3 chapters) — per the gaps checklist this
   season is "deliberately open," so confirm this drafted content is meant
   to exist at all

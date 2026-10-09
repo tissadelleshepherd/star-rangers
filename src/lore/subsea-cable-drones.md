@@ -26,11 +26,11 @@ That was the problem the Subsea Cable Warden Programme was built to solve.
 
 ## Classification and Origins
 
-The Programme's origins are reconstructed only in part from records declassified between 2190 and 2280, with the final tranche released under the Consolidation Accords in 2724. The record remains incomplete. Some founding documents were destroyed in the data loss events of the 2130s. Others remain sealed under successor-state agreements inherited by the United Space Consortium and still not cleared for public release.
+The Programme's origins are reconstructed only in part from records declassified between 2190 and 2280 CE, with the final tranche released under the Consolidation Accords in 2724. The record remains incomplete. Some founding documents were destroyed in the data loss events of the 2130s. Others remain sealed under successor-state agreements inherited by the [United Space Consortium](/star-rangers/lore/united-space-consortium/) and still not cleared for public release.
 
 What the surviving record establishes is this:
 
-The Programme was established jointly by a coalition of Earth governments in approximately 2041, in direct response to a series of cable interference incidents in the North Atlantic and South China Sea that were assessed, with varying confidence, as deliberate. It was classified at the highest available level from inception. Its existence remained officially unacknowledged for 187 years.
+The Programme was established jointly by a coalition of Earth governments in approximately 2041 CE, in direct response to a series of cable interference incidents in the North Atlantic and South China Sea that were assessed, with varying confidence, as deliberate. It was classified at the highest available level from inception. Its existence remained officially unacknowledged for 187 years.
 
 Its mandate was to monitor, protect, and, where necessary, actively defend the global subsea cable network against interference from any source — state, non-state, or environmental — using autonomous underwater vehicles operating under standing rules of engagement no surface crew or public accountability structure would likely have accepted.
 
@@ -38,13 +38,13 @@ Its mandate was to monitor, protect, and, where necessary, actively defend the g
 
 The vehicles that defined the Programme passed through four generations. The design philosophy stayed consistent: long-endurance, deep-capable, acoustically quiet, and able to operate for months without surfacing.
 
-**First generation (approximately 2041–2075):** Primarily surveillance platforms. They carried sensor packages, data relay capability, and the ability to document and report interference events in real time. Their active capacity was limited: they could cut an anchor line or deter a remotely operated vehicle, but not sustain prolonged interdiction.
+**First generation (approximately 2041–2075 CE):** Primarily surveillance platforms. They carried sensor packages, data relay capability, and the ability to document and report interference events in real time. Their active capacity was limited: they could cut an anchor line or deter a remotely operated vehicle, but not sustain prolonged interdiction.
 
-**Second generation (approximately 2075–2120):** Active interdiction expanded significantly. These vehicles carried the first cable-repair toolkit, allowing restoration of severed shallow-water sections without deploying a surface vessel. They also carried a classified suite of countermeasures whose details remain partly redacted.
+**Second generation (approximately 2075–2120 CE):** Active interdiction expanded significantly. These vehicles carried the first cable-repair toolkit, allowing restoration of severed shallow-water sections without deploying a surface vessel. They also carried a classified suite of countermeasures whose details remain partly redacted.
 
-**Third generation (approximately 2120–2180):** The deepest-capable iteration, rated to full ocean depth across the network. These are the vehicles most often discussed in later historical literature because they were deployed during the period of greatest tension around subsea infrastructure: the climate-driven coastal fragmentation events of the 2130s and 2140s, when former partner states became adversarial over resource rights and sabotage risk reached its peak assessment.
+**Third generation (approximately 2120–2180 CE):** The deepest-capable iteration, rated to full ocean depth across the network. These are the vehicles most often discussed in later historical literature because they were deployed during the period of greatest tension around subsea infrastructure: the climate-driven coastal fragmentation events of the 2130s and 2140s, when former partner states became adversarial over resource rights and sabotage risk reached its peak assessment.
 
-**Fourth generation (approximately 2180 onwards):** The Programme's final operational generation, overseeing the transition from pure fibre infrastructure to the hybrid optical-quantum relay network that later underpinned the Solar System's early off-world communications. Their mandate expanded from cable protection to network integrity across a wider definition.
+**Fourth generation (approximately 2180 CE onwards):** The Programme's final operational generation, overseeing the transition from pure fibre infrastructure to the hybrid optical-quantum relay network that later underpinned the Solar System's early off-world communications. Their mandate expanded from cable protection to network integrity across a wider definition.
 
 ## What the Wardens Actually Did
 

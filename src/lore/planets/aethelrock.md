@@ -19,6 +19,8 @@ Ask a Union diplomat which charter world is hardest to get a straight answer fro
 
 The ark that reached Bruane carried five founding cooperatives that had never fully merged during transit — old disagreements over land tenure and grazing-rights custom, carried out of Earth's own crofting disputes and never resolved before departure. Survey data showed no single site generous enough to hold all five comfortably, and rather than force a shared settlement, the founding council let each cooperative claim its own valley or ridge system and govern it on its own terms.
 
+The glens the clans divided were cut by ice, long before anyone arrived to argue over them: Aethelrock carried glaciers once, in a colder age of its own, and the ice that ground its valleys out of the granite is entirely gone — an old world even in this, that its ice is finished. What the glaciers left is the land the whole polity is drawn on.
+
 The five founding claims hardened into the clans Aethelrock still keeps: **Clan Dubhghlas**, holding the southern lowland glens and most of the world's arable ground; **Clan Aonghas**, holding the eastern granite highlands and the bulk of the mining claims; **Clan Ó Ceallaigh**, holding the coastal fjord country and the fishing fleets; **Clan Ceridwen**, holding the central plateau and the world's only major fold-relay station; and **Clan Bryneth**, holding the northern high country, thinly populated and fiercely defended out of proportion to its size.
 
 ## Government Without a Government
@@ -36,6 +38,8 @@ Reconnection with the Solar System strained the arrangement badly. Clan Ceridwen
 ## Settlement Character
 
 Aethelrock follows Ynys Wydrin's register more than Tír na nÓg's: a hard world where technology stays visible because pretending otherwise gets people killed. Clan holdings run to weatherproofed stone longhouses with exposed heating conduits and drone-serviced grazing fences, not the recessed, softened tech of the biosphere worlds. Where the clans differ sharply from Ynys Wydrin is in the culture layered over that hardware — tartan-woven cold-weather cloth in clan-specific setts, contested grazing marches still walked on foot once a season to keep the boundary memory alive, and a body of clan law that predates the Union charter by generations and answers to it only when convenient.
+
+What the world supplies is air, water and ground, and what grows and grazes on it came off the ark. Aethelrock's atmosphere is a native biosphere's, and that biosphere is in its seas and on its rock, a mosslike cover on the granite and a thin life in the fjords that the Survey Corps logs and the Union's protocols do not harvest; the land fed nobody before landfall. Clan Dubhghlas's arable is Terran crop stock hardened to a short season and worked under the cold-world methods [Ynys Wydrin](/star-rangers/lore/planets/ynys-wydrin/) develops for the whole Union, under glass where the season is shortest; the flocks on every clan's grazing descend from Currach Fleet stock, as [Tír na nÓg's](/star-rangers/lore/planets/tir-na-nog/) uplands' do; and Clan Ó Ceallaigh's fleets fish stock the founders introduced to the fjords, not what the fjords held. Nothing native to Aethelrock is eaten. The world is breathable, which is rarer than it sounds in this record, and it is not compatible, which is rarer still and is one world's alone.
 
 ## Clan Avalon: A Fellowship Without Ground
 

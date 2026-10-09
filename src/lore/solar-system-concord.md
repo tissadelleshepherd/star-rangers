@@ -4,6 +4,8 @@ title: "The Solar System Concord"
 category: "Institutions"
 tags: [concord, solar-system-concord, governance, law, standards, tycho-accords, history, ai-safety-kernel, institutions]
 description: "The Solar System's continuing body of shared civil law and standards, founded with the Tycho Accords in 2543 UCSD as the Solar System Concordant and restyled the Concord in 2790 — the compact that every government since has enforced, and none has owned."
+image: "solar-system-concord.jpg"
+image_alt: "A great ring of plain wooden tables and chairs set out in a circle on a stone floor in a white-walled hall lit from high windows, every place empty"
 ---
 
 Governments of the Solar System have risen, hardened, and been negotiated out of existence. The law that says what a person is has outlasted all of them.
@@ -54,5 +56,6 @@ The founding name remains correct in historical citation, and documents carrying
 
 - [The Imperium](/star-rangers/lore/the-imperium/), [Military Space Command](/star-rangers/lore/military-space-command/), [United Space Consortium](/star-rangers/lore/united-space-consortium/) — the governments the compact outlasted
 - [The AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/) — the Concord's most consequential single standard
+- [The Enrolled Text](/star-rangers/lore/the-enrolled-text/) — how the compact is actually kept: a founding enrolment, amendments in difference form, and a current text anyone may re-derive
 - [Concordant](/star-rangers/glossary/concordant/) — the cosmological zone the compact was named for, and the word the restyling gave back
 - [Formation of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/)

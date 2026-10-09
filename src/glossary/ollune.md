@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Ollune"
+irish: "Ollune"
+irish_gloss: "the people's own name, kept; it renders roughly as the held"
 id: ollune
 category: "Species"
 short: "Buoyant, soft-bodied people native to the upper atmosphere of the gas giant Cirrane, who communicate on two channels — pressure and chemical — with opposite binding force."

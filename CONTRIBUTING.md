@@ -28,9 +28,11 @@ Please also don't present a fork in a way that implies it's official, endorsed b
 
 ## Issues
 
-Issues on **this** repo are for concrete, checkable problems with **this** site or codebase: a broken link, a build failure, a page that renders wrong, a factual inconsistency in published content. Those are useful, and a short report with a URL is enough.
+The issue tracker here is **my own backlog** — the working list for this site and codebase, kept in the open so anyone can see what's known and what's queued. It's a window rather than a door, and that's deliberate: this project has one reader-facing channel, and one is the right number.
 
-Everything else — feature requests, structural suggestions, "you should add X", requests for roadmap or timelines — I read but generally won't action, and may close without discussion. Not a judgement on the idea; it's the same capacity limit as above.
+So if you've found a concrete, checkable problem — a broken link, a page that renders wrong, a factual inconsistency in published content — **the comments repo is where to say so**, and a short report with a URL is enough. It reaches me just as well, and a public answer helps the next reader too. The [next section](#questions-from-readers) has the link.
+
+Feature requests, structural suggestions, "you should add X", requests for roadmap or timelines: I read them and generally won't action them. Not a judgement on the idea; it's the same capacity limit as above.
 
 ## Questions from readers
 

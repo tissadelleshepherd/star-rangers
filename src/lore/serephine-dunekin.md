@@ -4,6 +4,8 @@ title: "The Serephine Dunekin"
 category: "Species"
 tags: [serephine, dunekin, species, kharis-belt-iv, thin-atmosphere, ultraviolet, thermal-gradient, crepuscular, non-humanoid]
 description: "The Serephine Dunekin of Kharis Belt IV: a people who open twice a day, smelt with focused sunlight because thin air will not burn, and run their whole civilisation on a thermal gradient."
+image: "serephine-dunekin.jpg"
+image_alt: "Designed title card on a near-black field in pale gold: the category SPECIES in spaced capitals at the top, a sundial device held in a soft glow, and below a short rule the title THE SEREPHINE DUNEKIN in pale serif capitals, subtitled 'Those Who Open Twice a Day' and 'Smelters by focused sunlight, on a world whose air will not burn'."
 ---
 
 The Serephine Dunekin come from **Kharis Belt IV**, which has thin atmosphere, high ultraviolet flux, and a thermal inversion between day and night that **would kill an unprotected person in under an hour on either side**. Not one lethal extreme but two, twelve hours apart, every day, for as long as there has been life there.

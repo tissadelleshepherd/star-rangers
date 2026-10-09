@@ -5,12 +5,12 @@ category: "History"
 tags: [usc, united-space-consortium, history, governance, solar-system, faction, predecessor]
 description: "The United Space Consortium: the Solar System's first attempt at interplanetary governance, and why it failed to survive contact with its own contradictions."
 image: "united-space-consortium.jpg"
-image_alt: "A close-up across a wooden desk in an empty debating chamber: a grey electronic voting console with a card slot, a small blue screen and three buttons marked with a tick, a cross and a circle, beside a recessed strip of power sockets set into the desktop. Tiered rows of empty blue upholstered seats recede out of focus behind it."
+image_alt: "Designed cover for United Space Consortium: three concentric rings in a warm sand-gold glow on a dark brown-black field, the category HISTORY above and the title beneath, with the lines The First Attempt at Interplanetary Governance and And why it did not survive its own contradictions."
 ---
 
 Before the wars, there was an assembly chamber full of delegates who could still say they represented the Solar System. The tragedy is not that the chamber was false. It is that it was too slow when distance and power stopped waiting for it.
 
-The United Space Consortium (USC) was the Solar System's first formal interplanetary governing body, founded in approximately 2340 UCSD following the completion of the first permanent settlement networks on Mars, Titan, and the Belt. It was conceived as a democratic federation — each settlement and station holding representation weighted by population and resource contribution — and it lasted, in recognisable form, for approximately a century and a half.
+The United Space Consortium (USC) was the Solar System's first formal interplanetary governing body, founded in approximately 2340 UCSD following the completion of the first permanent settlement networks on [Mars](/star-rangers/lore/planets/mars/), Titan, and the Belt. It was conceived as a democratic federation — each settlement and station holding representation weighted by population and resource contribution — and it lasted, in recognisable form, for approximately a century and a half.
 
 ## Origins
 
@@ -42,6 +42,6 @@ The Coherence Wars began in 2503.
 
 The USC's failure was not democracy failing in principle. It was a specific democratic architecture failing: one that granted legacy interests structural veto power, deferred conflict rather than resolving it, and never found a workable representation model for outer settlements whose material stake kept growing with distance from Earth.
 
-That distinction was largely lost in the aftermath of the Coherence Wars. The Imperium, which followed the USC, drew the opposite lesson and treated democracy itself as the problem.
+That distinction was largely lost in the aftermath of the Coherence Wars. [The Imperium](/star-rangers/lore/the-imperium/), which followed the USC, drew the opposite lesson and treated democracy itself as the problem.
 
 The USC's boundary-monitoring frameworks and navigation protocols survived largely because they were too technically necessary to discard. The Star Rangers' Survey Corps still traces part of its institutional lineage back to that first USC monitoring service.

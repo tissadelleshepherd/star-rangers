@@ -29,30 +29,30 @@ eleventyComputed:
 
 {% if codexEntries.length %}
 {% for lib in libraries %}
-  {% set hasEntries = false %}
-  {% for entry in codexEntries %}{% if entry.data.library == lib.name %}{% set hasEntries = true %}{% endif %}{% endfor %}
-  {% if hasEntries %}
+  {%- set hasEntries = false -%}
+  {%- for entry in codexEntries %}{% if entry.data.library == lib.name %}{% set hasEntries = true %}{% endif %}{% endfor -%}
+  {%- if hasEntries -%}
   <section class="thread-section" aria-labelledby="library-{{ lib.name | slugify }}">
     <h2 class="thread-section__title" id="library-{{ lib.name | slugify }}">{{ lib.name }}</h2>
     <p class="page-intro">{{ lib.blurb }}</p>
     <div class="codex-grid">
-    {% for entry in codexEntries %}{% if entry.data.library == lib.name %}
+    {%- for entry in codexEntries %}{% if entry.data.library == lib.name -%}
     <a class="codex-card" href="/star-rangers{{ entry.url }}">
-    {% if entry.data.image %}
+    {%- if entry.data.image -%}
     <img class="codex-card__thumb" src="/star-rangers/images/codex/{{ entry.data.image }}" alt="{{ entry.data.image_alt | default(entry.data.title) }}" />
-    {% endif %}
-    {% if entry.data.category %}
+    {%- endif -%}
+    {%- if entry.data.category -%}
     <p class="codex-card__category">{{ entry.data.category }}</p>
-    {% endif %}
+    {%- endif -%}
     <h2 class="codex-card__title">{{ entry.data.title }}</h2>
-    {% if entry.data.institution %}
+    {%- if entry.data.institution -%}
     <p class="codex-card__institution">{{ entry.data.institution }}</p>
-    {% endif %}
+    {%- endif -%}
     </a>
-    {% endif %}{% endfor %}
+    {%- endif %}{% endfor -%}
     </div>
   </section>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 
 {% set hasScattered = false %}
@@ -62,20 +62,20 @@ eleventyComputed:
   <h2 class="thread-section__title" id="library-scattered">Circulating &amp; Scattered Holdings</h2>
   <p class="page-intro">Documents with no single archival master — recordings passed post to post, oral variants that disagree on purpose, and papers circulated open. What survives of these survives by being carried.</p>
   <div class="codex-grid">
-  {% for entry in codexEntries %}{% if (not entry.data.library) or (entry.data.library not in namedLibraries) %}
+  {%- for entry in codexEntries %}{% if (not entry.data.library) or (entry.data.library not in namedLibraries) -%}
   <a class="codex-card" href="/star-rangers{{ entry.url }}">
-  {% if entry.data.image %}
+  {%- if entry.data.image -%}
   <img class="codex-card__thumb" src="/star-rangers/images/codex/{{ entry.data.image }}" alt="{{ entry.data.image_alt | default(entry.data.title) }}" />
-  {% endif %}
-  {% if entry.data.category %}
+  {%- endif -%}
+  {%- if entry.data.category -%}
   <p class="codex-card__category">{{ entry.data.category }}</p>
-  {% endif %}
+  {%- endif -%}
   <h2 class="codex-card__title">{{ entry.data.title }}</h2>
-  {% if entry.data.institution %}
+  {%- if entry.data.institution -%}
   <p class="codex-card__institution">{{ entry.data.institution }}</p>
-  {% endif %}
+  {%- endif -%}
   </a>
-  {% endif %}{% endfor %}
+  {%- endif %}{% endfor -%}
   </div>
 </section>
 {% endif %}

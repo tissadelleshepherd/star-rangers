@@ -10,6 +10,8 @@ aliases:
   - "Dr. Falkorian"
 tags: [human, star-rangers, chief-science-officer, science-corps, science-section, eden, season-1]
 description: "Chief Science Officer at the start of Season 1 — the research track's duty title, one rank tier shared with a Chief Pilot. An engineering doctorate, an exacting standard for what counts as a finding, and a settled refusal to let any label stand in for him."
+image: "andrew-falkorian.jpg"
+image_alt: "Andrew Falkorian, a man in his late forties with greying hair, in plain grey Star Rangers service dress with a small tab at the collar, standing at a steel bench with one hand resting on a part-built instrument, a bare alloy frame with its optics cradled and no housing yet. A wide dark viewport onto stars lies behind him; the section is spare and evenly lit."
 ---
 
 A post's science section exists to answer one question in as many forms as the boundary can pose it: is the thing the instruments are describing actually there? Falkorian runs a science section, and at the start of Season 1 he holds the duty title that comes with running one — **Chief Science Officer**, the working title of a [Chief](/star-rangers/lore/star-rangers-command-hierarchy/) on the research track, leading [Science Corps](/star-rangers/lore/star-rangers-science-corps/) personnel at a post or aboard a vessel. Which section, and where, remains to be established in story.

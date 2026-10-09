@@ -13,9 +13,28 @@ eleventyExcludeFromCollections: true
   _data/scenePovPages.js - so without the second test a narrowed clone
   advertised its hidden POV placeholders as real content.
 -#}
+{#-
+  Two builds list nothing at all.
+
+  A SITE_NOINDEX build (a testing or staging domain) because its robots.txt is
+  already `Disallow: /` and every page carries `noindex, nofollow` - so a
+  sitemap here enumerates pages the same domain has just said not to index. It
+  was unreachable rather than harmful, since robots.txt omits the Sitemap line
+  and disallows the file itself, but shipping a list of URLs we are actively
+  hiding is the wrong artifact to leave lying in a document root.
+
+  And a non-ranking member of a tier family (lib/editions.js's `ranksAt`) lists
+  nothing. Every page it serves canonicals to the family's ranking domain, and
+  a sitemap advertising URLs we have just told Google not to index is
+  contradictory signalling - Google's own guidance is to keep non-canonical
+  URLs out of sitemaps. src/robots.njk drops its Sitemap line to match, so
+  nothing points at the empty file either.
+-#}
+{%- if not site.ranksAt and not site.noindex %}
 {%- for entry in collections.all %}
 {%- if entry.data.layout != "excluded.njk" and (not entry.data.item or entry.data.item.included) and entry.outputPath and entry.outputPath.endsWith(".html") %}
   <url><loc>{{ entry.url | absoluteUrl(site.url) }}</loc></url>
 {%- endif %}
 {%- endfor %}
+{%- endif %}
 </urlset>

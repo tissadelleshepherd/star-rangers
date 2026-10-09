@@ -4,6 +4,8 @@ title: "The Plainmark"
 category: "Records"
 tags: [plainmark, records, wayfinding, orbital-habitats-compact, standards, generation-ark, language, habitats]
 description: "The Orbital Habitats Compact's non-alphabetic marking standard — stacked colour bands carrying chevrons, rings, tally strokes and lozenges on hatch frames, corridors and cargo — whose standard it is, where it stops, and the short list of things it can say at all."
+image: "plainmark.jpg"
+image_alt: "A column of painted wayfinding marks on a hatch frame inside a station, each a plain shape on its own colour, chevrons, a bar, tally strokes, a diamond, circles, squares, a triangle, cables and fittings on the walls around it"
 plain: "Habitats are full of people who don't share a written language, and a wrong turn in a habitat can be deadly. So the Compact's habitats mark their doors, corridors and crates with the plainmark: painted colour bands carrying simple shapes — arrows made of chevrons, rings for breathable air, tally strokes for numbers, diamonds for danger. There are no letters or words in it, so anyone can learn to read it in an afternoon. The trade-off is that it can only say a few simple things: what kind of thing, which way, how many, and whether it is safe. It cannot name anything or explain anything — for that, you still need language."
 related:
   - "The Orbital Habitats Compact"

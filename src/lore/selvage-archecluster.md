@@ -4,6 +4,8 @@ title: "Selvage: The Seeded Edge of Wholecloth"
 category: "Cosmology"
 tags: [selvage, wholecloth, archecluster, noogenic-seeding, cosmology, cascade, scope-of-physical-law]
 description: "The registered exception inside the sealed formcluster: one archecluster, seated along the weave's self-finished edge, where the noögenic channel still runs — sealed universes that can never touch one another, and can still reproduce. The one thing that ever leaves a Wholecloth universe is structure, and even the exception refuses to be an exit."
+image: "selvage-archecluster.jpg"
+image_alt: "A close view of the corner of a coarse woven cloth where the finished edge turns, the selvage bound tighter than the weave it closes"
 plain: "Wholecloth is the universe-family where nothing crosses between universes — no ships, no shadows, no new 'child' universes. Selvage is the one exception the record knows about: a group of universes along that family's edge where universe reproduction by seed minds still works. Deep enough minds there can compress into seeds that start new universes in reserved empty places along the edge. But a seed carries structure, not a person — so even this one open channel is not a way out for anyone. The family grows along its own edge, one sealed room at a time."
 ---
 

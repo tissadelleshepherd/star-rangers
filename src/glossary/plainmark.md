@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Plainmark"
+irish: "Réidhmharc"
+irish_gloss: "a plain mark"
 id: plainmark
 category: "Records"
 short: "The Orbital Habitats Compact's non-alphabetic marking standard — painted colour bands and simple figures on hatch frames, corridors and cargo, readable without any shared language."

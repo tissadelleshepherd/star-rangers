@@ -3,21 +3,23 @@ layout: character.njk
 title: "Emma la Chapelle"
 id: emma-la-chapelle
 species: Human
-role: "Field Officer, Xenolinguistics Branch, Survey Corps — standing delegation, Vellamar (Kingdom of the Four Islands)"
+role: "Field Officer, Xenolinguistics Branch, Survey Corps — standing delegation, Vellamar (Kingdom of the Five Islands)"
 status: Active
 aliases:
   - "la Chapelle"
-tags: [human, star-rangers, survey-corps, xenolinguistics, four-islands, vellamar, aduine, field-officer, first-contact, standing-delegation]
-description: "The delegation's junior xenolinguist, whose low-confidence reading of an ordinary farming word sent the instruments looking for the Four Islands' engineered atmosphere — and who has refused, consistently, to let it be described as a discovery."
+tags: [human, star-rangers, survey-corps, xenolinguistics, five-islands, vellamar, aduine, field-officer, first-contact, standing-delegation]
+description: "The delegation's junior xenolinguist, whose low-confidence reading of an ordinary farming word sent the instruments looking for the Five Islands' engineered atmosphere — and who has refused, consistently, to let it be described as a discovery."
+image: "emma-la-chapelle.jpg"
+image_alt: "Emma la Chapelle, a young woman with dark hair in a braid, in a green field jacket over a brown leather vest, seated at a plain wooden table in a grey stone hall with her hands still and her head slightly tilted, listening to someone out of frame. A closed notebook and a pencil lie in front of her; cold daylight comes through a tall narrow window."
 ---
 
-The engineering in the Four Islands' air was confirmed by atmospheric analysis, and atmospheric analysis found it because somebody told it where to look. Emma la Chapelle is the officer who did, filed the reading at the bottom of her confidence range, and has spent every season since correcting the version of the story that leaves that part out.
+The engineering in the Five Islands' air was confirmed by atmospheric analysis, and atmospheric analysis found it because somebody told it where to look. Emma la Chapelle is the officer who did, filed the reading at the bottom of her confidence range, and has spent every season since correcting the version of the story that leaves that part out.
 
 She is a Field Officer — the first rank in the Corps that can be posted independently, and the one most civilians mean when they say a Star Ranger came. She has held it through the whole of her time on this world, works the Long Accounting three days a week in the Abbeylands on Aduine, and returns to the compound on Vellamar with more questions than sentences.
 
 ## Known History
 
-- Certified through the Survey Corps' Xenolinguistics school and posted to the Four Islands delegation as a junior linguist, her first independent posting.
+- Certified through the Survey Corps' Xenolinguistics school and posted to the Five Islands delegation as a junior linguist, her first independent posting.
 - Works the Long Accounting directly under the Abbey's arrangement with the delegation, alongside the Sisterhood's own correctors rather than in place of them.
 - Noticed a common labour term in the Accounting's oldest agricultural entries appearing in contexts where ordinary field work did not account for it, and read it as carrying a second, technical sense the Kingdom's own chronicles no longer hear in it.
 - Filed the reading as a candidate at low stated confidence, with the contexts that produced it and the three readings she could not rule out.
@@ -35,4 +37,4 @@ She is the delegation's most frequent visitor to the Abbeylands and the slowest 
 
 The habit that the register makes visible, and that nobody had a name for until she started keeping it, is that her bands move down about as often as they move up. She re-derives readings that have already been accepted. Three of her own filed candidates have been withdrawn by her and by nobody else, which is three more than any other linguist on the posting has withdrawn, and she does not appear to regard this as a figure worth being uncomfortable about.
 
-See also: [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), [The Star Rangers Academy](/star-rangers/lore/star-rangers-academy/), [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/).
+See also: [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Five Islands](/star-rangers/lore/planets/kingdom-of-the-five-islands/), [The Star Rangers Academy](/star-rangers/lore/star-rangers-academy/), [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/).

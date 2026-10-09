@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Kernel-Compliant"
+irish: "Comhlíontach leis an Eithne"
+irish_gloss: "compliant with the kernel"
 id: kernel-compliant
 category: "Society"
 short: "The certification status of an agentic system carrying the AI Safety Kernel's invariants as binding structural architecture — conferred at commissioning, and the baseline every lawful agentic system in the Concord must meet, whatever kind of system carries it."

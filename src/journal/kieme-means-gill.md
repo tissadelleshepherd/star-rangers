@@ -35,3 +35,7 @@ Which extends further than I first wrote it. These are all *human* names. Every 
 I have spent a fair amount of this year tidying up after myself — retiring names, sweeping terminology, reconciling entries that had drifted apart. It is mostly good work. But this one was a reminder that the reflex has a failure mode, and the failure mode is expensive: I went in to clean up a mess and the mess turned out to be the evidence.
 
 The untidiness was the clue. I had very nearly filed it as the fault.
+
+---
+
+*Postscript, 18 September 2026.* The tradition no longer calls this tier the Holy Triumvirate. On the mapping ruled that evening it calls Kieme the Eternal Son and, in its own register, [the First Word](/star-rangers/glossary/kieme/) — set against the Silent Origin rather than beside it. The gill stays, for the reasons above, and one more: a word that carries two meanings is the ordinary condition of a name, not a fault in one. See [The First Word Was Silent](/star-rangers/journal/the-first-word-was-silent/).

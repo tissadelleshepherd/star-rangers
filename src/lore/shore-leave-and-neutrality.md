@@ -4,11 +4,13 @@ title: "Shore Leave and the Neutrality Constraint"
 category: "Institutions"
 tags: [star-rangers, charter, neutrality, shore-leave, jurisdiction, officers, celtic-union, institutions]
 description: "Why an officer on personal leave is the hardest case the charter's neutrality clause has to cover, and why the Star Rangers have never written a rule that would fix it."
+image: "shore-leave-and-neutrality.jpg"
+image_alt: "A quiet bar on a habitat concourse in the afternoon, nearly empty, plain unlabelled bottles and glasses on plain shelves lit from behind, a jacket folded on a pulled-out stool with a half-finished drink on the counter, the concourse's matte panels beyond the opening"
 ---
 
 An officer on leave is off duty, out of uniform, and still the only Star Ranger in the room. Nobody at the table forgets it, least of all the ones being kind about it.
 
-The [charter](/star-rangers/lore/formation-of-star-rangers/) is unambiguous about the institution. **Neutrality**: the Star Rangers take no side in political disputes between factions, governments, habitats or settlements, and do not campaign, endorse, or lend operational presence to anyone's legitimacy. **No planetary or large-habitat jurisdiction**: they enter only by invitation and leave when it is withdrawn. Both constraints were forced into the charter by outer-station delegates who were making certain the Rangers could never become the Military Space Command again, and both have held for a century under pressures they were not designed for.
+The [charter](/star-rangers/lore/formation-of-star-rangers/) is unambiguous about the institution. **Neutrality**: the Star Rangers take no side in political disputes between factions, governments, habitats or settlements, and do not campaign, endorse, or lend operational presence to anyone's legitimacy. **No planetary or large-habitat jurisdiction**: they enter only by invitation and leave when it is withdrawn. Both constraints were forced into the charter by outer-station delegates who were making certain the Rangers could never become the [Military Space Command](/star-rangers/lore/military-space-command/) again, and both have held for a century under pressures they were not designed for.
 
 Neither says anything about going home.
 
@@ -32,6 +34,8 @@ The difficulty is that at home, a precise question about why a rule exists is in
 
 Star Rangers carry a status that functions much like diplomatic accreditation. An officer acting under the charter is not subject to local process in the ordinary way, which is what makes it possible to walk into a boundary dispute, a failing habitat, or a polity in the middle of an argument with itself and be treated as something other than one more interested party. No single government grants this. It is *recognised* — by the [Solar System Concord](/star-rangers/lore/solar-system-concord/), by the [Celtic Union](/star-rangers/lore/celtic-union-of-planets/), by the [Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/) — and recognition is a thing that can be given to an institution and refused to a person.
 
+What the immunity does to jurisdiction is the part most often misread from outside. Because local process cannot reach a Ranger in the ordinary way, the body that can is the Corps' own: **a Ranger's conduct, anywhere, is the [Provost track's](/star-rangers/lore/star-rangers-command-hierarchy/) to investigate and to answer for**, and the file on an officer who has done wrong on a habitat's deck, aboard a docked vessel or at a boundary post is a Provost file, whoever first raised it. That is not a privilege and the Rangers do not describe it as one; it is what accreditation costs the polity that grants it, and the reason the Provost function was built to investigate its own without needing an outside authority to make it credible. The polity's reciprocal is the one below — it cannot try her, and it can send her away. The Celtic Union's standing agreement is the one place the default is varied by treaty rather than assumed: a Ranger on personal leave on Tír na nÓg passes into Union jurisdiction at the gate and back out of it on departure, escorted both ways, which is the Union declining the arrangement every other recognising polity accepts, and the Rangers accepting the declining. And the shield is the status's, not the person's: an officer dismissed from the Corps loses both together and answers to local law like anyone else from that day.
+
 The symmetry is exact, and it is the part officers are briefed on and then discover properly anyway. Accreditation carries the power to declare an individual holder unwelcome. That is not a punishment invented for Rangers; it is the ordinary reciprocal of the status, and every polity that recognises the Rangers holds it.
 
 What makes it bite is what happens when the polity is the officer's own.
@@ -53,6 +57,7 @@ So the Rangers issue guidance rather than prohibition, and the officer carries t
 ## See also
 
 - [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/) — the charter constraints and who forced them in
+- [The Oversight Council](/star-rangers/lore/the-oversight-council/) — the body the Corps answers to, and why recognition made its neutrality reach past the system that wrote it
 - [The Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/) — the confederation supplying the largest share of extra-Concord officers
 - [The Cerebraun Hegemony](/star-rangers/lore/cerebraun-hegemony/) — the withdrawn invitation, and the limit holding
 - [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/) — where a specialist officer's independence begins and ends

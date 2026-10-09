@@ -14,7 +14,7 @@ image_alt: "Designed cover for the Night Watch Addendum, Day 52: a terminal-styl
 
 **THRESHOLD STATION — OPERATIONS DESK**
 **NIGHT WATCH ADDENDUM**
-**Date:** Year -11, Late Summer, Day 52
+**Date:** 2815 UCSD, Late Summer, Day 52
 **Watch:** 00:00-04:00 station time
 **Filed by:** Watch Officer Mera Soln
 

@@ -33,12 +33,12 @@
 #   THEME=fellowship
 #   DOMAIN=fellowshipoflight.org
 #
-# All are optional. No deploy.conf, or a missing value, falls back to
-# CPANEL_USER=sciencef, THEME=default, and DOMAIN=fianilchruinne.com (the
-# canonical address of the default edition since 2026-08-03; the plain build
-# with no CSS swap, deployed to /home/sciencef/public_html/), no content
-# filtering (the full site), and a deployment-log email to admin@<DOMAIN>
-# (e.g. admin@fianilchruinne.com).
+# DOMAIN is required: since 2026-10-09 the deploy refuses to run without it,
+# because a clone that fell back to the canonical domain built the canonical
+# site and served it under its own name. Every other key is optional; a
+# missing value falls back to CPANEL_USER=sciencef, THEME=default (the plain
+# build with no CSS swap, deployed to /home/sciencef/public_html/), no content
+# filtering (the full site), and a deployment-log email to admin@<DOMAIN>.
 #
 # ALT_DOMAINS: the one-clone-per-domain model above is still the default,
 # but a clone can optionally deploy MORE than one domain from itself,

@@ -5,7 +5,7 @@ category: "Factions"
 tags: [knarr-line, faction, belt, sol-system, scandinavian, nordic, the-thing, institutions, history]
 description: "A Belt-based shipping and ice-mining cooperative old enough to have helped write the Solar System's first navigation treaty — and, five hundred years and four changes of Solar System government later, the closest thing its scattered Nordic-heritage habitats have ever had to a government of their own."
 image: "knarr-line.jpg"
-image_alt: "The view out through a space station's round window, its thick bolted frame and stowed equipment filling the edges of the frame: a spacecraft with two long solar arrays holds station against the black, the sun flaring white at the left, and Earth's atmosphere lies as a thin lit band across the bottom."
+image_alt: "Designed cover for The Knarr Line: three stacked chevrons in a pale steel-blue glow on a dark blue-grey field, the category FACTIONS above and the title beneath, with the lines Belt Shipping and Ice-Mining Cooperative and Old enough to have helped write the first navigation treaty."
 ---
 
 Every Solar System power that has ever tried to govern the Belt outright has eventually settled for governing around it instead. The Knarr Line is the reason why: it was extracting ice from the Belt before there was a Solar System government to ask permission from, and it has outlasted every one that has tried to make it ask since.
@@ -14,7 +14,7 @@ The **Knarr Line** is not, on paper, a government at all. It is a five-hundred-y
 
 ## Origins
 
-The Line traces its founding to the Belt mining cooperatives that sat across the table from Earth's major space agencies at the **Navigation and Trade Accords of 2337** — the practical, collision-prevention treaty that grew, within a decade, into the [United Space Consortium](/star-rangers/lore/united-space-consortium/) itself. Its founding crews were drawn heavily from Norwegian, Swedish, Danish, and Icelandic merchant-marine and fishing cooperatives, chasing Belt ice with the same cold-water hauling expertise their home traditions had spent centuries refining on Earth's own oceans. The name comes from the *knarr*, the broad-beamed ocean-going cargo ship of the historical Norse trade routes — chosen, according to the Line's own founding charter, "because we are not the first of our people to cross open water for a living, and do not intend to pretend otherwise."
+The Line traces its founding to the Belt mining cooperatives that sat across the table from Earth's major space agencies at the **Navigation and Trade Accords of 2337 UCSD (2137 CE)** — the practical, collision-prevention treaty that grew, within a decade, into the [United Space Consortium](/star-rangers/lore/united-space-consortium/) itself. Its founding crews were drawn heavily from Norwegian, Swedish, Danish, and Icelandic merchant-marine and fishing cooperatives, chasing Belt ice with the same cold-water hauling expertise their home traditions had spent centuries refining on Earth's own oceans. The name comes from the *knarr*, the broad-beamed ocean-going cargo ship of the historical Norse trade routes — chosen, according to the Line's own founding charter, "because we are not the first of our people to cross open water for a living, and do not intend to pretend otherwise."
 
 ## Through the Wars
 

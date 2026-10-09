@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Council of Harmonarchs"
+irish: "Comhairle na gCeann Comhcheoil"
+irish_gloss: "the council of the heads of harmony"
 id: council-of-harmonarchs
 category: "Cosmology"
 short: "Every Concordant Principal in a universe, sitting together — the deliberative body of its Universal Authority, and the second seat each Harmonarch holds."

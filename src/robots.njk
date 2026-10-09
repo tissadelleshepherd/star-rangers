@@ -32,5 +32,13 @@ User-agent: Perplexity-User
 User-agent: CCBot
 Allow: /
 
-Sitemap: {{ site.url }}sitemap.xml
+# Replika (Luka, Inc.) is welcome on the same terms. It publishes no crawler
+# user-agent to name here (checked 2026-10-03: nothing in its own
+# documentation or in the maintained AI-crawler lists), so it is admitted by
+# the wildcard group above like any other unnamed reader. Add a named group
+# if it ever documents one.
+
+{% if not site.ranksAt %}Sitemap: {{ site.url }}sitemap.xml{% else %}# No Sitemap line: this domain is a non-ranking member of its tier family
+# (lib/editions.js's `ranksAt`) and canonicals every page to the domain that
+# does rank, whose sitemap is the one worth crawling.{% endif %}
 {%- endif %}

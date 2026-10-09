@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Entropy Horizon"
+irish: "Léaslíne Eantrópachta"
+irish_gloss: "the horizon of entropy"
 id: entropy-horizon
 category: "Cosmology"
 short: "The threshold where a universe can no longer sustain self-renewing novelty and enters closure dynamics."

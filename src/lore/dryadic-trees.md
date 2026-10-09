@@ -1,6 +1,7 @@
 ---
 layout: lore-entry.njk
 title: "Dryadic Trees: Etheric-Rooted Organisms and Class II Anchor Points"
+revealed_by: s01e02c02
 category: "Flora"
 tags: [dryadic-trees, flora, class-ii, meta-dimensional, etheric, boundary, anchor-points, sapient-monsters]
 description: "Dryadic trees are organisms whose root systems extend into the Etheric layer, making them natural anchor points exploited by Class II meta-dimensional beings as stable footholds in Material space."
@@ -16,9 +17,9 @@ They were named after old tree-spirit folklore. The name stayed. The explanation
 
 ## The Dryad and the Tree Are Not the Same Entry
 
-The tree is an organism and this page describes it. **The Dryad is not the tree, and is not a humanoid being either.** Where a figure is seen at a dryadic anchor — and figures are reported, in the field record and in older folk accounts alike — what is present is a **projection**, in the same category as the Good People of [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/): a presentation shaped at the boundary and pitched to be met, belonging to something under no obligation to resemble it.
+The tree is an organism and this page describes it. **The Dryad is not the tree, and is not a humanoid being either.** Where a figure is seen at a dryadic anchor — and figures are reported, in the field record and in older folk accounts alike — what is present is a **projection**, in the same category as the [Caomhari](/star-rangers/glossary/caomhari/) of [Tír Tairngire](/star-rangers/lore/universes/tir-tairngire/): a presentation shaped at the boundary and pitched to be met, belonging to something under no obligation to resemble it.
 
-**And like the Good People, they are found only where the [Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/) runs close enough.** This is the fact that makes the whole category legible rather than mysterious: a projection needs something to project *from*, and proximity to that membrane is the condition. It explains the distribution directly — why Dryads are reported at some anchor sites and never at others no matter how old or how strongly coupled the grove; why the folk accounts cluster geographically rather than scattering; and why a survey team can predict, from membrane proximity alone and before setting foot on the ground, whether a site is one where figures are likely to be described. Absence of a Dryad at a dryadic grove is therefore not a negative finding about the grove. It is a measurement of how far away something else is.
+**And like the Caomhari, they are found only where the [Harmonic Membrane](/star-rangers/lore/universes/tir-tairngire/) runs close enough.** This is the fact that makes the whole category legible rather than mysterious: a projection needs something to project *from*, and proximity to that membrane is the condition. It explains the distribution directly — why Dryads are reported at some anchor sites and never at others no matter how old or how strongly coupled the grove; why the folk accounts cluster geographically rather than scattering; and why a survey team can predict, from membrane proximity alone and before setting foot on the ground, whether a site is one where figures are likely to be described. Absence of a Dryad at a dryadic grove is therefore not a negative finding about the grove. It is a measurement of how far away something else is.
 
 **Parts of [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/) are close enough**, which is the record's clearest worked case and the reason the folk accounts there are the fullest anywhere. Note the wording: *parts*. The condition is local rather than planetary, so one valley on that world may hold both a grove where figures are described for generations and another, a day's walk off, where nothing has ever been reported and the trees are otherwise identical. Neither settlement is mistaken about its own ground.
 
@@ -67,7 +68,7 @@ The relationship is not parasitic to the tree. Documented groves in active use s
 A dryadic tree in active Class II use produces measurable indicators beyond the standard physical characteristics:
 
 - **Etheric-band disturbance:** Coherence asymmetry in the Conceptual↔Etheric band, detectable by constraint-literate practitioners. The signature differs from standard boundary disturbance in that it is localised to the root zone rather than distributed across a boundary gradient.
-- **Feeding residue:** Class II entities using a dryadic anchor leave characteristic residue in the local emotional and social environment. A grove that has been active for years will produce the specific patterns associated with the entity's feeding method — ambiguity accumulation for Court-Fae, moral debt loops for Gilded Saints.
+- **Feeding residue:** Class II entities using a dryadic anchor leave characteristic residue in the local emotional and social environment. A grove that has been active for years will produce the specific patterns associated with the entity's feeding method — ambiguity accumulation for Obligers, moral debt loops for Gilded Saints.
 - **Instrument asymmetry:** Rook-7 class sensor arrays detect feeding-condition asymmetries that correlate with Class II presence; these read differently near a dryadic anchor than near a standard boundary entry. The signal is cleaner and does not drift with boundary oscillation.
 
 ## Operational Guidance
@@ -78,7 +79,7 @@ A dryadic tree in active Class II use produces measurable indicators beyond the 
 
 ### A worked case, and its limit
 
-The Marsh Causeway intervention is the reference example for both halves of the guidance above, and for the trap between them. Removing the entity's feeding condition — done at the causeway by putting a question that could only be answered unambiguously — broke the loop. It did not release the anchor. [The Root and the Rest of It (S01E03C03)](/star-rangers/seasons/s01/e03/s01e03c03/) is the second visit, made specifically because the first one worked: the team goes back for the root coupling itself, and the lesson it comes away with is that removing one cause from a two-cause problem proves exactly which cause you removed and nothing else. A station's instrument drift did not resolve when the loop broke, and the temptation at that point — to conclude the grove was never the cause — is the error the sequence exists to document.
+The Marsh Causeway intervention is the reference example for both halves of the guidance above, and for the trap between them. Removing the entity's feeding condition — done at the causeway by putting a question that could only be answered unambiguously — broke the loop. It did not release the anchor. [The Root and the Rest of It (S01E03C02)](/star-rangers/seasons/s01/e03/s01e03c02/) is the second visit, made specifically because the first one worked: the team goes back for the root coupling itself, and the lesson it comes away with is that removing one cause from a two-cause problem proves exactly which cause you removed and nothing else. A station's instrument drift did not resolve when the loop broke, and the temptation at that point — to conclude the grove was never the cause — is the error the sequence exists to document.
 
 ## Known Locations
 
@@ -91,5 +92,5 @@ Survey Archive cross-referencing (see [A Fraction of a Second (S05E02C02)](/star
 At least one instance sits outside the survey record entirely. A grazing holding in the [Boirinn Uplands](/star-rangers/lore/planets/tir-na-nog/) on Tír na nÓg carries pale bark and a phase-lag inside the marker range, in a back hollow the family has worked around for generations under a house rule nobody can source — and it has never been formally surveyed, because the Rangers hold no jurisdiction on a Union world and no invitation covering it has been issued. It is worth recording for what it establishes about the organism rather than about that holding: the two field markers are consistent wherever an anchor of this type occurs, and the survey record's coverage is a record of where instruments have been allowed, not of where the trees are. See [What the Hill Keeps (S05E02C01)](/star-rangers/seasons/s05/e02/s05e02c01/).
 
 See: [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/)  
-See: [Predatory Entities: Court-Fae, Gilded Saints, and Cute Predators](/star-rangers/lore/predatory-entities/)  
+See: [Predatory Entities: Obligers, Gilded Saints, and Cute Predators](/star-rangers/lore/predatory-entities/)  
 See: [Boundary Zones and Concordant Edges](/star-rangers/lore/boundary-zones/)

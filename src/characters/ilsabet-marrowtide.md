@@ -3,12 +3,12 @@ layout: character.njk
 title: "Ilsabet Marrowtide"
 id: ilsabet-marrowtide
 species: Human
-role: Abbess, Tideward Sisterhood (the Abbeylands, Aduine, Kingdom of the Four Islands)
+role: Abbess, Tideward Sisterhood (the Abbeylands, Aduine, Kingdom of the Five Islands)
 status: Active
 aliases:
   - "The Abbess of Aduine"
-tags: [four-islands, tideward-sisterhood, abbeylands, aduine, first-contact, human]
-description: "Abbess of the Tideward Sisterhood and keeper of the Long Accounting — the Kingdom of the Four Islands' only continuous written archive — and the Kingdom's de facto first point of contact for the Survey Corps' new standing delegation."
+tags: [five-islands, tideward-sisterhood, abbeylands, aduine, first-contact, human]
+description: "Abbess of the Tideward Sisterhood and keeper of the Long Accounting — the Kingdom of the Five Islands' only continuous written archive — and the Kingdom's de facto first point of contact for the Survey Corps' new standing delegation."
 image: "ilsabet-marrowtide.jpg"
 image_alt: "Ilsabet Marrowtide standing composed in the stone passage of her house, in a plain grey habit and white wimple with a worn leather belt, hands loosely clasped. Behind her an open arched doorway shows wet flagstones and grey sea beyond."
 known_codex: [what-prayer-is-for]
@@ -33,4 +33,4 @@ She met the Survey Corps' first standing delegation with the Long Accounting its
 
 She is careful, in every exchange with outside visitors, to distinguish what the Long Accounting actually states from what court tradition merely assumes — a habit that has made her simultaneously the delegation's most reliable Kingdom source and, by her own wry admission, the Crown's least comfortable one.
 
-See also: [The Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/).
+See also: [The Kingdom of the Five Islands](/star-rangers/lore/planets/kingdom-of-the-five-islands/), [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Ernesto Strozzi](/star-rangers/characters/ernesto-strozzi/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/).

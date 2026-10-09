@@ -54,7 +54,8 @@ commentsCategory: episodes
     {% endif %}
   </header>
 
-  {% if povs and povs.length %}
+  {%- set visiblePovs = povs | povsForTier -%}
+  {% if visiblePovs and visiblePovs.length %}
   <div class="pov-controls" role="group" aria-label="Point of view selector">
     <p class="pov-controls__label">View from:</p>
     <div class="pov-controls__buttons">
@@ -64,7 +65,7 @@ commentsCategory: episodes
         aria-pressed="true"
         type="button"
       >All POVs</button>
-      {% for pov in povs %}
+      {% for pov in visiblePovs %}
       <button
         class="pov-btn"
         data-pov="{{ pov.id }}"
@@ -76,8 +77,35 @@ commentsCategory: episodes
   </div>
   {% endif %}
 
+  {#- "From the Archive": the Archive entries that accompany this chapter -
+      pages whose revealed_by names it, plus the chapter's own `related:`
+      titles - each with the entry's own one-line account, in the Archive's
+      voice (lib/archive-companions.js; Dermot's direction of 2026-10-05, the
+      Archive as the Book that accompanies the narrative). Where it sits is
+      the posture's: beside the prose in the archive and contemplative
+      presentations at the wide breakpoint, under it in story and primer
+      (main.css, .chapter-reading). The DOM order is the same either way, so
+      a reader without the grid meets it directly under the text. -#}
+  {%- set archiveCompanions = { id: id } | fromTheArchive(related, collections.glossary, collections.lore, collections.codex, edition.tier) -%}
+  <div class="chapter-reading">
   <div class="chapter-body">
     {{ content | safe }}
+  </div>
+  {% if archiveCompanions.length %}
+  <aside class="archive-companions" aria-labelledby="archive-companions-heading" data-pagefind-ignore>
+    <h2 class="archive-companions__heading" id="archive-companions-heading">From the Archive</h2>
+    <p class="archive-companions__lede">The record's entries for what this chapter meets.</p>
+    <ul class="archive-companions__list" role="list">
+      {% for entry in archiveCompanions %}
+      <li class="archive-companions__item">
+        <a class="archive-companions__title" href="{{ entry.url }}">{{ entry.title }}</a>
+        <span class="archive-companions__kind">{{ entry.label }}{% if entry.category %} · {{ entry.category }}{% endif %}{% if entry.relation == "revealed" %} · first revealed here{% endif %}</span>
+        {% if entry.text %}<p class="archive-companions__text">{{ entry.text }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
   </div>
 
   {% set scenes = scenePovPages | scenesForChapter(id) %}
@@ -107,6 +135,27 @@ commentsCategory: episodes
     <ul class="canon-facts__list" id="canon-facts-list" hidden>
       {% for fact in canon_facts %}
       <li>{{ fact }}</li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+
+  {#- "In the Archive": the record's own pages that read this chapter, derived
+      at build time (lib/archive-backlinks.js) from the included lore,
+      glossary, codex and journal collections. Kept after the prose and the
+      canon facts on purpose: the general tier is "the same record with its
+      reasons under it", and the reasons go under the text, not beside it. -#}
+  {%- set archiveLinks = { id: id, comment_id: comment_id } | archiveBacklinks(collections.lore, collections.glossary, collections.codex, collections.journalEntries) -%}
+  {% if archiveLinks.length %}
+  <aside class="archive-links" aria-labelledby="archive-links-heading" data-pagefind-ignore>
+    <h2 class="archive-links__heading" id="archive-links-heading">In the Archive</h2>
+    <p class="archive-links__lede">Pages of the record that read this chapter.</p>
+    <ul class="archive-links__list" role="list">
+      {% for link in archiveLinks %}
+      <li>
+        <a href="/star-rangers{{ link.url }}">{{ link.title }}</a>
+        <span class="archive-links__kind">{{ link.label }}{% if link.relation == "revealed" %} · first revealed here{% elif link.relation == "revised" %} · revised after this chapter{% endif %}</span>
+      </li>
       {% endfor %}
     </ul>
   </aside>

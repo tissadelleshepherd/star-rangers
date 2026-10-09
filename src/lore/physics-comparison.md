@@ -23,7 +23,7 @@ The fictional cosmos superficially mimics real-world physics at the Material and
 
 ### Fictional Cosmos
 - Physical constants are selected by Worldwrights to produce stable, fertile [Concordants](/star-rangers/glossary/concordant/).
-- [Mediarchs](/star-rangers/glossary/mediarch/) administer the physical forces themselves; Celestials and Levrils perform ongoing maintenance at the Etheric and Conceptual layers, inside mandates defined from the higher strata.
+- [Mediarchs](/star-rangers/glossary/mediarch/) administer the physical forces themselves; Celestials and [Levrils](/star-rangers/lore/levrils/) perform ongoing maintenance at the Etheric and Conceptual layers, inside mandates defined from the higher strata.
 - Three parallel information channels exist: quantum, thermodynamic, and conceptual.
 - Events near boundary zones or anomalies are subject to meaning-field resonance.
 
@@ -36,7 +36,7 @@ Physical constants are engineered, not merely unexplained. Some events carry a f
 
 ### Real Cosmos
 - Strictly forward in time.
-- Randomness appears irreducible; no retrocausal influence has ever been observed.
+- Randomness appears irreducible. Apparent retrocausality is observed in delayed-choice experiments, and no retrocausal influence has ever been scientifically verified: the sorted interference appears only in coincidence with a result that arrives forward in time.
 
 ### Fictional Cosmos
 - Causality is stable by design.
@@ -85,7 +85,7 @@ Randomness is real, but it carries a faint Etheric texture that can be sculpted 
 - Overlaps manifest as:
   - Conceptual turbulence.
   - "Thin places" and anomalies such as the Threshold Station boundary discrepancy.
-  - Shadow and predatory entities such as the Court-Fae at the Marsh Causeway.
+  - Shadow and predatory entities such as the Obliger at the Marsh Causeway.
   - Ecological and biological influence at the Material layer.
 - Gravity and spacetime distort predictably near overlap boundaries.
 - Syra's coherence-reading and Rook-7's sensor arrays both detect this dimensional tension.
@@ -98,7 +98,7 @@ Any given [Concordant](/star-rangers/glossary/concordant/) is one coherence zone
 ## 5. Energy and Entropy
 
 ### Real Cosmos
-- Entropy increases monotonically, with no external regulation observed.
+- Entropy increases monotonically, with no external regulation scientifically verified.
 - Heat death is the long-term terminal state predicted by current models.
 
 ### Fictional Cosmos
@@ -126,7 +126,7 @@ Entropy is real and inevitable, but actively stabilised. Catastrophic collapse r
 - Evolution follows physical law, but meaning-fields exert subtle Material-layer pressure on:
   - Intuition and dreaming states.
   - Archetypal fears and pattern recognition.
-  - Instinctive responses to conceptual turbulence — for example, Aldera's acute detection of the Court-Fae feeding signature at the Marsh Causeway.
+  - Instinctive responses to conceptual turbulence — for example, Aldera's acute detection of the Obliger feeding signature at the Marsh Causeway.
 
 ### Key Difference
 Life evolves normally but is not perfectly sealed from Etheric influence. Biological systems can register meaning-field disturbance without consciously understanding it.
@@ -160,13 +160,13 @@ Information has a third metaphysical channel. Standard instruments cannot detect
 
 ### Real Cosmos
 - Disasters follow physical law without exception.
-- No external intervention has ever been observed.
+- No external intervention has ever been scientifically verified. Interventions are reported, and none has survived verification.
 
 ### Fictional Cosmos
 - Disasters unfold naturally and are not suppressed by default.
 - Levril intervention occurs only when an event risks:
   - [Concordant](/star-rangers/glossary/concordant/)-level structural collapse.
-  - A premature Cascade-hierarchy ending.
+  - A runaway entropy spiral at the Etheric layer — one that would carry a Concordant toward its [Entropy Horizon](/star-rangers/glossary/entropy-horizon/) ahead of its own lifecycle, the failure the maintenance in §5 exists to prevent. The Cascade itself has no ending to bring forward: its order is fixed, and its upper strata are eternal outright.
   - A violation of Celestial or Telearch enforcement law.
 - Tragedies below that threshold proceed without supernatural rescue.
 
@@ -204,9 +204,9 @@ Sentient minds — organic or artificial — are not purely physical. They inter
 
 ### Fictional Cosmos
 - Higher dimensions are real, inhabited, and causally active at every scale.
-- The full Cosmic Cascade spans from non-anthropomorphic origin tiers down to material-layer Champions:
+- The full [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/) spans from non-anthropomorphic origin tiers down to material-layer Champions:
   - **Origin tiers** (Hyperomnium, Kieme, Conseleme): establish existence boundary conditions without agency, dialogue, or selective intervention.
-  - **Design tiers** (Metawrights, Formwrights, Archewrights): define possible forms and maintain archetypal integrity.
+  - **Design tiers** (Metawrights, Formwrights, [Archewrights](/star-rangers/lore/archewright/)): define possible forms and maintain archetypal integrity.
   - **Worldwrights**: author primary universes and their Concordants.
   - **Telearchs**: govern cross-Concordant continuity from a higher-dimensional supervisory tier.
   - **Celestials (Frenar)**: operational enforcement at boundary and overlap interfaces.

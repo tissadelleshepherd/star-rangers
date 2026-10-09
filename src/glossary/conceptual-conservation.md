@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Conceptual Conservation"
+irish: "Caomhnú Coincheapúil"
+irish_gloss: "conceptual conservation"
 id: conceptual-conservation
 category: "Cosmology"
 short: "The principle that no coherent mind is lost: identity structures that once cohered remain admissible concept states at the Conceptual layer, retained without being continued."
@@ -31,6 +33,6 @@ Collapsing them yields either a mechanical afterlife or a chosen conservation, a
 
 The Archive also declines to rule on what the devotional words name. Two accounts stand over one observable — stable meaning-pattern recurrence across cultures that never met. *The structures persist* is the statement the record supports. *You persist* is a claim the record neither makes nor is positioned to deny.
 
-**Example:** An officer told that her Krenyi colleague's mind is "conserved" has been told something precise and something colder than it sounds. Nothing of the colleague's is gone. Nothing of the colleague is coming back, or listening, or aware of having been anything. Both halves are the same sentence, and crews at boundary postings tend to hear whichever half they arrived needing.
+**Example:** An officer told that her [Krenyi](/star-rangers/glossary/krenyi/) colleague's mind is "conserved" has been told something precise and something colder than it sounds. Nothing of the colleague's is gone. Nothing of the colleague is coming back, or listening, or aware of having been anything. Both halves are the same sentence, and crews at boundary postings tend to hear whichever half they arrived needing.
 
 See also: [The Five Layers of Reality](/star-rangers/lore/five-layers/), [Noögenic Seeding System](/star-rangers/lore/noogenic-seeding-system/).

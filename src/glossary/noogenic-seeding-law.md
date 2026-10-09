@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Noögenic Seeding Law"
+irish: "Dlí an tSíolaithe Nóiginigh"
+irish_gloss: "the law of noögenic seeding"
 id: noogenic-seeding-law
 category: "Noögenics"
 short: "Law stating that successor universes can be initiated through sufficiently deep and stable information-rich minds."

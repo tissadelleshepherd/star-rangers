@@ -4,6 +4,8 @@ title: "The Habitat Threshold"
 category: "Institutions"
 tags: [habitat-threshold, orbital-habitats-compact, jurisdiction, governance, charter, institutions, self-governing]
 description: "The charter population line above which a self-governing orbital settlement passes out of Star Rangers jurisdiction entirely — and the reasons a settlement might set out to cross it."
+image: "habitat-threshold.jpg"
+image_alt: "A ring habitat of plain grey hull with a central hub and four spokes, seen from a little way off against the dark, a band of warm windows along the ring"
 ---
 
 The charter does not define an orbital habitat by its size, its shape, or how many rings it turns. It defines one by how many people have stopped intending to leave.
@@ -26,7 +28,7 @@ Earth's own orbital population has an obvious founding cause, and it generalises
 
 **Because the surface is not available yet.** [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/) make terraforming slow by design, and a charter world may spend centuries with a surface that is being worked toward habitability rather than lived on. Orbit is where the population waits — and a population that waits long enough stops being a waiting population and becomes a resident one, with schools, courts and an electorate.
 
-**Because the industry never came down.** Where shipyards, fabrication and ore processing already sit in orbit, lifting a workforce down a gravity well at the end of each shift is the expensive part of the arrangement. Mars orbit demonstrates the pattern without ever completing it: substantial [orbital manufacturing](/star-rangers/lore/the-imperium/) and a command presence that outweighed Earth's delegations in the old [United Space Consortium](/star-rangers/lore/united-space-consortium/) assembly, but no civil population governing itself, and therefore nothing above the threshold at all.
+**Because the industry never came down.** Where shipyards, fabrication and ore processing already sit in orbit, lifting a workforce down a gravity well at the end of each shift is the expensive part of the arrangement. [Mars](/star-rangers/lore/planets/mars/) orbit demonstrates the pattern without ever completing it: substantial [orbital manufacturing](/star-rangers/lore/the-imperium/) and a command presence that outweighed Earth's delegations in the old [United Space Consortium](/star-rangers/lore/united-space-consortium/) assembly, but no civil population governing itself, and therefore nothing above the threshold at all.
 
 **Because the species never needed a gravity well.** The [Chthonari](/star-rangers/lore/chthonari/) evolved for negligible gravity and settled the [Undersong Belt](/star-rangers/lore/undersong-belt/) the way another people might settle a river system. For them the threshold question is inverted: there was never a surface to prefer, and a planet would have been the eccentric choice.
 

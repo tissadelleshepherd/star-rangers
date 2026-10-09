@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Mediarch"
+irish: "Mediarch"
+irish_gloss: "borrowed, as the English borrows it"
 id: mediarch
 category: "Cosmic Cascade"
 short: "The Cascade tier that encapsulates and governs physical laws and forces — Gravity, Electromagnetics, Nature. A Mediarch is a proxy Telearch, scoped to one force-domain inside a universe. Commonly also called Exarchs. Legacy names: Dynarch; earlier, higher celestials."
@@ -15,7 +17,7 @@ tags: [mediarch, dynarch, cascade, forces, physical-law, gravity, electromagneti
 
 A **Mediarch** (pronounced: **MEE-dee-ark**; plural: **Mediarchs**; from *medius*, the middle — the one who stands between) — commonly also called an **Exarch**, the older form still preferred in devotional and provincial records, and both names are canonical — is a Cascade-tier being that encapsulates and governs a physical law or force — **Gravity**, **Electromagnetics**, or **Nature** (biological life), among others. Each Mediarch embodies one force-domain: it is not a mind that operates the force from outside, but the tier at which that force is lawfully administered at all. "Exarch" carries the office's character precisely: a governor holding a province on delegated authority from a distant throne.
 
-**On the name (settled 2026-07-29).** This tier was recorded as the **Dynarch** — from *dynamis*, force — for as long as it was understood by its subject matter. That name is retired, and the reason is the settlement below: the tier does not own the forces. The rule-sets are the Worldwright's, a Mediarch cannot rewrite a zone's physics, and naming an office after the one thing it is least able to alter put the emphasis where the record does not support it. What the tier *is* is a mediating office — the Telearch line reaching inside a universe by proxy, standing between a continuity branch native to nowhere and the inside of the thing that branch has to reach. **Mediarch** names that, and *Exarch*, the older devotional word, was already naming it: a delegated governor is a mediator by construction. Write *Mediarch* in new work; see the [migration map](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/) for the legacy row.
+**On the name (settled 2026-07-29).** This tier was recorded as the **Dynarch** — from *dynamis*, force — for as long as it was understood by its subject matter. That name is retired, and the reason is the settlement below: the tier does not own the forces. The rule-sets are the [Worldwright](/star-rangers/glossary/worldwright/)'s, a Mediarch cannot rewrite a zone's physics, and naming an office after the one thing it is least able to alter put the emphasis where the record does not support it. What the tier *is* is a mediating office — the Telearch line reaching inside a universe by proxy, standing between a continuity branch native to nowhere and the inside of the thing that branch has to reach. **Mediarch** names that, and *Exarch*, the older devotional word, was already naming it: a delegated governor is a mediator by construction. Write *Mediarch* in new work; see the [migration map](/star-rangers/lore/glossary/canonical-glossary-and-migration-guide/) for the legacy row.
 
 ## A Mediarch Is a Proxy Telearch
 
@@ -47,7 +49,7 @@ The dual obligation above is not an administrative arrangement laid over the for
 
 Each force-domain has a **local** aspect — the force behaving ordinarily inside one membrane, which is where a zone's Principal governs it — and a **continuity** aspect: that same force holding across boundaries and across universes, which runs up the Telearch line because only a trans-membrane office can hold a trans-membrane fact.
 
-**Gravity is the domain where the second aspect is measurable rather than merely structural.** Gravity is geometry, and geometric strain is exactly what the Common Manifold's 12–15 band carries between membranes — so a coherent mass registers across a narrowed [Interval](/star-rangers/glossary/interval/) as a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/), and at the Class III extreme as a transient gravity tunnel. Electromagnetics and Nature have no band and no reach; their continuity is real and never shows up on an instrument as a far-side effect. See [What Crosses the Interval, and Why](/star-rangers/lore/concordant-membranes/).
+**Gravity is the domain where the second aspect is measurable rather than merely structural.** Gravity is geometry, and geometric strain is exactly what the [Common Manifold](/star-rangers/glossary/common-manifold/)'s 12–15 band carries between membranes — so a coherent mass registers across a narrowed [Interval](/star-rangers/glossary/interval/) as a [Membrane Shadow](/star-rangers/glossary/membrane-shadow/), and at the Type III extreme as a transient gravity tunnel. Electromagnetics and Nature have no band and no reach; their continuity is real and never shows up on an instrument as a far-side effect. See [What Crosses the Interval, and Why](/star-rangers/lore/concordant-membranes/).
 
 This is also why continuity prevails where the two aspects conflict: the local aspect is the one that stops at the edge.
 

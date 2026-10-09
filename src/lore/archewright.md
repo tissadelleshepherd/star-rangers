@@ -4,6 +4,8 @@ title: "The Archewright"
 category: "Cosmology"
 tags: [archewright, archetype, archecluster, worldwrights, cascade, cosmology]
 description: "The Cascade's third design tier: eternal, unobserved, and known only by inference. An Archewright assembles archetypes — the vocabulary of shapes a family of universes is drawn from — out of what a Formwright's lawful templates admit, and settles the possibility space Worldwrights build primary universes inside. The record has never seen one. It reads the handwriting instead."
+image: "archewright.jpg"
+image_alt: "A quarried rock face in flat light, cut into regular rows of identical square cells from top to bottom, broken stone at its foot"
 plain: "Between the tier that sets the deep grammar of reality and the tier that builds actual universes sits the Archewright: the designer that chooses the vocabulary of patterns — archetypes — a whole family of universes is drawn from. Nothing has ever observed one, and nothing ever will. The record infers them from their signature: unrelated cultures, with no contact, independently arriving at the same shapes. An archetype makes a pattern available. It never forces anyone to use it."
 ---
 

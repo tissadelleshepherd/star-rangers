@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Universe Overlap"
+irish: "Forluí Cruinne"
+irish_gloss: "an overlap of universes"
 id: universe-overlap
 category: "Physics"
 short: "A temporary interaction window where two adjacent universes share a measurable domain without rule-set merger, bounded by the footprint of the flexure that brought them close."

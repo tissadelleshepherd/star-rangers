@@ -11,7 +11,7 @@ aliases:
 tags: [church-space, communion-of-the-called, star-rangers, safety-corps, chief, retired, monastic, beekeeping, human, celtic-union]
 description: "A retired Star Rangers Chief on the boundary-safety track who traded thirty years of instrument-reading for a hive-yard on the Cnoc na mBeach hermitage — and finds the two disciplines less different than his old section expected him to."
 image: "brother-fintan.jpg"
-image_alt: "Designed cover for Brother Fintan: a gold honeycomb hexagon holding a ringed bee emblem over a dark starfield, echoing both a hive and a Chief's bar-and-ring rank tab."
+image_alt: "Brother Fintan among plain wooden hives in a whitewashed stone hive-yard at first light, one hand flat on a hive roof and his head inclined toward it, a few bees in the air, a green hillside rising into mist behind."
 ---
 
 Fintan Delaney spent thirty-one years reading instruments at boundary-proximate postings for a living, and retired a senior chief warden officer without ever once taking a Starwarden's post — the technical ceiling, held on purpose, the way [the Corps' certification track was built to be held](/star-rangers/lore/star-rangers-command-hierarchy/). He is Brother Fintan now, and keeps bees at Cnoc na mBeach, a small hermitage under no diocese and no chain of command, answerable — like everything else in the [Communion of the Called](/star-rangers/lore/communion-of-the-called/) — to no rank above showing up.

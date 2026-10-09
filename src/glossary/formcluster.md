@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Formcluster"
+irish: "Braisle Foirmchló"
+irish_gloss: "a cluster of formtypes; a Formwright is a Saor Foirme, a wright of form"
 id: formcluster
 category: "Cosmic Cascade"
 short: "Every archecluster tracing to one Formwright, built from the lawful templates that Formwright instantiates. The foundation an archecluster is drawn on, not a rank above it."

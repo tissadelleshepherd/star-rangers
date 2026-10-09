@@ -4,6 +4,8 @@ title: "Inside an Archecluster"
 category: "Cosmology"
 tags: [archecluster, archewright, cascade, cosmology, scope-of-physical-law, survey-corps]
 description: "What the record's largest 'here' looks like from where everyone actually stands: one Archewright's vocabulary carried in every route chart, statute book and certified machine; kinship that obliges nothing and adjoins nothing; two named foreign clusters — one surveyed, one reported — and an observational situation in which the widest thing ever measured is the inside of the thing being described."
+image: "archecluster.jpg"
+image_alt: "A vast archive hall seen from a high gallery, rank upon rank of identical pale shelving running away into soft daylight, two small figures far below on the floor for scale"
 plain: "An archecluster is a family of universes drawn from one designer's vocabulary of deep patterns. This page is about what that is like from inside: your FTL route charts, your quantum computers, and even the safety rules unrelated species keep independently inventing are all local to your own family — true across the whole of it, and not one step wider. Belonging gives nobody authority over anybody, and being related doesn't put universes anywhere near each other. Two other families have names — Counterpane, which was visited, and Selvage, which is known only by report. Ours, which every measurement ever made sits inside, has never needed one."
 ---
 

@@ -10,7 +10,7 @@ aliases:
 tags: [krenyi, boundary, threshold-station, season-1]
 description: "A Krenyi boundary analyst, approximately 150 years old, assigned to the Threshold Station survey team."
 image: "syra.jpg"
-image_alt: "Designed cover for Syra: an elegant pale humanoid silhouette on a dark starfield background, matching her Krenyi species rather than a grey alien."
+image_alt: "Syra seated perfectly still at a bare table in a dim room, hands folded at rest, gaze level and direct under a single overhead light, closed equipment cases in the shadows behind her."
 ---
 
 Syra is Krenyi — one of the Quiet-Built. She is approximately one hundred and fifty years old, which is not particularly old for her kind.
@@ -20,6 +20,8 @@ She is physically attractive by most humanoid standards. She cannot interbreed w
 She does not experience deep fear, though she experiences anxiety. She does not experience fury, though she experiences annoyance. She is polyamorous but loyal. She is honest to a degree that some people find uncomfortable. She considers this their problem to manage, not hers.
 
 She arrived at Threshold Station in 2826 UCSD having identified a chronometer discrepancy in the public boundary survey data that the public boundary survey data had classified incorrectly. She came because the classification was wrong and someone needed to say so.
+
+It was not the first time. Twelve years earlier, a Section Lead on the Survey Corps' first party to the membrane later registered as [Counterpane](/star-rangers/lore/counterpane-archecluster/), she ran the routine correlation calibration that returned a residual outside its budget, applied every correction anyone could predict, and filed three words under the raw statistics — *survives correction* — and declined to countersign a smaller one ([Survives Correction (S01E00C05)](/star-rangers/seasons/s01/e00/s01e00c05/)). The finding was accepted at home four months later by people who had never left, and the record's rule that nothing read on that membrane is a finding until it has come home and passed audit was written at that review. She does not mention it. Asked, she gives the material answer: a residual was measured, and it survived correction.
 
 ## Character Notes
 

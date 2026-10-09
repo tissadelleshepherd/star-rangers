@@ -163,7 +163,7 @@ Two properties of it are worth stating, because both are counter-intuitive. Firs
 - Not all minds progress linearly.
 - Regression between phases is common under institutional shock.
 - UFI is sensitive to Phase 4–7 population density, not raw population size.
-- Catastrophic paradox load (a Phase 5 fracture) does not fracture a plural mind evenly: the member bearing the load fractures first, and a member who was not load-bearing may retain enough generative structure to complete a minimal transference.
+- Catastrophic paradox load (a Phase 5 fracture) does not fracture a plural mind evenly: the member bearing the load fractures first, and a member who was not load-bearing may retain enough generative structure to complete a minimal transference. The record holds one case, at Dock Seven, and this note is a reading drawn from it, not a rule tested across many.
 
 See also:
 - [Noögenic Seeding System](/star-rangers/lore/noogenic-seeding-system/)

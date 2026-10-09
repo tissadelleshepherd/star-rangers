@@ -37,6 +37,15 @@ treated ambiguity as something to be re-categorised or erased."*
 
 Everything below assumes **(2)**.
 
+*Addendum, 10 September 2026:* a fourth uniformed body is now canon beside the
+three — the **Garda an Uachtaráin**, the Union's presidential protection unit
+(Dermot: *Celtic Union presidential protection unit Garda an Uchtarain*;
+`intake-2026-09-10.md`, eighteenth section). It is not the Union police this
+conflict note rules out: it protects the Uachtarán, the council's presiding
+member, and polices nobody. No prompt yet; when one is written it should read
+apart from the Highland Guard (ceremony) and the Gardaí (a world's civil
+police) — protection, plain, and not a costume.
+
 ---
 
 # 1. The Star Rangers
@@ -54,6 +63,19 @@ the hierarchy down*.
 
 For a prompt, that means: **functional, matte, unornamented, and slightly
 austere.** No braid, no epaulettes, no ribbon-bar clutter, nothing gold.
+
+**The reason, in Dermot's words (10 September 2026, `intake-2026-09-10.md`,
+fourth section): *Star Rangers have uniforms for the same reason as hospital
+staff do, except there are no plain clothes ranks or roles.*** Read for role
+by colleagues, built for the work, announcing a function and not a claim on
+anyone — and worn by every rank and every role on duty, Provost and Liaison
+included, with no undercover arm and no exemption for seniority. For a
+prompt: **a Ranger on duty is never in civilian dress**, whatever the rank or
+the corps; a Ranger in ordinary clothes is a Ranger off duty, and the prompt
+should say so. *Aliens have uniform equivalents* (same direction): the
+medium per species is open — `species-design.md` carries the shapes — so
+prompt an alien Ranger in the Rangers' shell and tabs, and prompt an alien
+in their own service with no invented insignia until a page has chosen one.
 
 ## Hard constraints — do not violate these
 
@@ -73,6 +95,14 @@ austere.** No braid, no epaulettes, no ribbon-bar clutter, nothing gold.
   materials. A Ranger should never have to relearn the system across settings.
 
 ## Reading rank at a glance
+
+**Canon since 4 September 2026** — Dermot's "Agreed" on the three shapes put
+to him after asking about a Deputy's insignia (`intake-2026-09-04.md`,
+twenty-fourth message). The table below and the track colours further down
+are now on `src/lore/star-rangers-command-hierarchy.md` as *Reading Rank at a
+Glance*, with the bar count made explicit (Novice one, Deputy three, Field
+Officer four, Section Lead seven). Portraits are left as they are: a plain
+tab is what canon specifies at portrait scale.
 
 | Tier | Mark |
 |---|---|
@@ -126,9 +156,11 @@ Muted and industrial, so a hangar full of Rangers reads as one service:
 - **Frontier Corps** — dust brown
 - **Engineering Corps** — graphite with copper seam-piping
 
-## Proposed — track colours (the tab insert)
+## ~~Proposed~~ Canon since 4 September 2026 — track colours (the tab insert)
 
-Canon says tab colour is keyed to track but never names the colours. The lore
+*(The six colours below were adopted as canon with the bar count, same day,
+and now appear on the rank page verbatim.)* Canon said tab colour is keyed to
+track but until then never named the colours. The lore
 entry's own cover art is *"a blue chevron insignia emblem in a ringed seal"*, so
 blue is already associated with the Rangers generally. Suggested:
 
@@ -203,7 +235,11 @@ something that contradicts the entry.
 
 **Canon, from `s05e02c01`** — one scene, but a precise one.
 
-They are a **ceremonial escort** of Tír na nÓg's uplands. Union protocol assigns
+They are a **ceremonial escort** of Tír na nÓg's uplands, and — canon since
+10 September 2026, Dermot: *Highland Guard is part of the ceremonial
+military* — a body of the Celtic Union's mostly ceremonial military, beside
+the Garda an Uachtaráin, which is that military's one standing
+non-ceremonial formation. Union protocol assigns
 a Highland Guard honour escort to any Star Ranger on personal leave within Union
 territory, from arrival until Ranger-cleared transit off-world. The escort is
 *"a courtesy owed the Union's own charter, not a comment on the individual

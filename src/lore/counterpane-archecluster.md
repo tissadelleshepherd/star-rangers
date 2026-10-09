@@ -2,8 +2,11 @@
 layout: lore-entry.njk
 title: "Counterpane: The Discrepant Archecluster"
 category: "Cosmology"
+revealed_by: s03e02c02
 tags: [counterpane, archecluster, quantum, cosmology, scope-of-physical-law, survey-corps, calibration]
 description: "The one surveyed archecluster whose quantum kernel is not ours: single systems behave identically — an atom is an atom, the second is the second — but correlations among independent sources obey a different composition rule. Fold-reachable, instrument-confirmed, and the reason 'identical at base' was always stated at cluster width and no wider."
+image: "counterpane-archecluster.jpg"
+image_alt: "A length of plain woven cloth laid flat on a pale board in window light, a darker panel woven into its middle where the weave forms a moire of rings that the surrounding cloth does not"
 plain: "Our universe-family runs on quantum mechanics exactly as real physics describes it — and the record has always been careful to say that's a local fact, not a universal one. Counterpane is the proof: a neighbouring universe-family, reachable by fold transit, where individual atoms and clocks behave just like ours but the statistics of *combined* independent quantum systems come out measurably different. Visitors are safe; their instruments' deepest assumptions are not. Quantum computers certified here don't work there, and FTL corridor charts don't translate."
 ---
 

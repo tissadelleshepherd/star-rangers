@@ -80,11 +80,16 @@ CHARACTERS=""
 TOPICS=""
 THREADS=""
 ADMIN_EMAIL=""
-# fianilchruinne.com replaced sciencefiction.site as the canonical address of
-# the default edition on 2026-08-03; a conf-less clone now claims the
-# canonical. sciencefiction.site still serves the same edition and a clone
-# can keep saying so explicitly via deploy.conf's DOMAIN.
-DOMAIN="fianilchruinne.com"
+# No default, since 2026-10-09. Until then a conf-less clone, or a deploy.conf
+# with no DOMAIN line, silently claimed fianilchruinne.com: it built the
+# canonical full site, branded as the canonical, with every page's canonical
+# tag and the whole sitemap naming fianilchruinne.com, and rsynced that onto
+# whatever domain the account actually serves. sciencefiction.site and
+# starquest.site ran that way for weeks, reported as SUCCESS, and Google kept
+# two pages of each. The deploy now refuses to run without a DOMAIN (checked
+# right after deploy.conf is sourced); the canonical domain names itself in
+# its own deploy.conf like any other.
+DOMAIN=""
 SITE_NAME=""
 SITE_TITLE=""
 # SITE_NOINDEX=true builds a domain that asks not to be indexed at all:
@@ -112,6 +117,17 @@ DEPLOY_PRIMARY="true"
 # shellcheck disable=SC1091
 [ -f "$REPOSITORY_ROOT/deploy.conf" ] && . "$REPOSITORY_ROOT/deploy.conf"
 
+# DOMAIN is the one key with no safe default - see its declaration above. An
+# inline `exit 1` is right here: nothing has been built, no log file is open
+# yet, and cPanel's own deploy log and cpanel-autopull.sh's failure mail both
+# carry stderr.
+if [ -z "$DOMAIN" ]; then
+  echo "FAIL: deploy.conf sets no DOMAIN (or there is no deploy.conf). The domain" >&2
+  echo "FAIL:   decides the edition, the canonical tags, the sitemap and the branding," >&2
+  echo "FAIL:   so a missing value cannot be guessed. Put DOMAIN=<host> in deploy.conf" >&2
+  echo "FAIL:   (sample-deploy-minimal.conf is the two-line form)." >&2
+  exit 1
+fi
 # ADMIN_EMAIL defaults to admin@<DOMAIN> rather than staying unset, so every
 # clone gets a deploy-log notification out of the box without needing its
 # own deploy.conf entry. The flag feeds a loud warning inside main()'s
@@ -169,6 +185,9 @@ resolve_edition() {
   RESOLVED_SITE_TITLE=""
   RESOLVED_GISCUS_PROFILE=""
   RESOLVED_COMMENTS_ENABLED=""
+  RESOLVED_RANKS_AT=""
+  RESOLVED_ALIAS_OF=""
+  RESOLVED_ALIASES=""
   # An unreadable or malformed registry must not take the deploy down: the
   # build itself validates lib/editions.js (see validateEditions in it), so a
   # failure here means something is wrong with node or the file, and the right
@@ -183,6 +202,58 @@ resolve_edition() {
     return 0
   fi
   echo "--- [$re_label] edition: '$re_domain' -> '$RESOLVED_EDITION' (lib/editions.js) ---"
+}
+
+# ---------------------------------------------------------------------------
+# append_alias_redirects(): one host-conditional 301 block at the end of the
+# built site's .htaccess, forwarding every PARKED alias of this domain to it.
+#
+# deploy_alias_notice() above handles an alias that has a document root of its
+# own. A parked alias has none: cPanel points it at its target's docroot, so
+# until now it served a full copy of the site under its own name - correct for
+# Google only because every page carries a cross-domain canonical, and still
+# crawled in full (the 9 October 2026 Search Console sweep found 885 URLs known
+# on star-rangers.site, a domain registered purely to defend the name). The
+# ALIAS DOMAINS block in lib/editions.js already says an alias is a 301, never
+# a second build; this makes that true for the parked ones too.
+#
+# The list comes from resolve-edition.js (RESOLVED_ALIASES, the inverse of
+# RESOLVED_ALIAS_OF), so the registry stays the only place an alias is named.
+# Each condition matches the bare host and its www. form; /.well-known/ is
+# exempt for AutoSSL, as in src/static/.htaccess. Path and query are preserved
+# so a deep link lands on its counterpart. Appended after the static file's
+# HTTPS block, so a plain-http request to an alias takes two hops; acceptable.
+# ---------------------------------------------------------------------------
+append_alias_redirects() {
+  local aar_label aar_domain aar_aliases aar_file aar_alias aar_escaped aar_conds
+  local -a aar_list
+  aar_label="$1"; aar_domain="$2"; aar_aliases="$3"; aar_file="$4"
+  [ -n "$aar_aliases" ] || return 0
+  test -f "$aar_file" \
+    || { echo "FAIL [$aar_label]: $aar_file missing, cannot append alias redirects" >&2; return 1; }
+  read -r -a aar_list <<< "$aar_aliases"
+  aar_conds=""
+  for aar_alias in "${aar_list[@]}"; do
+    aar_escaped=$(printf '%s' "$aar_alias" | sed 's/\./\\./g')
+    aar_conds="${aar_conds}  RewriteCond %{HTTP_HOST} ^(www\\.)?${aar_escaped}\$ [NC,OR]
+"
+  done
+  # The last condition must not carry OR, or it would OR with nothing.
+  aar_conds=$(printf '%s' "$aar_conds" | sed '$ s/ \[NC,OR\]$/ [NC]/')
+  {
+    printf '\n# Parked aliases of %s: 301 to the domain they defend. Generated by\n' "$aar_domain"
+    printf '# scripts/cpanel-deploy.sh from the ALIASES map in lib/editions.js - edit that,\n'
+    printf '# not this file. Hosts not listed here never match, so the block is inert on\n'
+    printf '# the domain itself.\n'
+    printf '<IfModule mod_rewrite.c>\n'
+    printf '  RewriteEngine On\n'
+    printf '  RewriteCond %%{REQUEST_URI} !^/\\.well-known/\n'
+    printf '%s\n' "$aar_conds"
+    printf '  RewriteRule ^(.*)$ https://%s/$1 [R=301,L]\n' "$aar_domain"
+    printf '</IfModule>\n'
+  } >> "$aar_file" \
+    || { echo "FAIL [$aar_label]: could not append alias redirects to $aar_file" >&2; return 1; }
+  echo "---   [$aar_label] alias redirects appended to .htaccess: $aar_aliases -> $aar_domain"
 }
 
 # ---------------------------------------------------------------------------
@@ -277,6 +348,124 @@ fill_from_registry() {
   fi
 }
 
+# ---------------------------------------------------------------------------
+# deploy_alias_notice(): serve a one-page redirect from a domain registered as
+# an alias, instead of building the site there.
+#
+# WHY THIS RATHER THAN REFUSING. Removing a domain from an edition's `domains`
+# does not make it an alias - that is a cPanel operation, pointing the addon
+# domain at its target's document root, and the merge that removes it cannot
+# perform that step. An earlier version of this code failed the deploy in that
+# gap. Failing is safe but does nothing useful: the domain keeps serving
+# whatever full build was last rsynced there, which is precisely the duplicate
+# the demotion was meant to end, and it stays that way until somebody logs into
+# cPanel.
+#
+# So the gap gets a deployment of its own: an .htaccess that 301s the whole
+# namespace to the target with path and query preserved, an index.html carrying
+# a canonical and a meta refresh for hosts where mod_rewrite is unavailable, and
+# a robots.txt. Three files, no Node, no Eleventy, no build. The consolidation
+# is real from the first deploy and the cPanel repoint becomes tidying rather
+# than a prerequisite.
+#
+# The robots.txt deliberately does NOT disallow. A crawler has to be able to
+# fetch these URLs to see the 301 and consolidate them; blocking it would strand
+# the redirect unseen and leave the old URLs indexed, which is the outcome the
+# redirect exists to prevent.
+#
+# Templates live in scripts/alias-notice/ with __TARGET__ and __DOMAIN__
+# substituted here. Returns 0 on success, 1 on failure, matching
+# build_and_deploy so main() can aggregate either the same way.
+deploy_alias_notice() {
+  local dan_label dan_domain dan_target dan_dest dan_src dan_tmp dan_file
+  dan_label="$1"; dan_domain="$2"; dan_target="$3"; dan_dest="$4"
+  dan_src="$REPOSITORY_ROOT/scripts/alias-notice"
+
+  echo "=== [$dan_label] $dan_domain is an alias of $dan_target - deploying redirect notice ==="
+
+  for dan_file in index.html .htaccess robots.txt; do
+    if [ ! -f "$dan_src/$dan_file" ]; then
+      echo "FAIL [$dan_label]: alias-notice template $dan_src/$dan_file is missing" >&2
+      return 1
+    fi
+  done
+
+  if [ ! -d "$dan_dest" ]; then
+    echo "FAIL [$dan_label]: destination $dan_dest does not exist" >&2
+    return 1
+  fi
+
+  dan_tmp=$(mktemp -d) || { echo "FAIL [$dan_label]: could not create a temp dir" >&2; return 1; }
+  # mktemp -d creates the directory 0700, and `rsync -a "$dan_tmp/" "$dan_dest"`
+  # copies the SOURCE directory's mode onto the destination document root.
+  # Apache then cannot enter the docroot and answers 403 to everything
+  # ("Server unable to read htaccess file, denying access to be safe") - which
+  # is what starquest.online, church-space.online, fellowshipoflight.online and
+  # fellowshipoflight.space served for weeks, found 2026-10-09 in Search Console.
+  # The full-site deploy below never hit this because _site/ is created 0755.
+  chmod 755 "$dan_tmp" || { echo "FAIL [$dan_label]: could not chmod the temp dir" >&2; rm -rf "$dan_tmp"; return 1; }
+
+  for dan_file in index.html .htaccess robots.txt; do
+    # The target is a hostname validated by lib/editions.js (it must be a domain
+    # some edition actually serves), so it cannot carry a sed delimiter.
+    sed -e "s|__TARGET__|$dan_target|g" -e "s|__DOMAIN__|$dan_domain|g" \
+      "$dan_src/$dan_file" > "$dan_tmp/$dan_file" || {
+        echo "FAIL [$dan_label]: could not render $dan_file" >&2
+        rm -rf "$dan_tmp"; return 1
+      }
+  done
+
+  # --delete on purpose: whatever full build was last deployed here has to go,
+  # or the redirect sits on top of a site that is still serving its own pages to
+  # anything that reaches them without passing through .htaccess.
+  if ! rsync -a --delete "$dan_tmp/" "$dan_dest"; then
+    echo "FAIL [$dan_label]: rsync to $dan_dest failed" >&2
+    rm -rf "$dan_tmp"; return 1
+  fi
+  rm -rf "$dan_tmp"
+
+  for dan_file in index.html .htaccess robots.txt; do
+    if [ ! -f "$dan_dest$dan_file" ]; then
+      echo "FAIL [$dan_label]: post-deploy check - $dan_dest$dan_file missing" >&2
+      return 1
+    fi
+  done
+  if ! grep -q "$dan_target" "$dan_dest.htaccess"; then
+    echo "FAIL [$dan_label]: post-deploy check - .htaccess does not name $dan_target" >&2
+    return 1
+  fi
+
+  echo "=== [$dan_label] redirect notice deployed to $dan_dest (301 -> $dan_target) ==="
+  echo "---   [$dan_label] To retire this: point $dan_domain at $dan_target's document root"
+  echo "---   [$dan_label] (cPanel: Domains -> $dan_domain -> document root), then remove it from"
+  echo "---   [$dan_label] ALT_DOMAINS. Until then this redirect does the same job."
+  return 0
+}
+
+# warn_no_identity(): says so, and carries on.
+#
+# The case the alias check deliberately does not cover: a domain nobody has
+# configured anywhere. For a third-party fork that is normal and correct - the
+# full site is what they want - so this must never fail a deploy. For this
+# project it is usually an accident, and one that has actually happened: an
+# editing slip dropped the `starquest` and `pets` entries on 2026-08-20 and both
+# domains silently resolved as unregistered. A line in the deploy log, which
+# ADMIN_EMAIL receives, is the right weight for something that is routine for one
+# audience and a mistake for the other.
+warn_no_identity() {
+  local wni_label wni_domain wni_edition wni_theme wni_site_name wni_filters
+  wni_label="$1"; wni_domain="$2"; wni_edition="$3"; wni_theme="$4"; wni_site_name="$5"; wni_filters="$6"
+
+  [ -n "$wni_edition$wni_theme$wni_site_name$wni_filters" ] && return 0
+
+  echo "WARN [$wni_label]: '$wni_domain' has no identity from either source - not in" >&2
+  echo "WARN [$wni_label]:   lib/editions.js, and deploy.conf sets no THEME, SITE_NAME," >&2
+  echo "WARN [$wni_label]:   CHARACTERS, TOPICS or THREADS. Deploying the FULL unfiltered" >&2
+  echo "WARN [$wni_label]:   site, unbranded. That is correct for an independent fork and" >&2
+  echo "WARN [$wni_label]:   is probably a mistake for a clone of this project." >&2
+  return 0
+}
+
 resolve_edition "$DOMAIN" "primary"
 fill_from_registry EDITION "$RESOLVED_EDITION" primary EDITION
 fill_from_registry THEME "$RESOLVED_THEME" primary THEME
@@ -287,6 +476,26 @@ fill_from_registry SITE_NAME "$RESOLVED_SITE_NAME" primary SITE_NAME
 fill_from_registry SITE_TITLE "$RESOLVED_SITE_TITLE" primary SITE_TITLE
 fill_from_registry GISCUS_PROFILE "$RESOLVED_GISCUS_PROFILE" primary GISCUS_PROFILE
 fill_from_registry COMMENTS_ENABLED "$RESOLVED_COMMENTS_ENABLED" primary COMMENTS_ENABLED
+
+# ranksAt is registry-only and has no deploy.conf key, so it takes no
+# fill_from_registry pass - which side of the server/repo seam it falls on is
+# the whole point. Which domain in a family carries the ranking signal is a
+# decision about live sites, reviewable in a pull request; it is exactly the
+# class of thing lib/editions.js exists to hold and an untracked file on a
+# cPanel account must not be able to override quietly.
+#
+# Captured here rather than read at the call site because the ALT_DOMAINS loop
+# below calls resolve_edition again per domain, overwriting every RESOLVED_*
+# global. The primary build runs first today and would read the right value by
+# luck; this does not depend on that ordering.
+PRIMARY_RANKS_AT="$RESOLVED_RANKS_AT"
+PRIMARY_ALIASES="$RESOLVED_ALIASES"
+
+# Checked BEFORE the THEME default below, which is what makes the check possible
+# at all: once THEME is "default" there is no way to tell a domain that chose the
+# main palette from one nobody configured.
+PRIMARY_ALIAS_OF="$RESOLVED_ALIAS_OF"
+warn_no_identity primary "$DOMAIN" "$EDITION" "$THEME" "$SITE_NAME" "$CHARACTERS$TOPICS$THREADS"
 
 # Normalise the two keys whose pre-set defaults had to become empty above, so
 # everything downstream sees exactly the values it always saw.
@@ -374,7 +583,7 @@ build_and_deploy() {
   # Unrecognized names fail loudly rather than being exported blindly, same
   # spirit as the CUSTOM_LORE_FILE/CUSTOM_CSS_FILE "missing file" checks
   # further down.
-  local COMMENTS_ENABLED="true" SITE_NOINDEX=""
+  local COMMENTS_ENABLED="true" SITE_NOINDEX="" SITE_RANKS_AT="" SITE_ALIASES=""
   # EDITION must be threaded through and exported separately from THEME, not
   # derived from it. lib/editions.js falls back to THEME when EDITION is unset,
   # which covers a clone that predates the registry - but the entire point of
@@ -392,6 +601,8 @@ build_and_deploy() {
     case "$b_kv_name" in
       COMMENTS_ENABLED) COMMENTS_ENABLED="$b_kv_value" ;;
       SITE_NOINDEX) SITE_NOINDEX="$b_kv_value" ;;
+      SITE_RANKS_AT) SITE_RANKS_AT="$b_kv_value" ;;
+      SITE_ALIASES) SITE_ALIASES="$b_kv_value" ;;
       EDITION) EDITION="$b_kv_value" ;;
       GISCUS_PROFILE) GISCUS_PROFILE="$b_kv_value" ;;
       GISCUS_REPO) GISCUS_REPO="$b_kv_value" ;;
@@ -423,7 +634,7 @@ build_and_deploy() {
         SITE_NAME="$b_site_name" SITE_TITLE="$b_site_title" SITE_DOMAIN="$b_site_domain"
   export EDITION
   export CHARACTERS TOPICS THREADS THEME SITE_NAME SITE_TITLE SITE_DOMAIN COMMENTS_ENABLED \
-    SITE_NOINDEX \
+    SITE_NOINDEX SITE_RANKS_AT \
     GISCUS_PROFILE GISCUS_REPO GISCUS_REPO_ID GISCUS_CATEGORY_CHARACTERS_ID GISCUS_CATEGORY_LORE_ID \
     GISCUS_CATEGORY_EPISODES_ID GISCUS_CATEGORY_JOURNAL_ID
 
@@ -530,6 +741,10 @@ build_and_deploy() {
   find "$REPOSITORY_ROOT/_site" -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) \
     -exec sed -i 's#\(["'"'"'(]\)/star-rangers/#\1/#g' {} + \
     || { echo "FAIL [$label]: prefix rewrite (sed)" >&2; return 1; }
+  if [ -n "$SITE_ALIASES" ]; then
+    append_alias_redirects "$label" "$b_site_domain" "$SITE_ALIASES" "$REPOSITORY_ROOT/_site/.htaccess" \
+      || return 1
+  fi
 
   # Runs the same pagefind indexing step as `npm run build` (package.json's
   # "build" script). Without this, the search box in base.njk renders fine
@@ -635,11 +850,23 @@ main() {
   local overall_status=0
   local -a result_lines=()
 
-  if [ "$DEPLOY_PRIMARY" = "true" ]; then
+  if [ "$DEPLOY_PRIMARY" = "true" ] && [ -n "$PRIMARY_ALIAS_OF" ]; then
+    # A clone whose PRIMARY domain is an alias is an odd configuration and not
+    # one to guess about - it gets the same redirect notice as an alt, so the
+    # behaviour is the same wherever the alias turns up.
+    if deploy_alias_notice "primary" "$DOMAIN" "$PRIMARY_ALIAS_OF" "/home/$CPANEL_USER/public_html/"; then
+      result_lines+=("OK   primary -> /home/$CPANEL_USER/public_html/ ($DOMAIN 301 -> $PRIMARY_ALIAS_OF)")
+    else
+      overall_status=1
+      result_lines+=("FAIL primary -> /home/$CPANEL_USER/public_html/ ($DOMAIN redirect notice)")
+    fi
+  elif [ "$DEPLOY_PRIMARY" = "true" ]; then
     if build_and_deploy "primary" "/home/$CPANEL_USER/public_html/" \
          "$THEME" "$CHARACTERS" "$TOPICS" "$THREADS" "$SITE_NAME" "$SITE_TITLE" "$DOMAIN" \
          "$CUSTOM_LORE_FILE" "$CUSTOM_CSS_FILE" "COMMENTS_ENABLED=$COMMENTS_ENABLED" \
          "SITE_NOINDEX=$SITE_NOINDEX" \
+         "SITE_RANKS_AT=$PRIMARY_RANKS_AT" \
+         "SITE_ALIASES=$PRIMARY_ALIASES" \
          "EDITION=$EDITION" \
          "GISCUS_PROFILE=$GISCUS_PROFILE" \
          "GISCUS_REPO=$GISCUS_REPO" "GISCUS_REPO_ID=$GISCUS_REPO_ID" \
@@ -695,7 +922,11 @@ main() {
     # a clear per-domain FAIL line (and notification), not a deploy that
     # quietly does nothing for that domain.
     if [ ! -d "$alt_dest" ]; then
-      echo "FAIL [$id]: ALT_${id}_DIR target does not exist: $alt_dest (create the addon domain / point its document root there first)" >&2
+      echo "FAIL [$id]: ALT_${id}_DIR target does not exist: $alt_dest" >&2
+      echo "FAIL [$id]:   Create the domain first (cPanel: Domains -> Create A New Domain," >&2
+      echo "FAIL [$id]:   which covers subdomains too - the separate Subdomains and Addon" >&2
+      echo "FAIL [$id]:   Domains pages were retired), give it its OWN document root rather" >&2
+      echo "FAIL [$id]:   than sharing one, and set ALT_${id}_DIR to the path it created." >&2
       overall_status=1
       result_lines+=("FAIL $id -> $alt_dest (directory missing)")
       continue
@@ -740,6 +971,17 @@ main() {
     fill_from_registry alt_site_title "$RESOLVED_SITE_TITLE" "$id" SITE_TITLE
     fill_from_registry alt_giscus_profile "$RESOLVED_GISCUS_PROFILE" "$id" GISCUS_PROFILE
     fill_from_registry alt_comments_enabled "$RESOLVED_COMMENTS_ENABLED" "$id" COMMENTS_ENABLED
+    if [ -n "$RESOLVED_ALIAS_OF" ]; then
+      if deploy_alias_notice "$id" "$alt_domain" "$RESOLVED_ALIAS_OF" "$alt_dest"; then
+        result_lines+=("OK   $id -> $alt_dest ($alt_domain 301 -> $RESOLVED_ALIAS_OF)")
+      else
+        overall_status=1
+        result_lines+=("FAIL $id -> $alt_dest ($alt_domain redirect notice)")
+      fi
+      continue
+    fi
+    warn_no_identity "$id" "$alt_domain" "$alt_edition" "$alt_theme" "$alt_site_name" \
+      "$alt_characters$alt_topics$alt_threads"
     alt_theme="${alt_theme:-default}"
     alt_comments_enabled="${alt_comments_enabled:-true}"
 
@@ -747,6 +989,8 @@ main() {
          "$alt_site_name" "$alt_site_title" "$alt_domain" "$alt_custom_lore" "$alt_custom_css" \
          "COMMENTS_ENABLED=$alt_comments_enabled" \
          "SITE_NOINDEX=$alt_site_noindex" \
+         "SITE_RANKS_AT=$RESOLVED_RANKS_AT" \
+         "SITE_ALIASES=$RESOLVED_ALIASES" \
          "EDITION=$alt_edition" \
          "GISCUS_PROFILE=$alt_giscus_profile" \
          "GISCUS_REPO=$alt_giscus_repo" "GISCUS_REPO_ID=$alt_giscus_repo_id" \

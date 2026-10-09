@@ -3,6 +3,13 @@ pagination:
   data: scenePovPages
   size: 1
   alias: item
+  # Without this Eleventy adds only the FIRST paginated page to collections.all,
+  # so src/sitemap.njk (which walks collections.all) listed exactly one scene-POV
+  # page - the pitch POV of S00E01C01 - out of 312 built; found 2026-10-09 by
+  # counting the live sitemap against the build. Every other collection in
+  # .eleventy.js filters by layout or inputPath, so these pages reach nothing
+  # else; the sitemap's own `item.included` guard still keeps hidden POVs out.
+  addAllPagesToCollections: true
 permalink: "{{ item.url }}"
 layout: scene-pov.njk
 eleventyComputed:
@@ -10,7 +17,7 @@ eleventyComputed:
   # the real chapter title or character label in its <title>, meta description
   # or Open Graph tags. Mirrors the excluded-page metadata .eleventy.js's
   # layout-swap override gives every other excluded page.
-  title: "{% if item.included %}{{ item.character.label }} — Scene {{ item.sceneNumber }} — {{ item.chapterTitle }}{% else %}Not included in this edition{% endif %}"
+  title: "{% if item.included %}{{ item.character.label }} — Scene {{ item.sceneNumber }} — {{ item.chapterTitle }}{% else %}{% if edition.excludedNotice %}{{ edition.excludedNotice.title }}{% else %}Not included in this edition{% endif %}{% endif %}"
   description: "{% if item.included %}{{ item.character.label }}'s point of view of Scene {{ item.sceneNumber }} in \"{{ item.chapterTitle }}\".{% endif %}"
   # Ties this page's giscus discussion to its parent chapter's permanent
   # comment_id (see lib/content-schema.js) plus scene/character, rather than

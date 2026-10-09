@@ -4,6 +4,8 @@ title: "The Veyr Basaltborn"
 category: "Species"
 tags: [veyr, basaltborn, species, veyr-3, high-gravity, volcanism, engineering, exoskeleton, non-humanoid]
 description: "The Veyr Basaltborn of Veyr-3: a lattice-framed people from a high-gravity volcanic world, who were handed metallurgy for nothing and have spent their whole history fighting for precision instead."
+image: "veyr-basaltborn.jpg"
+image_alt: "Designed title card on a near-black field in warm iron: the category SPECIES in spaced capitals at the top, a triad device held in a soft glow, and below a short rule the title THE VEYR BASALTBORN in pale serif capitals, subtitled 'The Lattice-Framed' and 'Given metallurgy for nothing, and fighting for precision ever since'."
 ---
 
 The Veyr Basaltborn come from **Veyr-3**: active basaltic volcanism, dense mineral aerosols, continuous micro-shocks, and a gravitational field heavy enough that human joints degrade there within a generation. Every fact below follows from that sentence, which is the honest way to read any species and the only way to read this one.

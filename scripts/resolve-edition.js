@@ -33,7 +33,7 @@
 // in and keeps deploy.conf's own values), 1 on a malformed registry.
 
 const path = require("path");
-const { editionForDomain, editionFor } = require(path.join(__dirname, "..", "lib", "editions"));
+const { editionForDomain, editionFor, aliasFor, aliasesOf } = require(path.join(__dirname, "..", "lib", "editions"));
 
 function arg(name) {
   const i = process.argv.indexOf(`--${name}`);
@@ -63,6 +63,13 @@ function shellQuote(value) {
 }
 
 const out = [];
+// Emitted for EVERY domain, registered or not, and deliberately outside the
+// isRegistered branch below: an alias resolves to no edition by design, so this
+// is the one fact about it worth reporting.
+out.push(`RESOLVED_ALIAS_OF=${shellQuote(aliasFor(domain) || "")}`);
+// The inverse, space-separated: the parked aliases that point at THIS domain,
+// for the host-conditional 301 block cpanel-deploy.sh appends to .htaccess.
+out.push(`RESOLVED_ALIASES=${shellQuote(aliasesOf(domain).join(" "))}`);
 if (!isRegistered || !resolved) {
   // Deliberately still prints the key, empty. The deploy script tests it to
   // decide whether to log "resolved from registry" or "not registered", and an
@@ -77,7 +84,14 @@ if (!isRegistered || !resolved) {
   out.push(`RESOLVED_TOPICS=${shellQuote(list(resolved.topics))}`);
   out.push(`RESOLVED_SITE_NAME=${shellQuote(resolved.siteName || "")}`);
   out.push(`RESOLVED_SITE_TITLE=${shellQuote(resolved.siteTitle || "")}`);
+  out.push(`RESOLVED_RANKS_AT=${shellQuote(resolved.ranksAt || "")}`);
   out.push(`RESOLVED_GISCUS_PROFILE=${shellQuote(resolved.giscusProfile || "")}`);
+  // NOT emitted: `presentation` (lib/editions.js PRESENTATION_MODES). It has no
+  // deploy.conf key to fill in, because it needs no deploy plumbing - EDITION is
+  // already exported into the Eleventy build, which resolves the record itself
+  // and writes the mode onto <html> from base.njk. THEME is here only because
+  // the deploy COPIES a stylesheet over main.css. --format json still shows it,
+  // which is the right place to look when asking what a domain resolves to.
   out.push(`RESOLVED_COMMENTS_ENABLED=${shellQuote(resolved.commentsEnabled === false ? "false" : "true")}`);
 }
 console.log(out.join("\n"));

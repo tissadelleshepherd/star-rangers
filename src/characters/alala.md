@@ -8,6 +8,8 @@ status: Active
 aliases: []
 tags: [raven, smart-pet, orbital-five-o, orbital-habitats-compact]
 description: "Orbital Five-O's aerial observer — a Smart Pet raven who appears on the task force's public roster by name, with a service number and a leg band, because Commander Larsen's unit does not do covert animals."
+image: "alala.jpg"
+image_alt: "Alala, a raven with blue-black iridescent plumage, perched on a metal handrail in a bright habitat concourse under a great glass dome, head turned, a slim collar fitting at the back of her neck. Crowds and green planting fill the concourse behind her, out of focus."
 ---
 
 Orbital Five-O's roster is short, trusted, and answerable to Commander [Kai Larsen](/star-rangers/characters/kai-larsen/) personally — and one line of it has feathers. Alala is carried on the task force's establishment as *Field Observer (Aerial)*, with a service number, a personnel file, and a leg band bearing the unit's flash. In five habitats where a Five-O visit is never entirely welcome, she is frequently the first part of one to arrive: overhead, visibly banded, making no secret of anything.

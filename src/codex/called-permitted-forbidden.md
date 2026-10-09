@@ -13,7 +13,7 @@ description: "A Survey Archive doctrinal note on the three registers the moral r
 **DOCTRINAL WORKING PAPER**
 **Prepared by:** Theorist Emrys Kade, Doctrinal Division
 **Subject:** The three registers of moral standing in the record, and the asymmetry of their administration
-**Status:** Working note; companion to *The Cosmic Limitation on Evil* and *The False Dragon*
+**Status:** Working note; companion to *The Cosmic Limitation on Evil* and *The Borrowed Silhouette*
 
 ---
 

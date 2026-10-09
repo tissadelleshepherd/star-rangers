@@ -41,13 +41,13 @@ const THEMES = {
       "--color-surface-2": "#ece0c1",
       "--color-border": "#ddc797",
       "--color-text": "#332c1e",
-      "--color-text-muted": "#766b53",
-      "--color-accent": "#8a660e",
-      "--color-accent-hover": "#b8891f",
+      "--color-text-muted": "#6b6049",
+      "--color-accent": "#7a5a0c",
+      "--color-accent-hover": "#5e4409",
       "--color-canon": "#2a577d",
-      "--color-pov-active": "#8a660e",
+      "--color-pov-active": "#7a5a0c",
       "--color-pov-bg": "#f5efdc",
-      "--color-skip-bg": "#8a660e",
+      "--color-skip-bg": "#7a5a0c",
       "--color-skip-text": "#fbf8f0",
       "--font-body": '"Palatino Linotype", "Book Antiqua", Georgia, serif'
     },
@@ -58,7 +58,7 @@ const THEMES = {
       krenyi: "#8a660e",
       thorn: "#a85a3f"
     },
-    statusActive: "#6a9c5f"
+    statusActive: "#45663e"
   },
   pets: {
     label: 'Fian Ilchruinne — "Pets" Theme (undercover-pets.com)',
@@ -69,13 +69,13 @@ const THEMES = {
       "--color-surface-2": "#f6dfc0",
       "--color-border": "#e8c9a0",
       "--color-text": "#4a3728",
-      "--color-text-muted": "#8a6f56",
-      "--color-accent": "#e07856",
-      "--color-accent-hover": "#c95f3f",
-      "--color-canon": "#d98a2b",
-      "--color-pov-active": "#e07856",
+      "--color-text-muted": "#715a45",
+      "--color-accent": "#a34726",
+      "--color-accent-hover": "#7f3419",
+      "--color-canon": "#8f540c",
+      "--color-pov-active": "#a34726",
       "--color-pov-bg": "#fbead4",
-      "--color-skip-bg": "#e07856",
+      "--color-skip-bg": "#a34726",
       "--color-skip-text": "#fdf6ec"
     },
     povBlock: {
@@ -85,7 +85,7 @@ const THEMES = {
       krenyi: "#d9a94e",
       thorn: "#c15c4f"
     },
-    statusActive: "#7fa872"
+    statusActive: "#4f6b46"
   },
   starquest: {
     label: "Fian Ilchruinne — \"Starquest\" Theme",
@@ -123,7 +123,7 @@ const THEMES = {
       "--color-surface-2": "#e2d2a3",
       "--color-border": "#b99a5b",
       "--color-text": "#2c2013",
-      "--color-text-muted": "#6e5c40",
+      "--color-text-muted": "#665439",
       "--color-accent": "#7a1f2b",
       "--color-accent-hover": "#9c2836",
       "--color-canon": "#1f4d6b",
@@ -140,7 +140,7 @@ const THEMES = {
       krenyi: "#b98a2b",
       thorn: "#5b3b8a"
     },
-    statusActive: "#3c6b35"
+    statusActive: "#35602f"
   },
 
   // --- Standard, non-domain-specific themes: general-purpose display
@@ -158,7 +158,7 @@ const THEMES = {
       "--color-text-muted": "#565c7a",
       "--color-accent": "#3452c4",
       "--color-accent-hover": "#23349c",
-      "--color-canon": "#a8710a",
+      "--color-canon": "#8f5f08",
       "--color-pov-active": "#3452c4",
       "--color-pov-bg": "#eef0fa",
       "--color-skip-bg": "#3452c4",
@@ -171,7 +171,7 @@ const THEMES = {
       krenyi: "#a8710a",
       thorn: "#b8402f"
     },
-    statusActive: "#2f7a3c"
+    statusActive: "#2c7238"
   },
   "high-contrast": {
     label: "Fian Ilchruinne — High-Contrast Theme",
@@ -209,13 +209,13 @@ const THEMES = {
       "--color-surface-2": "#e3d3ac",
       "--color-border": "#cbb98a",
       "--color-text": "#3b2f1e",
-      "--color-text-muted": "#7a6a4c",
-      "--color-accent": "#8b5a2b",
+      "--color-text-muted": "#655740",
+      "--color-accent": "#7a4f24",
       "--color-accent-hover": "#6e4520",
-      "--color-canon": "#a13d2b",
-      "--color-pov-active": "#8b5a2b",
+      "--color-canon": "#983a29",
+      "--color-pov-active": "#7a4f24",
       "--color-pov-bg": "#ede0c4",
-      "--color-skip-bg": "#8b5a2b",
+      "--color-skip-bg": "#7a4f24",
       "--color-skip-text": "#f4ecd8",
       "--font-body": '"Palatino Linotype", "Book Antiqua", Georgia, serif'
     },
@@ -226,7 +226,7 @@ const THEMES = {
       krenyi: "#b8860b",
       thorn: "#a13d2b"
     },
-    statusActive: "#4c7a3d"
+    statusActive: "#3c6231"
   },
   solarized: {
     label: "Fian Ilchruinne — Solarized Theme",
@@ -261,6 +261,19 @@ const THEMES = {
 // font-body when a theme doesn't override it) is shared boilerplate every
 // theme keeps identical to main.css.
 const SHARED_ROOT_DEFAULTS = {
+  // Presentation tokens (src/css/main.css's "Presentation modes" section) are
+  // deliberately SHARED and never per-theme: a mode is a posture and a theme is
+  // a palette, and letting a palette move the measure or the leading would put
+  // the two axes back into one variable. A theme that wants different type
+  // sizing is asking for a presentation mode instead.
+  "--color-title": "var(--color-accent)",
+  "--font-size-root": "18px",
+  "--font-size-root-sm": "16px",
+  "--line-height-prose": "1.7",
+  "--measure-ui": "70ch",
+  "--prose-gap": "1rem",
+  "--hero-height": "320px",
+  "--hero-height-sm": "180px",
   "--font-body": '"Georgia", "Times New Roman", serif',
   "--font-ui": 'system-ui, "Segoe UI", Roboto, sans-serif',
   "--font-mono": '"Courier New", Courier, monospace',
@@ -275,11 +288,18 @@ const SHARED_ROOT_DEFAULTS = {
   "--transition": "200ms ease"
 };
 
+// The emitted order, and the ONLY keys emitted at all: buildRootBlock() maps
+// over this list, so a property added to main.css's :root but forgotten here is
+// silently dropped from all eight generated themes - present on the default
+// palette, absent everywhere else, which is the quietest possible way to break
+// one. Keep this list in main.css's own order.
 const ROOT_KEY_ORDER = [
   "--color-bg", "--color-surface", "--color-surface-2", "--color-border",
   "--color-text", "--color-text-muted", "--color-accent", "--color-accent-hover",
   "--color-canon", "--color-pov-active", "--color-pov-bg", "--color-skip-bg",
-  "--color-skip-text", "--font-body", "--font-ui", "--font-mono", "--max-prose",
+  "--color-skip-text", "--color-title", "--font-body", "--font-ui", "--font-mono",
+  "--font-size-root", "--font-size-root-sm", "--line-height-prose",
+  "--max-prose", "--measure-ui", "--prose-gap", "--hero-height", "--hero-height-sm",
   "--radius", "--radius-lg", "--spacing-xs", "--spacing-sm", "--spacing-md",
   "--spacing-lg", "--spacing-xl", "--transition"
 ];
@@ -343,6 +363,37 @@ function generate(name, theme) {
   fs.writeFileSync(outPath, out);
   console.log(`wrote ${path.relative(process.cwd(), outPath)}`);
 }
+
+// Makes the failure ROOT_KEY_ORDER's comment describes impossible rather than
+// merely documented: a custom property added to main.css's :root and forgotten
+// there would be dropped from every theme silently, and the site would look
+// right in local dev (which serves main.css) and wrong on every branded domain.
+// Checked once, before anything is written.
+function checkRootCoverage() {
+  const main = fs.readFileSync(MAIN_CSS_PATH, "utf8").replace(/\r\n/g, "\n");
+  const rootBlock = main.match(/:root \{[\s\S]*?\n\}/);
+  if (!rootBlock) throw new Error("main.css: no :root block found");
+  const declared = [...rootBlock[0].matchAll(/^\s*(--[a-z0-9-]+):/gm)].map((m) => m[1]);
+  const missing = declared.filter((k) => !ROOT_KEY_ORDER.includes(k));
+  if (missing.length) {
+    throw new Error(
+      `main.css declares ${missing.join(", ")} in :root, which ROOT_KEY_ORDER does not list - ` +
+      "every generated theme would silently drop it. Add it to ROOT_KEY_ORDER (and to " +
+      "SHARED_ROOT_DEFAULTS unless every theme sets it)."
+    );
+  }
+  const unset = ROOT_KEY_ORDER.filter(
+    (k) => !(k in SHARED_ROOT_DEFAULTS) && Object.values(THEMES).some((t) => !(k in t.root))
+  );
+  if (unset.length) {
+    throw new Error(
+      `ROOT_KEY_ORDER lists ${unset.join(", ")}, which some theme neither sets nor inherits ` +
+      "from SHARED_ROOT_DEFAULTS - it would be emitted with no value at all."
+    );
+  }
+}
+
+checkRootCoverage();
 
 for (const [name, theme] of Object.entries(THEMES)) {
   generate(name, theme);

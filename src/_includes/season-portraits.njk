@@ -1,0 +1,24 @@
+{#- The season's portraits: every character frame the build includes that is
+    keyed to this season on its character page (`image_season` on the header
+    portrait, `season` on a gallery item). Renders nothing when no frame is
+    keyed, which is most seasons. Expects `seasonNumber` set by the including
+    season index page. Rules in lib/season-portraits.js. -#}
+{%- set portraits = collections.characters | seasonPortraits(seasonNumber) -%}
+{%- if portraits and portraits.length %}
+<section class="season-portraits" aria-label="Portraits from this season">
+  <h2 class="season-portraits__title">Portraits from this season</h2>
+  <ul class="season-portraits__list" role="list">
+    {%- for portrait in portraits %}
+    <li class="season-portraits__item">
+      <a class="season-portraits__link" href="/star-rangers{{ portrait.url }}">
+        <img class="season-portraits__image" src="{{ portrait.src }}" alt="{{ portrait.alt }}" loading="lazy" />
+        <span class="season-portraits__name">{{ portrait.title }}</span>
+        {%- if portrait.caption %}
+        <span class="season-portraits__caption">{{ portrait.caption }}</span>
+        {%- endif %}
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}

@@ -14,7 +14,7 @@ image_alt: "Designed cover for Incident Report 001: a formal document-style cove
 
 **SURVEY CORPS — THRESHOLD STATION**
 **INCIDENT REPORT 001**
-**Date filed:** Year -11, Late Summer, Day 47
+**Date filed:** 2815 UCSD, Late Summer, Day 47
 **Filed by:** Sub-officer Pren Halvard
 **Location:** Dock Seven, Chronometer Array
 
@@ -37,7 +37,7 @@ No further action required. Recommend monitoring for recurrence.
 ---
 
 **ADMINISTRATIVE RESPONSE — Station Manager Cors Delveyne**
-**Date:** Year -11, Late Summer, Day 52
+**Date:** 2815 UCSD, Late Summer, Day 52
 
 Calibration issue. Report closed. Units to be recalibrated at next maintenance cycle.
 

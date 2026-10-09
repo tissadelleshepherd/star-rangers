@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "The Second Visit to the River Abbey"
-timestamp: "Year -4 (2822 UCSD), Early Autumn"
+timestamp: "2822 UCSD, Early Autumn"
 sort_order: 30
 summary: "Elvira walks down to Brother Daire's abbey on the Boyne for the second time that year, and comes away with the Fellowship's own word for what she has been reading: the Overfold. Aldera registers it first."
 tags: [dun-ri, elvira, aldera, brother-daire, fellowship-of-light, overfold, abbey, origin, timeline, history]
@@ -16,7 +16,7 @@ tags: [dun-ri, elvira, aldera, brother-daire, fellowship-of-light, overfold, abb
     </ol>
   </nav>
   <h1 class="lore-entry__title">The Second Visit to the River Abbey</h1>
-  <p><span class="character-badge">Year -4 (2822 UCSD), Early Autumn</span> <span class="character-badge">Dún Rí — the old river abbey on the Boyne</span></p>
+  <p><span class="character-badge">2822 UCSD, Early Autumn</span> <span class="character-badge">Dún Rí — the old river abbey on the Boyne</span></p>
 </header>
 <div class="lore-entry__body">
 
@@ -29,7 +29,7 @@ She takes the word without asking what stands behind it, on the reasoning that a
 Weeks later, in the late autumn of the same year, Aldera chooses the garden gate over the terrace and does not come back.
 
 **Canon facts:**
-- Elvira visits the old river abbey twice in Year -4 (2822 UCSD); this is the second of the two, in Early Autumn, and both fall before Aldera's departure in Late Autumn.
+- Elvira visits the old river abbey twice in 2822 UCSD; this is the second of the two, in Early Autumn, and both fall before Aldera's departure in Late Autumn.
 - The abbey is a contemplative chapter of the Fellowship of Light, kept by Brother Daire, on a tidal stretch of the Boyne near Dún Rí.
 - Daire tells Elvira her sensitivity is inherited through her mother's line, and that the local boundaries are thin and thinning further.
 - The Overfold enters Elvira's vocabulary here, as the Fellowship's own inherited name — not as a Survey Corps classification, which is a later and separate framework for the same lawful phenomenon.

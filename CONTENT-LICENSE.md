@@ -26,10 +26,10 @@ Fan-made images and music may be linked from this site where appropriate, on a s
 
 ## Chartered Works
 
-Separately from fan works, Dermot R. Cochran may **individually approve** a derivative work by another creator — a story, a comic, a game, a recording. An approved work of this kind is called a **chartered work**, and the term covers two different things that should not be confused:
+Separately from fan works, Dermot R. Cochran may **individually approve** a derivative work by another creator — a story, a comic, a game, a recording, or an adaptation for television, a streaming service or cinema. An approved work of this kind is called a **chartered work**, and the term covers two different things that should not be confused:
 
 - **Permission.** The No-Derivatives term still applies, and the standing fan-works exception does *not* cover this: a chartered work needs its own explicit grant. Where the work is commercial, the fan-works exception does not reach it at all and a real licence is required. Nothing on this page grants chartered status to anyone in advance.
-- **Standing in the story.** A chartered work is endorsed but **not canon**. One rule governs it: *canon binds it; it does not bind canon.* It must be consistent with the published story as it stood when approved, and if the published story later contradicts it, the published story wins and the chartered work is superseded rather than withdrawn. The main story never depends on one.
+- **Standing in the story.** A chartered work is endorsed but **not canon**. One rule governs it: *canon binds it; it does not bind canon.* It must be consistent with the published story as it stood when approved, and if the published story later contradicts it, the published story wins and the chartered work is superseded rather than withdrawn. The main story never depends on one. **Chartered is also the ceiling:** any television, streaming or cinematic adaptation, whatever its scale or the author's involvement in it, is treated as a chartered work and never as canon — the screen never becomes the record, and the record never adjusts to the screen.
 
 Chartered works are **registered here, not hosted here** — the work stays with its own author and rights holder, and this repository lists it. Nothing in this repository's CC BY-NC-ND scope is another creator's property, and that is deliberate.
 

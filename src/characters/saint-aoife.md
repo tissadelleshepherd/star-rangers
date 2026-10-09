@@ -10,6 +10,8 @@ aliases:
   - "Aoife of the Thorn Well"
 tags: [saint-aoife, celtic-union, hagiography, levril, culture, human]
 description: "The thirteenth-century Irish holy woman whose vision at the thorn well founded a devotion the Celtic Union carried off Earth — and who, by her own account, was never fully certain what she had seen."
+image: "saint-aoife.jpg"
+image_alt: "Aoife, a woman in an undyed woollen dress and shawl with long dark red hair, standing at a low stone-kerbed spring in a blackthorn thicket at night, her face turned down toward the water and lost in shadow. Moorland and a plain sky of small stars lie behind."
 ---
 
 Aoife never claimed to know what she'd met at the thorn well. That refusal is the one thing about her every later reader — devout, sceptical, or reading from a cosmology she couldn't have imagined — has taken at face value.
@@ -38,4 +40,4 @@ That same refusal is what makes her legible, fourteen centuries later, to reader
 
 She kept no formal writings of her own. Everything known of her interior life passes through someone else's hand — Brother Daire's, and now a chain of devotional and scholarly readers stretching from medieval Ireland to the charter worlds of the [Celtic Union](/star-rangers/lore/celtic-union-of-planets/). She would likely have found that unsurprising. She spent her life being asked to explain something she'd already told everyone, honestly, she couldn't fully explain.
 
-See also: [Saint Aoife](/star-rangers/lore/saint-aoife/), [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), [Brother Daire](/star-rangers/characters/brother-daire/), [Levrils: Dragons and Constraint Literacy](/star-rangers/lore/levrils/).
+See also: [Saint Aoife](/star-rangers/lore/saint-aoife/), [The Life of Saint Aoife](/star-rangers/codex/life-of-saint-aoife/), [What Was Carried](/star-rangers/codex/what-was-carried/), [Brother Daire](/star-rangers/characters/brother-daire/), [Levrils: Dragons and Constraint Literacy](/star-rangers/lore/levrils/).

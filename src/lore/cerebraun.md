@@ -23,7 +23,7 @@ The **Cerebraun** are a cephalopod-descended, sapient people distinguished from 
 
 Outside observers who describe Cerebraun psychology as "layered" are, if anything, understating it. A single Cerebraun can hold what a human psychologist would classify as several simultaneous, only partially reconciled trains of affect and intention — not as internal conflict in the human sense, but as a normal condition of having cognition distributed across nine semi-independent processing centers instead of one.
 
-This makes Cerebraun notoriously difficult for other species to model predictively. A human diplomat can learn to read a Krenyi's directness or a fellow human's tells. Predicting a Cerebraun requires tracking which of nine centers is currently weighted heaviest in a given exchange — information no outside observer has reliable access to, and which the Cerebraun themselves do not always resolve before they act.
+This makes Cerebraun notoriously difficult for other species to model predictively. A human diplomat can learn to read a [Krenyi](/star-rangers/lore/krenyi/)'s directness or a fellow human's tells. Predicting a Cerebraun requires tracking which of nine centers is currently weighted heaviest in a given exchange — information no outside observer has reliable access to, and which the Cerebraun themselves do not always resolve before they act.
 
 ## Communication
 

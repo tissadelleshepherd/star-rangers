@@ -28,4 +28,4 @@ One of the Arilonian annotations on the working copy reads: *"It was not written
 
 The Division has entered no reply. The annotation is correct, and a doctrine office that could not recognise a correct annotation would be building on sand.
 
-*Companion filing: [The False Dragon](/star-rangers/codex/the-false-dragon/).*
+*Companion filing: [The Borrowed Silhouette](/star-rangers/codex/the-borrowed-silhouette/).*

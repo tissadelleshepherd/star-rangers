@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-ceridwen, ridgemoot, human]
 description: "Clan head of Ceridwen on Aethelrock, holder of the world's only major fold-relay station, and the most contested figure at the Ridgemoot since she began negotiating directly with Star Rangers survey traffic."
 image: "rhiannon-ceridwen.jpg"
-image_alt: "Designed placeholder card for Rhiannon Ceridwen: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
+image_alt: "Rhiannon Ceridwen beneath the mast of her relay station at dusk, a composed woman with grey curling hair in a heavy practical coat, standing level and unhurried on the platform decking with her hands at her sides, facing the viewer. The mast rises directly behind her, guy lines going up into low cloud, one small steady light burning high on it."
 ---
 
 Rhiannon Ceridwen did not ask to be the first person on Aethelrock a Star Rangers survey officer ever spoke to. She has stopped apologising for it.
@@ -29,7 +29,7 @@ Reconnection with the Solar System ended the technicality. When Star Rangers sur
 
 ## Character Notes
 
-Rhiannon does not frame what she did as a power grab, and largely means it. Her position is procedural rather than ambitious: someone was going to answer that hail, the station was hers, and a two-year delay on a first-contact relationship struck her as a worse risk to Aethelrock than the accusation of overreach she knew she'd draw. She has not backed down from that reasoning in nine years of being told, at every Ridgemoot since, that she was wrong to make it alone.
+Rhiannon does not frame what she did as a power grab, and largely means it. Her position is procedural rather than ambitious: someone was going to answer that hail, the station was hers, and a two-year delay on a first-contact relationship struck her as a worse risk to Aethelrock than the accusation of overreach she knew she'd draw. She has not backed down from that reasoning in two years of being told, at every Ridgemoot since, that she was wrong to make it alone.
 
 She keeps the other clan heads' objections on the record rather than arguing them down in the room — a habit that reads as either scrupulous fairness or quiet provocation depending on who is describing it. [Fergus Aonghas](/star-rangers/characters/fergus-aonghas/), head of Clan Aonghas and her nearest neighbour at the Ridgemoot border, has called her "the only person on this world who apologises in the same breath as refusing to stop."
 

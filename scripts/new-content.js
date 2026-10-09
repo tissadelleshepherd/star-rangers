@@ -16,7 +16,7 @@
 const fs = require("fs");
 const path = require("path");
 const readline = require("readline/promises");
-const { CONTENT_TYPES, chapterIdFor } = require("../lib/content-schema");
+const { CONTENT_TYPES, CHARACTER_STATUSES, chapterIdFor } = require("../lib/content-schema");
 
 const SRC_DIR = path.join(__dirname, "..", "src");
 
@@ -106,7 +106,12 @@ async function scaffoldSimple(rl, typeKey) {
   for (const field of type.optionalFields) {
     if (typeKey === "character" && field === "id") continue; // already asked above, required
     const isListField = ["tags", "aliases", "related"].includes(field);
-    const raw = await promptOptional(rl, field);
+    // A character's status is a five-value vocabulary (CHARACTER_STATUSES);
+    // show the values so the scaffold can't invent a sixth.
+    const label = typeKey === "character" && field === "status"
+      ? `status (${Object.values(CHARACTER_STATUSES).map((s) => s.label).join(" / ")})`
+      : field;
+    const raw = await promptOptional(rl, label);
     if (!raw) continue;
     fields.push([field, isListField ? toYamlList(raw) : toYamlString(raw)]);
   }

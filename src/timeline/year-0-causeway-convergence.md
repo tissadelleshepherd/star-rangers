@@ -1,10 +1,10 @@
 ---
 layout: base.njk
-title: "Timeline Event"
+title: "Causeway Convergence: Elvira, Galahad, and Aldera"
 timestamp: "2826 UCSD, Late Autumn"
 sort_order: 110
-summary: "Galahad, Elvira, and Aldera converge at the Marsh Causeway after Elvira's third failed ritual. The Court-Fae feeding signature is first identified."
-tags: [causeway, elvira, galahad, aldera, court-fae, boundary, undercover-pets.com]
+summary: "Galahad, Elvira, and Aldera converge at the Marsh Causeway after Elvira's third failed ritual. The Obliger feeding signature is first identified."
+tags: [causeway, elvira, galahad, aldera, obligers, boundary]
 ---
 
 <article class="lore-entry">
@@ -22,13 +22,13 @@ tags: [causeway, elvira, galahad, aldera, court-fae, boundary, undercover-pets.c
 
 Elvira's third ritual attempt at the Marsh Causeway fails. Galahad arrives shortly after — having been monitoring the causeway from the station — and the two share working vocabulary for the first time. Aldera has been observing from the reeds throughout.
 
-The failure is not technique error. Aldera's log records a Court-Fae feeding signature in the pattern: the entity is adaptive, learning from each failed attempt, and using the ambiguity in Elvira's incomplete understanding as a food source. The ritual fails because the substrate is being deliberately shifted against it.
+The failure is not technique error. Aldera's log records an Obliger feeding signature in the pattern: the entity is adaptive, learning from each failed attempt, and using the ambiguity in Elvira's incomplete understanding as a food source. The ritual fails because the substrate is being deliberately shifted against it.
 
 The correct response is clarity. Galahad holds survey data that would close the ambiguity loop — and has not yet thought to share it. Elvira has no way to know the data exists. Aldera has understood the situation for some time and has not yet been asked.
 
 **Canon facts:**
 - The failed rituals are not technique errors; the substrate is being deliberately shifted.
-- A Court-Fae entity is present and actively maintaining the feeding condition.
+- An Obliger is present and actively maintaining the feeding condition.
 - The correct response is clarity: Galahad must share everything the survey has, ending the ambiguity loop.
 - Aldera has this intelligence but neither Galahad nor Elvira has yet thought to ask a cyber-enhanced cat.
 

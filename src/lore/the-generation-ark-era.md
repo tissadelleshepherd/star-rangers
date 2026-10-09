@@ -4,6 +4,8 @@ title: "The Generation-Ark Era"
 category: "History"
 tags: [generation-ark, sublight, diaspora, currach-fleet, celtic-union, pre-fold, imperium, history]
 description: "The centuries before QSH corridors or fold routes, when the only road between stars was a sublight generation ark — and why the odds of arriving were the odds of an early Norse or Irish open-boat ocean crossing: perilous, heavy with loss, and made anyway."
+image: "the-generation-ark-era.jpg"
+image_alt: "A Currach-era generation ark alone in deep space, seen small: a long dull spine with a wide patched drum amidships built to turn about the ship's axis, flat radiator panels along the spine fore and aft, a small docking structure forward, nothing lit"
 plain: "Before there was any fast way to travel between stars, the only way to reach another one was a 'generation ark': a sealed ship on a journey so long that the crew who set out would grow old and die aboard, leaving the voyage to their grandchildren. It was as dangerous as the early Viking and Irish monk sea-crossings in small open boats — the ships the arks were named after. Many were lost. Some got through, mostly the best-prepared and most tight-knit crews. And because a ship that made it and a ship that vanished both went silent for generations, the home system could never tell which was which, so it wrote all of them down as lost."
 related:
   - "The Celtic Union of Planets"
@@ -12,6 +14,13 @@ related:
 ---
 
 The fleets that crossed to other stars before there was a quick way to do it named themselves, deliberately, for the smallest boats their ancestors had ever trusted to open water — the Irish *currach*, the Norse *knarr*. The choice was not only sentiment. The odds were about the same.
+
+<video controls preload="none" poster="/star-rangers/video/the-generation-ark-era-poster.jpg" style="width:100%;max-width:40rem;display:block;margin:1.5rem 0;background:#000">
+  <source src="/star-rangers/video/the-generation-ark-era.mp4" type="video/mp4">
+  Your browser does not support the video element. <a href="/star-rangers/video/the-generation-ark-era.mp4">Download the clip</a>.
+</video>
+
+*Ten seconds from a hull mount on a Currach-era ark's spine, looking aft, the drum turning.*
 
 ## The Only Road Out
 

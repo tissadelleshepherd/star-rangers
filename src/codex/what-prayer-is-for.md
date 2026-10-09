@@ -4,9 +4,9 @@ title: "What Prayer Is For"
 category: "Devotional Record"
 library: "Survey Archive, Threshold Station"
 author: "Abbess Ilsabet Marrowtide, Tideward Sisterhood — set down at her direction and conveyed in translation"
-institution: "Tideward Sisterhood, the Abbeylands, Aduine — Kingdom of the Four Islands"
+institution: "Tideward Sisterhood, the Abbeylands, Aduine — Kingdom of the Five Islands"
 location: "First-contact translation series; filed on receipt. The source, in the Sisterhood's practice, carries no date of composition — the Long Accounting keeps its own reckoning."
-tags: [devotional, four-islands, tideward-sisterhood, prayer, culture, first-contact]
+tags: [devotional, five-islands, tideward-sisterhood, prayer, culture, first-contact]
 description: "The Abbess of Aduine's instruction to novices, conveyed to the Survey delegation after a linguist asked what the Sisterhood's offices were for. A complete devotional account of prayer that expects no answer and has never needed one — filed with the archivist's note that nothing in it required correction."
 ---
 

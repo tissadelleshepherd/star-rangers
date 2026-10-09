@@ -1,13 +1,13 @@
 {
   "name": "star-rangers",
-  "version": "1.22.0",
-  "description": "Fian Ilchruinne — an interactive science-fantasy novel. The stars call us forward with hope; to protect what is good and to see what is true.",
+  "version": "1.36.0",
+  "description": "Fian Ilchruinne — a multi-viewpoint hard-science-fiction novel with one licensed deviation. The stars call us forward with hope; to protect what is good and to see what is true.",
   "main": "index.js",
   "scripts": {
     "build": "eleventy && pagefind --site _site",
     "start": "eleventy --serve",
-    "test": "node scripts/check-changelog.js && node scripts/validate-content.js && node scripts/sync-version.js --check && eleventy --dryrun",
-    "version": "node scripts/sync-version.js",
+    "test": "node --test test/*.test.js && node scripts/check-changelog.js && node scripts/check-changelog-coverage.js && node scripts/validate-content.js && node scripts/check-internal-links.js && node scripts/check-related-terms.js && node scripts/check-children-glossary.js && node scripts/revelation-ledger.js --check && node scripts/sync-version.js --check && node scripts/sync-story-so-far.js --check && eleventy --dryrun",
+    "version": "node scripts/sync-version.js && node scripts/sync-story-so-far.js",
     "new": "node scripts/new-content.js",
     "generate-themes": "node scripts/generate-themes.js",
     "fetch-giscus-ids": "node scripts/fetch-giscus-ids.js"
@@ -29,7 +29,8 @@
     "@11ty/eleventy-navigation": "^1.0.5",
     "gray-matter": "^4.0.3",
     "luxon": "^3.7.2",
-    "markdown-it": "^14.2.0",
+    "markdown-it": "^14.3.2",
+    "markdown-it-anchor": "^10.0.0",
     "markdown-it-container": "^4.0.0",
     "pagefind": "^1.5.2"
   }

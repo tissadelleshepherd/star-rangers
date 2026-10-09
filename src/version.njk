@@ -12,9 +12,11 @@ eleventyExcludeFromCollections: true
   This is the only check that tests the chain end to end. A green cron job
   proves the script ran; it does not prove the files landed on this domain.
 
-  version "dev" means the build did not come through the cPanel deploy path
-  (a local build, or GitHub Pages). Kept out of collections so it never
-  reaches the sitemap, search index or any listing page.
+  version "dev" means the build did not come through a deploy path - a
+  local build. Both deploy paths stamp it: scripts/deploy-lib.sh for the
+  cPanel clones, and the GitHub Pages workflow for fianilchruinne.com
+  (since 2026-10-06). Kept out of collections so it never reaches the
+  sitemap, search index or any listing page.
 -#}
 version: {{ build.version }}
 built: {{ build.builtAt }}

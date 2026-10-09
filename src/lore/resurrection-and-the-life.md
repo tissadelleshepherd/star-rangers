@@ -4,6 +4,8 @@ title: "The Resurrection and the Life"
 category: "Cosmology"
 tags: [cosmology, kieme, death, resurrection, spiritual-life, church-space]
 description: "The church-space telling of what happens to a person at death — where the Archive keeps conservation, translation and the general resurrection in three files so nobody runs them together, devotional tradition answers that it drew those lines first: life beyond death rather than life after it, and a last day that is neither."
+image: "resurrection-and-the-life.jpg"
+image_alt: "A burial ground at first light on a settled world, a low wall of pale cast blocks, rows of plain unlettered pale markers in frosted grass, a line of gold light along the top of the far wall, and at the gate a sealed grey housing on a short post"
 ---
 
 The Archive keeps three files on death and will not let them be run together. [Conceptual Conservation](/star-rangers/glossary/conceptual-conservation/): universal, unelected, structural — every coherent mind retained at the Conceptual layer, *retained, not continued*. Kiemeic Translation: [Kieme's](/star-rangers/glossary/kieme/) own election, unmediated by the Cascade, carrying an essence into the [Spiritual layer](/star-rangers/lore/five-layers/) — invisible to instruments *by nature*, not pending better ones. And the general resurrection: a claim about a singular event at the end of Material time, which [the Cascade record](/star-rangers/lore/cosmic-cascade/) files as out of scope rather than adjudicated, since invariant-only inference has nothing to say about a thing that has either not happened yet or does not happen. This telling does not dispute the filing. It notes who drew the lines first.

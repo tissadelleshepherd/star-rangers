@@ -13,7 +13,7 @@
   --color-surface-2: #e2d2a3;
   --color-border: #b99a5b;
   --color-text: #2c2013;
-  --color-text-muted: #6e5c40;
+  --color-text-muted: #665439;
   --color-accent: #7a1f2b;
   --color-accent-hover: #9c2836;
   --color-canon: #1f4d6b;
@@ -21,10 +21,18 @@
   --color-pov-bg: #efe4c8;
   --color-skip-bg: #7a1f2b;
   --color-skip-text: #f7f2e6;
+  --color-title: var(--color-accent);
   --font-body: "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --font-ui: system-ui, "Segoe UI", Roboto, sans-serif;
   --font-mono: "Courier New", Courier, monospace;
+  --font-size-root: 18px;
+  --font-size-root-sm: 16px;
+  --line-height-prose: 1.7;
   --max-prose: 72ch;
+  --measure-ui: 70ch;
+  --prose-gap: 1rem;
+  --hero-height: 320px;
+  --hero-height-sm: 180px;
   --radius: 4px;
   --radius-lg: 8px;
   --spacing-xs: 0.25rem;
@@ -33,6 +41,101 @@
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
   --transition: 200ms ease;
+}
+
+/* --- Presentation modes ---------------------------------------------------
+
+   THE THIRD AXIS. A build's look is decided by three independent things:
+
+     EDITION      who this domain is           lib/editions.js
+     THEME        what colour it is            theme-<name>.css (generated)
+     PRESENTATION how it wants to be read      this section
+
+   Palette and posture were one axis until now, and that conflated two
+   different questions the same way `theme` once conflated palette and
+   identity (see lib/editions.js's "WHY NOT KEEP USING theme FOR THIS"). A
+   contemplative domain and a children's domain can want the same colours and
+   still need different measure, leading and tap targets; the codex site wants
+   the fellowship palette and an index's density. So the mode lives on
+   :root as a data attribute (src/_includes/base.njk writes it from
+   edition.presentation) and moves ONLY custom properties.
+
+   WHY IT MOVES ONLY PROPERTIES, and this is the rule that keeps it cheap:
+   every theme-<name>.css is main.css with a swapped :root
+   (scripts/generate-themes.js), so anything written here ships to all nine
+   themes by construction. If a mode changed selectors instead of values, the
+   themes and the modes would multiply - 9 x 4 combinations to keep straight
+   rather than 9 palettes and 4 posture overlays that compose. The two
+   structural rules below are the deliberate exceptions, each noted with why a
+   property could not carry it - and a third, the "From the Archive" aside's
+   placement by posture, sits with that aside's own styles further down.
+
+   A MODE IS A POSTURE, NOT A TIER. The audience tiers (children -> young adult
+   -> general -> contemplative, story-bible-summary.md) are about register and
+   block length. These are about what the reader's hands and eyes are doing:
+   reading a story straight through, being helped to finish a block, sitting
+   with a page, or looking something up. That is why the young-adult and
+   general tiers share `story` - same posture, different prose - while the
+   codex site gets `archive` despite sharing the fellowship's palette and
+   tier. Add a mode when a posture is genuinely unserved, not when a domain
+   wants to feel different; that is what the palette and the copy are for. */
+
+/* PRIMER - the children's domain (undercover-pets.com).
+   Bigger type, a shorter line, more air between paragraphs: the constraint the
+   tier note names is COMPLETABILITY, and a block that looks finishable is
+   finished. The measure is the load-bearing value - ~58ch is roughly nine or
+   ten words, which is where a developing reader stops losing the line. */
+:root[data-presentation="primer"] {
+  --font-size-root: 20px;
+  --font-size-root-sm: 17px;
+  --line-height-prose: 1.75;
+  --max-prose: 58ch;
+  --measure-ui: 60ch;
+  --prose-gap: 1.15rem;
+  --hero-height: 280px;
+}
+/* Structural, because the padding is in px and would not scale with the root
+   size: the POV buttons are the site's one real tap target and a child on a
+   tablet gets the 44px-ish box the WCAG target-size guidance asks for. */
+:root[data-presentation="primer"] .pov-btn {
+  padding: 9px 18px;
+}
+
+/* ARCHIVE - a filed record, browsed rather than read (fellowshipoflight.site).
+   Denser and wider: the reader arrived looking for a document, so more of the
+   index should be on screen at once, and codex prose is reference prose. */
+:root[data-presentation="archive"] {
+  --font-size-root: 17px;
+  --font-size-root-sm: 16px;
+  --line-height-prose: 1.6;
+  --max-prose: 78ch;
+  --measure-ui: 76ch;
+  --prose-gap: 0.85rem;
+  --hero-height: 200px;
+  --hero-height-sm: 150px;
+}
+/* Structural, because alignment is not a value any token here holds: an
+   archive's front door is a desk, not a poster. Everything below the hero on
+   every other page is already left-aligned, so this is the homepage falling
+   into line rather than a new look. */
+:root[data-presentation="archive"] .home-hero {
+  text-align: left;
+}
+
+/* CONTEMPLATIVE - the devotional domains (church-space.site,
+   fellowshipoflight.org). Slow it down: the longest leading on the site, a
+   narrow measure, and quiet titles. The heading colour is the one departure
+   worth naming - a contemplative page reads better when nothing on it is
+   competing for the eye, so titles take the body colour and the accent is left
+   to do only what accents must (links, focus, the POV rail). */
+:root[data-presentation="contemplative"] {
+  --font-size-root: 19px;
+  --line-height-prose: 1.9;
+  --max-prose: 62ch;
+  --measure-ui: 62ch;
+  --prose-gap: 1.3rem;
+  --color-title: var(--color-text);
+  --hero-height: 260px;
 }
 
 /* --- Reset --- */
@@ -44,7 +147,7 @@
 
 /* --- Base --- */
 html {
-  font-size: 18px;
+  font-size: var(--font-size-root);
   scroll-behavior: smooth;
 }
 
@@ -52,7 +155,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body);
-  line-height: 1.7;
+  line-height: var(--line-height-prose);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -226,6 +329,112 @@ a:focus {
   background: none;
   color: var(--color-text);
   font-weight: 700;
+}
+
+/* --- Reading-mode switcher -------------------------------------------------
+
+   The reader-side control for the presentation modes above (base.njk renders
+   it, src/js/presentation.js drives it). Every value here is a token, so the
+   control inherits whichever palette the domain ships and needs no per-theme
+   rule of its own - and it scales with --font-size-root like everything else,
+   which means picking "Large print" visibly enlarges the control that just
+   set it. That is feedback, not a bug.
+
+   Colour choices are the ones scripts/check-contrast.js already checks: muted
+   text on --color-surface for a resting option, --color-bg on
+   --color-pov-active for the chosen one. Nothing new to measure. */
+.reading-mode {
+  position: relative;
+}
+.reading-mode__details {
+  position: relative;
+}
+/* Matches .site-nav__list a, so the control reads as part of the header rather
+   than as a widget dropped into it. */
+.reading-mode__summary {
+  color: var(--color-text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  padding: 2px 0;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  list-style: none;
+  transition: color var(--transition), border-color var(--transition);
+}
+.reading-mode__summary::-webkit-details-marker {
+  display: none;
+}
+.reading-mode__summary:hover,
+.reading-mode__summary:focus-visible {
+  color: var(--color-text);
+  border-bottom-color: var(--color-accent);
+}
+.reading-mode__details[open] .reading-mode__summary {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+.reading-mode__panel {
+  position: absolute;
+  top: calc(100% + var(--spacing-xs));
+  right: 0;
+  z-index: 20;
+  width: 17rem;
+  max-width: min(90vw, 17rem);
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.reading-mode__note {
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.reading-mode__options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+/* Deliberately the .pov-btn shape: the site already has one idiom for "pick one
+   of these and the page changes", and a reader who has used the POV controls
+   has met this control before. */
+.reading-mode__btn {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+.reading-mode__btn:hover,
+.reading-mode__btn:focus {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  border-color: var(--color-accent);
+  outline: none;
+}
+.reading-mode__btn[aria-pressed="true"] {
+  background: var(--color-pov-active);
+  color: var(--color-bg);
+  border-color: var(--color-pov-active);
+  font-weight: 700;
+}
+/* The "this site's setting" option takes a row of its own. Two reasons, and the
+   second is the real one: its label is the longest here and wraps inside the
+   pill at this panel width, and it is not a peer of the other three - it is
+   what the domain chose, with the overrides beneath it. */
+.reading-mode__btn[data-presentation-mode=""] {
+  flex-basis: 100%;
+}
+.reading-mode__btn-note {
+  font-weight: 400;
+  opacity: 0.85;
 }
 
 /* --- Main Content --- */
@@ -444,12 +653,30 @@ a:focus {
   border-bottom: 1px solid var(--color-border);
 }
 .pov-header__name {
+  margin: 0;
   font-family: var(--font-ui);
   font-size: 0.85rem;
+  line-height: inherit;
   font-weight: 700;
   color: var(--color-accent);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+/* Text for assistive readers only: the scene label the chapter body never
+   showed visually, kept out of sight without leaving the accessibility tree
+   (display:none would). */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 .pov-header__label {
   font-family: var(--font-ui);
@@ -463,13 +690,27 @@ a:focus {
 .pov-block--krenyi  { border-left-color: #b98a2b; }
 .pov-block--thorn   { border-left-color: #5b3b8a; }
 
+/* The scene label in the chapter body: the same caption the scene-by-scene
+   list below the chapter uses, so a scene is named once in the prose and
+   once in the index in one voice. Visible since 2026-09-30 so a read-aloud
+   that speaks visible text only announces the boundary. */
+.scene__label {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: var(--spacing-xl) 0 var(--spacing-sm);
+}
+
 /* --- Chapter Body Prose --- */
 .chapter-body {
   max-width: var(--max-prose);
 }
 
 .chapter-body p {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--prose-gap);
 }
 
 .chapter-body h2 {
@@ -546,6 +787,123 @@ a:focus {
 }
 .canon-facts__list li + li {
   margin-top: var(--spacing-sm);
+}
+
+/* --- "In the Archive" (chapter backlinks) ---
+   Borrows the .canon-facts box: the shape a reader already knows as "the
+   Archive talking about the text rather than in it". Derived list, never
+   authored; see lib/archive-backlinks.js. */
+.archive-links {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  max-width: var(--max-prose);
+}
+.archive-links__heading {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+.archive-links__lede {
+  margin-top: var(--spacing-xs);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.archive-links__list {
+  list-style: none;
+  margin-top: var(--spacing-md);
+  padding: 0;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.archive-links__list li + li {
+  margin-top: var(--spacing-xs);
+}
+.archive-links__kind {
+  margin-left: var(--spacing-sm);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* --- "From the Archive" (the entries that accompany a chapter) ---
+   The Archive beside the narrative: the entries for what the chapter meets,
+   each with its own one-line account (lib/archive-companions.js; Dermot's
+   direction of 2026-10-05, the Archive as the Book that accompanies the
+   story). Same box as .canon-facts and .archive-links, since it is the same
+   voice - the Archive talking about the text rather than in it. */
+.chapter-reading {
+  display: block;
+}
+.archive-companions {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  max-width: var(--max-prose);
+}
+.archive-companions__heading {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+.archive-companions__lede {
+  margin-top: var(--spacing-xs);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.archive-companions__list {
+  list-style: none;
+  margin-top: var(--spacing-md);
+  padding: 0;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.archive-companions__item + .archive-companions__item {
+  margin-top: var(--spacing-md);
+}
+.archive-companions__kind {
+  margin-left: var(--spacing-sm);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+.archive-companions__text {
+  margin-top: var(--spacing-xs);
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+/* Structural, and the third deliberate exception to "a mode moves only
+   properties" (see the presentation-mode note at the top of this file):
+   WHERE the aside sits is not a value any token holds. In the archive and
+   contemplative postures, reference density and sitting with a page, the
+   Archive accompanies the prose in a margin column once the viewport has
+   room for both; in story and primer, reading straight through, it stays
+   under the text. The DOM order is body then aside, so the two layouts show
+   the same page, and the grid only ever adds a column. Dermot's choice,
+   2026-10-05, re-grounding the 2026-10-02 placement: reasons stay under the
+   text; vocabulary may sit beside it, where the posture asks. */
+@media (min-width: 1100px) {
+  :root[data-presentation="archive"] .chapter-reading,
+  :root[data-presentation="contemplative"] .chapter-reading {
+    display: grid;
+    grid-template-columns: minmax(0, var(--max-prose)) minmax(14rem, 18rem);
+    column-gap: var(--spacing-xl);
+    align-items: start;
+  }
+  :root[data-presentation="archive"] .archive-companions,
+  :root[data-presentation="contemplative"] .archive-companions {
+    margin-top: 0;
+    position: sticky;
+    top: var(--spacing-md);
+    max-height: calc(100vh - 2 * var(--spacing-md));
+    overflow-y: auto;
+  }
 }
 
 /* --- Scene-by-scene links (chapter overview) --- */
@@ -703,7 +1061,7 @@ a:focus {
   position: relative;
   display: block;
   width: 100%;
-  height: 320px;
+  height: var(--hero-height);
   overflow: hidden;
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
@@ -850,6 +1208,41 @@ a:focus {
 .home-hero__cta:focus {
   background: var(--color-accent-hover);
 }
+/* Two doors: chapter one, and the newest entry in the record. They wrap to a
+   column on a narrow screen rather than shrinking, so neither hit area gets
+   smaller than a thumb. */
+.home-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+/* The secondary door is outlined rather than filled, and the outline is an
+   inset shadow rather than a border so both buttons keep the same box: a
+   2px border on one of them would make it two pixels taller than its
+   neighbour for no reason a reader could name. */
+.home-hero__cta--secondary {
+  background: transparent;
+  color: var(--color-accent);
+  box-shadow: inset 0 0 0 2px var(--color-accent);
+}
+.home-hero__cta--secondary:hover,
+.home-hero__cta--secondary:focus {
+  background: var(--color-surface-2);
+  color: var(--color-accent-hover);
+  box-shadow: inset 0 0 0 2px var(--color-accent-hover);
+}
+/* Windows high contrast, and any other forced-colours mode, drops both the
+   fill and the inset shadow - which left the site's call to action reading as
+   ordinary link text, because the shape was carrying all of the affordance.
+   A real border is drawn in the user's own colours, so both doors keep their
+   outline without the stylesheet choosing a colour the mode has overridden. */
+@media (forced-colors: active) {
+  .home-hero__cta {
+    border: 2px solid currentColor;
+  }
+}
 
 .home-sections {
   display: grid;
@@ -897,7 +1290,7 @@ a:focus {
 .page-hero-image {
   display: block;
   width: 100%;
-  height: 320px;
+  height: var(--hero-height);
   object-fit: cover;
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
@@ -905,14 +1298,25 @@ a:focus {
 }
 .page-title {
   font-size: 2rem;
-  color: var(--color-accent);
+  color: var(--color-title);
   margin-bottom: var(--spacing-lg);
 }
+/* A link to a page this build excludes, rendered as plain text by the
+   unlinkExcluded transform (lib/unlink-excluded.js, 2026-10-09). Marked only
+   by a dotted underline and the title attribute's hint, so it reads as a
+   name and not as a broken link. */
+.gated-link {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.15em;
+  cursor: help;
+}
+
 .page-intro {
   font-size: 1rem;
   color: var(--color-text-muted);
   font-family: var(--font-ui);
-  max-width: 70ch;
+  max-width: var(--measure-ui);
   margin-bottom: var(--spacing-xl);
 }
 
@@ -937,7 +1341,7 @@ a:focus {
   font-size: 0.95rem;
   color: var(--color-text-muted);
   font-family: var(--font-ui);
-  max-width: 70ch;
+  max-width: var(--measure-ui);
   margin-bottom: var(--spacing-lg);
 }
 .thread-badge {
@@ -970,6 +1374,7 @@ a:focus {
 }
 .chapter-list__item a {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: var(--spacing-md);
   padding: var(--spacing-sm) var(--spacing-md);
@@ -999,6 +1404,16 @@ a:focus {
   color: var(--color-text-muted);
   font-style: italic;
   margin-left: auto;
+}
+/* The chapter's own one-paragraph summary (front-matter `description`),
+   shown where a reader chooses a chapter and nowhere on the chapter itself
+   (2026-10-02): the summary belongs before the choice, not beside the prose. */
+.chapter-list__desc {
+  flex-basis: 100%;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
 }
 
 /* --- Codex --- */
@@ -1199,19 +1614,30 @@ a:focus {
 
 /* --- Responsive --- */
 @media (max-width: 640px) {
-  html { font-size: 16px; }
+  html { font-size: var(--font-size-root-sm); }
   .home-hero__title { font-size: 2rem; }
   .site-header { padding: var(--spacing-sm) var(--spacing-md); }
   .main-content { padding: var(--spacing-lg) var(--spacing-md); }
   .pov-controls { flex-direction: column; align-items: flex-start; }
-  .page-hero-image { height: 180px; }
-  .home-hero__slideshow { height: 180px; }
+  .page-hero-image { height: var(--hero-height-sm); }
+  .home-hero__slideshow { height: var(--hero-height-sm); }
   .site-search { width: 100%; }
   .site-search__input { width: 100%; }
   .site-search__results { width: 100%; max-width: 100%; }
+  .reading-mode__panel { right: auto; left: 0; }
+}
+
+/* The character header stacks earlier than the rest of the site. The portrait
+   is a fixed 420px that cannot shrink, so between the 640px breakpoint and
+   about 880px the text column beside it collapsed to ~100px: the role badge
+   became a six-line pill, the name broke mid-word, and each tag took its own
+   line. Stacking at 900px keeps the two-column header only where the text
+   column still has a real measure. */
+@media (max-width: 900px) {
   .character-header__inner { flex-direction: column; }
   .character-header__text { width: 100%; }
   .character-portrait { max-width: 100%; }
+  .character-portrait-figure { max-width: 100%; }
 }
 
 /* --- Focus Visible --- */
@@ -1290,11 +1716,47 @@ a:focus {
   border-color: var(--color-accent);
 }
 .character-badge--status-active {
-  color: #3c6b35;
-  border-color: #3c6b35;
+  color: #35602f;
+  border-color: #35602f;
 }
 .character-badge--status-unknown {
   color: var(--color-text-muted);
+}
+/* Historical and Retired are the two other statuses the corpus uses more than
+   once (six pages and one, at 2026-09-06). Both take tokens the contrast
+   checker already measures against --color-surface-2 in every palette, so
+   they need no per-theme literal of their own: Historical borrows the canon
+   colour, since a historical figure is the record's own past, and Retired
+   keeps the muted text but draws its outline in that colour, dashed, so it
+   reads as out of service rather than unclassified. */
+.character-badge--status-historical {
+  color: var(--color-canon);
+  border-color: var(--color-canon);
+}
+.character-badge--status-retired {
+  color: var(--color-text-muted);
+  border-color: var(--color-text-muted);
+  border-style: dashed;
+}
+/* At large is the record's colour with the outline left open: known to the
+   record, not where anyone last put it. Multi-word statuses reach here since
+   character.njk slugifies the status into the class name (2026-09-06); before
+   that "At large" emitted a class with a space in it and matched nothing. */
+.character-badge--status-at-large {
+  color: var(--color-canon);
+  border-color: var(--color-canon);
+  border-style: dashed;
+}
+/* Contained is At large's inversion: the same colour, filled instead of left
+   open. Page-background text on the canon colour clears the 4.5:1 floor on
+   every non-exempt palette (5.20:1 at the tightest, theme-light) and
+   check-contrast.js measures the pair. The class comes from the status's head
+   clause - "Contained — Survey Corps custody, ..." keys as `contained` - see
+   lib/status-key.js. */
+.character-badge--status-contained {
+  background: var(--color-canon);
+  color: var(--color-bg);
+  border-color: var(--color-canon);
 }
 /* Every character portrait in the corpus is generated to 1200x675 to match the
    ratio below — see story-bible/images.md. Changing this aspect-ratio silently
@@ -1312,6 +1774,23 @@ a:focus {
   border: 1px solid var(--color-border);
   flex-shrink: 0;
   margin-bottom: var(--spacing-md);
+}
+/* The header portrait with its standing under it, when the page gives one
+   (`image_caption`, 2026-10-07). The figure takes the portrait's place in the
+   header flex row, so the image keeps every rule above. */
+.character-portrait-figure {
+  margin: 0 0 var(--spacing-md);
+  width: 100%;
+  max-width: 420px;
+  flex-shrink: 0;
+}
+.character-portrait-figure .character-portrait {
+  margin-bottom: var(--spacing-xs);
+}
+.character-portrait__caption {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
 }
 .character-name {
   font-size: 2rem;
@@ -1382,6 +1861,20 @@ a:focus {
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: var(--spacing-md);
 }
+.character-gallery__figure {
+  margin: 0;
+}
+.character-gallery__figure .character-gallery__item {
+  /* A captioned item is a portrait, not a field snapshot: keep the 16:9
+     frame the portraits are filed at rather than cropping it square. */
+  aspect-ratio: 16 / 9;
+}
+.character-gallery__caption {
+  margin-top: var(--spacing-xs);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
 .character-gallery__item {
   display: block;
   width: 100%;
@@ -1390,6 +1883,65 @@ a:focus {
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
 }
+/* Portraits from this season: the strip a season index page shows for every
+   character frame keyed to it (src/_includes/season-portraits.njk,
+   lib/season-portraits.js, 2026-10-07). The frames are the 16:9 portraits the
+   character galleries file, so the ratio matches .character-gallery__figure;
+   the strip sits between the season's intro and its chapter list, and reads
+   as a small cast line rather than a gallery - a name and a standing under
+   each frame, nothing else. */
+.season-portraits {
+  margin: var(--spacing-xl) 0;
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+.season-portraits__title {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-md);
+}
+.season-portraits__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--spacing-md);
+}
+.season-portraits__item {
+  margin: 0;
+}
+.season-portraits__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.season-portraits__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+.season-portraits__name {
+  display: block;
+  margin-top: var(--spacing-xs);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--color-accent);
+}
+.season-portraits__link:hover .season-portraits__name,
+.season-portraits__link:focus-visible .season-portraits__name {
+  text-decoration: underline;
+}
+.season-portraits__caption {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
 .character-known-codex {
   margin-top: var(--spacing-xl);
   padding: var(--spacing-md);
@@ -1482,6 +2034,14 @@ a:focus {
   margin: var(--spacing-sm) 0;
 }
 .glossary-entry__category { margin-bottom: var(--spacing-sm); }
+.glossary-entry__irish {
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-sm);
+}
+.glossary-entry__irish [lang="ga"] {
+  color: var(--color-text);
+  font-style: italic;
+}
 .glossary-entry__body {
   max-width: var(--max-prose);
 }
@@ -1604,6 +2164,37 @@ a:focus {
   font-size: 1.1rem;
   color: var(--color-accent);
   margin-bottom: var(--spacing-md);
+}
+/* The discussion is collapsed by default (base.njk): a reader opens it, and
+   until then no comment is on the page. The summary is styled as the one
+   control it is - a real button-sized target, in the accent, with the
+   disclosure marker kept - and the note beneath it says what moderation
+   means here. Palette-only tokens, so generate-themes carries it verbatim. */
+.site-comments__toggle {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+.site-comments__summary {
+  cursor: pointer;
+  color: var(--color-accent);
+  font-weight: 600;
+  padding: var(--spacing-xs) 0;
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center;
+}
+.site-comments__summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.site-comments__toggle[open] .site-comments__summary {
+  margin-bottom: var(--spacing-sm);
+}
+.site-comments__note {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin: 0 0 var(--spacing-md);
 }
 .lore-entry__body em { color: var(--color-text-muted); }
 .lore-entry__body a {

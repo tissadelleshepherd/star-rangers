@@ -2,13 +2,13 @@
 layout: lore-entry.njk
 title: "Decision-Making and Communication in the Star Rangers"
 category: "Institutions"
-tags: [star-rangers, decision-making, communication, doctrine, chain-of-command, subsidiarity, safety-corps, escalation, institutions]
+tags: [star-rangers, decision-making, communication, doctrine, chain-of-command, subsidiarity, safety-corps, escalation, institutions, young-star-rangers]
 description: "Why the Corps pushes decisions to whoever is closest to the boundary, trains its officers to say only what they can support, and still keeps a handful of lines no field judgment is allowed to cross."
 image: "star-rangers-decision-and-communication.jpg"
 image_alt: "Designed cover for Decision-Making and Communication in the Star Rangers: a blue signal/broadcast-wave emblem in a ringed seal, on a dark background."
 ---
 
-The MSC took fourteen months to produce a preliminary report on Eden. A Ranger crew at a Class III boundary event has, by charter, no fourteen months to spend. The Corps' entire decision and communication culture follows from that one arithmetic fact.
+The MSC took fourteen months to produce a preliminary report on Eden. A Ranger crew at a Type III boundary event has, by charter, no fourteen months to spend. The Corps' entire decision and communication culture follows from that one arithmetic fact.
 
 ## Decide at the Boundary, Not at the Desk
 
@@ -28,7 +28,7 @@ The same instinct that makes rank titles read as naval — unambiguous, built fo
 
 ## Lines No Field Judgment Crosses
 
-Subsidiarity has a hard edge, and the Corps is specific about where it sits. A Survey Corps team operating in a Class III boundary zone without a Safety Corps environmental clearance for that zone is in breach of the charter regardless of what their commanding officer has directed — command authority over *how* a team operates does not extend to overriding *whether* the environment has been certified safe to operate in at all. Decision-making gets pushed to the edge for everything the edge is positioned to judge. It does not get pushed to the edge for the handful of questions the charter reserves elsewhere on purpose.
+Subsidiarity has a hard edge, and the Corps is specific about where it sits. A Survey Corps team operating in a Type III boundary zone without a Safety Corps environmental clearance for that zone is in breach of the charter regardless of what their commanding officer has directed — command authority over *how* a team operates does not extend to overriding *whether* the environment has been certified safe to operate in at all. Decision-making gets pushed to the edge for everything the edge is positioned to judge. It does not get pushed to the edge for the handful of questions the charter reserves elsewhere on purpose.
 
 ## Legible Across Species, on Purpose
 

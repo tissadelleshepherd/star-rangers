@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Creative Entropy Index (CEI)"
+irish: "Innéacs Eantrópachta Cruthaithí (IEC)"
+irish_gloss: "index of creative entropy"
 id: creative-entropy-index-cei
 category: "Cosmology"
 short: "A normalized measure of universe-level novelty throughput and branch-space vitality across time."

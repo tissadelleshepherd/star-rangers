@@ -20,9 +20,11 @@ module.exports = function () {
     // and /version.txt so a live domain can be checked from outside with one
     // request - the only test that covers the whole chain (merge, cron pull,
     // build, rsync) rather than trusting that a green deploy meant the files
-    // actually landed. Set by scripts/deploy-lib.sh from `git describe`.
-    // "dev" means this build did not come through the cPanel deploy path
-    // (a local build, or GitHub Pages), which is worth being able to tell.
+    // actually landed. Set from `git describe` by scripts/deploy-lib.sh for
+    // the cPanel clones and by .github/workflows/deploy.yml for the Pages
+    // build of fianilchruinne.com. "dev" means this build did not come
+    // through either deploy path - a local build - which is worth being
+    // able to tell.
     version: process.env.DEPLOY_VERSION || "dev",
     builtAt: new Date(BUILD_TIME).toISOString().replace(/\.\d{3}Z$/, "Z"),
   };

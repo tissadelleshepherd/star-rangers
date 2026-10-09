@@ -1,3 +1,5 @@
 node_modules/
 README.md
 TECHNICAL-README.md
+# Per-directory READMEs under src/ document the tree for people; they are not pages.
+src/**/README.md

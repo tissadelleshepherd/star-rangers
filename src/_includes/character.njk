@@ -23,7 +23,7 @@ commentsCategory: characters
           <span class="character-badge character-badge--role">{{ role }}</span>
           {% endif %}
           {% if status %}
-          <span class="character-badge character-badge--status character-badge--status-{{ status | lower }}">{{ status }}</span>
+          <span class="character-badge character-badge--status character-badge--status-{{ status | statusKey }}">{{ status }}</span>
           {% endif %}
         </div>
 
@@ -47,7 +47,16 @@ commentsCategory: characters
         {% endif %}
       </div>
 
-      {% if image %}
+      {% if image and image_caption %}
+      {# `image_caption` names the header frame's standing the way a gallery
+         item's `caption` does ("Season 5 — Line Captain"), so the two kinds of
+         frame read alike here and on the season pages (2026-10-07). Without
+         it the header renders exactly as it always did. #}
+      <figure class="character-portrait-figure">
+        <img class="character-portrait" src="/star-rangers/images/characters/{{ image }}" alt="{{ image_alt | default(title) }}" />
+        <figcaption class="character-portrait__caption">{{ image_caption }}</figcaption>
+      </figure>
+      {% elif image %}
       <img class="character-portrait" src="/star-rangers/images/characters/{{ image }}" alt="{{ image_alt | default(title) }}" />
       {% endif %}
     </div>
@@ -62,7 +71,17 @@ commentsCategory: characters
     <h2 class="character-gallery__title">Gallery</h2>
     <div class="character-gallery__grid">
       {% for item in gallery %}
+      {# An item may carry a `caption` (e.g. "Season 5 — Line Captain"), added
+         2026-09-05 when a principal character's page gained one portrait per
+         season she holds rank in. Uncaptioned items render exactly as before. #}
+      {% if item.caption %}
+      <figure class="character-gallery__figure">
+        <img class="character-gallery__item" src="/star-rangers/images/characters/{{ id }}/{{ item.image }}" alt="{{ item.image_alt | default(title) }}" loading="lazy" />
+        <figcaption class="character-gallery__caption">{{ item.caption }}</figcaption>
+      </figure>
+      {% else %}
       <img class="character-gallery__item" src="/star-rangers/images/characters/{{ id }}/{{ item.image }}" alt="{{ item.image_alt | default(title) }}" loading="lazy" />
+      {% endif %}
       {% endfor %}
     </div>
   </section>

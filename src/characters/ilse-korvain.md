@@ -15,7 +15,7 @@ image_alt: "A gaunt elderly officer in an archaic dark greatcoat and garrison ca
 
 Colonel Ilse Korvain has been dead, by any ordinary clinical standard, for longer than the Imperium she still serves was ever alive.
 
-Survey Corps identified her in 2819 UCSD, holding the Ashfall Depot — a Belt fuel and materiel waystation the Imperium commissioned and the Military Space Command formally decommissioned in 2611 UCSD, two years after the Imperium's own end. Reconstruction of the depot's maintenance logs places Korvain's continuous, unbroken presence there back to 2631 UCSD: two hundred and ten years of self-maintenance, chassis replacement, and brain-state preservation, undertaken for the sole stated purpose of remaining able to carry out an order that has never arrived.
+Survey Corps identified her in 2819 UCSD, holding the Ashfall Depot — a Belt fuel and materiel waystation the Imperium commissioned and the Military Space Command formally decommissioned in 2611 UCSD, two years after the Imperium's own end. Reconstruction of the depot's maintenance logs places Korvain's continuous, unbroken presence there back to 2631 UCSD: a hundred and eighty-eight years of self-maintenance, chassis replacement, and brain-state preservation, undertaken for the sole stated purpose of remaining able to carry out an order that has never arrived.
 
 ## Known History
 

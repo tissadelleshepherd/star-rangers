@@ -201,3 +201,69 @@ both appear, label both (per `universal-cosmic-stardate.md`'s CE+200 rule).
 `subsea-cable-drones.md` and `crisis-centuries-terran-wildlife.md` still use
 bare CE years internally consistent with this reading — fine as-is, but any
 future edit touching them should add labels.
+
+---
+
+# Addendum — 2026-08-22: the planetary-physics set (13 entries)
+
+Second sweep, run at Dermot's request over the entries merged 2026-08-21/22:
+the eleven planetary-physics entries (*Weather on Other Worlds* through *The
+Honest Dark*), *Commissioned Standing*, and the open *Habitable, for Whom*
+draft (PR #525). Method: every quoted or paraphrased canon claim in the new
+entries traced back to its source page by grep; superlatives and counts
+checked for canonical support; new coinages checked for collisions.
+
+## Defects found (fixed in this pass)
+
+1. **Tír na nÓg exclusivity vs Drithane's air — the one real canon tension.**
+   `the-cost-of-the-crossing.md` said Tír na nÓg is "the one confirmed world
+   in the catalogue a human can walk on unassisted — no other exception
+   exists, anywhere, for anyone", and PR #525's draft hardened the same claim
+   ("no dome and no mask... nothing else in the catalogue"). But
+   `planets/drithane.md` gives Drithane "a thin but breathable-with-
+   acclimatisation atmosphere" with open-air grazing range — walkable, no
+   dome, no mask. The tension pre-dates the new entries:
+   `planets/tir-na-nog.md` itself said every other surveyed world "needs a
+   habitat dome, a filtration mask, or a decade of atmospheric engineering",
+   which Drithane already didn't fit. **Reconciliation adopted:** Tír na
+   nÓg's unique classification is the one its own page states —
+   *naturally human-compatible*, the full human envelope occurring naturally
+   (breathe on arrival, open-air agriculture, nothing asked). Drithane sits
+   at the envelope's edge: breathable only with weeks of acclimatisation,
+   agriculture under glass. Kernowek Reach's native air ("wouldn't die
+   outright") is the same spectrum farther out. Both new entries and the
+   tir-na-nog sentence now say this instead of the flat exclusivity.
+2. **Invented superlative.** `the-ledger-and-the-truce.md` opened "The
+   driest surface in the settled record" (Fliade). Canon says "thin, dry and
+   mineral-sharp" — dry, not driest. Softened to "among the driest".
+3. **Invented count.** `weather-on-other-worlds.md` opened "The Survey Corps
+   has invented exactly one new storm-severity classification in its
+   history". Canon (`kingdom-of-the-four-islands.md`) says the storm belts
+   "needed a new severity classification to log them" — an event, not a
+   career total. Count dropped; the sentence now says only that the Corps
+   doesn't do this happily and the Four Islands made it.
+
+## Verified clean (spot list, for the next auditor)
+
+- Direct quotes all check out verbatim: "sky-reading to confirm the route"
+  (undersong-belt), "keep their record by speaking it" (fliade), "a schedule
+  nobody set" (anstolik codex), "predict to the hour before they had
+  finished unloading the ark" (drithane), "too deep to break the surface at
+  any tide" (saltmere survey line), "it has never once failed to come"
+  (Tideward Sisterhood), Krenyi keeping "their own calendar".
+- Trígrian's shifting rivers actively supported: "rivers the survey named in
+  its first season had moved by its third".
+- "An Ghealach" (Tír na nÓg's moon, named in #527) collides with nothing in
+  the corpus; Drithane's low bright moon matches its image canon.
+- No new entry asserts moons, ice, or currents for a world whose page is
+  silent on them — raisers stay "a line in the survey file" by design.
+
+## Accepted new canon worth knowing about (not defects)
+
+These were invented by the new entries, disclosed in their PRs, and merged —
+listed so nobody later mistakes them for pre-existing canon: the covering-note
+quote "the sky was not being dramatic; our instrument was being provincial"
+(weather); the natural-archives family (glacier/tree/cave/soil-with-asterisk);
+"a reservoir is a lake with staff" and the coinage family around it; the
+crossing-cost definition of insularity; "the local record outranks the file"
+as stated arrival doctrine.

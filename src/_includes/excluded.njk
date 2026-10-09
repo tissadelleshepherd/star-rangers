@@ -7,12 +7,38 @@ layout: base.njk
    "Not included in this edition" results. Real excluded titles never
    leaked - only this generic text - so this is de-noising, not privacy. #}
 <article class="excluded-notice" data-pagefind-ignore>
-  <h1 class="page-title">Not included in this edition</h1>
-  {# "Fian Ilchruinne" is deliberately hardcoded, NOT site.name: this sentence
-     names the reference site the link below points at, and on a branded
-     edition site.name is the local door's own brand - "the full Orbital
-     Five-O archive" would name the wrong site. #}
-  <p class="page-intro">This page exists in the full Fian Ilchruinne archive but isn't part of this domain.</p>
-  <p>You can read it at <a href="https://{{ referenceDomain }}{{ page.url }}">{{ referenceDomain }}{{ page.url }}</a>.</p>
+  {% if edition.excludedNotice %}
+  {# An edition's own plain-register notice (lib/editions.js). Deliberately
+     NO cross-domain link: on the children's domain the reference site is
+     the adult one, and a child cannot judge that link. Back goes to this
+     domain's own /start/. #}
+  <h1 class="page-title">{{ edition.excludedNotice.title }}</h1>
+  <p class="page-intro">{{ edition.excludedNotice.intro }}</p>
+  <p><a href="/star-rangers/start/">← {{ edition.excludedNotice.back }}</a></p>
+  {% else %}
+  {# Since 2026-10-09 the stub is a brief summary page with the onward link
+     (Dermot's choice, after a site review read the stubs as dead ends): the
+     page's own title and description, and a sentence saying which edition
+     carries it. `excludedPage` is computed in .eleventy.js from the page's
+     own file, because the computed title and description have already been
+     replaced by the time the template runs. A paginated page has no file of
+     its own and falls back to the generic heading. The carrying edition is
+     named by tier: a tier-gated thread's pages point at the thread's home
+     domain, everything else at the full record. Links to these stubs are
+     un-linked in prose by the same change, so a reader arrives here only by
+     a direct link, a search result or an outside site. #}
+  {% set gated = excludedPage and excludedPage.tier and excludedPage.tier != "general" %}
+  <h1 class="page-title">{{ excludedPage.title if excludedPage and excludedPage.title else "Not included in this edition" }}</h1>
+  {% if excludedPage and excludedPage.description %}
+  <p class="page-intro">{{ excludedPage.description }}</p>
+  {% endif %}
+  {# "Fian Ilchruinne" is deliberately hardcoded, NOT site.name: it names the
+     record the onward link belongs to, and on a branded edition site.name is
+     the local door's own brand. #}
+  <p>
+    {% if gated %}This page belongs to the {{ excludedPage.tier }} edition of <em>Fian Ilchruinne</em>, which this site does not carry.{% else %}This page is part of the full <em>Fian Ilchruinne</em> record, which this edition does not carry.{% endif %}
+    Read it at <a href="https://{{ referenceDomain }}{{ page.url }}">{{ referenceDomain }}{{ page.url }}</a>.
+  </p>
   <p><a href="/star-rangers/">← Back home</a></p>
+  {% endif %}
 </article>

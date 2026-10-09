@@ -77,7 +77,12 @@ commentsCategory: episodes
     {% if item.included %}
     {{ item.html | safe }}
     {% else %}
+    {% if edition.excludedNotice %}
+    <p class="page-intro">{{ edition.excludedNotice.intro }}</p>
+    <p><a href="/star-rangers/start/">← {{ edition.excludedNotice.back }}</a></p>
+    {% else %}
     <p class="page-intro">Not included in this edition.</p>
+    {% endif %}
     {% endif %}
   </div>
 

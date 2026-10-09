@@ -6,9 +6,11 @@ species: Human
 role: Valley Warden, Gleann na gCaorach, Drithane
 status: Active
 aliases: []
-tags: [drithane, celtic-union, valley-warden, crossing-night, shepherd]
+tags: [drithane, celtic-union, valley-warden, crossing-night, shepherd, undercover-pets.com]
 description: "Warden of the Gleann na gCaorach valley chain on Drithane — a shepherd who reads animals for a living, walks the crossing-night dark-down because a kept custom should be seen to be kept, and has never yet met the refusal she couldn't deliver courteously in four seconds."
 known_codex: []
+image: "sorcha-nic-dhiarmada.jpg"
+image_alt: "Sorcha Nic Dhiarmada, a small figure wrapped against the cold, walking a rough hill track at night with a dog at her heel and pale sheep on the slope. Below lies a valley of steadings with every light out; above, a sky thick with stars lights the whole scene."
 ---
 
 The warden's job on [Drithane](/star-rangers/lore/planets/drithane/) is the oldest in the valley and the least necessary, which is, if you ask Sorcha Nic Dhiarmada, the correct order for those two qualities in any custom worth keeping. Nobody in Gleann na gCaorach needs reminding to put their lights out on a crossing night. The warden walks the dark-down anyway, because a thing kept by everyone should still be seen to be kept by someone.

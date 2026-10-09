@@ -1,6 +1,7 @@
 ---
 layout: lore-entry.njk
 title: "Tír na nÓg"
+revealed_by: s02e02c01
 category: "Locations"
 tags: [tir-na-nog, celtic-union, biosphere-planet, locations, human-compatible, anomaly, boirinn-uplands, donn, cliona, conjunction]
 description: "The flagship world of the Celtic Union of Planets — the only surveyed world in Solar System record naturally compatible with unmodified human atmosphere and gravity, and a standing scientific anomaly no institution has closed the file on."
@@ -11,7 +12,7 @@ system: "Mannán System"
 locationType: "Planet"
 ---
 
-Every other surveyed world in Solar System record needs a habitat dome, a filtration mask, or a decade of atmospheric engineering before a human can walk outside unassisted. No confirmed exception exists anywhere else in the catalogue — no alien people surveyed is natively compatible with Earthlike gravity or atmosphere either, on their own world or anyone else's. Tír na nÓg is the one entry in that catalogue that doesn't fit, and its first colonists stepped off the ark and breathed before anyone had worked out why that should have been possible at all.
+Every other surveyed world in Solar System record asks something of a human first — a habitat dome, a filtration mask, a decade of atmospheric engineering, or at the very gentlest [Drithane's](/star-rangers/lore/planets/drithane/) weeks of acclimatisation to thin, cold air. No confirmed exception exists anywhere else in the catalogue — no alien people surveyed is natively compatible with Earthlike gravity or atmosphere either, on their own world or anyone else's. Tír na nÓg is the one entry in that catalogue that doesn't fit, and its first colonists stepped off the ark and breathed before anyone had worked out why that should have been possible at all.
 
 **Tír na nÓg** — named for the Irish otherworld of eternal youth — is the flagship and most populous world of the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/), and the *only* surveyed world on record classified as **naturally human-compatible**: breathable atmosphere, non-toxic biochemistry, and a carbon-based biosphere stable enough to support unmodified human agriculture within the first settlement generation. It is the third planet of the **Mannán System**, named by its founders for Manannán mac Lir, the sea-god who was said to guard the way to Tír na nÓg in the first place.
 
@@ -46,6 +47,8 @@ Bare-branched treelines ring most of the planet's lowland waterways for a good t
 ![Bare wetland trees reflected in still water at dusk](/star-rangers/images/lore/wetland-treeline-reflection.jpg)
 
 Smaller shorebirds work the tidal flats and standing water alongside the wading species, unbothered by the larger birds hunting nearby.
+
+The tides that work those flats have a raiser: a single large moon, which the founding cooperatives declined to rename for the same reason they kept the four-season calendar — the register lists it as **An Ghealach**, *the moon*, which is what Irish already called the one at home.
 
 ![A small pale shorebird standing on a rock at the water's edge](/star-rangers/images/lore/gull-on-rock.jpg)
 

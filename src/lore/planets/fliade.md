@@ -1,9 +1,12 @@
 ---
 layout: lore-entry.njk
 title: "Fliade"
+revealed_by: s11e02c01
 category: "Locations"
-tags: [fliade, pandoids, anstolik, survey-world, cavern-biosphere, first-contact, star-rangers, locations]
+tags: [fliade, pandoids, anstolik, survey-world, cavern-biosphere, first-contact, below-the-roof, star-rangers, locations]
 description: "A cold terrestrial world whose biodiversity lives underground, and whose deep-cavern people the survey found before anyone had proposed doing anything to the planet — the rare case where the sapience clause arrived early enough to matter."
+image: "planets/fliade.jpg"
+image_alt: "A cavern throat lit only by pale bioluminescent growth, fungal shelves and tendrils coating every surface and the way ahead fading into dark"
 plain: "Fliade is a cold planet where most life lives in warm underground caves rather than on the frozen surface. One of the peoples living there, the Pandoids, are intelligent. They do not travel in space and keep their history by speaking rather than writing. Because they were found before anyone tried to change the planet, the rules that protect inhabited worlds applied from the start."
 galaxy: "Milky Way"
 locationType: "Planet"
@@ -17,7 +20,7 @@ The judgement would be wrong by most of the biosphere. **Fliade's life is underg
 
 ## Below the Roof
 
-The caverns are not a refuge from the world; they are the world. Geothermal warmth seeps through porous rock and holds the deep networks at temperatures the surface never approaches. Bioluminescent fungi coat the walls in soft amber and blue-green, filling the underground with a dim, steady light that has no cycle to it — no dawn, no dusk, nothing that would teach an organism to keep a day. The air is humid and carries moss, mineral water, and the warm musk of what shelters there.
+The caverns are not a refuge from the world; they are the world. Geothermal warmth seeps through porous rock and holds the deep networks at temperatures the surface never approaches. Bioluminescent fungi coat the walls in soft amber and blue-green, filling the underground with a dim, steady light that has no cycle to it — no dawn, no dusk, nothing that would teach an organism to keep a day. The air is humid and carries moss, mineral water, and the warm musk of what shelters there. It is breathable without apparatus, in the networks as on the equatorial plain above them, thinner on the plain and denser below it: the surface party works, talks and sleeps on Fliade in cold-weather clothing with nothing over the face, and smells the world it is on. The oxygen is the surface biosphere's, since any ground the Anstolik graze has producers of its own, carried into the networks through the passages that open onto the plain, which is how a party walks in. What the deep networks contribute to their own air, or draw from it, has not been measured; no survey instrument has been below the margin, and the record marks the question rather than answering it.
 
 The surface, by contrast, is thin, dry and mineral-sharp. Wind cuts across open ground carrying the smell of ice and deep stone; the sun sits low and distant and rarely warms the sky past a pale grey-blue. Permafrost crunches underfoot. The most constant sound on the tundra is the low bellow of **Anstolik** herds marking territory — large migratory herbivores that range across the surface plains and the upper cavern levels alike, and defend feeding grounds and migration corridors with more conviction than their build suggests.
 
@@ -55,6 +58,6 @@ The record does not resolve this, and the standing doctrine has been to slow eve
 
 ## What the Record Does Not Carry
 
-**The Pandoids' own name for themselves.** *Pandoid* is a survey coinage, built the way survey coinages are built — quickly, from a resemblance, by people with nothing better to hand. It is the name in every filing, it will remain the name in every filing until somebody is in a position to be told otherwise, and it is not a name the Pandoids gave.
+**The Pandoids' own name for themselves.** *Pandoid* is a survey coinage, built the way survey coinages are built — quickly, from a resemblance, by people with nothing better to hand. It is the name in every filing, it will remain the name in every filing until somebody is in a position to be told otherwise, and it is not a name the Pandoids gave — to the survey. What the survey has not been told, the record's narrative now carries from the other side: the people call themselves, in the record's translation, [the Told](/star-rangers/glossary/the-told/), and are named individually by tellings on the same pattern. The two names belong to two sides of one encounter, and this entry keeps the survey's, because this entry is the survey's side.
 
 See also: [What the Record Refuses](/star-rangers/lore/what-the-record-refuses/), [Cross-Biosphere Taxonomy](/star-rangers/lore/cross-biosphere-taxonomy/), [Frontier Transformation Protocols](/star-rangers/lore/frontier-transformation-protocols/), [Trígrian](/star-rangers/lore/planets/trigrian/).

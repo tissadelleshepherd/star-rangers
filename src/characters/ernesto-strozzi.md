@@ -3,22 +3,24 @@ layout: character.njk
 title: "Ernesto Strozzi"
 id: ernesto-strozzi
 species: Human
-role: "Principal Officer, Xenolinguistics Branch, Survey Corps — standing delegation, Vellamar (Kingdom of the Four Islands)"
+role: "Principal Officer, Xenolinguistics Branch, Survey Corps — standing delegation, Vellamar (Kingdom of the Five Islands)"
 status: Active
 aliases:
   - "Strozzi"
-tags: [human, star-rangers, survey-corps, xenolinguistics, four-islands, vellamar, principal-officer, first-contact, standing-delegation]
-description: "Senior xenolinguist of the Four Islands delegation — the officer whose confidently filed mistranslation stood in the Survey Archive for nine months, and who now teaches the correction rather than the recovery from it."
+tags: [human, star-rangers, survey-corps, xenolinguistics, five-islands, vellamar, principal-officer, first-contact, standing-delegation]
+description: "Senior xenolinguist of the Five Islands delegation — the officer whose confidently filed mistranslation stood in the Survey Archive for nine months, and who now teaches the correction rather than the recovery from it."
 known_codex: [what-prayer-is-for]
+image: "ernesto-strozzi.jpg"
+image_alt: "Ernesto Strozzi, a grey-bearded man in his sixties in a khaki shirt, standing at the head of a bare wooden table in a whitewashed room, one hand open as he lays something out. Two listeners are seen from behind in the foreground; warm light falls in bars through wooden shutters."
 ---
 
 Ernesto Strozzi is the Xenolinguistics Branch's most-cited practitioner for a piece of work he got wrong, and has never once agreed to have the citation changed to something he got right.
 
-He runs the delegation's translation portfolio and the junior linguists working under it, which is what a Principal Officer does anywhere in the Corps. What is unusual about the posting is the language. The branch exists for tongues that evolved somewhere else entirely; the Kingdom of the Four Islands speaks a human one, carried out of Earth by a sublight departure older than any surviving manifest and left to drift for the whole length of a gap the Archive cannot measure. Strozzi's standing position is that this makes the work harder rather than easier, and the record has borne him out.
+He runs the delegation's translation portfolio and the junior linguists working under it, which is what a Principal Officer does anywhere in the Corps. What is unusual about the posting is the language. The branch exists for tongues that evolved somewhere else entirely; the Kingdom of the Five Islands speaks a human one, carried out of Earth by a sublight departure older than any surviving manifest and left to drift for the whole length of a gap the Archive cannot measure. Strozzi's standing position is that this makes the work harder rather than easier, and the record has borne him out.
 
 ## Known History
 
-- Certified through the Survey Corps' Xenolinguistics school and posted to the Four Islands delegation on its establishment, where he has worked the translation since.
+- Certified through the Survey Corps' Xenolinguistics school and posted to the Five Islands delegation on its establishment, where he has worked the translation since.
 - Rendered the Tideward Sisterhood's fixed annual obligation to the Crown as a *tribute* in the delegation's first substantial submission to the Survey Archive — a reading built on a cognate that looked secure and was not.
 - Filed that reading at high confidence. It stood nine months, and went out to three other postings inside the Archive's first summary of the Kingdom's government, before [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), reading the translation back, corrected it.
 - Did not withdraw the superseded version. It sits in the Archive beside the corrected one, dated and under his name, on the same rule the record applies to every conversion it publishes.
@@ -37,4 +39,4 @@ What he teaches now, when the branch asks him to, is the mechanism rather than t
 
 He is unfailingly courteous about corrections and completely unmoved by reassurance. Junior linguists who bring him a candidate reading hoping to be told it is good enough get instead the question he asks everyone, including himself, and asks in the same tone every time: what would have to be true for this to be wrong, and did you look.
 
-See also: [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), [The Star Rangers Academy](/star-rangers/lore/star-rangers-academy/), [What the Record Refuses](/star-rangers/lore/what-the-record-refuses/).
+See also: [Anne de Courtney](/star-rangers/characters/anne-de-courtney/), [Emma la Chapelle](/star-rangers/characters/emma-la-chapelle/), [Abbess Ilsabet Marrowtide](/star-rangers/characters/ilsabet-marrowtide/), [The Kingdom of the Five Islands](/star-rangers/lore/planets/kingdom-of-the-five-islands/), [The Star Rangers Academy](/star-rangers/lore/star-rangers-academy/), [What the Record Refuses](/star-rangers/lore/what-the-record-refuses/).

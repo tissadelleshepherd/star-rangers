@@ -4,6 +4,8 @@ title: "Cirrane"
 category: "Locations"
 tags: [cirrane, ollune, vantine-system, gas-giant, federation-of-sentient-beings, locations]
 description: "A gas giant in the Vantine System and the only Federation member world with no surface — home to the Ollune, and named by a survey catalogue rather than by anyone who lives there."
+image: "planets/cirrane.jpg"
+image_alt: "The banded cloud tops of a gas giant filling the frame, cream and amber bands with a single oval storm among them"
 galaxy: "Milky Way"
 system: "Vantine System"
 locationType: "Gas Giant"

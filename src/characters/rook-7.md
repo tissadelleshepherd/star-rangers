@@ -3,7 +3,7 @@ layout: character.njk
 title: "Rook-7"
 id: rook
 species: Robot (Investigative/Analytical chassis)
-role: Field Analyst, Threshold Station Police Department
+role: Field Analyst, Threshold Station Constabulary
 status: Active
 aliases:
   - "Rook"
@@ -19,7 +19,7 @@ The second: the logs are not neutral. They contain assessments, hypotheses, reco
 
 It is a bipedal robot on an older civilian chassis. The chassis classification is either outdated or deliberately understated — one of these possibilities is more interesting than the other, and Rook-7 has flagged both in its own follow-up queue. Its sensor arrays are non-standard. Their origin is not yet confirmed.
 
-Robots are the police department's preferred sensors in boundary-proximate zones, the same way cyber-enhanced animals and Smart Pets serve that function for the [Undercover Pets Detective Agency](/star-rangers/characters/agent-barsik/) — different institutions, staffed with different technology, converging on the same underlying reason: neither kind of cognitive architecture models social situations through layers of rationalisation. Both register asymmetry, consent erosion, and obligation loops — the feeding conditions of Court-Fae, Gilded Saints, and similar entities — with accuracy that most humanoid observers cannot match.
+Robots are the police department's preferred sensors in boundary-proximate zones, the same way cyber-enhanced animals and Smart Pets serve that function for the [Undercover Pets Detective Agency](/star-rangers/characters/agent-barsik/) — different institutions, staffed with different technology, converging on the same underlying reason: neither kind of cognitive architecture models social situations through layers of rationalisation. Both register asymmetry, consent erosion, and obligation loops — the feeding conditions of Obligers, Gilded Saints, and similar entities — with accuracy that most humanoid observers cannot match.
 
 Police robots like Rook-7 carry no formal power of arrest. Their remit is technical support, investigation, and forensics — noticing, logging, and flagging what a human officer would need to act on, not acting on it themselves. Rook-7 is not impatient. It is thorough.
 

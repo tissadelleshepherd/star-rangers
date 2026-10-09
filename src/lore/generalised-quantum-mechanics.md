@@ -4,6 +4,8 @@ title: "A Generalisation of Quantum Mechanics"
 category: "Physics"
 tags: [quantum, physics, etheric, probability, information-theory, cascade, archecluster, coherence]
 description: "The cosmos's probability, coherence and information physics is one lawful generalisation of quantum mechanics: the laboratory theory survives exactly as its kernel, and everything Etheric enters as extension terms that add couplings without amending a single kernel rule."
+image: "generalised-quantum-mechanics.jpg"
+image_alt: "A rigid optical bench with mounted posts and one sealed black enclosure clamped to a stone bench in a plain laboratory falling into darkness, a single lead running from it, flat daylight from a high window"
 plain: "The strange physics in this universe does not break ordinary quantum physics — it is extra structure added on top of it. In quiet places the extra parts do nothing at all, so ordinary physics is exactly right there, down to the last decimal. Near 'thin places', and wherever minds and meaning are involved, the extra parts show up as small, lawful effects. The extra structure never grants new permissions: no message can beat a ship, no one can edit the past, and no machine can read the future."
 ---
 
@@ -30,7 +32,7 @@ The kernel's prohibitions survive generalisation whole. No signalling faster tha
 
 ## Where the Mathematics Lives
 
-The generalisation is [Design Structure](/star-rangers/lore/cosmic-cascade/) mathematics — as mathematics, it is scoped to the [mathematical regime](/star-rangers/lore/the-scope-of-physical-law/) the Metawright settles. A Formwright's lawful templates instantiate it; an Archewright's archetypes fix which kernel and which extension vocabulary a cluster actually carries. That tiering is why the parts have the scopes they do: **the kernel and the extension's vocabulary are both archecluster facts** — the kernel this cluster carries happens to be the real universe's quantum mechanics exactly, corridor admissibility is the cluster's finer vocabulary within it, and the FTL Channel Scope statement sits inside this frame. Whether this kernel is uniquely necessary or merely the local template is a question the record files as closed by structure rather than by answer: a proof carried between conceptual realms arrives as an assertion, and no instrument can be carried where the comparison would have to be made.
+The generalisation is [Design Structure](/star-rangers/lore/cosmic-cascade/) mathematics — as mathematics, it is scoped to the [mathematical regime](/star-rangers/lore/the-scope-of-physical-law/) the Metawright settles. A Formwright's lawful templates instantiate it; an [Archewright](/star-rangers/lore/archewright/)'s archetypes fix which kernel and which extension vocabulary a cluster actually carries. That tiering is why the parts have the scopes they do: **the kernel and the extension's vocabulary are both archecluster facts** — the kernel this cluster carries happens to be the real universe's quantum mechanics exactly, corridor admissibility is the cluster's finer vocabulary within it, and the FTL Channel Scope statement sits inside this frame. Whether this kernel is uniquely necessary or merely the local template is a question the record files as closed by structure rather than by answer: a proof carried between conceptual realms arrives as an assertion, and no instrument can be carried where the comparison would have to be made.
 
 ## What One Theory Buys
 

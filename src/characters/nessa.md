@@ -3,7 +3,7 @@ layout: character.njk
 title: "Nessa"
 id: nessa
 species: Cat (wild, unaugmented)
-role: None — solitary resident, Carraig Bán
+role: Solitary resident, Carraig Bán
 status: Active
 aliases: []
 tags: [prequel, carraig-ban, boundary-zone, detective-agency, undercover-pets.com]
@@ -20,7 +20,7 @@ She lives alone on Carraig Bán, an unnamed tidal island, surviving on tide-pool
 
 - Resident of Carraig Bán for longer than any record kept on the island can confirm.
 - Travelled, decades before meeting Aldera, to a place "south of here where the ground disagreed with itself" and attempted to help a single boundary-keeper managing more than one set of hands could hold — an episode she does not discuss in detail, and did not repeat.
-- Found a starving, newly stranded kitten on Carraig Bán in Year -4 (2822 UCSD), fed and taught her over the course of a day, and identified the same wrongness in her that she remembered from her own travelling years.
+- Found a starving, newly stranded kitten on Carraig Bán in 2822 UCSD, fed and taught her over the course of a day, and identified the same wrongness in her that she remembered from her own travelling years.
 - Directed that kitten — Aldera — south and west toward a marsh causeway where someone was failing to hold a boundary alone, giving Aldera the first information that would eventually lead her to Elvira's outpost.
 
 ## Character Notes

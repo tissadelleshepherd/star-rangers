@@ -15,9 +15,9 @@ permalink: /seasons/s02/e05/
 
 <h1 class="page-title">Season 2 · Episode 5</h1>
 <p class="page-intro">
-  Back on Eden, the season's smallest case: eleven days of missing flour, a steward whose statements keep
-  shrinking, and the two consultants who close it without ever agreeing to be consulted — an author who
-  only watches people, and a rabbit with a perfect record on the one category she has ever claimed.
+  Back on Eden, the smallest case of the season. Flour has been going missing for eleven days, and the
+  steward's story keeps getting shorter. Two helpers solve it without ever agreeing to help: a writer who
+  only watches people, and a rabbit with a perfect record in the one thing she has ever claimed to be good at.
 </p>
 
 {% set seasonNumber = "2" %}
@@ -25,18 +25,21 @@ permalink: /seasons/s02/e05/
 {% set hasEpisodeChapters = false %}
 <ul class="chapter-list" role="list">
 {% for chapter in collections.chapters %}
-  {% if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber %}
-    {% if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif %}
+  {%- if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber -%}
+    {%- if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif -%}
     <li class="chapter-list__item">
       <a href="/star-rangers{{ chapter.url }}">
         <span class="chapter-list__code">{{ chapter.data.id | upper }}</span>
         <span class="chapter-list__title">{{ chapter.data.title }}</span>
-        {% if chapter.data.location %}
+        {%- if chapter.data.location -%}
         <span class="chapter-list__loc">{{ chapter.data.location }}</span>
-        {% endif %}
+        {%- endif -%}
+        {%- if chapter.data.description -%}
+        <span class="chapter-list__desc">{{ chapter.data.description }}</span>
+        {%- endif -%}
       </a>
     </li>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 </ul>
 {% if not hasEpisodeChapters %}

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Elvira Arrives at the Marsh Causeway Outpost"
-timestamp: "Year -3 (2823 UCSD), Early Spring"
+timestamp: "2823 UCSD, Early Spring"
 sort_order: 50
 summary: "Elvira arrives at the Marsh Causeway outpost and begins independent boundary monitoring after her predecessor departs under undisclosed circumstances."
 tags: [causeway, boundary, elvira]
@@ -16,11 +16,11 @@ tags: [causeway, boundary, elvira]
     </ol>
   </nav>
   <h1 class="lore-entry__title">Elvira Arrives at the Marsh Causeway Outpost</h1>
-  <p><span class="character-badge">Year -3 (2823 UCSD), Early Spring</span></p>
+  <p><span class="character-badge">2823 UCSD, Early Spring</span></p>
 </header>
 <div class="lore-entry__body">
 
-Elvira takes up residence at the Marsh Causeway outpost in Year -3 (2823 UCSD), Early Spring, following the departure of the previous occupant. The circumstances of that departure are not recorded in any file she has access to. The outpost log contains a single entry: *predecessor departed; handover incomplete.*
+Elvira takes up residence at the Marsh Causeway outpost in 2823 UCSD, Early Spring, following the departure of the previous occupant. The circumstances of that departure are not recorded in any file she has access to. The outpost log contains a single entry: *predecessor departed; handover incomplete.*
 
 She begins independent boundary monitoring using methods developed through her own study. Within the first month she identifies two Etheric structures that appear nowhere in the previous occupant's records. She cannot determine whether the structures are new or whether the prior methods were simply inadequate to detect them.
 

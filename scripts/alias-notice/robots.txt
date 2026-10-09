@@ -1,0 +1,12 @@
+# This domain is an alias of __TARGET__ and 301s everything there.
+#
+# Deliberately NOT "Disallow: /", which is the intuitive thing to write here and
+# is wrong. A crawler has to be able to FETCH these URLs to see the 301 and
+# consolidate them onto the target. Blocking it would strand the redirect
+# unseen, leaving the old URLs indexed and pointing nowhere useful - the exact
+# outcome the redirect exists to prevent.
+#
+# No Sitemap line: there is nothing here to enumerate.
+
+User-agent: *
+Allow: /

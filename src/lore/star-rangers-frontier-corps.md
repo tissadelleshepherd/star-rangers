@@ -4,6 +4,8 @@ title: "The Star Rangers Frontier Corps"
 category: "Institutions"
 tags: [star-rangers, frontier-corps, frontier, law-enforcement, caretaker-clause, charter, institutions, colonies, sheriff]
 description: "The specialist corps that serves as caretaker law enforcement on frontier worlds with no local government or law of their own — not even a sheriff — and whose mandate on every world it serves is designed to end."
+image: "star-rangers-frontier-corps.jpg"
+image_alt: "A muddy track running toward a small settlement of timber buildings with lit windows in a wide valley at dusk under cloud, a sliver of moon above"
 ---
 
 Every law-enforcement institution in history has measured itself by what it caught. One measures itself by how soon it can leave.
@@ -22,7 +24,7 @@ Frontier Rangers ride circuits — one Ranger, sometimes a pair, serving several
 
 Two boundaries define the work. First, the law they enforce is not the Rangers' — the Corps polices under the colony's own settlement compact and the [Concord](/star-rangers/lore/solar-system-concord/) baseline standards every compact incorporates: personhood, [Kernel](/star-rangers/lore/ai-safety-kernel/) compliance, the definitions no frontier is allowed to un-define. A Frontier Ranger has no authority to invent an offence, collect a fee, or import a polity's politics. Second, the Corps judges nothing it can avoid judging: serious cases are documented to Safety Corps evidentiary standard and held for the jurisdiction that does not exist yet — tried, when the day comes, before the colony's own first court. More than one frontier world's founding docket has opened with cases a Frontier Ranger sealed a decade earlier, against exactly that morning.
 
-The Corps is distinct from the Provost track, and Rangers keep the distinction sharp: Provosts police the Rangers. The Frontier Corps polices, temporarily and by invitation, for colonies that cannot yet police themselves.
+The Corps is distinct from the Provost track, and Rangers keep the distinction sharp: Provosts police the Rangers. The Frontier Corps polices, temporarily and by invitation, for colonies that cannot yet police themselves. Between them, that is the whole of the Rangers' police function: no other corps polices anyone, and neither of these two is military — the Provost track does for a civilian-overseen service what a military police does for an army, and the Frontier Corps does for an ungoverned world what a sworn officer will do the day it has one (see [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/)).
 
 ## Non-Combatants
 

@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Archecluster"
+irish: "Braisle Seanchló"
+irish_gloss: "a cluster of archetypes; an Archewright is an Ardsaor, a master wright"
 id: archecluster
 category: "Cosmic Cascade"
 short: "Every universe tracing to one Archewright, sharing that Archewright's archetypes and possibility space. A fact of authorship, not a chain of command."
@@ -19,7 +21,7 @@ An **archecluster** is the set of universes that trace to a single Archewright �
 
 **It confers no authority in either direction.** [Worldwright](/star-rangers/glossary/worldwright/) authority exists only in primary universes, and secondary and derived universes do not receive a new one. What a derived universe keeps is kinship: a [protouniverse](/star-rangers/glossary/noogenic-protouniverse/) that matures becomes the adult child of its parent — fully independent, answerable to it in nothing, the kinship permanent and the authority temporary. Cluster membership records where something came from. It never establishes standing over it, and nothing in the [Cosmic Cascade](/star-rangers/glossary/cosmic-cascade/) reverses to make it do so.
 
-**It is not adjacency.** Cosmic membranes and the Interval between them describe physical separation; an archecluster describes common origin. Two universes on neighbouring membranes need not share an Archewright, and two universes in one cluster may sit nowhere near each other in the manifold.
+**It is not adjacency.** Cosmic membranes and the [Interval](/star-rangers/glossary/interval/) between them describe physical separation; an archecluster describes common origin. Two universes on neighbouring membranes need not share an Archewright, and two universes in one cluster may sit nowhere near each other in the manifold.
 
 **And the manifold is not part of one.** Seating and descent are separate axes, so the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) belongs to no archecluster and never could: it is not a universe, and it traces to no Archewright. It is instantiated one tier higher, as a [Formwright's formtype](/star-rangers/glossary/formcluster/) — which is why every archecluster inside a formcluster is seated in the same manifold, and why two universes of one archecluster may nonetheless sit nowhere near each other in it. **Descent is an Archewright fact; position is a Formwright one**, and no amount of shared ancestry has ever moved anything closer to anything.
 

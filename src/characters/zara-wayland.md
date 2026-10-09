@@ -9,7 +9,7 @@ aliases: []
 tags: [human, eden, commissioner, orbital-habitats-compact, undercover-pets.com]
 description: "Eden Space Habitat's Space Commissioner — the civil administrator who answers upward to the Compact's Chief Commissioner and, in parallel, to Eden's own Mayor, and downward to Detective Superintendent Oyelaran's bureau."
 image: "zara-wayland.jpg"
-image_alt: "Designed placeholder card for Space Commissioner Zara Wayland: the name and role set in pale serif type over a dark blue-black gradient, headed PORTRAIT PENDING. No portrait of this character exists yet."
+image_alt: "Space Commissioner Zara Wayland on an upper walkway inside Eden Space Habitat, a woman in a dark suit standing squarely with her hands at her sides, facing the viewer. The habitat's inhabited interior curves away and upward behind her, lit along its length."
 ---
 
 Zara Wayland's post exists because Eden's civil administration needed one office that could answer both to the habitat that elected its Mayor and to the [Compact](/star-rangers/lore/orbital-habitats-compact/) that coordinates all five member habitats at once, without either side outranking the other outright. She has held it long enough to have opinions about the design, most of which she keeps to briefing notes rather than to the two offices she reports to.

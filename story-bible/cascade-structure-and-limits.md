@@ -5,7 +5,10 @@ into `src/lore/` or `src/glossary/` until it is settled and rewritten in
 in-universe terms — see "Keeping the scaffolding out of the setting" at the
 bottom, which is the constraint that matters most in this file.
 
-Fifteen things are settled, plus a teaching analogy recorded with its limits, and a conflict register at the foot records what they disturb. The rest are open questions with the consequences
+Fifteen things were settled in the 2026-07-30 pass, joined on 2026-08-25 by a
+second resolution policy (formcluster divergence, beside the Codex-entry one),
+plus a teaching analogy recorded with its limits, and a conflict register at
+the foot records what they disturb. The rest are open questions with the consequences
 worked out, so they can be decided rather than drifted into.
 
 **Those open questions are indexed in [`open-questions.md`](open-questions.md)**
@@ -680,7 +683,7 @@ three registers, all compatible with the settled positions above:
 - **The prose refuses fatalism explicitly.** S01E02C05: the team "did not move
   the body and call the failure fate — the way the folk around the causeway
   called every unexplained loss a Court thing and left it there, unexamined";
-  S01E03C01: a file precise enough that no inheritor "would be able to pretend
+  S01E03C04: a file precise enough that no inheritor "would be able to pretend
   it had been either malice or fate"; S06E01C01: "She was not a woman given to
   visions"; S01E00C02: "not a vision, nothing so generous as an image".
 - **Fatalistic readings are held by attributed in-universe voices in the
@@ -734,6 +737,128 @@ Candidates already identified in this file:
 Each stays non-canonical by construction: `author` is required on every codex
 entry, none carry `canon_facts`, and nothing in lore has to be softened to make
 room for them.
+
+## Policy: a genuine divergence may be realized across formclusters (Dermot, 2026-08-25)
+
+The sibling of the Codex-entry policy above, for a different case. That policy
+handles a reading the record rejects: the alternative survives as some named
+source's *belief*. This one handles a divergence where both horns deserve to be
+**true** — a genuine dilemma, in the sense of the canon-stability direction in
+`CLAUDE.md` (2026-08-25, same day): canon commitments that cannot all stand *in
+one record*.
+
+**The cosmology already supplies the mechanism, and it costs nothing new.** Two
+formclusters share no arena (`src/glossary/formcluster.md`): different
+manifolds, possibly different mathematics, no measured separation between them,
+and the record holds no confirmed case of anything crossing between manifolds
+(`src/lore/post-eleven-dimensional-manifold.md`). So a divergence realized one
+way in this formcluster and another way in a differently-seated one produces no
+contradiction anywhere — there is no shared arena for the two realizations to
+contradict each other *in*.
+
+**The epistemology constraint, which is what keeps it canon-safe.** The record's
+reach ends at its own cluster's edge — *"Common" records how far the Corps can
+see* — so the home record states its own realization plainly, as settled lore,
+while the other realization stays **structure, never observation**: the
+cosmology permits it, and no page may claim the Archive has seen it. This is
+"explain the epistemology, never invent the fact" applied at the largest
+available scale. A page that narrated the other cluster's realization would
+have crossed from marking the possibility into inventing the observation.
+
+**Two bounds, confirmed by Dermot in session (2026-08-25):**
+
+1. **Genuine dilemmas only.** This is a resolution device, not a worldbuilding
+   licence — reaching for it requires the same demonstration the canon-stability
+   direction requires: name the canon commitments that cannot all stand.
+2. **In-world structure, not per-domain variance.** A different axis entirely
+   from the editions rule that canon is centralised and variants non-canonical.
+   Every domain still shows one record; that record may itself say *here it is
+   thus; a differently-seated cluster could realize it otherwise*.
+
+**How the three devices now divide the territory.** A contested *reading* goes
+to the Codex (a named source holds it). A gap in the record's *knowledge* stays
+a marked absence (Sen's doctrine). A genuine *dilemma* — where the work needs
+both horns true — may be split across formclusters, each cluster's record
+internally consistent and neither able to refute the other. No worked example
+exists yet; the first use is a canon change and goes through draft-and-stop
+like any other.
+
+### What kinds of dilemma the device can carry (assessed 2026-10-05, at Dermot's question)
+
+Dermot asked, the day the Counterpane and Wholecloth material was written,
+*what kinds of dilemma would be possible*. The answer, filed here at his
+instruction, is that the device is narrower than it looks, and that the
+corpus has not needed it for the reason it is narrow: every tension recorded
+so far was resolved inside one record by clarification. The policy demands
+something stronger — two canon commitments the work needs **both true** —
+and that shape arises in one place.
+
+**What the device can and cannot split.** A divergence can be realized across
+formclusters only on facts that are formcluster-scoped or narrower, and
+`src/lore/the-scope-of-physical-law.md` fixes what those are: the manifold
+and its fold geometry, seating and the Interval, commensurability, and
+everything beneath — the archetype vocabulary, the quantum kernel, harmonic
+admissibility, membrane constants, Etheric templates. Above that line nothing
+splits. Layers 1 and 2 are multiverse-wide, so Conceptual Conservation,
+Kiemeic translation, Kieme's restraint, the no-moral-cosmology invariant and
+the Unfounded's groundlessness are everywhere or nowhere; time is linear
+Ensemble-wide (`src/lore/universal-cosmic-stardate.md`); and the record's
+refusals are values of the work, not facts of our cluster, so another cluster
+is never where the universal translator or the quantum oracle quietly works.
+Every dilemma about the soul, prayer, eschatology or fate therefore stays
+where it is — Codex, overlay, or marked absence.
+
+**The four kinds that qualify, from narrowest reach to widest:**
+
+1. **Necessity against contingency.** Canon states a mechanism as the way
+   things are; canon elsewhere states it was never necessary; a story needs
+   the other case to be real somewhere. This is the only shape the device
+   truly resolves, and Counterpane is already its worked form — *identical
+   at base* beside *the kernel happens to be ours*. Wholecloth and Selvage
+   are the same shape at the fold and seeding tiers. All three were written
+   as lore additions rather than as dilemma resolutions, which is why the
+   paragraph above still says no worked example exists; in shape, they are
+   the examples.
+2. **Archetype dilemmas.** A story that needs a shape the local vocabulary
+   forbids: a second metazoan lineage with no descent relation, a made mind
+   that does not converge on the AI Safety Archetype, a people whose
+   convergence shapes are not ours. These are archecluster-scoped, and that
+   is the one fact in this section with a consequence for prose: Counterpane
+   is fold-reachable, so this is the only kind that can carry a **chapter**
+   and not only structure. A survey party can stand in the other horn.
+3. **Seating dilemmas.** A story that needs a universe with no neighbour — no
+   shadow on any wall, no weather from next door, no derivation — against the
+   record's standing picture of membranes as things with edges.
+   Formcluster-scoped, so structure only. Wholecloth holds the whole class
+   already, and the Selvage edge is the one such horn that still moves.
+4. **Provability dilemmas.** A story that needs a different arithmetic, not
+   different physics. Only across Metawrights, and the record holds no named
+   second regime. The furthest the device reaches and the least usable, since
+   a proof carried between regimes arrives as an assertion.
+
+**What has actually come up.** Four dilemmas are recorded in the intakes, all
+small and all in-cluster: the Photographic Beings figure against a dark hall
+(`five-islands-treatment.md`, resolved for the entry); a hovering-drones
+sentence against a ruling (`intake-2026-09-08.md`, resolved by
+clarification); *secret* against *open by constitution* for the Fellowship
+(`intake-2026-09-27.md`, resolvable as hidden then and open now); and the
+Compact's galactic standing (`intake-2026-09-30.md`), where a larger shape
+would have *needed* a dilemma and none existed. None had two horns the work
+required. That is the pattern to expect: the scope ladder pre-empts most
+mechanism conflicts by scoping each fact before a story leans on it, so the
+device will rarely fire for physics.
+
+**Where the first real one is likeliest.** Kind 2, at Counterpane, because it
+is the only horn a chapter can be seated in without inventing an
+observation. The lore has pre-registered the question:
+`src/lore/made-minds-and-the-ai-safety-archetype.md` states the convergence
+archetypes at archecluster width with *no observation either way*. A
+Counterpane story that met a made mind, or a biosphere, that had converged on
+something else would not be a contradiction; it would be the first
+measurement past the hedge, filed as a revision the way *Survives
+Correction* (S01E00C05) filed the kernel. That is not yet a dilemma. It
+becomes one only if a chapter here first needs the archetype to be
+universal — and no chapter should.
 
 ---
 

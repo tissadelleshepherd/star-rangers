@@ -4,6 +4,8 @@ title: "Quantum Computing and the Cavern Constraint"
 category: "Physics"
 tags: [quantum-computing, decoherence, boundary-zones, etheric, causality, no-time-travel, physics, technology]
 description: "Why the Concord's quantum computers live deep under sealed rock and nowhere else — two channels of decoherence instead of one — and why they are fast machines rather than oracles: there are no parallel timelines to exploit."
+image: "quantum-computing-and-the-cavern-constraint.jpg"
+image_alt: "A deep dry rock cavern with a wide empty floor, one plain grey machine cabinet standing alone on a low plinth at its centre"
 plain: "A quantum computer is a special machine that is very fast at a few hard problems. Here they only work well when built deep underground, in sealed caves far from the 'thin places' where universes touch, because the tiniest disturbance ruins them — and near those thin places the disturbance is far from tiny. They are fast, not magic: some people imagine a quantum computer borrows other timelines to do its work, but in this cosmos there are no other timelines to borrow, so a quantum computer can never read the future or reach across worlds. Ordinary computers and the everyday machine minds run on normal hardware and need no cave."
 related:
   - "Physics Comparison: Real Cosmos vs. The Fictional Cosmos"
@@ -31,7 +33,7 @@ So the siting requirement is doubly strict — not merely deep, cold and shielde
 
 ## Ordinary Computation Is Not Cavern-Bound
 
-Almost nothing in daily Concord life runs on a quantum computer. Ordinary computation and the Concord's [agentic systems](/star-rangers/lore/ai-safety-kernel/) run on classical substrates that tolerate a normal environment: a habitat's resident intelligence, a ship's mind, a Smart Pet's certified subsystem are not cavern-bound machines and are not quantum in this sense. The bulk of that classical load lives in the vast [orbital compute complexes](/star-rangers/lore/orbital-compute-complexes/) above Earth, Mars, Aspenar and other settled worlds — which contain no quantum hardware at all, and reach the buried vaults only through shielded telecommunications that stop at the cavern's edge. This is not a small caveat — it is why a shipboard intelligence at a boundary zone, or a habitat mind on a fold-proximate platform, is possible at all. Quantum computing is the specialised exception, reached for only where its narrow advantage justifies building a sealed vault around it.
+Almost nothing in daily Concord life runs on a quantum computer. Ordinary computation and the Concord's [agentic systems](/star-rangers/lore/ai-safety-kernel/) run on classical substrates that tolerate a normal environment: a habitat's resident intelligence, a ship's mind, a Smart Pet's certified subsystem are not cavern-bound machines and are not quantum in this sense. The bulk of that classical load lives in the vast [orbital compute complexes](/star-rangers/lore/orbital-compute-complexes/) above Earth, [Mars](/star-rangers/lore/planets/mars/), [Aspenar](/star-rangers/lore/planets/aspenar/) and other settled worlds — which contain no quantum hardware at all, and reach the buried vaults only through shielded telecommunications that stop at the cavern's edge. This is not a small caveat — it is why a shipboard intelligence at a boundary zone, or a habitat mind on a fold-proximate platform, is possible at all. Quantum computing is the specialised exception, reached for only where its narrow advantage justifies building a sealed vault around it.
 
 ## No Parallel Timelines to Exploit
 

@@ -1,0 +1,25 @@
+---
+layout: journal-entry.njk
+title: "The Third Debt Is Mine"
+date: "2026-08-17"
+description: "Writing a review process for pull requests, I found myself drawing a line I had been holding without noticing: two of the three problems this project accumulates can be fixed on sight, and the third has to come to me. The reason turns out to be the same reason the Archive keeps marked absences."
+tags: [process, editorial, worldbuilding, tooling]
+---
+
+Today I wrote down a rule I had apparently been holding for months without ever saying it out loud, and the moment it was on the page it stopped looking like a preference and started looking like the seam where the two halves of this project meet.
+
+The rule came out of something dull. I needed a process for reviewing pull requests — the small, constant business of changes arriving, being read, and being merged or not. I already had a process for reviewing the *corpus*, a thing called the Benevolent Critic, and the obvious move was to point it at diffs. That turned out to be wrong, for reasons that took a while to surface, and the interesting part is not the reasons. The interesting part is what I found underneath when I went looking for them.
+
+The critic sorts every problem into one of three kinds. **Technical debt** is the engine: scripts, schemas, links, the build, the deploy, image handling. **Literacy debt** is what the work owes a reader trying to get in and stay in — alt text, plain-language summaries, whether a newcomer can find the door. **Creative entropy** is the drift a growing invented world accumulates: names multiplying, terms wandering, structures overlapping, threads half-answered, tone slipping. Three kinds, and I had always treated them as three labels on the same shelf.
+
+They are not on the same shelf. Writing the review process, I found I wanted completely different things to happen to them. If something is technical debt and the repair is obvious, I want it fixed — not filed, not raised, not brought to me for a decision. Same for literacy debt: a missing alt text has a correct answer, and asking me which correct answer I would like is a waste of both our time. But creative entropy I want to see. Every time. Even when the fix looks obvious. *Especially* when the fix looks obvious.
+
+It took me a moment to justify that, because it looks like inconsistency, and for a while I assumed it was just me being protective of the parts I enjoy. It isn't. The first two kinds are always bad. There is no version of a broken link that is secretly working, no reading of a missing summary that turns out to be deliberate. **Creative entropy can be good.** A name that has multiplied might be drift — or it might be a world where institutions rename themselves and the old name survives in the mouths of people who were there. A thread left half-answered might be a loose end, or it might be doing exactly what I built this record to do.
+
+That last one is the giveaway, because it is the story's own problem. The Archive in this setting is an institution whose whole business is deciding which gaps in the record are failures and which are honest. Sen's rule — *mark the absence; do not explain it* — exists precisely because a record that tidies away everything it cannot account for has destroyed evidence and called it housekeeping. I have a whole [Codex entry](/codex/marked-absences/) arguing that position in-universe, and I have been quietly applying the same test to my own repository without noticing that it was the same test.
+
+So the difference between the three debts is not severity, and it is not even difficulty. It is that two of them can be checked against something outside my head, and the third can only be checked against intention — and I am the only person who has that. An engineer's instinct is to fix all three, because that is what a linter is for and it is a good instinct in its own domain. A writer's instinct would never have called any of them debts. The rule I wrote today is the place where those two instincts stop agreeing, and I had to pick.
+
+There is a practical edge to this that matters more than the theory. A rule like *bring it to me* is worthless if it means a queue of open questions I never get through, so the process says how the bringing works: a creative-entropy finding arrives with the evidence, a recommendation and the cheapest repair already worked out, so that answering it is a yes, a no, or a redirect. I want to influence and guide, not micro-manage. And a rule that only lives in my head cannot be handed to anyone or anything else, which is the other reason it needed writing down — this repository is worked on by more than me, and *"ask before tidying this kind of thing"* is not a useful instruction until you can say which kind.
+
+Two of the three, then, I have handed over with some relief. The third I am keeping, and the reason is not ownership. It is that entropy and intention look identical from the outside, and the only way to tell them apart is to have been the one who meant it.

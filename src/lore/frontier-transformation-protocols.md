@@ -1,12 +1,17 @@
 ---
 layout: lore-entry.njk
 title: "Frontier Transformation Protocols"
+revealed_by: s12e02c01
 category: "Institutions"
 tags: [terraforming, transformation-protocols, safety, ai-safety-kernel, institutions, kernowek-reach, mars]
 description: "The safety doctrine governing when — and whether — a frontier world may be terraformed at all, and why every major Solar System polity ended up with its own version of the same answer: slowly, incompletely, and never on a Kernel-compliant system's say-so alone."
+image: "frontier-transformation-protocols.jpg"
+image_alt: "A single wooden survey post with a red band driven into rocky ground on a ridge, a wide valley of lakes and scrub and distant mountains beyond under morning light"
 ---
 
 Every terraforming disaster the record actually documents shares one root cause: someone in a hurry had the authority to start, and nobody in the chain had the authority to make them wait.
+
+The toolkit those disasters misused was built on Earth, for Earth, during the [Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/); [Climate Repair and the Origin of Terraforming](/star-rangers/lore/climate-repair-and-terraforming/) records where it came from and what its first use taught.
 
 **Frontier Transformation Protocols** are the family of safety doctrines — no two polities' versions identical, all converging on the same shape — that govern whether, how much, and how fast a frontier world's biosphere or atmosphere may be deliberately transformed. No world qualifies for full-conversion authorisation quickly, and after the record the Kernel Accords' own drafters inherited, no institution has seriously proposed making that faster.
 
@@ -14,7 +19,7 @@ Every terraforming disaster the record actually documents shares one root cause:
 
 Three risks recur across every logged transformation proposal, human or otherwise:
 
-**Undetected native sapience.** A world surveyed as biologically empty or ecologically simple has been wrong before, and the cost of being wrong after transformation begins is not correctable. Every protocol version requires an extended, multi-generational survey window before large-scale conversion, specifically so a slow-maturing or non-obvious sapient population has time to be found rather than paved over.
+**Undetected native sapience.** A world surveyed as biologically empty or ecologically simple has been wrong before, and the cost of being wrong after transformation begins is not correctable. Every protocol version requires an extended, multi-generational survey window before large-scale conversion, specifically so a slow-maturing or non-obvious sapient population has time to be found rather than paved over. The clause is a threshold that protects, not a grade that orders: it asks whether a people is there to be found, and nothing in any protocol version ranks a people once found — the record [keeps no such scale](/star-rangers/lore/what-the-record-refuses/).
 
 **Boundary-proximate instability.** [Eden Space Habitat's](/star-rangers/lore/eden-space-habitat/) own history is the standing cautionary case cited in nearly every version of the doctrine: a world or habitat can sit unknowingly close to a natural higher-dimensional fold route, and large-scale engineering work near one carries risks nobody fully understood until Eden's own accidental discovery forced the question. Modern protocols require boundary-proximity clearance before heavy transformation work begins, not after.
 
@@ -22,7 +27,7 @@ Three risks recur across every logged transformation proposal, human or otherwis
 
 ## Why the Record Shows Slow, Incomplete, and Ongoing
 
-The pattern holds across every documented case: [Kernowek Reach's](/star-rangers/lore/planets/kernowek-reach/) atmospheric reclamation is, four generations in, still unfinished, expanding the settled band incrementally rather than converting the whole world at once. Mars was "never fully terraformed," and successive planetary councils have voted down full atmospheric conversion proposals for longer than most Martians can trace family history. [Aspenar](/star-rangers/lore/planets/aspenar/) never attempted surface transformation at all — "no terraforming proposal has ever been costed as cheaper than just building downward and staying under glass," and its bio-domes are the answer a hostile world gets when nobody is in a hurry to change that.
+The pattern holds across every documented case: [Kernowek Reach's](/star-rangers/lore/planets/kernowek-reach/) atmospheric reclamation is, four generations in, still unfinished, expanding the settled band incrementally rather than converting the whole world at once. [Mars](/star-rangers/lore/planets/mars/) was "never fully terraformed," and successive planetary councils have voted down full atmospheric conversion proposals for longer than most Martians can trace family history. [Aspenar](/star-rangers/lore/planets/aspenar/) never attempted surface transformation at all — "no terraforming proposal has ever been costed as cheaper than just building downward and staying under glass," and its bio-domes are the answer a hostile world gets when nobody is in a hurry to change that.
 
 None of these are failures of ambition. They are the doctrine working as designed: transformation proposals large enough to matter take longer to clear survey and reversibility review than any single funding cycle wants them to, and every polity that has tried to shortcut the timeline has a documented incident report explaining why it stopped trying.
 
@@ -43,9 +48,9 @@ In practice the clause makes the Rangers' survey verdict a fork in every charter
 No single body administers this doctrine Concord-wide, and every major polity's own version reflects its own governing character rather than a shared statute:
 
 - The **Solar System Defence Command**, inheriting the doctrine from the old MSC's own slower reckoning with the Eden precedent, requires centralised review before any charter-recognised world begins large-scale transformation — consistent with the SSDC's general preference for centralised, if now more accountable, oversight.
-- The **Federation of Sentient Beings**, true to its own structural modesty, sets no Federation-wide transformation standard at all: each member world sets and enforces its own protocol, and the compact's only shared requirement is that member worlds disclose transformation activity that could affect shared trade lanes or defence commitments.
-- The **Celtic Union of Planets** requires unanimous consent from every sitting charter world before any member world may pursue full-conversion transformation — a deliberately high bar, consistent with the Union's founding wariness of centralised authority, that has to date never actually been met; every Union transformation effort on record, [Kernowek Reach's](/star-rangers/lore/planets/kernowek-reach/) included, has proceeded only under the lower, incremental-reclamation threshold instead.
-- The **Cerebraun Hegemony** runs the opposite structure entirely: transformation authorisation is a Hegemony-central decision, consistent with [Cerebraun governance philosophy](/star-rangers/lore/cerebraun/) generally, though even the Hegemony's own central authority has never authorised a full conversion faster than the survey-completeness floor allows — the central voice decides, but it has not, so far, decided to rush.
+- The **[Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/)**, true to its own structural modesty, sets no Federation-wide transformation standard at all: each member world sets and enforces its own protocol, and the compact's only shared requirement is that member worlds disclose transformation activity that could affect shared trade lanes or defence commitments.
+- The **[Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/)** requires unanimous consent from every sitting charter world before any member world may pursue full-conversion transformation — a deliberately high bar, consistent with the Union's founding wariness of centralised authority, that has to date never actually been met; every Union transformation effort on record, [Kernowek Reach's](/star-rangers/lore/planets/kernowek-reach/) included, has proceeded only under the lower, incremental-reclamation threshold instead.
+- The **[Cerebraun Hegemony](/star-rangers/lore/cerebraun-hegemony/)** runs the opposite structure entirely: transformation authorisation is a Hegemony-central decision, consistent with [Cerebraun governance philosophy](/star-rangers/lore/cerebraun/) generally, though even the Hegemony's own central authority has never authorised a full conversion faster than the survey-completeness floor allows — the central voice decides, but it has not, so far, decided to rush.
 
 ## See Also
 

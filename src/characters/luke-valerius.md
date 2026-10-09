@@ -7,13 +7,15 @@ role: "Starwarden, boundary-proximate post, outward frontier (2824 UCSD – )"
 status: Active
 tags: [star-rangers, starwarden, boundary, safety-corps, neutrality, frontier, human]
 description: "A Starwarden who answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists — a certified boundary analyst holding the record his own classification finding will be made from, and unable to establish that he holds it evenly."
+image: "luke-valerius.jpg"
+image_alt: "Starwarden Luke Valerius, a man in his forties with dark hair going grey, in a grey jacket, standing beside a wide dark viewport onto an ordinary starfield and looking off to one side. Behind him on a plain bench stand two matched unmarked metal cylinders."
 ---
 
 Starwarden Luke Valerius answers for a boundary-proximate post whose distance from the boundary is not a quantity that exists.
 
 He does not permit that to be treated as a figure of speech. The [Interval](/star-rangers/glossary/interval/) is separation measured across the Common Manifold rather than along any line a ship could fly, so *how far is this post from the boundary* is a question with no answer rather than a question with a large one — a correction he has entered on other officers' filings often enough that it is one of the two things everyone on the post knows about him. The other is that he will not say *everywhere*.
 
-The interface his post monitors has held [Class II](/star-rangers/lore/boundary-zones/) — alternating dominance windows, periodic chronometry divergence — for the whole of his command. Two chronometers disagree, each is measuring correctly relative to where it sits, and the disagreement is the data rather than a fault in it. Valerius is unusually good at this work and unusually uninterested in what it might portend. He files the readings, states the [scope](/star-rangers/lore/the-scope-of-physical-law/), and declines the sentence beginning *which suggests*.
+The interface his post monitors has held [Type II](/star-rangers/lore/boundary-zones/) — alternating dominance windows, periodic chronometry divergence — for the whole of his command. Two chronometers disagree, each is measuring correctly relative to where it sits, and the disagreement is the data rather than a fault in it. Valerius is unusually good at this work and unusually uninterested in what it might portend. He files the readings, states the [scope](/star-rangers/lore/the-scope-of-physical-law/), and declines the sentence beginning *which suggests*.
 
 ## Known History
 

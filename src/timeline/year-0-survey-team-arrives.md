@@ -22,7 +22,7 @@ tags: [threshold-station, arrival, galahad, syra, rook-7, survey-team]
 
 Galahad Thorne, Syra (Krenyi), and Rook-7 arrive at Threshold Station via Dock Seven and are assigned as a boundary survey team under Thorne's lead.
 
-Within hours, Rook-7 identifies anomalous resonance patterns in the dock instrumentation consistent with an active Class II boundary interface. The patterns are not new: the station administration has been receiving related reports for eleven years and has categorised them as non-reportable calibration issues throughout.
+Within hours, Rook-7 identifies anomalous resonance patterns in the dock instrumentation consistent with an active Type II boundary interface. The patterns are not new: the station administration has been receiving related reports for eleven years and has categorised them as non-reportable calibration issues throughout.
 
 Rook-7 notes that this characterisation is either uninformed or a deliberate suppression of data.
 

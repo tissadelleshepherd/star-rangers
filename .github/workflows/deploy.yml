@@ -21,6 +21,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history and tags, so `git describe` below can name the
+          # release the way scripts/deploy-lib.sh does for the cPanel clones.
+          # The default shallow clone has no tags and would stamp the site
+          # with the bare commit.
+          fetch-depth: 0
+
+      # Stamp what this run ships into /version.txt and <meta name="site-version">,
+      # the same `git describe --tags --always` the cPanel deploy uses, so the
+      # canonical domain can be checked from outside with one request like any
+      # other domain (src/_data/build.js reads DEPLOY_VERSION). Before this the
+      # Pages build reported "dev", which src/version.njk reserved for builds
+      # that did not come through a deploy path - true of a local build, and no
+      # longer true of this one.
+      - name: Name the release being shipped
+        run: echo "DEPLOY_VERSION=$(git describe --tags --always)" >> "$GITHUB_ENV"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -32,19 +48,26 @@ jobs:
         run: npm ci
 
       - name: Build with Eleventy
-        # GitHub Pages serves under /star-rangers/, unlike the cPanel
-        # domains (root-served) that giscus's pathname-mapped comments
-        # actually target - leaving comments on here would just create a
-        # second, disconnected set of discussions for the same pages.
+        # Since 2026-10-06 this build is the canonical site itself:
+        # fianilchruinne.com is the Pages custom domain (src/CNAME), served at
+        # the root exactly as the cPanel clones serve their domains. So the
+        # /star-rangers/ prefix is rewritten to / at build time (the same
+        # rewrite scripts/cpanel-deploy.sh does with sed), the sitemap,
+        # robots.txt, feed and canonicals name fianilchruinne.com, and
+        # comments stay ON - giscus maps threads by pathname, and root-served
+        # pathnames here are the same ones the cPanel build of this domain
+        # used, so the discussions are shared rather than duplicated. (The
+        # old /star-rangers/-prefixed Pages build forced comments off for
+        # exactly that reason: its pathnames matched nothing.)
+        #
+        # A fork sets the two repository variables (Settings -> Secrets and
+        # variables -> Actions -> Variables) instead of editing this file -
+        # see .eleventy.js and FORKING.md. Unset, they fall back to this
+        # project's own domain.
         run: npm run build
         env:
-          COMMENTS_ENABLED: "false"
-          # Unset by default (this project's own Pages build keeps the
-          # /star-rangers/ prefix it's always used); a fork serving from a
-          # different repo name sets a SITE_PATH_PREFIX repository variable
-          # (Settings -> Secrets and variables -> Actions -> Variables)
-          # instead of editing this file - see .eleventy.js and FORKING.md.
-          SITE_PATH_PREFIX: ${{ vars.SITE_PATH_PREFIX }}
+          SITE_PATH_PREFIX: ${{ vars.SITE_PATH_PREFIX || '/' }}
+          SITE_DOMAIN: ${{ vars.SITE_DOMAIN || 'fianilchruinne.com' }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

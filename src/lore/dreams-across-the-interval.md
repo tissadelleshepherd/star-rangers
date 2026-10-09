@@ -4,6 +4,8 @@ title: "Dreams Across the Interval"
 category: "Physics"
 tags: [etheric, interval, membranes, dreams, visions, telearch, archecluster, boundary-zones, intermembrane-bleed]
 description: "Adjacent membranes interact in subtle ways through the Etheric layer — including through dreams and visions, when a dreaming mind near a narrowed Interval registers a neighbour's bled templates — and the channel runs strongest where one Telearch holds continuity across both membranes within a single archecluster."
+image: "dreams-across-the-interval.jpg"
+image_alt: "A dark habitat cabin at night, an empty unmade bunk, a small square window, and on the far wall a faint indistinct patterning of light that matches nothing outside"
 plain: "Universes that sit close together can faintly affect each other — not with matter or messages, but through the layer that carries patterns and meaning. A sleeping mind near a 'thin place' can pick up traces of the universe next door, felt as unusual dreams or visions. The effect is strongest when the two universes share the same deep pattern-vocabulary and are looked after by the same continuity office. It is weather, not a message: no one can send a dream on purpose, and a dream is never evidence about who sent it."
 ---
 
@@ -26,6 +28,7 @@ The channel runs strongest where one [Telearch](/star-rangers/glossary/telearch/
 ## What This Is Not
 
 - **Not communication.** There is no addressing, no reply channel, and no fidelity: every attempt to use dream-adjacency as signalling has failed at the first step, because nothing about the channel selects a recipient or preserves a message. A dream is not a dispatch, and a dream is never evidence about who sent it — nothing did.
+- **Not shared.** No two sleepers have the same dream, and no instrument, rig or discipline puts one person's dream in another's sleep; the record holds no case and no mechanism. The one way a dream crosses from one mind to another is the oldest one: it is made into something for a waking person — told, drawn, written, sung. That is a work, with an author and a date, weighed the way any work is, and it is what art and creative fiction have always been for. It is not a channel, and the dream arrives in it as the author's account, never as the dream.
 - **Not transit.** What crosses is template structure, never matter and never a mind. No one has ever been *in* another membrane by dreaming of it.
 - **Not predation.** This entry describes weather, not visitors. A presence in a dream that engages — bargains, asks, answers, feeds — is not template bleed, and belongs to the classifications the record keeps for [things that engage](/star-rangers/lore/meta-dimensional-beings/).
 - **Not a verdict on any recorded vision.** A mechanism being available assigns no particular account to it. The record's oldest visions at thin places remain exactly as resolved as they were — the [Aoife scholarship](/star-rangers/lore/saint-aoife/) is the worked example of the record declining to rule on a witness who declined to rule on herself.

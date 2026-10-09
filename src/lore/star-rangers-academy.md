@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "The Star Rangers Academy"
 category: "Institutions"
-tags: [star-rangers, academy, training, certification, cadet-intake, guild, corps, branches, xenolinguistics, survey-corps, institutions]
+tags: [star-rangers, academy, training, certification, cadet-intake, guild, corps, branches, xenolinguistics, survey-corps, institutions, young-star-rangers]
 description: "One academy, organised as a college per corps and a school per branch — who runs the Corps' training, why the command ladder has no say over it, and why a certification the Council of High Captains cannot revise is the thing that makes the whole ladder appealable."
 image: "star-rangers-academy.jpg"
 image_alt: "Designed cover for the Star Rangers Academy: concentric brass rings in a tinted seal on a deep slate background, one institution enclosing its colleges and their branch schools."
@@ -20,7 +20,7 @@ The consequence is worth stating in its strongest form, because it is the point:
 
 ## Colleges and Schools
 
-A **college** covers a corps: Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), [Liaison](/star-rangers/lore/planetary-liaisons-and-recruiters/), Medical, Engineering, and the rest. It owns the corps' certification criteria and the examinations against them.
+A **college** covers a corps: Survey, Science, Safety, Provost, [Frontier](/star-rangers/lore/star-rangers-frontier-corps/), [Liaison](/star-rangers/lore/planetary-liaisons-and-recruiters/), Medical, Engineering, [Music](/star-rangers/lore/star-rangers-music-corps/), and the rest. It owns the corps' certification criteria and the examinations against them.
 
 A **school** covers a branch inside that corps — the piloting and navigation track, the boundary-safety track, the research track, the security track, and the smaller specializations that get less notice and no less rigour. A school owns the specific competencies of one kind of work.
 
@@ -34,7 +34,7 @@ The clearest worked example of what a branch school is *for*, because its subjec
 
 There is no universal translator in this record and there is not going to be. Language is learned — by [xenolinguists with AI support](/star-rangers/lore/what-the-record-refuses/), on a division of labour the school exists to enforce. The intelligence does what machines do well: corpus alignment at scale, candidate parses, a memory that never loses a morpheme. The linguist does the thing an [AI Safety Kernel](/star-rangers/lore/ai-safety-kernel/)-compliant mind will not pretend to do — decide what a word *means*, and own the error. A kernel-compliant intelligence will not claim a certainty about meaning it does not hold, so what it hands over is candidate readings with confidence stated, never a voice in your ear pretending to be the alien.
 
-The branch sits in the Survey Corps because that is where the standing delegations sit, and first contact is consequently measured in years of translation work rather than in an afternoon. What the school teaches, past the technique, is a temperament: that a mistranslation entered confidently into a record is more expensive than an admission of not knowing, and that the correction will usually come from the other side of the table. Its two standing case studies are both failures of patience rather than of method — the [Cerebraun](/star-rangers/lore/cerebraun/), whose three-part answers xenolinguists spent a decade filing as evasion before admitting they were simply how the species thinks; and the [Kingdom of the Four Islands](/star-rangers/lore/planets/kingdom-of-the-four-islands/), where the delegation is still working through a language every Solar System register had presumed extinct, corrected slowly and without visible impatience by [an abbess](/star-rangers/characters/ilsabet-marrowtide/) who knows exactly what a single bad translation costs an archive's credibility.
+The branch sits in the Survey Corps because that is where the standing delegations sit, and first contact is consequently measured in years of translation work rather than in an afternoon. What the school teaches, past the technique, is a temperament: that a mistranslation entered confidently into a record is more expensive than an admission of not knowing, and that the correction will usually come from the other side of the table. Its two standing case studies are both failures of patience rather than of method — the [Cerebraun](/star-rangers/lore/cerebraun/), whose three-part answers xenolinguists spent a decade filing as evasion before admitting they were simply how the species thinks; and the [Kingdom of the Five Islands](/star-rangers/lore/planets/kingdom-of-the-five-islands/), where the delegation is still working through a language every Solar System register had presumed extinct, corrected slowly and without visible impatience by [an abbess](/star-rangers/characters/ilsabet-marrowtide/) who knows exactly what a single bad translation costs an archive's credibility.
 
 ## The Academy Stops at Chief
 

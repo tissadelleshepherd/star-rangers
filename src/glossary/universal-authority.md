@@ -1,6 +1,8 @@
 ---
 layout: glossary-entry.njk
 title: "Universal Authority"
+irish: "An tÚdarás Uilíoch"
+irish_gloss: "the universal authority"
 id: universal-authority
 category: "Cosmology"
 short: "The native governance body of a universe as a whole: the Council of Harmonarchs plus the universe's founding seed mind, or a lead Harmonarch where there is none. Formerly recorded as 'Concordant' in the governance sense."
@@ -15,7 +17,7 @@ related:
 tags: [universal-authority, governance, cosmology, cascade, concordant]
 ---
 
-A **Universal Authority** is the native governance **body** of a universe as a whole — its Concordant Principals in council, plus a presiding seat. It maintains universe-level balance — CEI regulation, entropy behavior, continuity constraints, systemic health.
+A **Universal Authority** is the native governance **body** of a universe as a whole — its Concordant Principals in council, plus a presiding seat. It maintains universe-level balance — [CEI](/star-rangers/glossary/creative-entropy-index-cei/) regulation, entropy behavior, continuity constraints, systemic health.
 
 ## What It Is Made Of
 
@@ -32,7 +34,7 @@ This is why the Authority's plural and singular forms are both ordinary rather t
 
 **Key constraints:**
 - A Universal Authority is not supra-universal: its writ ends at its own universe's edge.
-- It administers within the Worldwright's design; it does not author or revise the universe's founding rule-sets.
+- It administers within the [Worldwright](/star-rangers/glossary/worldwright/)'s design; it does not author or revise the universe's founding rule-sets.
 - It does not displace, and is not displaced by, [Telearch](/star-rangers/glossary/telearch/) supervision, which operates from outside the universe.
 - It cannot exist before the universe has zones to seat. A universe with no stabilized Concordants has no Council, and therefore no Authority.
 

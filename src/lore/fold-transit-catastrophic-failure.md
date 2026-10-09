@@ -4,6 +4,8 @@ title: "Catastrophic Failure in Fold Transit"
 category: "Technology"
 tags: [fold-drive, fold-transit, safety-corps, certification, standards, the-institute, wrath-of-the-dragons, boundary, loss]
 description: "Why vessels are lost in and around fold transit, why the losses cluster on hulls certified to somebody else's standard, and the three accounts settled space gives of the same wreckage."
+image: "fold-transit-catastrophic-failure.jpg"
+image_alt: "A single slab of dark metal on a scarred workbench in low light, one edge sheared clean and bright, the rest dull"
 ---
 
 Nothing has ever been lost inside a fold. Things are lost at the two ends of one, which is a different problem, a duller one, and — the Safety Corps would insist on this — a solvable one.
@@ -43,11 +45,11 @@ Two further failure classes account for most of the remainder, and unlike the la
 - **Uncertified transit.** No aperture tolerance was established, so none was exceeded. The Safety Corps' own phrasing for this in loss adjustment is that the vessel was operating outside a standard rather than against one, which is not a distinction its underwriters have ever accepted.
 - **Certification against a weaker standard.** More common, far harder to prosecute, and the reason the Safety Corps spends more of its budget on comparative standards work than on inspection. A hull can be fully, honestly, verifiably certified — to a standard whose aperture-stability margin the Safety Corps rejected two centuries ago as an economy taken at the wrong end.
 
-The [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) is the case the Corps teaches from, and it teaches from it because nothing in it was illegal. A licence, a counsel's opinion, an audited product. Lawful is not a synonym for safe, and the Safety Corps' whole institutional memory — a testing standard printed in Chicago in 1894, written for insurers who wanted to know whether a thing would burn the building down — is organised around refusing to let the two words merge.
+The [Hyperfold Yield Combine](/star-rangers/lore/hyperfold-yield-combine/) is the case the Corps teaches from, and it teaches from it because nothing in it was illegal. A licence, a counsel's opinion, an audited product. Lawful is not a synonym for safe, and the Safety Corps' whole institutional memory — a testing standard printed in Chicago in 1894 CE, written for insurers who wanted to know whether a thing would burn the building down — is organised around refusing to let the two words merge.
 
 ## The Wrath of the Dragons
 
-The devotional name attached first to a particular sequence of losses and has since been extended by ordinary usage to the whole class. It is the name most people in settled space actually reach for, and it long predates any of the standards work above.
+The devotional name attached first to a particular sequence of losses and has since been extended by ordinary usage to the whole class. It is the name most people in settled space actually reach for, and it long predates any of the standards work above. Since 2831 UCSD the event most people mean by it is [Dock Seven](/star-rangers/lore/hyperfold-yield-combine/), whose nine gallery witnesses supplied the word without being asked — and whatever answered the intrusion there, the record is plain about why there was an intrusion to answer: a licensed concern that the Rangers, holding no power to compel and built to hold none, could not make respect the safety of the fauna it was rendering.
 
 The reading behind it is not naive, and the Archive's file is careful to say so. [Dragons are low-ranking Levrils](/star-rangers/glossary/levril/) — a [Cascade](/star-rangers/lore/cosmic-cascade/) tier that genuinely acts, in Material time, on Material things. Agency is therefore available to the devotional account without any special pleading at all, which is exactly what makes the argument survive. A tradition holding that something with standing was angered, and that the losses followed, is making a claim its own cosmology licenses.
 

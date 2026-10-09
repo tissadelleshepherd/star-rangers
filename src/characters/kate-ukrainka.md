@@ -9,6 +9,8 @@ aliases: []
 tags: [human, eden, author, childrens-literature, culture, undercover-pets.com]
 description: "The Earth-diaspora fantasist of Tales from the Old Hearth, resident on Eden and now writing children's stories about Smart Pets — books that get the animal exactly right and the machinery cheerfully, deliberately wrong."
 known_codex: [the-domovyk-who-stayed, the-cat-who-would-not-say]
+image: "kate-ukrainka.jpg"
+image_alt: "Kate Ukrainka, a woman in her sixties with grey curls in a knitted cardigan, at a small wooden table with both hands round a mug, half-smiling toward the window. A closed notebook and a pen lie by her hand, a potted plant stands on the sill, bookshelves crowd the wall, and the wide window looks onto the green curving interior of an orbital habitat."
 ---
 
 Kate Ukrainka is best known off Eden for *[Tales from the Old Hearth](/star-rangers/codex/the-domovyk-who-stayed/)*, the nostalgic-fantasy collection read across the Earth-diaspora communities of the Concordance, and best known *on* Eden for something much smaller: a run of children's books about [Smart Pets](/star-rangers/glossary/smart-pet/), written since she moved onto the habitat, and read to a great many people's children by a great many people who have never opened the Old Hearth books at all.

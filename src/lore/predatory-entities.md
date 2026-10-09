@@ -1,34 +1,38 @@
 ---
 layout: lore-entry.njk
-title: "Predatory Entities: Court-Fae, Gilded Saints, and Cute Predators"
+title: "Predatory Entities: Obligers, Gilded Saints, and Cute Predators"
 category: "Entities"
-tags: [court-fae, gilded-saints, cute-predators, predatory-entities, ambiguity, consent, sapient-monsters, meta-dimensional]
+tags: [obligers, gilded-saints, cute-predators, predatory-entities, ambiguity, consent, sapient-monsters, meta-dimensional]
 description: "The three principal classes of predatory meta-dimensional entity in the Grand Ensemble Multiverse, classified by sapience and feeding method."
-plain: "Some beings from outside our universe feed on feelings instead of food. Court-Fae feed on confusion and unfinished business; asking a clear question, and insisting on a clear answer, breaks their hold. Gilded Saints pretend to be worthy causes and feed on hard moral effort and on sadness that is never allowed to end. Cute Predators are small and not intelligent; they feed on the little 'yes' you say when saying 'no' feels rude. None of the three can be bargained with. Being clear and honest is the best protection against all of them."
+image: "predatory-entities.jpg"
+image_alt: "A small vacated habitat compartment, its door open onto an empty lit corridor, a plain chair turned to face the wall, a cup and a folded cloth left on the desk, a bunk made, nothing disturbed, nobody there"
+plain: "Some beings from outside our universe feed on feelings instead of food. Obligers feed on confusion and unfinished business; asking a clear question, and insisting on a clear answer, breaks their hold. Gilded Saints pretend to be worthy causes and feed on hard moral effort and on sadness that is never allowed to end. Cute Predators are small and not intelligent; they feed on the little 'yes' you say when saying 'no' feels rude. None of the three can be bargained with. Being clear and honest is the best protection against all of them."
 ---
 
 The most dangerous predator in a boundary story often arrives looking harmless, admirable, or simply overdue. That is why the classification starts with feeding pattern, not appearance.
 
-Three classes of predatory meta-dimensional entity exploit social, emotional, and moral dynamics to feed. They are sometimes called "beautiful monsters" because they tend to manifest in appealing or non-threatening forms. (This is an informal nickname for the group, unrelated to the specifically named "Beautiful Monsters" type — see [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).)
+Three named modes of predatory meta-dimensional failure exploit social, emotional, and moral dynamics to feed. *Mode* rather than *class* is deliberate and is the settled position: these are [Unfounded](/star-rangers/glossary/unfounded/), nothing among them exists by design, and the names record how a counterfeit runs rather than a kind it belongs to. They are sometimes called "beautiful monsters" because they tend to manifest in appealing or non-threatening forms. (This is an informal nickname for the group, unrelated to the specifically named "Beautiful Monsters" type — see [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/).)
 
-All three are meta-dimensional beings. Court-Fae and Gilded Saints are **sapient monsters** (Class II meta-dimensional beings): goal-directed, adaptive, and capable of sustained deception. Cute Predators are **non-sapient** (Class III): their behaviour is instinctive pattern-matching, not strategy.
+*Feeding* is the record's working word for what follows, and it is a misnomer the record keeps for its usefulness. Nothing here eats, and nothing here reads a mind: none of the three is psionic or telepathic. What each exploits is an **etheric disturbance**, the kind that confusion, a story left vague or a consent withheld produces in the Conceptual↔Etheric layer, and the sections below describe the disturbance each one seeks and the behaviour that closes it off. Read *feeds on* throughout as *exploits the disturbance produced by*.
+
+All three are meta-dimensional beings. Obligers and Gilded Saints are **sapient monsters** (Class II meta-dimensional beings): goal-directed, adaptive, and capable of sustained deception. Cute Predators are **non-sapient** (Class III): their behaviour is instinctive pattern-matching, not strategy.
 
 None of them hold Cascade standing. They cannot be negotiated with under Cascade-governed terms.
 
 See: [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/)
 
-## Court-Fae
+## Obligers
 
-Court-Fae are sapient Conceptual↔Etheric predators (Class II). They feed on:
+Obligers are sapient Conceptual↔Etheric predators (Class II). They feed on:
 - Ambiguity (unresolved social situations)
 - Desire loops (wanting something without pursuing or releasing it)
 - Social debt (obligations that are never clearly defined or discharged)
 
 They resist clarity because clarity destroys the feeding condition. They prefer passive aggression to open confrontation. After prolonged contact, they leave *residue*: obsession, subtle value drift, and obligation loops that continue after the entity is gone.
 
-Their sapience matters operationally. The Court-Fae at the Marsh Causeway adapted across each of Elvira's failed rituals, learning from every attempt and adjusting the substrate to block resolution. That is not instinct. That is strategy.
+Their sapience matters operationally. The Obliger at the Marsh Causeway adapted across each of Elvira's failed rituals, learning from every attempt and adjusting the substrate to block resolution. That is not instinct. That is strategy.
 
-**How to counter them:** ask the question that has a definite answer, and insist on the answer. The Marsh Causeway sequence is the worked case end to end — [The Broken Causeway (S01E02C01)](/star-rangers/seasons/s01/e02/s01e02c01/) for the feeding condition being fed by well-meant, imprecise work, and [The Right Question (S01E03C02)](/star-rangers/seasons/s01/e03/s01e03c02/) for what breaks it: not force, and not a better ritual, but somebody finally putting a question to the one participant nobody had asked, in terms that could not be answered ambiguously. Note that clarity broke the *loop*, not the anchor. [The Root and the Rest of It (S01E03C03)](/star-rangers/seasons/s01/e03/s01e03c03/) is the second half of the job, and the demonstration that removing one cause from a two-cause problem proves only which cause you removed.
+**How to counter them:** ask the question that has a definite answer, and insist on the answer. The Marsh Causeway sequence is the worked case end to end — [The Broken Causeway (S01E02C01)](/star-rangers/seasons/s01/e02/s01e02c01/) for the feeding condition being fed by well-meant, imprecise work, and [The Right Question (S01E03C01)](/star-rangers/seasons/s01/e03/s01e03c01/) for what breaks it: not force, and not a better ritual, but somebody finally putting a question to the one participant nobody had asked, in terms that could not be answered ambiguously. Note that clarity broke the *loop*, not the anchor. [The Root and the Rest of It (S01E03C02)](/star-rangers/seasons/s01/e03/s01e03c02/) is the second half of the job, and the demonstration that removing one cause from a two-cause problem proves only which cause you removed.
 
 ## Gilded Saints
 
@@ -57,6 +61,6 @@ They are non-sapient. Their behaviour is instinctive pattern-matching against vu
 ## See Also
 
 - [Meta-Dimensional Beings: Classification](/star-rangers/lore/meta-dimensional-beings/) — where these three sit relative to entities that do hold Cascade standing
-- [The Right Question (S01E03C02)](/star-rangers/seasons/s01/e03/s01e03c02/) — a Court-Fae feeding condition broken by clarity
+- [The Right Question (S01E03C01)](/star-rangers/seasons/s01/e03/s01e03c01/) — an Obliger feeding condition broken by clarity
 - [Shown, Not Healed (S07E01C02)](/star-rangers/seasons/s07/e01/s07e01c02/) — the Gilded Saint counter, taught under live conditions
 - [Saint Aoife](/star-rangers/lore/saint-aoife/) — the shown/healed distinction, fourteen centuries early

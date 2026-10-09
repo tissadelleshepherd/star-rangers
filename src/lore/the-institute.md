@@ -3,12 +3,22 @@ layout: lore-entry.njk
 title: "The Institute"
 category: "Institutions"
 tags: [the-institute, secular, skeptic, cosmic-cascade, boundary, institutions, fold-drive, dock-seven, methodology]
-description: "A secular, sceptical research body that accepts the instruments and declines the cosmology — the counterweight to devotional readings of boundary phenomena, and the source of the material explanation of Dock Seven that most of settled space actually believes."
+description: "An independent, non-political academic body designed to provide intelligent constructive criticism — especially, though never exclusively, of the Star Rangers. Secular and sceptical, it accepts the instruments and declines the cosmology: the counterweight to devotional readings of boundary phenomena, and the source of the material explanation of Dock Seven that most of settled space actually believes."
+image: "the-institute.jpg"
+image_alt: "A bare office with one plain wooden desk, a black chair, a closed notebook and a pen, and a plain sealed case on a stand by the wall, daylight through a frosted window"
 ---
 
 Ask the Fellowship what happens at a thin place and you will be told the world runs thin there. Ask the Institute and you will be told that a great many instruments disagree with each other in a small volume of space, that this is interesting, and that nothing has yet been established beyond it.
 
 The **Institute** — its chartered name is longer and has not been spoken aloud in a century — is a secular research body of no fixed world, funded by subscription from polities that want boundary phenomena investigated without being told what the investigation means. It is the largest organised sceptical tradition in settled space and the most consistent counterweight to devotional readings of the same evidence.
+
+## What it is for
+
+Most institutions acquire critics. The Institute was designed as one. Its charter — the long-named document nobody quotes — establishes an independent, non-political, academic body whose stated purpose is the provision of intelligent, constructive criticism to the institutions that operate where knowledge stops. Independent: no fixed world, no patron, and a subscription arranged so that no single polity's contribution is large enough to be worth flattering. Non-political — the same constitutional word the [Star Rangers' own charter](/star-rangers/timeline/2723-star-rangers-charter/) uses — in that it takes no side, endorses no faction, and wants nothing any government could give it except data. Academic in form: fellowships, papers, review, and the slow machinery of citation, which is the only authority it holds and the only kind it has ever wanted.
+
+The design is older than its chief subject. The Institute predates the [Star Rangers](/star-rangers/lore/formation-of-star-rangers/) by centuries, and its remit was not written with the Corps in mind; it was written for whoever presumed to operate at the edge of what is known. But a body built to examine such institutions spends its attention where the operating is, and for the last century that has meant — especially, though never exclusively — the Star Rangers: the largest boundary operator in settled space, the keeper of the doctrines most worth testing, and the institution whose errors occur in the Institute's own field of study.
+
+*Constructive* is the load-bearing word, and the one the Institute's subjects concede last. Its criticism is built to be used by the criticised: delivered with the derivation attached, the null results included, and the improvement stated in terms the recipient's own procedures can absorb. The fold-transit safety courses are Institute-written; the Survey Corps' instrumentation standards are Institute-drafted; and the sharpest published critiques of Ranger doctrine arrive, without exception, accompanied by the data that would let the Rangers rebut them. A body that wanted to defeat the Corps would not keep handing it ammunition. The Institute does not want to defeat anybody. It wants everybody to be wrong less often, beginning with whoever is nearest the boundary — and it has never quite understood why this is received as coldness rather than as the compliment it is.
 
 ## What it actually holds
 

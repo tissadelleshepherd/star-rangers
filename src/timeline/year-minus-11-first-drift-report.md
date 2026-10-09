@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "First Drift Report Filed at Threshold Station"
-timestamp: "Year -11 (2815 UCSD), Late Summer"
+timestamp: "2815 UCSD, Late Summer"
 sort_order: 10
 summary: "The first instrument drift report is filed at Threshold Station — two chronometers in Dock Seven disagree by forty seconds. The report is closed without resolution."
 tags: [threshold-station, boundary, instrument-drift]
@@ -16,11 +16,11 @@ tags: [threshold-station, boundary, instrument-drift]
     </ol>
   </nav>
   <h1 class="lore-entry__title">First Drift Report Filed at Threshold Station</h1>
-  <p><span class="character-badge">Year -11 (2815 UCSD), Late Summer</span></p>
+  <p><span class="character-badge">2815 UCSD, Late Summer</span></p>
 </header>
 <div class="lore-entry__body">
 
-In Year -11 (2815 UCSD), Late Summer, a reporting officer at Threshold Station files the station's first instrument drift report. Two chronometers in Dock Seven show a forty-second discrepancy. Both instruments have been individually calibrated and confirmed accurate. When compared, they disagree.
+In 2815 UCSD, Late Summer, a reporting officer at Threshold Station files the station's first instrument drift report. Two chronometers in Dock Seven show a forty-second discrepancy. Both instruments have been individually calibrated and confirmed accurate. When compared, they disagree.
 
 The station administration classifies the discrepancy as a calibration issue and closes the report. Recalibration is recommended and performed. Within forty-eight hours, the discrepancy returns.
 

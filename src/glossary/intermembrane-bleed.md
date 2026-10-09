@@ -1,9 +1,11 @@
 ---
 layout: glossary-entry.njk
 title: "Intermembrane Bleed"
+irish: "Úscadh Idirsheicne"
+irish_gloss: "seepage between membranes"
 id: intermembrane-bleed
 category: "Cosmology"
-short: "The Survey Corps term for measurable Etheric-layer intrusion between adjacent Concordant membranes at a boundary zone, ranging from faint Membrane Resonance to a full Class III bleed event."
+short: "The Survey Corps term for measurable Etheric-layer intrusion between adjacent Concordant membranes at a boundary zone, ranging from faint Membrane Resonance to a full Type III bleed event."
 related:
   - "Etheric"
   - "Boundary Zone"
@@ -19,10 +21,10 @@ Each **primary universe** sits on its own bounded cosmic membrane within that ma
 
 **Bleed is inter-universe only.** There is no Interval inside a universe, so two adjacent Concordant Zones of the same universe cannot produce it however sharply their rule-sets differ — that internal edge would give drift and timebase mismatch and nothing in the Etheric channel. The distinction is theoretical rather than practical: a Concordant Zone spans the visible universe, so nothing has ever been stationed at such an edge, and every [boundary zone](/star-rangers/glossary/boundary-zone/) on the Survey Corps' books is the inter-membrane kind.
 
-**Graduated terminology, mapped to existing Boundary-State Classes:**
+**Graduated terminology, mapped to existing Boundary Types:**
 
-- **Membrane Resonance** — a faint, stable signature (Class II boundary states only; Class I stays Etherically undetectable): archetypal templates from the neighbouring universe are detectable but do not displace local ones. This is what Etheric-based practices such as ritual work register as low-grade interference.
-- **Intermembrane Bleed** — a Class III shear event: neighbouring templates intrude far enough to compete with local ones for admissibility, producing archetypal interference events with no local physical trigger.
+- **Membrane Resonance** — a faint, stable signature (Type II boundary states only; Type I stays Etherically undetectable): archetypal templates from the neighbouring universe are detectable but do not displace local ones. This is what Etheric-based practices such as ritual work register as low-grade interference.
+- **Intermembrane Bleed** — a Type III shear event: neighbouring templates intrude far enough to compete with local ones for admissibility, producing archetypal interference events with no local physical trigger.
 
 The renaming is not cosmetic. "Etheric effects" described a symptom. "Intermembrane Bleed" names the coupling that produces it — and gives Survey Corps analysts something a chronometer discrepancy can actually be diagnosed against.
 

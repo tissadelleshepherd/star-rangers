@@ -5,20 +5,38 @@
 // front-matter validation and the Eleventy dry run both pass happily while a
 // cross-link points at a page that was renamed or never written.
 //
-// Cross-platform, no dependencies. Run directly:
+// Run directly:
 //     node scripts/check-internal-links.js
 //
-// Not currently wired into `npm test`. It exits non-zero on failure, so it can
-// be added to the test script or CI if you want link rot to break the build.
+// Part of `npm test` since 2026-08-24. It exits non-zero on failure.
+//
+// Since 2026-10-09 a link's #fragment is checked too, against the ids the
+// target page actually exposes: the heading ids the build's own markdown
+// renderer assigns (lib/markdown-containers.js, markdown-it-anchor) plus any
+// literal id="..." written in the page's source, which is how the License
+// section of the homepage and the Union Irish anchor of the canonical guide
+// are addressed. Until then every fragment in the corpus was dead - headings
+// had no ids - and this script passed them because it checked the path alone.
+// The ids come from the same renderer the build uses rather than from a copy
+// of its slug rule, so the two cannot drift. A same-page "](#fragment)" in a
+// markdown file is checked against that file; the same shape in a layout
+// (base.njk's skip link) addresses an id the layout itself supplies and is
+// counted as skipped rather than guessed at.
 //
 // Nunjucks-templated hrefs (containing "{{") are skipped: they are computed at
 // build time and cannot be resolved statically.
 
 const fs = require("fs");
 const path = require("path");
+const matter = require("gray-matter");
+const { createMarkdownRenderer } = require("../lib/markdown-containers");
 
 const REPO = path.join(__dirname, "..");
 const PREFIX = "/star-rangers/";
+
+// The canonical site's tier, so a heading inside a contemplative-only block
+// is not counted as a target the general-tier build would expose.
+const md = createMarkdownRenderer();
 
 // Both roots that hold authored content with links in it. src/ is the obvious
 // one; lib/ earns its place because per-domain copy lives in lib/editions.js -
@@ -71,18 +89,54 @@ const scanFiles = SCAN_ROOTS.flatMap((root) => walk(path.join(REPO, root)));
 //   src/lore/index.md      -> /star-rangers/lore/
 //   src/index.md           -> /star-rangers/
 const pages = new Set();
+const pageSource = new Map(); // url -> the markdown file that renders it
 for (const file of srcFiles) {
   if (!file.endsWith(".md")) continue;
   let rel = path.relative(SRC, file).replace(/\\/g, "/").replace(/\.md$/, "");
   if (rel === "index") rel = "";
   else if (rel.endsWith("/index")) rel = rel.slice(0, -"/index".length);
-  pages.add(PREFIX + (rel ? rel + "/" : ""));
+  const url = PREFIX + (rel ? rel + "/" : "");
+  pages.add(url);
+  pageSource.set(url, file);
+}
+
+// The ids a markdown page exposes, computed once per file: every heading id
+// the renderer assigns to its body, plus every literal id="..." in its
+// source (HTML the page carries, which markdown-it passes through).
+const idCache = new Map();
+function idsOf(file) {
+  if (idCache.has(file)) return idCache.get(file);
+  const ids = new Set();
+  const { content } = matter(fs.readFileSync(file, "utf8"));
+  for (const token of md.parse(content, {})) {
+    if (token.type === "heading_open") {
+      const id = token.attrGet("id");
+      if (id) ids.add(id);
+    }
+  }
+  const idRe = /\bid="([^"]+)"/g;
+  let m;
+  while ((m = idRe.exec(content)) !== null) ids.add(m[1]);
+  idCache.set(file, ids);
+  return ids;
+}
+
+function fragmentOf(url) {
+  const hash = url.indexOf("#");
+  if (hash === -1) return "";
+  try {
+    return decodeURIComponent(url.slice(hash + 1));
+  } catch {
+    return url.slice(hash + 1);
+  }
 }
 
 const linkRe = /\]\((\/star-rangers\/[^)\s]*)\)|(?:href|src)="(\/star-rangers\/[^"]*)"/g;
+const samePageRe = /\]\((#[^)\s]+)\)|href="(#[^"]+)"/g;
 
 const problems = [];
 let checked = 0;
+let fragments = 0;
 let skipped = 0;
 
 let filesScanned = 0;
@@ -93,10 +147,26 @@ for (const file of scanFiles) {
   const text = fs.readFileSync(file, "utf8");
   const where = path.relative(REPO, file).replace(/\\/g, "/");
   let m;
+
+  // Same-page fragments. Only a markdown page under src/ can be resolved:
+  // its ids are its own. A layout's same-page link points at an id the
+  // layout (or the page it wraps) supplies, which this script cannot see.
+  while ((m = samePageRe.exec(text)) !== null) {
+    const raw = m[1] || m[2];
+    if (raw.includes("{{") || raw.includes("{%")) { skipped++; continue; }
+    if (!file.endsWith(".md") || !file.startsWith(SRC)) { skipped++; continue; }
+    fragments++;
+    const fragment = fragmentOf(raw);
+    if (!idsOf(file).has(fragment)) {
+      problems.push(`${where} -> missing fragment #${fragment} on the same page`);
+    }
+  }
+
   while ((m = linkRe.exec(text)) !== null) {
-    let url = (m[1] || m[2]).trim();
-    if (url.includes("{{") || url.includes("{%")) { skipped++; continue; }
-    url = url.split("#")[0].split("?")[0];
+    const full = (m[1] || m[2]).trim();
+    if (full.includes("{{") || full.includes("{%")) { skipped++; continue; }
+    const fragment = fragmentOf(full);
+    const url = full.split("#")[0].split("?")[0];
     if (!url) continue;
     checked++;
 
@@ -112,6 +182,16 @@ for (const file of scanFiles) {
     const normalized = url.endsWith("/") ? url : url + "/";
     if (!pages.has(normalized)) {
       problems.push(`${where} -> missing page ${url}`);
+      continue;
+    }
+
+    if (fragment) {
+      fragments++;
+      const source = pageSource.get(normalized);
+      if (!source) { skipped++; continue; } // a page a template paginates; no source to read
+      if (!idsOf(source).has(fragment)) {
+        problems.push(`${where} -> missing fragment #${fragment} on ${normalized}`);
+      }
     }
   }
 }
@@ -121,7 +201,7 @@ for (const file of scanFiles) {
 // larger than the number of files that could contain a link in the first place.
 console.log(
   `Internal link check: ${checked} links across ${filesScanned} scanned files ` +
-  `in ${SCAN_ROOTS.join("/, ")}/ (${skipped} templated links skipped).`
+  `in ${SCAN_ROOTS.join("/, ")}/ (${fragments} fragments resolved, ${skipped} templated or unresolvable links skipped).`
 );
 
 if (problems.length) {

@@ -1,22 +1,49 @@
 ---
 layout: base.njk
-title: "About the Author"
-description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
+eleventyComputed:
+  title: "{% if edition.about %}{{ edition.about.title }}{% else %}About the Author{% endif %}"
+  description: "{% if edition.about %}Who made {{ site.name }}, and how a grown-up can reach him.{% else %}About Dermot R. Cochran, creator of Fian Ilchruinne.{% endif %}"
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="Designed placeholder card for About the Author: the title set in pale serif type over a dark blue-black gradient, headed ILLUSTRATION PENDING. No illustration for this entry exists yet." />
+{%- if edition.about -%}
+{#- ======================================================================
+    The plain-register About. A tier opts into this by carrying `about` in
+    lib/editions.js (today: the children's tier, on CHILDREN_TIER, so both
+    children's doors serve the same page). The registry supplies the
+    sentences; this template supplies the markup. No hero on this register. The child-facing
+    paragraphs name the main site in words and never link it (the 2
+    September ruling on excludedNotice); the grown-ups block carries the
+    page's only links, all to adult destinations. The hero below is
+    Dermot's own frame, Dublin Bay from the Hills (8 October 2026).
+    ====================================================================== -#}
+<h1 class="page-title">{{ edition.about.title }}</h1>
+{%- for para in edition.about.intro %}
+<p class="page-intro">{{ para | safe }}</p>
+{%- endfor %}
+
+<h2 id="grown-ups">{{ edition.about.grownUpsTitle }}</h2>
+{%- for para in edition.about.grownUps %}
+<p>{{ para | safe }}</p>
+{%- endfor %}
+{%- else -%}
+<img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="Dublin seen from high ground to the south on a hazy November afternoon: the office blocks of Sandyford across the foot of the frame, the city beyond, the red-and-white banded Poolbeg chimneys over the docks, and the bay running out to Howth on the far shore" />
 <h1 class="page-title">About the Author</h1>
 <p class="page-intro">
-  Dermot R. Cochran is a Senior Machine Learning Engineer based in Dublin, Ireland.
+  <em>Fian Ilchruinne</em> is a world that no one really understands but everyone tries to
+  explain in their own way.
+</p>
+<p class="page-intro">
+  Dermot R. Cochran is a senior software engineer working in applied AI, based in Dublin,
+  Ireland. His work spans engineering, photography, and fiction, with a growing focus on
+  engineering intelligence, human-AI systems, and the role of intelligent tools in
+  creativity and decision-making.
 </p>
 
 <h2>How this site is built</h2>
 <p>
-  Fian Ilchruinne is a static site built with <a href="https://www.11ty.dev/">Eleventy</a>.
-  Content lives as Markdown and Nunjucks templates in this repository's <code>src/</code>
-  directory; <code>npm run build</code> runs Eleventy to compile it into the static
-  <code>_site/</code> output, <code>npm run start</code> serves it locally with live
-  reload, and <code>npm test</code> runs an Eleventy dry-run build in CI on every pull
-  request, alongside a ShellCheck pass over the deployment scripts.
+  Fian Ilchruinne is a static site built with <a href="https://www.11ty.dev/">Eleventy</a>
+  from Markdown and Nunjucks templates, checked by a test suite and a dry-run build on
+  every pull request before anything is published. The commands, the content schema and
+  the deployment path are in the repository's README and technical README.
 </p>
 
 <h2>How this site is written</h2>
@@ -33,6 +60,16 @@ description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
   before anything is committed and helping keep the lore, Codex, glossary, and story bible consistent
   with each other. There's a fuller account of how that came to be in the
   <a href="/star-rangers/journal/two-copies-forty-seconds-apart/">Journal</a>.
+</p>
+
+<h2>How this site is illustrated</h2>
+<p>
+  The pictures are illustrations, not the work. Most are generated, some are made from the
+  author's own photographs, and a few are those photographs as they stand; every one of them is
+  recorded with what made it. Where a picture and an entry disagree, the entry is right. The
+  author's photography has a home of its own at
+  <a href="https://dermotcochran.com/">dermotcochran.com</a>, and nothing made for this site
+  goes there.
 </p>
 
 <h2>The engineering behind the record</h2>
@@ -84,6 +121,17 @@ description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
   and the <a href="/star-rangers/forking/">Forking This Site</a> guide for how to fork this
   repository and reuse some or all of the existing content.
 </p>
+<p id="noted-fan-works">
+  <strong>Noted.</strong> Fan works the site knows of and points at are listed on the licence's
+  standing formula — <em>referenced, not endorsed</em>: a link is a pointer, not approval, and
+  being listed here confers no official status. One is noted so far:
+  <a href="https://github.com/tissadelleshepherd/star-rangers">tissadelleshepherd/star-rangers</a>,
+  a fan fork of this repository whose one addition is an uncaptioned, AI-generated picture of a
+  red-haired woman walking a beach at sunset. Between the account's name and the likeness, the
+  intent is plain enough — <a href="/star-rangers/characters/tissadelle-shepherd/">Tissadelle
+  Shepherd</a>, off duty — but the identification is the maker's, not the record's. In
+  circulation, and noted.
+</p>
 
 <h2>How this site is deployed</h2>
 <p>
@@ -100,3 +148,4 @@ description: "About Dermot R. Cochran, creator of Fian Ilchruinne."
   glossary and the chapters are identical on every domain, and a narrowed clone shows a
   subset of one record rather than a variant of it.
 </p>
+{%- endif -%}

@@ -15,9 +15,9 @@ permalink: /seasons/s02/e02/
 
 <h1 class="page-title">Season 2 · Episode 2</h1>
 <p class="page-intro">
-  While Five-O follows the crates to Meridian, Eden's quieter anomaly goes up two chains at once: a corridor
-  that won't agree with itself about its own length, a door the deck plans are maintained not to hold, and a
-  Safety Corps rotation officer whose remit stops one noun short of the thing she can't resist doing.
+  While Five-O follows the crates to Halcyon, something odd on Eden goes up two chains of command at once. A
+  corridor that is not the length the plans say it is. A door the deck plans are carefully kept from showing.
+  And a Safety Corps officer whose job stops one word short of the thing she cannot help doing.
 </p>
 
 {% set seasonNumber = "2" %}
@@ -25,18 +25,21 @@ permalink: /seasons/s02/e02/
 {% set hasEpisodeChapters = false %}
 <ul class="chapter-list" role="list">
 {% for chapter in collections.chapters %}
-  {% if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber %}
-    {% if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif %}
+  {%- if (chapter.data.season ~ "") == seasonNumber and (chapter.data.episode ~ "") == episodeNumber -%}
+    {%- if not hasEpisodeChapters %}{% set hasEpisodeChapters = true %}{% endif -%}
     <li class="chapter-list__item">
       <a href="/star-rangers{{ chapter.url }}">
         <span class="chapter-list__code">{{ chapter.data.id | upper }}</span>
         <span class="chapter-list__title">{{ chapter.data.title }}</span>
-        {% if chapter.data.location %}
+        {%- if chapter.data.location -%}
         <span class="chapter-list__loc">{{ chapter.data.location }}</span>
-        {% endif %}
+        {%- endif -%}
+        {%- if chapter.data.description -%}
+        <span class="chapter-list__desc">{{ chapter.data.description }}</span>
+        {%- endif -%}
       </a>
     </li>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 </ul>
 {% if not hasEpisodeChapters %}

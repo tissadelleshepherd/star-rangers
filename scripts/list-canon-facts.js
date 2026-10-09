@@ -32,7 +32,7 @@ function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) out.push(...walk(full));
-    else if (entry.isFile() && entry.name.endsWith(".md")) out.push(full);
+    else if (entry.isFile() && entry.name.endsWith(".md") && entry.name !== "README.md") out.push(full);
   }
   return out;
 }

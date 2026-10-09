@@ -38,9 +38,9 @@ At the same time as the Survey Corps is created, the **Solar System Safety Stand
 - The founding assets include Dr. Pitch's fold-mechanics analysis, the *Constant Margin* navigational data, and eleven years of Eden's anomaly logs.
 - The Survey Corps — the Star Rangers' boundary-monitoring arm — is created at the same time.
 - The Safety Corps — absorbing the SSSA — is created at the same time. Its certified boundary analyst designation becomes the standard for Etheric-layer work at Threshold-class stations.
-- The open questions from the *Patience First* recovery are part of the Survey Corps' founding research mandate.
+- The open questions from the *Patience First* disappearance are part of the Survey Corps' founding research mandate.
 
-See: [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/), [Military Space Command](/star-rangers/lore/military-space-command/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/). Dramatized in [What They Were Forbidden to Become (S00E03C01)](/star-rangers/seasons/s00/e03/s00e03c01/).
+See: [The Founding of the Star Rangers](/star-rangers/lore/formation-of-star-rangers/), [The Oversight Council](/star-rangers/lore/the-oversight-council/), [Military Space Command](/star-rangers/lore/military-space-command/), [The Star Rangers Safety Corps](/star-rangers/lore/star-rangers-safety-corps/). Dramatized in [What They Were Forbidden to Become (S00E03C01)](/star-rangers/seasons/s00/e03/s00e03c01/).
 
 </div>
 <footer class="lore-entry__footer">

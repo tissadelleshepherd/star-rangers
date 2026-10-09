@@ -8,7 +8,7 @@ image: "earth-leopard-grassland.jpg"
 image_alt: "A leopard resting in actively maintained grassland on Earth, photographed in 2826 UCSD"
 ---
 
-A survey botanist cataloguing Tír na nÓg's lowlands once spent a full field season convinced she'd found transplanted Earth stock, before the pigment chemistry proved otherwise. The mistake says less about Tír na nÓg than about Earth: by 2826 UCSD, a giraffe grazing in a Solar System Defence Command preserve looks close enough to a twenty-first-century photograph that most visitors assume nothing happened in between. Something did. It just wasn't mostly evolution.
+A survey botanist cataloguing [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/)'s lowlands once spent a full field season convinced she'd found transplanted Earth stock, before the pigment chemistry proved otherwise. The mistake says less about Tír na nÓg than about Earth: by 2826 UCSD, a giraffe grazing in a Solar System Defence Command preserve looks close enough to a twenty-first-century photograph that most visitors assume nothing happened in between. Something did. It just wasn't mostly evolution.
 
 ## The Long Emergency
 
@@ -22,7 +22,7 @@ Smaller, faster-breeding lineages did the opposite. Insects and cephalopods dive
 
 Recovery began the way the Warden Programme did: as scattered, uncoordinated coalition action rather than a single founding act. Surviving Earth governments and cooperatives, working from the same emergency footing that produced the classified cable-protection effort, began the slower, less secret work of habitat continuity — seed and genetic archives for species past the point of natural recovery, assisted migration corridors for range-shifted populations, and the first reef-scaffolding and rewilding programmes.
 
-That patchwork consolidated the way most Earth-side infrastructure of the period did: folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2337, carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and formalised in its current form under Solar System Defence Command's environmental protocols — the standing authority [now credited](/star-rangers/lore/military-space-command/) with keeping Earth's remaining unmanaged biomes healthier than at any point since the early industrial era.
+That patchwork consolidated the way most Earth-side infrastructure of the period did: folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2337 UCSD (2137 CE), carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and formalised in its current form under Solar System Defence Command's environmental protocols — the standing authority [now credited](/star-rangers/lore/military-space-command/) with keeping Earth's remaining unmanaged biomes healthier than at any point since the early industrial era. The engineering that made the recovery possible, and the profession it created, are the subject of [Climate Repair and the Origin of Terraforming](/star-rangers/lore/climate-repair-and-terraforming/).
 
 ## Three Centuries of Stewardship
 
@@ -34,7 +34,7 @@ That decision was selective by necessity. Preserve coverage concentrates on char
 
 Outside the preserves, the Crisis Centuries left permanent marks that stewardship never reversed, because no one was trying to. Urban generalist lineages carry crisis-era adaptations in their behaviour and physiology to this day — bolder, more nocturnal, more broadly omnivorous than their twenty-first-century ancestors, and now old enough as distinct populations that field taxonomists debate incipient subspecies status for several corvid and canid lines. Deep-ocean and open-water fauna, never practically covered by any preserve boundary, kept evolving on crisis-era trajectories: smaller, faster-maturing fish assemblages, and cephalopod lineages that expanded into ecological roles reef-obligate vertebrates once held and never fully reclaimed.
 
-A quieter divergence happened off-world. Terran domestic and companion species carried out to the early charter worlds bred under gravity, daylight spectra, and growing seasons Earth never had — the crofting stock that shaped Aethelrock's clan grazing disputes among them. Those lineages were never candidates for SSDC's Earth-side genetic archives in the first place, and centuries later they no longer entirely resemble the animals that left.
+A quieter divergence happened off-world. Terran domestic and companion species carried out to the early charter worlds bred under gravity, daylight spectra, and growing seasons Earth never had — the crofting stock that shaped [Aethelrock](/star-rangers/lore/planets/aethelrock/)'s clan grazing disputes among them. Those lineages were never candidates for SSDC's Earth-side genetic archives in the first place, and centuries later they no longer entirely resemble the animals that left.
 
 ## What Wasn't Saved
 

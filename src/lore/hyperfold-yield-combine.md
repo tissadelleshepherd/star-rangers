@@ -1,9 +1,12 @@
 ---
 layout: lore-entry.njk
 title: "The Hyperfold Yield Combine"
+revealed_by: s05e02c03
 category: "Factions"
 tags: [hyperfold, combine, dock-seven, commercial, fold-drive, boundary, class-iii, threshold-station, factions, defunct]
 description: "A licensed commercial concern that harvested boundary fauna for fold-transit stabiliser, and held an aperture open for four months to do it. Everything about it was lawful. It ended at Dock Seven in 2831, and the parts of it that are still unresolved are not the parts anybody expected."
+image: "hyperfold-yield-combine.jpg"
+image_alt: "An industrial rendering platform in open space: an open truss carrying tank clusters, booms and cradles under a field of flat radiator panels far larger than the plant itself, a small unlit drum at one end, a distant station's few warm lights, hard sunlight from one side"
 ---
 
 The uncomfortable thing about the Hyperfold Yield Combine is not that it was a criminal enterprise. It is that it was not one. It was a well-run business with a licence, a counsel's opinion, an audited product, and a market that wanted more than it could supply, and every part of it was legal right up to the moment it was destroyed.
@@ -49,6 +52,8 @@ The Combine's platform was destroyed on the day of the [loss at Dock Seven](/sta
 The Archive holds three irreconcilable accounts of what did it, and does not adjudicate between them: [the Institute's](/star-rangers/lore/the-institute/), which reads the event as strain discharge from equipment that maintenance telemetry confirms was overused and out of calibration on at least three axes; the surviving witness record, which says dragons; and the Survey Archive's own, which holds that a perimeter was drawn around an unlawful process rather than around a party, and that everything outside it was not spared but simply not included.
 
 All three agree on the sequence and on the outcome. What ended the Combine is disputed. That it ended is not.
+
+Settled space mostly files the event under the older devotional name, [the Wrath of the Dragons](/star-rangers/lore/fold-transit-catastrophic-failure/#the-wrath-of-the-dragons), on the strength of nine witnesses who used the word unprompted. What the Corps teaches from it sits above the three readings rather than among them, and every one of the three starts from it: the event could happen because the one body competent to judge the operation could not physically stop it. The Rangers hold no means of compulsion in open space — no warfighting mandate, no police power beyond the Frontier's caretaker worlds, [no branch that is military](/star-rangers/lore/star-rangers-command-hierarchy/) — and are built not to; what they wanted respected was the safety of animals the law gave no standing, and wanting it was the whole of what they had. A finding was the one instrument on the table, and the officer preparing it stayed.
 
 ## What is still open
 

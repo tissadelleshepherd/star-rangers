@@ -4,6 +4,8 @@ title: "Verdance"
 category: "Locations"
 tags: [verdance, calyx-system, biosphere-planet, verdani, federation-of-sentient-beings, locations]
 description: "A biosphere world of extraordinary ecological range — four climate zones, each hosting a distinct native civilization under a loose external-affairs confederation, united by biology more than by government."
+image: "planets/verdance.jpg"
+image_alt: "An aerial view of four settlements of four kinds in one country, a timber village in snowy forest, a mud-walled village on grassland, a stilt village on a wetland and a stone town on red cliffs, with a track and a river between them"
 galaxy: "Milky Way"
 system: "Calyx System"
 locationType: "Planet"
