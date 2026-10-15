@@ -23,7 +23,7 @@ permalink: /fan/
 
 <figure class="fan-work">
   <img src="/star-rangers/images/IMG_1786938939320.jpg"
-       alt="A red-haired woman walking barefoot along wet sand at sunset, a leather jacket open over a pale blouse, the low sun and two distant figures behind her" />
+       alt="A woman with long curly red hair walking barefoot towards the viewer along wet sand at sunset, in a black leather jacket open over a pale satin blouse and a short black skirt, the low sun on the water behind her and two distant figures further down the beach" />
   <figcaption>
     <strong>Shore leave.</strong> Generated, 17 August 2026, and uploaded here uncaptioned.
   </figcaption>
