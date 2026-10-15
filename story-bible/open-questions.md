@@ -35,6 +35,10 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Season numbers past 89 — raised 15 October 2026, OPEN, act when the record registers Season 85 or so
+
+Chapter ids allow two digits (`s00`–`s99`), and seasons 90–99 are reserved for forks (`FORKING.md`, *Numbering your own seasons and threads*, #1248 and #1249), so this record has 0–89. Fourteen seasons (0–13) were registered between July and mid-October 2026, about four a month, which reaches 89 in roughly a year and a half. The recommended answer when it comes, put to Dermot the same day: widen the id to three digits (`s100e01c01`: `CHAPTER_ID_PATTERN` in `lib/content-schema.js`, file and folder names, and seasons sorted as numbers rather than text), and have the record skip 90–99 and go from 89 to 100, so the reservation holds for good. An engine change made when the story needs it, not before.
+
 ## Dress, ornament and surface colour of the non-human peoples — `civilian-dress.md`, *Peoples in their own media*, 14 October 2026 — RULED same day, all as recommended
 
 At his two questions of 14 October (*"Dress codes, styles and ornamentation for non-humanoid peoples"*; *"Skin or surface colour variations in non-humanoid peoples"*), each people was worked out from the record, line by line derived or proposed, with principle 15 proposed as the general rule. Five choices are put to him there as options with recommendations: (1) the Pandoid coat, grey or black-and-white markings, A recommended; (2) the four Chthonari portraits alike, vary at the next re-roll or keep one carapace for the people, A recommended; (3) whether a Cerebraun's resting tone is individual or regional, A (individual) recommended; (4) the Pelagene's own role medium, a carried object or a skin display, A (object) recommended; (5) a Verdani token, none with the reason stated or a worn or grown one, A (none) recommended. The proposals stand as recommended until he rules.

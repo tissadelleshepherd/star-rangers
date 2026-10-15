@@ -54,6 +54,26 @@ Two notes on scope. A **Path A fork** (original story) sits outside this table: 
    - **Any other static host** (Netlify, Vercel, Cloudflare Pages, a plain bucket): run `npm run build` and publish `_site/`. Set `SITE_PATH_PREFIX=/` (step 4) if you serve at the domain root, and `SITE_DOMAIN=your-domain.com` at build time so the sitemap/robots/feed absolute URLs are yours, not this project's. `giscus.local.json` (step 5) is read at build the same as on any other path. None of these are tested by this project, but they use only the standard Eleventy build — no cPanel-specific machinery. For per-domain branding and copy on these hosts, see "Taking an edition to your own domain" below.
    - **cPanel**: copy `sample-deploy.conf` to `deploy.conf` and fill in your own values (see TECHNICAL-README.md's cPanel section for the full key reference) — or `sample-deploy-minimal.conf`, which is the same file cut down to `CPANEL_USER` and `DOMAIN`. Your domain won't be in `lib/editions.js`, so nothing gets resolved from that registry and the build falls back to its own defaults; set whatever you need explicitly in `deploy.conf`, or register your domain in an untracked `editions.local.json` — see "Taking an edition to your own domain" below. You don't need `SITE_PATH_PREFIX` here at all — `scripts/cpanel-deploy.sh` already rewrites the hardcoded `/star-rangers/` prefix to `/` as part of every cPanel deploy, regardless of fork, so cPanel targets just work unmodified. Need a cPanel host? This project's own domains run on [iFastNet](https://ifastnet.com/portal/aff.php?aff=29941) (referral link).
 
+## Numbering your own seasons and threads
+
+If you keep this record and add to it (Path B), number your additions where the record never will, so a later sync from this repository cannot collide with them:
+
+- **Seasons 90–99 are reserved for forks.** This record will never use them. Put your first fan season at 90 (`src/seasons/s90/`, chapter ids `s90e01c01` and on) and register it in `lib/storyline-threads.js` under your own thread.
+- **Thread ids beginning `fan-` are reserved for forks.** This record will never coin one, so `fan-tales` or `fan-<your-name>` is safe.
+- **Inside an existing season, episodes 90–99 are reserved for forks, and inside an existing episode, chapters 90–99.** A fan episode beside Season 4 is `s04e90c01`; a fan chapter added to Season 4's second episode is `s04e02c90`. A season's index page lists its episodes from the chapters themselves, so nothing of this record's needs editing for yours to appear. Use this only for a side story that belongs beside a particular season: it sits on that season's page and under its thread, among this record's own episodes, and the season page cannot say it is unofficial, so **every fan chapter must say so itself**. A season of your own in 90–99 keeps your work visibly apart and is the better default.
+
+Season numbers here are assigned in order as the record grows, so the next free number today is someone else's tomorrow. Renumbering later is possible, since a chapter's `comment_id` is its permanent identity and moves with it, but starting in the reserved range avoids it. (Reserved 15 October 2026, after the first fan fork took the next free season number.)
+
+## Versions and changelog in a fork
+
+This repository versions itself in four places: `version` in `package.json`, the README's *Current version* line (`npm test` fails if the two disagree), a released section per version in `CHANGELOG.md`, and an annotated tag such as `v1.40.0`. A fork that edits any of them collides with every later sync. So:
+
+- **Leave the version alone.** Keep `package.json` and the README line exactly as they come from this repository: they then always say which release of it your fork is built on.
+- **Tag your own releases with a suffix**, if you want them: `v1.40.0+fan.1`, `v1.40.0+fan.2`. In semantic versioning everything after `+` is a label, so the tag reads as this repository's 1.40.0 plus your first set of additions, and can never be mistaken for a release of this record. It is a tag only; no file changes.
+- **Record your changes in a changelog of your own**, `FAN-CHANGELOG.md` at the root, newest first, in the same Keep a Changelog shape. `CHANGELOG.md` is this record's, and lines added at its top meet this repository's own new entries there at every sync. One consequence to expect: `npm test`'s changelog-coverage step lists your fan pages as missing from `CHANGELOG.md`. It warns and never fails.
+
+(Added 15 October 2026, after the first fan fork added its entries to `CHANGELOG.md`.)
+
 ## Taking an edition to your own domain (`editions.local.json`)
 
 [`lib/editions.js`](./lib/editions.js) is the tracked registry of this project's own domains and their per-domain identity — "editions": palette, content filter, branding, homepage copy and flourishes. An untracked `editions.local.json` in the repo root adds your own domain to that registry without editing a tracked engine file, so pulling upstream never conflicts — the same arrangement as `giscus.local.json` (step 5) and `deploy.conf`. Copy [`sample-editions.local.json`](./sample-editions.local.json) into place (the copy is gitignored) and edit; the template documents every field inline.
