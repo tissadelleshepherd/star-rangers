@@ -1,27 +1,27 @@
 ---
 layout: base.njk
-title: "Season 14"
+title: "Season 90"
 eleventyComputed:
-  description: "Episodes and chapters in Season 14 of {{ site.name }}."
-permalink: /seasons/s14/
+  description: "Episodes and chapters in Season 90 of {{ site.name }}."
+permalink: /seasons/s90/
 ---
 <nav class="chapter-breadcrumb" aria-label="Season location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li aria-current="page">Season 14</li>
+    <li aria-current="page">Season 90</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 14</h1>
+<h1 class="page-title">Season 90</h1>
 <p class="page-intro">
-  <strong>Unofficial fan work.</strong> Season 14 exists only on this fork. It holds the Fan Tales thread: short scenes written by a fan, not by the author of Fian Ilchruinne, and not endorsed by him. Nothing here is canon, and no scene carries canon facts.
+  <strong>Unofficial fan work.</strong> Season 90 exists only on this fork. It holds the Fan Tales thread: short scenes written by a fan, not by the author of Fian Ilchruinne, and not endorsed by him. Nothing here is canon, and no scene carries canon facts.
 </p>
 <p class="page-intro">
   Each scene stands alone: no prior reading required, and nothing in the main story depends on any of them.
 </p>
-<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (14 | threadForSeason).id }}/">{{ (14 | threadForSeason).name }}</a></p>
+<p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (90 | threadForSeason).id }}/">{{ (90 | threadForSeason).name }}</a></p>
 
-{% set seasonNumber = "14" %}
+{% set seasonNumber = "90" %}
 {% include "season-portraits.njk" %}
 {% set hasSeasonChapters = false %}
 {% set currentEpisode = "" %}
@@ -34,7 +34,7 @@ permalink: /seasons/s14/
       {%- set currentEpisode = episodeValue -%}
       <div class="season-block">
         <h2 class="season-block__title">
-          <a href="/star-rangers/seasons/s14/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
+          <a href="/star-rangers/seasons/s90/e{{ chapter.data.episode | zeroPad }}/">Episode {{ chapter.data.episode }}</a>
         </h2>
         <ul class="chapter-list" role="list">
     {%- endif -%}
