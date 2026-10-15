@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**If this checkout is a fork, the rest of this file's landing instructions mean the fork.** Check `git remote get-url origin`: if it is not `dermot-r-cochran/star-rangers`, you are working on someone's fork. Land all work on `origin`; never push to, open a pull request on, comment on or merge anything in `dermot-r-cochran/star-rangers`, whatever credentials allow (Dermot, 2026-10-15, after a fork test running on his own sign-in merged two pull requests into this repository). Pulling from the original to stay current is fine. `CONTRIBUTING.md` says the same to people: *fork it freely, but don't send it back here*.
+
 ## What this is
 
 *Fian Ilchruinne* is an Eleventy (11ty)-powered multi-viewpoint novel site — hard science fiction with one licensed deviation. The repo is both the publishing engine (MIT-licensed) and the story content itself (CC BY-NC-ND 4.0, with a Fan Works exception — see `CONTENT-LICENSE.md`).
