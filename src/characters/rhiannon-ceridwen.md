@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-ceridwen, ridgemoot, human]
 description: "Clan head of Ceridwen on Aethelrock, holder of the world's only major fold-relay station, and the most contested figure at the Ridgemoot since she began negotiating directly with Star Rangers survey traffic."
 image: "rhiannon-ceridwen.jpg"
-image_alt: "Rhiannon Ceridwen beneath the mast of her relay station at dusk, a composed woman with grey curling hair in a heavy practical coat, standing level and unhurried on the platform decking with her hands at her sides, facing the viewer. The mast rises directly behind her, guy lines going up into low cloud, one small steady light burning high on it."
+image_alt: "Rhiannon Ceridwen on the decking of her relay station at dusk, a composed woman with grey curling hair in a long charcoal coat and a teal and ochre tartan scarf, standing level with her hands at her sides. Behind her a tall plain grey column rises into low cloud with one small warm light on it, above low stone buildings with conduits along their walls, and grain terraces fall away below the plateau."
 ---
 
 Rhiannon Ceridwen did not ask to be the first person on Aethelrock a Star Rangers survey officer ever spoke to. She has stopped apologising for it.

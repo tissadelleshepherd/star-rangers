@@ -61,6 +61,47 @@ Current Survey Corps protocol classifies Lagrange points into two operational ti
 
 **Tier 2 (conditionally cleared):** L1 and L2 of systems where the mass ratio produces a relatively shallow instability gradient, or where continuous station-keeping infrastructure is already in place for other purposes. These require explicit clearance from the Navigation Corps before fold use. L3 is generally not cleared for fold operations due to its position on the far side of the primary, which complicates real-time monitoring.
 
+<figure class="lore-diagram">
+<svg viewBox="0 0 640 476" role="img" aria-labelledby="lfp-diagram-title lfp-diagram-desc">
+<title id="lfp-diagram-title">The five balance points of a two-body system, by fold-staging tier</title>
+<desc id="lfp-diagram-desc">A larger body at the centre and a smaller body on its orbit, moving anticlockwise. L1 lies between the two bodies on the line joining them, L2 beyond the smaller body on that line, and L3 on the far side of the larger body. L4 sits 60 degrees ahead of the smaller body in its orbit and L5 60 degrees behind. L4 and L5 are stable and Tier 1, the preferred departure sites. L1 and L2 are unstable and Tier 2, conditionally cleared. L3 is unstable and generally not cleared for fold operations.</desc>
+<circle cx="290" cy="190" r="140" class="line-0 dash"/>
+<line x1="126" y1="190" x2="490" y2="190" class="line-0"/>
+<line x1="290" y1="190" x2="360" y2="68.8" class="line-0 dash"/>
+<line x1="290" y1="190" x2="360" y2="311.2" class="line-0 dash"/>
+<path d="M336 190 A46 46 0 0 0 313 150.2" class="line-0"/>
+<path d="M336 190 A46 46 0 0 1 313 229.8" class="line-0"/>
+<text x="340" y="162" class="sm mute">60°</text>
+<text x="340" y="230" class="sm mute">60°</text>
+<path d="M442.6 149.1 A158 158 0 0 0 419.4 99.4" class="line-t"/>
+<polygon points="419.4,99.4 428.3,104.2 420.9,109.4" class="fill-t"/>
+<text x="436" y="100" class="sm mute">direction of orbit</text>
+<circle cx="290" cy="190" r="16" class="fill-t"/>
+<text x="272" y="222" text-anchor="end" class="sm">larger body</text>
+<circle cx="430" cy="190" r="7" class="fill-t"/>
+<text x="430" y="214" text-anchor="middle" class="sm">smaller body</text>
+<rect x="386" y="184" width="12" height="12" class="fill-2"/>
+<text x="392" y="175" text-anchor="middle">L1</text>
+<rect x="462" y="184" width="12" height="12" class="fill-2"/>
+<text x="468" y="175" text-anchor="middle">L2</text>
+<circle cx="150" cy="190" r="7" class="ring"/>
+<text x="150" y="175" text-anchor="middle">L3</text>
+<circle cx="360" cy="68.8" r="7" class="fill-1"/>
+<text x="374" y="64">L4 · 60° ahead</text>
+<circle cx="360" cy="311.2" r="7" class="fill-1"/>
+<text x="374" y="326">L5 · 60° behind</text>
+<circle cx="44" cy="380" r="7" class="fill-1"/>
+<text x="60" y="384">Tier 1, preferred departure · L4, L5 · stable: disturbances damp</text>
+<rect x="38" y="400" width="12" height="12" class="fill-2"/>
+<text x="60" y="410">Tier 2, conditionally cleared · L1, L2 · unstable: drift grows</text>
+<circle cx="44" cy="432" r="7" class="ring"/>
+<text x="60" y="436">Generally not cleared for fold operations · L3 · unstable</text>
+<circle cx="44" cy="458" r="5" class="fill-t"/>
+<text x="60" y="462">The two bodies of the system</text>
+</svg>
+<figcaption>The five balance points of a two-body system, by the Survey Corps' fold-staging tier. Positions are drawn for clarity, not to scale.</figcaption>
+</figure>
+
 L5 of the Earth–Sun system accumulated the densest concentration of fold-transit infrastructure during the Expansion period. Its stability, accessibility, and early recognition by Survey Corps navigators made it the primary staging ground for extrasolar fold operations. The monitoring station at Earth–Sun L5 predates the Star Rangers by over a century and is one of the few facilities named as protected infrastructure in the Rangers' founding charter.
 
 ## Quiet-Zone Tunnels: Undetected Natural Fold Conduits

@@ -6,7 +6,7 @@ category: "Locations"
 tags: [fliade, pandoids, anstolik, survey-world, cavern-biosphere, first-contact, below-the-roof, star-rangers, locations]
 description: "A cold terrestrial world whose biodiversity lives underground, and whose deep-cavern people the survey found before anyone had proposed doing anything to the planet — the rare case where the sapience clause arrived early enough to matter."
 image: "planets/fliade.jpg"
-image_alt: "A cavern throat lit only by pale bioluminescent growth, fungal shelves and tendrils coating every surface and the way ahead fading into dark"
+image_alt: "A cavern passage receding into darkness, its wet rock walls and floor covered in bracket fungi, small-capped fungi and pale threads glowing faintly amber and blue-green, pale silt and loose stones underfoot"
 plain: "Fliade is a cold planet where most life lives in warm underground caves rather than on the frozen surface. One of the peoples living there, the Pandoids, are intelligent. They do not travel in space and keep their history by speaking rather than writing. Because they were found before anyone tried to change the planet, the rules that protect inhabited worlds applied from the start."
 galaxy: "Milky Way"
 locationType: "Planet"

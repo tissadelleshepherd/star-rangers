@@ -146,18 +146,36 @@ permalink: /start/
 {#- ======================================================================
     The site-wide plan: Sen's archivist's note.
     ====================================================================== -#}
-<img class="page-hero-image" src="/star-rangers/images/hero/s01e03-archive.jpg" alt="An old archive shelf of records" />
+<img class="page-hero-image" src="/star-rangers/images/hero/s01e03-archive.jpg" alt="Shelves packed with worn paper files and folders standing on end, a row of labelled archive files on the shelf below" />
 <h1 class="page-title">The Reading Plan</h1>
 <p class="page-intro">
   <em>An archivist's note — which is to say: unofficial, signed, and permitted an opinion. I keep the record you are about to read reconciled, and this note is what I tell people who ask my desk where to start, written down so I can stop repeating it. The record is one history attested by many witnesses, and the shelf around it is reference, not homework — you need none of it before you begin. If you would rather browse than be guided, <a href="/star-rangers/seasons/">Seasons &amp; Episodes</a> lists everything, and my feelings will survive.</em>
 </p>
 
+{#- "Begin here" opens on the spine's first numbered episode, not on
+    Episode 0. Story order puts the Season 1 prequels (S01E00) first, and
+    until 2026-10-09 the page sent a new reader to a cat on the road to an
+    abbey when the homepage had just promised a station clock; Dermot's
+    Option A that day: open on the clock, offer the prequels one line later.
+    `preludeFirst` is the first Season 1 Episode 0 chapter, if the build
+    carries one; the sentence under it describes that episode, so it is
+    pinned to Season 1 rather than to whichever season the spine opens on. -#}
 {% set spineFirst = null %}
+{% set preludeFirst = null %}
 {% for chapter in allChapters %}
-  {%- if not spineFirst and (chapter.data.season | threadForSeason).id == "tissadelle-arc" -%}
-    {%- set spineFirst = chapter -%}
+  {%- if (chapter.data.season | threadForSeason).id == "tissadelle-arc" -%}
+    {%- if not spineFirst and chapter.data.episode > 0 -%}
+      {%- set spineFirst = chapter -%}
+    {%- endif -%}
   {%- endif -%}
 {% endfor %}
+{% if spineFirst %}
+  {%- for chapter in allChapters -%}
+    {%- if not preludeFirst and spineFirst.data.season == 1 and chapter.data.season == 1 and chapter.data.episode == 0 -%}
+      {%- set preludeFirst = chapter -%}
+    {%- endif -%}
+  {%- endfor -%}
+{% endif %}
 {% if not spineFirst and allChapters.length %}{% set spineFirst = allChapters[0] %}{% endif %}
 
 <section class="thread-section" aria-labelledby="plan-step-1">
@@ -180,6 +198,11 @@ permalink: /start/
       </a>
     </li>
   </ul>
+  {%- if preludeFirst -%}
+  <p class="thread-section__description">
+    The same season also keeps an <a href="/star-rangers{{ preludeFirst.url | replace(preludeFirst.fileSlug + "/", "") }}">Episode 0</a> of prequels — a household cat, three machines on a wrecked ship, a boundary analyst's three words — which the <em>Next</em> link will not hand you on this path. Read them after the station, when you know what they were before.
+  </p>
+  {%- endif -%}
   {%- else -%}
   <p class="thread-section__description">
     This edition of the record carries no chapters from the spine. <a href="/star-rangers/seasons/">Seasons &amp; Episodes</a> will tell you what it does hold — pick up the path there, and rejoin this note at step 4.
@@ -258,6 +281,57 @@ permalink: /start/
   <p class="thread-section__description">
     <em>— Sen, Senior Archivist, Survey Archive, Threshold Station. Filed as a reading aid, not as doctrine; comments to the usual shelf.</em>
   </p>
+</section>
+
+<section class="thread-section" aria-labelledby="plan-arranged">
+  <h2 class="thread-section__title" id="plan-arranged">How the record is arranged</h2>
+  <p class="thread-section__description">
+    Outside Sen's note, and in plain terms: the record is published at four reading tiers that nest, each carrying
+    everything inside it and adding storylines of its own, and nothing read on an inner tier is withdrawn or
+    contradicted on an outer one. Every address you can read it at is an <em>edition</em> on one of those tiers.
+    Inside any storyline the units get smaller in the same order everywhere.
+  </p>
+  <figure class="lore-diagram">
+<svg viewBox="0 0 640 394" role="img" aria-labelledby="arranged-title arranged-desc">
+<title id="arranged-title">How the record is arranged</title>
+<desc id="arranged-desc">Four nested boxes show the reading tiers. Children, which reads interesting and playful, is innermost; young adult, mysterious, with exploration and adventure, contains it; general, deeper, contains that; and contemplative, free to question everything, contains them all. Each tier carries everything inside it and adds its own storylines.{% if edition.tier %} This edition sits at the {{ edition.tier | replace("-", " ") }} tier.{% endif %} Below, a row of six boxes shows the units inside a storyline, largest to smallest: thread, season, episode, chapter, scene, and viewpoint. A note under the season box says a season may run as two or more strands, parallel storylines that meet at a fixed point.</desc>
+<text x="20" y="28" class="sm mute">One record at four reading tiers: each carries everything inside it, and adds its own storylines</text>
+<rect x="20" y="44" width="600" height="196" rx="6" class="{% if edition.tier == "contemplative" %}box-1{% else %}box-2{% endif %}"/>
+<text x="34" y="66">Contemplative{% if edition.tier == "contemplative" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
+<text x="606" y="66" text-anchor="end" class="sm mute">free to question everything</text>
+<rect x="40" y="78" width="560" height="148" rx="6" class="{% if edition.tier == "general" %}box-1{% else %}box-2{% endif %}"/>
+<text x="54" y="100">General{% if edition.tier == "general" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
+<text x="586" y="100" text-anchor="end" class="sm mute">deeper</text>
+<rect x="60" y="112" width="520" height="100" rx="6" class="{% if edition.tier == "young-adult" %}box-1{% else %}box-2{% endif %}"/>
+<text x="74" y="134">Young adult{% if edition.tier == "young-adult" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
+<text x="566" y="134" text-anchor="end" class="sm mute">mysterious, with exploration and adventure</text>
+<rect x="80" y="146" width="480" height="52" rx="6" class="{% if edition.tier == "children" %}box-1{% else %}box-2{% endif %}"/>
+<text x="94" y="168">Children{% if edition.tier == "children" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
+<text x="546" y="168" text-anchor="end" class="sm mute">interesting and playful</text>
+<rect x="20.0" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="63.0" y="315" text-anchor="middle">Thread</text>
+<path d="M109.0 310 h10.8 m-4 -4 l4 4 l-4 4" class="line-0"/>
+<rect x="122.8" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="165.8" y="315" text-anchor="middle">Season</text>
+<path d="M211.8 310 h10.8 m-4 -4 l4 4 l-4 4" class="line-0"/>
+<rect x="225.6" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="268.6" y="315" text-anchor="middle">Episode</text>
+<path d="M314.6 310 h10.8 m-4 -4 l4 4 l-4 4" class="line-0"/>
+<rect x="328.4" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="371.4" y="315" text-anchor="middle">Chapter</text>
+<path d="M417.4 310 h10.8 m-4 -4 l4 4 l-4 4" class="line-0"/>
+<rect x="431.2" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="474.2" y="315" text-anchor="middle">Scene</text>
+<path d="M520.2 310 h10.8 m-4 -4 l4 4 l-4 4" class="line-0"/>
+<rect x="534.0" y="288" width="86" height="44" rx="5" class="box-2"/>
+<text x="577.0" y="315" text-anchor="middle">Viewpoint</text>
+<text x="20" y="276" class="sm mute">Inside every storyline, largest to smallest</text>
+<path d="M165.8 334 v14 h8" class="line-0 dash"/>
+<text x="179" y="352" class="sm mute">a season may run as two or more strands that meet at a fixed point</text>
+<text x="20" y="380" class="sm mute">A chapter is made of scenes, and each scene is seen from more than one viewpoint</text>
+</svg>
+<figcaption>The reading tiers nest; the edition you are reading is marked. Inside a storyline, a thread holds whole seasons, a season holds episodes (and may run as two or more strands, parallel storylines that meet at a point fixed in advance), an episode holds chapters, a chapter holds scenes, and each scene is told from more than one viewpoint. <a href="/star-rangers/tiers/">Reading Tiers</a> says which storylines each tier carries and where to read it.</figcaption>
+  </figure>
 </section>
 
 <section class="thread-section" aria-label="Beyond the record">

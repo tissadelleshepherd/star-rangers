@@ -10,7 +10,7 @@ aliases:
 tags: [krenyi, cadet, boundary, threshold-station, survey-corps, season-5]
 description: "A young Krenyi Cadet on Threshold Station's boundary desk in 2831 UCSD, under Syra, being trained out of the habit of rounding up. He wrote down what the instruments carried on the morning of Dock Seven."
 image: "toval.jpg"
-image_alt: "A young Krenyi, pale and hairless with large calm dark eyes, in grey service dress with a plain tab at the collar, seated at a bare desk with a pen stopped over a sheet of paper, a plain sealed housing on the desk beside him, cool even light"
+image_alt: "A young Krenyi who reads at first as an ordinary young man, short dark hair, a scatter of freckles, his face symmetrical and his dark eyes set a little wide with the pupils open, in the deep olive field shell of the Survey Corps with a single small tab of two bars at the collar, seated very still at a plain desk by a window with the pen stopped on a sheet of paper, his eyes lifted to something off to one side, a plain sealed housing on the desk beside him."
 ---
 
 Toval is Krenyi, one of the Quiet-Built, and young by his people's reckoning, which they keep in their own calendar and he gives in the material form when asked: younger than sixty, by the Corps' conversion, which for a Krenyi is the beginning of a life rather than the middle of one. He holds Cadet standing in the [Survey Corps](/star-rangers/lore/star-rangers-academy/), confirmed by the college in 2831 UCSD, and is posted to [Threshold Station's](/star-rangers/lore/boundary-zones/) boundary desk under [Syra](/star-rangers/characters/syra/), who is training him.

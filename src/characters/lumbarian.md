@@ -9,7 +9,7 @@ aliases: []
 tags: [ai, kernel-compliant, robot, eva, maintenance, star-rangers]
 description: "The largest member of Karla Wender's complement: a station-scale repair robot built to work open vacuum, gentle at a size where gentleness is a decision, and valued exactly as much as everything he can reach."
 image: "lumbarian.jpg"
-image_alt: "Lumbarian, a vast trussed repair machine of armoured housings and long articulated manipulators, working against the pale curving hull of a starship in open space, one manipulator laid flat and still along the plate. A human-sized hatch with a handrail beside it gives the scale."
+image_alt: "Lumbarian, a large repair machine of open pale grey truss and closed housings, resting on the plain grey hull of a starship in hard sunlight against a black sky, one long jointed manipulator laid flat and still along the plate. A small flush hatch beside the manipulator gives the scale."
 ---
 
 Lumbarian is built for the outside of things. He is a heavy repair robot who works in open vacuum, on the scale of the structures he repairs: stations, starships, the trusswork and hull plate that everything else lives inside. His working day is measured in metres of seam and tonnes of load, and he boards [Karla Wender's](/star-rangers/characters/karla-wender/) ship the way cargo does. Most of the ship's interior has never seen him.

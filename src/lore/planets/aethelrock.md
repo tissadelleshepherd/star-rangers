@@ -8,7 +8,7 @@ galaxy: "Milky Way"
 system: "Bruane System"
 locationType: "Planet"
 image: "aethelrock.jpg"
-image_alt: "An illustrated background of space and a planet"
+image_alt: "A broad glacier-cut glen between steep bare granite ridges with low cloud on the tops, and in the foreground two long stone longhouses with plain conduits run along their walls beside a line of capped composite fence posts, sheep grazing along it and lichened granite in front"
 ---
 
 Ask a Union diplomat which charter world is hardest to get a straight answer from, and the answer is not Ynys Wydrin, where the trouble is the air. It is Aethelrock, where the trouble is agreeing on who gets to speak.
@@ -37,7 +37,7 @@ Reconnection with the Solar System strained the arrangement badly. Clan Ceridwen
 
 ## Settlement Character
 
-Aethelrock follows Ynys Wydrin's register more than Tír na nÓg's: a hard world where technology stays visible because pretending otherwise gets people killed. Clan holdings run to weatherproofed stone longhouses with exposed heating conduits and drone-serviced grazing fences, not the recessed, softened tech of the biosphere worlds. Where the clans differ sharply from Ynys Wydrin is in the culture layered over that hardware — tartan-woven cold-weather cloth in clan-specific setts, contested grazing marches still walked on foot once a season to keep the boundary memory alive, and a body of clan law that predates the Union charter by generations and answers to it only when convenient.
+Aethelrock follows Ynys Wydrin's register more than Tír na nÓg's: a hard world where technology stays visible because pretending otherwise gets people killed. Clan holdings run to weatherproofed stone longhouses with exposed heating conduits and drone-serviced grazing fences, not the recessed, softened tech of the biosphere worlds. Where the clans differ sharply from Ynys Wydrin is in the culture layered over that hardware — tartan-woven cold-weather cloth in [clan-specific setts](/star-rangers/lore/the-setts-of-aethelrock/), contested grazing marches still walked on foot once a season to keep the boundary memory alive, and a body of clan law that predates the Union charter by generations and answers to it only when convenient.
 
 What the world supplies is air, water and ground, and what grows and grazes on it came off the ark. Aethelrock's atmosphere is a native biosphere's, and that biosphere is in its seas and on its rock, a mosslike cover on the granite and a thin life in the fjords that the Survey Corps logs and the Union's protocols do not harvest; the land fed nobody before landfall. Clan Dubhghlas's arable is Terran crop stock hardened to a short season and worked under the cold-world methods [Ynys Wydrin](/star-rangers/lore/planets/ynys-wydrin/) develops for the whole Union, under glass where the season is shortest; the flocks on every clan's grazing descend from Currach Fleet stock, as [Tír na nÓg's](/star-rangers/lore/planets/tir-na-nog/) uplands' do; and Clan Ó Ceallaigh's fleets fish stock the founders introduced to the fjords, not what the fjords held. Nothing native to Aethelrock is eaten. The world is breathable, which is rarer than it sounds in this record, and it is not compatible, which is rarer still and is one world's alone.
 

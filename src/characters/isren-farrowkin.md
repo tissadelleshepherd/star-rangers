@@ -10,7 +10,7 @@ aliases:
 tags: [verdance, verdani, canopy-concord, federation-of-sentient-beings, fourfold-accord]
 description: "The Canopy Concord's senior delegate to Verdance's Fourfold Accord, and the Verdani currently holding Verdance's rotating seat on the Federation of Sentient Beings' assembly."
 image: "isren-farrowkin.jpg"
-image_alt: "Isren Farrowkin, a Verdani delegate, in a bright stone hall beside a tall window. A low broad body rests close to the floor on many short sturdy limbs, and from it rise several very wide thin fern-like vanes held half-open toward the light, their upper surfaces carrying dense patches of deep chlorophyll green. Rows of small dark sensory nodes run along the leading edges; there is no face."
+image_alt: "Isren Farrowkin, a Verdani delegate, seen across a bare, pale terrace room against a wall of tall glazing. A low, broad, rounded body rests on short limbs close to the floor, with no head and no face, and from it rise several very wide fern-like vanes fanned toward the light, green and veined, the daylight showing through them, rows of small dark nodes along their edges. A sunlit terrace of planting lies beyond the glass."
 ---
 
 Isren Farrowkin has spent eleven local years arguing that the Federation assembly's weighted-vote formula undercounts biosphere-diverse worlds, and eleven local years losing that argument by a narrower margin each time. Colleagues who assumed the losing streak would wear her down have, one by one, stopped assuming it.

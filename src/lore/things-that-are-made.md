@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [cosmology, physics, worldwrights, providence, design, church-space]
 description: "The church-space telling of the Physics Comparison — where the Archive insists the difference from the real cosmos is architecture and not magic, devotional tradition asks who the Archive thinks drew the plans."
 image: "things-that-are-made.jpg"
-image_alt: "A vast pale concrete megastructure receding into fog, with a single small human figure at the edge of the frame for scale"
+image_alt: "An immense pale structure of identical stepped terraces and ribs repeating across a wide valley into the haze, seen from a high bare ridge where one small person stands looking at it."
 ---
 
 The Archive's [Physics Comparison](/star-rangers/lore/physics-comparison/) ends on a sentence built to close the question: *no physics in this universe is supernatural... The difference from the real cosmos is not magic. It is architecture.* Devotional tradition has never disputed that sentence. It disputes what the Archive thinks it has proven by saying it.

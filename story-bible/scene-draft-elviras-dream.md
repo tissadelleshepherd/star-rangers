@@ -1,7 +1,10 @@
 # Scene draft — Elvira's dream
 
 **Status: drafted 3 September 2026 at Dermot's direction and approved the same
-day; slot deliberately unfixed.** Direction, verbatim: *"Elvira had a dream in which
+day. Placed 13 October 2026 as S01E02C00, `src/seasons/s01/e02/s01e02c00.md`,** at
+Dermot's choice among three slots (*"Chapter before Broken Causeway"*). The
+published chapter is the text below with one change: Aldera's log calls Elvira
+*Subject A*, as her log in S01E02C01 does, where this draft had *Subject E*. Direction, verbatim: *"Elvira had a dream in which
 she transformed Aldera into a feline humanoid using magic."*
 
 **Shape.** One scene, two blocks. Elvira's is the dream and the taking-apart of

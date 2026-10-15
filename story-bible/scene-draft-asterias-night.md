@@ -2,9 +2,12 @@
 
 **Status: filed as `s08e02c01`, *Asteria's Night*, 3 September 2026** — Dermot's
 choice between a gated chapter and a general chapter with a gated block, made
-for the gated chapter once the chronology was measured: at a hundred and thirty
-she stands about 2850, eighteen years past the last general-tier season, and
-Season 8 keeps no year. The prose moved unchanged; the `tier=contemplative`
+for the gated chapter once the chronology was measured. *(Corrected 10 October
+2026: this note said a hundred and thirty; the filed chapter says, in her own
+words, "I am a hundred and ten years old, Peran", and her page has her
+retiring at about a hundred, so the scene sits about ten years after her
+retirement, around 2830, and the chapter binds where the two differ.)* Season
+8 keeps no year. The prose moved unchanged; the `tier=contemplative`
 marker on her block is kept, so the chapter could move to a general-tier home
 later without editing. This file stays as the record of the draft.
 
@@ -41,10 +44,12 @@ permitted); `dreams-across-the-interval.md`; `fellowship-of-light.md`
   names it afterwards. The figure has the form of a dead colleague, which is
   what `levrils.md` says a human gets.
 - Asteria taking no action, and the reasons being sound.
-- **Asteria at a hundred and thirty** — approved by Dermot, 3 September 2026,
-  on the reasoning that life expectancy will have increased slightly. Her page
-  has her retiring at about a hundred, so this puts thirty years at the house
-  behind the scene; the draft's own arithmetic was corrected to match.
+- **Asteria at a hundred and ten** — the filed chapter's own figure ("I am a
+  hundred and ten years old, Peran"), ten years at the house behind the scene
+  with her retirement at about a hundred. *(This note read "a hundred and
+  thirty — approved by Dermot, 3 September 2026" until 10 October 2026; the
+  draft as filed never carried that figure, and the published chapter is the
+  authority. Corrected at his "fix the Asteria scene".)*
 - Peran Slade present at the chapter house and the one she speaks to in the
   morning. Peran's own view is not given — that block, if ever wanted, is a
   third shape's worth of work and a different question.

@@ -5,7 +5,7 @@ category: "Physics"
 tags: [ftl, quantum-space-harmonic-wave, harmonics, corridor-theory, concordant, navigation]
 description: "Detailed canon rules for how quantum space harmonic corridors form, remain stable, and fail."
 image: "quantum-space-harmonics.jpg"
-image_alt: "A close-up of a quark, an elementary particle"
+image_alt: "Two transparent spheres side by side against a starfield, threaded with fine glowing filaments that knot together where the spheres touch, a smaller ring of light inside the right-hand one"
 ---
 
 A harmonic route is never just a road waiting in the dark. It is a brief agreement between geometry, vessel, and destination, and it ends the moment that agreement fails.

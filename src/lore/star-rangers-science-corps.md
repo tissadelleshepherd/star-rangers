@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [star-rangers, science-corps, chief-science-officer, survey-corps, boundary, research, institutions]
 description: "The Star Rangers Science Corps: the guild-independent research body that interprets what the Survey Corps collects, and the Chief Science Officer duty title that leads it post by post."
 image: "star-rangers-science-corps.jpg"
-image_alt: "A plain grey room with a wooden bench by a window, three cloth-bound ledgers stacked beside a sealed glass jar holding a sample, a pencil pot and a chair"
+image_alt: "A plain pale room aboard an installation with a long window onto black space: on a long composite bench a small smooth grey sealed ovoid sits in a round recess beside a tall stack of shut cloth-bound volumes, and a moulded chair is pushed back from the bench."
 ---
 
 The MSC's preliminary report on Eden's fold-adjacent position took fourteen months to reach a conclusion nobody upstream wanted to act on. The Science Corps was built, in part, so that a finding could stop taking that long to matter.
@@ -36,7 +36,7 @@ The Corps also maintains the theoretical side of instrument design in partnershi
 
 A Chief on the science track carries the duty title **Chief Science Officer** — same rank, same seniority as a Chief Ranger, Chief Pilot, or Chief Provost, and reached by the same certification ladder every technical Chief climbs. See [Rank and the Chain of Command](/star-rangers/lore/star-rangers-command-hierarchy/) for the ladder itself.
 
-A Chief Science Officer runs the science section at a post or aboard a vessel: assigning research priorities among whatever Science Corps personnel are on station, reviewing findings before they leave the post for wider Corps publication, and serving as the working counterpart a Starwarden or Line Captain consults when a command decision needs to rest on something better than an educated guess. The role carries no authority over Survey Corps fieldwork, Safety Corps certification, or command decisions themselves — a Chief Science Officer can tell a Starwarden what the data supports and what it doesn't; the Starwarden still commands. That division is the same command/guild separation every specialist corps operates under, applied to the one duty title built to sit closest to command without ever quite joining it.
+A Chief Science Officer runs the science department at a post or aboard a vessel: assigning research priorities among whatever Science Corps personnel are on station, reviewing findings before they leave the post for wider Corps publication, and serving as the working counterpart a Starwarden or Line Captain consults when a command decision needs to rest on something better than an educated guess. The role carries no authority over Survey Corps fieldwork, Safety Corps certification, or command decisions themselves — a Chief Science Officer can tell a Starwarden what the data supports and what it doesn't; the Starwarden still commands. That division is the same command/guild separation every specialist corps operates under, applied to the one duty title built to sit closest to command without ever quite joining it.
 
 Like any technical Chief, a Chief Science Officer is not obligated to pursue a Starwarden's post to keep advancing — a career spent entirely inside the science track, accumulating specialist certifications and commendations rather than further rank, is exactly what the technical ceiling was built for.
 

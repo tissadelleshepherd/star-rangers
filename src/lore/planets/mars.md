@@ -23,7 +23,7 @@ The result is a planet in two registers at once. Beneath sealed, radiation-harde
 
 ## The Command Throughline
 
-Solar Command — the interplanetary government's operational and military nerve center, under whatever name the government of the day has used — has been physically headquartered on Mars since the Navigation and Trade Accords of 2337 UCSD (2137 CE). Every subsequent government inherited both the building and the assumption that it belonged there.
+Solar Command — the interplanetary government's operational and military nerve center, under whatever name the government of the day has used — has been physically headquartered on Mars since the Navigation and Trade Accords of 2137 CE (2337 UCSD). Every subsequent government inherited both the building and the assumption that it belonged there.
 
 - Under the **United Space Consortium**, Mars-orbital interests sat close enough to Solar Command to informally out-influence Earth-based delegations on procedural matters, a structural advantage the USC's own charter never formally acknowledged.
 - Under **the Imperium**, the Inner System Defence Fleet's officer corps — the institution that ended the Coherence Wars and then ruled for sixty years — was Mars-headquartered from its first unified command structure onward. Command culture on Mars during this period ran openly stratified by service record, exactly as Imperium doctrine prescribed everywhere else.

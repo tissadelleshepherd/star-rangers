@@ -11,7 +11,7 @@ aliases:
 tags: [human, survey, threshold-station, season-1]
 description: "Senior boundary surveyor assigned to lead the new team at Threshold Station."
 image: "galahad-thorne.jpg"
-image_alt: "Sir Galahad Thorne on a misted marsh at first light, one hand steadying a plain unmarked optical survey instrument on its tripod, a line of bare wooden marker posts receding into the haze behind him."
+image_alt: "A bearded man in grey-green field dress with a small collar tab, one hand on a flat sealed survey instrument set on a stone at the edge of a misted marsh at first light, a line of old wooden posts receding into the haze and a small survey drone hanging low over the water"
 ---
 
 Twelve years in the Survey Corps teaches a person to read incident reports the way a geologist reads strata: not for the events themselves, but for the gaps between them — what was not filed, what was filed and quietly revised, what the official record decided to call noise.

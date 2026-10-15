@@ -146,7 +146,9 @@ two on separate carriers, in separate colour systems, is exactly the point. You
 can be a Safety Corps officer on the piloting track, and the uniform says both
 without implying either follows from the other.
 
-## Proposed — corps colours (the shell)
+## ~~Proposed~~ Canon since 11 October 2026 — corps colours (the shell)
+
+*(Adopted at Dermot's "Yes please", 11 October 2026, with three shells changed so that no shell matches a tab: Survey deep olive (was pale grey-green, the survey tab), Safety dark ochre-brown (was amber-ochre, against the amber tab), Engineering graphite with steel piping (was copper piping, the engineering tab). The rule: shells dark and muted, tabs lighter and clearer. Now on the rank page; the list below is the original proposal.)*
 
 Muted and industrial, so a hangar full of Rangers reads as one service:
 

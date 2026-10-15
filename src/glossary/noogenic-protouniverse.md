@@ -28,6 +28,16 @@ It is not yet a fully governed universe. A protouniverse has not stabilized enou
 
 Note that the relation is free at both ends. **A parent universe may itself be primary, secondary, or derived**; seeding takes a mind capable of it, not a pedigree. And a matured noögenic universe is not classified by its parent's standing — [noögenic descent is a separate axis from primary/secondary/derived](/star-rangers/lore/universe-overlap-and-folding/) rather than a fourth entry on that list. This is the sharp difference from a **derived** universe, which is permanently subordinate and never graduates: subordination here is a phase of growth, not a standing condition.
 
+## What It Inherits
+
+**A noögenic universe inherits the vocabulary of its parent's law, not the sentences.** The seed carries structure and no rule-set, so what the child receives from above comes to it by tier.
+
+- **Everything fixed above the Archewrights binds it, as it binds every universe.** That includes the conditions [Conseleme](/star-rangers/glossary/conseleme/) sets for any implementation to satisfy, among them the asymmetry of [past, present and future](/star-rangers/lore/cosmic-cascade/#past-present-and-future), and the Formwright's [formtype](/star-rangers/glossary/formcluster/), which seats the child in its parent's manifold. A seed in [Selvage](/star-rangers/lore/selvage-archecluster/) lands in a seat the formtype reserved.
+- **By descent, it belongs to its parent's [archecluster](/star-rangers/glossary/archecluster/).** It therefore inherits that Archewright's archetypes and possibility space: the Etheric rule-templates that physics is drawn from, the cluster's [quantum kernel](/star-rangers/glossary/generalised-quantum-mechanics/) and its [harmonic admissibility](/star-rangers/glossary/quantum-space-harmonic-wave/). These are the words its physics can be written in.
+- **It does not inherit its parent's Concordant rule-sets.** It does not receive the particular physics of the parent's zones, or the design the parent's [Worldwright](/star-rangers/glossary/worldwright/) chose, if the parent had one. Those settle afresh as the seed's structure unfolds into substrate, inside the inherited possibility space. This is what the [seeding law](/star-rangers/glossary/noogenic-seeding-law/) means by *lawful variation*, and it is why a noögenic universe is never a copy of its parent. Its zones hold physics of their own, written in the family's vocabulary.
+
+The contrast with a [derived universe](/star-rangers/lore/universe-overlap-and-folding/) is the point. A derived universe's physics stays a function of its sources' Concordant constraints for as long as it exists. A noögenic universe owes its parent the words and nothing that is said in them, which is the law's version of the rule on authority: the kinship is permanent and confers nothing.
+
 ## Where the Energy Comes From
 
 **Nothing is taken from the parent but the start.** A seed carries structure, not mass, and the energy a new universe runs on is not shipped across with it. The record's account follows ordinary cosmology rather than departing from it, in three steps.

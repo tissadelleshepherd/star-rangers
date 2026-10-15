@@ -22,6 +22,6 @@ They are **not meta-dimensional in origin**: they are native to their own univer
 
 **Met three ways.** A Caomhari may be met as an imprint, a [Membrane Shadow](/star-rangers/lore/membrane-shadows/) with no body and nothing crossed; as a [Photographic Being](/star-rangers/glossary/photographic-beings/), this side's daylight gathered into a far-side outline, also with nothing crossed; or in a body, through a transient gravity tunnel at a Conjunction window, luminous by its own voice. There is no half-crossed body between the last two: a tunnel is a conduit or nothing, and no transit caught at its collapse has ever been recorded resolving safely. A dreaming mind near the narrowed Interval may also register their bled templates ([Dreams Across the Interval](/star-rangers/lore/dreams-across-the-interval/)), which is a reading and not a meeting.
 
-They are not [Obligers](/star-rangers/glossary/obligers/). The two share nothing but a history of being called by the same folk word, and that confusion is why both names were settled on 2026-09-23.
+They are not [Obligers](/star-rangers/glossary/obligers/). The two share nothing but a history of being called by the same folk word, and that confusion is why both names were settled together.
 
 **Example:** A Union field note from a Conjunction window records *the Good People at the tree line, three, withdrawing before the close*. Filed, it reads: three Caomhari presentations, Class II, no feeding signature, withdrew before the window closed.

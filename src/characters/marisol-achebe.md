@@ -2,6 +2,7 @@
 layout: character.njk
 title: "Detective Marisol Achebe"
 id: achebe
+pov_ids: [marisol-achebe]
 species: Human
 role: Detective, Eden Space Habitat detective bureau
 status: Active
@@ -9,7 +10,7 @@ aliases: []
 tags: [human, eden, detective, orbital-habitats-compact, undercover-pets.com]
 description: "One of the three junior detectives on Eden's bureau roster, and keeper of Knopka. Her first case of her own was eleven days of missing flour, which she closed with a one-page report, no charges, and a rabbit."
 image: "marisol-achebe.jpg"
-image_alt: "A young Black woman with locs tied back, in a plain grey work jacket with a small white tab bearing one black stroke on the lapel, sits on stacked paper sacks of flour in a warm, tidy dry-stores room, hands loosely clasped, watching a blank pale wall panel to her left. A brown rabbit sits upright on the floor beside her, facing the same wall, where a patch of warm light falls low from an unseen source."
+image_alt: "A young Black woman with locs tied back, in a plain blue-grey band-collared work jacket with a small white tab bearing one black stroke at the collar, sits on cloth sacks of flour in a pale, seamless stores room with rounded shelving, crocks and baskets of vegetables, hands clasped, looking to her left. A brown rabbit sits up on the floor beside her, facing the blank wall where a patch of warm light falls."
 ---
 
 Marisol Achebe is one of the three junior detectives on Superintendent [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/)'s roster at Eden Space Habitat, all recently posted, all reporting through Detective Senior Sergeant Halvard Osei rather than to Oyelaran directly. The roster note beside the three names says that none has a case worth remembering yet. It is still true by every metric the bureau keeps. The record keeps one anyway.

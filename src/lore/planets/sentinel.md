@@ -9,7 +9,7 @@ galaxy: "Milky Way"
 system: "Halyx System"
 locationType: "Planet"
 image: "sentinel.jpg"
-image_alt: "A fan of fine green and teal light rays radiating upward and outward from a single point at the bottom of the frame, brightest and most crowded at the base, thinning into scattered points of light against a dark teal field."
+image_alt: "A bare grey cratered plain on an airless world under a black sky, hard sunlight and black shadows, a small pale green world low above the horizon, and alone in the foreground a small sealed survey box on three splayed legs with a shallow dish under it turned to the ground, boot prints and lander pad marks in the dust around it"
 ---
 
 Every automated survey classifier has a bin for signals it cannot parse: unmodulated, non-repeating, no known protocol match. File under noise. The Sentinel's pulse sat in that bin for centuries before anyone thought to just listen to it.

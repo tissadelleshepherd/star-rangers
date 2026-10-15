@@ -5,7 +5,7 @@ category: "Locations"
 tags: [new-cotswolds, new-london, wolds-end, evenlode-system, extragalactic, settlement, cultural-preservation, locations, human, transit-lag]
 description: "A limestone village country in another galaxy, founded from the New London Space Habitat — and the one entry in the record the Archive keeps in the past tense, because nothing has come back from it in ninety-one years."
 image: "new-cotswolds.jpg"
-image_alt: "A village of honey-coloured limestone houses with steep stone-tile roofs beyond two bare winter fields, drystone walls either side of a muddy lane, grey overcast light"
+image_alt: "A village of honey-coloured limestone houses with steep stone-tile roofs beyond a rough winter pasture with a single pale cow in it, drystone walls and a lane between the fields, grey overcast light, and one slim pale mast on the skyline beyond the roofs."
 galaxy: "Wolds End"
 system: "Evenlode"
 locationType: "Settlement"

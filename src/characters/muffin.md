@@ -11,7 +11,7 @@ aliases:
 tags: [cute-predators, predatory-entities, eden, detective-agency, undercover-pets.com, antagonist]
 description: "The small warm thing by the Deck 7 galley door that everybody feeds and nobody can describe the same way twice — filed as a non-sapient lamb-mask, and behaving, on nine months of observation, like an animal about as clever as a cat."
 image: "muffin.jpg"
-image_alt: "The Deck 7 galley door on a working deck: a scuffed steel deck plate, a plain vent grille low in the wall, and warm light spilling from the open galley across the floor. In the warm patch by the vent something small, soft and out of focus is curled up, impossible to make out, with a chipped saucer set down beside it."
+image_alt: "A long low mesh vent set flush into the curved pale wall of a habitat deck, beside a rounded doorway with warm light spilling from the galley across the floor. In the warm patch by the vent lie a folded cloth and a saucer, as if something had just been curled there."
 ---
 
 Muffin sits by the Deck 7 galley door where the warm air comes out. It is small. It is, by universal agreement, adorable. Beyond that the descriptions do not agree with one another and never have: eleven staff statements taken by [Detective Inspector Albercombe](/star-rangers/characters/wendell-albercombe/)'s office over one shift returned a cat, a rabbit, a very young dog, and "you know — Muffin," and the four people who said cat did not agree about the colour. Nobody found this strange at the time. That is the first symptom, and it presents before any of the others.

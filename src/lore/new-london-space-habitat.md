@@ -8,7 +8,7 @@ galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Habitat"
 image: "new-london-space-habitat.jpg"
-image_alt: "Three interlocking rings around a tall central spire on radial spokes. The widest ring carries a lamplit city — a domed cathedral, a gothic clock tower, and a twin-towered bridge over a winding waterway, among parkland. Earth and a crescent Moon hang beyond."
+image_alt: "A narrow wet cobbled street in New London after rain, old brick and stone frontage on one side and plain modern pale buildings on the other, opening onto a low stone bridge over a dark canal, a few people walking and crossing, roses in stone planters by the bank. Beyond the rooftops the ground curves visibly upward into a flat grey-white overcast, the far part of the ring rising like a wall with the city built up it."
 ---
 
 New London was built because the British Isles were drowning. It is still here, at full occupancy, three centuries after they stopped.
@@ -17,7 +17,7 @@ New London was built because the British Isles were drowning. It is still here, 
 
 ## Founding
 
-Construction began in the 2380s UCSD — the 2180s CE, a dating the habitat's own archives still print alongside the standard, in the same custodial spirit that keeps everything else there in its original form.
+Construction began in the 2180s CE (2380s UCSD), a dating the habitat's own archives still print alongside the standard, in the same custodial spirit that keeps everything else there in its original form.
 
 The habitat was a response to the [Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/), and specifically to the climate-driven coastal fragmentation events of the 2130s and 2140s CE that had already cost the historical record its 2130s data-loss gap and reshaped every low-lying coastline on Earth. Large parts of the British Isles came out of those decades uninhabitable. What went up to L5 was an attempt to keep something that had been coastal, low-lying, and heavily archived from being lost in the same way twice.
 
@@ -57,6 +57,8 @@ At night the rings dim to a warm amber pitched at gaslight, and the transparent 
 
 All of which sits awkwardly beside the fact that the Crown-in-Parliament below it passes real legislation. New London is at once the most theatrical and the most functional thing in Earth orbit, and it does not experience the two as a contradiction: the birdsong is a recording and the bills are law, and the habitat's own answer, when pressed, is that a culture is entitled to decide which of its inheritances it keeps working and which it keeps merely present.
 
+Measures fall along the same line. The street keeps the old ones: the pubs pour pints, the market weighs in pounds and ounces, and the distances on the promenade are posted in yards and miles. Everything that has to agree with somebody outside the rings does not. The habitat's engineering, its navigation and docking, its customs papers and the Crown-in-Parliament's own statute book run on the same units as the rest of the Solar System, because a ring's spin, a docking clearance and a law that binds trade have to mean the same thing at both ends. Where the old measure survives in a record it is printed beside the standard one, as the old era is printed beside the UCSD date, and never instead of it.
+
 ## Population and Governance
 
 New London houses approximately **180,000 residents**, some sixty thousand to a ring, most of them descended from the British evacuation programmes. Immigration policy was restrictive for most of the habitat's history and has relaxed considerably in recent decades, a shift that tracks the slow argument above about what the place is now for.
@@ -83,7 +85,7 @@ Crucially, **New London is not a member of the [Orbital Habitats Compact](/star-
 
 ## The L5 Problem
 
-New London has been at Earth–Moon L5 since the 2380s. Fold transit did not become practical for anyone until the [Eden Passage](/star-rangers/lore/eden-space-habitat/) was confirmed in 2712 UCSD, more than three centuries later.
+New London has been at Earth–Moon L5 since the 2180s CE (2380s UCSD). Fold transit did not become practical for anyone until the [Eden Passage](/star-rangers/lore/eden-space-habitat/) was confirmed in 2712 UCSD, more than three centuries later.
 
 When Survey Corps subsequently classified [Lagrange points for fold operations](/star-rangers/lore/lagrange-fold-points/), the criterion it settled on was gravitational flatness — and L4 and L5 of any stable two-body system, a planet and a large moon included, fell into **Tier 1: designated fold-staging zones**, the preferred sites for aperture generation.
 

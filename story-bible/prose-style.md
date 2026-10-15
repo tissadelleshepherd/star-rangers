@@ -94,6 +94,18 @@ The corpus never head-hops inside a block, and it never tells you a thing the PO
 character has not noticed. When two people understand a scene differently, that
 is done with two POV blocks, not with an omniscient summary.
 
+**One head may hold more than one person.** Inside Tissadelle Shepherd's block,
+her POV may include private conversations with the more public-facing members of
+her system, Tobble and Asteria the Sage first (Dermot, 14 October 2026,
+`intake-2026-10-14.md`), and *likewise* for Sen's three, Cael, Wyn and Sen, and
+for any non-human plural system the record holds. They are unseen and unheard by anyone else in the scene,
+and the block hears both sides because both sides are in the one head it keeps.
+The corpus already has the form, in *What Came Off the Ship*
+(S05E02C03): *Tobble,* she said, inward, and his answer in italics with an
+ordinary attribution. Each member speaks in their own idiom (the dialect device
+of 10 October), every member is real, and nothing said inward reaches another
+character or the narration unless she says it aloud.
+
 ## 6. Dialogue argues on the merits
 
 **207 dialogue-opening lines, and only 26 questions in the whole corpus.** People

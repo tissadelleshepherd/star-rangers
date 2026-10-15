@@ -39,6 +39,20 @@ Three things made the operation untouchable, and none of them was a loophole in 
 
 What remained was a formal finding, which the Rangers may make in open space and which nobody else was positioned to make at all. That meant a named officer putting her judgement on a record built to be second-guessed, against a concern in good standing, on behalf of animals with none, over a document counsel had already blessed. For four months, every authority in a position to look had a reason not to, and every one of those reasons was a good one.
 
+## Why not a Lagrange point
+
+The question every fold engineer asks first is why an aperture was held in a gravity well at all, when the Corps' own [staging protocol](/star-rangers/lore/lagrange-fold-points/) sends fold operations to L4 and L5, where the geometry is flat enough that an aperture forms and collapses cleanly. The record answers it in four parts, and none of them is negligence.
+
+**The aperture was not a transit.** Lagrange staging is a rule about where to begin a fold that goes somewhere. The Combine's transit was logged, licensed and closed out four months before Dock Seven. What it held open after that led nowhere and was not meant to. It was there to be found.
+
+**What it was there for lives at the boundary.** The tapers are boundary-native, and the boundary off Threshold Station is a [flexure](/star-rangers/lore/boundary-zones/), a standing bend that carries this membrane toward a neighbour over the water off the station's coast. A flexure is a property of a place, not of a gravity condition, and cannot be taken to L5. The flexure is a region, not a line on a chart: it rises from the water off the station's coast into the space above it, and the platform and the aperture both sat inside it there, off Dock Seven, joined to nothing on the ground. A harvest of boundary fauna has to happen where the boundary is.
+
+**The product paid for the site.** An aperture deep in a well accumulates coherence debt faster than one at a Lagrange point, which is why careful operators refuse such sites. Stabiliser is the consumable that lowers coherence debt. The loop made the Combine the one operator able to afford the one site it needed, and each turn made the next turn cheaper.
+
+**Nothing required it to move.** Lagrange staging is expected "unless operational necessity requires otherwise", and the Combine's necessity was its business model. The Safety Corps standards that would have pressed the point bind only an operator who adopts them, and the Combine had adopted none.
+
+The well is also the plainest reading of how it ended. The staging protocol says an aperture under a steep gradient does not fail gracefully: it shears. At Dock Seven the aperture widened along the boundary, the way a tear goes along the grain, and [the Institute's account](/star-rangers/codex/dock-seven-material-account/) calls it a shear event of a class the models had predicted since they were written. That is the part of Dock Seven nobody disputes.
+
 ## The name
 
 *Hyperfold* is not a term for anything. It names no mechanism, appears in no technical literature except as an error under correction, and is a close relative of [metafold](/star-rangers/glossary/metafold/) — the popular misnomer that welds boundary phenomena to fold transit on the strength of a shared syllable.

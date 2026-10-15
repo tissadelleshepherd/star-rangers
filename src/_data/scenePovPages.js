@@ -33,11 +33,21 @@ function loadCharacterPortraits() {
     if (!entry.endsWith(".md") || entry === "index.md") continue;
     const { data } = matter(fs.readFileSync(path.join(CHARACTERS_DIR, entry), "utf8"));
     if (!data.id) continue;
-    map.set(String(data.id).toLowerCase(), {
+    const record = {
       image: data.image || null,
       imageAlt: data.image_alt || null,
       url: `/characters/${entry.replace(/\.md$/, "")}/`
-    });
+    };
+    map.set(String(data.id).toLowerCase(), record);
+    // A page may also answer to other POV ids (`pov_ids:`, since 2026-10-10):
+    // three chapters name a character by an id that is not the page's own
+    // ("krast" for maren-solveig-krast, "karla-wender" for wender,
+    // "marisol-achebe" for achebe). Renaming the chapter's id would move the
+    // scene-POV page's URL and comment thread, which embed it, so the page
+    // declares the extra ids instead and the chapters stay as written.
+    for (const alias of Array.isArray(data.pov_ids) ? data.pov_ids : []) {
+      if (alias) map.set(String(alias).toLowerCase(), record);
+    }
   }
   return map;
 }

@@ -9,7 +9,7 @@ aliases: []
 tags: [rabbit, eden, pet, undercover-pets.com]
 description: "A former Smart Pet candidate who failed the assessment on every axis it measures, kept by Detective Marisol Achebe as exactly what her file says she is: a pet."
 image: "knopka.jpg"
-image_alt: "Knopka, a brown domestic rabbit, sitting upright on a pale wooden floor in a tidy apartment and looking straight at the camera, entirely composed. A sprig of carrot tops lies ignored on the floor to one side; a bag stands by the door and a chair leg shows behind."
+image_alt: "Knopka, a brown domestic rabbit, sitting upright on a warm-toned floor in a tidy Eden apartment and looking straight at the camera, entirely composed. A carrot top lies ignored on the floor; a cloth bag slumps by the wall, a chair stands to one side, and a throw and a plant sit by a wide window onto the habitat's terraces."
 ---
 
 Eden Space Habitat keeps one rabbit whose file is exactly as long as it needs to be. Knopka is registered with the station's small-livestock allowance as *pet (rabbit), one* — keeper, Detective Marisol Achebe — and there the record ends, which makes it, by a comfortable margin, the most accurate animal file on the station.

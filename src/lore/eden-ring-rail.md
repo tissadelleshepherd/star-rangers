@@ -6,7 +6,7 @@ category: "Technology"
 tags: [eden, ring-rail, orbital-habitats-compact, transit, infrastructure, eden-warden, technology]
 description: "Eden Space Habitat's circumferential commuter line — the ordinary, AI-scheduled way most residents actually move around the ring, and the one everyday system that quietly touches both of Eden's separate chains of authority."
 image: "eden-ring-rail.jpg"
-image_alt: "A rail platform on the inner surface of a great orbital habitat in early morning, a plain unmarked grey train with its doors open, a few residents boarding seen from behind, the habitat's green landscape of fields and houses curving up and over, a single painted stripe along the platform edge"
+image_alt: "A clean rail platform on the inner rim of a ring habitat in morning light, a plain rounded grey train with its doors open and a few residents in plain coats boarding seen from behind, terraced gardens and low planted-roof houses beside the line, the land and the track rising away into haze under a long band of windows"
 plain: "The Ring-Rail is the train line that runs all the way around Eden Space Habitat's spinning ring, the way a subway runs through a city. Most residents ride it every day. It is scheduled by the Eden Warden, an AI, who often notices something is wrong on Eden just from the trains running oddly. One short stretch of track, near the fold-route monitoring stations, needs a special clearance that an ordinary ticket does not give."
 ---
 

@@ -1,16 +1,24 @@
 // Cross-platform port of make-emblem-card.ps1 and make-codex-cover.ps1's
 // designed-card mode (no -Underlay support), for sessions without Windows.
+// The codex layout follows the .ps1 as redesigned on 2026-10-11.
 //
-// LOCAL AUTHORING TOOL — not part of the build, not run by `npm test`, not
-// touched by CI, and not in package.json: it needs sharp, installed locally
-// with `npm install --no-save sharp`. Text is set by the font engine, so
-// titles are typed rather than drawn and correct by construction — the same
-// reason the .ps1 tools exist.
+// LOCAL AUTHORING TOOL — not part of the build and not in package.json;
+// only its pure codex layout is pinned, by test/make-cards.test.js. It
+// needs sharp, installed locally with `npm install --no-save sharp`. Text
+// is set by the font engine, so titles are typed rather than drawn and
+// correct by construction — the same reason the .ps1 tools exist.
 //
 // Fidelity notes, stated so nobody hunts a nonexistent bug:
-//   - Fonts: Georgia and Consolas are not installed on Linux runners, so
-//     this port substitutes Liberation Serif and Liberation Mono. The cards
-//     it draws match the .ps1 layouts, not their exact letterforms.
+//   - Fonts: each text element names the .ps1's face first and falls back.
+//     Codex cards: Georgia, else DejaVu Serif, else Liberation Serif, for the
+//     title, subtitle and institution; Bahnschrift SemiBold, else DejaVu Sans
+//     Condensed at weight 600, else Liberation Sans Narrow, for the category,
+//     stamp and author. Emblem cards use the same serif stack. A Linux runner
+//     has neither Georgia nor Bahnschrift, so there the card comes out in the
+//     fallbacks: it matches the .ps1 layout, not its letterforms.
+//   - Widths are estimated, not measured (librsvg cannot measure text before
+//     drawing it), so shrink-to-fit and the stamp's box can land a step or
+//     two away from the .ps1's for the same text.
 //   - Star fields and particle scatters are seeded and deterministic, but
 //     the seed algorithm is a plain LCG, not System.Random, so the dots sit
 //     in different (fixed) places than a .ps1-drawn card's.
@@ -26,10 +34,11 @@
 
 'use strict';
 const path = require('path');
-const sharp = require('sharp');
 
-const SERIF = 'Liberation Serif';
-const MONO = 'Liberation Mono';
+// Font stacks: the .ps1 faces first, so a machine that has them uses them,
+// then the Linux fallbacks (see the fidelity notes above).
+const SERIF = "Georgia, 'DejaVu Serif', 'Liberation Serif', serif";
+const SANS = "'Bahnschrift SemiBold', Bahnschrift, 'DejaVu Sans Condensed', 'Liberation Sans Narrow', sans-serif";
 const PT = 96 / 72; // GDI+ point -> pixel at 96dpi
 
 // Deterministic LCG so a regeneration is not a diff (same intent as the
@@ -105,11 +114,106 @@ function emblemSvg({ title, category, epithet, qualifier, device, tint, accent }
 }
 
 // ----------------------------------------------------------------- codex ---
-// 1600x1600, mirrors make-codex-cover.ps1's designed mode: fixed navy
-// palette, top bar, tracked category, dissolution or rules motif, optional
-// stamp, divider at y=1042, auto-fit title block, subtitle/institution/author.
+// 1600x1600, mirrors make-codex-cover.ps1's designed mode as redesigned on
+// 2026-10-11 (PR #1120): fixed navy palette, top bar, Bahnschrift-style
+// tracked capitals for the category, stamp and author lines, Georgia for the
+// title, subtitle and institution; each small line shrinks to fit its width;
+// the stamp moves left rather than off the edge; the lower block is measured
+// first and set so it ends 92 px above the foot, rising above the old 1042 px
+// divider only as far as its content needs (never above 780).
+//
+// librsvg cannot measure text before drawing it, so widths are ESTIMATED from
+// per-character advance factors (estWidth below), set for Georgia and
+// Bahnschrift SemiBold and a little generous (checked 2026-10-11 against
+// lines the .ps1 drew: 0-6% wider than the real width), so a line that fits
+// here should fit in the .ps1 too. Positions are the .ps1's; GDI+ places text by the top
+// of its cell and SVG by the baseline, so each y adds ASCENT * px.
+
+const ASCENT = 0.9; // cell top -> baseline, as a fraction of the font size
+
+// Average advances (em) for the two faces. A space is 0.40em because the
+// .ps1's Measure-Tracked and Draw-Tracked advance a space by size * 0.40;
+// SVG word-spacing adds the difference from the face's own space.
+const ADV = {
+  serif: { upper: 0.68, lower: 0.5, digit: 0.6, narrow: 0.3, other: 0.55 },
+  sans: { upper: 0.62, lower: 0.52, digit: 0.56, narrow: 0.28, other: 0.5 },
+};
+const NATURAL_SPACE = 0.25; // em, roughly, in both faces
+
+function estWidth(t, px, tracking, face) {
+  const a = ADV[face];
+  let w = 0;
+  for (const ch of t) {
+    let f;
+    if (ch === ' ') f = 0.4;
+    else if (/[.,:;'!|·-]/.test(ch)) f = a.narrow;
+    else if (/[0-9]/.test(ch)) f = a.digit;
+    else if (ch !== ch.toLowerCase()) f = a.upper;
+    else if (ch !== ch.toUpperCase()) f = a.lower;
+    else f = a.other;
+    w += f * px + tracking;
+  }
+  return t.length ? w - tracking : 0;
+}
+
+// Largest size from startPx down to minPx (step 2) at which t fits maxW,
+// as Fit-Font in the .ps1.
+function fitPx(t, startPx, minPx, tracking, maxW, face) {
+  let p = startPx;
+  while (t && p > minPx && estWidth(t, p, tracking, face) > maxW) p -= 2;
+  return p;
+}
+
+// Pure layout: every size and position the card uses, in card pixels.
+// Exported so test/make-cards.test.js can pin it without sharp installed.
+function codexLayout({ titleLines, category, subtitle = '', institution = '', author = '', stamp = '' }) {
+  const W = 1600;
+  const L = { W, cx: W / 2 };
+
+  L.category = { px: fitPx(category, 50, 36, 4, 1000, 'sans'), y: 78, tracking: 4 };
+
+  if (stamp) {
+    const px = 40;
+    const halfW = estWidth(stamp, px, 3, 'sans') / 2 + 24;
+    // Keep the tilted box inside the card: a long stamp moves left.
+    L.stamp = { px, halfW, x: Math.min(1368, W - 60 - halfW * 0.995), y: 206, tracking: 3 };
+  }
+
+  let px = 104;
+  const widest = () => Math.max(...titleLines.map((l) => estWidth(l, px, 4, 'serif')));
+  while (px > 40 && widest() > 1330) px -= 2;
+
+  const instText = institution.replace(/ - /g, ' · ');
+  const subPx = fitPx(subtitle, 62, 40, 0.5, 1400, 'serif');
+  const instPx = fitPx(instText, 52, 40, 0.5, 1480, 'serif');
+  const authPx = fitPx(author, 40, 30, 3, 1360, 'sans');
+
+  const gapTitle = 54;
+  const titleH = px * 1.16 * titleLines.length + px * 0.06;
+  const subH = subtitle ? 20 + subPx * 1.24 : 0;
+  const instH = institution ? 4 + instPx * 1.3 : 0;
+  const authH = author ? 30 + authPx * 1.2 : 0;
+  L.blockH = gapTitle + titleH + subH + instH + authH;
+  L.divY = Math.max(780, Math.min(1042, W - 92 - L.blockH));
+
+  let y = L.divY + gapTitle;
+  const lines = titleLines.map((text) => {
+    const ln = { text, y };
+    y += px * 1.16;
+    return ln;
+  });
+  L.title = { px, tracking: 4, lines };
+  y += px * 0.06;
+  if (subtitle) { y += 20; L.subtitle = { text: subtitle, px: subPx, y, tracking: 0.5 }; y += subPx * 1.24; }
+  if (institution) { y += 4; L.institution = { text: instText, px: instPx, y, tracking: 0.5 }; y += instPx * 1.3; }
+  if (author) { y += 30; L.author = { text: author, px: authPx, y, tracking: 3 }; y += authPx * 1.2; }
+  L.bottom = y;
+  return L;
+}
+
 function codexMotif(kind) {
   const cx = 800;
+  if (kind === 'none') return '';
   if (kind === 'rules') {
     let out = '', y = 300;
     const widths = [1355, 1355, 1355, 1035];
@@ -144,20 +248,25 @@ function codexMotif(kind) {
   return out;
 }
 
-function codexSvg({ titleLines, category, subtitle, institution, author, stamp, motif }) {
-  const W = 1600, cx = 800;
-  // auto-fit: Liberation Serif averages ~0.50em advance for tracked caps;
-  // conservative estimate, checked visually rather than measured.
-  let px = 112;
-  const widest = Math.max(...titleLines.map((l) => l.length));
-  while (px > 40 && widest * (px * 0.62 + 5) > 1310) px -= 2;
+// A text element with the .ps1's space width (see ADV above).
+function codexText(t, x, top, family, px, fill, tracking, weight) {
+  const ws = ((0.4 - NATURAL_SPACE) * px).toFixed(2);
+  const w = weight ? ` font-weight="${weight}"` : '';
+  return `<text x="${x}" y="${top + px * ASCENT}" font-family="${family}"${w} font-size="${px}" fill="${fill}" letter-spacing="${tracking}" word-spacing="${ws}" text-anchor="middle">${esc(t)}</text>`;
+}
+
+function codexSvg(card) {
+  const L = codexLayout(card);
+  const { W, cx } = L;
+  const serif = (t, y, px, tracking, fill) => codexText(t, cx, y, SERIF, px, fill, tracking);
+  const sans = (t, x, y, px, tracking, fill) => codexText(t, x, y, SANS, px, fill, tracking, 600);
   const parts = [
     `<defs>
        <linearGradient id="bg" x1="0" y1="0" x2="${Math.cos((50 * Math.PI) / 180)}" y2="${Math.sin((50 * Math.PI) / 180)}">
          <stop offset="0" stop-color="rgb(26,32,46)"/><stop offset="1" stop-color="rgb(8,10,16)"/>
        </linearGradient>
-       <radialGradient id="wash"><stop offset="0" stop-color="rgb(92,124,190)" stop-opacity="0.18"/>
-         <stop offset="1" stop-color="rgb(92,124,190)" stop-opacity="0"/></radialGradient>
+       <radialGradient id="wash"><stop offset="0" stop-color="rgb(92,124,190)" stop-opacity="${46 / 255}"/>
+         <stop offset="1" stop-color="rgb(10,12,20)" stop-opacity="0"/></radialGradient>
        <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
          <stop offset="0" stop-color="rgb(74,104,164)"/><stop offset="1" stop-color="rgb(128,158,216)"/>
        </linearGradient>
@@ -165,29 +274,23 @@ function codexSvg({ titleLines, category, subtitle, institution, author, stamp, 
     `<rect width="${W}" height="${W}" fill="url(#bg)"/>`,
     `<ellipse cx="${-500 + 1100}" cy="${-700 + 950}" rx="1100" ry="950" fill="url(#wash)"/>`,
     `<rect width="${W}" height="7" fill="url(#bar)"/>`,
-    text(category, cx, 92 + 26 * 0.82, MONO, 26, 'rgb(127,159,212)', 1, 9),
-    codexMotif(motif),
+    sans(card.category, cx, L.category.y, L.category.px, L.category.tracking, 'rgb(176,198,238)'),
+    codexMotif(card.motif || 'rules'),
   ];
-  if (stamp) {
-    const halfW = (stamp.length * (25 * 0.62 + 7)) / 2 + 22;
-    parts.push(`<g transform="translate(1368,152) rotate(-8)">
-      <rect x="${-halfW}" y="-33" width="${2 * halfW}" height="66" fill="none" stroke="rgb(112,142,202)" stroke-opacity="0.78" stroke-width="3"/>
-      ${text(stamp, 0, -15 + 25 * 0.82, MONO, 25, 'rgb(138,166,224)', 0.84, 7)}</g>`);
+  if (L.stamp) {
+    const s = L.stamp;
+    parts.push(`<g transform="translate(${s.x},${s.y}) rotate(-8)">
+      <rect x="${-s.halfW}" y="-40" width="${2 * s.halfW}" height="80" fill="none" stroke="rgb(160,186,238)" stroke-opacity="${235 / 255}" stroke-width="3.5"/>
+      ${sans(card.stamp, 0, -24, s.px, s.tracking, 'rgb(184,206,246)')}</g>`);
   }
   parts.push(
-    `<line x1="${cx - 112}" y1="1042" x2="${cx + 112}" y2="1042" stroke="rgb(150,175,225)" stroke-opacity="0.47" stroke-width="1.6"/>`,
-    `<line x1="${cx - 94}" y1="1042" x2="${cx + 94}" y2="1042" stroke="rgb(150,175,225)" stroke-opacity="0.16" stroke-width="5"/>`
+    `<line x1="${cx - 112}" y1="${L.divY}" x2="${cx + 112}" y2="${L.divY}" stroke="rgb(160,186,232)" stroke-opacity="${140 / 255}" stroke-width="1.8"/>`,
+    `<line x1="${cx - 94}" y1="${L.divY}" x2="${cx + 94}" y2="${L.divY}" stroke="rgb(150,175,225)" stroke-opacity="${40 / 255}" stroke-width="5"/>`
   );
-  let ty = 1092;
-  for (const ln of titleLines) {
-    parts.push(text(ln, cx, ty + px * 0.82, SERIF, px, 'rgb(205,213,233)', 1, 5));
-    ty += px * 1.16;
-  }
-  const tb = ty + px * 0.1;
-  if (subtitle) parts.push(text(subtitle, cx, tb + 18 + 46 * 0.82, SERIF, 46, 'rgb(159,176,208)', 1, 1));
-  if (institution)
-    parts.push(text(institution.replace(/ - /g, ' · '), cx, tb + 84 + 34 * 0.82, SERIF, 34, 'rgb(124,138,168)', 1, 1));
-  if (author) parts.push(text(author, cx, tb + 168 + 23 * 0.82, MONO, 23, 'rgb(107,119,144)', 1, 7));
+  for (const ln of L.title.lines) parts.push(serif(ln.text, ln.y, L.title.px, L.title.tracking, 'rgb(218,225,242)'));
+  if (L.subtitle) parts.push(serif(L.subtitle.text, L.subtitle.y, L.subtitle.px, L.subtitle.tracking, 'rgb(200,210,232)'));
+  if (L.institution) parts.push(serif(L.institution.text, L.institution.y, L.institution.px, L.institution.tracking, 'rgb(174,188,218)'));
+  if (L.author) parts.push(sans(L.author.text, cx, L.author.y, L.author.px, L.author.tracking, 'rgb(164,180,214)'));
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${W}">${parts.join('\n')}</svg>`;
 }
 
@@ -224,6 +327,9 @@ const CARDS = [
 ];
 
 async function main() {
+  // Required here, not at the top, so test/make-cards.test.js can load the
+  // layout without sharp installed.
+  const sharp = require('sharp');
   const only = process.argv.slice(2);
   for (const card of CARDS) {
     if (only.length && !only.includes(card.name)) continue;
@@ -234,4 +340,8 @@ async function main() {
   }
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+module.exports = { codexLayout, codexSvg, estWidth, CARDS };
+
+if (require.main === module) {
+  main().catch((e) => { console.error(e); process.exit(1); });
+}

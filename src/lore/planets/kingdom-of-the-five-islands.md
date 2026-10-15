@@ -21,7 +21,7 @@ Fast rotation, a wide ocean, and a greenhouse-heavy atmosphere combine to keep m
 
 The four islands the Crown holds survive the weather by accident of geology rather than design: a submerged, ring-shaped caldera rim breaks the worst of the deep-ocean storm systems before they reach the archipelago, leaving the islands themselves merely windy — every tree on Vellamar grows leaning, and every colonist's first lesson is which direction to expect the gusts from — rather than annihilated on the same schedule as the rest of the world. The air itself is another matter: Survey Corps atmospheric analysis has confirmed extensive, centuries-old soil and micro-flora engineering across all four islands, layered in so long ago and so thoroughly integrated into the native-seeming ecology that it went undetected until instruments looked specifically for it. The founding colonists did not arrive to a world already breathable. They made it one, generations before the record that should have said so was lost — and the Kingdom's own chronicles, which credit the accomplishment to nothing more specific than "the first settlers' hard work," have never once described it as anything other than ordinary labour.
 
-![A windswept avenue of tall palms on Vellamar, fronds permanently bent from the prevailing wind](/star-rangers/images/lore/archipelago-palm-avenue.jpg)
+![A windswept avenue of tall palms under a bright sky on the royal seat island of Vellamar](/star-rangers/images/lore/archipelago-palm-avenue.jpg)
 
 ## A Colony Older Than the Record That Should Have Kept It
 

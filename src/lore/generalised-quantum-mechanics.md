@@ -5,7 +5,7 @@ category: "Physics"
 tags: [quantum, physics, etheric, probability, information-theory, cascade, archecluster, coherence]
 description: "The cosmos's probability, coherence and information physics is one lawful generalisation of quantum mechanics: the laboratory theory survives exactly as its kernel, and everything Etheric enters as extension terms that add couplings without amending a single kernel rule."
 image: "generalised-quantum-mechanics.jpg"
-image_alt: "A rigid optical bench with mounted posts and one sealed black enclosure clamped to a stone bench in a plain laboratory falling into darkness, a single lead running from it, flat daylight from a high window"
+image_alt: "An ordinary optical bench with mounted lens holders and a small dark sealed enclosure, clamped to the edge of a pale table by a tall window, one plain lead running from it, in a bare, pale, empty laboratory room."
 plain: "The strange physics in this universe does not break ordinary quantum physics — it is extra structure added on top of it. In quiet places the extra parts do nothing at all, so ordinary physics is exactly right there, down to the last decimal. Near 'thin places', and wherever minds and meaning are involved, the extra parts show up as small, lawful effects. The extra structure never grants new permissions: no message can beat a ship, no one can edit the past, and no machine can read the future."
 ---
 

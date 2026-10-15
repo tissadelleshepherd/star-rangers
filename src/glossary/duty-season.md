@@ -13,7 +13,7 @@ related:
 tags: [star-rangers, duty-season, service, ranks, society]
 ---
 
-**Duty season** is the Star Rangers' unit of career time: one [UCSD](/star-rangers/glossary/ucsd/) year, taken as the cycle that postings, certification renewals, rank boards and duty rosters all run on. In service speech it is simply *a season* — a Chief who has "held the section four seasons" has held it four years, an officer promoted "a season before the timeline usually allows" is a year ahead of the ordinary pace, and a superior who sees a specialist "twice a season" sees her twice a year.
+**Duty season** is the Star Rangers' unit of career time: one [UCSD](/star-rangers/glossary/ucsd/) year, taken as the cycle that postings, certification renewals, rank boards and duty rosters all run on. In service speech it is simply *a season* — a Chief who has "held the department four seasons" has held it four years, an officer promoted "a season before the timeline usually allows" is a year ahead of the ordinary pace, and a superior who sees a specialist "twice a season" sees her twice a year.
 
 The word earns its place the way most Corps vocabulary does, by solving a coordination problem. A service spread across stations, habitats and planets owns no shared weather and no shared local year: a posting can begin in an orbital habitat's manufactured autumn and end in a valley's deep winter forty light-years away, and a career reckoned in local years would not survive its own transfers. The duty season is the standard year worn as working language — the same clock everywhere, whatever the sky outside is doing.
 

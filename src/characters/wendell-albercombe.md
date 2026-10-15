@@ -9,7 +9,7 @@ aliases:
   - "DI Albercombe"
 tags: [human, eden, detective, inspector, orbital-habitats-compact, orbital-five-o, undercover-pets.com]
 image: "wendell-albercombe.jpg"
-image_alt: "Detective Inspector Wendell Albercombe, a middle-aged man in a worn herringbone jacket over an open blue shirt, standing in the doorway of a clean well-lit habitat bureau at the end of a long shift. Beside him a stencilled plainmark panel carries four stacked colour bands, each bearing a single geometric figure."
+image_alt: "Detective Inspector Wendell Albercombe, a middle-aged man in a plain brown jacket over an open blue shirt, standing in the rounded doorway of a clean habitat bureau with terraces visible through the windows behind him and a plainmark panel of shapes on the wall."
 description: "Eden Space Habitat's Detective Inspector, carrying Superintendent Oyelaran's ordinary caseload — and quietly closing more of it than the bureau's own instruments would explain, care of an off-the-books arrangement he has stopped trying to justify on paper."
 ---
 

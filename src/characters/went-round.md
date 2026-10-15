@@ -9,7 +9,7 @@ aliases: []
 tags: [alien, pandoid, fliade, below-the-roof, cavern-biosphere, star-rangers]
 description: "An adult of the Told named for going round a thing rather than through it — a blocked passage, a hard thought — and the first of the people to say aloud, in the warm, that the manners for a stranger might not fit the up-people."
 image: "went-round.jpg"
-image_alt: "A large dark-grey-furred being built like a very large soft toy bear, big round head on a round body, in a rock passage lit only by amber and blue fungi, already turned three-quarters away from a fall of boulders toward a narrower side opening, one forelimb on the rock edge of the opening"
+image_alt: "A large dark-grey furred being, round and heavy like a big panda but with no ears, lit from behind by amber and blue fungi in a rock passage, one forelimb resting on the rock edge of a side opening, a fall of boulders behind it."
 ---
 
 The name is a telling, on the pattern by which [the Told](/star-rangers/glossary/the-told/) name everyone: the first true thing said of a person that others went on repeating. What was said of this one is that they go round. Where a passage is blocked, Went-Round does not clear it but finds another; where a thought is hard, Went-Round does not finish it but comes at it from the far side to see whether it looks easier from there. It is a good way to be, and [Stone-First](/star-rangers/characters/stone-first/) has always said so, and it is not Stone-First's way. The name is rendered in translation, as every Pandoid name in the record is; the people's word is theirs.

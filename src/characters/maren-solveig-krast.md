@@ -2,6 +2,7 @@
 layout: character.njk
 title: "Maren Solveig Krast"
 id: maren-solveig-krast
+pov_ids: [krast]
 species: Human
 role: General, Military Space Command; Solar Command, Mars (b. 2665 UCSD – d. 2720 UCSD)
 status: Historical
@@ -10,7 +11,7 @@ aliases:
 tags: [msc, mars, sol-system, solar-command, history, human]
 description: "The Military Space Command general whose defence of technocratic rule at the Outer Stations Consolidation Hearing became the institution's most-quoted line — taught inside the MSC as doctrine, and repeated outside it as a warning."
 image: "maren-solveig-krast.jpg"
-image_alt: "An archival official portrait of a stern grey-haired general in an austere high-collared slate uniform, seated with hands folded at a table, against a plain dark backdrop"
+image_alt: "An official portrait of a grey-haired general in her fifties, in an austere high-collared slate uniform with small silver rank marks at the collar and shoulders, seated upright at a plain dark table with hands folded, looking straight at the camera against an even dark blue-grey wall"
 ---
 
 General Krast gave the Military Space Command its most durable line in a single unscripted answer, and died the following year, which spared her the discovery every other officer who repeated it eventually made: that a line durable enough to survive an institution's collapse does not stay owned by the person who said it.

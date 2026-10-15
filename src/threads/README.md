@@ -6,4 +6,4 @@ A **thread** is the macro concept and the only narrative unit with engine conseq
 
 A thread that names a `tier` in the registry is absent on every build below that tier and ordinary content at or above it. `church-space` is the only gated thread and is meant to stay so; gating a second one is a design decision, not configuration. A landing page acquires the gate through its `threadId`.
 
-Within a season, two parallel storylines are **strands**, and a character's trajectory is an **arc**; neither has a page, an id or a registry (`story-bible/story-bible-summary.md`, *Narrative Structure*). Do not write "Thread A" for a within-season storyline.
+Within a season, two or more parallel storylines are **strands**, and a character's trajectory is an **arc**; neither has a page, an id or a registry (`story-bible/story-bible-summary.md`, *Narrative Structure*). Do not write "Thread A" for a within-season storyline.

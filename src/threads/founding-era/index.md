@@ -11,7 +11,7 @@ permalink: /threads/founding-era/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="A moody, neon-lit futuristic corridor" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="An empty hearing chamber with tiers of pale upholstered seats facing a long bare table, a long thick window onto red Martian ground under a dusty sky, and a pale rectangle with bolt holes on the wall where something has been taken down" />
 <h1 class="page-title">Founding Era</h1>
 <p class="page-intro">
   The years that made the Star Rangers both necessary and possible, under the last stretch of Military Space Command rule — before the Charter, and before Threshold Station's drift had a name.

@@ -6,6 +6,8 @@ species: Human
 role: Civilian; sister of Dr. Wren Okafor
 status: Historical
 tags: [founding, pre-charter, patience-first, mars, history, human]
+image: "adaeze-okafor.jpg"
+image_alt: "Adaeze Okafor, a Black woman with her natural hair drawn back, in a brown wool coat over a knitted jumper, seated at a bare scratched steel desk in a stained institutional office, hands clasped, looking off to one side; through a window behind her, rust-red Martian ground, a rail line and low buildings."
 description: "The civilian sister of Patience First's boundary analyst, who wrote to the Military Space Command ten times, got a form letter, and spent savings that would not survive a second trip to sit across a desk on Mars and ask the only question she had actually asked: what happened to her."
 ---
 

@@ -60,7 +60,7 @@ const DEFAULT_OG_IMAGE = "/images/hero/home-launch.jpg";
 // the planet is *behind* the craft rather than the one being launched from:
 // it is a distant crescent in the background, not the surface below.
 const DEFAULT_OG_IMAGE_ALT =
-  "A shuttle-style spacecraft climbing on a bright exhaust plume and billowing cloud, against a starfield with a blue-and-green crescent planet behind it";
+  "An ascent javelin, a pale winged spaceplane, climbing steeply into a hazy morning sky on a long white exhaust trail, a distant coast and hills low along the bottom edge";
 
 // `included` is threaded through explicitly (rather than relying on
 // eleventyComputed's own dependency resolution already having swapped

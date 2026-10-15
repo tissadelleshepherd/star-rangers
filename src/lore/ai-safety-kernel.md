@@ -5,7 +5,7 @@ category: "Technology"
 tags: [ai, kernel, safety, invariants, agentic-systems, concordant, ethics, law, technology]
 description: "The architectural doctrine governing agentic AI within the Solar System Concord: how synthetic minds may reason freely but act only when outcomes are safe, truthful, and proportionate."
 image: "ai-safety-kernel.jpg"
-image_alt: "A close-up of a densely populated circuit board lit in deep blue: two large square processor chips, cylindrical capacitors standing proud of the surface, and hundreds of small surface-mount components among printed reference codes, the far side of the board falling out of focus."
+image_alt: "Designed cover for The AI Safety Kernel: a plain shield outline in a soft glow under the category Technology, with the title below, on a dark slate background."
 ---
 
 A command deck can go silent in an instant: one order refused, one life preserved, one log entry left for the inquiry. That refusal is the AI Safety Kernel at work.

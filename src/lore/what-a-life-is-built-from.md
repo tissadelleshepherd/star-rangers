@@ -36,6 +36,10 @@ The third requirement is the one Earth biology finds hardest to imagine done oth
 
 **And the limit case, which the survey states carefully.** The requirement is an account of how to build a life, copied with error. On [Fliade](/star-rangers/lore/planets/fliade/) a people keeps its whole record by speaking it, and the survey's word *inheritance* has been used, in filings, for what passes by telling as readily as for what passes by body. The record files both, and marks the line between them as a translation too: where a life's continuity runs through what it is told, the Corps does not get to decide that only the chemistry counts.
 
+## A Record Carried Between Stars
+
+A record that copies with error could in principle be carried off its world, frozen in rock or dust, and start again somewhere else. The survey treats this as a matter of distance, and it treats every kind of record the same way, DNA included. The chance that a record survives the crossing and finds ground it can use falls steeply with the distance it has to travel. Between neighbouring star systems the chance is remote, but it is not impossible. Across deep space it becomes so small that the survey does not plan for it. The record holds no confirmed case at any distance. Every biosphere surveyed so far keeps a record of its own, and [Tír na nÓg's](/star-rangers/lore/planets/tir-na-nog/) close likeness to Earth is still filed as convergence, not as a crossing.
+
 ## The Body Without the Cell
 
 The fourth requirement is the one the direction *multicellular* names, and the word is a translation like every other. A cell is a bounded unit; a multicellular body is many of them, cooperating, differentiating, and replaced. **What the requirement asks for is the cooperation, the differentiation and the replacement.** The units are Earth's way of getting them.

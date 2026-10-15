@@ -746,11 +746,21 @@ function main() {
     }
 
     if (schema === CONTENT_TYPES.character && !isBlank(data.id)) {
-      const owner = characterIdOwners.get(String(data.id));
-      if (owner) {
-        problems.push(`id "${data.id}" is already used by ${owner} - a chapter's povs: and an edition's hero cast name a character by id, so each page needs its own`);
-      } else {
-        characterIdOwners.set(String(data.id), relativePath);
+      const claimed = [String(data.id)];
+      if (data.pov_ids !== undefined) {
+        if (!Array.isArray(data.pov_ids) || data.pov_ids.some((p) => typeof p !== "string" || isBlank(p))) {
+          problems.push(`pov_ids must be a list of non-empty strings (other ::: pov ids that resolve to this page)`);
+        } else {
+          claimed.push(...data.pov_ids.map(String));
+        }
+      }
+      for (const id of claimed) {
+        const owner = characterIdOwners.get(id);
+        if (owner && owner !== relativePath) {
+          problems.push(`id "${id}" is already used by ${owner} - a chapter's povs: and an edition's hero cast name a character by id, so each page needs its own`);
+        } else {
+          characterIdOwners.set(id, relativePath);
+        }
       }
     }
 

@@ -7,6 +7,8 @@ role: Principal, Science Corps; Survey Corps Standards Office calibration floor,
 aliases:
   - "Principal Adair"
 tags: [science-corps, survey-corps, counterpane, archecluster, calibration, season-1, human]
+image: "yusuf-adair.jpg"
+image_alt: "Yusuf Adair, a man with iron-grey hair and a close-trimmed grey beard, in a plain grey-green service tunic with a small blue-inset collar tab, standing at a long wooden bench in a pale stone hall lit by high windows, one hand on an open folder, looking down at it; a small instrument under a grey cloth on the bench beside him."
 description: "The Science Corps Principal who reviewed Syra's Counterpane filing without ever meeting her, wanted it to be the instruments, went to the record instead, and wrote the rule that nothing read on another membrane is a finding until it has come home and passed audit."
 ---
 

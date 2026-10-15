@@ -231,7 +231,10 @@ a:focus {
 .site-nav__list {
   list-style: none;
   display: flex;
-  gap: var(--spacing-lg);
+  /* Row gap, then column gap: --spacing-lg until 10 October 2026, when a
+     twelfth item (Start) pushed About onto its own line at an ordinary
+     desktop width. Still wraps on narrow screens. */
+  gap: var(--spacing-sm) var(--spacing-md);
   flex-wrap: wrap;
 }
 
@@ -2153,6 +2156,59 @@ a:focus {
 }
 .lore-entry__body li { margin-bottom: var(--spacing-xs); }
 .lore-entry__body strong { color: var(--color-text); }
+
+/* Technical diagrams on lore pages: hand-written inline SVG in the body
+   (story-bible/images.md, "Diagrams on technical lore pages", 29 Sept 2026).
+   Every colour is a palette custom property, so each theme and both light
+   and dark render the figure; classes are named on the figure itself. */
+.lore-diagram { margin: var(--spacing-lg) 0; }
+.lore-diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  overflow: visible;
+}
+.lore-diagram text { fill: var(--color-text); }
+.lore-diagram text.sm { font-size: 11.5px; }
+.lore-diagram text.mute { fill: var(--color-text-muted); }
+.lore-diagram .fill-t { fill: var(--color-text); }
+.lore-diagram .fill-1 { fill: var(--color-accent); }
+.lore-diagram .fill-2 { fill: var(--color-canon); }
+.lore-diagram .line-t { fill: none; stroke: var(--color-text); stroke-width: 1.5; }
+.lore-diagram .line-0 { fill: none; stroke: var(--color-text-muted); stroke-width: 1; }
+.lore-diagram .line-1 { fill: none; stroke: var(--color-accent); stroke-width: 2; }
+.lore-diagram .line-2 { fill: none; stroke: var(--color-canon); stroke-width: 2; }
+.lore-diagram .dash { stroke-dasharray: 5 4; }
+.lore-diagram .ring { fill: var(--color-bg); stroke: var(--color-text-muted); stroke-width: 2; }
+.lore-diagram .box-1 { fill: var(--color-accent); fill-opacity: 0.08; stroke: var(--color-accent); stroke-width: 1.4; }
+.lore-diagram .box-2 { fill: var(--color-canon); fill-opacity: 0.06; stroke: var(--color-canon); stroke-width: 1.4; }
+.lore-diagram figcaption {
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-sm);
+}
+/* Windows high contrast repaints the page but not SVG fills, so a light
+   palette's dark ink would vanish on the forced dark canvas: map the
+   figure onto system colours instead. Shapes and labels still name every
+   class, so nothing rests on hue. */
+@media (forced-colors: active) {
+  .lore-diagram text,
+  .lore-diagram text.mute,
+  .lore-diagram .fill-t { fill: CanvasText; }
+  .lore-diagram .line-t,
+  .lore-diagram .line-0 { stroke: CanvasText; }
+  .lore-diagram .ring { fill: Canvas; stroke: CanvasText; }
+  .lore-diagram .fill-1 { fill: Highlight; }
+  .lore-diagram .line-1 { stroke: Highlight; }
+  .lore-diagram .box-1 { fill: none; stroke: Highlight; }
+  .lore-diagram .fill-2 { fill: CanvasText; }
+  .lore-diagram .line-2 { stroke: CanvasText; }
+  .lore-diagram .box-2 { fill: none; stroke: CanvasText; }
+}
 
 /* --- Comments (giscus) --- */
 .site-comments {

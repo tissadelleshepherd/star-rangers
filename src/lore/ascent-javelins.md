@@ -5,12 +5,12 @@ category: "Technology"
 tags: [ascent-javelin, orbital-ascent, spaceflight, technology, teleportation, fusion, safety-corps, high-gravity]
 description: "Why getting off a planet still means flying: the missile-launched orbital ascent craft that carry passengers and cargo from surface to orbit on Earth-gravity worlds and below — and the fusion-boosted variants that make even heavy worlds climbable."
 image: "ascent-javelins.jpg"
-image_alt: "A slender winged craft climbing steeply away from a spaceport on a blue-white exhaust plume, the curve of the planet visible above the haze"
+image_alt: "An ascent javelin seen from alongside in its climb above a deck of cloud: a long, pale, flattened winged lifting body with a blunt nose and a short row of ports at the front, a faint exhaust trail behind, the sky darkening toward the top of the frame."
 ---
 
 Every technology the Concord possesses for crossing space politely declines to help with the first hundred kilometres. Getting off a planet is still, after eight centuries, a matter of throwing yourself at the sky hard enough that it gives in.
 
-**Ascent javelins** — formally, orbital ascent vehicles, a service designation nobody uses twice — are the standard means of planetary ascent and descent throughout settled space: winged craft launched near-vertically, almost like a missile, that climb from surface to orbit under their own power. They exist because nothing else lawful does the job.
+**Ascent javelins** — formally, orbital ascent vehicles, a service designation nobody uses twice — are the standard means of planetary ascent throughout settled space: winged craft launched near-vertically, almost like a missile, that climb from surface to orbit under their own power. They exist because nothing else lawful does the job. The journey down is the other craft's: people and cargo come down in **landing craft**, and the record names a world's traffic by the direction it is going.
 
 ## Why Not Teleport
 
@@ -20,9 +20,9 @@ So people fly.
 
 ## The Launch
 
-A javelin does not take off; it is *thrown*. The craft rides a launch cradle to near-vertical, fires a hard boost that most passengers describe with the same word their great-great-grandparents would have used for a missile launch, and transitions through three regimes on the way up: ballistic boost off the cradle, air-breathing aerodynamic climb through the middle atmosphere, and closed-cycle rocket flight for orbital insertion. Descent reverses the profile as an unpowered glide with terminal powered braking, which is why every settled world's spaceport looks from a distance like a missile battery interleaved with a runway — because structurally, that is what it is.
+A javelin does not take off; it is *thrown*. The craft rides a launch cradle to near-vertical, fires a hard boost that most passengers describe with the same word their great-great-grandparents would have used for a missile launch, and transitions through three regimes on the way up: ballistic boost off the cradle, air-breathing aerodynamic climb through the middle atmosphere, and closed-cycle rocket flight for orbital insertion. Descent belongs to the landing craft, which come down as an unpowered glide with terminal powered braking onto the runway, which is why every settled world's spaceport looks from a distance like a missile battery interleaved with a runway — because structurally, that is what it is. The two are never the same vehicle, though each can carry the other: a landing craft can bring a javelin back down safely as cargo, and a javelin can carry a landing craft up folded. Neither is built to do the other's half of the journey. Their pilots are usually not the same either: flying a javelin up and flying a landing craft down are separate specialisations, and a pilot holds one or the other far more often than both.
 
-The standard passenger experience is ninety seconds of being sat on by the planet, eleven minutes of steep climbing flight, and then the silence that every first-timer mistakes for engine failure and every crew member has learned to announce in advance.
+The standard passenger experience is ninety seconds of being sat on by the planet, eleven minutes of steep climbing flight, and then the silence that every first-timer mistakes for engine failure and every crew member has learned to announce in advance. The crew is a pilot and a co-pilot on a flight deck forward, with the passengers behind them. The ascent itself is highly automated, so the two are there to certify the craft, watch the climb and take over if anything departs from it, not to fly it by hand; the announcement is theirs.
 
 ## The Gravity Envelope
 

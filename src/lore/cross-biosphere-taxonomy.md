@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [taxonomy, survey-corps, species, classification, biology, frames, lineages, medical]
 description: "Why the Survey Corps cannot classify alien species the way it classifies Earth's — and the two-rank scheme it built instead: frames, which describe structure and claim no ancestry, and lineages, which claim ancestry and never leave one world."
 image: "cross-biosphere-taxonomy.jpg"
-image_alt: "Four preserved body-frames of unrelated origin on a long bare wooden bench in a plain room, a mineral lattice of struts, a soft segmented hydrostatic body, a radial five-armed body, and a jointed shell of plates, none built on a spine, nothing labelled, cool daylight"
+image_alt: "Four preserved body-frames laid apart along a pale composite bench in a bare, white specimen room: a lattice of pale crystalline struts and nodes, a soft segmented body with no bones, slumped and wrinkled, a round leathery disc with a scalloped rim, and a legless frame of overlapping grey plates folded like a fan. Daylight from a window on the left."
 ---
 
 The Corps needs a way to file a species. A medic needs to know what a body is made of before treating one, a quartermaster needs it before fitting a uniform shell, and a life-support officer needs it before deciding what a compartment must contain. So there is a classification, it is used daily, and **it is not a Linnaean taxonomy** — because it cannot be.
@@ -79,6 +79,18 @@ Three things about that table are worth saying aloud, because trainees get all t
 **Cataphracta contains the Chthonari and the Serephine**, whose worlds could hardly be less alike — negligible-gravity asteroid burrows against a thin-aired world of lethal thermal swing — and whose shells solve entirely different problems. Same answer, different question. The frame is not embarrassed by this.
 
 **And the frame does not capture what a species is like.** A Serephine's defining trait is that the sealed shell *opens twice a day*; a Chthonari's is that the shell carries vibration-sensing organs along every limb. Both are Cataphracta. Anyone who thinks they now know something about either has misread the table.
+
+## A Likeness Belongs to Whoever Sees It
+
+The frame's discipline goes further than the table. **Every likeness the record draws between a non-terrestrial life form and an Earth one describes how it looks to the observer and never says where it came from.** Cerebraun look [cephalopod-like](/star-rangers/lore/cerebraun/) to a human eye, the Pandoids of [Fliade](/star-rangers/lore/planets/fliade/) look a little like pandas, and the driftjellies of [Prismere](/star-rangers/lore/planets/prismere/) carry a jellyfish's name. *Dragon* is a witness's name for a [Levril](/star-rangers/lore/levrils/) signature. Each of these is a comparison made by someone who grew up among Earth's animals. None of them makes the creature a relative of the thing it is compared with, a modified form of it, or a parallel case of it. A likeness may run deep, as Endoskelia shows, and it is still convergence, which this record never treats as kinship.
+
+There is one possible exception, and it is an exception of degree, not of kind: [Tír na nÓg](/star-rangers/lore/planets/tir-na-nog/). Its native life converges on Earth's chemistry closely enough for cross-compatibility, and early colonists mistook whole genera for transplanted species. The survey botanists corrected that, and the record files its flora and fauna as not Earth-descended. Even there the likeness is very close, not a transfer: nothing on Tír na nÓg was carried from Earth. What sets it apart is that no one has explained why the world is compatible at all. While that file stays open, a likeness there runs closer than an observer's eye alone can account for.
+
+Three habits follow, and they hold for every organism off Earth, sapient or not:
+
+- **The record names the observer.** Where a page compares a body with an Earth animal, it says the likeness is to a human eye, or to whoever is looking. It never states the likeness as a lineage.
+- **The other peoples' comparisons are just as local.** A Chthonari or a Verdani has its own comparisons for a human body, drawn from its own world. The record files them the same way, and they weigh no more and no less than the human ones.
+- **A likeness is a hint, never a template.** Whatever a page says a creature resembles, it differs from that animal in what its own world asked of it, and a description or a picture that turns it into the Earth animal has turned the likeness into a claim the record does not make.
 
 ## Lineages: Ancestry, and Never More Than One World
 

@@ -130,12 +130,26 @@ test("a section hero must exist on disk and must not be the pending card", () =>
     () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "no-such-file.jpg", alt: "x" } } }), HERO_DIR),
     /is not in/
   );
-  // characters-concourse.jpg is the PLACEHOLDER-stamped card the field exists
-  // to get past; naming it as an override is refused.
-  assert.throws(
-    () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "characters-concourse.jpg", alt: "x" } } }), HERO_DIR),
-    /PLACEHOLDER-stamped/
-  );
+  // A PLACEHOLDER-stamped card is what the field exists to get past; naming
+  // one as an override is refused. The site's own pending Characters card was
+  // retired on 2026-10-11, so the stamped file is built in a temporary dir.
+  const fs = require("fs");
+  const os = require("os");
+  const { MARKER } = require("../lib/placeholder-marker");
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "hero-"));
+  try {
+    const marker = Buffer.from(MARKER, "latin1");
+    const len = Buffer.alloc(2);
+    len.writeUInt16BE(marker.length + 2);
+    const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xfe]), len, marker, Buffer.from([0xff, 0xd9])]);
+    fs.writeFileSync(path.join(tmp, "stamped.jpg"), jpeg);
+    assert.throws(
+      () => validateSectionHeroes(edition({ sectionHeroes: { characters: { image: "stamped.jpg", alt: "x" } } }), tmp),
+      /PLACEHOLDER-stamped/
+    );
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
 });
 
 test("the pets edition names a real, unstamped Characters hero", () => {
@@ -293,6 +307,17 @@ test("a tier constant is a floor: the-told extends the children's tier and the g
   assert.deepEqual(btr.domains, ["told.fianilchruinne.com"]);
   assert.equal(btr.presentation, "primer");
   assert.equal(btr.commentsEnabled, false);
+});
+
+test("five-islands is seated young-adult and listed on the general tier, so no young-adult face gains it by accident", () => {
+  // Dermot, 2026-09-19 ("young adult, listed on the general tier") and
+  // 2026-10-10 ("Approved"): Season 13 sits on the young-adult rung of
+  // src/tiers/, with no edition of its own yet.
+  assert.ok(TIERS.general.threads.includes("five-islands"), "the general tier carries the young-adult rung's threads");
+  assert.ok(!TIERS["young-adult"].threads.includes("five-islands"), "the young-adult floor is starquest.site's page set");
+  for (const id of ["starquest", "young-star-rangers"]) {
+    assert.ok(!editionFor(id).threads.includes("five-islands"), `${id} keeps its own face`);
+  }
 });
 
 

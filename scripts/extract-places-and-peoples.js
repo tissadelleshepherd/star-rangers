@@ -258,8 +258,8 @@ const EXTRA_PEOPLE_PAGES = ['the-tally', 'levrils'];
 const PEOPLE_RULES = {
   'cerebraun': {
     homeworld: null, homeworld_slug: null,
-    polity: 'Cerebraun Hegemony', frame: 'cephalopod-descended',
-    evidence: ['cephalopod-descended, sapient people', 'the founding people of the Cerebraun Hegemony']
+    polity: 'Cerebraun Hegemony', frame: 'cephalopod-like to a human eye',
+    evidence: ['tends to describe as cephalopod-like', 'the founding people of the Cerebraun Hegemony']
   },
   'chthonari': {
     homeworld: 'Undersong Belt', homeworld_slug: 'undersong-belt',

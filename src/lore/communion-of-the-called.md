@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [cosmology, devotional-traditions, christianity, ecumenical, church-space, communion-of-the-called]
 description: "The Corps is secular by charter, not its people. A working network of Christian congregations — and, among a handful of allied and partner species, functionally equivalent traditions — that Star Rangers personnel belong to on their own time, answerable to no rank and no chain of command."
 image: "communion-of-the-called.jpg"
-image_alt: "A plain metal-walled room aboard a station after a gathering has ended, a dozen mismatched folding chairs pulled into a rough circle and a trestle table with cups and a flask"
+image_alt: "An empty room aboard a habitat after a gathering: a dozen mismatched chairs in a rough circle, pale pedestal chairs, woven-seat and old wooden chairs among them, round a low table with a few cups, and a long window onto the habitat's terraces"
 ---
 
 The [Neutrality clause](/star-rangers/lore/formation-of-star-rangers/) binds the Corps, not the Ranger. It says the Rangers take no institutional side in a political dispute, and — by the same reading that gives the Fellowship's [ecumenical hymnody](/star-rangers/lore/arilon/) its neutral repertoire — no institutional side in whose liturgy is correct either. What it has never said, and was never written to say, is that a Ranger has to leave her own belief in the airlock before reporting for duty.

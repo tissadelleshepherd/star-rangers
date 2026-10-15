@@ -2,21 +2,22 @@
 layout: character.njk
 title: "Karla Wender"
 id: wender
+pov_ids: [karla-wender]
 species: Human
-role: Chief Pilot, Pilot Section (Season 1 start)
+role: Chief Pilot, Pilot Department (Season 1 start)
 status: Active
 aliases:
   - "Wender"
   - "High Captain Wender"
-tags: [human, star-rangers, chief-pilot, pilot-section, high-captain, season-1]
-description: "Chief Pilot of the pilot section at the start of Season 1; later known as High Captain Wender. The specialist's route: Novice to Chief Pilot on a single track, and only then into command."
+tags: [human, star-rangers, chief-pilot, pilot-department, high-captain, season-1]
+description: "Chief Pilot of the pilot department at the start of Season 1; later known as High Captain Wender. The specialist's route: Novice to Chief Pilot on a single track, and only then into command."
 image: "karla-wender.jpg"
-image_alt: "A woman pilot in a navy flight suit seated at a helm station, hands on the control yoke, her face lit by glowing navigation displays, starfield through the canopy behind her"
+image_alt: "A woman in her forties in a plain charcoal field shell with a small indigo rank tab at the collar, standing at the end of a table in a pale coved ready room, one hand flat on the bare table beside a mug and a folded jacket, listening to someone out of frame; a long low window behind her shows black space"
 ---
 
-The pilot section works in conditions where most navigation instruments fail: boundary-proximate transit, folding-adjacent approach corridors, edge conditions at [Concordant](/star-rangers/glossary/concordant/) overlap zones. Wender commands it.
+The pilot department works in conditions where most navigation instruments fail: boundary-proximate transit, folding-adjacent approach corridors, edge conditions at [Concordant](/star-rangers/glossary/concordant/) overlap zones. Wender commands it.
 
-She begins Season 1 holding the rank of Chief Pilot — the working title carried by a [Chief](/star-rangers/lore/star-rangers-command-hierarchy/) on the piloting and navigation track, commanding the pilot section, and a senior operational rank carrying command authority over Rangers within the section's scope. The later rank of High Captain is part of her arc across the series. The full progression between them — including whether she passed through Starwarden, Archwarden (styled Starwarden First Officer for the whole of the period in question), Line Captain, and Star Captain, or was advanced out of turn — remains to be established in story.
+She begins Season 1 holding the rank of Chief Pilot — the working title carried by a [Chief](/star-rangers/lore/star-rangers-command-hierarchy/) on the piloting and navigation track, commanding the pilot department, and a senior operational rank carrying command authority over Rangers within the department's scope. The later rank of High Captain is part of her arc across the series. The full progression between them — including whether she passed through Starwarden, Archwarden (styled Starwarden First Officer for the whole of the period in question), Line Captain, and Star Captain, or was advanced out of turn — remains to be established in story.
 
 The road *to* Chief Pilot, by contrast, is settled and simple to state: one track, all the way up. Wender entered as a Novice who already knew what she was for and climbed the entire certification ladder — Cadet to Chief — without once rotating off piloting and navigation. She is what the technical half of the ladder was designed to produce: an officer who spent every rung getting better at the same thing, until the thing and the officer were difficult to discuss separately. Command came *after* the ceiling, not instead of it — she is the working example of the crossing [the hierarchy's own doctrine](/star-rangers/lore/star-rangers-command-hierarchy/) allows a technical Chief who wants it. The deliberate mirror is [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/), whose early career rotated through almost every branch of every corps until a generalist's only remaining ladder was command. Two officers, one hinge rank, opposite reasons for crossing it — and the Corps, which needs both kinds, promoted both.
 
@@ -29,7 +30,7 @@ Her command experience in boundary-edge conditions has given her a precise skill
 See [Rank, Insignia, and the Ranger Uniform](/star-rangers/lore/rank-insignia-and-uniform/) for what each rank actually authorises.
 
 - **Before Season 1:** Novice → Cadet → Deputy → Officer → Senior → Principal → Section Lead → Chief — the whole climb on the piloting and navigation track, no rotations, one specialization
-- **Season 1:** Chief Pilot, pilot section
+- **Season 1:** Chief Pilot, pilot department
 - **2829 UCSD, Late Autumn:** Line Captain, when the Corps paired her with the newly promoted Starwarden Shepherd as mentor ([Not Asked (S05E00C01)](/star-rangers/seasons/s05/e00/s05e00c01/)); whether she passed through Starwarden and Archwarden to reach it, or was advanced out of turn, the record has not said
 - **Season 5:** High Captain (the step from Line Captain to be established in story)
 
@@ -64,3 +65,11 @@ She does not mythologise the work. The work is the work.
 Her relationship to Tissadelle Shepherd develops across the early seasons. At Season 1's start, Shepherd is a cadet well below Wender's operational horizon. That changes.
 
 By Season 5, holding the rank of High Captain, Wender sits directly in Shepherd's chain of command during fleet-wide anomaly review — and reads, correctly, that a documented anomaly flag doesn't require a subordinate to disclose everything she privately knows to be sound. See [A Fraction of a Second (S05E02C02)](/star-rangers/seasons/s05/e02/s05e02c02/).
+
+## After Dock Seven
+
+The doctrine she taught came back to her in the mid-autumn of 2831 UCSD. She read Shepherd's Triumvirate log twice, looking for the place where it stopped being right, and did not find one. The order was correct, she was eleven hours away, and the ship was already in. She keyed the relay: *Countermand nothing* ([What Came Off the Ship (S05E02C03)](/star-rangers/seasons/s05/e02/s05e02c03/)).
+
+Nineteen days later the Oversight Council put a hero's citation on her desk. Every sentence in it was true and the sum was a lie, *this is finished*, and she did not sign it ([What the Instruments Kept (S06E01C02)](/star-rangers/seasons/s06/e01/s06e01c02/)). Fifty-three days after Dock Seven the same doctrine left her without an answer. An inquiry submission laid the claim that Shepherd's survey flag was pretextual, the coordinate lying on land held under her family's name, and Wender had never asked her what she knew about it. She would not claim past her evidence: "The Corps does not answer the first claim" ([On the Record First (S06E02C01)](/star-rangers/seasons/s06/e02/s06e02c01/)).
+
+In the early winter she picked up the stylus she had set down and began the accurate account of Dock Seven with Syra and the Survey Archive's reconciling desk: a list of what was known ([The Accurate Account (S07E01C01)](/star-rangers/seasons/s07/e01/s07e01c01/)). When a detail only Shepherd could know came back across the warm edge, she had the whole account sent, neither softened nor finished, and gave Shepherd the next decision: "let her tell us what she wants, and let that be the order" ([Enough Is Enough (S07E01C03)](/star-rangers/seasons/s07/e01/s07e01c03/)).

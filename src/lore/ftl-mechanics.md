@@ -74,6 +74,45 @@ Gravitational flatness sufficient for a fold scaffold is not exclusive to Lagran
 
 The independence of the two channels is not an accident of engineering. They are defined at different tiers of the [Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), and neither is an Ensemble-wide fact.
 
+<figure class="lore-diagram">
+<svg viewBox="0 0 640 450" role="img" aria-labelledby="ftl-diagram-title ftl-diagram-desc">
+<title id="ftl-diagram-title">Where each faster-than-light channel is defined</title>
+<desc id="ftl-diagram-desc">The local formcluster, seated in the Common Manifold, is the tier at which fold transit is defined: any two regions seated in it can in principle be brought into fold adjacency. Inside it are the local archecluster, the tier at which harmonic corridors are defined, and a neighbouring archecluster. In the local archecluster a vessel can travel by harmonic corridor, medium range, on the order of a light-year a day averaged, or by fold, long range and slow. The neighbouring archecluster folds by exactly the same rules and need not have harmonic corridors at all; the local corridor structure runs no further than its own cluster. Beyond the formcluster boundary there is no shared arena, so no measured separation for a fold to compress.</desc>
+<text x="20" y="28" class="sm mute">Beyond the formcluster boundary: no shared arena, so no measured separation for a fold to compress</text>
+<rect x="20" y="42" width="600" height="345" rx="6" class="box-2"/>
+<text x="36" y="66">Local formcluster, seated in the Common Manifold</text>
+<text x="36" y="84" class="sm mute">Fold transit is defined here: any two seated regions can in principle be brought into adjacency</text>
+<rect x="40" y="104" width="275" height="270" rx="5" class="box-1"/>
+<text x="56" y="128">Local archecluster</text>
+<text x="56" y="146" class="sm mute">Harmonic corridors are defined here</text>
+<circle cx="78" cy="210" r="4" class="fill-t"/>
+<circle cx="277" cy="210" r="4" class="fill-t"/>
+<path d="M84 210 q8.5 -10 17 0 t17 0 t17 0 t17 0 t17 0 t17 0 t17 0 t17 0 t17 0 t17 0 t17 0" class="line-1"/>
+<text x="177" y="238" text-anchor="middle" class="sm">harmonic corridor · medium range</text>
+<text x="177" y="254" text-anchor="middle" class="sm mute">on the order of a light-year a day, averaged</text>
+<circle cx="78" cy="320" r="4" class="fill-t"/>
+<circle cx="277" cy="320" r="4" class="fill-t"/>
+<path d="M82 316 Q177 262 273 316" class="line-2 dash"/>
+<text x="177" y="344" text-anchor="middle" class="sm">fold · long range, and slow</text>
+<text x="177" y="360" text-anchor="middle" class="sm mute">preparation outlasts the crossing</text>
+<rect x="325" y="104" width="275" height="270" rx="5" class="box-1"/>
+<text x="341" y="128">A neighbouring archecluster</text>
+<text x="341" y="146" class="sm mute">Folds by exactly the same rules</text>
+<text x="341" y="162" class="sm mute">Need not have harmonic corridors at all</text>
+<text x="462" y="222" text-anchor="middle" class="sm mute">the local corridor structure</text>
+<text x="462" y="238" text-anchor="middle" class="sm mute">runs no further than its own cluster</text>
+<circle cx="363" cy="320" r="4" class="fill-t"/>
+<circle cx="562" cy="320" r="4" class="fill-t"/>
+<path d="M367 316 Q462 262 558 316" class="line-2 dash"/>
+<text x="462" y="344" text-anchor="middle" class="sm">fold · the same mechanism</text>
+<line x1="36" y1="410" x2="70" y2="410" class="line-1"/>
+<text x="80" y="414">Harmonic channel, and the archecluster tier it is defined at</text>
+<line x1="36" y1="436" x2="70" y2="436" class="line-2 dash"/>
+<text x="80" y="440">Fold channel, and the formcluster tier it is defined at</text>
+</svg>
+<figcaption>Where each channel is defined: fold transit at the formcluster, in its Common Manifold; harmonic corridors at the local archecluster. Regions and routes are schematic.</figcaption>
+</figure>
+
 **Quantum space harmonics are specific to, and defined within, the local [archecluster](/star-rangers/glossary/archecluster/).** The wave rides the cluster's own [quantum kernel](/star-rangers/lore/generalised-quantum-mechanics/) — identical, throughout the cluster, to real-universe quantum law — and corridor admissibility is the cluster's finer vocabulary within it. Which harmonic paths are lawful is a fact drawn from the local [Archewright](/star-rangers/lore/archewright/)'s archetypes and possibility space, so the corridor structure travels exactly as far as that vocabulary runs and no further. In a neighbouring archecluster the term does not fail; it fails to refer — universes built from a different archetype vocabulary may admit no harmonic corridors at all, or something no chart of ours would recognise as one.
 
 **Fold transit is specific to, and defined within, the local [formcluster](/star-rangers/glossary/formcluster/).** Fold geometry is a property of the [Common Manifold](/star-rangers/lore/post-eleven-dimensional-manifold/) — the Formwright's formtype every membrane of the cluster is seated in. Any two regions seated in that arena can in principle be brought into fold adjacency by the same lawful mechanism; across a formcluster boundary there is no shared arena, hence no measured separation, and nothing for a fold to compress. And "any two regions" includes regions of two different membranes: the seating is what folds, so a certified route can bring a patch of one universe into adjacency with a patch of its neighbour — the [single route into Deadwater](/star-rangers/lore/universes/deadwater/) and the [Counterpane](/star-rangers/lore/counterpane-archecluster/) survey's fold-in, fold-out are exactly this. No standing [Interval](/star-rangers/glossary/interval/) is crossed in doing it: the separation is compressed to adjacency, crossed at contact, and released, so nothing traverses a gap — which is how certified inter-membrane routes stand consistently beside the rule that matter has no trans-Interval reach ([What Crosses the Interval, and Why](/star-rangers/lore/concordant-membranes/)).

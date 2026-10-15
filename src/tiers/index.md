@@ -61,14 +61,16 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
 <p>
   Inside a thread the units get smaller. A thread is made of seasons, a season of
   episodes, an episode of chapters, and a chapter of scenes seen from more than one
-  viewpoint. Within a single season the story may also run as two <strong>strands</strong>:
+  viewpoint. Within a single season the story may also run as two or more <strong>strands</strong>:
   parallel storylines with separate casts and no shared scenes, each complete on its own,
   meeting at a point fixed before either was written. Season 1 is the model — the
   Threshold Station survey team on one strand, the Marsh Causeway on the other, and the
   two converging at the causeway. A strand is a way of reading a season, not a setting on
   the site: no address shows one strand without the other. And a character's <em>arc</em>
   — Tissadelle Shepherd's, say — is a trajectory through many seasons, not a reading path
-  of its own.
+  of its own. The thread called <a href="/star-rangers/threads/tissadelle-arc/">Tissadelle
+  Shepherd's Arc</a> borrows its name from hers because her career is what puts its five
+  seasons in order; the thread is the reading path, and the arc is still hers.
 </p>
 
 <h2>The ladder</h2>
@@ -124,10 +126,18 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
     Tissadelle Shepherd's cadet year.
   </p>
   <p class="thread-section__description">
+    Beside them on this rung: <a href="/star-rangers/threads/five-islands/">The Infinite
+    Castle and the Timeless Library</a>, Season 13 — the Kingdom of the Five Islands from
+    inside its own records, with a young keeper of each learning to hold one. One season,
+    told in two strands.
+  </p>
+  <p class="thread-section__description">
     <strong>Where:</strong> two doors, each its own face. <strong>starquest.site</strong>
     carries Orbital Five-O and the pets. <strong>young.fianilchruinne.com</strong> carries
-    Young Star Rangers beside them, and opens with that thread's first chapter. The tier
-    carries both storylines; each door shows the one it is named for.
+    Young Star Rangers beside them, and opens with that thread's first chapter. Each door
+    shows the storyline it is named for. The Infinite Castle and the Timeless Library has
+    no door of its own yet, and is read on the general addresses, which carry everything
+    on the rungs below them.
   </p>
 </section>
 
@@ -146,10 +156,8 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
   </p>
   <p class="thread-section__description">
     <strong>Where:</strong> <strong>fianilchruinne.com</strong>, the canonical address,
-    which shows every public page of the record;
-    <strong>sciencefiction.site</strong>, the same tier at its original address; and
-    <strong>dermot-r-cochran.github.io/star-rangers</strong>, built from the public
-    repository.
+    which shows every public page of the record; and
+    <strong>sciencefiction.site</strong>, the same tier at its original address.
   </p>
 </section>
 

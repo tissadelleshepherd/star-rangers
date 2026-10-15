@@ -4,7 +4,7 @@ title: "Atlas"
 eleventyComputed:
   description: "A hierarchical map of every documented galaxy, star system, and world in {{ site.name }} canon."
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/atlas-chart.jpg" alt="A vintage deep-space navigational atlas in gold ink on blue paper, spread across a chart table with sextant, compass, and drafting dividers under lamplight" />
+<img class="page-hero-image" src="/star-rangers/images/hero/atlas-chart.jpg" alt="Glass photographic plates of star fields laid in a row along a long pale wooden table in cold window light, two shut cloth-bound registers beside them and a plain grey box at the far end" />
 <h1 class="page-title">Atlas</h1>
 <p class="page-intro">
   Not every place mentioned in the record has been surveyed closely enough to map. This atlas shows the galaxies, star systems, and worlds that have — grouped by where they actually sit, not by when they were written down.

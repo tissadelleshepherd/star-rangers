@@ -8,7 +8,7 @@ status: Active
 tags: [the-institute, survey-archive, records, governance, concord, threshold-station, comparative-records]
 description: "The Institute fellow who reads institutions' records as instrument logs — and the author of the Amendment Atlas proposal, the once-a-generation idea that finally arrived carrying a scope. Her working rule is printed on everything she drafts: the record's line, not the people's."
 image: "ilsabet-corren.jpg"
-image_alt: "A woman in a dark jumper and long grey coat at a tall shelf of old bound registers in a reading room, one finger on an open register on a stand, her eyes on the next spine along"
+image_alt: "Ilsabet Corren, a fair-haired woman in her forties in a dark high-necked top and a long grey coat with a band collar, standing at a reading stand in a curved records room of pale seamless shelving filled with old bound registers, one finger on a line of an open register, her eyes on the shelves beside her; soft light from long ceiling slots and a sealed housing with one small amber indicator set in the far wall"
 known_codex:
   - the-amendment-atlas
   - the-verification-doctrine

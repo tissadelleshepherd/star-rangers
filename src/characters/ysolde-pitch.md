@@ -9,6 +9,8 @@ aliases:
   - "Dr. Pitch"
   - "Dr. Y. Pitch"
 tags: [eden, founding, pre-charter, fold-transit, history, human]
+image: "ysolde-pitch.jpg"
+image_alt: "Ysolde Maren Pitch, a woman of middle years with grey-streaked hair tied back, in a plain grey work shirt, seated at a worn metal desk in a small dim cabin, one hand flat on a closed folder, looking toward a round porthole full of stars; a desk lamp, a flask and a mug beside her."
 description: "Eden Space Habitat's chief scientist in the years before the charter: the author of the 340-page fold-mechanics analysis a committee cited in a sixteen-word footnote, the navigation model that took the Constant Margin out and back, and the sentence the Star Rangers Charter quotes as a founding asset."
 ---
 

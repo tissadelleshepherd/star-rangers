@@ -22,6 +22,9 @@ permalink: /seasons/s04/
 <p class="page-intro">
   Episode 0 is a prologue set a year before the season, in the late autumn of 2826, when Tissadelle Shepherd was a Deputy on Eden's fold-approach watch; by the season's own year she holds higher rank elsewhere, and nothing in Episode 1 onward depends on the prologue.
 </p>
+<p class="page-intro">
+  Episode 2 takes the unit's own limit from the other side. A bureau sends up the one crossing it cannot finish, five remainders resolve into the quarter's four words, and the sixth is a reading nobody can account for — which the structure above Five-O would happily take off its hands, if only the sentence that handed it over were true.
+</p>
 <p class="thread-badge">Part of <a href="/star-rangers/threads/{{ (4 | threadForSeason).id }}/">{{ (4 | threadForSeason).name }}</a></p>
 
 {% set seasonNumber = "4" %}

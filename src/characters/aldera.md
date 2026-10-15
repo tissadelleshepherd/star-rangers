@@ -14,11 +14,7 @@ gallery:
   - image: field-photo-01.jpg
     image_alt: "A tabby kitten with a black collar sitting in the bow of a boat at sunset, water and a green shoreline behind it."
   - image: field-photo-02.jpg
-    image_alt: "A tabby kitten perched on the stern of a red boat, looking out over the water at sunset."
-  - image: field-photo-03.jpg
-    image_alt: "Close-up portrait of a tabby-and-white kitten with blue eyes among yellow flowers."
-  - image: field-photo-04.jpg
-    image_alt: "Close-up portrait of a tabby-and-white kitten with blue eyes beside a blue flower."
+    image_alt: "A tabby kitten perched on the bow of a boat with a red hull, looking out over calm water at sunset."
 ---
 
 Aldera was at the Marsh Causeway before the outpost had a new occupant. She had been logging since deep winter, before Elvira arrived in early spring and began her own records. Elvira did not know this until she asked.

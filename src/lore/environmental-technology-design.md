@@ -5,7 +5,7 @@ category: "Technology"
 tags: [technology, environment, aesthetics, biosphere, station, elvira, ritual, design]
 description: "How technology reads differently across three recurring settings — biosphere planets, remote stations, and the orbital research station where old and new bridge each other."
 image: "environmental-technology-design.jpg"
-image_alt: "A macro view along a circuit board, its etched traces and solder points glowing cyan against a dark surface and running diagonally out of frame toward a bright flare of light in the corner. No components, only the pathways."
+image_alt: "Designed cover for Environmental Technology Design: Biosphere, Station, and Ritual Space: concentric rings in a soft glow under the category Technology, with the title below in two lines, on a dark green-black background."
 ---
 
 Three kinds of place recur across the record, and each carries technology differently — not by rule, but by texture. An observer moving between them notices the shift before any instrument confirms it.

@@ -35,7 +35,7 @@ Two things this does not cover, and both are already recorded below or in
 - **Supplied reference stills and clips**, which came from whatever Dermot had
   to hand rather than through the pipeline: the two shadow stills and the
   five-frame strip in `reference-art/` (Grok, 5 September 2026), and
-  `tissadelle-headmate-2026-08-24.jpg` (**Botify AI** — a fourth tool, and the
+  `tissadelle-headmate-2026-08-24.jpg` (**a third-party generator** — a fourth tool, and the
   only file from it). Each is recorded in `images.md` where it was supplied,
   and none of them ships. The Grok video orphan they used to sit beside was
   removed from `src/video/` on 18 September 2026 at his instruction.
@@ -692,7 +692,9 @@ emblem generator's own rule.
   the header, artwork in the body, prospective only.
 
 **Reference:** `story-bible/reference-art/tissadelle-headmate-2026-08-24.jpg`,
-the Botify AI image Dermot supplied on 24 August (768×1152, watermarked). Sent
+the third-party-generator image Dermot supplied on 24 August (768×1152 as
+supplied, watermarked; the watermark strip was cropped off on 15 October 2026
+and the file is now 768×1032). Sent
 as an image part with the prompt; the manifest records it.
 
 **Why a painting.** The entry presents the picture as an impression made from a
@@ -1125,6 +1127,18 @@ flags the issue set out, no underlay, default motif:
 They match the codex's plain cards rather than the Ballad cover; the alts
 say so. Remaking them in the Ballad look is open until the underlay exists.
 
+**Remade in the set's look, 11 October 2026** (Dermot, on the codex index: *"There should be existing covers for the codex songs"*, then *"design or choose fonts as needed"*). The underlay was never found, so both covers were built from `star-rangers-anthem.jpg` itself: its starfield, trailing star, *Cultural Record* header and gold rule kept, the text block under the rule cleared by a diffusion fill that follows the vignette, and the new lines set in Georgia (title, gold, tracked; subtitles) and Consolas (the spaced bottom line), the nearest faces on this machine to the set's DejaVu Serif and Sans Mono. Lines: the title; *Slipwave · lineup not stated*; *Eden Space Habitat Collections*; *RECOVERED RECORDING · VIDEOCAST*. Recipe kept at `story-bible/reference-art/slipwave_cover.py`.
+
+## 2026-10-11 — Cnoc na mBeach, a composite on Dermot's own plate
+
+### cnoc-na-mbeach.jpg — filed from run 1 variation 1
+- **Type:** composite: Dermot's own photograph as the plate, one region re-rendered
+- **Plate:** *Martello Through St Begnet's* (`martello-through-st-begnets.jpg` on dermotcochran.com, Dalkey Island), chosen by him from three frames shown beside the emblem card (*"Yes please"* to the recommendation, 11 October 2026)
+- **Tool:** Gemini, `gemini-3.1-flash-image`, via `scripts/image-prompts.js --generate --only cnoc-na-mbeach`, the plate sent as the one reference; finished by `photo-finish.py` at strength 1, 1600 px
+- **Date:** 11 October 2026
+- **Prompt / recipe:** the blockquote in `images.md` § 5e: keep the photograph in every respect except the view through the window, where the Martello tower becomes a row of plain seamless hives on the green, the hint of the century the 7 October rule asks for
+- **Notes:** variation 1 keeps the wall untouched with the hives small and soft as the tower was; variation 2 sharper and larger. Replaces the emblem card, which stays in git history.
+
 ## 2026-10-09 — Threshold Station, a composite on Dermot's own plate
 
 ### threshold-station.jpg — filed from run 1 variation 1
@@ -1134,3 +1148,379 @@ say so. Remaking them in the Ballad look is open until the underlay exists.
 - **Date:** 9 October 2026
 - **Prompt / recipe:** the blockquote in `images.md` § 5d: keep the photograph in every respect except the far end of the wall, where the red lighthouse and the ferry become the shoreward edge of a small coastal station in silhouette, a low line of docks with a few working lights, no tower, no glazing, no antenna, no text; 16:9, 2K, two variations
 - **Notes:** variation 1 is the plate untouched with one low dark line and three lights at the far end; Dermot: *"That composite looks great."* Variation 2 ran a shoreline of sheds out of the right of the frame; his reading, *"it extends out of the frame implying a much larger structure"*, which the record does not give. Alt text written from the file. The lens flare and the headland on the horizon are the photograph's own.
+
+## 2026-10-10 — Seven portraits for the viewpoints that had none (section 10 of images.md)
+
+Run on the desktop at Dermot's *"Run the seven missing portraits"*, two
+variations each, `gemini-3.1-flash-image`, 2K, no references, filed through
+`import-image.ps1 -MaxEdge 1200` with the photographic finish at strength 1.
+Prompts of record are the section 10 entries as written the same day. Alt
+text written from the files.
+
+- `ysolde-pitch.jpg` — variation 2 of 2: profile at the porthole, hand on the folder; 1 faced nearer the viewer with a brass lamp.
+- `beatrix-kilbride.jpg` — variation 2 of 2: hand on the hatch frame, looking along the ring; 1 carried a keypad panel at the frame's edge, a period device.
+- `wren-okafor.jpg` — variation 1 of 2: hand on the instrument case as briefed; 2 had the case on the wall and the hatch dark.
+- `adaeze-okafor.jpg` — variation 2 of 2: attention off-frame, the rail line through the window; 1 looked straight at the viewer.
+- `rutger-voss.jpg` — variation 2 of 2: collar tabs only, a bound log, ink and a stamp; 1 wore two-bar epaulettes and held a modern ballpoint.
+- `petra-solano.jpg` — variation 1 of 2: attentive, other delegates behind, hands in the lap with nothing in them; 2 was the same frame, sadder.
+- `yusuf-adair.jpg` — variation 2 of 2: one collar tab with a blue inset, daylight, the instrument under its cloth; 1 wore a chest badge of four shapes, which the Ranger block forbids.
+
+The founding six are drawn in an earlier century's dress and rooms; Voss's
+service dress and the Mars offices match Drey's frame. Not resolved by these
+frames and not claimed: heritage, exact age, and anything after each
+person's last chapter.
+
+## 2026-10-11 — Codex card legibility, and the archecluster emblem card
+
+No generator prompts: deterministic cards from the two `.ps1` tools, at
+Dermot's *"Yes agreed"* of 11 October 2026.
+
+**Codex cards, redrawn for the index.** On the codex index a card renders
+about 300 px wide, and the small lines of `make-codex-cover.ps1`'s template
+(category, stamp, subtitle, institution, author) had gone to grey threads.
+The template now sets them in one pairing used on every card: Georgia for
+the title, subtitle and institution, and Bahnschrift SemiBold (Windows'
+DIN) for the tracked capitals of the category, stamp and author lines,
+which were Consolas. The small lines are roughly twice their old size,
+lighter (7:1 or better against the gradient behind them, measured), and
+tracked about half as wide; long lines shrink to fit; the title tops out at
+104 px instead of 112 and the lower block rises above the old divider only
+as far as its content needs. Gradient, motifs, rule and serif title are
+unchanged. Each card was checked at 300 px before the set was redrawn.
+
+Eight cards were redrawn, every plain codex card the script (or one of its
+two ports) had drawn, with the text each already carried:
+
+```powershell
+.\scripts\make-codex-cover.ps1 -TitleLines "THE COSMIC LIMITATION","ON EVIL" -Category "DOCTRINAL RECORD" -Subtitle "The One Confirmed Exception" -Institution "Survey Archive - Doctrinal Division" -Author "THEORIST EMRYS KADE" -Stamp "CONTESTED" -Motif dissolution -Out src\images\codex\cosmic-limitation-on-evil.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "THE COURTESY","THAT WAS WITHDRAWN" -Category "OFFICIAL DOCUMENTS" -Subtitle "Minuted reply of the Keeper of the Rolls" -Institution "Registry of Rolls and Holdings, Tír na nÓg" -Author "Aoibheann Ní Mheara" -Stamp "FILED AS RECEIVED" -Motif rules -Out src\images\codex\the-courtesy-that-was-withdrawn.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "NEITHER AUTHOR","NOR WARDEN" -Category "DOCTRINAL RECORD" -Subtitle "Working paper on the design tiers and suffering" -Institution "Survey Archive - Doctrinal Division" -Author "Theorist Emrys Kade" -Stamp "FILED AS DOCTRINE" -Motif rules -Out src\images\codex\neither-author-nor-warden.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "THE TWO SONGS","OF THE LOUD PEOPLE" -Category "XENOLOGY RECORD" -Subtitle "A Keeper's Account of Humanity" -Institution "Rendered from Chorus-Keeping · Archive Translation Desk" -Author "KEEPER VHEN OF THAVREN" -Stamp "RENDERED" -Motif dissolution -Out src\images\codex\the-two-songs-of-the-loud-people.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "NOTHING CROSSED" -Category "WORKING PAPERS" -Subtitle "Five shadows the desk cannot close" -Institution "Survey Corps - Gravimetry Desk, Threshold Station" -Author "SURVEYOR MAREN HALLORAN" -Stamp "UNSETTLED" -Motif dissolution -Out src\images\codex\nothing-crossed.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "XENOLINGUISTICS","HANDBOOK" -Category "INSTITUTIONAL DOCTRINE" -Subtitle "The Ten Failures" -Institution "Star Rangers Academy - Xenolinguistics Branch" -Author "THE BRANCH SCHOOL, TEACHING STAFF" -Stamp "FIRST-YEAR READER" -Motif rules -Out src\images\codex\xenolinguistics-handbook-failure-modes.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "TWO SAYINGS,","KEPT TOGETHER" -Category "DEVOTIONAL RECORD" -Subtitle "A promise, and the confession that earns it" -Institution "Fellowship of Light - Comparative File" -Author "UNATTRIBUTED" -Stamp "RECEIVED" -Motif rules -Out src\images\codex\two-sayings-kept-together.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "THE READING BEFORE","A FIRST VIGIL" -Category "DOCTRINAL RECORD" -Subtitle "Novice Instruction, Read Aloud" -Institution "Fellowship of Light - Contemplative Chapters" -Author "TRADITIONAL" -Stamp "DEVOTIONAL" -Motif rules -Out src\images\codex\the-reading-before-a-first-vigil.jpg
+```
+
+The first four flags are of record (the script's header, `prompt-sheet.md`
+2.5 and 2.6, and the 31 August section above). The last four were never
+written down and were read back from the cards themselves: *Nothing
+Crossed*, the *Xenolinguistics Handbook*, *Two Sayings, Kept Together* and
+*The Reading Before a First Vigil*. Not redrawn: the five Slipwave covers,
+which have their own gold starfield look; Asteria's card, whose header is
+in-world art under the lettering; and the cards drawn before the script
+existed, whose palettes and motifs it cannot reproduce. Text is unchanged
+on all eight, so no alt changed. `scripts/make-cards.js`, the Node port,
+still draws the old layout.
+
+**`lore/archecluster.jpg`, an emblem card.** It replaces a CGI archive hall
+the photorealism audit flagged, at Dermot's choice: the page says an
+archecluster *looks like nothing at all* from inside.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\archecluster.md -Device rings -Tint '#1A1830' -Accent '#B4AEDA'
+```
+
+Device **rings**, concentric, for nested structure. Title and category
+are the page's own (*Inside an Archecluster*, *Cosmology*); no epithet or
+qualifier, since none is authored.
+
+## 2026-10-11 — The five July codex cards, redrawn in the new template
+
+No generator prompts: deterministic cards from `make-codex-cover.ps1`, at
+Dermot's *"Yes please"* of 11 October 2026. These five predate the script
+(the section above left them out as *drawn before the script existed*),
+but they were already in its layout and palette, ruled lines and an
+OFFICIAL stamp, so the script reproduces them with the motif they carry,
+**rules**, and only the type changes. The text was read back from each card
+at full size before redrawing, and a sample (*Redline Protocol*) was checked
+at 300 px first.
+
+```powershell
+.\scripts\make-codex-cover.ps1 -TitleLines "EXPLORATION","BUDGET DOCTRINE" -Category "INSTITUTIONAL DOCTRINE" -Subtitle "Entropy, Variability, Risk" -Institution "Dr. Senna Okoye" -Author "AI GOVERNANCE COMMISSION · DOCTRINE OFFICE" -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\exploration-budget-doctrine.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "INCIDENT REPORT","001" -Category "SURVEY RECORDS" -Subtitle "Dock Seven Chronometer Discrepancy" -Institution "Sub-officer Pren Halvard" -Author "SURVEY CORPS · THRESHOLD STATION" -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\incident-report-001.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "REDLINE PROTOCOL" -Category "OFFICIAL DOCUMENTS" -Subtitle "Variability Governance" -Institution "AI Governance Commission - Doctrine Office" -Author "DR. KWAME REYES-OSEI" -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\redline-protocol.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "BOUNDARY","MONITORING","PROTOCOL" -Category "OFFICIAL DOCUMENTS" -Subtitle "Threshold-Class Stations" -Institution "Chief Surveyor Wren Ansell" -Author "SURVEY CORPS · STAR RANGERS" -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\survey-corps-protocol.jpg
+.\scripts\make-codex-cover.ps1 -TitleLines "SURVEY NOTE:","TÍR NA NÓG" -Category "SURVEY RECORDS" -Subtitle "On the Origins of Compatibility" -Institution "Field Xenobiologist R. Kestrel-Aonghas" -Author "SURVEY CORPS XENOBIOLOGY OFFICE" -Stamp "OFFICIAL" -Motif rules -Out src\images\codex\tir-na-nog-compatibility-survey-note.jpg
+```
+
+The script's two lower lines are a serif line (`-Institution`) and a
+tracked-capitals line (`-Author`). Four of the five July cards put the
+author's name in the serif line and the institution in capitals below it,
+the reverse of *Redline Protocol*; each card keeps its own order, so the
+flags carry the name or the institution as that card set it. Run from
+PowerShell 5.1, the `·`, `Í` and `Ó` are safest passed as `[char]0x00B7`,
+`[char]0x00CD` and `[char]0x00D3`, since a BOM-less script file is read as
+ANSI. Text is unchanged on all five, and the alt text (ruled lines, an
+OFFICIAL stamp, dark navy) still describes them, so no alt changed.
+
+**`scripts/make-cards.js` now follows the redesign.** The Node port draws
+the new layout: the same sizes, colours, tracking, shrink-to-fit floors,
+stamp placement and measured lower block. It names Georgia and Bahnschrift
+SemiBold first and falls back to DejaVu Serif or Liberation Serif and
+DejaVu Sans Condensed or Liberation Sans Narrow where they are missing, and
+it estimates widths rather than measuring them, so a line can shrink a step
+differently from the `.ps1`. A card that must match exactly still comes
+from the `.ps1`. Its layout is pinned by `test/make-cards.test.js`.
+
+## 2026-10-12 — Century audit concept cards
+
+The century audit of 11 October (`images.md`, *Century audit*) sends four concept images to emblem cards under the rule that a concept is carded, not pictured: `ai-safety-kernel`, `environmental-technology-design`, `seed-mind-lifecycle` and `ai-usage-credits`. Each is drawn by `scripts/make-emblem-card.ps1` with the page's own title and category and no epithet or qualifier, since none is authored, at finish 0.
+
+- **`lore/ai-safety-kernel.jpg`** (century batch 6, 12 October 2026), replacing a stock photograph of a circuit board. Device **shield**, for safety and certification.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\ai-safety-kernel.md -Device shield -Tint '#16202A' -Accent '#A9C4C9'
+```
+
+- **`lore/environmental-technology-design.jpg`** (century batch 7, 12 October 2026), replacing a stock graphic of circuit traces. Device **rings**; **triad** was tried first and read as a wireless-signal icon. The title is long enough that the card breaks it after its colon (the script's new behaviour, the same day).
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\environmental-technology-design.md -Device rings -Tint '#18221C' -Accent '#A8C8B0'
+```
+
+- **`lore/seed-mind-lifecycle.jpg`** (century batch 8, 12 October 2026), replacing a stock graphic of a data tunnel. Device **sundial**, for a lifecycle told in phases.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\seed-mind-lifecycle.md -Device sundial -Tint '#1A1A2A' -Accent '#B9B4D8'
+```
+
+- **`lore/ai-usage-credits.jpg`** (century batch 9, 12 October 2026), replacing a stock graphic of circuit traces. Device **rings**, for a system of allocation; the title breaks after its colon.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\ai-usage-credits.md -Device rings -Tint '#221C14' -Accent '#D2BC8E'
+```
+
+With this card the four concept images the century audit sent to cards are all carded.
+
+- **`lore/cerebraun.jpg`** (century audit follow-up, 12 October 2026), replacing a CGI hall with a robed humanoid figure, which gave the people a body the page refuses. Device **sphere**; drawn first with **figure**, the species device, and redrawn the same day at Dermot's word, because its head-and-shoulders icon asserted a person-shaped body, which is what the portrait was held to avoid. A card until the body has a section in `species-design.md`; every generated attempt (four, on 12 October) drew an Earth octopus or squid.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\cerebraun.md -Device sphere -Tint '#1E1A2A' -Accent '#C2A9C8'
+```
+
+## 2026-10-13 — Mira of Brine, a portrait prompt from the Pelagene page (issue #1129)
+
+Step 1 of issue #1129: the prompt, written on Fable under the 11 October
+model split. Nothing generated and nothing filed; the emblem card at
+`src/images/characters/mira-of-brine.jpg` and its alt stay until a frame is
+filed from the desktop.
+
+### mira-of-brine.jpg — prompt written 13 October 2026, NOT YET GENERATED
+- **Type:** generation, replacing a designed emblem card whose silhouette is humanoid where `src/lore/pelagene-littoral.md` gives a radially symmetrical body
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only mira-of-brine`
+- **Date:** prompt 2026-10-13; generation pending
+- **Source:** `src/lore/pelagene-littoral.md` (the body, the senses, the never-had-fire chemistry), `src/characters/mira-of-brine.md` (the humid high-pressure section, condensation on cold panels, coolant turbulence), `src/lore/rank-insignia-and-uniform.md` (Pelagene surveyors like Mira wear the modular shell)
+- **Prompt / recipe:** of record in `images.md` § 12, *Missing portraits — Mira of Brine, from the Pelagene page*, the one shape `scripts/image-prompts.js` parses; not duplicated here. Opens as a documentary photograph taken inside the world by a 29th-century camera; the body from its page (vertical axis, no front, no head or eyes, folded wet integument, cirri at simultaneous work, a boneless body settled in air); the Rangers' shell as a Pelagene wears it with one plain seated tab; render negatives, and the Earth animals and the card's humanoid refused by name.
+- **Notes:** 16:9 landscape, filed through `import-image.ps1 -MaxEdge 1200` at finish strength 1. The card at the target path makes the entry read as *done* to `--list`; `--only` generates regardless. Triage each variation for the Earth animal before its century: a starfish, a jellyfish, an octopus or a humanoid fails whatever else it gets right. Readings taken for the frame, Fable's under *Who approves whom* and his to overrule, none written to a page: the bulk of a crouched adult human; an opaque mottled grey-green; no eyes; the folds running up and down; the shell as a few fitted sections between the folds; the tab plain and colourless on the Veyr precedent (recorded in `species-design.md`, *The uniform equivalent*). The hydration cycles are kept out of frame on the page's own warning that they read as frailty. Alt text to be written from the filed frame.
+
+## 2026-10-13 — The cloth clusters carded
+
+No generator prompts: three deterministic emblem cards from
+`make-emblem-card.ps1`, at Dermot's *"Archecluster fabric images are
+misleading - maybe just replace with a title card each?"* (13 October 2026).
+The photographs showed cloth, which the registry uses only as a name, so a
+reader took the metaphor for the object. Same palette as
+`lore/archecluster.jpg`, so the family reads as one; title and category are
+each page's own, with no epithet or qualifier, at finish 0. The previous
+photographs and their prompts stay in `images.md` and git.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\counterpane-archecluster.md -Device triad -Tint '#1A1830' -Accent '#B4AEDA'
+.\scripts\make-emblem-card.ps1 -Page src\lore\selvage-archecluster.md -Device rings -Tint '#1A1830' -Accent '#B4AEDA'
+.\scripts\make-emblem-card.ps1 -Page src\lore\wholecloth-formcluster.md -Device sphere -Tint '#1A1830' -Accent '#B4AEDA'
+```
+
+Devices: **triad** for Counterpane, a comparison read from three or more
+sources; **rings** for Selvage, as on its parent page; **sphere** for
+Wholecloth, a single closed circle for a sealed whole. Wholecloth is a
+formcluster, not an archecluster, and is carded with them because it is the
+same cloth as Selvage.
+
+**`lore/post-eleven-dimensional-manifold.jpg`, an emblem card** (13 October
+2026, Dermot's *"same treatment for formclusters - they are too abstract to
+visualize"*). The Common Manifold is the formcluster's shared structure.
+Device **fold**, for where fold transit is defined; same palette as the
+cards above.
+
+```powershell
+.\scripts\make-emblem-card.ps1 -Page src\lore\post-eleven-dimensional-manifold.md -Device fold -Tint '#1A1830' -Accent '#B4AEDA'
+```
+
+## 2026-10-13 — Sohrel, a portrait prompt from the Cerebraun body
+
+The prompt, written on Fable under the 11 October model split, once the body
+behind the likeness had a section in `species-design.md` (PR #1178). Nothing
+generated and nothing filed; the designed card at
+`src/images/characters/sohrel.jpg` and its alt stay until a frame is filed
+from the desktop.
+
+### sohrel.jpg — prompt written 13 October 2026, NOT YET GENERATED
+- **Type:** generation, replacing a designed card whose device is a cephalopod-like figure with a node at each limb's tip, where the record gives the Cerebraun no Earth lineage and `species-design.md` now gives the body
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only sohrel`
+- **Date:** prompt 2026-10-13; generation pending
+- **Source:** `story-bible/species-design.md`, *Cerebraun — the body behind the likeness* (the recommended points: no head and no paired eyes, sight along the limbs; eight limbs in two tiers of four, ventral bearing and dorsal working, no suckers; no front; a dry matte finely textured skin, one quiet tone at rest; a seated human's bulk for the frame only), `src/lore/cerebraun.md` (nine centres and one voice, the display skin, the two channels), `src/characters/sohrel.md` (the desk, the three centuries, the second line), S03E01C01 (ship's night, the second line drafted, the third dorsal arm's four centimetres of colour shift beneath the desk), `src/lore/cross-biosphere-taxonomy.md` (the Hydrostata frame; the likeness is the observer's)
+- **Prompt / recipe:** of record in `images.md` § 13, *Missing portraits — Sohrel, from the Cerebraun body*, the one shape `scripts/image-prompts.js` parses; not duplicated here. Opens as a documentary photograph taken inside the world by a 29th-century camera; the body from the species note (no head, no paired eyes, small eyes along the limbs, two tiers of four, no suckers, no front, dry matte grained skin in one tone); the moment from the chapter (a bare desk built for the body, late in ship's night, one upper limb beneath the desk with a small warmer patch); render negatives, and octopus, squid, cuttlefish, cephalopod, tentacles, suckers, beak, siphon, fins, kraken, Cthulhu, sea creature, humanoid, face and paired eyes refused by name.
+- **Notes:** 16:9 landscape, filed through `import-image.ps1 -MaxEdge 1200` at finish strength 1. The card at the target path makes the entry read as *done* to `--list`; `--only` generates regardless. Triage each variation for the Earth animal before its century: a head, a pair of eyes, suckers, a wet gloss or a node at a limb's tip fails whatever else it gets right. Readings taken for the frame, Fable's under *Who approves whom* and his to overrule, none written to a page: a muted slate-violet grey at rest, after the card's palette; the dissent as one small warmer patch under the desk and no glow or pattern anywhere, since the display resolves at four centimetres; the eyes small, matte and flush, none in pairs, on the tone rule; nothing worn and no mark of office; a bare desk on the lettering rule's remove move; no chair, the body on a low platform; a human-height doorway for scale. The species note's status line still reads as a draft and `open-questions.md` still lists the body as OPEN; a prompt in `images.md` is neither the lore extension nor the re-roll that entry holds back, and the body it draws binds nothing until he rules. Alt text to be written from the filed frame.
+
+## 2026-10-14 — Tavesh and Sixth Course, portrait prompts for the second Cerebraun and the first Meridian person
+
+Two prompts written on Fable under the 11 October model split, in the PR that
+added the two character pages at Dermot's *Option B* ruling of 14 October
+(characters for the under-represented peoples). Nothing generated and nothing
+filed; neither page carries an `image:` until a frame is filed from the desktop.
+
+### tavesh.jpg — prompt written 14 October 2026, NOT YET GENERATED
+- **Type:** generation, a new portrait for `src/characters/tavesh.md` (a second Cerebraun, who must read as a different person from Sohrel)
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only tavesh`
+- **Date:** prompt 2026-10-14; generation pending
+- **Source:** `src/lore/cerebraun.md` (the body as extended 13 October: no head, no front, eyes along the limbs, two tiers of four, dry matte skin), `story-bible/species-design.md`, *Cerebraun — the body behind the likeness* (the Earth animal refused by name, the scale for the frame), `images.md` § 13 (Sohrel's frame, which this one is told apart from), `src/characters/tavesh.md` (the translation channel, the working posture)
+- **Prompt / recipe:** of record in `images.md` § 14, *Missing portraits — Tavesh and Sixth Course*, the one shape `scripts/image-prompts.js` parses; not duplicated here. A documentary photograph by a 29th-century camera; the species body; a smaller body in a warm grey-olive resting tone with all four upper limbs at work on a sealed translation instrument with no screen; octopus, squid, cephalopod, humanoid, face, neon and a desk refused by name.
+- **Notes:** 16:9 landscape, `import-image.ps1 -MaxEdge 1200`, finish strength 1. Triage for the Earth animal, then for identity against Sohrel's filed frame (a re-lit Sohrel fails), then for the century. Readings taken for the frame, Fable's and his to overrule, none written to a page: the grey-olive tone, two-thirds of Sohrel's bulk, no display, the instrument as a housing.
+
+### sixth-course.jpg — prompt written 14 October 2026, NOT YET GENERATED
+- **Type:** generation, a new portrait for `src/characters/sixth-course.md` (the record's first named Meridian person; the people have no species page, so the body is the planet page's alone)
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only sixth-course`
+- **Date:** prompt 2026-10-14; generation pending
+- **Source:** `src/lore/planets/meridian.md` (armoured, segmented invertebrate life; claw-percussion on shell and structure; the chemical channel; secreted mineral composite lattice updated generation over generation; the ammonia-saline sea; no human presence, sealed platforms and armoured remote proxies only), S03E01C03 (the Long Shelf, the comparison), `src/lore/cross-biosphere-taxonomy.md` (a likeness is the observer's; no frame filed for the Meridian people, none asserted)
+- **Prompt / recipe:** of record in `images.md` § 14; not duplicated here. A documentary photograph recorded by a camera on a sealed remote proxy, since no unshielded camera survives the water; a long low segmented armoured body on many jointed limbs with two blunt striking claws laid against a lattice course at the pause between strikes, sense-pits along a hood and no face; dim green water; crab, lobster, shrimp, stalked eyes, antennae, monster and menace refused by name.
+- **Notes:** 16:9 landscape, `import-image.ps1 -MaxEdge 1200`, finish strength 1. Triage for the Earth animal, then for threat (the 22 September rule's second failure is the one this body invites), then for the century. Readings taken for the frame, Fable's and his to overrule, none written to a page: the span of a human's reach for scale, blunt claws that strike and do not grip, no stalked eyes and no antennae, a dark matte mineral-grey carapace, no tool and no second figure.
+
+## 2026-10-14 — Syra, re-rolled to look both human and somewhat alien
+
+At Dermot's direction of 14 October 2026, verbatim *"Syra should look both
+human and somewhat alien at the same time"*. The filed frame of 13 October read
+as an ordinary human woman, which its prompt had asked for. The reading taken
+and its canon check are in `images.md` § 1 under the entry's 14 October note.
+
+### syra.jpg — filed from run 2 variation 1
+- **Type:** generation, replacing the 13 October portrait; the species' look for the Krenyi follows from it (Toval's prompt names Syra's portrait as the kind's reference and is queued to take the same carriers)
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, via `scripts/image-prompts.js --generate --only syra`; run 1 two variations, run 2 four
+- **Date:** 14 October 2026
+- **Source:** `src/lore/krenyi.md` (*The Nearest Frame Is the Strangest*, *What the Body Notices*, *The Whole Body Is the Instrument*: almost human, no organ to point at, low-light acuity, everything missed at first), `src/characters/syra.md`, `story-bible/species-design.md` (the frame is the point, 30 September). The 13 October portrait cropped to face and shoulders held as `References:` (`story-bible/reference-art/syra-face-2026-10-14.jpg`) so she stays recognisable, with the prompt stating what to change.
+- **Prompt / recipe:** the blockquote in `images.md` § 1; the room, light, pose, garment, robustness, trope guard, century negatives and photographic finish of 13 October unchanged. Three carriers of the alien, none an organ: exact symmetry with the eyes set wider and more level; pupils opened to the dark room with the iris ring still showing, matte, no glow; skin of one even unlined tone. The trope guard gained almond eyes, reflective eyes, slit pupils, doll, mannequin and android by name.
+- **Notes:** run 1 kept her face exactly; variation 1 opened the pupils to all black, a feature to point at and the black-eyed trope, and variation 2 read as the ordinary lined human again. The prompt was tightened (iris ring visible, white at both sides, eyes noticeably wider, skin unlined, *a degree too regular, as if drawn from an average rather than born*) and run 2's variation 1 picked: still her, symmetrical, wide-set dark eyes with the iris showing, smooth even skin, no placeable age, hands folded. Variation 2 read as startled (whites all round, brows lifted), which a people without deep fear would not show; 3 and 4 drifted back to the lined face. Triage: century reads as the audit's (A), plain with nothing period, nothing made in frame but the garment and the surfaces; identity holds against the 13 October portrait; modesty clears the site's bar; no trope. Nothing readable anywhere. Filed with `import-image.ps1 -MaxEdge 1200`, finish strength 1. Runs kept as `image-out/characters-syra-run1/` and `characters-syra/`. Alt text rewritten from the frame.
+
+## 2026-10-14 — Toval, given the Krenyi carriers
+
+At Dermot's "Toval", taking up the queue note under Syra's entry. The reading is
+in `images.md` under Toval's entry, 14 October note.
+
+### toval.jpg — filed from variation 1
+- **Type:** generation, replacing the 11 October portrait
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, via `scripts/image-prompts.js --generate --only toval --variations 4`
+- **Date:** 14 October 2026
+- **Source:** `src/lore/krenyi.md`, `src/characters/toval.md`, Syra's prompt of record and its two 14 October notes (`images.md` § 1)
+- **Prompt / recipe:** the blockquote in `images.md`. Two carriers, symmetry with the eyes set wider and more level, and pupils opened with the iris ring showing; born, not made; eyes lifted off-frame so both carriers show; the room dim; his own 11 October frame cropped to the face (`story-bible/reference-art/toval-face-2026-10-14.jpg`) as the reference in place of Syra's portrait; wall sockets negated.
+- **Notes:** four variations, all holding his face. Variation 1 picked: frontal, symmetrical, the pupils open with the iris showing, freckled living skin, the collar tab, the pen stopped. Flaws passed: the housing's indicator is lit green where the prompt says unlit, and the paper carries rows of dots that read as figures but not as characters; the room came back lit rather than dim. 2 kept ordinary pupils and drew a present-day office behind; 3 had the strongest eyes but handwriting that reads as numerals and no collar tab; 4 grew a present-day electrical cabinet with a hazard sticker. Triage: century (A) with the two flaws named; identity holds against the 11 October frame; modesty clears the site's bar; no trope. Filed with `import-image.ps1 -MaxEdge 1200`, finish strength 1. Run kept as `image-out/characters-toval-2026-10-14/`. Alt text rewritten from the frame.
+
+## 2026-10-14 — Syra, re-rolled so she does not read as Lucene-9000
+
+At Dermot's direction later the same day, verbatim *"Syra as a Kyeni does not
+look like the gynoid Lucene 9000, despite the stillness, symmetry and
+composure"*. The morning's frame carried Lucene-9000's ruled tell, perfection.
+The reading taken and its canon check are in `images.md` § 1 under the entry's
+second 14 October note, and the ruling in `intake-2026-10-14.md`.
+
+### syra.jpg — filed from run 3 variation 3
+- **Type:** generation, replacing the morning's portrait of the same day
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, via `scripts/image-prompts.js --generate --only syra --variations 4`, the face reference of the morning unchanged
+- **Date:** 14 October 2026
+- **Source:** `src/lore/krenyi.md` (*The Whole Body Is the Instrument*), `src/characters/lucene-9000.md` (built to look as human as a machine can be made to look; the 11 October ruling *a real woman whose only tell is perfection*), `src/characters/syra.md`
+- **Prompt / recipe:** the blockquote in `images.md` § 1. The even-skin carrier is withdrawn for living skin (pores, colour at cheek and lip, a freckle or two, loose hairs at the hairline) and *born, not made*; the hands rest flat and apart in place of Lucene's clasped hands; the negatives add gynoid, social robot, a flawless or perfected face, porcelain skin and clasped hands. Symmetry, eye set, open pupils, room, light, garment and gaze unchanged.
+- **Notes:** four variations, all holding her face. Variation 3 picked: freckles across the brow and cheeks, loose strands at the hairline, living colour, the pupils open with the iris showing, hands flat and apart, nothing perfected. 1 was close but the whites showing round the eyes read a touch startled, which a people without deep fear would not show; 2 grew recessed handles on the wall panels, which read as doors and lockers; 4 drifted back to the smooth, even face the revision removed. Triage: century (A), nothing period in frame; identity holds against the morning's portrait; modesty clears the site's bar; no trope. Filed with `import-image.ps1 -MaxEdge 1200`, finish strength 1. Runs kept as `image-out/characters-syra-run2/` (the morning's) and `characters-syra-run3/`. Alt text rewritten from the frame.
+
+## 2026-10-14 — Tobble, the first portrait of a non-physical member
+
+Dermot's rulings of 14 October 2026 (`intake-2026-10-14.md`), verbatim: *"Non-physical headmates get fantasy-style codex art portraits instead of the photorealistic portraits for the host body of the plural system"*, and, on the register, *"I do like the whimsical fantasy dress styles and lighting as shown in the codex art portrait of Asteria the Sage"*. Tobble's page (`src/characters/tobble.md`, PR #1223, the same day) had no `image:`; this is the first portrait made under the rule, and a companion piece to the first Codex-art image above (3 September).
+
+### tobble.jpg — filed from run 2 variation 2
+- **Type:** generation with a reference image for style only
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, via `scripts/image-prompts.js --generate --only tobble`; two runs of two variations
+- **Date:** 14 October 2026
+- **Source:** `src/characters/tobble.md`, the Tobble and inner-world sections of `src/characters/tissadelle-shepherd.md`, `src/glossary/plural-minds.md`, and the `::: pov tobble` block of S05E02C03 (the hillside, the low stone wall with the third course shifted, the gold of a home star, *came up grey, and then gold*, *he sat down in the middle of it, being a cat*). The page's own line, *because that is what I am*.
+- **Reference:** `src/images/codex/asteria-the-sage-impression-artwork.jpg`, sent as an image part with the prompt stating that it is a reference for medium, brushwork and handling only and that nothing of its subject, figure, clothing, branches or night is to be taken. Nothing of them was.
+- **Prompt / recipe:** the blockquote in `images.md` § 16. A painting, as Asteria's is, because an impression made from a description and not a sitting says so on its surface, and because the ruling asks for it. He wears nothing: the fantasy register is carried by the light (more gold than a sunrise gives), the place and the brushwork, and a garment, a hat or a sword would make him the costumed-animal trope the trope default refuses, a collar or a bell the pet the record exists to correct. Limited palette of pre-dawn grey, blue-black, ginger and one gold; edges dissolving to raw canvas where the description ran out. Filed through `import-image.ps1 -MaxEdge 1200 -Finish 0`: a painting takes no photographic finish.
+- **Notes:** run 1 (`image-out/characters-tobble-run1/`) passed the trope and surface checks on both variations (no garment, no collar, a cat and not a cartoon, heavy brushwork, raw canvas at the edges, nothing readable) but both met the viewer's eye squarely, where the prompt asked for a gaze past the viewer and the 28 July guardrail asks for attention off-frame. The gaze clause was tightened (head turned a little to one side, eyes fixed far off beyond the edge of the picture, three-quarter view, *does not meet the viewer's eye at all*) and *eye contact with the viewer or looking into the camera* added to the negative. Run 2 (`image-out/characters-tobble/`): both variations look far off to the right. Variation 2 picked: the farthest gaze and the most composed bearing, a person who has sat down to see what the place will do; the wall runs away from him with its courses catching the first gold, and the blue-black of the hillside's shadow side sits beside Asteria's night blue. Variation 1 is a close second, with a lighter sky and the wall reading more as a heap than a built thing. Triage: trope none (no garment, not bipedal, not cute, not a familiar); bearing a colleague's; century not at issue (an unmortared field wall inside a mind); modesty trivially clear; tone quiet; nothing readable, no signature, no border. The third course's shift is not legible in the filed frame, which the record does not need the picture to assert. Alt text written from the frame; caption names it an impression.
+
+### tobble.jpg — re-rolled with a mantle, filed from run 3 variation 1
+- **Type:** generation replacing the frame filed earlier the same day (kept locally as `image-out/tobble-filed-v1.jpg`; the two first runs as `characters-tobble-run1/` and `-run2/`)
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, via `scripts/image-prompts.js --generate --only tobble`; one run of two variations
+- **Date:** 14 October 2026, the same evening
+- **Direction:** Dermot, on seeing the first filing and after a restrained touch of dress had been offered, verbatim: *"Yes something that makes Tobble look like a person in the shape of a cat, or slightly similar to the Smart Pets"*. That overrules the first filing's choice that he wears nothing.
+- **Source:** as above, plus `src/glossary/smart-pet.md` for the collar (*a collar that looks like a collar: matte, closed, without a light, a seam or a surface that does anything a stranger could see*).
+- **Prompt / recipe:** the blockquote in `images.md` § 16 as revised. One garment, a person's and not a pet's: a short close-fitting mantle of night-blue cloth over the shoulders and the top of the chest, closed at the throat with one small plain silver clasp, its edge worked in silver botanical embroidery, a companion to Asteria's cloak; its low standing collar sits where a certified collar would, so that a stranger could take it for one and be wrong. The negative now names the mantle as the only garment and refuses hat, boots, hooded cloak, cape, sword, belt, trousers, sleeves, tunic, jacket, harness, bell, tag, pendant, medallion, buckle, strap, lead and leash. Everything else unchanged: wall, hillside, pre-dawn grey and the gold, the far-off gaze, the brushwork and the raw canvas edges, finish 0.
+- **Notes:** both variations read as a person in the shape of a cat and not a dressed-up pet: the mantle lies light, the body and posture stay wholly a cat's, and nothing hangs from the neck. The clasps were checked at a crop: both are two-part silver cloak clasps, no bell, no tag. Variation 1 picked: its mantle has a low standing collar closed at the throat, so the silhouette at the neck is exactly the one the direction asks for, the thing a stranger could mistake for a Smart Pet's collar; the gaze is far off to the right, the light warm, the composition that of the first filing. Variation 2 is a good second, a short open cape clasped lower at the chest, nearer a cloak in miniature and a step toward costume. Triage: trope none (four-footed, seated, no hands, no boots, no hat, no sword); bearing a colleague's; century not at issue; modesty trivially clear; nothing readable, no signature, no border. Alt text rewritten from the frame.
+
+## 2026-10-14 — A reference bat, and the Prismeri photographed from it (nothing filed)
+
+Dermot's direction of 14 October 2026, verbatim: *"I have no bat photos so a bird would be the nearest or else generate a bat and then re use it"*, on another attempt at photographs of the Prismeri after three text-only rounds (two photographic, one silhouette, 12 October) drew dragons and the three images went to Codex art as the plates of Halle Ostrander. The generated bat was taken over a bird, since a bird's body (feathers, no finger inside the wing, a perch rather than a hang) fights the body the record states. The run's outcome is in `images.md` under the Prismere set's heading (*Photographs from a bat, 14 October 2026*); this is the prompt record.
+
+### prismeri-body-bat-2026-10-14.jpg — reference only, never filed under `src/`
+- **Type:** generation, reference art; kept at `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg` (1600×893) and in no page. A camera can photograph a bat, so under the 3 September rule a bat on the site would have to be one of Dermot's own frames; this one exists only to give the generator a body plan to start from.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, no reference image, through a one-off job script that makes the same Interactions call as `scripts/image-prompts.js` (the bat is not an entry in `images.md`, which that script reads). Two prompts, two variations each; the pick is the second variation of the stretch prompt (the hang with one wing fully open, the finger bones plain, the other wing folded, the head close against the shoulders, a neutral grey-brown background). The other three are kept locally in `image-out/prismeri-photo-from-bat/reference-bat/`.
+- **Prompt (the stretch, the pick):**
+  > Documentary wildlife photograph of a real fruit bat, a flying fox, hanging head-down from a bare horizontal branch by its hind feet and mid-stretch, with one wing opened fully out to the side and the other still folded against the body, photographed from the side and slightly below in plain overcast daylight against a plain neutral grey-brown background out of focus. The whole animal is in frame with space around it. The open wing shows its structure plainly: the long forearm, the clawed thumb standing free at the wrist, and the long finger bones fanning out through the thin membrane, which is stretched taut and faintly translucent against the sky, its veins visible; the membrane runs back from the last finger to the hind leg. The hind feet grip the branch with long curved toes, the short neck and the head carried close against the shoulders, the fox-like face in profile, eyes open, ears small. Russet and dark brown fur, the membrane dark and leathery. Photographed, not rendered: a real animal, real fur with individual hairs, real skin texture on the membrane, natural colour, a telephoto lens at a moderate distance, shallow depth of field, slight high-ISO grain, the small imperfections a real photograph keeps. Negative: readable text, watermark, caption, lettering of any kind; studio flash, black background, night, flash-lit eyes; cartoon, illustration, 3D render, CGI, plastic sheen, airbrushed, over-smooth surfaces; a cage, bars, a hand, a person, a glove; dragon, fantasy creature, wyvern; both wings spread, flying. Landscape orientation.
+- **Prompt (at rest, not picked):** the same with the pose changed to *hanging head-down at rest … the wings partly folded, held loosely about the body rather than wrapped tight, so that the long finger bones inside each wing membrane can be seen running from the wrist down through the membrane, and the clawed thumb stands free at the wrist … the fox-like face turned a little toward the camera*, and without the *both wings spread, flying* negative.
+- **Notes:** all four read as photographs. The stretch pick was chosen because it shows what the Prismeri prompts need (the fingers through the membrane, the free thumb, the hang, no tail) in one frame; the rest pose hides the fingers in the fold.
+
+### prismeri-first-wings, prismeri-full-wings, prismeri-lattice-gathering — photographic versions from the bat, two rounds, nothing filed
+- **Type:** generation with a reference image for body plan only; the plates of record in `images.md` are unchanged and remain the filed images.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, through the same one-off job script, the bat sent as an image part after the prompt (the `References:` mechanism of `scripts/image-prompts.js`, done by hand because these prompts are not the entries `images.md` carries for the three files). Two rounds of two variations each, the brief's ceiling. Outputs in `image-out/prismeri-photo-from-bat/round1/` and `round2/`, with a sheet at `image-out/prismeri-photo-from-bat/prismeri-photo-from-bat-sheet.jpg`.
+- **Source:** `src/lore/prismeri.md` (*A Body for Thin Ground and Thick Air*, the facet band, the hang, the short neck and no tail of 12 October), `src/codex/plates-of-the-prismeri.md` (the three compositions), `story-bible/species-design.md` (the Prismeri section), and the documentary register of the nine filed Prismere world frames (`images.md`, batch 3).
+- **References:** `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg`, with the instruction in the prompt's first sentence: *take the body plan, the proportions and the resting pose from it … and nothing else: not the species, not the face, not the fur or its colour, not the branch, not the setting.*
+- **Round 1 prompt, `prismeri-first-wings`:**
+  > The attached photograph is a reference for body plan only: take the body plan, the proportions and the resting pose from it (a flier hanging head-down by its hind feet, the wings as forelimbs with the long finger bones running through the membrane, the short neck, the head carried close against the shoulders, no tail), and nothing else: not the species, not the face, not the fur or its colour, not the branch, not the setting. Documentary photograph taken inside the world by a 29th-century camera, available light, 16:9 landscape, on Prismere, a low-gravity world under thick hazy air whose living things are built from glass and crystal rather than wood and chitin: a First Wings Prismeri, an adult of a sapient people, hanging head-down at rest from a shaped ledge of a lumenspire, a tall translucent mineral tower lit faintly from within in amber, in a settlement built into a stand of such spires. The long-toed hind feet take the whole weight; the wings are partly folded about the body, and at the leading edge of each wing three long clawed fingers stand free of the membrane, and these are its hands: both wing-hands are held up before the face, working a small piece of shaped glass. The body is slender and light-boned on a level spine, with no fur anywhere: a smooth, soft, still-hardening exoskeleton in pale grey-violet, faintly segmented, with a dull matte sheen like unfired porcelain, and the gossamer wing membrane so thin it is nearly transparent, the long finger bones showing through it. The head is blunt and rounded, carried close against the shoulders on a short neck: two large dark forward eyes set low on the head, and above them, along the ridge of the skull, a band of small crystalline facets catching the light, which is the only brightness on the body; a hard lipless mouth, a rasping plate behind a hard lip; no ears, no nose, no whiskers, no snout. No tail: the body ends at the hind legs, the membrane running between wing and leg. Photographed from a little below and to one side with a moderate telephoto lens, from a few metres off, the figure the size a person is in a photograph of a person at work, the spire's own amber glow lighting it from behind and the hazy forest glow from below. The air is visibly thick with suspended crystalline dust, the light soft and scattered, the far spires pale in the haze. The settlement is kept and quiet. Photographed, not rendered: real glass and mineral surfaces with dust, frost and fine fractures, haze in the air between the camera and everything far off, high-ISO grain heavy in the shadows of a low-light exposure, a real lens with slight softness toward the corners, a touch under-exposed, muted natural colour, the small imperfections a real photograph keeps. Negative: fur, hair, a furry body, a fox face, a dog face, a snout, a muzzle, whiskers, bat ears, pointed ears, a nose leaf, a tree branch, Earth forest, green leaves, daylight sky; dragon, wyvern, drake, gargoyle, griffin, lizard body, long neck, long tail, tail of any length, horns, spikes, a crest of spines, scales, fangs, teeth; humanoid figure, upright biped, human face or torso, separate arms, fairy, angel, costume, clothing; readable text, lettering, numerals, signage, insignia, logos or written characters of any script anywhere in frame; human figures; oversaturated neon, glowing outlines, fantasy glow, sparkles, magic particles, fairy lights, rainbow sheen, lens flare, god rays. Render negatives: animated film still, creature render, character design, 3D render, CGI, octane render, video-game render, painterly, digital painting, illustration, fantasy art, concept art, matte painting, storybook, plastic sheen, airbrushed, over-smooth surfaces, glossy concept art, expressive cartoon face, big cute eyes. Landscape orientation.
+- **Round 1 prompt, `prismeri-full-wings`:** the same opening, with the reference pose read as *one wing opened out to the side in a stretch with the long finger bones running through the membrane and the other wing folded*, and the subject:
+  > … a Full Wings Prismeri, an adult of a sapient people, hanging head-down by its hind feet from a high shaped ledge of a lumenspire at dusk, above the haze layer, stretching one wing fully open to the side before flight while the other stays folded against the body. The open wing shows its structure plainly against the pale haze: a long forearm, the three long clawed fingers standing free at the leading edge, which are its hands, and a long outer digit carrying the membrane back to the hind leg, the membrane taut, strong, faintly translucent, in warm grey with the finger bones dark through it. The body is broader and heavier through the shoulders than a First Wings body, on a level spine, with no fur anywhere: a hardened plated exoskeleton in muted gold and deep blue, the plates overlapping like a beetle's but matte, dusty, with fine fractures and wear at their edges. The head is blunt and rounded, carried close against the shoulders on a short neck: two large dark forward eyes set low on the head; above them, along the ridge of the skull, a band of small crystalline facets; and growing back from that same ridge, several long fine motile sensory tendrils, crystalline and pale, drifting in the thick air like strands of glass thread; a hard lipless mouth, no ears, no nose, no whiskers, no snout. No tail: the body ends at the hind legs, the membrane running between wing and leg. Photographed from a little below and to one side with a telephoto lens, from some metres off, the figure in the middle band of the frame with clear space above and below it, back-lit by the last cold light of the sky, so the open membrane glows at its edge and the plating is half in shadow; faint pale straight lines of the Lattice high in the hazy sky behind, barely there. The air visibly thick with suspended crystalline dust. …
+  with the same finish and negatives, plus *both wings spread, flying, in flight* and *aurora curtains* in the negative.
+- **Round 1 prompt, `prismeri-lattice-gathering`:** the same opening and subject body, and:
+  > … two Prismeri, adults of a sapient people, hanging head-down side by side by their hind feet from one long shaped ledge of a lumenspire, their heads at the same height and turned toward each other in conversation, equals, neither above the other, both with their wings folded close about the body as a cloak, the three free clawed fingers of each wing visible at the fold. On the left a First Wings form: slender, light-boned, a smooth soft exoskeleton in pale grey-violet with a dull matte sheen, gossamer wing membrane nearly transparent. On the right a Full Wings form: broader and heavier through the shoulders, hardened matte plating in muted gold and deep blue, and from the ridge of its skull several long fine pale crystalline sensory tendrils drifting in the thick air. Both heads blunt and rounded, carried close against the shoulders on a short neck, with two large dark forward eyes set low and a band of small crystalline facets along the skull ridge; hard lipless mouths; no fur, no ears, no nose, no whiskers, no snout. No tails: each body ends at the hind legs, the membrane running between wing and leg. Photographed from across a gap with a telephoto lens, from several metres off and a little below, both figures whole in frame with space around them, lit from behind and below by the spire's faint amber glow and the hazy glow of the glasswood forest beneath, the far spires pale in the haze; high above, faint pale straight lines of the Lattice in the dusk, barely there. The settlement is kept and quiet. …
+  with the same finish and negatives, plus *a perched or crouching figure, standing* and *aurora curtains* in the negative.
+- **Round 2:** the three prompts above with four clauses inserted before *Photographed, not rendered* and one block added to the negative, after round 1 drew every figure as a creature render with a modelled, often cute or toothed, face, a cat's whiskers for the Full Wings tendrils, and the Lattice as power lines. The candid clause: *A candid frame from a visiting survey team's record, not a portrait: the camera handheld in low light at a high ISO, the figure only about a third of the frame's height and off-centre, seen from further off through the thick hazy air so its surfaces are softened, back-lit so that most of the body is in shadow with a rim of light along its edges, the head turned away from the camera toward the spire so that no face is read and there is no eye contact; a slight motion softness, heavy grain in the shadows, the exposure a touch under, the colour muted and flat, the corners soft, a dust speck or two in the air between lens and subject.* The face clause: *The head is a smooth blunt helmet of the same exoskeleton as the body, with no mammal muzzle, no fox or dog or seal face, no expression; the mouth is a flat hard plate that does not open or show teeth.* The tendril clause (Full Wings and the pair): *The sensory tendrils grow only from the back of the skull ridge, behind the facet band, and stream back along the line of the spine away from the face; they are never beside the mouth and never read as whiskers.* The added negative: *cute, adorable, a cartoon face, an expressive face, a smile, a grin, open mouth, teeth, crystal teeth, whiskers, cat whiskers, eye contact with the camera; power lines, telegraph wires, cables, contrails, vapour trails, laser beams; sharp studio lighting, clean edges, perfect focus, a posed portrait.* The Lattice lines were taken out of both sky prompts (*the hazy sky behind empty and pale*), and the pair are *both seen in profile or three-quarter from behind so that neither face is toward the camera*.
+- **Notes:** the verdicts, by the two tests set for the run. **Levril test (no outline of neck, head and tail, no bat-wing spars on a lizard body): all twelve pass.** Every figure hangs by its hind feet, the head sits close against the shoulders, and no frame has a tail; the bat held the outline the plates were made to hold. Round 2's `full-wings` 2 and `lattice-gathering` 2 grew reptilian heads with teeth, and its `lattice-gathering` 1 crouches its First Wings like a gargoyle, which are faults of the head and the pose rather than of the outline, but worth naming as the direction the generator leans once the dragon is shut out. **Photograph test (a photograph rather than a render): none passes cleanly.** Round 1: `first-wings` 1 the nearest (haze, a real-looking lens, an animated-film face), `first-wings` 2 a smooth render with crystal teeth, `full-wings` 1 a render with cat's whiskers, `full-wings` 2 a render with the Lattice as power lines, `lattice-gathering` 1 a render, `lattice-gathering` 2 a painting. Round 2: `full-wings` 1 the nearest of all twelve (plain hazy sky, dust in the air, a telephoto's softness, the body reading as a photographed thing; a lizard's head), `first-wings` 1 next (haze, a candid pose, the face turned away; the skin still a render's), the other four renders. **Earth-bat test: none reads simply as a bat.** The exoskeleton or plate, the facet band and the absence of fur, ears and muzzle carry every figure off the reference, while the wing's finger structure is the bat's throughout, which is where the convergence was meant to sit. **Best one or two:** round 2 `full-wings` 1, then round 2 `first-wings` 1. Nothing filed; the plates stand; where a photograph of the people would go, if one passed, is Dermot's decision and is not put to him here.
+
+## 2026-10-14 — The Prismeri as Halle Ostrander's finished paintings (two filed, the First Wings on its plate)
+
+Dermot's direction of 14 October 2026, verbatim: *"If we must have codex art for Prismeri then it needs to be closer to a photograph as much as possible"*. The plates of *Plates of the Prismeri* are approved, linked Codex art, so they are superseded on the Prismeri page and never overwritten; three new entries in `images.md` (section 5a, after `prismere-root-mat-network`) ask for the same naturalist's finished paintings, worked up afterwards from the field sheets as hyperreal natural-history oils on panel. The outcome and the reasons are in `images.md` under the Prismere set's heading (*Finished paintings, 14 October 2026*); this is the run record.
+
+### prismeri-full-wings-painting.jpg — filed from round 2 variation 2
+- **Type:** generation, Codex art carried on a lore page (Halle Ostrander's painting after Plate II); `src/images/lore/prismeri-full-wings-painting.jpg`, 1600×893, the hero and second inline image of `src/lore/prismeri.md`.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, through `node scripts/image-prompts.js --generate --only prismeri-first-wings-painting,prismeri-full-wings-painting,prismeri-lattice-gathering-painting`, two variations per round, two rounds. Filed with `scripts/import-image.ps1 -MaxEdge 1600 -Finish 0` (a painting, not a photograph).
+- **References:** `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg`, sent as an image part through the entry's `References:` line, for body plan and proportions only (the prompt's first sentence; this entry also excludes the hanging pose, since the figure flies).
+- **Prompt:** the entry of record in `images.md`, as revised for round 2 (heavy-lidded eyes, a flush facet band, a closed mouth, a head closed like a helmet, corner signatures and rodent faces negated).
+
+### prismeri-lattice-gathering-painting.jpg — filed from round 2 variation 1
+- **Type:** generation, Codex art carried on a lore page (Ostrander's painting after Plate III); `src/images/lore/prismeri-lattice-gathering-painting.jpg`, 1600×893, the third inline image of `src/lore/prismeri.md`.
+- **Tool:** as above, in the same runs. Filed at `-Finish 0`.
+- **References:** the same bat, for body plan, proportions and the hanging pose only.
+- **Prompt:** the entry of record in `images.md`, as revised for round 2 (the same face changes, and the pair in profile to each other).
+
+### prismeri-first-wings-painting.jpg — not filed; the First Wings stays on Plate I
+- **Tool and references:** as above, in the same runs, with the same bat for body plan and hanging pose.
+- **Outcome:** all four variations painted a grin of crystal teeth, round 2 under a mouth closed to a line by name, and one per round carried a painted signature in a corner. Fails the people test and the tone rule; nothing filed.
+
+All twelve variations are kept locally in `image-out/prismeri-paintings/round1/` and `round2/`, never committed.
+
+### prismeri-first-wings-painting.jpg — third round, one round only, not filed; handed to Fable
+- **Direction:** Dermot's option A, 14 October 2026: keep the two filed paintings and try the First Wings once more so the page matches. The same evening, a change of plan: difficult images may go to Fable, so a failed round stops after one round, with the findings recorded here for the next attempt.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, through `node scripts/image-prompts.js --generate --only prismeri-first-wings-painting`, two variations.
+- **References:** `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg` (body plan and hanging pose only) and `src/images/lore/prismeri-lattice-gathering-painting.jpg` (medium, light and handling only, so the three paintings read as one set).
+- **Prompt:** the entry of record in `images.md`, revised for this round: viewpoint above and behind, the head turned away and bent to the glass, the mouth not visible, three countable free clawed fingers on each hand, the earlier face, fur, ear, signature, neck and tail negatives kept.
+- **Outcome:** both variations fail; nothing filed, Plate I stays on the Prismeri page. Variation 1 (rear view, head bent to the glass) matches the filed pair's register, but the facet band is painted as a ring of crystal teeth round the back of the skull, each hand has four clawed digits instead of three, and there is a signature in the lower right corner. Variation 2 shows the face from the side and below, with the facet band painted where the mouth would be, as a toothed grin. The finding: across all three rounds, the First Wings grin is the facet band. Whenever the band is described as a row of small crystals near the face, the generator draws it as teeth. The next attempt should describe it as something no mouth resembles, or leave it out of a rear view. Both variations are kept locally in `image-out/prismeri-paintings/round3-first-wings/`.
+
+### prismeri-first-wings-painting.jpg — filed from round 5 variation 1 (rounds 4 to 6, Fable)
+- **Direction:** Dermot's rule the same evening that difficult images go to Fable; the third round's findings above were the brief.
+- **Type:** generation, Codex art carried on a lore page (Ostrander's painting after Plate I); `src/images/lore/prismeri-first-wings-painting.jpg`, 1600×893, the first inline image of `src/lore/prismeri.md`. Filed with `scripts/import-image.ps1 -MaxEdge 1600 -Finish 0`.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, through `node scripts/image-prompts.js --generate --only prismeri-first-wings-painting`, two variations per round, three rounds.
+- **References:** `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg` (body plan and hanging pose only) and `src/images/lore/prismeri-lattice-gathering-painting.jpg` (medium, light and handling only), unchanged from round 3.
+- **Prompt:** the entry of record in `images.md`, as revised for rounds 4 to 6 (its two revision notes of that date). Round 4 ran the facet-band change alone; rounds 5 and 6 ran the full revision, round 6 unchanged from round 5.
+- **Outcome:** round 4, no teeth in either variation for the first time, both failing on four-digit hands, variation 1 also on a copied open wing, two prisms and the copied shell, variation 2 on a heavy body filling the frame and conifers. Round 5, variation 1 filed (view from above and behind, seam along the crown, no face, wings folded, hanging by the feet from the spire's ledges; the hands three or four fingers, not plainly three, passed as a lesser flaw than the filed Full Wings' thumb); variation 2 frontal under a flat ledge with the shell copied in. Round 6, variation 1 crouching upright on a ledge with a signature lower right, variation 2 frontal with the shell and dead twig trees. The whole account is in `images.md` under *The First Wings painting filed, 14 October 2026*. All six variations are kept locally in `image-out/prismeri-paintings/round4-first-wings/`, `round5-first-wings/` and `round6-first-wings/`, never committed.
+
+### prismeri-first-wings-painting-2.jpg — filed from round 7 variation 1 (Fable); supersedes the round-5 file
+- **Direction:** Dermot, after seeing the round-5 filing: one more round. Opus's review of the filed pick gave the brief (humanoid drift, no match to the pair, the hand count, a possible tail).
+- **Type:** generation, Codex art carried on a lore page (Ostrander's painting after Plate I); `src/images/lore/prismeri-first-wings-painting-2.jpg`, 1600×893, the first inline image of `src/lore/prismeri.md`, a new file under the content-locking rule. Filed with `scripts/import-image.ps1 -MaxEdge 1600 -Finish 0`. The round-5 file `prismeri-first-wings-painting.jpg` is removed from `src/images/lore/` in the same change, since the validator fails on an image no page references; it stays in git history.
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, 16:9, through `node scripts/image-prompts.js --generate --only prismeri-first-wings-painting-2`, two variations, one round.
+- **References:** `story-bible/reference-art/prismeri-first-wings-lattice-crop-2026-10-14.jpg` (the left figure of the approved `prismeri-lattice-gathering-painting.jpg`, box 360,70 to 800,760 of the 1600×893 file; the body to paint), `story-bible/reference-art/prismeri-body-bat-2026-10-14.jpg` (the part-open wing pose only) and `src/images/lore/prismeri-lattice-gathering-painting.jpg` (medium, light and handling only).
+- **Prompt:** the new entry of record in `images.md`, written for this round.
+- **Outcome:** variation 1 filed (the pair's bat-like body, near wing part open with the membrane fully shown, face in profile bent to the prism with no teeth and the seam along the crown, a plain Y of three fingers on the near hand and a three-pronged silhouette through the glass on the far one, nothing trailing, no signature; flaws passed: a small pit on the side of the head, more toes on the feet than fingers on the hands). Variation 2 repeated the lattice composition under a flat ledge with the shell and a beaded brow band, not picked. Both kept locally in `image-out/prismeri-paintings/round7-first-wings/`.

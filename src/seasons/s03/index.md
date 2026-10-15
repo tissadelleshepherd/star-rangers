@@ -12,7 +12,7 @@ permalink: /seasons/s03/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-03-datacentre.jpg" alt="A glowing data centre interface" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-03-datacentre.jpg" alt="Rows of server racks behind perforated doors, lit blue and green from within, receding down a dark data hall" />
 <h1 class="page-title">Season 3</h1>
 <p class="page-intro">
   Two years into her service, Shepherd is a Principal working through an archive backlog nobody else wanted — routine review, unglamorous by design. Season 3 follows what she finds in it, and what it costs to be believed about it.

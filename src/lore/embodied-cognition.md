@@ -5,7 +5,7 @@ category: "Technology"
 tags: [ai, embodied-cognition, world-model, rook-7, eden-warden, ai-safety-kernel, smart-pet, boundary-zones, technology]
 description: "Why a small embodied intelligence with a grounded world model routinely resolves what a vastly larger ship or habitat AI cannot — and why the Concord's standing practice is to pair them rather than choose."
 image: "embodied-cognition.jpg"
-image_alt: "A small tracked robot chassis resting against a corridor bulkhead in the lit foreground, with racks of equipment receding into blue shadow behind it"
+image_alt: "A small, compact, pale grey analytical robot chassis with a recessed lens and one slender jointed arm laid flat against the wall of a clean machine hall. Behind it, out of focus, rows of large smooth sealed grey housings recede into the distance, each with one small light."
 ---
 
 A habitat AI knows every number its sensors report. It has never once put a hand on a bulkhead and felt the wrong answer come back through the metal.

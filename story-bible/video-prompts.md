@@ -152,6 +152,28 @@ The horror line does not move. Dramatic means *stakes and structure* — a shape
 that arrives somewhere — not shock. Nothing lunges at the camera, and the dark
 fact is still hinted rather than depicted.
 
+### What a generator may make
+
+**The camera rule extends to video** (Dermot, 11 October 2026). The 3
+September exemption in `images.md` governs moving images exactly as it
+governs stills: a generator may make only what no camera can — a non-human
+body, a habitat, an artificial mind, an artefact, a person who does not
+exist, a fictional character whatever their species — and anything a camera
+can film comes from Dermot's own footage or does not go in. Every clip the
+pipeline touches has its prompt kept in this file and stays in this
+repository. The site's modesty bar and the tone rule apply to every frame.
+
+**A generated clip is footage recorded inside the world** (Dermot, 11 October
+2026, verbatim: *"a generated image or video should look like it was taken from
+a contemporary video graphic or photographic device, for example 29th
+century"*). It is what a 29th-century recording device, held or mounted by
+someone in the record, would have captured — the motion counterpart of the 29
+September rule for stills in `images.md`. It reads as real footage in every
+physical respect, with no overlays, readouts or date stamps. A scene set before
+cameras existed (a Currach-era ark, a 1216 AD event) is still shot as if by a
+29th-century device, as a reconstruction or archive record made at the story's
+present (his choice the same day), never in a period film look.
+
 ### The camera is a witness
 
 The strongest rule here, and it comes straight out of how the prose works:
@@ -229,6 +251,15 @@ jobs here.** It is fast, cheap, generates native audio, and its clip length —
 6–15 s, extendable to about 30 s by chaining — is the right size for the scene
 library below, where nearly every entry is one held shot rather than a sequence.
 The 30 s portrait clip already in `src/video/` is exactly its output shape.
+
+**How it is reached** (Dermot, 11 October 2026): Grok Imagine is driven through
+the Claude in Chrome extension, in Dermot's own signed-in browser. A cloud
+session cannot reach it unless it is linked to his computer, so generation is a
+desktop step (`CLAUDE.md`, *Work that needs the desktop*); writing the prompt
+into this file is not. The session that drives it runs on Opus, because
+generating submits from his account (`CLAUDE.md`, *Which model does which
+work*). Download each kept clip with its prompt, and record both here before it
+is filed.
 
 **Where it stops, measured against this file's own specs:**
 

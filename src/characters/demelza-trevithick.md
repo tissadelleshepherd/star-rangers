@@ -10,7 +10,7 @@ aliases:
 tags: [kernowek-reach, celtic-union, lyonesse-system, engineering, terraforming, human]
 description: "Fourth-generation chief engineer of Kernowek Reach's Ridge Processor Cooperative, keeper of the band's atmospheric machinery, and the first Reach cooperative officer to speak with the Survey Corps team that ended the world's decades-long survey gap."
 image: "demelza-trevithick.jpg"
-image_alt: "Demelza Trevithick at work in the Ridge Processor machine hall, a woman in middle age in worn engineering coveralls with her hair tied back, both hands on the casing of a large rotating machine, her attention entirely on it. Pipework and gantries rise around her and a furnace throws orange light from the right."
+image_alt: "Demelza Trevithick, a woman in her forties with greying dark hair tied back, in a charcoal coverall, both hands flat on the smooth grey casing of a processor unit, listening to it. A row of the same units runs down the clean hall, and a window at the end shows green scrub on the ridge, a sea of cloud below and a bare volcanic summit above."
 ---
 
 Demelza Trevithick has never known a version of Kernowek Reach where the band wasn't still widening, and does not expect to live to see one where it's finished.

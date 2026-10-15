@@ -18,7 +18,7 @@ It was not subtle about this position.
 
 ## Origins
 
-The Coherence Wars lasted forty years — from approximately 2503, when the United Space Consortium's authority collapsed and the Free Outer Belt Coalition declared independence, to 2543, when the Inner System Defence Fleet, operating under unified command for the first time, defeated the last Belt Coalition holdouts and imposed the Tycho Accords.
+The Coherence Wars lasted forty years — from approximately 2303 CE (2503 UCSD), when the United Space Consortium's authority collapsed and the Free Outer Belt Coalition declared independence, to 2343 CE (2543 UCSD), when the Inner System Defence Fleet, operating under unified command for the first time, defeated the last Belt Coalition holdouts and imposed the Tycho Accords.
 
 The Tycho Accords ended the fighting. They did not supply a political settlement. The question of postwar governance was answered by the simple fact that the Inner System Defence Fleet already controlled the field and saw no compelling reason to surrender that control.
 

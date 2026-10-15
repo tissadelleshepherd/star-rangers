@@ -8,7 +8,7 @@ galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Habitat"
 image: "knarrheim.jpg"
-image_alt: "A rendered fantasy landscape of an alien planet"
+image_alt: "Knarrheim against black space: a long, dark, patched ship's hull at the centre with two broad rings turning about it on spokes, boxy refinery modules and flat pale radiator panels built out from it, two small craft at its berths, and a dark irregular body of rock and ice close beside it, lit hard from one side."
 ---
 
 Every other Solar System capital was built to be one. Knarrheim was built to haul ice, and only stopped moving because it turned out to be more useful staying still.

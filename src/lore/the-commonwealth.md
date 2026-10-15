@@ -14,7 +14,7 @@ The **Commonwealth** is a voluntary association of communities descended from th
 
 ## An Association Without a Centre
 
-The Commonwealth's difficulty is easily stated: the place it was an association *of* is largely gone. Large parts of the British Isles came out of the [Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/) uninhabitable, and the coastal fragmentation of the 2130s and 2140s took the low-lying, heavily archived heart of the thing with it.
+The Commonwealth's difficulty is easily stated: the place it was an association *of* is largely gone. Large parts of the British Isles came out of the [Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/) uninhabitable, and the coastal fragmentation of the 2130s and 2140s CE took the low-lying, heavily archived heart of the thing with it.
 
 What remained was scattered: surviving Earth-side governments and cooperatives working the long recovery, diaspora communities absorbed into other polities, and one habitat at L5 holding a working parliament and an archive. The association's response was to stop being centred anywhere. Membership is held by communities rather than by territories, which sounds like a euphemism and is in fact the load-bearing clause — it is what let the Commonwealth survive members losing their ground.
 

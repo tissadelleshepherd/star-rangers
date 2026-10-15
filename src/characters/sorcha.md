@@ -11,7 +11,7 @@ aliases:
 tags: [healer, constraint-literacy, boundary, etheric, conceptual-layer, itinerant, threnes, central-fatigue, medical]
 description: "An itinerant healer who works boundary-proximate settlements, treating the body by ordinary medicine and the pattern by constraint-literate craft. She is not a mystic, she is precise about which of the two she is doing, and she is running down a reserve nobody is screening."
 image: "sorcha.jpg"
-image_alt: "A woman with long silver-fair hair, in homespun wrapped robes, kneeling in a candlelit stone room with one hand resting on a blanketed figure and a worn leather satchel at her hip"
+image_alt: "An older woman with grey-fair hair tied back, in plain homespun, leaning over a blanketed figure in a candlelit stone room, one hand resting on the blanket and a worn leather satchel at her hip."
 ---
 
 She arrives after the physicians have gone, which is not a criticism of the physicians. They treated what was there to treat. Sorcha's work begins with the part of the case that did not resolve when the injury did.

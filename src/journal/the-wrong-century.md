@@ -10,7 +10,7 @@ Today I wrote a chapter and put it in the wrong century.
 
 Not by a season. By a hundred and three years. The chapter is the rescue — three machines reaching a wrecked ship with no adults left alive on it, and the children they carry out, two of whom grow up to be officers you have already met. I said it belonged in the Founding Era, and that sounded right, and it was filed there, and the site built cleanly, and every internal link resolved.
 
-The arithmetic disagreed. The Founding Era runs 2712 to 2723. Karla Wender is a Chief Pilot in 2826. A child rescued in the founding years would be a hundred and fourteen by the time she is commanding the pilot section — which would make her the most remarkable officer in the Corps for a reason the story never intended, and would want explaining every time she appeared.
+The arithmetic disagreed. The Founding Era runs 2712 to 2723. Karla Wender is a Chief Pilot in 2826. A child rescued in the founding years would be a hundred and fourteen by the time she is commanding the pilot department — which would make her the most remarkable officer in the Corps for a reason the story never intended, and would want explaining every time she appeared.
 
 Nothing in the chapter said so. The prose was fine. That is the part worth writing about.
 

@@ -2,6 +2,51 @@
 
 **Open items from this file are indexed in [`open-questions.md`](open-questions.md).**
 
+## Engineering as the Writing Method — a Journal entry for later, 11 October 2026
+
+Noted at Dermot's choice (*Option 1, note it for later*), not drafted. The
+starting point is his observation that day: Sudowrite's tagline, *for writers,
+not engineers*, reads as ironic from here, because the scalability and
+consistency that tool could not give him came from engineering. That means the
+registry and the gates, the dated rulings, and a record that keeps its
+coherence whichever model reads it.
+
+**The argument the entry would make.** Engineering here is part of how the work
+is written, not a skill the writer is spared. It has one limit, which the entry
+should state plainly: the gates prove structure, not judgement, so the
+engineering keeps the record coherent and says nothing about whether the story
+is good.
+
+**What it could draw on:**
+- **Fiction kept as a codebase.** CI gates check canon's structure (identity,
+  links, the revelation ledger, the children's glossary).
+- **One record, many editions.** The record is published as nested editions,
+  and filtering only subtracts.
+- **How the world knows things.** The Archive marks its own absences, the
+  Codex is canon only for its author, and belief is graded.
+- **Dated, quoted rulings** with the direction check against what was
+  already decided.
+- **Model routing** (the 11 October rules in `CLAUDE.md`): which model does
+  which work and who approves whom.
+- **Two Sudowrite-era imports** treated differently. The character tiers
+  were dropped on 10 October. *Lore* and *Codex* were kept on 11 October,
+  because the names were borrowed but the meanings became the record's own.
+
+**What it must not do.** It must not claim that no other author works this
+way; the honest claim is that the combination is rare. It should not argue
+against any one tool, and the tagline is a foil, not a target. The ADM
+repository's star-rangers case study already covers the `CLAUDE.md` side, so
+the entry should link it rather than repeat it.
+
+**Register and model, when it is drafted.** Contemplative register, 800 to
+1,200 words, written for critics, peer authors and students of the writing.
+Fable drafts it: Journal entries are Fable's work (Dermot, 11 October 2026).
+
+**Fable's reading, 14 October 2026:** draft after the routing rules' first
+worked case, and drop it if none exists by 30 November 2026. The reasons are
+in `open-questions.md`. The tagline is mentioned once at most, since
+Sudowrite is already the foil in two published entries.
+
 ## Three Routes to One Stillness — the Krenyi beside the INFJ-A, 9 October 2026, agreed
 
 Dermot asked for the [Krenyi](../src/lore/krenyi.md) compared with the sigma
@@ -59,7 +104,7 @@ is conducting; Tissadelle reading Krenyi stillness as composure and waiting
 for it to run out; a contemplative recognising both and naming neither.
 No slot, no draft; it waits for a chapter that wants it.
 
-## Dialect and language variants, between characters and between members of a collective — raised 7 October 2026, OPEN
+## Dialect and language variants, between characters and between members of a collective — raised 7 October 2026, RULED 10 October 2026 (*Approved*)
 
 Dermot, 7 October 2026, from a typo of his own: *"That typo makes me thinking
 about dialects and language variants for different characters"*, then *"or
@@ -85,9 +130,24 @@ names dialect, idiolect or register as a device yet (checked the same day).
   one". Relevant first to the private inner-world work and to any collective
   the seasons already hold.
 
-**Open:** whether to adopt either as a standing device, and if so where the
+~~**Open:** whether to adopt either as a standing device, and if so where the
 first instance goes. An authorship call, Dermot's. Until ruled, nothing is
-drafted from it.
+drafted from it.~~
+
+**Ruled 10 October 2026, Dermot's *Approved* to the recommendation:** the
+device is adopted, **for plural minds first**. Sen's three, Cael, Wyn and
+Sen, are where it applies first; variants between characters (planet,
+caste, corps, generation) come after, on the same constraints. The
+constraints bind as written above: the difference lives in lexis, rhythm,
+idiom and what a speaker leaves unsaid, **never in phonetic spelling**;
+**every member is real**, none a device; and **a speech difference is never
+a tell for the dangerous one**. Sen's character page already records the
+habit from outside (colleagues come to notice *the shift in register
+between an answer that sounds like Cael and one that sounds like Wyn*), so
+the device extends what is published and alters nothing. **No prose is
+drafted from the ruling:** nothing is written until a chapter calls for it.
+Recorded in CLAUDE.md's content authoring conventions and in
+`intake-2026-10-10.md`, *Rulings of the evening*.
 
 ## Detective Doctrine: Inevitability, Not Brilliance (settled 2026-08-23)
 

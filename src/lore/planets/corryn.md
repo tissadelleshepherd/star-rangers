@@ -5,7 +5,7 @@ category: "Locations"
 tags: [corryn, corryn-prime, carillon, spiralites, first-contact, frontier-transformation-protocols, boundary, halvern-combine, imperium, locations]
 description: "A system whose ringed gas giant hums in patterns, whose indigenous people speak in electromagnetic pulse — and whose human colony, a remnant of the Old Imperium, holds a valid charter from a government dead two centuries."
 image: "planets/corryn.jpg"
-image_alt: "A ringed blue-grey planet rising huge over a dark ridge of coiled alien plants at night, its rings tilted and pale against stars"
+image_alt: "A dark ringed gas giant hanging huge and low in a night sky, a thin lit edge on its disc and faint bands of blue, violet and green along its rings, above a black hillside of coiled fern-like plants"
 plain: "Corryn is a star system about 700 light years from Earth. Its most striking feature is a gas giant, the Carillon, whose rings give out a low hum in complex patterns. The habitable world nearby, Corryn Prime, is home to the Spiralites, a people who speak using electromagnetic pulses. A human mining and farming colony there is producing interference that is wrecking the Spiralites' ability to communicate and to reproduce. The colony was licensed by the Imperium, which fell in 2609, so it holds a permission nobody living can withdraw and nobody has stopped it."
 ---
 

@@ -10,7 +10,7 @@ aliases:
 tags: [aethelrock, celtic-union, clan-dubhghlas, ridgemoot, human]
 description: "Clan head of Dubhghlas on Aethelrock, holder of the world's most arable ground, and the Ridgemoot's most persistent voice for restoring the seat rotation exactly as it stood before Rhiannon Ceridwen broke it."
 image: "cormac-dubhghlas.jpg"
-image_alt: "Cormac Dubhghlas at the edge of his own crop rows at first light, a lean, grey-bearded man in a worn waxed jacket and knitted cap, hands clasped in front of him, standing entirely still. Young crop runs away behind him into low mist, the far end of the field lost in haze."
+image_alt: "A grey-bearded farmer in a long charcoal-green coat and a moss-and-brown tartan scarf standing still at the edge of his crop rows, a stone longhouse with grey conduits along its wall and a line of pale fence posts behind him, a small fence-servicing drone hanging in the air beyond"
 ---
 
 Cormac Dubhghlas keeps a copy of the original rotation schedule in his own hand, transcribed from the founding council's minutes, in a strongbox in the Dubhghlas longhouse. He has produced it at every Ridgemoot for the last two years, and every time, it has changed nobody's vote.

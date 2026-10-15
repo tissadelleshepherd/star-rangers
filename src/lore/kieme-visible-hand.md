@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [cosmology, kieme, evil, suffering, church-space]
 description: "The church-space telling of the Cosmic Limitation on Evil — where the Archive insists Kieme's ledger can only be inferred, devotional tradition shows the hand doing the keeping."
 image: "kieme-visible-hand.jpg"
-image_alt: "A heavy circular vault door set into a corridor wall, with one figure standing beside it"
+image_alt: "A heavy pale pressure door set flush in a clean corridor wall, its face scorched and dished inward by something that struck it from the far side, the mark stopping at its frame. A person in plain dark grey clothes stands a little way back, unharmed, looking at it."
 ---
 
 The [Cosmic Limitation on Evil](/star-rangers/codex/cosmic-limitation-on-evil/) is not in dispute: every entity that exists in service of evil dissolves once it no longer serves a higher purpose, and the suffering it caused is a debt [Kieme](/star-rangers/glossary/kieme/) alone repays. What's in dispute is whether anyone ever sees Kieme do it.

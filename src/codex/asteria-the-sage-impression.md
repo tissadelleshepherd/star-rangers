@@ -7,7 +7,7 @@ description: "A painted impression of an unnamed member of Tissadelle Shepherd's
 author: "Unattributed; a portrait in private circulation, transmitted with its maker's note"
 location: "Circulating copy; no archival master. The Archive holds a reproduction and the note that travelled with it, and nothing further about either."
 image: "asteria-the-sage-impression.jpg"
-image_alt: "Designed title card for Asteria the Sage (Artist's Impression): the title in pale serif type over a scrimmed reproduction of the painting beneath, a blue-haired woman in a black cloak among bare branches at night."
+image_alt: "Designed title card over a scrimmed reproduction of the painting beneath, a blue-haired woman in a black cloak among bare branches at night, headed ARTIST'S IMPRESSION and titled ASTERIA THE SAGE, with the lines \"A member behind a registration\", \"Circulating; no archival master\" and \"Unattributed\"."
 ---
 
 *Reproduction of a painted portrait in private circulation, filed as an artefact and not as a likeness. The Archive holds the picture, the maker's note that came with it, and nothing further about either.*

@@ -9,7 +9,7 @@ aliases: []
 tags: [detective-agency, rabbit, eden, undercover-pets.com, trainee]
 description: "A trainee rabbit assigned to Agent Barsik at Eden Space Habitat, still learning the agency's oldest lesson: the best cover is being too adorable to interrogate."
 image: bubochka.jpg
-image_alt: "Bubochka, a fluffy white rabbit, sitting inside a large brown mug filled with pink and white marshmallows, surrounded by more marshmallows on the plate below."
+image_alt: "Bubochka, a fluffy white lop-eared rabbit, sitting inside a large brown speckled mug filled with pink and white marshmallows on a wooden table, more marshmallows on the saucer and the table, a linen cloth beside her. Behind her is a pale, seamless kitchen with flush cupboards and herbs on the sill, and through a curved window the habitat's green terraces."
 known_codex: [deck-rounds-and-first-tunnel-survey]
 ---
 
@@ -19,7 +19,7 @@ She reports, in the sense that matters, to [Agent Barsik](/star-rangers/characte
 
 Bubochka's training exercises so far have mostly involved sitting very still in places a working agent has no business being ignored in — a supply mug, a windowsill, the exact centre of someone's afternoon marshmallow break — and cataloguing who walks past without looking twice. For her first months she did not file a report anyone upstream needed to act on. Barsik told her, once, that this was the correct rate of progress.
 
-![Bubochka standing bolt upright on her hind legs on a kitchen table, lop ears hanging flat against her head, watching something off-frame, with the mug and scattered marshmallows beside her](/star-rangers/images/characters/bubochka-alert.jpg)
+![Bubochka standing bolt upright on her hind legs on a wooden table in a pale, seamless Eden kitchen, lop ears hanging flat against her head, watching something off-frame, with the mug, saucer and scattered marshmallows beside her and the habitat's terraces through the window](/star-rangers/images/characters/bubochka-alert.jpg)
 
 ## The Unacceptable Cat
 

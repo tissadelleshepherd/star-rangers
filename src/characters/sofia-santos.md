@@ -10,7 +10,7 @@ aliases:
 tags: [thalassa, governance, ssdc, sol-diaspora, new-atlantis, new-venice, human]
 description: "The first office on Thalassa elected by the whole planet, held by an engineer who answers for everything below the waterline and has no authority whatever over anything above it — and who declines, in public and with reasons, the description off-world coverage keeps offering her."
 image: "sofia-santos.jpg"
-image_alt: "Sofia Santos, a woman in her fifties with short grey hair, in a dark knitted jumper and plain trousers, standing inside the heavy riveted pressure hull of a seabed city beside a wide thick viewport onto dim green-blue water, where the lit domes of other structures and a work light show in the dark. Pipework and plain gauges line the wall behind her; no sky anywhere."
+image_alt: "Sofia Santos, a brown-skinned woman in her fifties with close-cropped grey hair, in a dark high-necked jumper, standing inside a smooth dark composite pressure hull beside wide rounded viewports onto dim green-blue water, where the lit domes of other seabed structures and a single work light show in the dark. No sky anywhere."
 ---
 
 Sofia Santos holds more jurisdiction than anyone else on Thalassa and cannot schedule a dock.

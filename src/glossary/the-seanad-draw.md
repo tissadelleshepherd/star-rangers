@@ -26,7 +26,7 @@ Each of the six charter worlds returns the same number of senators, whatever its
 
 A drawn candidate states one thing on the ballot beside their name: the clan of their birth or adoption, as the world's registry recorded it before the draw. No clan may nominate a candidate, endorse one, or spend on one, on the same reasoning the Union applies to titles: an institution that cannot be courted cannot be captured. The clan on the ballot is a fact the voter may weigh, and it is the only clan fact the draw admits.
 
-Whether senators of different clans combine on the floor into standing associations, and whether a clan divides against itself there, the record has not established. The Union's own documents on the point are quoted as written, and they are silent.
+Senators of different clans do combine on the floor, and a clan's senators sometimes divide against each other there; the Seanad recognises neither. No association or faction appears on the ballot or in the chamber's record, holds a bench or a whip, or speaks as a body: members speak and vote as themselves, and the record names who voted, never with whom. It is the arrangement the Union keeps for titles, a fact that is observed and that nobody administers. A chamber that binds no member world gives an association nothing to win but the look of the room, and the lot returns a third of the bench to the people every term.
 
 ## Why a chamber with nothing to decide is seated with such care
 

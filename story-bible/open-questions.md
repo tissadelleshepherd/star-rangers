@@ -35,6 +35,223 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Dress, ornament and surface colour of the non-human peoples — `civilian-dress.md`, *Peoples in their own media*, 14 October 2026 — RULED same day, all as recommended
+
+At his two questions of 14 October (*"Dress codes, styles and ornamentation for non-humanoid peoples"*; *"Skin or surface colour variations in non-humanoid peoples"*), each people was worked out from the record, line by line derived or proposed, with principle 15 proposed as the general rule. Five choices are put to him there as options with recommendations: (1) the Pandoid coat, grey or black-and-white markings, A recommended; (2) the four Chthonari portraits alike, vary at the next re-roll or keep one carapace for the people, A recommended; (3) whether a Cerebraun's resting tone is individual or regional, A (individual) recommended; (4) the Pelagene's own role medium, a carried object or a skin display, A (object) recommended; (5) a Verdani token, none with the reason stated or a worn or grown one, A (none) recommended. The proposals stand as recommended until he rules.
+
+## Peoples and settlements the record names but nobody yet lives in: a worklist, raised 14 October 2026, OPEN, fill when a chapter needs one
+
+Dermot asked, 14 October 2026: *"Any other people groups that seem under represented either as characters or as settlements?"*, adding *"Keeping in mind that 6 centuries have past and that people groups may have blended in some ways."* A read-only survey counted characters, POV chapters and settlement pages for every people and group the record names, using the record's own 29th-century groupings and not today's ethnic or national categories. He chose A, then B, then C. **A** was a Knarr Line and a Tally character (Tove Strand and Tare, PR #1206). **B** was a second Cerebraun and a Meridian character (Tavesh and Sixth Course, PR #1205). Portraits for all four are in PR #1207. **C** is this list: the gaps that remain, kept here so each can be filled when a chapter needs one rather than all at once.
+
+**Federation peoples with full lore and nobody to speak for them** (no character, no POV):
+- [ ] **Mnemari**: `src/lore/mnemari.md`, with no home-world page (Ilenne).
+- [ ] **Ollune**: `src/lore/ollune.md`, `src/lore/planets/cirrane.md`.
+- [ ] **Prismeri**: `src/lore/prismeri.md`, `src/lore/planets/prismere.md`. They are seen only through Halle Ostrander's drawings.
+
+**Peoples under a power not their own:**
+- [ ] **Corryn**: the Spiralites and the Imperium-remnant human colony (`src/lore/planets/corryn.md`) have no characters. The colony's charter story is ready settlement material.
+
+**Human peoples and places with pages and no people:**
+- [ ] **The Commonwealth and New London**: two pages, no character.
+- [ ] **Earth in the present**: three Codex authors, no chapter set there in 2826, and no Earth-resident POV.
+- [ ] **Winterbourne** and **Saltmere**: one page each, no character.
+
+**Peoples with one character and no home-world page** (a plain gap, not ruled anywhere):
+- [ ] **Krenyi**: three characters and nine POV chapters, but no homeworld page.
+- [ ] **Ovruhn** (Thavren), **Ilveth** (Sardain), **Pelagene** (Nerath), **Serephine** (Kharis Belt IV), **Veyr Basaltborn** (Veyr-3): one character each, no home-world page. Further named Ovruhn are explicitly invited (see the Ovruhn entry below). The Veyr and Serephine *leave as absences* ruling covers their language channel only.
+- [ ] **Verdance**: one Verdani character, but the planet holds four civilisations.
+
+**Peoples the record says serve in the Corps, or could, with no Ranger on record** (added 14 October 2026 from `species-design.md`, *In the Corps*):
+- [ ] **A Chthonari Ranger**: `chthonari.md` and the Federation page say Chthonari are disproportionately represented in the Engineering Corps' fold-scaffold specialization, and name Chthonari recruiters, but no Chthonari Ranger is named. Tsikk, Tekka, Tikket and Kattik are a Federation contractor crew.
+- [ ] **An Ovruhn Ranger**: `ovruhn.md`, *In the Corps*, describes Ovruhn Rangers in structural survey, search, acoustic watch and disaster mass care; the one named Ovruhn, Vhen, is a chorus keeper on Thavren. This line is the Corps half of the Ovruhn entry's *"any Corps character"*.
+- [ ] **A Prismeri on a Corps posting**: guild astrogators do Survey Corps fold-route confirmation under the compact, and Prismeri contracts name *Ranger liaison postings*, but no Prismeri individual is on record (the *Federation peoples* Prismeri line above is the people as a whole; this one is the posting). Whether such a posting is a Ranger or a seconded guild member is choice 4 in that section.
+- [ ] **A Verdani in or beside the Corps**: Verdani need only full-spectrum light, which Ranger vessels already carry, and Isren Farrowkin sponsored the Survey Corps data-sharing proposal, but no Verdani Ranger is on record.
+- [ ] **The corps of the four non-humanoid Rangers on record**: Mira of Brine, Qiren Tal, Sethka Ru and Suvra Kel each have a role and no corps or rank on their pages; fill when a chapter or portrait needs one, on the Veyr precedent of one plain seated tab until then.
+
+Not on this list, with reasons in that section: the Ollune and the Cerebraun (marked absences, choices 3 and 2), and the Told, Meridian sapients, Spiralites and Doreth (not gaps: not met, not members, or known by one line).
+
+**Kept thin on purpose, so not on this list:** Elvira's kind (a marked absence), New Cotswolds (nothing has come back from it), and the Five Islands' marked absences (meanings and names, not missing people).
+
+**How to fill one:** a character page is Fable's work under CLAUDE.md, grounded only in its people's pages with the rest marked absent, and it gets a portrait prompt in the same PR. The Knarr, Tally, Cerebraun and Meridian pages of 14 October are the worked examples. A home-world page is lore, Opus's unless it is narrated history. Strike each line here with the PR that fills it.
+
+## Non-humanoid peoples in the Corps — raised 14 October 2026, RULED same day, all five option A (*"Yes Options A approved for all"*); choice 1 realised on the command page
+
+Dermot, 14 October 2026: *"Non-humanoid people in the Star Rangers organisation"*. Answered people by people in `species-design.md`, *In the Corps — non-human peoples in the Star Rangers, people by people*, each line marked derived, proposed or not established, with a census. Five choices are put there with recommendations, and all are open: (1) the service ages as the human instance, set per physiology by the Medical Corps (recommended), or binding on all; (2) keep the marked absence of any Cerebraun Ranger (recommended), or state that individuals may serve; (3) the Ollune as not established with the reason marked (recommended), or an Ollune serving from a hull; (4) a Prismeri *Ranger liaison posting* as a seconded guild member (recommended), or Prismeri Rangers on the ordinary ladder; (5) adopt the draft principle *the Corps adapts to the Ranger in everything it provides, in nothing it certifies, and says where it cannot* (recommended), or leave it unstated. Choice 1 is a genuine dilemma (Syra at about 150 against the 110 limit); the others are canon or taste calls. The gaps went to the worklist above.
+
+## Characters for the Knarr Line and the Tally — Dermot's direction of 14 October 2026 — DRAFTED same day, choices named in the PR
+
+Dermot: add characters for under-represented peoples, starting with the Knarr
+Line and the Tally, both of which had settlement and lore pages and no
+character; and the reminder that six centuries have passed, peoples have
+blended, and heritage survives only where the record says it does. Drafted
+on Fable as `src/characters/tove-strand.md` and `src/characters/tare.md`,
+each grounded only in `knarr-line.md`, `knarrheim.md`, `saltvik.md` and
+`the-tally.md`, with the rest marked absent; portrait prompts in `images.md`
+§ 15, not generated; the Tally given a *Dress by place* entry in
+`civilian-dress.md`. Settled by recommendation under the dilemma-only rule,
+each his to overrule: **the names** (*Tove Strand*, a Norwegian and Danish
+name whose surname means *shore*, chosen conservatively since the Line's
+pages give a naming practice for ships and not for people; *Tare*, the
+Archive's rendering of a Tally name by what it says, on the convention the
+people's own name is rendered by, the word itself marked as not carried, with
+the alternatives of an untranslated word or a founder-language name listed in
+the PR); **the roles** (a hauler pilot on the far-edge prospecting run, the
+heading on which the Tally were found; a reader of the ledgers, the role the
+Tally page already names, held at the Survey Corps' third showing); **one
+small fact asserted** (Survey Corps parties bound for the mooring ride the
+Line's prospecting run, at the Line's ordinary rate, which the Tally page does
+not say and does not exclude); and **the readings for the portraits** (ages,
+builds and heritage, in § 15). Left open by nature, as the Tally page leaves
+them: how the Tally give names, the endonym, the number. Not done: no chapter,
+no placement in an existing chapter, no image generated.
+
+## The Cerebraun body — raised 12 October 2026 (*emblem card now, body later*), DRAFTED and RULED 13 October 2026
+
+`species-design.md`, *Cerebraun — the body behind the likeness*, drafted on
+Fable from `cerebraun.md`, the three Sohrel chapters, `sohrel.md`,
+`cross-biosphere-taxonomy.md` and `meridian.md`, after every generated
+attempt at the species page and at Sohrel's portrait drew an Earth octopus or
+squid. What the pages fix is gathered with its citations (nine centres, the
+Hydrostata frame, the display skin, a counted dorsal tier, Sohrel at a desk,
+the Meridian instrumentation hint). Seven proposed points are put as choices
+in the PR that carries the draft, a recommendation marked on each: the
+homeworld left unnamed; no head and no paired eyes, sight along the limbs;
+eight limbs in two tiers of four, ventral bearing and dorsal working, no
+suckers; dorsoventral symmetry with no front; a dry, matte, finely textured
+integument, quiet at rest; the Earth animal refused by name in prompts; a
+scale for the frame only. Life cycle, the mind note, a pronoun system and a
+mark of office are marked absent and not proposed. PR #1178. **Ruled 13 October 2026, all as
+recommended** (*"Approved"*): the body points extended into
+`src/lore/cerebraun.md`, and Sohrel's portrait re-rolled and filed (§ 13 of
+`images.md`).
+
+## Engineering as the writing method, a Journal entry — raised 11 October 2026, SETTLED BY FABLE 14 October 2026 (draft after a trigger; drop if none by 30 November 2026)
+
+Noted in `ideas.md` (*Engineering as the Writing Method*) at Dermot's choice,
+*Option 1, note it for later*. Nothing is drafted. Fable drafts it, since
+Journal entries are Fable's work (Dermot, the same day). Still open: when,
+and whether it is needed at all. **Put both to Fable first** (Dermot, the
+same day: *"When Fable is ready please ask it about the timing or necessity
+of that Journal entry"*). The next session with Fable available reads this
+section and the `ideas.md` note and decides: draft now, set a time, or drop
+it. Under *Who approves whom* it may settle that itself, naming its choice
+and reason here, or put it to Dermot as choices.
+
+**Fable's reading, 14 October 2026** (settled under *Who approves whom*;
+Dermot may overrule it): **set a trigger, with a drop date behind it.**
+Draft the entry at the first release cut after the 11 October routing rules
+have produced one worked case, meaning a merged PR whose body records a
+decision Fable settled or one Fable put to Dermot as choices. If no such
+case exists by **30 November 2026**, drop the entry and close this section
+with that reason.
+
+*Why.* Most of what the `ideas.md` outline lists is already published:
+*Two Copies, Forty Seconds Apart* (one source of truth, the gates, Claude
+Code's role), *Who Thought of It* (the author/machine accounting), *The
+Third Debt Is Mine* (the gates fix structure and judgement comes to the
+author), *No One Is Minor* (the dropped Sudowrite import), and the About
+page's *How this site is written* and *The engineering behind the record*.
+Written today, the entry would mostly re-tell those and fail the Journal's
+test. The one new thing, model routing and who approves whom, is three days
+old with no worked example, so it would quote a rule rather than report a
+lesson.
+
+*For the eventual draft.* Sudowrite is already the foil in two entries, so a
+third pass at its tagline would read as a grudge: open on the method and
+mention the tagline once or not at all.
+
+## The four polities' populations — raised 10 October 2026, RULED same day (*Option 1, Celtic Union has better diplomatic ties the the Federation and Hegemony*)
+
+Extent ruled first (Hegemony thousands of star systems, Federation hundreds,
+Union several, Solar System one). Population: Option 1 of four shapes — the
+Union's weight is political, not headcount, and the Solar System outnumbers
+it many times over; his addition, the Union's diplomatic ties to the
+Federation and the Hegemony are better. Realized on
+`civilisation-comparison.md` and the Union page's *Ties beyond the Solar
+System*. **Reading confirmed the same evening (*Option (a)*):** *better* means closer
+than the Solar System's ties to each. ~~**Still open, held until a chapter needs it:** how
+the Union's ties to the Hegemony were made, and the Hegemony's and the
+Federation's populations. *Humans the overall majority* is not filed; under
+Option 1 it is not established.~~ **Added the same evening, verbatim:** *"Solar System is mostly human populated, Celtic Union is the next largest human population but much less dense"* — filed on both pages.
+
+**The three held questions drafted 14 October 2026 (Fable), on the
+recommendations, under the dilemma-only rule; the first ruled by Dermot the
+same day (below), the second and third still on the recommendation and
+each still overturnable.**
+A cloud routine drafted the same the night before and could not push; this
+is the redo from the record.
+
+1. *How the Union's ties to the Hegemony were made* — **1A, world by
+   world:** arrangements between particular Union charter worlds and
+   particular Hegemony worlds, each made with the Administrator-Voice on
+   the spot inside the Prime Ganglion's standing policy, with no instrument
+   between the Union and the Hegemony as wholes. The precedents it rests on:
+   the Union's charter was *drafted world by world over thirty years* and
+   declines a strong centre; an Administrator-Voice *holds final authority
+   over that world's local governance*; the Hegemony's dealings with every
+   whole authority (the Rangers, the Federation, the Solar System) are
+   *correct rather than warm*. Which worlds and what each arrangement
+   covers stay marked absent. Realized on the Union page's *Ties beyond the
+   Solar System*, the Hegemony page's *Relationship with the Star Rangers*
+   and the comparison section. *Alternatives not taken:* 1B, a single
+   Union–Hegemony instrument made at reconnection through the Rangers, which
+   would have the Union take as a whole the kind of seat it has not taken
+   anywhere; 1C, leave the absence marked, which the record did until today.
+   **Ruled by Dermot, 14 October 2026, verbatim:** *"Option 1A sounds valid
+   for the polities with the Star Rangers organization as the trusted
+   mediator when needed"*. So 1A is confirmed, no longer resting on the
+   recommendation, with his addition: the Star Rangers are the mediator both
+   sides trust when a world-to-world arrangement needs a go-between or a
+   dispute arises under one. *When needed* is read literally: the Rangers
+   are a party to none of the arrangements, decide nothing under them, and
+   there is still no instrument between the Union and the Prime Ganglion;
+   this is not 1B. It rests on the charter's unconditional neutrality and
+   the *trusted courier of last resort* role the Corps grew into, and the
+   record's one standing limit, the non-political mandate (*do not govern,
+   legislate, police, or administer*), is kept: a mediator who decides
+   nothing administers nothing. Realized as one sentence or two on the
+   Union page's *Ties beyond the Solar System*, the Hegemony page's
+   *Relationship with the Star Rangers*, the comparison section's closing
+   clause and the founding page's *Trusted courier of last resort*
+   paragraph. No incident, mediator or date is named; how often it has been
+   needed is marked absent.
+   **Second ruling the same day, verbatim:** *"The FTL limit prevents a
+   single galactic political authority from establishing and the Star
+   Rangers partly reduce the the need for one"*. Checked against the record
+   before filing: `ftl-mechanics.md` already holds no faster-than-light
+   communication and archives transit-lagged by decades; the Hegemony, the
+   largest polity, already puts final local authority in each world's
+   Administrator-Voice; the Concord is *not a government*; the comparison
+   page already says the four are not the whole of the settled reach. No
+   contradiction found. Realized as a paragraph after the extent table in
+   `civilisation-comparison.md` (why four polities and not one, why they
+   deal world by world, and the Rangers reducing the need *partly*) and a
+   closing sentence on the founding page's *Trusted courier of last resort*
+   paragraph. *Partly* kept literal: the Rangers reduce the need for such an
+   authority by carrying and by mediating when asked, and are not one.
+2. *The Hegemony's and the Federation's populations* — **2A, marked absent
+   with the in-world reason no figure exists:** the Hegemony counts for the
+   Prime Ganglion's use and has given outsiders no figure; the Federation
+   has no office that could count, since whether a member's people are
+   numbered, and what is counted as one, is that member's internal business.
+   Explains the epistemology, invents no number (`CLAUDE.md`, *explain the
+   epistemology, never invent the fact*). On the comparison section and both
+   polity pages. *Alternatives:* 2B, invent orders of magnitude from extent,
+   refused by the marked-absences doctrine; 2C, a bare *not established*
+   with no shape, which is what stood.
+3. *Humans the overall majority* — **3A, stays not filed**, and the
+   comparison section now says why: there is no census across the four
+   that could establish it, and the Archive does not file a majority it
+   cannot count. *Alternative:* 3B, file his 10 October ordering (humans the
+   overall majority) as canon; not taken because his Option 1 did not carry that half of the
+   direction, and 2A leaves nothing to count it from.
+
+No dilemma found: the three rest on precedents that do not conflict.
+Everything ruled on 10 October stands unchanged (extents; the Union's
+weight political, not headcount; the Solar System outnumbering the Union
+many times; the Union's ties closer than the Solar System's; his verbatim
+line on human population).
+
 ## The Celtic Union's distance from Sol — raised 9 October 2026, OPEN, fix only when a chapter needs it
 
 Dermot asked whether 2826 UCSD (2626 CE, 600 years from 2026) leaves room
@@ -60,14 +277,19 @@ former-Rangers question offered the same morning was answered by his
 second direction the same day (recruited from outside the Corps). All
 nine readings approved as taken. Nothing of the Inspectorate is open.
 
-## Dialect and language variants — between characters, and between members of a collective — raised 7 October 2026, OPEN
+## Dialect and language variants — between characters, and between members of a collective — raised 7 October 2026, RULED 10 October 2026 (*Approved*)
 
 Raised in `ideas.md` from a remark of Dermot's. Two ideas: speech variants by
 planet, caste, corps or generation, carried in lexis and rhythm, never in
 phonetic spelling; and the documented fact that members of a plural system
 often differ in vocabulary, cadence and formality, which prose could use so a
-reader knows who is present without a tag. Whether to adopt either, and where
-the first instance goes, is his. Nothing drafted until ruled.
+reader knows who is present without a tag. ~~Whether to adopt either, and where
+the first instance goes, is his. Nothing drafted until ruled.~~ **Ruled 10
+October 2026, *Approved*:** adopted, for plural minds first, Sen's three
+(Cael, Wyn and Sen). Constraints: lexis and rhythm, never phonetic spelling;
+every member real; a speech difference never a tell for the dangerous one.
+No prose drafted: nothing is written until a chapter calls for it. See
+`ideas.md` and `intake-2026-10-10.md`, *Rulings of the evening*.
 
 ## Continuity — three slips held as choices and fourteen near-misses — raised 3 October 2026, RULED same day (*Apply the recommended choices*)
 
@@ -1422,7 +1644,7 @@ be found without reading 1,300 lines.
   (3) ~~the Codex-art route's own two open decisions~~ (ruled 3 September
   2026 — card in the header, artwork in the body, prospective only), plus the
   codex entry (with in-universe author) the artwork would need to live on; (4) ~~mechanically, the
-  Botify AI watermark and 768px width~~ — re-made clean at 1600px from the
+  generator watermark and 768px width~~ — re-made clean at 1600px from the
   reference, 3 September 2026. **Drafted the same day** as
   `src/codex/asteria-the-sage-impression.md` with card and artwork, unattributed
   author by choice (a named in-world painter is Dermot's to add). **Still
@@ -1606,8 +1828,9 @@ not evaporate between sessions.
   22 August 2026 (#533)**, same day it was drafted. The About page's fan-works
   section now carries a "Noted" paragraph pointing at the fork
   `tissadelleshepherd/star-rangers` (single commit, 17 August 2026: an empty
-  `src/images/fan/Readme.md` plus an uncaptioned AI-generated image, Botify AI
-  watermark, evidently Tissadelle off duty), under the standing *referenced,
+  `src/images/fan/Readme.md` plus an uncaptioned AI-generated image, carrying a
+  generator watermark since cropped off, evidently Tissadelle off duty), under
+  the standing *referenced,
   not endorsed* formula (settled 2026-07-26; register word *Noted* per
   `CONTENT-LICENSE.md`). Dermot confirmed the Tissadelle reading in session
   and approved the reference with the reader-facing line naming her — the
@@ -1940,7 +2163,9 @@ Open, all in the intake:
 - **Cross-links** to the Crisis Centuries, FTP, Mars and Venice pages wait on
   the entry merging.
 
-## Elvira's dream — `intake-2026-09-03.md`, thirteenth direction
+## Elvira's dream — `intake-2026-09-03.md`, thirteenth direction — RULED 13 October 2026
+
+**RULED: a chapter before *The Broken Causeway*, S01E02C00** (Dermot's choice among the three slots below). Nothing open.
 
 Dermot, 3 September 2026: Elvira had a dream in which she transformed Aldera
 into a feline humanoid using magic. Drafted as
@@ -2856,7 +3081,7 @@ drafted as `src/lore/the-archive.md`. Realized as `lib/archive-companions.js`
 and the *From the Archive* aside on every chapter; seventeen chapters carry
 the first `related:` lists. Nothing open.
 
-## Inter-clan parties and intra-clan factions in the Seanad — `intake-2026-10-06.md` — OPEN, his
+## ~~Inter-clan parties and intra-clan factions in the Seanad~~ — `intake-2026-10-06.md` — RULED 13 October 2026 (*Yes agreed*: (i), they exist in fact and the Seanad recognises neither; realized on *The Seanad Draw*)
 
 Dermot's direction, verbatim *status of inter-clan parties of intra-clan
 factions to be determined*. The glossary entry *The Seanad Draw* marks the
@@ -2872,7 +3097,7 @@ the Union seat; nothing on Aethelrock changes), which worlds say *Taoiseach* and
 their own assemblies by the draw (marked absence), and stratifying the draw by
 clan (drafted where a registry records clans).
 
-## E01's adult "View from" buttons on undercover-pets.com — `intake-2026-10-06.md` — OPEN, his (recommended: no change)
+## E01's adult "View from" buttons on undercover-pets.com — `intake-2026-10-06.md` — RULED 10 October 2026 (*Approved*: (a), no change)
 
 The three Season 2 Episode 1 chapters now carry a Barsik block each, so the
 child has a live viewpoint on every chapter the pets door opens on; the
@@ -2880,7 +3105,9 @@ Larsen, Voss and Calloway buttons stay placeholders there under the 2
 September choice that keeps the Five-O cast off the children's domain. (a)
 Leave as ruled, recommended. (b) Tag the three character pages
 `undercover-pets.com`, at the cost of three adult cast pages on the
-children's site.
+children's site. **Ruled 10 October 2026, *Approved*: (a).** The three
+buttons stay placeholders; no change (`intake-2026-10-10.md`, *Rulings of
+the evening*).
 
 ## ~~Intelligence Engineering as a profession~~ — `intake-2026-10-07.md`, last section — RULED same evening (*Option 1 approved*: record only)
 
@@ -2892,3 +3119,90 @@ rather than a lens or a title. Four shapes put: record only (recommended);
 an in-world profession as a glossary or lore entry, name and seat his; a
 paragraph in `local-agent`'s decisions file, which partly reopens *undefined
 in public*; a Journal entry, which the morning declined for the lens.
+
+## Three questions from the character-growth audit — raised and ruled 10 October 2026
+
+The audit of the twelve characters with viewpoints in more than one season
+(this session; the page updates merged as #1070) left three questions, each
+put to him as choices with a recommendation. All three recommendations
+taken the same evening.
+
+- **Does Carried-It-Sleeping's name grow in Season 12? — OPEN, his; held on
+  purpose.** The Told's rule is that a truer thing said later is added on,
+  and Season 12 shows one: from S12E01C02 they are no longer among the small
+  ones but keep them. The name was not grown when the page was extended.
+  **Ruled: hold, and mark it here** — so the unchanged name reads as a choice
+  rather than an oversight. Whether it grows, when, and to what, stay his;
+  nothing is drafted until he asks. **Clarified the same evening**, his words:
+  *"It may grow but it is not required to address them by the full extent of
+  the name except for formal occasions."* So a name *may* grow and is not
+  owed to; and a grown name is said in full only on formal occasions, the
+  first telling serving day to day — which is how Season 12 already writes
+  Stone-First. Recorded in `src/glossary/the-told.md`, *A name grows*.
+  Carried-It-Sleeping's name stays as it is; whether and when it grows is
+  still his.
+- ~~**Syra's repeated opening**~~ — **RULED: keep as a deliberate echo.**
+  Her Season 5 and Season 7 blocks both open *Syra did not experience deep
+  fear…* (S05E02C03, S07E01C01). Her constancy is the point, so the repeat
+  stays; a later prose pass should not vary either line.
+- ~~**A bridge for Syra taking the boundary desk**~~ — **RULED: leave as a
+  marked absence.** She leaves Season 1 as Thorne's analyst and is at the
+  boundary desk training Toval by Season 5, with nothing between. Her page
+  already says *the record does not say when she took the desk*; on Sen's
+  doctrine the gap stays marked, and no bridge is drafted.
+
+## The strata above the Celestials are not characters — `intake-2026-10-11.md` — RULED same day (*Scope A, Prophet A*; *3A 4A 5A*), nothing open
+
+Drafted as *Through, Not As* in `src/lore/cosmic-cascade.md`. Three readings
+are open, each with a recommendation: (1) the scope is everything above the
+Celestials, which is the avatar line, with the temporal registers unchanged;
+(2) a prophet is filed like a Champion, forth-telling and receiving no
+message; (3) the Kieme-perspective narration exception in
+`story-bible-summary.md` is kept and read as *impartial*, not all-knowing.
+Reading 3 has not been applied yet. A *Prophet* glossary entry waits on
+reading 2.
+Later the same day: *Theophanies are usually either Levrils or more rarely
+Celestials.* This is drafted as the no-theophany line moving up to stand
+above the Celestials, which resolves the conflict with the immanence
+section. That is reading 4: (A) a Celestial may be the being met, which is
+recommended and drafted; or (B) only its enforcement action is witnessed,
+and the line stays above the Levrils.
+Then: *lower strata may be considered as messengers or ordinary angels in
+the broader more general sense*. This is drafted as an extension of the
+*Angel* register rule, with Levrils or, rarely, Celestials. That is reading
+5: (A) the word stays in the Codex and overlay, recommended and drafted; or
+(B) the Archive may use it too.
+
+## ~~Cured during pregnancy: the child or the line~~ — `intake-2026-10-13.md` — RULED same day (*All recommendations accepted*: (A), somatic treatment of the child)
+
+His direction that *genetic disorders can often be treated and cured during pregnancy* is recorded as (A) somatic treatment of the unborn child, the child cured and their own children treated in turn, which sits inside the Heritable Modification Protocols' somatic line untouched; recommended. (B) The disorder corrected in the line itself, on the protocols' restoration road, is also compatible and a stronger claim. Nothing drafted depends on either.
+
+## ~~Cosmetic nanites after *no Andromeda nanobots*~~ — `intake-2026-10-13.md` — RULED same day (*All recommendations accepted*: (A), the three pages stand)
+
+(A) The three published *cosmetic nanites* (environmental technology, Terran wildlife, Tír na nÓg) stand as bounded, non-replicating upkeep, with surgical microdrones for medicine; recommended, no page changes. (B) *Nanite* leaves the record and the three pages are revised to drones.
+
+## ~~Mixed calendars in *Civilisation Comparison* and the Aoife lines~~ — `intake-2026-10-13.md` — RULED same day (*Yes please*: (A), labelled, one explanatory sentence; *The Warm-Edge Correlation* left in its author's voice)
+
+The table's columns are the 13th and 21st centuries (CE, the USC scholars' own notation before adoption) and the 29th (UCSD); in CE the present is the 27th, so the table reads an 800-year gap that is 600. The Saint Aoife page, Breanainn Ó Sé and *The Warm-Edge Correlation* set *a thirteenth-century holy woman* beside *a twenty-ninth-century* taxonomist or station the same way. (A) Label the columns and phrases with their calendars, *29th century UCSD (27th CE)*, and add one sentence in the page's own voice that the framework was built in CE and extended in UCSD; recommended, a clarification. (B) Re-key the page to CE throughout (*27th century*). (C) Leave the notation and only add the sentence, the mix itself being the in-world artefact.
+
+## ~~One wardrobe for every human world~~ — `civilian-dress.md`, review of 13 October 2026 — RULED same day (*Yes agreed*: (A); with fashion local and slow, and heritage in one chosen thing, principles 11 to 13)
+
+The note's prompt vocabulary (plain considered cuts, quiet natural colours, band collar, concealed closure) is applied everywhere, so Eden, Aethelrock, Thalassa, the frontier and Mars dress alike: *band collar* appears 27 times in `images.md`, and the 13 October cast sheet shows most of the cast in the same charcoal or olive jacket. That pulls against the same day's diversity and uniqueness directions. (A) The century lives in one detail of cloth (the closure, the seam, how it behaves); cut, layering, garment kind, colour and pattern follow each place's climate, work and culture, a dress line added per setting as pages need it; recommended, a clarification that leaves ruling 4 (colour personal, no colour customs) standing. (B) Write per-world dress notes now for the charter worlds, Eden, Thalassa and Mars. (C) Keep the vocabulary; vary colour only.
+
+## The Cerebraun account of humans in a Cerebraun voice — `intake-2026-10-13.md`, last section — OPEN, not blocking
+
+The account is filed as the Hegemony's in `src/lore/cerebraun.md` (home settled by Fable, 13 October 2026). Whether it should also exist as a Codex entry in a Cerebraun author's own voice is his: (A) leave it as the lore section only, recommended until a chapter needs a Cerebraun to say it; (B) a Hegemony contact-doctrine paper by a new named Administrator-Voice, with a character page in the same PR; (C) a Prime Ganglion office memorandum with its author withheld, a marked absence rather than a page. Sohrel is not the author for (B): a doctrinal account of another people is not a document that record produces.
+
+## How a people holds standing — `mind-design.md`, 14 October 2026 — RULED same day, all as recommended
+
+Five choices from the people-by-people section on social and functional order, each with a recommendation there: (1) the Cerebraun body-to-polity reading as their own doctrine only (A, recommended) or a general law (B); (2) how the Prime Ganglion's capacity is shown, marked absent (A, recommended) or a stated practice (B); (3) keeping the margin as a doing with no word (A, recommended) or an office (B), already open on Stone-First's page; (4) the Ovruhn old keepers as the chorus's own measure (A, recommended) or a standing elder body (B); (5) who speaks for the Spiralites, left for the Corryn chapter to find (A, recommended) or fixed now (B).
+
+## Machine minds among the non-humanoid peoples — `species-design.md`, *Minds they make*, raised 14 October 2026 — RULED same day, all as recommended
+
+Dermot asked, 14 October 2026: *"Machine intelligence or virtual intelligence as used and developed, if any, by non-humanoid peoples."* Answered people by people in `species-design.md`, *Minds they make*, every line marked derived, proposed or not established. Five choices are put there with recommendations, and the recommendations stand unless he overrules them: (1) Cerebraun machine law, doctrine or biology (B, biology); (2) Chthonari monitors at home, a Belt regime or none (A, a regime); (3) Serephine lethal hours, agentic or not (B, not); (4) Ovruhn and a voice with no under-song (B, filed with offices); (5) Ollune and a machine's word (B, it never binds). Nothing is written to `src/`. Still open as before, and untouched: which faction fields the beneficial robots (`intake-2026-07-28.md`), what Tsikk made of the Warden's reading, the Corryn standing case, whether a made mind dreams.
+
+## The Prismeri body sheet — `species-design.md`, raised 14 October 2026 — RULED same day, A
+
+Dermot asked whether the Prismeri may resemble dragons, then: *"However a large flying creature must be consistent with physics and planetary conditions."* The sheet proposes Prismere's gravity, air density and oxygen and a Prismeri's mass and span, works flight, the shell, the neck and the tail, and finds that physics permits a dragon's outline but supplies no dilemma against the confirmed short neck and no tail. Three choices, each with a recommendation there: **A** keep the shape and record the physics as its basis (recommended); **B** lift the Levril test and lengthen the neck modestly, a canon change by his choice; **C** confirm the proposed figures as canon.
+
+**Ruled 14 October 2026**, Dermot, verbatim: *"Option A is fine"*, after saying of the 12 October confirmation *"I might have been wrong about the confirmation or I did not think it through fully"* and asking for a recommendation. The short neck and no tail stay. Their basis is now the body's use, recorded as a clarification on `src/lore/prismeri.md`: the hang keeps the eyes beside the hands, glasswood punishes anything that trails, and the facet band reads the sky without the head turning. The physics permits a longer neck, so the shape is a choice, not a limit. The Levril test stays as a rule for pictures only. **C** (the proposed figures as canon) was not taken up and stays open.

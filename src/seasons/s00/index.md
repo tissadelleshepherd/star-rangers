@@ -12,7 +12,7 @@ permalink: /seasons/s00/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="A moody, neon-lit futuristic corridor" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="An empty hearing chamber with tiers of pale upholstered seats facing a long bare table, a long thick window onto red Martian ground under a dusty sky, and a pale rectangle with bolt holes on the wall where something has been taken down" />
 <h1 class="page-title">Founding Era</h1>
 <p class="page-intro">
   Here is the fracture before the oath. The Founding Era follows the years that made the Star Rangers both necessary and possible, from 2712 to 2723 UCSD under the last stretch of Military Space Command rule.

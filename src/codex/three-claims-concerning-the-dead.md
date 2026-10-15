@@ -2,10 +2,10 @@
 layout: codex.njk
 title: "Three Claims Concerning the Dead, Considered Separately"
 category: "Working Papers"
-author: "Dr. Maren Ilves, comparative testimony section, The Institute"
+author: "Dr. Maren Ilves, comparative testimony unit, The Institute"
 institution: "The Institute"
 description: "The Institute's paper on post-mortem doctrine: judgment, punishment and reward are three different claims that fare very differently under observation, and filing them as one doctrine is the error. Its null-results section, printed at length per house rule, records that the Institute's own standard deflation — inheritance — cannot explain the convergence of traditions that never met."
-location: "Institute Papers, comparative testimony section, no. 9204; circulated open, as all Institute papers are"
+location: "Institute Papers, comparative testimony unit, no. 9204; circulated open, as all Institute papers are"
 tags: [the-institute, secular, working-paper, doctrine, post-mortem, judgment, comparative-testimony]
 ---
 

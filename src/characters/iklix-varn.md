@@ -24,6 +24,10 @@ Its ninth day was a form. Structural work on Eden that touches the approach moni
 
 The watch's log records the rest. Smith declined to countersign, declined to refer, and sent the Deputy back to ask — politely, on the Corps' letterhead — not whether the note was true but who had decided it was not a question.
 
+The rest of the month is in the same log. On the first day Varn had entered *Nothing to report*, been told it was an opinion and not an entry, and struck the three words with one line so that they could still be read, which nobody had said to do ([Nothing to Report (S09E01C01)](/star-rangers/seasons/s09/e01/s09e01c01/)). On the seventh day Varn asked the posting's first question, and entered the answer, the account of Aoife of Cill Aoife, as an event of the shift with its duration: *Fourteen minutes* ([What Did Not Fit (S09E01C03)](/star-rangers/seasons/s09/e01/s09e01c03/)). On the twelfth, in the room the Compact lends Orbital Five-O, Varn laid the contractor's log between the task force's reconciliation and the certification and saw that all three were about one member: the six instruments hang from approach mount three, and were re-zeroed while it carried the load ([What It Hangs From (S10E01C03)](/star-rangers/seasons/s10/e01/s10e01c03/)). Varn stood under the dock ring for the joint inspection that found the bent bracket at the mount's root, carried the slate up the ring a fourth time, and understood what *the nearest qualified officer* had meant all along ([Record in Order (S10E01C07)](/star-rangers/seasons/s10/e01/s10e01c07/)).
+
+On the thirtieth day Varn stood at the desk one step nearer than on the first, without having decided to, and did not correct it. At the hour a resident asked, for his mother, whether the hatch was staying now the Corps had gone. Varn said it was not the Corps that came: "It is the one that stays." ([Stand Where You Like (S09E01C05)](/star-rangers/seasons/s09/e01/s09e01c05/))
+
 ## What They Decline
 
 Varn does not ask why a log is missing. A Deputy who has been told to fetch a thing fetches it, and notices what the officer did *not* say — in this case, *lost*.

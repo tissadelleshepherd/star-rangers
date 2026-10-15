@@ -60,7 +60,7 @@ Tír na nÓg's axial tilt runs close enough to Earth's own that the founding coo
 
 The planet's oceans run warmer and calmer than Earth's on average, a consequence of Mannán's slightly wider habitable-zone margin, and its coastlines are the most visited stretch of the world outside the wetland lowlands — a fact the tourism ministries of every other charter world resent openly and often.
 
-![Sunset over a calm ocean, waves breaking near the shore](/star-rangers/images/lore/coastal-sunset.jpg)
+![The sun low and bright over open sea, a line of breaking waves near the horizon and its light lying gold across the water](/star-rangers/images/lore/coastal-sunset.jpg)
 
 Two moons work the tides between them: **Donn**, the larger and closer, and **Cliona**, smaller, farther out, and named — over the founding cooperative's own initial objection that it invited comparison — for the Otherworld queen whose name already anchors the old folklore of a great wave heard before it arrives. The two rarely align. When they do, Cliona's shadow crosses Donn's face for a span of minutes local almanacs still call, without much ceremony, the **Conjunction**, and coastal communities schedule exactly nothing else for the hour around it.
 

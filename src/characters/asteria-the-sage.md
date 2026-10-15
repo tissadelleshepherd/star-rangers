@@ -10,7 +10,7 @@ aliases:
   - "Asteria"
 tags: [star-rangers, star-captain, retired, fellowship-of-light, sage, cascade]
 image: "asteria-the-sage.jpg"
-image_alt: "Asteria Wessex in her hundreds — a broad-shouldered white-haired woman, face deeply creased and spotted with age, in the plain belted working robe of a contemplative order with sleeves pushed back over strong forearms, hands set on her hips before a dry-stone wall, a walled lane winding into green hills behind her."
+image_alt: "Asteria Wessex in her hundreds, a broad-shouldered white-haired woman with a deeply creased, age-spotted face, in a plain belted grey working robe over a blue undergarment, hands clasped before her, standing beside the door of a stone chapter house. A walled lane winds into green hills behind her, and far off through a break in the cloud the thin pale trail of an ascent javelin climbs away."
 description: "A retired Star Captain of the Star Rangers who withdrew to a quiet planet and now leads its local Fellowship of Light chapter — consulted, sighed at, and quoted on the Cascade more often than she would like. Known to the chapter as Asteria the Sage, which is the chapter's word and not hers."
 ---
 

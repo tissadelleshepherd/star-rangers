@@ -5,7 +5,7 @@ eleventyComputed:
   description: "All seasons and episodes of {{ site.name }}, grouped by storyline thread."
 permalink: /seasons/
 ---
-<img class="page-hero-image" src="/star-rangers/images/hero/seasons-orbit.jpg" alt="A space station orbiting a planet against the backdrop of the universe" />
+<img class="page-hero-image" src="/star-rangers/images/hero/seasons-orbit.jpg" alt="A single plain grey ring habitat in high orbit, joined by four spokes to a central hub carrying a pair of flat radiator panels, lit hard from one side against black sky above a cloud-covered world" />
 <h1 class="page-title">Seasons &amp; Episodes</h1>
 {%- if edition.seasonsIntro -%}
 {%- for para in edition.seasonsIntro -%}

@@ -201,7 +201,26 @@ function New-EmblemCard($Title, $Category, $Epi, $Qual, $Kind, $TintHex, $Accent
   $pt = if ($t.Length -gt 26) { 30.0 } elseif ($t.Length -gt 18) { 38.0 } else { 46.0 }
   $titleFont = New-Object System.Drawing.Font('Georgia', $pt, [System.Drawing.FontStyle]::Regular, [System.Drawing.GraphicsUnit]::Point)
   $titleBrush = New-Object System.Drawing.SolidBrush (C '#EEF3F8')
-  Draw-Centred $g $t $titleFont $titleBrush ($W/2) 610
+  # A title wider than the card (added 12 October 2026, when "Environmental
+  # Technology Design: Biosphere, Station, and Ritual Space" ran off both
+  # edges): break it after its colon if it has one, then step the size down
+  # until every line fits. A title that already fits draws exactly as before.
+  $maxW = $W - 160
+  $lines = @($t)
+  if ($g.MeasureString($t, $titleFont).Width -gt $maxW -and $t.Contains(': ')) {
+    $ci = $t.IndexOf(': ')
+    $lines = @($t.Substring(0, $ci + 1), $t.Substring($ci + 2))
+  }
+  while ((($lines | ForEach-Object { $g.MeasureString($_, $titleFont).Width } | Measure-Object -Maximum).Maximum -gt $maxW) -and $pt -gt 18) {
+    $pt -= 2
+    $titleFont = New-Object System.Drawing.Font('Georgia', $pt, [System.Drawing.FontStyle]::Regular, [System.Drawing.GraphicsUnit]::Point)
+  }
+  if ($lines.Count -eq 1) {
+    Draw-Centred $g $t $titleFont $titleBrush ($W/2) 610
+  } else {
+    $lh = $titleFont.GetHeight($g) * 1.1
+    for ($k = 0; $k -lt $lines.Count; $k++) { Draw-Centred $g $lines[$k] $titleFont $titleBrush ($W/2) (596 + $k * $lh) }
+  }
 
   if ($Epi) {
     $epiFont = New-Object System.Drawing.Font('Georgia', 21.0, [System.Drawing.FontStyle]::Regular, [System.Drawing.GraphicsUnit]::Point)

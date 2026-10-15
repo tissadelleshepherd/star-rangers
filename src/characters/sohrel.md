@@ -10,7 +10,7 @@ aliases:
 tags: [cerebraun, cerebraun-hegemony, halyx-system, meridian, sentinel, season-3]
 description: "The Cerebraun Hegemony's Administrator-Voice for the Halyx System, holding final Hegemony authority over Meridian and the Sentinel — and the official who authorised reopening a three-century-old anomaly file on the strength of a Ranger officer's hunch."
 image: "sohrel.jpg"
-image_alt: "Designed cover for Sohrel: a cephalopod-like figure with a central mantle and eight radiating limbs, each ending in its own ganglion node, in a ringed emblem on a dark starfield."
+image_alt: "Sohrel at a bare desk in a dim station office: a soft, headless slate-grey body resting on folded lower limbs, two smooth upper limbs laid across the desktop and one raised, small dark eyes set along the limbs, and one limb hanging beneath the desk with a warmer patch on its underside."
 ---
 
 Sohrel has held the Halyx System portfolio long enough to have personally signed the original filing that closed the Sentinel's case three centuries ago, and long enough to be the one who reopened it.

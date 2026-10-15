@@ -12,7 +12,7 @@ permalink: /seasons/s01/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-01.jpg" alt="A space station in Earth orbit" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-01.jpg" alt="Two identical small round sealed instruments with blank faces mounted high on a plain grey dock wall, one above a large rounded pressure door and one above a smaller hatch" />
 <h1 class="page-title">Season 1</h1>
 <p class="page-intro">
   Threshold Station is already living with a false reading when Season 1 begins. Browse the published episodes, then follow how each chapter tests civic duty against damaged memory and disputed evidence.

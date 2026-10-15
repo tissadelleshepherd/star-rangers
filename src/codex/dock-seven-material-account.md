@@ -2,10 +2,10 @@
 layout: codex.njk
 title: "A Material Account of the Dock Seven Event"
 category: "Working Papers"
-author: "Dr. Ausma Reihl, fold-dynamics section, The Institute"
+author: "Dr. Ausma Reihl, fold-dynamics unit, The Institute"
 institution: "The Institute"
 description: "The Institute's published account of Dock Seven: the boundary failed because overused, miscalibrated fold equipment held an aperture open for four months, and the shapes the witnesses reported are discharge along a strain gradient. It is the version most of settled space believes. Its own null-results section, printed at length per house rule, contains everything it could not explain."
-location: "Institute Papers, fold-dynamics section, no. 8811; circulated open, as all Institute papers are"
+location: "Institute Papers, fold-dynamics unit, no. 8811; circulated open, as all Institute papers are"
 tags: [the-institute, dock-seven, threshold-station, boundary, fold-drive, secular, working-paper, tissadelle, levril]
 ---
 

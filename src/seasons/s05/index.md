@@ -12,7 +12,7 @@ permalink: /seasons/s05/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-05-explorers.jpg" alt="Explorers in space suits" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-05-explorers.jpg" alt="A red-haired officer in a dark slate-grey uniform seen from behind at a round port in a plain grey room, one hand on a closed folio on the sill, a distant dark ship of a long spine and two drums outside" />
 <h1 class="page-title">Season 5</h1>
 <p class="page-intro">
   Four seasons of operational service stand between the cadet who arrived in Season 1 and the Line Captain who opens Season 5. Tissadelle Shepherd now answers for boundary-proximate deployments in her own right — and for the Rangers she sends into them. Season 5 follows what that rank costs, on duty and off it.

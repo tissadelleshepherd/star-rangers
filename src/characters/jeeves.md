@@ -8,7 +8,7 @@ status: Active
 aliases: []
 tags: [ai, kernel-compliant, eden, domestic, comedy-of-manners, orbital-five-o, undercover-pets.com]
 image: "jeeves.jpg"
-image_alt: "Jeeves — a matte ivory-grey domestic-model frame in a dark waistcoat, plainly jointed, with round dark lens eyes and no mouth — setting down a tea tray on a wooden table in the compact galley kitchen of a habitat apartment, a circular viewport behind him showing Eden's green interior."
+image_alt: "Jeeves, a cream-shelled domestic-model frame with smoothly shrouded joints, round dark lens eyes and no mouth, in a dark waistcoat, setting down a tea tray on a worn wooden table in the warm, tidy galley kitchen of a habitat apartment, a round viewport behind him showing Eden's green interior."
 description: "A domestic-companion intelligence assigned to keep Detective Inspector Wendell Albercombe fed, rested, and connected to a habitat he mostly sees through case files — and who solves more of his 'boring' referrals from the kitchen than the bureau ever manages from its own channels."
 ---
 

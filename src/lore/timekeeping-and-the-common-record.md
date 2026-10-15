@@ -5,7 +5,7 @@ category: "Records"
 tags: [timekeeping, records, concord, archives, ucsd]
 description: "How one shared history carries many calendars: UCSD as the civil spine, alien reckonings converted rather than replaced, time distributed by courier in a civilisation without faster-than-light communication, and relativity reconciled as routine."
 image: "timekeeping-and-the-common-record.jpg"
-image_alt: "A small hardened transit case, closed, clamped and secured with a strap, standing alone on a plain bench in a ship's compartment of matte panels, cool even light, nothing else in frame"
+image_alt: "A short, seamless dark capsule with rounded ends resting in a fitted cradle set into a plain grey bench in a ship's compartment, nothing else in frame"
 plain: "Everyone in this story lives in the same single history, but different peoples write its dates differently. UCSD is the standard calendar records convert to. Because no message travels faster than a ship, exact time has to be physically carried between places, and far-apart clocks drift slightly for reasons physics predicts. Archivists correct for that drift routinely — it is small — and keep original dates alongside the converted ones."
 ---
 

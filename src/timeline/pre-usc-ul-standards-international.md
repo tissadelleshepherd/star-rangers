@@ -30,7 +30,7 @@ The expansion into boundary-proximate environments — where adjacent Concordant
 
 **Canon facts:**
 - The core methodology — define what failure looks like, test for it, certify those that pass — carries unbroken from 1894 CE (2094 UCSD) to the 2826 UCSD present.
-- United Space Industry Standards is the largest single organisation absorbed into the Solar System Safety Standards Authority when the USC consolidates certification bodies in ~2340 UCSD.
+- United Space Industry Standards is the largest single organisation absorbed into the Solar System Safety Standards Authority when the USC consolidates certification bodies in ~2140 CE (2340 UCSD).
 - The SSSA is absorbed into the Star Rangers at founding in 2723 UCSD and reconstituted as the Safety Corps.
 - The institutional lineage from a Chicago product-testing laboratory to the Solar System's primary boundary-operations certification authority spans approximately seven centuries without a break in organisational continuity.
 

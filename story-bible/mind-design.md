@@ -661,6 +661,569 @@ the people's word is one word or a phrase. Pronouns settled at the record's *the
 approval. Still open: whether keeping the margin is an office; whether memory
 is ordinary (the drafts assume it and say nothing).
 
+## How a people holds standing — social and functional order, people by people
+
+Dermot's question, 14 October 2026, verbatim: *"Social and functional
+hierarchy, if any, in non-humanoid peoples"*. Answered here as the rest of
+this note is answered: from the record first, with every line marked.
+**DERIVED** means the page cited already says it or plainly entails it;
+**PROPOSED** means a reading the record allows but has not stated, his to
+keep or drop; **not established** means the record is silent, and where the
+silence is the right shape the line says why. Nothing here is canon and no
+`src/` page is changed by it. Dress, ornament and colour for the same peoples
+are `civilian-dress.md`'s, not this section's.
+
+Three questions per people: **(a) social order** — whether there is rank at
+all, and how standing is held (age, life stage, lineage, office, consensus,
+chorus, rotation); **(b) functional order** — who decides what, how work is
+divided, how the people is represented outward; **(c) the idiom** — how the
+record shows the structure in the people's own medium. Each block closes
+with what the structure means for the Corps' work: whom a Ranger talks to,
+where mediation can come in, and where a role-mark would sit
+(`species-design.md`, *The uniform equivalent*; `src/lore/rank-insignia-and-uniform.md`).
+The column the Archive keeps for every people beside the filed ladder,
+[The Ladder in Other Tongues](src/lore/the-ladder-in-other-tongues.md), is
+the best single evidence of how a people reads rank, because each rendering
+*"had to decide what a rank is in order to name it"*; it is cited where it
+exists.
+
+### Cerebraun, and the Cerebraun Hegemony
+
+**(a) Social order.** DERIVED: there is rank, and the people say why.
+*"Legitimate authority is centralized in one dominant voice, and every
+subordinate part — whether a limb-ganglion or a subject administration — is
+expected to execute that voice's decisions rather than bargain over them as
+an equal"* (`cerebraun.md`, *Social and Political Reflection*), and the
+Hegemony's leadership holds this to be *"a direct political translation of
+Cerebraun neurology"* (`cerebraun-hegemony.md`, *Governing Philosophy*).
+The order is centralised by its own doctrine, and the doctrine is the body:
+one executive brain, eight limb-ganglia that act, and a central brain that
+*"does not fully override the limb-ganglia. It negotiates with them"*
+(`cerebraun.md`). Standing at the top is held by **demonstrated capacity,
+in rotation**: the Prime Ganglion is *"a rotating council seat held by
+whichever Cerebraun demonstrates the clearest capacity to hold the whole
+polity's competing internal signals in coherent balance"*. It is not
+lineage and not age. How the capacity is demonstrated, who judges it, and
+how long a seat is held before it rotates are **not established**. The
+Hegemony counts and decides for the Prime Ganglion's use and publishes
+little (`cerebraun-hegemony.md`, on population), so an Archive that cannot
+see inside the council chamber is the right shape, not a gap to fill.
+
+**(b) Functional order.** DERIVED, and the record's most explicit: the
+Prime Ganglion sets Hegemony-wide policy on trade, defence and inter-world
+allocation *"with authority that does not require subordinate
+ratification"*. Each world, Cerebraun-settled or not, has an appointed
+**Administrator-Voice** with final local authority who answers to the Prime
+Ganglion. Native populations keep *"day-to-day cultural and civic
+self-management"* and have no veto on trade, extraction or defence. The
+Hegemony keeps a military *"under the same single authority as everything
+else it keeps"*. Below the Administrator-Voice is an office with staff:
+Sohrel holds the Halyx portfolio by appointment, about three centuries
+(`characters/sohrel.md`); Tavesh keeps the translation channel on that
+staff, *"has never held an Administrator-Voice's portfolio, or any office
+with a signature on it"*, and works *"under the office's seal and under
+nobody's name"* (`characters/tavesh.md`). Outward representation runs
+**world by world**: the Hegemony takes no non-voting seat
+(`the-oversight-council.md` offer declined) and has no instrument with the
+Union as a whole; its ties to Union worlds are made by the
+Administrator-Voice on the spot inside the Prime Ganglion's standing policy
+(the 14 October rulings, `open-questions.md`, *The three held questions*,
+1A).
+
+**What the structure costs, and why it is not villainy.** DERIVED: the
+price is paid downward by the official, not by the comfortable. An
+administrator who unsettles a filed classification carries personal
+accountability *"independent of whether the reversal is later shown to be
+correct"*, and the Prime Ganglion's office *formally noted* Sohrel's
+decision (`cerebraun-hegemony.md`, *What Unambiguous Authority Costs the
+Official Holding It*). And the body supplies the counterweight the doctrine
+does not advertise: a limb may act against the central brain's stated
+intention and Cerebraun physicians treat that as *"ordinary rather than
+pathological"*. The structure is one voice that negotiates, not one voice
+that silences. Sohrel's limb beneath the desk agreeing *"outright"* with
+the central brain is shown in S03E01C03 as a rare event. Tavesh, whose
+three-part answers arrive *"in the order the centres finished thinking"*,
+is a Cerebraun the Hegemony's ladder holds without forcing. Antagonism,
+where the Hegemony gives the story any, is a misreading of other peoples
+through its own body (the account of humans, `cerebraun.md`). It is never
+cruelty.
+
+**(c) Idiom.** DERIVED: *voice* and *limb*. Offices are named as parts of a
+nervous system (Prime Ganglion, Administrator-Voice), and the Hegemony
+renders the Corps' ladder as limbs acting on another's voice or their own,
+up to *"the voice for what"*. It had to coin *"the voice for how"*, a
+distinction *"Cerebraun governance does not otherwise draw"*
+(`the-ladder-in-other-tongues.md`). Status is spoken on the first channel
+and paid for on the second: the skin's *"formal display-language reserved
+for precise technical and diplomatic communication"*.
+
+**For the Corps.** The Ranger's counterpart is always the Administrator-Voice
+on the spot. A Union–Hegemony arrangement that needs a go-between turns to
+the Rangers *"called in when needed and not otherwise"*, deciding nothing
+(`cerebraun-hegemony.md`). Jurisdiction is by invitation and can be
+withdrawn without explanation. A subject people is reached *through* the
+Administrator-Voice's office, as Meridian was. A mark of office would be a
+display, not a worn thing: this is open and his (`species-design.md`,
+*Cerebraun — Marks and the uniform equivalent*).
+
+### Meridian sapients (the Long Shelf and the other reef-cities)
+
+**(a) Social order.** DERIVED that standing is held **by council and by
+craft, city by city**. Meridian keeps *"day-to-day self-governance of its
+reef-cities under its own sapients' customary structures"*
+(`planets/meridian.md`), the Long Shelf has *"its own council"*, and the
+council is served by **analysts** (`characters/sixth-course.md`). What the
+customary structures are, how a council is composed, and whether age or
+lineage counts are **not established**. That is right: everything the
+record holds of Meridian came through a Hegemony relay channel and a human
+survey, and Sixth Course's page says the Archive *"has not asked"*. A
+PROPOSED reading from the same page: an analyst's standing rests on a
+reputation for being *"slow to call either one the other"*. Standing as
+earned exactness, not as office.
+
+**(b) Functional order.** DERIVED: the council petitions, drafts its own
+clauses and sets the terms of what it will consider (*"on its own account
+and no other's"*, S03E01C03). Analysts do the listening and report findings
+to the council. Above the reef-cities sits the Hegemony's Administrator-Voice,
+with final authority on trade, extraction and defence. The council's
+objections on extraction are *"recorded and not acted on"*. Whether the
+reef-cities have any council in common, or speak for Meridian as a whole,
+is **not established**. The record so far shows one city acting for itself,
+and that is the shape to keep until a chapter shows otherwise.
+
+**(c) Idiom.** DERIVED: the city is the medium. A reef-city is *"also an
+instrument"*: percussion carries through the lattice and the chemical
+channel follows with the meaning. Sixth Course's name is *"a percussion
+address"* the instrumentation renders *"as a course of the city's
+lattice"*. Whether an address records place, work or standing is open on
+the page, and a reader should not decide it from the word *course*.
+
+**For the Corps.** The Rangers reached the Long Shelf's analysts only *"at
+Sohrel's request, through the standing Survey Corps data-exchange
+arrangement"* (S03E01C03), and that is the pattern: a subject council is
+addressed with the Administrator-Voice's knowledge. The council's own
+discipline, keeping the Sentinel apart from the extraction dispute, is the
+model of a neutral party a Ranger would want to work with.
+
+### Chthonari (the Undersong Belt)
+
+**(a) Social order.** **Not established** for the Belt as a polity: the
+record holds no settlement government, no council and no office at home.
+DERIVED at crew scale: standing is **by craft and by life stage**. An
+apprentice is the one who has *"learned the course and has not yet learned
+to listen to it"* and is *"not yet trusted to decide what to leave"*
+(this note, *The Chthonari, answered*, 7; `characters/tikket.md`). The
+log-keeper's role is real standing: on a contractor crew the log *"is the
+one record on a job that is the crew's own to leave"*, and *"the one who
+keeps it decides what a record is for"* (`characters/kattik.md`). No crew
+lead is named on any page. The four are named by what each does.
+
+**(b) Functional order.** DERIVED: decisions are reached as a **tuning**. A
+disagreement is *"felt as dissonance"* and is resolved *"by finding what
+both readings hold in common and cutting what one of them added"*, and a
+crew's *"consensus is a tuning reached, never a state they start in"*
+(this note, 2 and *Traps*). Work is divided by function (cutter,
+log-keeper, the one who asks the habitat, apprentice). Outward, the Undersong
+Belt is a Federation *"member territory"* contributing fold-scaffold
+expertise to the compact (`undersong-belt.md`). Individual Ranger service
+is *"individual and apolitical"* and is never a quota (`chthonari.md`). Who
+sits for the Belt in the assembly is **not established**.
+
+**(c) Idiom.** DERIVED: **load and bearing**. The Chthonari rendering of the
+ladder holds that *"every rank is a member of a structure, named for the
+load it carries and what it rests on"*. The Triumvirate is *"the three-point
+bearing the whole rests on"*, and the Undersong form also marks whether the
+officer is *felt* through shared structure (`the-ladder-in-other-tongues.md`).
+The burrow's question asked *"of every member before the cutting stops"* is
+the same word turned on structure (`kattik.md`).
+
+**For the Corps.** A Chthonari crew is addressed as a crew, through the
+deck. Their role-mark, if any, is heard and not seen: open, (a) a standing
+tone or (b) nothing (`species-design.md`). The hive trap stays closed. They
+are individuals who argue.
+
+### Ilveth (Sardain)
+
+**(a) Social order.** **Not established**, and deliberately plural:
+*"Sardain's cultures agree on very little"* (`ilveth.md`). The record holds
+no polity, no Federation status and no office for the Ilveth. What it does
+hold is an economy that standing would have to run through. Heat is *"the
+only wealth"*, a warm-written sentence costs *"real metabolic coin"*, and
+*"an Ilveth who warms a sentence for you has spent on you"*. PROPOSED,
+derived from the ladder rendering below and from nothing else: among the
+Ilveth, standing is measured by what a person spends on others, never by
+what they hold.
+
+**(b) Functional order.** **Not established** at home. DERIVED for the
+courtesy that governs any meeting: *"it is bad manners to answer what a
+body says instead of what a person says"*. That rule matters to any
+negotiation with a people whose bodies leak state.
+
+**(c) Idiom.** DERIVED: **who spends heat on whom**. *"The lower ranks are
+those whom others spend heat on; the higher ranks are those who spend it on
+others"*. It is the only rendering *"that reads command entirely as a cost
+to the commander"*, and the warm-written form of a rank is kept for the
+moment *"worth paying to say it"* (`the-ladder-in-other-tongues.md`).
+
+**For the Corps.** The Corps cannot tell whom to address on Sardain from the
+record, and should not guess. Aboard a warm hull an Ilveth is held to
+click-speech, so a role spoken in warmth is unavailable shipboard. Any
+Ilveth role-mark is undescribed.
+
+### Ovruhn (Thavren)
+
+**(a) Social order.** DERIVED: standing is **held by a chorus, and is a
+measure of agreement**. Anything worth keeping is chorus-kept, *"its
+authority a function of how many living memories hold it and how well they
+agree"*. *"Law on Thavren is precedent chanted"* (`ovruhn.md`, *The Chorus
+Is the Library*). Persons who hold the keeping are **keepers**. Vhen is *"a
+keeper of the meeting-chorus"*, and the page mentions *"the old keepers"*
+who ruled how an error was to be held (`characters/vhen.md`). So age
+carries weight where it means more memory held. Whether that is an office
+or simply what a long memory is, is **not established** (see the open
+choices). Under-song makes feeling public, so rank cannot rest on what is
+concealed: *"among them, feelings are never secret"*.
+
+**(b) Functional order.** DERIVED: the chorus decides, slowly.
+Federation membership *"was taken by the chorus's own deliberation, in the
+chorus's own time"*. Work is *"method demonstrated and re-demonstrated"*;
+history is *"the thing the oldest chorus still carries"*. Different choruses
+keep different things (the meeting-chorus keeps humans). Outward, Thavren is
+a member world and carries the compact's joint disaster response
+(`federation-of-sentient-beings.md`). Who speaks for Thavren in the assembly
+is **not established**. A chorus that holds a position cannot be one
+person's, and that is the shape to keep.
+
+**(c) Idiom.** DERIVED: **checked against, then answered through**. The
+Ovruhn rendering *"changes verb at the hinge"*: up to Chief an officer is
+one *a part is checked against*, a keeper of what is right in a craft; from
+Starwarden up, one *a place or a line answers through*
+(`the-ladder-in-other-tongues.md`). Vhen's account holds human offices
+*"that pass from body to body with the word-song intact"* as *"confirmed,
+and not yet felt"*. An office that outlives the voice holding it is the
+foreign thing.
+
+**For the Corps.** A Ranger talks to a chorus, through a keeper, and waits
+for the chorus's time. A calm human body that acts is *"not in their
+model"*, so a quiet negotiator is read as unread, not as safe.
+
+### Pelagene Littoral (Nerath)
+
+**(a), (b) Social and functional order.** **Not established**, all of it.
+The record holds the Pelagene through a body (radial, permeable, no front)
+and one Ranger's file (`pelagene-littoral.md`; `characters/mira-of-brine.md`).
+It holds no settlement, no polity and no Federation status. The absence is
+the right shape: the Archive knows them as a survey and a surveyor know a
+people. *Mira of Brine* is a name in the record's translation register
+(*brine* is flagged on the species page as a human word for a Pelagene
+thing), so the name is no evidence of lineage or place-naming.
+
+**(c) Idiom.** Nothing to derive yet. The one PROPOSED caution: a body with
+no front has no head of a table and no *before* to stand in, so if a
+Pelagene order is ever written it should not borrow spatial precedence
+(seated first, standing forward). That is a trap closed, not a fact asserted.
+
+**For the Corps.** The Pelagene role-mark is open, (a) controllable colour or
+(b) a carried object that reads in the water. Mira's portrait wears the
+Rangers' shell, not her people's mark (`species-design.md`).
+
+### Prismeri (Prismere)
+
+**(a) Social order.** DERIVED, and the record's clearest case of order from
+the body **without rank**: *"Prismeri social structure follows the practical
+difference between the two forms rather than any formal caste system"*.
+First Wings are *"legally adult by their own culture's reckoning well
+before metamorphosis"*. The Second Emergence is not universal, and
+*"Prismeri culture accords no lesser standing to those who don't"* undergo
+it. Guild status *"is not hereditary and cannot be"*, because *"no one earns
+the transformation, no one is denied it by any authority"*, which is why it
+*"never hardened"* into privilege (`prismeri.md`).
+
+**(b) Functional order.** DERIVED: life stage divides the work. First Wings
+*"scout, apprentice, and tend lumenspire settlements"*, and Full Wings (a
+minority) crew the **astrogation guilds**. The guilds are institutional
+actors with their own interests: they have been *"consistently, politely
+unhelpful"* to research on the Emergence trigger (`prismeri.md`). Settlements
+keep a dusk curfew and a *Lattice-reader's escort* after dark
+(`planets/prismere.md`). Outward: Prismere is a charter member world, and
+its fold-corridor expertise reaches the compact *"through its native
+Prismeri astrogation guilds"* (`federation-of-sentient-beings.md`). Who
+holds its assembly seat, and how a settlement decides anything, are **not
+established**.
+
+**(c) Idiom.** DERIVED: **two forms, one person, one standing**. The
+correction the record is built on (two species reports, one life) is the
+idiom: the plates are *"redrawn after the kinship finding"*. No Prismeri
+ladder rendering is filed.
+
+**For the Corps.** Survey Corps fold-route work deals with the guilds. A
+guild is a body of the able and is not a rank above the people, so a
+Ranger who treats a First Wings scout as junior to a Full Wings reader has
+made the error the record corrected. The courtesy is to *"hold meetings
+somewhere with a beam"*.
+
+### Serephine Dunekin (Kharis Belt IV)
+
+**(a), (b) Social and functional order.** **Not established.** The record
+holds a body, a metabolism and an industry: concentrated solar, run
+unattended through the lethal hours; *"the dangerous hours are the
+productive ones, and the safe hours are for living"* (`serephine-dunekin.md`).
+It holds one scout (`characters/sethka-ru.md`). PROPOSED, and only as the
+question a writer would meet first: a people that lives by windows must
+agree on whose reading of the margin opens one. Whether that is a person,
+an office, a rotation or simply each body's own reading is unstated, and
+nothing should be chosen until a page needs it.
+
+**(c) Idiom.** Nothing filed. The role-mark is open: (a) posture or gait,
+(b) a worn mark (`species-design.md`).
+
+**For the Corps.** A service that *"learns to schedule around them"*
+(`serephine-dunekin.md`) is the whole of what the record asks. Nothing
+about whom to address on Kharis Belt IV is held.
+
+### Verdani (Verdance)
+
+**(a) Social order.** DERIVED: the record's most various, and every part of
+it comes from the world. **Kinship is by symbiont lineage**: the kinbed bond
+in infancy is *"the foundational kinship act, more binding in practice than
+shared residence or even shared parentage"*, and a kinstrain name marks
+*"kin in the fullest sense Verdani law recognizes"* (`verdani.md`). Above
+kinship sit **four countries, four different orders**, each from one biome:
+the Canopy Concord split between the Understory Assembly and the High-Reach
+Compact; the Fenmarch Republic's *"rotating engineering council"*; the
+Stonewake Dominion's hereditary **Deep Clans** against elected **Terrace
+Assemblies**; and the Aurelin Herdlands' elder **Migratory Councils**
+against the newer Waystation Compact (`planets/verdance.md`). So the
+Verdani hold standing by lineage, election, rotation and age, in different
+places, and the record gives the reason: *"Migration is a metabolic cost,
+not a decision — which is the actual reason Verdance has four independent
+governments rather than one"* (`verdani.md`).
+
+**(b) Functional order.** DERIVED: *"No Verdani country claims authority
+over another"*. External affairs go through the **Fourfold Accord**, *"one
+delegate from each country's government"*, convened when a single Verdani
+position is needed, with *"no authority over internal law"*. Verdance is
+represented *"through the Fourfold Accord on the Federation's rotating
+assembly"*. Isren Farrowkin is the Canopy Concord's senior delegate and
+currently holds that rotating seat (`characters/isren-farrowkin.md`).
+
+**(c) Idiom.** DERIVED: **strain and light**. Coloration is *"a reasonably
+reliable indicator of kinstrain"*. It is biology, though, and
+`species-design.md` forbids conscripting it as a mark of role. The record's
+politics *"are geography in a way no other Federation member's are"*, which
+is how the record states a polity: by what it does with its ground.
+
+**For the Corps.** The Corps talks to the Accord on Verdance-wide matters
+and to one of the four on anything internal. A Ranger who takes a
+Fourfold Accord delegate for a planetary government has misread the one
+thing the Accord says about itself. Factions inside each country are named
+on the record, so mediation can be asked for at more than one level. The
+Corps is asked; it does not choose the level.
+
+### Veyr Basaltborn (Veyr-3)
+
+**(a), (b) Social and functional order.** **Not established** at home. The
+record holds a lattice body and an engineering of *"margin, tolerance,
+redundancy and the honest statement of a rating"* (`veyr-basaltborn.md`).
+DERIVED for Veyr in the Corps only: *"Veyr officers have been known to keep
+arguing for a reserve after the decision to go without one has been made"*.
+That is a temperament under someone else's order, not a Veyr order. The
+body page also says a truss *"is stable because load is shared; it is not
+built to put everything through one member at once"*. That sentence is
+about bodies and should not be turned into a polity by the record, for the
+reason given in *What holds generally* below.
+
+**(c) Idiom.** Nothing filed beyond the Corps: on duty a Veyr wears the
+Rangers' corps colour and tab seated directly on the lattice (ruled 12
+October 2026, `species-design.md`). The Veyr's own mark is undescribed.
+
+**For the Corps.** Expect a Veyr to state a rating honestly and to keep
+asking for margin. Nothing about whom to address on Veyr-3 is held.
+
+### Ollune (Cirrane)
+
+**(a) Social order.** DERIVED: standing is **a claim on the lift of
+others**. *"What an Ollune has instead of wealth is standing — a claim on
+the lift of others, in a hold that will carry them through illness,
+injury, and old age"*. The word for a rich individual *"translates as
+heavy, and is not flattering"* (`ollune.md`). The unit of belonging is the
+**hold**, *"tethered clusters of eight to thirty"* in which *"the waking
+carry the sinking"*. Every Ollune has been carried, so nobody's standing
+rests on never having needed the others.
+
+**(b) Functional order.** DERIVED: **office exists only in the near word**.
+*"Agreement, consent, debt, office and judgement exist only as near
+words"*. The far word *"binds nothing"*. So an office is a chemical mark
+attributable to a body, readable by anyone close, and impossible to keep
+confidential. Shoals belong to bands and meet on fixed cycles years apart,
+so Ollune institutions are *"shaped around"* agreements executed by parties
+who cannot confer (`ollune.md`). Outward, Cirrane is a member world whose
+position *"is usually carried rather than spoken, arriving by courier,
+always lagged, and read into the record by someone who is not Ollune"*. How
+a shoal or a band arrives at the position that is carried is **not
+established**.
+
+**(c) Idiom.** DERIVED: **what an officer holds up, never weight**. The
+rendering measures seniority by what an officer holds up, and *"no Ollune
+translator would call a High Captain heavy"*. A fixed post comes out as *"a
+standing appointment"*, because a place is never named without when you will
+be at it (`the-ladder-in-other-tongues.md`).
+
+**For the Corps.** What an Ollune says binds nothing; what an Ollune marks
+binds everything. A Ranger carrying a near word is carrying an office.
+Carriage is the case where *"Integrity is guaranteed and privacy is impossible"*.
+
+### The Told (the Pandoids of Fliade)
+
+**(a) Social order.** DERIVED that standing is **being seen more exactly,
+and there is no rank in it**. A person is named by *"the first true thing
+said of them that others went on repeating"*. A name grows, and *"a long
+name is a grown one, and what it shows is clarity and maturity"*. *"A name
+may grow; nothing says it must, or when"* (`glossary/the-told.md`). Belonging
+is by having been told the tellings: *"There is no other way in"*. Life stage
+is visible: small ones, the youngest, adults. A first-told name brings
+small ones who follow (S11E01C03).
+
+**(b) Functional order.** DERIVED: **an argument is settled by who was
+there**. *"It is not settled by who talks best"* (S11E01C03). When nobody
+was there, as with the up-people's asking, the Told *"do not settle it, and
+the record does not"* (S11E01C04). Tellings for everyone are told standing
+up, in the warm, to everyone. **Stone-First keeps the margin**: *"being
+present on all the times when nothing happens, so as to be present on the
+time when something does"* (`characters/stone-first.md`). Whether that is an
+office is **open**, and his (the page's own line, and below). Outward, the
+Told have no representation and have never needed one. Their manners for a
+stranger, *leave it to them until they ask*, were *"made before anyone knew
+a stranger who could not hear the ground"*. The absence of anyone who speaks
+for the people is the right shape: nobody had ever come before.
+
+**(c) Idiom.** DERIVED: **a role is told, not shown**. What a person does
+becomes what they are called (Stone-First, Went-Round, Carried-It-Sleeping).
+A visual mark for a deep-side people is *"the first thing to doubt"*
+(`species-design.md`).
+
+**For the Corps.** The Corps has not met the Told. The survey has, and
+cannot tell one adult from another at the margin. When it comes, the first
+contact is with whoever keeps the margin that time. It is not with a
+leader, because none is on record.
+
+### Spiralites (Corryn Prime)
+
+**(a), (b), (c).** **Not established**, all of it. The record holds a
+people who *"communicate through electromagnetic pulse … as speech"*, whose
+reproduction depends on the same medium, and who build *"intricate spiral
+habitats that resonate with the Carillon's ring frequencies"*
+(`planets/corryn.md`). It holds no council, no office and no person.
+
+**For the Corps, and why the absence matters.** Corryn's failure is a
+failure of standing on the *human* side: *"there is no office with standing
+to review a document nobody can revoke"*, and the Protocols' plain reading
+has had nobody *"with standing … in the room to apply"* it. Who would speak
+for the Spiralites in that room is not on record. The record should not
+supply an answer before a chapter brings someone there, because the chapter
+that does will have to discover it, in a medium the colony is currently
+drowning out. That discovery is the story (`open-questions.md` worklist,
+Corryn).
+
+### Doreth (Aspenar)
+
+**(a), (b), (c).** **Not established.** One sentence holds them: *"a
+heavy-built, radiation-tolerant people whose homeworld biochemistry runs on
+a denser, sulfur-rich atmosphere"*, keeping *"their own sealed sections
+entirely separate"* on Aspenar (`planets/aspenar.md`). Their homeworld is
+unnamed and their order unwritten. The one DERIVED functional fact is
+residential: on Aspenar their sections are their own, linked to the human
+domes by pressure-locked corridors, so on Aspenar any dealing with the
+Doreth happens at a lock. Whether they count as non-humanoid is itself
+unrecorded.
+
+### What holds generally
+
+**Rank appears where a body or a world makes it necessary, and is never
+assumed by default.** DERIVED from the blocks above. The Cerebraun centralise
+because their own nervous system is a negotiation with one voice, and they
+say so. The Verdani have four orders because moving costs a lineage its
+light. The Ollune measure standing in lift because lift is what every life
+costs. The Prismeri divide work by life stage and decline to rank it,
+because no one chooses the Emergence. Where the record holds a body and
+not a society (Pelagene, Serephine, Veyr, Ilveth at home, Spiralites,
+Doreth), it marks the absence. **The Cerebraun body-to-polity reading is
+the Cerebraun's own doctrine and is not the record's method.** The record
+should not read a Veyr truss or a Pelagene radial body as a political
+order, any more than it adopts the Cerebraun account of human history. A
+people's order is stated when the people, or a chapter, shows it doing
+something. That is the same rule by which a polity's politics are shown
+through what it does (`CLAUDE.md`).
+
+**Standing is held in each people's own medium.** Voice and limb, load and
+bearing, heat spent, chorus agreement, lift carried, a telling grown longer,
+a strain bonded. The ladder renderings (`the-ladder-in-other-tongues.md`)
+are the record's proof that each people reads the Corps' one ladder through
+its own body. None of the renderings is wrong; the tab settles who holds
+what.
+
+**For the Corps, one rule covers all of them.** The Corps talks to whoever a
+people sends, on that people's terms, and never decides who speaks for a
+people. That follows from the charter's non-political mandate (*do not
+govern, legislate, police, or administer*), from the Federation's founding
+sentence that *no member's internal governance is any other member's
+business*, and from the 14 October ruling that the Rangers mediate *when
+needed* and decide nothing. A role-mark, where a people has one, is in its
+own medium (`species-design.md`, *The uniform equivalent* and *Marks of
+belonging*).
+
+**Traps this section closes.** No people in the record has a ruling
+breeder, a fighting class, or a shared mind standing in for its persons.
+The Chthonari crew argues, the Ovruhn chorus is many keepers checking one
+another, the Ollune hold is persons carrying persons, and the Hegemony's one
+voice negotiates with its limbs. None of the structures above is named for,
+or compared with, any human ideology. The record's few named offices
+(*Republic*, *Dominion*, *Compact*, *Assembly*) are Verdance's own names,
+already on its page, and no more are added here.
+
+### His choices — ruled 14 October 2026
+
+**RULED 14 October 2026: all as recommended** (Dermot, verbatim: *"All approved as recommended. Sounds good."*). The recommendation in each item below is now the ruling.
+
+
+1. **The Cerebraun reading of a polity as a body: theirs, or a general
+   law?** (A) The Cerebraun's own doctrine only. Other peoples' orders come
+   from their world and what they are shown doing, and the record does not
+   map a body onto a polity on anyone's behalf. (B) A general principle the
+   record uses for every people: an order mirrors the body that holds it.
+   **Recommended: A.** B would turn the Hegemony's self-account into the
+   Archive's finding, which the Cerebraun page explicitly refuses (*"It is
+   not a finding of the Archive's"*), and it would hand writers a shortcut
+   that produces stock shapes.
+2. **How the Prime Ganglion's "clearest capacity" is shown.** (A) Marked
+   absent with the in-world reason: the Hegemony does not publish its
+   council's working, as it does not publish its population. (B) A stated
+   practice, for example a capacity shown in the formal display-language
+   before the council, with the rotation's term fixed. **Recommended: A**,
+   until a chapter sets a scene in the council chamber; B is a good scene
+   when that chapter comes.
+3. **Is keeping the margin an office?** (Already open on Stone-First's
+   page.) (A) A doing with no word and no rule. It is told of a person, as
+   everything among the Told is, and it passes only if someone is told
+   keeping it. (B) A named keeping with a rule about who does it.
+   **Recommended: A**, because a people whose names are tellings would carry
+   a role the same way, and S11E01C04 already shows Carried-It-Sleeping
+   learning the cost of keeping without being appointed to it.
+4. **Ovruhn age and the "old keepers".** (A) No separate office: an older
+   keeper's weight is the chorus's own measure (more living memory held,
+   more often confirmed). "The old keepers ruled" means the chorus deferred
+   to what they held. (B) A standing body of elder keepers whose rulings
+   bind a chorus. **Recommended: A**, as it keeps authority where the lore
+   page puts it (*"how many living memories hold it and how well they
+   agree"*) and avoids a council of elders the page never mentions.
+5. **Who speaks for the Spiralites.** (A) Not established until a chapter
+   takes the Corps to Corryn Prime, and the chapter finds out in the
+   people's own medium. (B) Fix a Spiralite deliberative form now (for
+   example, a habitat whose resonance carries a common position), so that a
+   Frontier or Liaison page can cite it. **Recommended: A**, because the
+   finding *is* the Corryn story, and the record's present silence matches
+   a colony that has never asked.
+
 ## Where this goes
 
 When the species' crew is cast, each member's page can answer the seven

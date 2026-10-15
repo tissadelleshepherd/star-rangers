@@ -12,7 +12,7 @@ A survey botanist cataloguing [Tír na nÓg](/star-rangers/lore/planets/tir-na-n
 
 ## The Long Emergency
 
-The instability that later archivists call the Crisis Centuries had no single start date, but its sharpest phase is well documented: the climate-driven coastal fragmentation events of the 2130s and 2140s, the same decades that stress-tested the [Subsea Cable Warden Programme](/star-rangers/lore/subsea-cable-drones/) and cost the historical record its 2130s data-loss gap. Sea-level rise, ocean acidification and deoxygenation, and a sharp rise in extreme heat and drought events compressed a century of expected ecological change into a few decades.
+The instability that later archivists call the Crisis Centuries had no single start date, but its sharpest phase is well documented: the climate-driven coastal fragmentation events of the 2130s and 2140s CE (2330s and 2340s UCSD), the same decades that stress-tested the [Subsea Cable Warden Programme](/star-rangers/lore/subsea-cable-drones/) and cost the historical record its 2130s data-loss gap. Sea-level rise, ocean acidification and deoxygenation, and a sharp rise in extreme heat and drought events compressed a century of expected ecological change into a few decades.
 
 Wild populations answered the only way they could: fast. Amphibians, already vulnerable to heat, drought, and disease, suffered the steepest documented losses of any vertebrate class, and never fully recovered even with later intervention. Reef ecosystems collapsed into algae- and sponge-dominated systems as calcifying organisms lost ground. Large, slow-breeding species — big cats, elephants, whales, and the great apes among them — declined faster than natural selection or unmanaged migration could answer.
 
@@ -22,7 +22,7 @@ Smaller, faster-breeding lineages did the opposite. Insects and cephalopods dive
 
 Recovery began the way the Warden Programme did: as scattered, uncoordinated coalition action rather than a single founding act. Surviving Earth governments and cooperatives, working from the same emergency footing that produced the classified cable-protection effort, began the slower, less secret work of habitat continuity — seed and genetic archives for species past the point of natural recovery, assisted migration corridors for range-shifted populations, and the first reef-scaffolding and rewilding programmes.
 
-That patchwork consolidated the way most Earth-side infrastructure of the period did: folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2337 UCSD (2137 CE), carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and formalised in its current form under Solar System Defence Command's environmental protocols — the standing authority [now credited](/star-rangers/lore/military-space-command/) with keeping Earth's remaining unmanaged biomes healthier than at any point since the early industrial era. The engineering that made the recovery possible, and the profession it created, are the subject of [Climate Repair and the Origin of Terraforming](/star-rangers/lore/climate-repair-and-terraforming/).
+That patchwork consolidated the way most Earth-side infrastructure of the period did: folded into the [United Space Consortium](/star-rangers/lore/united-space-consortium/)'s civil administration after 2137 CE (2337 UCSD), carried forward with uneven attention under [the Imperium](/star-rangers/lore/the-imperium/), and formalised in its current form under Solar System Defence Command's environmental protocols — the standing authority [now credited](/star-rangers/lore/military-space-command/) with keeping Earth's remaining unmanaged biomes healthier than at any point since the early industrial era. The engineering that made the recovery possible, and the profession it created, are the subject of [Climate Repair and the Origin of Terraforming](/star-rangers/lore/climate-repair-and-terraforming/).
 
 ## Three Centuries of Stewardship
 
@@ -38,7 +38,7 @@ A quieter divergence happened off-world. Terran domestic and companion species c
 
 ## What Wasn't Saved
 
-The record does not claim full recovery, and the Survey Archive's own annotations resist the framing. Several amphibian lineages documented before the 2130s exist today only as archived genetic material with no viable reintroduction population. Certain reef-obligate invertebrates are known only from preserved specimens. The Crisis Centuries did not spare Earth's biosphere so much as they culled it hard enough that even three centuries of deliberate stewardship could only rebuild around the gaps, not close them.
+The record does not claim full recovery, and the Survey Archive's own annotations resist the framing. Several amphibian lineages documented before the 2130s CE exist today only as archived genetic material with no viable reintroduction population. Certain reef-obligate invertebrates are known only from preserved specimens. The Crisis Centuries did not spare Earth's biosphere so much as they culled it hard enough that even three centuries of deliberate stewardship could only rebuild around the gaps, not close them.
 
 ---
 

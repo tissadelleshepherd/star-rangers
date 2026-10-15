@@ -183,17 +183,36 @@ $g.FillRectangle($bar, $barRect)
 function New-F([string]$name, [double]$px) {
   return New-Object System.Drawing.Font($name, [single]($px * $s), [System.Drawing.FontStyle]::Regular, [System.Drawing.GraphicsUnit]::Pixel)
 }
-$fCat   = New-F "Consolas" 26
-$fStamp = New-F "Consolas" 25
-$fSub   = New-F "Georgia"  46
-$fInst  = New-F "Georgia"  34
-$fAuth  = New-F "Consolas" 23
+# Type pairing (revised 2026-10-11 for legibility at index size, where the
+# card renders about 300 px wide, under a fifth of its own size): Georgia for
+# the title, subtitle and institution, which was drawn for the screen at small
+# sizes; Bahnschrift SemiBold, Windows' DIN, for the tracked capitals of the
+# category, stamp and author lines, where Consolas at 23-26 px went to a grey
+# thread of 4-5 px on the index. The small lines are roughly twice their old
+# size, set lighter (each at least 4.5:1 against the gradient behind it) and
+# tracked about half as wide. Long lines shrink to fit rather than overflow.
+$sansFace = "Bahnschrift SemiBold"
+$fStamp = New-F $sansFace 40
+
+# Largest size from $startPx down to $minPx at which $text fits $maxW.
+function Fit-Font {
+  param([string]$name, [double]$startPx, [double]$minPx, [string]$text, [double]$tracking, [double]$maxW)
+  $p = $startPx
+  while ($true) {
+    $f = New-F $name $p
+    if ([string]::IsNullOrEmpty($text) -or $p -le $minPx) { return @($f, $p) }
+    if ((Measure-Tracked -text $text -font $f -tracking $tracking) -le $maxW) { return @($f, $p) }
+    $f.Dispose()
+    $p = $p - 2
+  }
+}
 
 $cx = $W / 2.0
 
 # ---------- category ----------
-$bCat = New-Object System.Drawing.SolidBrush(New-Col 255 127 159 212)
-Draw-Tracked -text $Category -font $fCat -brush $bCat -centerX $cx -y (92 * $s) -tracking (9 * $s)
+$fCat = (Fit-Font -name $sansFace -startPx 50 -minPx 36 -text $Category -tracking (4 * $s) -maxW (1000 * $s))[0]
+$bCat = New-Object System.Drawing.SolidBrush(New-Col 255 176 198 238)
+Draw-Tracked -text $Category -font $fCat -brush $bCat -centerX $cx -y (78 * $s) -tracking (4 * $s)
 
 # ---------- motif ----------
 if ($Motif -eq "rules") {
@@ -241,58 +260,89 @@ elseif ($Motif -eq "dissolution") {
 
 # ---------- stamp ----------
 if (-not [string]::IsNullOrEmpty($Stamp)) {
+  $halfW = ((Measure-Tracked -text $Stamp -font $fStamp -tracking (3 * $s)) / 2.0) + (24 * $s)
+  # Keep the tilted box inside the card: a long stamp moves left, not off the edge.
+  $stampX = [Math]::Min(1368 * $s, $W - (60 * $s) - ($halfW * 0.995))
   $state = $g.Save()
-  $g.TranslateTransform([single](1368 * $s), [single](152 * $s))
+  $g.TranslateTransform([single]$stampX, [single](206 * $s))
   $g.RotateTransform(-8)
-  $halfW = ((Measure-Tracked -text $Stamp -font $fStamp -tracking (7 * $s)) / 2.0) + (22 * $s)
-  $penS = New-Object System.Drawing.Pen((New-Col 200 112 142 202), [single](3 * $s))
-  $g.DrawRectangle($penS, [single](-$halfW), [single](-33 * $s), [single](2 * $halfW), [single](66 * $s))
-  $bStamp = New-Object System.Drawing.SolidBrush(New-Col 215 138 166 224)
-  $stampY = -15.0 * $s
-  Draw-Tracked -text $Stamp -font $fStamp -brush $bStamp -centerX 0 -y $stampY -tracking (7 * $s)
+  $penS = New-Object System.Drawing.Pen((New-Col 235 160 186 238), [single](3.5 * $s))
+  $g.DrawRectangle($penS, [single](-$halfW), [single](-40 * $s), [single](2 * $halfW), [single](80 * $s))
+  $bStamp = New-Object System.Drawing.SolidBrush(New-Col 255 184 206 246)
+  $stampY = -24.0 * $s
+  Draw-Tracked -text $Stamp -font $fStamp -brush $bStamp -centerX 0 -y $stampY -tracking (3 * $s)
   $g.Restore($state)
 }
 
-# ---------- divider ----------
-$divY = 1042 * $s
-$penD = New-Object System.Drawing.Pen((New-Col 120 150 175 225), [single](1.6 * $s))
-$g.DrawLine($penD, [single]($cx - 112 * $s), [single]$divY, [single]($cx + 112 * $s), [single]$divY)
-$penD2 = New-Object System.Drawing.Pen((New-Col 40 150 175 225), [single](5 * $s))
-$g.DrawLine($penD2, [single]($cx - 94 * $s), [single]$divY, [single]($cx + 94 * $s), [single]$divY)
-
-# ---------- title (auto-fit to the longest line) ----------
-$maxW = 1310 * $s
-$px = 112.0
+# ---------- lower block: measure first, then place ----------
+# The block (divider, title, subtitle, institution, author) is sized from its
+# own content and set so it ends a fixed margin above the card's foot, rising
+# above the old 1042 px divider only as far as the larger small lines need.
+$maxW = 1330 * $s
+$px = 104.0
 $fT = $null
 while ($px -gt 40) {
   if ($fT) { $fT.Dispose() }
   $fT = New-F "Georgia" $px
   $widest = 0.0
   foreach ($ln in $TitleLines) {
-    $w = Measure-Tracked -text $ln -font $fT -tracking (5 * $s)
+    $w = Measure-Tracked -text $ln -font $fT -tracking (4 * $s)
     if ($w -gt $widest) { $widest = $w }
   }
   if ($widest -le $maxW) { break }
   $px = $px - 2
 }
-$bTitle = New-Object System.Drawing.SolidBrush(New-Col 255 205 213 233)
-$ty = 1092 * $s
+
+$instText = $Institution.Replace(" - ", " " + [char]0x00B7 + " ")
+$fitSub  = Fit-Font -name "Georgia" -startPx 62 -minPx 40 -text $Subtitle -tracking (0.5 * $s) -maxW (1400 * $s)
+$fitInst = Fit-Font -name "Georgia" -startPx 52 -minPx 40 -text $instText -tracking (0.5 * $s) -maxW (1480 * $s)
+$fitAuth = Fit-Font -name $sansFace -startPx 40 -minPx 30 -text $Author -tracking (3 * $s) -maxW (1360 * $s)
+$fSub = $fitSub[0];  $subPx = [double]$fitSub[1]
+$fInst = $fitInst[0]; $instPx = [double]$fitInst[1]
+$fAuth = $fitAuth[0]; $authPx = [double]$fitAuth[1]
+
+$gapTitle = 54.0                                  # divider to title
+$titleH = ($px * 1.16 * $TitleLines.Count) + ($px * 0.06)
+$subH  = if ($Subtitle)    { 20 + $subPx * 1.24 } else { 0 }
+$instH = if ($Institution) { 4 + $instPx * 1.30 } else { 0 }
+$authH = if ($Author)      { 30 + $authPx * 1.2 } else { 0 }
+$blockH = $gapTitle + $titleH + $subH + $instH + $authH
+$divY = [Math]::Min(1042.0, 1600.0 - 92.0 - $blockH)
+$divY = [Math]::Max(780.0, $divY) * $s
+
+# ---------- divider ----------
+$penD = New-Object System.Drawing.Pen((New-Col 140 160 186 232), [single](1.8 * $s))
+$g.DrawLine($penD, [single]($cx - 112 * $s), [single]$divY, [single]($cx + 112 * $s), [single]$divY)
+$penD2 = New-Object System.Drawing.Pen((New-Col 40 150 175 225), [single](5 * $s))
+$g.DrawLine($penD2, [single]($cx - 94 * $s), [single]$divY, [single]($cx + 94 * $s), [single]$divY)
+
+# ---------- title (auto-fit to the longest line) ----------
+$bTitle = New-Object System.Drawing.SolidBrush(New-Col 255 218 225 242)
+$ty = $divY + ($gapTitle * $s)
 foreach ($ln in $TitleLines) {
-  Draw-Tracked -text $ln -font $fT -brush $bTitle -centerX $cx -y $ty -tracking (5 * $s)
+  Draw-Tracked -text $ln -font $fT -brush $bTitle -centerX $cx -y $ty -tracking (4 * $s)
   $ty = $ty + ($px * 1.16 * $s)
 }
-$titleBottom = $ty + ($px * $s * 0.10)
+$y = $ty + ($px * 0.06 * $s)
 
 # ---------- subtitle / institution / author ----------
-$bSub = New-Object System.Drawing.SolidBrush(New-Col 255 159 176 208)
-Draw-Tracked -text $Subtitle -font $fSub -brush $bSub -centerX $cx -y ($titleBottom + 18 * $s) -tracking (1 * $s)
-
-$bInst = New-Object System.Drawing.SolidBrush(New-Col 255 124 138 168)
-$instText = $Institution.Replace(" - ", " " + [char]0x00B7 + " ")
-Draw-Tracked -text $instText -font $fInst -brush $bInst -centerX $cx -y ($titleBottom + 84 * $s) -tracking (1 * $s)
-
-$bAuth = New-Object System.Drawing.SolidBrush(New-Col 255 107 119 144)
-Draw-Tracked -text $Author -font $fAuth -brush $bAuth -centerX $cx -y ($titleBottom + 168 * $s) -tracking (7 * $s)
+if ($Subtitle) {
+  $y = $y + 20 * $s
+  $bSub = New-Object System.Drawing.SolidBrush(New-Col 255 200 210 232)
+  Draw-Tracked -text $Subtitle -font $fSub -brush $bSub -centerX $cx -y $y -tracking (0.5 * $s)
+  $y = $y + $subPx * 1.24 * $s
+}
+if ($Institution) {
+  $y = $y + 4 * $s
+  $bInst = New-Object System.Drawing.SolidBrush(New-Col 255 174 188 218)
+  Draw-Tracked -text $instText -font $fInst -brush $bInst -centerX $cx -y $y -tracking (0.5 * $s)
+  $y = $y + $instPx * 1.30 * $s
+}
+if ($Author) {
+  $y = $y + 30 * $s
+  $bAuth = New-Object System.Drawing.SolidBrush(New-Col 255 164 180 214)
+  Draw-Tracked -text $Author -font $fAuth -brush $bAuth -centerX $cx -y $y -tracking (3 * $s)
+}
 
 # ---------- save ----------
 $outFull = $Out

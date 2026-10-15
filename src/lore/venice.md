@@ -8,14 +8,14 @@ galaxy: "Milky Way"
 system: "Sol System"
 locationType: "City"
 image: "coastal-sunset.jpg"
-image_alt: "Sunset over open water beyond Venice's platform breakwaters, 2826 UCSD"
+image_alt: "The sun low and bright over open sea, a line of breaking waves near the horizon and its light lying gold across the water"
 ---
 
 For most of its history, Venice measured its relationship with the sea in centimetres of *acqua alta* and the age of whichever barrier scheme was supposed to hold the next tide out. By 2826 UCSD, the city has stopped measuring that fight entirely, because it no longer needs to win it one flood at a time. It floats.
 
 ## A City That Already Knew How to Drown
 
-Venice spent the better part of two millennia on wooden piles driven into a lagoon that was always, quietly, winning. Barrier projects came and went, each buying the city another few decades against a subsidence rate and a rising Adriatic that never stopped moving in the same direction. The coastal fragmentation events of the 2130s and 2140s — the same climate-driven decades documented across the Solar System's coastlines during [the Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/) — were the point at which every remaining barrier scheme finally lost the argument at once. What had been an engineering rear-guard for generations became, within a single bad decade, a question of whether the city would still exist to argue about.
+Venice spent the better part of two millennia on wooden piles driven into a lagoon that was always, quietly, winning. Barrier projects came and went, each buying the city another few decades against a subsidence rate and a rising Adriatic that never stopped moving in the same direction. The coastal fragmentation events of the 2130s and 2140s CE — the same climate-driven decades documented across the Solar System's coastlines during [the Crisis Centuries](/star-rangers/lore/crisis-centuries-terran-wildlife/) — were the point at which every remaining barrier scheme finally lost the argument at once. What had been an engineering rear-guard for generations became, within a single bad decade, a question of whether the city would still exist to argue about.
 
 Venice's answer was not evacuation, though evacuation was seriously proposed and formally costed twice during the worst of it. It was the same answer the lagoon's builders had been giving since the first piles went into the mud: stay, and change what staying requires.
 

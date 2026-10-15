@@ -5,7 +5,7 @@ category: "Locations"
 tags: [quern, kiln-system, planets, locations, tidal-lock, survey, atmospheric-collapse, human, independent, settlement]
 description: "A tidally locked world in the Kiln System — one face a standing storm above a molten desert, the other a starlit nitrogen snowfield, and between them the Millrace, where a small independent settlement lives behind the rain, draws its power from the temperature difference between the two hemispheres, and keeps a calendar by the storm wall's slow breathing."
 image: "quern.jpg"
-image_alt: "A row of low rounded windowless stone houses on a plain of wet black grit under sideways rain, a wall of storm cloud lit from within on the right horizon and clear black sky on the left"
+image_alt: "A cluster of low rounded windowless stone houses on a plain of wet black grit under sideways rain, a wall of storm cloud lit red from within by lightning on the right and black sky on the left, and a straight line of small flush pale caps running from the houses toward the storm."
 plain: "Quern is a planet that always shows the same face to its sun, the way the Moon always shows the same face to Earth. The sunward side is hot enough to melt rock, and one enormous storm sits over it and never moves on. The far side never sees the sun at all, and is so cold that the air itself falls as snow. Between the two runs a ring of constant sideways rain and lightning — and people live there, in low houses shaped so the wind slides off them. Their electricity comes from the difference in heat between the two sides of the world, and their calendar follows the slow drift of the storm wall instead of seasons. They divide their world into three: the Burn, the Howl, and the Hush."
 galaxy: "Milky Way"
 system: "Kiln System"

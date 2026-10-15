@@ -13,7 +13,7 @@ locationType: "Habitat"
 
 The habitat has a name in the language of the people who built it. It does not transliterate — the Archive's note says the difficulty is not the sounds but that the construction is not a name in the sense the register has a column for — and the [Celtic Union](/star-rangers/lore/celtic-union-of-planets/) registry accordingly lists it under the working description that the yard crews used while it was being assembled.
 
-Eighty years later, **the Guest Ring** is what everybody calls it, including its occupants, who have never been asked whether they mind and have never raised it.
+Twenty years later, **the Guest Ring** is what everybody calls it, including its occupants, who have never been asked whether they mind and have never raised it.
 
 ## What It Is
 
@@ -29,7 +29,7 @@ Greenward's entry sets out three ways the instrument is less symmetrical than it
 
 **Greenward's people are visitors to a world with a government. The Ring's are visitors to a world with several.** Drithane is a Celtic Union charter world, and the Union is a union — the invitation came from an institution, but the Ring sits above communities that did not each get a say. There has never been an objection on the record. There has also never been a mechanism for one, which is a different thing, and the Union's own registrar has noted the difference twice.
 
-What is not on the file, anywhere, is what the Federation makes of the arrangement. The Archive holds the Federation's minute of the founding session and nothing since. It has not asked, on the reasoning that a party which has raised no difficulty in eighty years is entitled to be taken at its silence — and it records that reasoning rather than the conclusion, because [an unasked question is not an answer](/star-rangers/codex/marked-absences/).
+What is not on the file, anywhere, is what the Federation makes of the arrangement. The Archive holds the Federation's minute of the founding session and nothing since. It has not asked, on the reasoning that a party which has raised no difficulty in twenty years is entitled to be taken at its silence — and it records that reasoning rather than the conclusion, because [an unasked question is not an answer](/star-rangers/codex/marked-absences/).
 
 ## Why It Has Never Been Withdrawn
 

@@ -10,7 +10,7 @@ aliases:
 tags: [human, star-rangers, survey-corps, xenolinguistics, five-islands, vellamar, aduine, field-officer, first-contact, standing-delegation]
 description: "The delegation's junior xenolinguist, whose low-confidence reading of an ordinary farming word sent the instruments looking for the Five Islands' engineered atmosphere — and who has refused, consistently, to let it be described as a discovery."
 image: "emma-la-chapelle.jpg"
-image_alt: "Emma la Chapelle, a young woman with dark hair in a braid, in a green field jacket over a brown leather vest, seated at a plain wooden table in a grey stone hall with her hands still and her head slightly tilted, listening to someone out of frame. A closed notebook and a pencil lie in front of her; cold daylight comes through a tall narrow window."
+image_alt: "Emma la Chapelle, a young woman with dark hair in a braid, in the deep olive field shell of the Survey Corps with a barred tab at her collar, seated at a plain wooden table in a grey stone hall with her hands still, listening to someone out of frame. A closed notebook and a pencil lie in front of her; cold daylight comes through a tall narrow window behind."
 ---
 
 The engineering in the Five Islands' air was confirmed by atmospheric analysis, and atmospheric analysis found it because somebody told it where to look. Emma la Chapelle is the officer who did, filed the reading at the bottom of her confidence range, and has spent every season since correcting the version of the story that leaves that part out.

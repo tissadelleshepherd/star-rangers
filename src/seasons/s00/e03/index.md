@@ -13,7 +13,7 @@ permalink: /seasons/s00/e03/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="A moody, neon-lit futuristic corridor" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="An empty hearing chamber with tiers of pale upholstered seats facing a long bare table, a long thick window onto red Martian ground under a dusty sky, and a pale rectangle with bolt holes on the wall where something has been taken down" />
 <h1 class="page-title">Founding Era · Episode 3</h1>
 <p class="page-intro">
   Solar Command, Mars, 2723 UCSD. Four years after the Hearing, the Star Rangers Charter is ratified — decided not by what the new corps will be allowed to do, but by what an outer-station delegation refuses to let it become. The season's founding moment, from the inside.

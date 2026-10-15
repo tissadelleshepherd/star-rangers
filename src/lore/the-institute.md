@@ -5,7 +5,7 @@ category: "Institutions"
 tags: [the-institute, secular, skeptic, cosmic-cascade, boundary, institutions, fold-drive, dock-seven, methodology]
 description: "An independent, non-political academic body designed to provide intelligent constructive criticism — especially, though never exclusively, of the Star Rangers. Secular and sceptical, it accepts the instruments and declines the cosmology: the counterweight to devotional readings of boundary phenomena, and the source of the material explanation of Dock Seven that most of settled space actually believes."
 image: "the-institute.jpg"
-image_alt: "A bare office with one plain wooden desk, a black chair, a closed notebook and a pen, and a plain sealed case on a stand by the wall, daylight through a frosted window"
+image_alt: "A bare research office: a plain wooden desk with one shut notebook on it, a pale pedestal chair, coved pale walls, and a tall window onto the interior of a rotating habitat curving up into haze"
 ---
 
 Ask the Fellowship what happens at a thin place and you will be told the world runs thin there. Ask the Institute and you will be told that a great many instruments disagree with each other in a small volume of space, that this is interesting, and that nothing has yet been established beyond it.
@@ -15,6 +15,8 @@ The **Institute** — its chartered name is longer and has not been spoken aloud
 ## What it is for
 
 Most institutions acquire critics. The Institute was designed as one. Its charter — the long-named document nobody quotes — establishes an independent, non-political, academic body whose stated purpose is the provision of intelligent, constructive criticism to the institutions that operate where knowledge stops. Independent: no fixed world, no patron, and a subscription arranged so that no single polity's contribution is large enough to be worth flattering. Non-political — the same constitutional word the [Star Rangers' own charter](/star-rangers/timeline/2723-star-rangers-charter/) uses — in that it takes no side, endorses no faction, and wants nothing any government could give it except data. Academic in form: fellowships, papers, review, and the slow machinery of citation, which is the only authority it holds and the only kind it has ever wanted.
+
+Its structure is its own, and closer to a civilian university's than to anything in the Corps: the Institute is divided into faculties, schools, divisions and units, and a paper goes out under the unit that wrote it.
 
 The design is older than its chief subject. The Institute predates the [Star Rangers](/star-rangers/lore/formation-of-star-rangers/) by centuries, and its remit was not written with the Corps in mind; it was written for whoever presumed to operate at the edge of what is known. But a body built to examine such institutions spends its attention where the operating is, and for the last century that has meant — especially, though never exclusively — the Star Rangers: the largest boundary operator in settled space, the keeper of the doctrines most worth testing, and the institution whose errors occur in the Institute's own field of study.
 

@@ -46,7 +46,10 @@ if ($Finish -gt 0 -and $Out -match '[\\/]codex[\\/]') {
 }
 
 if ($Finish -gt 0) {
-  $py = Get-Command python -ErrorAction SilentlyContinue
+  # The py launcher first: on a machine where `python` is only the Microsoft
+  # Store alias it exits 9009, and the finish was being skipped with a warning.
+  $py = Get-Command py -ErrorAction SilentlyContinue
+  if (-not $py) { $py = Get-Command python -ErrorAction SilentlyContinue }
   $finishScript = Join-Path $PSScriptRoot "photo-finish.py"
   if ($py -and (Test-Path $finishScript)) {
     $outFull = $Out

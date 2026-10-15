@@ -7,7 +7,7 @@ tags: [slipwave, videocast, odonata, dragonflies, tissadelle-shepherd, perrin-as
 description: "Surviving videocast and captioned lines of 'Odonata: Raise Your Banners,' a Slipwave recording with pictures laid over it later — dragonflies as couriers, pilots and watchers, from the band that would one day sing 'no banner.'"
 author: "Slipwave (lineup not stated on the recording)"
 image: "odonata-raise-your-banners.jpg"
-image_alt: "Designed cover for 'Odonata: Raise Your Banners': the category CULTURAL RECORD in spaced capitals, a faint motif of ruled lines, and below a rule the title in pale serif capitals over Eden Space Habitat Collections, on a dark blue-black gradient, in the codex's plain card style."
+image_alt: "Designed cover headed CULTURAL RECORD: the title ODONATA over RAISE YOUR BANNERS in gold serif capitals on two lines, on a dark starfield with a trailing star, above 'Slipwave · lineup not stated', 'Eden Space Habitat Collections' and 'RECOVERED RECORDING · VIDEOCAST', matching the site's other Slipwave recording covers."
 institution: "Eden Space Habitat civilian arts circuit — no formal Star Rangers commission"
 location: "Habitat-circuit audio stock, Eden Space Habitat; one surviving videocast, pictures uncredited"
 ---

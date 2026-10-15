@@ -9,7 +9,7 @@ aliases: []
 tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "One of a Chthonari crew of four on Eden, who agrees with the log-keeper about most things and disagrees about all of them — and who said, when the habitat's mind answered with the reading, that this settled it."
 image: "tekka.jpg"
-image_alt: "Tekka, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, mid-stride along the top of a heavy horizontal structural beam beneath a habitat's dock ring, legs placed exactly between two bolted brackets. The curve of the ring's understructure fills the frame behind, with a line of walkway lights in the distance."
+image_alt: "Tekka, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, standing on a low bolted platform beneath a habitat's dock ring, legs placed exactly between two bolted brackets, the dark steel understructure of the ring framing it behind."
 ---
 
 Tekka is one of four [Chthonari](/star-rangers/lore/chthonari/) on a Federation contractor crew under [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/)'s dock ring in the spring of 2828 UCSD, and the one whose disagreements with [Kattik](/star-rangers/characters/kattik/) the crew has stopped remarking on: the two agree about most things and disagree about all of them, and a crew that argues is a crew of individuals, which is what the [charter](/star-rangers/lore/star-rangers-command-hierarchy/) requires a Chthonari to be. The name is a struck signature, a single strike held into its ring, spelled the way a human ear renders it.

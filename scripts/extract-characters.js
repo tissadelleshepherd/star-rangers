@@ -105,6 +105,16 @@ const AFFILIATION_PATTERNS = [
   [/communion of the called|cnoc na mbeach/i, "Communion of the Called"],
   [/fellowship of light/i, "Fellowship of Light"],
   [/cill aoife/i, "Cill Aoife"],
+  [/ai governance commission/i, "AI Governance Commission"],
+  [/farline courier guild/i, "Farline Courier Guild"],
+  [/little orbit press/i, "Little Orbit Press"],
+  [/comparative gerontology unit/i, "Comparative Gerontology Unit"],
+  [/threshold station operations desk|operations desk/i, "Threshold Station Operations Desk"],
+  [/line-keeper, quern|quern/i, "Quern"],
+  [/meeting-chorus of thavren|thavren/i, "Thavren"],
+  [/ridgemoot readers|reader-schools/i, "Ridgemoot Readers"],
+  [/registry of rolls|keeper of the rolls/i, "Registry of Rolls and Holdings, Tír na nÓg"],
+  [/devotional chaplaincy|ridgemoot chaplain/i, "Celtic Union devotional chaplaincy"],
   [/survey archive|senior archivist/i, "Survey Archive"],
   [/the institute/i, "The Institute"],
   [/survey corps/i, "Star Rangers Survey Corps"],
@@ -280,6 +290,7 @@ for (const file of characterFiles) {
   characters.push({
     id,
     frontMatterId: fmId,
+    povIds: Array.isArray(data.pov_ids) ? data.pov_ids.map(String) : [],
     title: data.title != null ? String(data.title) : id,
     role,
     status: data.status != null ? String(data.status) : null,
@@ -307,6 +318,10 @@ function resolvePovId(povId, label) {
   if (fileIds.has(povId)) return [povId];
   const viaFm = fmIdToFile.get(povId);
   if (viaFm && viaFm.length) return viaFm;
+  // `pov_ids:` on a page (since 2026-10-10) declares other ::: pov ids that
+  // resolve to it; src/_data/scenePovPages.js honours the same field.
+  const viaAlias = characters.filter((c) => Array.isArray(c.povIds) && c.povIds.includes(povId)).map((c) => c.id);
+  if (viaAlias.length) return viaAlias;
   if (label) {
     const name = String(label).replace(/\s*\(.*$/, "").trim();
     const hits = titleIndex.filter((t) => t.re.test(name)).map((t) => t.id);

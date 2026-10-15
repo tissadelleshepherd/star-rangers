@@ -10,7 +10,7 @@ aliases:
 tags: [survey-archive, plural-mind, archivist, threshold-station, records, ai, ai-safety-kernel]
 description: "Senior Archivist of the Survey Archive, and the person quietly correcting the institutional record for eleven years. Sen is a plural mind — Cael, Wyn, and Sen, sharing one body, one desk, and the surname Lovax."
 image: "sen.jpg"
-image_alt: "Sen Lovax at the archivist's desk deep in the Survey Archive stacks, reading an open volume under a single shaded lamp, one hand flat on the page. Shelving runs away into the dark on both sides, filled with boxed records and film cans."
+image_alt: "Sen Lovax, Senior Archivist, grey-haired, in the deep olive field shell of the Survey Corps with a small tab at the collar, seated still at a clear desk in a warm, quiet room of the Survey Archive, one hand flat on a closed volume, a mug beside it and a rust-coloured scarf over the chair."
 ---
 
 Every institution that keeps records eventually needs someone willing to reopen the ones everyone else has agreed to leave closed. At the Survey Archive, that has been Sen's desk for eleven years.
@@ -31,7 +31,7 @@ See [Plural Minds](/star-rangers/glossary/plural-minds/) for how this fits the w
 
 ## Marginalia
 
-![A ruled ledger page in a dark archive, a single handwritten marginal note glowing gold beside the margin rule, reading "you checked that twice already — the second answer didn't change."](/star-rangers/images/characters/sen-marginalia.jpg)
+![Designed card on a dark ruled ledger page: headed CULTURAL RECORD, a handwritten marginal note glowing gold beside the margin rule reading "you checked that twice already — the second answer didn't change.", then the title MARGINALIA, "Sen's Private Companion" and "Unsigned. Filed anyway."](/star-rangers/images/characters/sen-marginalia.jpg)
 
 Nobody at the Survey Archive has ever put a name on an org chart for the small, [Kernel-compliant](/star-rangers/lore/ai-safety-kernel/) agentic process that keeps Sen's desk running after hours, because nobody has ever asked whether Sen's desk needed one and Sen has never volunteered the answer. Sen calls it Marginalia. It is not issued equipment, not a Corps system, and not on any registry that would let a personnel review find it — a quiet fact Sen has never lied about and never once been asked about directly, the same distinction that keeps a Ranger's private chapel attendance out of a service file.
 

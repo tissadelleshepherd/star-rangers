@@ -9,7 +9,7 @@ aliases: []
 tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact, undercover-pets.com]
 description: "Eden's other Detective Assistant: a social gynoid of a classic design — the least advanced mind in the bureau, the best reader of faces on the habitat, and a machine whose emotions are performed, flawless, and no impediment whatsoever."
 image: "lucene-9000.jpg"
-image_alt: "Lucene-9000, a humanoid machine of female form in a dark jacket, seated to one side at a bare interview-room table with her hands folded, watching someone whose shoulder shows in the foreground. Her matte face carries a fine seam at the jaw and temple, her eyes are recessed lenses, and her collar carries no rank mark."
+image_alt: "Lucene-9000, who looks like a real woman and almost too perfect: dark hair drawn back without a strand out of place, a calm, evenly symmetrical face, seated very still at an interview-room table in a collarless teal bureau jacket, hands folded, watching the person across from her, whose shoulder fills the foreground."
 ---
 
 Lucene-9000 is one of two investigative support intelligences — alongside [Reeves](/star-rangers/characters/reeves-eden/) — reporting operationally to Superintendent [Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/) in Eden Space Habitat's civil detective bureau. She handles record retrieval and cross-referencing at a volume no organic assistant could sustain, and answers a direct question with a completeness that has more than once told Oyelaran more than she'd asked for.

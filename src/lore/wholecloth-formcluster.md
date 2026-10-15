@@ -5,7 +5,7 @@ category: "Cosmology"
 tags: [wholecloth, formcluster, cosmology, fold-transit, scope-of-physical-law, cascade, common-manifold]
 description: "The one formcluster the record holds on report in which fold transit does not exist and no universe has ever derived a secondary: a Formwright's manifold woven without fold geometry and with static seating, so its universes are primary, childless, and sealed. Nothing about it can be measured from here — including where it is."
 image: "wholecloth-formcluster.jpg"
-image_alt: "A single large sheet of plain undyed woven fabric stretched taut and filling almost the whole frame, straight on in flat even light, its weave regular across the surface with no seam, fold or pattern"
+image_alt: "Designed emblem card on a deep violet-navy ground: the category Cosmology in spaced capitals at the top, a single plain circle in a soft glow at the centre, and below a short rule the title Wholecloth: The Unfolded Formcluster in pale serif capitals."
 plain: "A formcluster is a whole family of universes sharing one deep design. Wholecloth is a family whose design leaves out two things our own has: the folded geometry that lets ships shortcut between universes, and the drifting-together of universes that spawns new 'child' universes. So every universe there is an original with no children, and nothing — ships, shadows, dreams — passes between them. We can't visit it, see it, or even say where it is; it is known the way the deep structure of the cosmos is known, by report, and the only thing we provably share with it is mathematics."
 ---
 

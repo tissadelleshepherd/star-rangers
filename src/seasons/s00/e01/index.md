@@ -13,7 +13,7 @@ permalink: /seasons/s00/e01/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="A moody, neon-lit futuristic corridor" />
+<img class="page-hero-image" src="/star-rangers/images/hero/season-00-foundation.jpg" alt="An empty hearing chamber with tiers of pale upholstered seats facing a long bare table, a long thick window onto red Martian ground under a dusty sky, and a pale rectangle with bolt holes on the wall where something has been taken down" />
 <h1 class="page-title">Founding Era · Episode 1</h1>
 <p class="page-intro">
   Eden Space Habitat, 2712-2714 UCSD. A chief scientist's buried analysis sends one small crew through a fold corridor and returns them safely — then, two years later, sends a larger one past it, into ground nothing has ever measured. The gap between a correct finding and a confirmed one is the first thread of what will eventually force the Star Rangers into existence.

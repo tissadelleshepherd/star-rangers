@@ -38,7 +38,7 @@ eleventyComputed:
   creativity and decision-making.
 </p>
 
-<h2>How this site is built</h2>
+<h2 id="how-this-site-is-built">How this site is built</h2>
 <p>
   Fian Ilchruinne is a static site built with <a href="https://www.11ty.dev/">Eleventy</a>
   from Markdown and Nunjucks templates, checked by a test suite and a dry-run build on
@@ -46,7 +46,7 @@ eleventyComputed:
   the deployment path are in the repository's README and technical README.
 </p>
 
-<h2>How this site is written</h2>
+<h2 id="how-this-site-is-written">How this site is written</h2>
 <p>
   The words on this site have been drafted and edited with the help of more than one tool over
   time, and the split is worth naming honestly. The early version of the site leaned on
@@ -62,17 +62,20 @@ eleventyComputed:
   <a href="/star-rangers/journal/two-copies-forty-seconds-apart/">Journal</a>.
 </p>
 
-<h2>How this site is illustrated</h2>
+<h2 id="how-this-site-is-illustrated">How this site is illustrated</h2>
 <p>
   The pictures are illustrations, not the work. Most are generated, some are made from the
   author's own photographs, and a few are those photographs as they stand; every one of them is
   recorded with what made it. Where a picture and an entry disagree, the entry is right. The
   author's photography has a home of its own at
   <a href="https://dermotcochran.com/">dermotcochran.com</a>, and nothing made for this site
-  goes there.
+  goes there. One picture is neither: the nebula behind the
+  <a href="/star-rangers/lore/noogenic-seeding-system/">Noögenic Seeding System</a> entry is the
+  James Webb Space Telescope's image of the "Cosmic Cliffs" in the Carina Nebula, credit NASA,
+  ESA, CSA and STScI, with a small motif added.
 </p>
 
-<h2>The engineering behind the record</h2>
+<h2 id="the-engineering-behind-the-record">The engineering behind the record</h2>
 <p>
   Three of the author's public engineering projects ask, in code, the questions this story asks in
   fiction — and the resemblance is lineage, not coincidence.
@@ -133,19 +136,24 @@ eleventyComputed:
   circulation, and noted.
 </p>
 
-<h2>How this site is deployed</h2>
+<h2 id="how-this-site-is-deployed">How this site is deployed</h2>
 <p>
-  Two deployments run from this repository. A GitHub Actions workflow builds the site
-  with Eleventy on every push to <code>main</code> and publishes the result to
-  <a href="https://dermot-r-cochran.github.io/star-rangers/">GitHub Pages</a>. Separately,
-  cPanel-hosted clones of the site pull updates via cPanel's Git Version Control feature,
-  driven by <code>.cpanel.yml</code> and <code>scripts/cpanel-deploy.sh</code>, which build
-  the site with Eleventy and copy it into <code>public_html</code>. Each clone's identity —
-  its palette, its wording, and whether it narrows the content to a subset — is resolved
-  from a registry in the repository by domain name, so a clone's own untracked
-  <code>deploy.conf</code> need only name the account and the domain. What that registry
-  may hold is deliberately limited: it carries framing, never facts. The lore, the
-  glossary and the chapters are identical on every domain, and a narrowed clone shows a
-  subset of one record rather than a variant of it.
+  Two deployments run from this repository. The canonical site,
+  <a href="https://fianilchruinne.com/">fianilchruinne.com</a>, is served by
+  GitHub Pages: a GitHub Actions workflow builds it with Eleventy on every push to
+  <code>main</code> and publishes the result, so a change merged there is live within
+  minutes. Every other edition is a cPanel-hosted clone of the repository. Each clone
+  pulls from <code>main</code> on a schedule, usually overnight, and rebuilds only when
+  that pull brings something new, using <code>scripts/cpanel-deploy.sh</code> to build
+  the site with Eleventy and copy it into <code>public_html</code>. So a change reaches
+  the canonical site first and the other editions the following morning.
+</p>
+<p>
+  Each clone's identity — its palette, its wording, and whether it narrows the content
+  to a subset — is resolved from a registry in the repository by domain name, so a
+  clone's own untracked <code>deploy.conf</code> need only name the account and the
+  domain. What that registry may hold is deliberately limited: it carries framing, never
+  facts. The lore, the glossary and the chapters are identical on every domain, and a
+  narrowed clone shows a subset of one record rather than a variant of it.
 </p>
 {%- endif -%}

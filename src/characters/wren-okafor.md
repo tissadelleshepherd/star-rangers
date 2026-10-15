@@ -8,6 +8,8 @@ status: Historical
 aliases:
   - "Dr. Okafor"
 tags: [eden, founding, pre-charter, fold-transit, patience-first, history, human]
+image: "wren-okafor.jpg"
+image_alt: "Wren Okafor, a Black woman with close-cut natural hair, in a grey-blue coverall, standing in a narrow instrument bay lined with bundled cables and pipes, one hand resting on a riveted metal case on a shelf, looking off toward the open hatch beyond."
 description: "The boundary analyst of Patience First, who read every caveat in Dr. Pitch's analysis, said so, and went anyway, because somebody had to be the first person in a position to say whether the far end of the corridor was safe. Found alive in 2732 UCSD; what she met is not part of this record."
 ---
 

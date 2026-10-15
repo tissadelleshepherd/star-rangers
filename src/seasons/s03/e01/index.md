@@ -13,7 +13,7 @@ permalink: /seasons/s03/e01/
   </ol>
 </nav>
 
-<img class="page-hero-image" src="/star-rangers/images/hero/s03e01-radiotelescope.jpg" alt="Radio telescopes beneath the Milky Way at night" />
+<img class="page-hero-image" src="/star-rangers/images/hero/s03e01-radiotelescope.jpg" alt="Radio telescope dishes seen from below through a wide-angle lens, against a dense star field with the Milky Way overhead and a violet glow along the horizon, the edges of the frame falling to black" />
 <h1 class="page-title">Season 3 · Episode 1</h1>
 <p class="page-intro">
   Principal Tissadelle Shepherd works a backlog of archived Hegemony survey telemetry through the Survey Corps' standing data-exchange with the Cerebraun Hegemony — and finds, in a signal filed as noise for centuries, the one thing the classifiers were never built to listen for.

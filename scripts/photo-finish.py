@@ -96,7 +96,16 @@ def finish(im, strength, profile, seed=1):
     floor = target["p1"] + (6 if strength >= 2 else 0)
     if m["p1"] < floor:
         b = (floor - m["p1"]) / 255.0
-        a = b + (1 - b) * a
+        # The lift is computed on luminance and applied as a per-pixel gain,
+        # so channel ratios (hue and saturation) survive it. Adding b to every
+        # channel, as this did until 11 October 2026, greyed mid-dark colour:
+        # Toval's portrait went from saturation 0.19 to 0.12 on the lift alone.
+        # The gain is capped so near-black noise is not amplified into colour;
+        # below the cap the remainder is added as neutral light.
+        L = a.mean(axis=2, keepdims=True)
+        L2 = b + (1 - b) * L
+        gain = np.minimum(L2 / np.maximum(L, 1e-4), 3.0)
+        a = a * gain + (L2 - L * gain)
     # 2 saturation, eased downward only
     if m["sat"] > target["sat"]:
         k = max(0.8, target["sat"] / m["sat"])

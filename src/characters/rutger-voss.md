@@ -9,6 +9,8 @@ aliases:
   - "Lieutenant Voss"
   - "Commodore Voss"
 tags: [msc, mars, sol-system, solar-command, consolidation-hearing, founding, pre-charter, history, human]
+image: "rutger-voss.jpg"
+image_alt: "Rutger Voss, a heavily built young man with close-cropped red hair and freckles, in a plain olive-grey service tunic with small collar tabs, seated at a wooden desk writing in a bound log with a pen, looking down at the page; an ink bottle and a stamp on the desk, a window with pale Martian ground behind."
 description: "The junior lieutenant who asked for the desk the Patience First families wrote to, kept their record when nobody had asked to see it, and eight years later, as a Commodore of the Solar System Defence Command, signed the charter's jurisdiction limits without the exception clause he had argued for, and never called it a concession."
 ---
 
