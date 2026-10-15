@@ -2,23 +2,23 @@
 layout: base.njk
 title: "Episode 1"
 eleventyComputed:
-  description: "Chapters in Season 14, Episode 1 of {{ site.name }}."
-permalink: /seasons/s14/e01/
+  description: "Chapters in Season 90, Episode 1 of {{ site.name }}."
+permalink: /seasons/s90/e01/
 ---
 <nav class="chapter-breadcrumb" aria-label="Episode location">
   <ol class="breadcrumb" role="list">
     <li><a href="/star-rangers/seasons/">Seasons</a></li>
-    <li><a href="/star-rangers/seasons/s14/">Season 14</a></li>
+    <li><a href="/star-rangers/seasons/s90/">Season 90</a></li>
     <li aria-current="page">Episode 1</li>
   </ol>
 </nav>
 
-<h1 class="page-title">Season 14 · Episode 1</h1>
+<h1 class="page-title">Season 90 · Episode 1</h1>
 <p class="page-intro">
   <strong>Unofficial fan work.</strong> Single scenes in quiet corners of the record, written by a fan on this fork. None of them is canon, and each stands alone.
 </p>
 
-{% set seasonNumber = "14" %}
+{% set seasonNumber = "90" %}
 {% set episodeNumber = "1" %}
 {% set hasEpisodeChapters = false %}
 <ul class="chapter-list" role="list">
