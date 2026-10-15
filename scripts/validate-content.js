@@ -258,7 +258,9 @@ const NON_IMAGE_TOKENS = new Set([
 // else.
 const KNOWN_UNREFERENCED_IMAGES = new Set([
   "icons/favicon-48.png",
-  "icons/favicon-512.png"
+  "icons/favicon-512.png",
+  // Fork only: kept uncaptioned and unreferenced by decision (fork PR #5).
+  "IMG_1786938939320.jpg"
 ]);
 
 function findImageFiles(dir) {
