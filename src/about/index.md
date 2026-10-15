@@ -125,15 +125,9 @@ eleventyComputed:
   repository and reuse some or all of the existing content.
 </p>
 <p id="noted-fan-works">
-  <strong>Noted.</strong> Fan works the site knows of and points at are listed on the licence's
-  standing formula — <em>referenced, not endorsed</em>: a link is a pointer, not approval, and
-  being listed here confers no official status. One is noted so far:
-  <a href="https://github.com/tissadelleshepherd/star-rangers">tissadelleshepherd/star-rangers</a>,
-  a fan fork of this repository whose one addition is an uncaptioned, AI-generated picture of a
-  red-haired woman walking a beach at sunset. Between the account's name and the likeness, the
-  intent is plain enough — <a href="/star-rangers/characters/tissadelle-shepherd/">Tissadelle
-  Shepherd</a>, off duty — but the identification is the maker's, not the record's. In
-  circulation, and noted.
+  <strong>Noted.</strong> Fan works the site knows of and points at are listed here on the
+  licence's standing formula — <em>referenced, not endorsed</em>: a link is a pointer, not
+  approval, and being listed here confers no official status. None is noted at present.
 </p>
 
 <h2 id="how-this-site-is-deployed">How this site is deployed</h2>
