@@ -8,6 +8,8 @@ plain: "Ligeia is a large space habitat circling Titan, a moon of Saturn, about 
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Habitat"
+image: "ligeia-habitat.jpg"
+image_alt: "The Ligeia habitat seen through the round rim of a viewing port: a plain grey ring on six spokes around a cylindrical hub with a few small lights, two dark radiator panels standing out on either side, turning above the curve of Titan's orange haze with a thin blue haze layer at its edge, and Saturn small in the upper left with its rings edge-on as a thin line."
 ---
 
 Most habitats were built for the people who live in them. Ligeia was built to watch them, and they moved in anyway.

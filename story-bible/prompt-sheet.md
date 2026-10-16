@@ -346,7 +346,7 @@ prompts are of record in [`images.md`](images.md) § 9 and read by
 file through `import-image.ps1 -MaxEdge 1200`, then add the two gallery items
 with their `season:` keys and captions as § 9 says. Strike this when filed.
 
-### 2.10 `planets/titan.jpg`, `ligeia-habitat.jpg`, `stillwater-station.jpg` — the three Titan lore illustrations (queued 15 October 2026)
+### 2.10 `planets/titan.jpg`, `ligeia-habitat.jpg`, `stillwater-station.jpg` — the three Titan lore illustrations (queued 15 October 2026) — **run 16 October 2026** (issue #1261), struck
 
 Three new Locations pages with no image, and a place gets one. The three
 prompts are of record in [`images.md`](images.md) § 5h and read by
@@ -361,7 +361,7 @@ Saturn or sun in a Titan surface sky, nothing joining the ring to the moon,
 no helmet on anyone outside, and the sea without a ripple. Strike this when
 filed.
 
-### 2.11 `callisto-station.jpg` — the Callisto Station lore illustration (queued 15 October 2026)
+### 2.11 `callisto-station.jpg` — the Callisto Station lore illustration (queued 15 October 2026) — **run 16 October 2026** (issue #1261), struck
 
 A fourth new Locations page with no image, written later the same day as the
 three above, and a place gets one. The prompt is of record in
@@ -377,7 +377,7 @@ hard shadows and no haze; everyone outside in a deep olive pressure shell
 with a close helmet, no white suit, no bubble, no face; nothing military and
 no text. Strike this when filed.
 
-### 2.12 `stillwater-first-hall.jpg` — the First Hall, an inline interior for the Stillwater page (queued 15 October 2026)
+### 2.12 `stillwater-first-hall.jpg` — the First Hall, an inline interior for the Stillwater page (queued 15 October 2026) — **run 16 October 2026** (issue #1261), struck
 
 A second image for `src/lore/stillwater-station.md`, later the same day as
 its exterior in § 2.10: an inline illustration for the page body, under the
@@ -398,7 +398,7 @@ studded, many-shaded seams as the hint, never a dial, a switch panel or a
 cable loom; the port black with nothing in it; the figure back to camera, no
 hood, no mask, no suit. Strike this when filed.
 
-### 2.13 `titan-from-orbit.jpg` — Titan's surface from orbit, an inline near-infrared frame for the planet page (queued 15 October 2026)
+### 2.13 `titan-from-orbit.jpg` — Titan's surface from orbit, an inline near-infrared frame for the planet page (queued 15 October 2026) — **run 16 October 2026** (issue #1261), struck
 
 A second image for `src/lore/planets/titan.md`, later the same day as its
 surface frame in § 2.10: an inline illustration for the page body, under the
@@ -423,7 +423,7 @@ since 2826 UCSD (2626 CE) is late in Titan's northern winter; nothing made in fr
 habitat, no craft, no tether, no port edge, and no grid, bar, reticle,
 stamp or text. Strike this when filed.
 
-### 2.14 `tsittak.jpg` — the Tsittak lore illustration (queued 16 October 2026)
+### 2.14 `tsittak.jpg` — the Tsittak lore illustration (queued 16 October 2026) — **run 16 October 2026** (issue #1261), struck
 
 A new Locations page with no image, and a place gets one. The prompt is of
 record in [`images.md`](images.md) § 5l and read by `image-prompts.js`,

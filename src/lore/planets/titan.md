@@ -8,6 +8,8 @@ plain: "Titan is the largest moon of Saturn. It is very cold, but it has thick a
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Moon"
+image: "planets/titan.jpg"
+image_alt: "A dim orange-lit plain of grey ice on Titan under a featureless orange haze, a narrow channel of dark liquid crossing it and rounded ice cobbles in the foreground, large slow drops of rain hanging in the air, a small vehicle faint in the haze above the horizon, and one figure in an insulated orange-brown suit standing on the far bank with their back to the camera."
 ---
 
 Titan is the only world in the outer Solar System where a person can stand outside without a pressure suit. They will still need heavy insulation against the cold, and air they brought with them.
@@ -17,6 +19,8 @@ Titan is the only world in the outer Solar System where a person can stand outsi
 ## The World
 
 Titan's atmosphere is nitrogen, with a few percent methane, at about one and a half times Earth's surface pressure. Under a seventh of Earth's gravity that makes a column of air roughly ten times as massive, square metre for square metre, as the one over Earth's surface, which is why the ground is well shielded from radiation and why the sky never clears. A haze of hydrocarbons fills the upper air, and noon on Titan is a dim orange twilight: sunlight at Saturn's distance is about a hundredth of what reaches Earth, and the haze takes most of what is left.
+
+![Titan from high orbit in a monochrome near-infrared frame: a grey disc with broad dark dune belts across the middle, large bright irregular uplands to the right, mottled paler plains, and a dark sea near the top, the limb glowing faintly against black.](/star-rangers/images/lore/titan-from-orbit.jpg)
 
 The surface stands at about ninety-four kelvin. At that temperature water ice is the bedrock, as hard as stone, and methane and ethane are the liquids. They fall as rain in large, slow drops, carve river channels, and fill lakes and seas around the north pole, the largest of them broad enough to have horizons. The low dunes that girdle the equator are not sand but grains of frozen organic material settled out of the haze.
 

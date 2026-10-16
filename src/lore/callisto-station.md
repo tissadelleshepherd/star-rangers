@@ -8,6 +8,8 @@ plain: "Callisto Station is a Star Rangers base on Callisto, one of Jupiter's bi
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Station"
+image: "callisto-station.jpg"
+image_alt: "The surface of Callisto under a black sky: a grey cratered plain with bright crater rims, three low mounds of shielding over a buried station with flat sealed hatches and worn tracks between them, two figures in olive pressure suits working at a cylindrical buoy under a plain open shelter, and a gibbous banded Jupiter above the horizon."
 ---
 
 Ligeia is a station that became a home. Callisto is one that never did, and was never meant to.

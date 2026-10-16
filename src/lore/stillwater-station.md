@@ -8,6 +8,8 @@ plain: "Stillwater is the oldest station on the surface of Titan, a moon of Satu
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Station"
+image: "stillwater-station.jpg"
+image_alt: "Stillwater Station in Titan's winter dark: a cluster of low rounded sealed modules with a few warm round ports on an icy shore, their lights doubled in the mirror-flat black sea, and two hooded figures in suits bending over a low sealed housing at the water's edge."
 ---
 
 The sea is the reason for the name. It almost never moves.
@@ -33,6 +35,8 @@ A Titan day lasts almost sixteen Earth days, and Stillwater's shifts are set by 
 ## The First Hall
 
 The station's first landed module still stands at the centre of the oldest section, heated and sealed and not used for anything. It is called the **First Hall**. The Titan Settlement Authority's founding charter was signed in it, and the charter's original enrolment is kept there, in the form the [enrolled text](/star-rangers/lore/the-enrolled-text/) of settled space keeps a founding: whole, unedited, with every later amendment enrolled beside it rather than over it. Among those first clauses is the one that has never been amended: no boring through Titan's crust into the ocean below.
+
+![The First Hall at Stillwater Station from just inside: a small cream-walled module with rounded corners and broad raised seams of renewed sealant, a plain fixed table with block seats, a closed dark case lying on a long shelf, a small sealed housing with one white indicator by the hatch, a round port showing black, and a person in a grey jumper and work overalls stepping through the rounded hatch with their back to the camera.](/star-rangers/images/lore/stillwater-first-hall.jpg)
 
 The Hall is not a shrine, and the Authority's register is careful not to describe it as one. It is the place where the law Titan lives under can be read as it was first written. New crews are walked through it on their first rotation down, and shown the clauses that were later struck as well as the ones that stand.
 
