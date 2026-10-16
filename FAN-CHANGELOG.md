@@ -10,6 +10,8 @@ on. The fork's own releases, if any, are tagged with a suffix, such as
 
 ## [Unreleased]
 
+- **Synced from the original up to its PR #1284** (2026-10-16), after its release 1.42.0: Codex authors' character pages, species lines and portraits. `package.json` still says 1.42.0; `CHANGELOG.md` is the original's, unchanged.
+
 - **Synced from the original at its release 1.42.0, up to its PR #1278** (2026-10-16). `package.json` now says 1.42.0, the release this fork is built on; `CHANGELOG.md` and `changelog/` are the original's, unchanged.
 
 - **Synced from the original at its release 1.41.0 and the commits after it, up to its PR #1276** (2026-10-16). `package.json` now says 1.41.0, the release this fork is built on; `CHANGELOG.md` and the new `changelog/` archive are the original's, unchanged.
