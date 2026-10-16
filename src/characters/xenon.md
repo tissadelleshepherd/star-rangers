@@ -6,7 +6,7 @@ species: AI (Kernel-Compliant Maintenance Robot — classic design)
 role: Robot-Maintenance Specialist, ship's complement, Karla Wender's command
 status: Active
 aliases: []
-tags: [ai, kernel-compliant, robot, maintenance, star-rangers]
+tags: [ai, kernel-compliant, robot, maintenance, star-rangers, season-1]
 description: "The robot who repairs robots aboard Karla Wender's ship: an old, durable unit of a generation built to last, licensed to keep any machine running indefinitely and to make none."
 image: "xenon.jpg"
 image_alt: "Xenon, an old grey maintenance robot with a boxy sensor head of recessed lenses and finely jointed hands, works at a pale built-in bench in a clean, coved machine bay, holding a small part with care under a long flush light strip. A small service machine lies intact on the bench beside a tray of clean parts laid out in order."

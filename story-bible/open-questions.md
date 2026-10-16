@@ -35,6 +35,10 @@ reason. Verify against the repo before acting on any line here.
 
 ---
 
+## Portraits for the Codex authors whose pages state no species — raised 16 October 2026, RULED same day, A (*"Option A accepted"*): bare until a page states a species
+
+Fourteen Codex-author pages state no species (the list is in `images.md` § 17), and Halle Ostrander's is unstated by his choice of 12 October. The 7 October rule gives every person a portrait; the pages mark species as an absence, and a picture cannot leave a body's kind unstated. Choices: (A) keep them bare until a page states a species, recommended; (B) state a species on each page first, then prompt in batches; (C) frame each so the body's kind cannot be read. The eight with a stated species are queued for Fable's prompts meanwhile (`prompt-sheet.md` § 2.15).
+
 ## Season numbers past 89 — raised 15 October 2026, OPEN, act when the record registers Season 85 or so
 
 Chapter ids allow two digits (`s00`–`s99`), and seasons 90–99 are reserved for forks (`FORKING.md`, *Numbering your own seasons and threads*, #1248 and #1249), so this record has 0–89. Fourteen seasons (0–13) were registered between July and mid-October 2026, about four a month, which reaches 89 in roughly a year and a half. The recommended answer when it comes, put to Dermot the same day: widen the id to three digits (`s100e01c01`: `CHAPTER_ID_PATTERN` in `lib/content-schema.js`, file and folder names, and seasons sorted as numbers rather than text), and have the record skip 90–99 and go from 89 to 100, so the reservation holds for good. An engine change made when the story needs it, not before.

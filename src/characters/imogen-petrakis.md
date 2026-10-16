@@ -6,7 +6,7 @@ species: Human
 role: Mayor, Eden Space Habitat
 status: Active
 aliases: []
-tags: [human, eden, mayor, orbital-habitats-compact, undercover-pets.com]
+tags: [human, eden, mayor, orbital-habitats-compact, undercover-pets.com, season-2]
 description: "Eden Space Habitat's elected Mayor, and one half of the dual reporting line Space Commissioner Zara Wayland answers to — the half accountable to the habitat's own residents rather than to the wider Compact."
 image: "imogen-petrakis.jpg"
 image_alt: "Mayor Imogen Petrakis, a woman in her fifties with greying dark hair and a charcoal band-collared coat, stands on a curving habitat concourse on Eden, smiling as she listens to a man in the foreground. Residents walk past, a child in a red top among them, beside a long planter; through the window band the habitat's green terraces rise into haze."

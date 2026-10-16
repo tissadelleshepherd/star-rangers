@@ -8,7 +8,7 @@ status: "At large — in a family's quarters two decks down since late summer 28
 aliases:
   - "the galley cat"
   - "somebody's rabbit"
-tags: [cute-predators, predatory-entities, eden, detective-agency, undercover-pets.com, antagonist]
+tags: [cute-predators, predatory-entities, eden, detective-agency, undercover-pets.com, antagonist, season-2]
 description: "The small warm thing by the Deck 7 galley door that everybody feeds and nobody can describe the same way twice — filed as a non-sapient lamb-mask, and behaving, on nine months of observation, like an animal about as clever as a cat."
 image: "muffin.jpg"
 image_alt: "A long low mesh vent set flush into the curved pale wall of a habitat deck, beside a rounded doorway with warm light spilling from the galley across the floor. In the warm patch by the vent lie a folded cloth and a saucer, as if something had just been curled there."

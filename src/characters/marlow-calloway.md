@@ -10,6 +10,8 @@ aliases:
 tags: [human, star-rangers, officer, musician-specialization, music-corps, slipwave, eden, anthem, music, culture, author]
 description: "Slipwave's strings player, who enlisted after Tissadelle Shepherd did, holds Officer rank with the musician specialization, recorded Protectors of the Fold with Perrin Ashgrove decades after the anthem, and still plays a set with both of them when postings overlap."
 known_codex: [protectors-of-the-fold]
+image: "marlow-calloway.jpg"
+image_alt: "Marlow Calloway, a tall lean man with dark brown skin and cropped black hair, in a dark plum-grey uniform, seated on a stool in a wood-panelled common room aboard a habitat ring, playing a pale shallow-bodied fretted string instrument with his eyes on the strings; a hand drum stands at the edge of the frame."
 ---
 
 Marlow Calloway played strings in [Slipwave](/star-rangers/glossary/slipwave/), the three-person spacer-folk band from [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/)'s civilian arts circuit, named for the pitch drift that habitat musicians learn to compensate for when a station's rotational hum leaks into an unshielded sound system. The band played dock-adjacent common rooms for a little under two years and never recorded a studio album. Its vocalist, [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/), sang and wrote for it before the Music Corps confirmed her Cadet standing; her Cadet posting began in the summer of 2826 UCSD. To the circuit it was a band; to the Corps' Xenomusicology branch it was her placement, the Slipwave project. Calloway and [Perrin Ashgrove](/star-rangers/characters/perrin-ashgrove/) were the band's other two members, and the band was never a Ranger band.

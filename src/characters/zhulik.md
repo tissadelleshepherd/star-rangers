@@ -7,7 +7,7 @@ role: "A boy's cat, transfer berths, Eden Space Habitat"
 status: Active
 aliases:
   - "the cat"
-tags: [cat, eden, pet, undercover-pets.com]
+tags: [cat, eden, pet, undercover-pets.com, season-2]
 description: "A young grey-and-white cat who, for three weeks in the spring of 2827, was the only cat on Eden's books without being on them — and did all the stealing while the station mascot took the blame."
 image: "zhulik.jpg"
 image_alt: "A young grey-and-white cat sits upright on top of a plain two-door cabinet in a bare, softly lit room of seamless pale panels, one forepaw resting on a wooden-handled rubber stamp, looking straight at the viewer. Laid out beside him on the cabinet top are a stylus, a wooden reel of thread, a spoon and a pair of glasses. No collar; nothing on the walls but a single recessed line of warm light near the ceiling."

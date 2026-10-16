@@ -5,7 +5,7 @@ id: galen-kane
 species: Human
 role: "Chief Ranger, Star Rangers Frontier Corps"
 status: Active
-tags: [human, star-rangers, frontier-corps, chief-ranger, frontier, caretaker-clause, law-enforcement, sheriff, tissadelle]
+tags: [human, star-rangers, frontier-corps, chief-ranger, frontier, caretaker-clause, law-enforcement, sheriff, tissadelle, season-5]
 description: "Chief Ranger of the Star Rangers Frontier Corps — thirty years of caretaker circuits on worlds too young to police themselves, a career he counts in the ceremonies that ended his own mandate, and a mentor to early-career Tissadelle Shepherd who became, once she entered command, the advisor she trusts most."
 image: "galen-kane.jpg"
 image_alt: "A grey-haired man in a plain dark jacket standing among rows of timber benches in a frontier settlement's new meeting hall, watching two small figures at the far end conduct a swearing-in; the ceiling curves down into the walls and tall windows look out on open grassland"

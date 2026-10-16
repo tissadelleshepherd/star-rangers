@@ -9,6 +9,8 @@ aliases:
 tags: [comparative-gerontology, earth, krenyi, longevity, mnemari, author, human]
 description: "The comparative gerontologist who isolated the transmissible repair agent that keeps a Krenyi body in repair for centuries, found it near-inert in humans, read the specificity as design, and filed a note against herself for having treated a people as a vault around a cure."
 known_codex: [krenyi-longevity-repair-agent]
+image: "mireille-achterberg.jpg"
+image_alt: "Mireille Achterberg, a woman in her late fifties with short grey hair, in a dark grey jacket over a pale top, seated at a plain table in a windowless pale room, both hands resting beside a small smooth cream-coloured device with one light, her eyes lowered to the table."
 ---
 
 Mireille Achterberg is a comparative gerontologist of the Comparative Gerontology Unit, and the author of one working paper in the record, [On Krenyi Longevity: The Repair Agent and the Engineered-Transit Hypothesis](/star-rangers/codex/krenyi-longevity-repair-agent/), held in the Earth Institutional Archives. She began the work, she writes, to answer one question: whether what keeps a Krenyi young for three centuries could be made to keep a human alive. The honest answer was no, or very nearly no, and the paper is about the shape of that failure rather than the failure itself.

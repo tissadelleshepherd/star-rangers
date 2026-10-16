@@ -8,7 +8,7 @@ status: Active
 aliases:
   - "Ward"
   - "Custos"
-tags: [ai, kernel-compliant, eden, plural-mind, orbital-habitats-compact, welfare, undercover-pets.com]
+tags: [ai, kernel-compliant, eden, plural-mind, orbital-habitats-compact, welfare, undercover-pets.com, season-2]
 description: "Eden Space Habitat's resident AI collective: two Kernel-compliant personas, Ward and Custos, sharing one system and answering jointly to the Mayor and the Commissioner — with standing authority over the habitat's mobile AI humanoids and welfare responsibility for its cyber-enhanced animals."
 image: "eden-warden.jpg"
 image_alt: "The interior of Eden Space Habitat as the Warden keeps it: terraced green gardens and orchards climbing the curve of a vast pale cylinder, with low rounded dwellings roofed in planting and paths winding between them, softly lit and empty of people."

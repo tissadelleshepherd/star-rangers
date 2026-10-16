@@ -9,6 +9,8 @@ aliases:
 tags: [celtic-union, aethelrock, saint-aoife, hagiography, reader-schools, young-star-rangers, culture, author, human]
 description: "The Union teller whose Legend of Saint Aoife, printed for the reader-schools of the Aethelrock valleys, gives children the ships' telling with both halves kept: what Aoife said she met, and what she said it looked nothing like."
 known_codex: [the-legend-of-saint-aoife]
+image: "sile-ni-bhriain.jpg"
+image_alt: "Síle Ní Bhriain, a grey-haired adult in a dark coat and scarf, seated on a bench in a granite-walled schoolroom with one hand on a closed book and the other raised mid-explanation; through the tall window are a misted granite mountain and a long glazed roof below."
 ---
 
 Síle Ní Bhriain tells Saint Aoife for children. The reader-schools of the [Aethelrock](/star-rangers/lore/planets/aethelrock/) valleys have a press at the Ridgemoot, the Ridgemoot Readers, and Ní Bhriain's telling of the Legend went through three reader-school editions; the 2823 UCSD printing of the third sits on the young readers' shelf of the Ceridwen Archive, beside [Brother Daire's](/star-rangers/characters/brother-daire/) *Life*, for any reader who wants the rest.

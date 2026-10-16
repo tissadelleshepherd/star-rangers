@@ -330,11 +330,23 @@ function resolvePovId(povId, label) {
   return [];
 }
 
+// Pov ids that have no character page by ruling, not by omission, so the run
+// does not report them as gaps. The decision and its reasons are the
+// record's (story-bible/intake-2026-10-09.md, "Character pages for the POV ids
+// without one"); this table only cites it. Should one of them gain a page,
+// it resolves above and the entry here is simply never reached.
+const POV_IDS_WITHOUT_PAGE = {
+  "hive-bee": "an unnamed worker in a winter cluster, a POV device, not a person (intake 2026-10-09)",
+  "orlagh-dunne": "a Season 8 minor written thin on purpose; a page would carry the church-space gate and nothing groundable (intake 2026-10-09)",
+  ferdia: "a Season 8 minor written thin on purpose; a page would carry the church-space gate and nothing groundable (intake 2026-10-09)"
+};
+
 // 2. Chapters -> seasons and shared-chapter edges
 const chapterFiles = readMarkdownFiles(SEASONS_DIR);
 const seasonsByChar = new Map();
 const sharedPairs = new Map(); // "a|b" -> {weight, chapters}
 const unmatchedPovIds = new Map();
+const povIdsWithoutPage = new Map();
 let chapterCount = 0;
 
 for (const file of chapterFiles) {
@@ -349,7 +361,8 @@ for (const file of chapterFiles) {
     if (!povId) continue;
     const resolved = resolvePovId(povId, pov && pov.label);
     if (!resolved.length) {
-      unmatchedPovIds.set(povId, (unmatchedPovIds.get(povId) || []).concat(chapterId));
+      const bucket = Object.prototype.hasOwnProperty.call(POV_IDS_WITHOUT_PAGE, povId) ? povIdsWithoutPage : unmatchedPovIds;
+      bucket.set(povId, (bucket.get(povId) || []).concat(chapterId));
       continue;
     }
     for (const r of resolved) present.add(r);
@@ -452,6 +465,7 @@ const output = {
   },
   unclassified: unclassified.sort((a, b) => a.id.localeCompare(b.id)),
   unmatchedPovIds: [...unmatchedPovIds.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([id, chapters]) => ({ id, chapters: chapters.sort() })),
+  povIdsWithoutPage: [...povIdsWithoutPage.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([id, chapters]) => ({ id, chapters: chapters.sort(), reason: POV_IDS_WITHOUT_PAGE[id] })),
   unresolvedLinks: unresolvedLinks.sort((a, b) => a.from.localeCompare(b.from) || a.href.localeCompare(b.href)),
   duplicateFrontMatterIds: [...fmIdToFile.entries()].filter(([, v]) => v.length > 1).map(([id, files]) => ({ id, files: files.sort() })),
   characters,
@@ -470,5 +484,6 @@ if (outfile) {
 console.log(JSON.stringify(output.counts, null, 2));
 if (output.unclassified.length) console.log("unclassified: " + output.unclassified.map((u) => u.id).join(", "));
 if (output.unmatchedPovIds.length) console.log("pov ids with no character page: " + output.unmatchedPovIds.map((u) => u.id).join(", "));
+if (output.povIdsWithoutPage.length) console.log("pov ids without a page by ruling: " + output.povIdsWithoutPage.map((u) => u.id).join(", "));
 if (output.unresolvedLinks.length) console.log("unresolved character links: " + output.unresolvedLinks.map((u) => u.from + " -> " + u.href).join(", "));
 if (output.duplicateFrontMatterIds.length) console.log("duplicate front-matter ids: " + output.duplicateFrontMatterIds.map((d) => d.id + " (" + d.files.join(", ") + ")").join("; "));
