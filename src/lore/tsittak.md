@@ -8,6 +8,8 @@ plain: "Tsittak is a small town of Chthonari, the six-limbed people who feel the
 galaxy: "Milky Way"
 system: "Interstellar space"
 locationType: "Settlement"
+image: "tsittak.jpg"
+image_alt: "Tsittak from a few kilometres out: a lone, lumpy, potato-shaped body of dark nickel-iron pitted with craters, mostly in shadow against a dense star field and a faint band of the galaxy, with a small warm amber dock recessed into one cut face and a faint cross of cut channels running from it."
 ---
 
 A Ranger survey vessel came out of a fold it had not known it was in, and found someone already living at the exit.
