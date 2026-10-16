@@ -7,12 +7,12 @@ role: Governor of Orbital Space Habitats (Orbital Habitats Compact)
 status: Active
 aliases: []
 tags: [human, orbital-habitats-compact, governor, orbital-five-o]
-description: "Governor presiding over the five self-governing orbital habitats around Earth bound by the Orbital Habitats Compact, and the officer who commissioned Orbital Five-O to close an investigative gap none of her habitats could close alone."
+description: "Governor presiding over the five self-governing orbital habitats in near-Earth space bound by the Orbital Habitats Compact, and the officer who commissioned Orbital Five-O to close an investigative gap none of her habitats could close alone."
 image: "petra-voss.jpg"
 image_alt: "Governor Petra Voss, a Black woman with close-cropped grey hair in a plain grey high-collared suit, standing at a wide habitat window and looking out past it. Earth fills the view below, with lit orbital structures ringing the dark above the limb."
 ---
 
-Petra Voss presides over five self-governing orbital habitats around Earth, bound together under the [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/) — a civil jurisdiction that has nothing to do with, and does not overlap, the Star Rangers' charter-limited authority. [Rangers have no authority inside self-governing orbital habitats](/star-rangers/lore/military-space-command/) at all; Voss's office is the government that governs where the Rangers, by charter, cannot.
+Petra Voss presides over five self-governing orbital habitats in near-Earth space, bound together under the [Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/) — a civil jurisdiction that has nothing to do with, and does not overlap, the Star Rangers' charter-limited authority. [Rangers have no authority inside self-governing orbital habitats](/star-rangers/lore/military-space-command/) at all; Voss's office is the government that governs where the Rangers, by charter, cannot.
 
 For two years before she commissioned [Orbital Five-O](/star-rangers/characters/kai-larsen/), Voss argued the same problem from the administrative side that [Kai Larsen](/star-rangers/characters/kai-larsen/) had argued from the Ranger side before resigning over it: her five habitats had jurisdiction and no investigative capacity worth the name. She solved it the way she solves most structural gaps in the Compact — not by restructuring the whole apparatus, but by commissioning one office with narrow authority and a direct line to her, and letting it bypass everything slower.
 

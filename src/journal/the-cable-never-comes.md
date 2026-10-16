@@ -1,0 +1,33 @@
+---
+layout: journal-entry.njk
+title: "The Cable Never Comes"
+date: "2026-10-15"
+description: "The record has faster-than-light travel and no faster-than-light messages, which puts every polity in it where Rome and the British Empire stood before the telegraph. What those two did with a months-long silence, and why the setting never gets its 1870."
+tags: [worldbuilding, history, craft]
+---
+
+Today I asked whether any polity in the record is much larger than the Cerebraun Hegemony, and the answer turned into a new section of the civilisation comparison, [*Natural Limits of Reach*](/star-rangers/lore/civilisation-comparison/#natural-limits-of-reach). Its argument is short. The setting has [faster-than-light travel and no faster-than-light communication](/star-rangers/lore/ftl-mechanics/), so a message crosses space no faster than the hull carrying it. A harmonic corridor averages about a light-year a day, and folds, which reach farther, join too few places to get round it. A question from a polity's centre to its edge, and the answer back, therefore take about twice the polity's radius in light-years, counted in days. Past a certain size, the centre is always answering a situation that has already changed.
+
+That section is written in the Archive's voice, and the Archive names nobody from our century. The comparison that made me believe it belongs here instead, because it is ours: two empires that lived with exactly this condition, and one moment when the condition ended.
+
+## Rome: a season's silence
+
+The Roman state moved its official letters by the *cursus publicus*, the relay of post stations and fresh animals that Augustus organised. A normal day's travel on it was perhaps fifty to eighty kilometres. An urgent courier changing horses could do a good deal more, but urgency was expensive and rare. Stanford's ORBIS model of Roman travel, built by Walter Scheidel and Elijah Meeks, puts the fastest summer journey from Rome to London on the order of a month. The sea made the calendar worse. Vegetius, writing around 400 AD, treats the Mediterranean as safe from late May to mid-September, doubtful into November, and closed from November to March. A question sent to the far side of the empire in autumn could expect its answer in spring.
+
+So Rome delegated. A provincial governor held *imperium* and used it, and wrote to the emperor afterwards. The best record of what that felt like from inside is the tenth book of Pliny the Younger's letters, written while he governed Bithynia-Pontus around 110 to 112 AD. He writes to Trajan about an aqueduct, a canal, and whether Nicomedia, after a fire, may form a company of firemen. Each letter waits weeks for its rescript, and Trajan's answers are short and often say, in effect, use your judgement. On the firemen he says no, because associations of that kind become political. The exchange is famous partly for its content and partly for its slowness: a governor who asked about everything was a governor who decided almost nothing quickly.
+
+## Britain: a year to ask a question
+
+The British Empire before the telegraph had a longer silence. A letter from London to Bombay by sail round the Cape took something like four to six months, so a question and its answer took the better part of a year. The overland route through Egypt, established in the 1830s, cut the one-way passage to a matter of weeks, but it carried mail, not policy, and the people deciding things in India still decided them alone. The period's phrase for this was *the man on the spot*. Richard Wellesley, Governor-General from 1798 to 1805, fought and annexed his way across the subcontinent while the East India Company's directors in London objected by letters that arrived after the fact, and he was recalled in 1805 by directors who had objected to most of it. Australia was further still: three to four months each way by sail.
+
+Then the cable came. The first reliable submarine line from London to Bombay opened in 1870, and messages that had taken months took hours. The overland telegraph across Australia was completed in 1872. Within a generation the balance between London and the man on the spot had turned over. Instructions could now arrive before a decision was taken rather than after it, and the period's memoirs carry a recurring complaint from senior officials that the wire had made them agents rather than governors. The empire did not change size in 1870. It changed shape, because the lag that had forced delegation was gone.
+
+## The setting never gets its 1870
+
+Put those two beside the new section's table and they sit where they ought to. Rome's round trip to its frontiers, two to four months, is the round trip of a polity of a few thousand star systems. Britain's year to India is the round trip of a hundred thousand. Both answered the lag the way the section says a polity must: they handed final local authority to an office on the spot and kept the centre for what could wait. The Hegemony's [Administrator-Voices](/star-rangers/lore/cerebraun-hegemony/) are proconsuls. The Federation and the Celtic Union, which decline a strong centre at all, made the other choice the section names.
+
+The difference is the cable. Rome never got one, and Britain did. This setting refuses it permanently, because faster-than-light communication would have to come from somewhere the [physics](/star-rangers/lore/physics-comparison/) does not supply, and I am not going to supply it by hand. Every polity in the record therefore stays in Wellesley's condition indefinitely, deciding locally and reporting afterwards, with no prospect of the wire that ended it for him.
+
+That is a constraint I am glad of, for what it does to stories. A message in this record is always news of a past. An officer acts on her own reading and learns months later whether the centre agreed. Letters cross. Orders arrive for a situation that resolved itself in the meantime. The person on the spot carries the weight, and the record has to say whose judgement it was. It is also part of why the [Star Rangers](/star-rangers/lore/formation-of-star-rangers/) exist in the shape they do: a neutral body that carries what no faction can be trusted to carry, in a settled reach that no single authority could govern. In the British case the telegraph ended the delegation and pulled the decisions back to London. In this setting nothing ever will, so the decisions stay with whoever is there.
+
+A note on the figures. Every travel time above is approximate, varied with season, route and urgency, and is drawn from general history rather than primary sources; ORBIS's own estimates come with the same caveat. The shape of the comparison does not depend on the exact days.

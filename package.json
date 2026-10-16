@@ -1,12 +1,12 @@
 {
   "name": "star-rangers",
-  "version": "1.40.0",
+  "version": "1.41.0",
   "description": "Fian Ilchruinne — a multi-viewpoint hard-science-fiction novel with one licensed deviation. The stars call us forward with hope; to protect what is good and to see what is true.",
   "main": "index.js",
   "scripts": {
     "build": "eleventy && pagefind --site _site",
     "start": "eleventy --serve",
-    "test": "node --test test/*.test.js && node scripts/check-changelog.js && node scripts/check-changelog-coverage.js && node scripts/validate-content.js && node scripts/check-internal-links.js && node scripts/check-related-terms.js && node scripts/check-children-glossary.js && node scripts/revelation-ledger.js --check && node scripts/sync-version.js --check && node scripts/sync-story-so-far.js --check && eleventy --dryrun",
+    "test": "node --test test/*.test.js && node scripts/check-changelog.js && node scripts/check-changelog-coverage.js && node scripts/check-changelog-length.js && node scripts/validate-content.js && node scripts/check-internal-links.js && node scripts/check-related-terms.js && node scripts/check-children-glossary.js && node scripts/revelation-ledger.js --check && node scripts/sync-version.js --check && node scripts/sync-story-so-far.js --check && eleventy --dryrun",
     "version": "node scripts/sync-version.js && node scripts/sync-story-so-far.js",
     "new": "node scripts/new-content.js",
     "generate-themes": "node scripts/generate-themes.js",

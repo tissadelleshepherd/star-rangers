@@ -68,7 +68,7 @@ module.exports = function () {
     // ranking domain and any family of one both see "".
     ranksAt,
     canonicalBase: ranksAt ? `https://${ranksAt}/` : `https://${domain}/`,
-    description: "Fian Ilchruinne is a world that no one really understands but everyone tries to explain in their own way: a multi-viewpoint hard-science-fiction novel of the Grand Ensemble Multiverse, with one licensed deviation. A station clock forty seconds wrong, and the Star Rangers ordered to measure the drift and guard the public record. The stars call us forward with hope; to protect what is good and to see what is true. One canonical history across the Five Layers and multiple Concordants.",
+    description: "Fian Ilchruinne is hard science fiction with a hopeful heart. Real physics holds where people live, and the one invented thing is the shape of reality above it: five layers, a multiverse of membranes, and boundary zones where instruments disagree lawfully. Rigorous like hard SF, hopeful like the old epics.",
     url: `https://${domain}/`,
     author: "Fian Ilchruinne",
     language: "en",

@@ -5,7 +5,7 @@ revealed_by: s00e02c01
 category: "Locations"
 tags: [eden, space-habitat, fold-route, msc, history, formation, boundary]
 description: "Eden Space Habitat: built in the wrong place for the right reasons, and accidentally positioned near one of the Solar System's first confirmed natural higher-dimensional fold routes."
-plain: "Eden is a space station in the outer Solar System, built in 2671 as an ordinary research habitat. By accident, it was placed right next to a natural fold route — a hidden shortcut through higher dimensions that leads out of the Solar System. Eden's own scientists proved the route was real, and in 2712 the first ship ever to leave the Solar System, the Constant Margin, launched from here without permission. The slow official response to all of this is a large part of why the Star Rangers were founded. The route is now mapped and monitored, and is called the Eden Passage."
+plain: "Eden is a space station far out past the Moon, about one and a half million kilometres from Earth, built in 2671 as an ordinary research habitat. By accident, it was placed right next to a natural fold route — a hidden shortcut through higher dimensions that leads out of the Solar System. Eden's own scientists proved the route was real, and in 2712 the first ship ever to leave the Solar System, the Constant Margin, launched from here without permission. The slow official response to all of this is a large part of why the Star Rangers were founded. The route is now mapped and monitored, and is called the Eden Passage."
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Habitat"
@@ -15,7 +15,7 @@ image_alt: "Designed cover for Eden Space Habitat: a blue orbital ring/station e
 
 Eden was built to be forgettable: a civilian habitat set where supply lines were steady and traffic was thin. Then its instruments began to disagree with the sky.
 
-Eden Space Habitat was commissioned in 2671 UCSD as a civilian deep-range research and habitation platform, meant for long-duration study of the outer boundary between the Solar System's primary [Concordant](/star-rangers/glossary/concordant/) and the adjacent boundary zone. By every model available to the MSC survey office, its location was ordinary.
+Eden Space Habitat was commissioned in 2671 UCSD as a civilian deep-range research and habitation platform, meant for long-duration study of the outer boundary between the Solar System's primary [Concordant](/star-rangers/glossary/concordant/) and the adjacent boundary zone. It holds station in the Earth–Sun L2 region, about 1.5 million kilometres beyond Earth, on the side facing away from the Sun. By every model available to the MSC survey office, its location was ordinary.
 
 It was not ordinary.
 

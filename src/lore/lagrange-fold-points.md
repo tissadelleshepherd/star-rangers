@@ -51,7 +51,7 @@ At L1, L2, and L3, a vessel must spend continuous station-keeping energy just to
 
 L4 and L5, by contrast, are stable. A vessel can hold position passively while the scaffold forms, and small disturbances damp rather than amplify. The geometry stays useful without constant correction.
 
-For natural fold routes—the sort found near Eden Space Habitat—the presence of Lagrange geometry is also one of the strongest indicators that a route may exist at all. In retrospect, the Eden Passage sits close enough to the Earth–Sun L2 region that the discovery should have triggered an immediate systematic survey of L4 and L5. That survey came late. The Survey Corps now treats it as standard procedure.
+For natural fold routes—the sort found near Eden Space Habitat—the presence of Lagrange geometry is also one of the strongest indicators that a route may exist at all. In retrospect, the Eden Passage sits close enough to the Earth–Sun L2 region that the discovery should have triggered an immediate systematic survey of L4 and L5. That survey came late. The Survey Corps now treats it as standard procedure, and runs its outer half, at Jupiter's L4 and L5, from [Callisto Station](/star-rangers/lore/callisto-station/).
 
 ## Operational Implications
 
@@ -112,7 +112,7 @@ This is a different phenomenon from the transient, collapsing conduits [Concorda
 
 A quiet-zone tunnel carries no Lagrange-like signature to survey by — no two-body geometry, no orbital markers, nothing that shows up on a standard system survey, because there is no system nearby to survey. Deep space gives Survey Corps nothing to point an instrument at until a vessel is already close enough for its own fold-adjacency sensors to register a corridor condition forming — which, for a ship not actively watching for it on an ordinary transit, can mean the first confirmation is the exit, not the entry.
 
-No standing protocol exists for detecting one in advance. Survey Corps' current guidance is only to log any unexplained fold-adjacency reading in deep space, however brief, since a corridor that goes uninvestigated does not stop existing. Whether this mechanism accounts for any of the setting's confirmed founding-era anomalies — an undocumented fold route, an unexplained arrival — is speculation the Survey Archive has not confirmed or ruled out either way.
+No standing protocol exists for detecting one in advance. One tunnel is known to have neighbours who hear it: the Chthonari settlement of [Tsittak](/star-rangers/lore/tsittak/), whose people feel a corridor condition forming through the rock they live in, a knowledge of that one tunnel that does not carry to any other. Survey Corps' current guidance is only to log any unexplained fold-adjacency reading in deep space, however brief, since a corridor that goes uninvestigated does not stop existing. Whether this mechanism accounts for any of the setting's confirmed founding-era anomalies — an undocumented fold route, an unexplained arrival — is speculation the Survey Archive has not confirmed or ruled out either way.
 
 ## What Is Not True
 

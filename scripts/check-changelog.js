@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 /**
- * Asserts that CHANGELOG.md still contains every release it is supposed to.
+ * Asserts that the changelog still contains every release it is supposed to.
+ * "The changelog" is CHANGELOG.md plus its archive in changelog/ (released
+ * sections moved there verbatim on 2026-10-15), read through
+ * lib/changelog-files.js, so a section moved into the archive still counts and
+ * one lost on the way still fails.
  *
  * WHY THIS EXISTS: released sections have been silently destroyed twice. A
  * branch is cut, `main` gets a release while the branch is open, and the
@@ -25,12 +29,11 @@
  * merging quietly.
  */
 
-const fs = require("fs");
 const path = require("path");
 const { execFileSync } = require("child_process");
+const { readChangelog } = require("../lib/changelog-files");
 
 const ROOT = path.resolve(__dirname, "..");
-const CHANGELOG = path.join(ROOT, "CHANGELOG.md");
 
 const HEADING = /^## \[(\d+\.\d+\.\d+)\]/gm;
 
@@ -41,7 +44,7 @@ function fail(lines) {
   process.exit(1);
 }
 
-const text = fs.readFileSync(CHANGELOG, "utf8");
+const text = readChangelog();
 
 const headings = [];
 for (const m of text.matchAll(HEADING)) headings.push(m[1]);

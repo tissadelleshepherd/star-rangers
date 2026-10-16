@@ -105,8 +105,9 @@ In order after the unit suite:
 
 | Gate | Catches |
 | --- | --- |
-| `scripts/check-changelog.js` | released sections missing/rewritten (two release records were destroyed this way once) |
+| `scripts/check-changelog.js` | released sections missing/rewritten (two release records were destroyed this way once), read across `CHANGELOG.md` and its archive in `changelog/` through `lib/changelog-files.js` |
 | `scripts/check-changelog-coverage.js` | **warns only, never fails** — content pages the changelog never mentions by path, slug or title. The mirror image of the gate above: that one catches history being destroyed, this one catches history never being written. Deliberately not a gate — see below |
+| `scripts/check-changelog-length.js` | **warns only, never fails** — `[Unreleased]` entries longer than about 120 words, each with its opening words and count. Released sections are immutable, so they are never read. See below |
 | `scripts/validate-content.js` | front-matter schema violations, id/filename mismatches, duplicate `comment_id`s, the image bookkeeping (missing targets, unreferenced files, byte-identical duplicates, layout-emitted URLs), each edition's hero cast |
 | `scripts/check-internal-links.js` | a cross-link to a page renamed or never written — schema and dry run both pass on those; since 2026-10-09 also a `#fragment` that lands on no heading id or literal `id="…"` of the target page, resolved through the build's own markdown renderer |
 | `scripts/check-related-terms.js` | a `related:` term that silently falls back to `/glossary/`; warns (without failing) on duplicated page titles |
@@ -143,6 +144,24 @@ filed as a changelog entry *before* the script was wired into `npm test`,
 because a warning that never reaches zero is noise people learn to skip past. If
 it is ever allowed to sit at a permanent nonzero number, retire it rather than
 tolerating it — the same rule `sync-version.js` states about its own anchor.
+
+### Why entry length warns, and only on `[Unreleased]`
+
+Added 2026-10-15. `CLAUDE.md` rules that changelog entries are plain and
+complete, not 200-word essays (2026-08-16, amended 2026-08-31), and nothing
+measured it: on the day this landed the changelog held 1,162 entries with a
+median of 121 words, a 90th percentile of 242 and a longest of 601, and
+`CHANGELOG.md` had passed 1 MB. The same day, released sections older than the
+newest five moved verbatim into `changelog/` (one file per ten minor versions,
+newest first), which fixed the size; this warning is for the cause.
+
+It warns rather than fails for the coverage check's reasons: length is a
+judgement, the rule allows a sentence of why, and a word limit as a gate would
+be met by cutting words that mattered or splitting one change into two. It
+reads only `[Unreleased]`, because released sections are immutable and a
+warning about an entry nobody may shorten is noise. The threshold of about 120
+words sits near the measured median, so a normal entry passes and the essays
+show.
 
 ## Layer 3 — CI-only gates (`.github/workflows/ci.yml`)
 

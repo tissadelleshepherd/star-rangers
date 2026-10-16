@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
  * Reports content pages that exist in the repo but are never mentioned in
- * CHANGELOG.md.
+ * the changelog: CHANGELOG.md plus its archive in changelog/, read through
+ * lib/changelog-files.js, so moving released sections into the archive
+ * changes nothing this counts.
  *
  * WHY THIS EXISTS: `check-changelog.js` next door catches released history
  * being *destroyed*. Nothing caught the opposite failure - a page shipping
@@ -43,8 +45,9 @@
 const fs = require("fs");
 const path = require("path");
 
+const { readChangelog } = require("../lib/changelog-files");
+
 const ROOT = path.resolve(__dirname, "..");
-const CHANGELOG = path.join(ROOT, "CHANGELOG.md");
 
 // Content only. Engine directories are covered by their own PRs' entries and
 // have never been the failure mode.
@@ -76,7 +79,7 @@ function frontMatterTitle(rel) {
   return title ? title[1].trim() : null;
 }
 
-const changelog = fs.readFileSync(CHANGELOG, "utf8");
+const changelog = readChangelog();
 const lower = changelog.toLowerCase();
 
 const missing = [];
@@ -118,7 +121,7 @@ for (const m of missing) {
 
 console.log(
   `Changelog coverage: ${missing.length} of ${checked} content pages are not ` +
-    `mentioned in CHANGELOG.md.`,
+    `mentioned in CHANGELOG.md or changelog/.`,
 );
 for (const [dir, list] of [...byDir].sort()) {
   console.log(`  ${dir} (${list.length})`);

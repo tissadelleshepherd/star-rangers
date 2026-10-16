@@ -10,6 +10,8 @@ on. The fork's own releases, if any, are tagged with a suffix, such as
 
 ## [Unreleased]
 
+- **Synced from the original at its release 1.41.0 and the commits after it, up to its PR #1276** (2026-10-16). `package.json` now says 1.41.0, the release this fork is built on; `CHANGELOG.md` and the new `changelog/` archive are the original's, unchanged.
+
 - **Synced from the original up to its PR #1252** (2026-10-15): seasons 90–99 and `fan-` thread ids are now reserved for forks there, and Fan Tales already sits inside both (Season 90, `fan-tales`), so nothing here needed renumbering.
 
 - **The August picture moves out of the site, and the validator is the original's again** (`fan-images/IMG_1786938939320.jpg`, `scripts/validate-content.js`, 2026-10-15). The picture now sits in `fan-images/` at the root, outside `src/`, still uncaptioned and unidentified, so the unreferenced-image check no longer sees it; the exemption below is withdrawn and `scripts/validate-content.js` matches the original exactly, leaving nothing of the engine for a sync to combine.

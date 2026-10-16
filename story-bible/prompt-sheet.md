@@ -346,6 +346,98 @@ prompts are of record in [`images.md`](images.md) § 9 and read by
 file through `import-image.ps1 -MaxEdge 1200`, then add the two gallery items
 with their `season:` keys and captions as § 9 says. Strike this when filed.
 
+### 2.10 `planets/titan.jpg`, `ligeia-habitat.jpg`, `stillwater-station.jpg` — the three Titan lore illustrations (queued 15 October 2026)
+
+Three new Locations pages with no image, and a place gets one. The three
+prompts are of record in [`images.md`](images.md) § 5h and read by
+`image-prompts.js`; Ligeia's figures are on sheet H of
+[`starship-design.md`](starship-design.md). Run on the desktop with
+`node scripts/image-prompts.js --generate --only titan,ligeia-habitat,stillwater-station`
+(the Stillwater entry sends one of Dermot's own frames as a reference for the
+water, so the sibling checkout has to be beside this one), file through
+`import-image.ps1 -MaxEdge 1600`, then give each page its `image:` and an
+`image_alt` written from the filed frame. Triage before the century: no
+Saturn or sun in a Titan surface sky, nothing joining the ring to the moon,
+no helmet on anyone outside, and the sea without a ripple. Strike this when
+filed.
+
+### 2.11 `callisto-station.jpg` — the Callisto Station lore illustration (queued 15 October 2026)
+
+A fourth new Locations page with no image, written later the same day as the
+three above, and a place gets one. The prompt is of record in
+[`images.md`](images.md) § 5i and read by `image-prompts.js`; no sheet in
+[`starship-design.md`](starship-design.md), since a station dug into ice is
+not a hull (sheet H's note). Run on the desktop with
+`node scripts/image-prompts.js --generate --only callisto-station`
+(no reference is sent), file through `import-image.ps1 -MaxEdge 1600`, then
+give the page its `image:` and an `image_alt` written from the filed frame.
+Triage before the century: Jupiter present, gibbous, eight Moons wide and
+unringed, never on the horizon and never half the sky; a pure black sky with
+hard shadows and no haze; everyone outside in a deep olive pressure shell
+with a close helmet, no white suit, no bubble, no face; nothing military and
+no text. Strike this when filed.
+
+### 2.12 `stillwater-first-hall.jpg` — the First Hall, an inline interior for the Stillwater page (queued 15 October 2026)
+
+A second image for `src/lore/stillwater-station.md`, later the same day as
+its exterior in § 2.10: an inline illustration for the page body, under the
+first paragraph of *The First Hall*, on the Prismere and Tír na nÓg
+precedent; the page's `image:` stays the § 2.10 frame. The prompt is of
+record in [`images.md`](images.md) § 5j and read by `image-prompts.js`; no
+sheet in [`starship-design.md`](starship-design.md), as sheet H's note
+already says of Stillwater. Run on the desktop with
+`node scripts/image-prompts.js --generate --only stillwater-first-hall`
+(no reference is sent), file through `import-image.ps1 -MaxEdge 1600`, then
+add the inline line
+`![alt](/star-rangers/images/lore/stillwater-first-hall.jpg)` to the page
+under that paragraph with an alt written from the filed frame. Triage before
+the century: nothing that reads as a shrine (no candle, altar arrangement,
+shaft of light, glass case or framed anything); the archival case shut and
+nothing legible; one sealed gas-monitor housing with one indicator and
+studded, many-shaded seams as the hint, never a dial, a switch panel or a
+cable loom; the port black with nothing in it; the figure back to camera, no
+hood, no mask, no suit. Strike this when filed.
+
+### 2.13 `titan-from-orbit.jpg` — Titan's surface from orbit, an inline near-infrared frame for the planet page (queued 15 October 2026)
+
+A second image for `src/lore/planets/titan.md`, later the same day as its
+surface frame in § 2.10: an inline illustration for the page body, under the
+haze paragraph of *The World*, on the § 2.12 and Prismere precedent; the
+page's `image:` stays the § 2.10 frame. It is a **monochrome near-infrared
+window frame**, because in visible light Titan's surface cannot be seen from
+orbit at all (the § 2.10 Ligeia frame shows the orange ball that is); the
+prompt and the reasoning are of record in [`images.md`](images.md) § 5k and
+read by `image-prompts.js`; no sheet in
+[`starship-design.md`](starship-design.md), since the craft the camera rides
+is not in frame. Run on the desktop with
+`node scripts/image-prompts.js --generate --only titan-from-orbit`
+(no reference is sent), file through `import-image.ps1 -MaxEdge 1600`, then
+add the inline line
+`![alt](/star-rangers/images/lore/titan-from-orbit.jpg)` to the page under
+that paragraph with an alt written from the filed frame. Triage before the
+century: grey throughout, no orange, no tan, no false colour; soft, not
+sharp, a soft pale rim at the limb and no craters; dark belts round the
+equator with one bright region against them, no blue oceans, no Earth
+clouds, no coastlines; one dark sea just inside the terminator and black beyond, no glint,
+since 2826 UCSD (2626 CE) is late in Titan's northern winter; nothing made in frame, no Saturn, no
+habitat, no craft, no tether, no port edge, and no grid, bar, reticle,
+stamp or text. Strike this when filed.
+
+### 2.14 `tsittak.jpg` — the Tsittak lore illustration (queued 16 October 2026)
+
+A new Locations page with no image, and a place gets one. The prompt is of
+record in [`images.md`](images.md) § 5l and read by `image-prompts.js`,
+written by Opus under the 16 October rule; no sheet in
+[`starship-design.md`](starship-design.md), since a settlement cut into rock is
+not a hull. Run on the desktop with
+`node scripts/image-prompts.js --generate --only tsittak` (no reference is
+sent), file through `import-image.ps1 -MaxEdge 1600`, then give the page its
+`image:` and an `image_alt` written from the filed frame. Triage before the
+century: no sunlight anywhere on the body, which is mostly silhouette; a
+dense sharp star field behind it, no nebula colour; the dock a lit recess cut
+into the metal and nothing standing up from the surface; no visible tunnel or
+portal; no vessel, person or text in frame. Strike this when filed.
+
 ### 2.8 The Told — theme (queued 30 September 2026)
 
 The children's second door has played Five-O's track since 7 September as a

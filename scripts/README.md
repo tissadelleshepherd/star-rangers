@@ -9,8 +9,9 @@ Three kinds of file share this directory. Which kind a script is decides who run
 | `validate-content.js` | Malformed front matter against `lib/content-schema.js`, id/filename mismatches, duplicate `comment_id`s, and the image bookkeeping (missing targets, unreferenced files, byte-identical duplicates, the URL each layout actually emits, each edition's hero cast) |
 | `check-internal-links.js` | Any `/star-rangers/` link in `src/` or `lib/` that resolves to nothing |
 | `check-related-terms.js` | A `related:` term that matches no page title (the fallback link is valid, so nothing else notices) |
-| `check-changelog.js` | A released changelog section that has gone missing |
-| `check-changelog-coverage.js` | Content pages never mentioned in `CHANGELOG.md`; warns only |
+| `check-changelog.js` | A released changelog section that has gone missing, from `CHANGELOG.md` or its archive in `changelog/` |
+| `check-changelog-coverage.js` | Content pages never mentioned in `CHANGELOG.md` or `changelog/`; warns only |
+| `check-changelog-length.js` | `[Unreleased]` entries past about 120 words, with their opening words and count; warns only |
 | `sync-version.js --check` | README's version line disagreeing with `package.json` |
 | `check-contrast.js` | A palette below WCAG AA on the pairs `main.css` composes; CI only, run after `generate-themes` |
 | `generate-themes.js` | Not a gate itself, but CI regenerates and fails on drift |
