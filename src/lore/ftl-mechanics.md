@@ -28,7 +28,7 @@ Wave-locked transit along pre-admissible quantum harmonic corridors.
 - Transit cannot bypass [Concordant](/star-rangers/glossary/concordant/) boundary conditions.
 
 ### Range and Pace
-Medium-range. Averaged over a route's recurrence windows, a harmonic corridor advances a vessel on the order of one light-year per day — quick enough to make interstellar traffic routine, and too slow for the longest crossings.
+Medium-range. Averaged over a route's recurrence windows, a harmonic corridor advances a vessel on the order of one light-year per day — quick enough to make interstellar traffic routine, and too slow for the longest crossings. The figure is close to a ceiling, not a floor. A crossing may run ahead of it for a stretch when a route's windows line up, but none sustains much more; waiting for the next window, a drop-out and a re-lock, or shifting boundary conditions make most crossings slower, and some much slower.
 
 ### Observable Effects on Time-Bound Entities
 - Apparent non-linear arrival order across distant observers.
@@ -45,7 +45,7 @@ Topological distance compression via controlled higher-dimensional fold geometry
 - Fold is collapsed after transfer to prevent persistence drift.
 
 ### Range and Pace
-Long-range, and slow in the way an aeroplane journey is slow. A fold still folds distant regions into adjacency — the crossing is a genuine shortcut — but the drift through the fold is the least of it: staging at a low-gradient site, generating the scaffold, and certifying hull and route routinely take longer than the transit they enable. Folding reaches the farthest destinations in settled space, and it is chosen when the distance justifies the preparation, never when speed does.
+Long-range, and slow in the way an aeroplane journey is slow. A fold still folds distant regions into adjacency — the crossing is a genuine shortcut — but the drift through the fold is the least of it: staging at a low-gradient site, generating the scaffold, and certifying hull and route routinely take longer than the transit they enable. Folding reaches the farthest destinations in settled space, and it is chosen when the distance justifies the preparation, never when speed does. Those destinations are also few. A fold joins particular pairs of regions where an admissible connecting geometry exists, never any region to any other, and there are not enough such routes to build a network that would outrun the corridors; that is why no polity in the record governs at fold speed ([Natural Limits of Reach](/star-rangers/lore/civilisation-comparison/#natural-limits-of-reach)). Many of the routes that do exist are intergalactic. A fold's two ends lie wherever an admissible geometry puts them, not where nearness would, so a route out of this galaxy is no rarer than a route to the next star, and a good share of the folds the Survey Corps has charted join regions separated by vast astronomical distances: the Evenlode corridor, which carries [New Cotswolds](/star-rangers/lore/new-cotswolds/) to another galaxy, is one of them.
 
 ### Constraints
 - Fold duration and aperture are strictly bounded.

@@ -19,7 +19,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           # Full history and tags. scripts/check-changelog.js uses git tags as
-          # its oracle for which releases must still have a CHANGELOG section,
+          # its oracle for which releases must still have a section in
+          # CHANGELOG.md or its archive in changelog/,
           # and the default shallow checkout fetches none - so the check would
           # degrade to structure-only here, silently, in the one place that
           # gates every device. A tablet cannot run npm test; CI is what

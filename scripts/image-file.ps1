@@ -110,7 +110,8 @@ Still to do - deliberately, not oversights:
      text from what the file actually shows, not from the prompt.
   2. Commit, push, open the PR as a proposal - new portraits and lore images
      are the "draft it and stop" tier.
-  3. CHANGELOG entry under [Unreleased] if these are going out.
+  3. CHANGELOG.md entry under [Unreleased] if these are going out (never in
+     the changelog/ archive, which holds released sections only).
   4. Clear the working state once these have landed:
        Remove-Item -Recurse -Force image-out
      (entries with a file in src/images/ read as done anyway)

@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Home"
-description: "Fian Ilchruinne is a world that no one really understands but everyone tries to explain in their own way: a multi-viewpoint hard-science-fiction novel with one licensed deviation. One canonical history across the Five Layers, multiple Concordants, and multiple points of view."
+description: "Fian Ilchruinne is hard science fiction with a hopeful heart. Real physics holds where people live, and the one invented thing is the shape of reality above it: five layers, a multiverse of membranes, and boundary zones where instruments disagree lawfully. Rigorous like hard SF, hopeful like the old epics."
 ---
 {%- set heroCharacters = collections.characters | charactersByIds(edition.heroCharacterIds) | withImages -%}
 <section class="home-hero">

@@ -19,7 +19,8 @@
  *
  * Deliberately NOT a VERSION.md: nothing in the repo reads a version file,
  * and a dedicated one would be a third copy of a number that already lives
- * in package.json and CHANGELOG.md. The fix for a duplicated value is to
+ * in package.json and CHANGELOG.md (whose archive in changelog/ holds only
+ * released versions, never the current one). The fix for a duplicated value is to
  * stop duplicating it by hand, not to add somewhere else for it to drift.
  */
 

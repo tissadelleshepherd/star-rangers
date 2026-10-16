@@ -51,7 +51,7 @@ eleventyComputed:
 {% endfor %}
 </div>
 {% if system == "Sol System" %}
-<p class="page-intro">Also in this system, referenced but not yet individually documented: Earth, Titan, the Belt, and the Marsh Causeway.</p>
+<p class="page-intro">Also in this system, referenced but not yet individually documented: Earth, the Belt, and the Marsh Causeway.</p>
 {% endif %}
 </div>
 {% endfor %}

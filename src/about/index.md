@@ -28,8 +28,22 @@ eleventyComputed:
 <img class="page-hero-image" src="/star-rangers/images/hero/about-writer.jpg" alt="Dublin seen from high ground to the south on a hazy November afternoon: the office blocks of Sandyford across the foot of the frame, the city beyond, the red-and-white banded Poolbeg chimneys over the docks, and the bay running out to Howth on the far shore" />
 <h1 class="page-title">About the Author</h1>
 <p class="page-intro">
-  <em>Fian Ilchruinne</em> is a world that no one really understands but everyone tries to
-  explain in their own way.
+  <em>Fian Ilchruinne</em> is hard science fiction with a hopeful heart. Real physics holds
+  where people live, and the one invented thing is the shape of reality above it: five
+  layers, a multiverse of membranes, and boundary zones where instruments disagree lawfully.
+  The Star Rangers work those edges, and they guard the public record as carefully as they
+  guard people.
+</p>
+<p class="page-intro">
+  It's a story where decency is real and costly. Its officers won't claim more than the
+  evidence supports, won't sign a comforting lie, and won't accept a rescue that pretends a
+  wound is healed. Evil exists, but it can't outlast the purpose it borrowed. Across many
+  viewpoints and timelines, from a station clock that's been forty seconds wrong for years
+  to a cat detective agency and a people who keep their history by speaking it, the series
+  asks what it means to keep faith with the truth and with each other.
+</p>
+<p class="page-intro">
+  Rigorous like hard SF, hopeful like the old epics.
 </p>
 <p class="page-intro">
   Dermot R. Cochran is a senior software engineer working in applied AI, based in Dublin,

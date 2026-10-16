@@ -297,6 +297,60 @@ of this sheet is canon.
   orbit is high. A ring, a torus, spokes or a single cylinder fails the sheet;
   so does a window stripe down either drum.
 
+### H. Ligeia (a single ring at full weight, ex-Outer Administration Station Four)
+
+Added 15 October 2026 for the lore page's owed illustration (`images.md` § 5h,
+written on Fable with the Titan and Stillwater prompts). The page fixes less
+than Antariksha's does, so most of this sheet is derived and his to change;
+it is here because step 1 below says to state new derived figures here first.
+Stillwater is a surface station on an ice shore, not a hull, and takes no
+sheet: principle 5 (dull, unmarked, lit almost nowhere) and the 11 October
+*well kept* rule reach it, and its page gives its construction (insulated,
+not pressurised; sealed modules; resealed and recorded). Callisto Station
+(`images.md` § 5i, written later the same day) takes none for the same
+reason: it is dug into the moon's ice, so what shows at the surface is
+shielding mounds, sealed hatches and a buoy cradle, and nothing on it spins
+or coasts. Its one derived figure, three flat radiator slabs on the ice for
+the fusion plant's heat (principle 8), is named in the prompt's entry as a
+guess and is his to strike; the buoy keeps the shape the Navigation Corps
+page already pictured, a small plain unmarked cylinder.
+
+- **Purpose** (canon, `src/lore/ligeia-habitat.md`): an Imperium
+  administrative and patrol post set in high orbit around Titan after 2543
+  UCSD, built to **full spin gravity** because its crews rotated in from the
+  inner system; handed to Titan's civil government after 2609 UCSD; now the
+  seat of the Titan Settlement Authority and the home of the surface crews'
+  families, who keep their weight there and rotate down. The record calls it
+  a ring. Travel to and from the surface is by ascent javelin and landing
+  craft (canon, both pages): nothing joins it to the ground.
+- **Weight** (derived): one ring, **about 800 m across at 1.5 rpm for 1 g at
+  the rim** (895 / 1.5² ≈ 398 m radius), below the 2 rpm most people adapt
+  to, which a habitat raising children needs; a smaller post at 2 rpm on 450
+  m would also give a full g and is the alternative. The rim is a deep drum,
+  the floor on its inner wall, with no window band, since in orbit the hull
+  is the shield.
+- **Layout** (derived): a short **non-rotating hub** on the axis with docking
+  cradles on its rim, where a craft holds station against something that does
+  not turn; **spokes** from hub to rim, a few and plain; the ring alone, no
+  second ring and no cylinder.
+- **Power and heat** (derived from canon on the Titan page): sunlight at
+  Saturn is about a hundredth of Earth's and *there is no solar power worth
+  the name*, so the habitat runs on fusion like the stations below and
+  carries **no collector field**; its radiators are large flat plain slabs
+  standing out from the hub along the axis, the most visible thing after the
+  ring (principle 8).
+- **Surface** (principle 5; the *well kept* rule): dull matte composite in
+  greys, the honest seams of its panels, unmarked, two centuries old and kept;
+  nothing lit but a few steady points at the cradles and the small ports a
+  home has. Not a warship and not a glossy thing: a civil post built by an
+  authoritarian government and lived in by civilians.
+- **What a picture shows** (for `images.md`): the ring whole and small
+  against Titan's featureless orange globe, the gap between them empty, the
+  hub still with its cradles and radiators, hard thin sunlight from one side;
+  Saturn, if it appears, far off and with its rings edge-on, since Titan
+  orbits in Saturn's ring plane. A tether, a tower, a window band, a second
+  ring, a cylinder or a collector field fails the sheet.
+
 ---
 
 ## How a prompt uses this
@@ -320,6 +374,7 @@ of this sheet is canon.
 - The Threshold-class shape (E).
 - Whether any ship in the record has windows at all beyond ports.
 - Antariksha's hub figures (G): its diameter and length, whether a spine runs the full axis, and where docking sits; the page fixes the drums and the hub's purpose and nothing else.
+- Ligeia's ring figures (H): its diameter and spin rate, how many spokes, how many people it holds, and whether its hub carries the Authority's docks alone or a landing-craft yard as well; the page fixes full spin gravity, high orbit around Titan and the ring, and nothing else.
 - The High Captain's command ship (principle 12): its class name, its size, how a session is hosted (whose ship, by rotation or by the Triumvirate's), and whether it gets a sheet (G) before any page or picture needs it.
 - Whether these sheets become a lore page (*Hulls of the Record*, Technology)
   once he has ruled on the open items; until then they are planning.

@@ -3,12 +3,12 @@ layout: lore-entry.njk
 title: "The Orbital Habitats Compact"
 category: "Institutions"
 tags: [orbital-habitats-compact, governance, eden, orbital-five-o, institutions, self-governing]
-description: "The civil administration governing five self-governing orbital habitats around Earth, including Eden Space Habitat — and how its ordinary policing chain runs alongside, not through, the Star Rangers' fold-route oversight."
+description: "The civil administration governing five self-governing orbital habitats in near-Earth space, including Eden Space Habitat — and how its ordinary policing chain runs alongside, not through, the Star Rangers' fold-route oversight."
 image: "orbital-habitats-compact.jpg"
 image_alt: "Designed cover for the Orbital Habitats Compact: concentric blue rings forming a civil-governance emblem, on a dark background."
 ---
 
-Five self-governing orbital habitats around Earth answer, for civil administration purposes, to one Governor and one compact — a jurisdiction line that has nothing to do with, and does not overlap, the Star Rangers' charter-limited authority. [Rangers have no authority inside self-governing orbital habitats](/star-rangers/lore/military-space-command/) at all; the Compact is the government that fills that space, for the ordinary business of running an inhabited habitat, on every day nothing charter-relevant is happening.
+Five self-governing orbital habitats in near-Earth space, from high Earth orbit out to Eden at the Earth–Sun L2 point, answer, for civil administration purposes, to one Governor and one compact — a jurisdiction line that has nothing to do with, and does not overlap, the Star Rangers' charter-limited authority. [Rangers have no authority inside self-governing orbital habitats](/star-rangers/lore/military-space-command/) at all; the Compact is the government that fills that space, for the ordinary business of running an inhabited habitat, on every day nothing charter-relevant is happening.
 
 Three of the five are named on the record: [Eden](/star-rangers/lore/eden-space-habitat/), Halcyon, and [Antariksha](/star-rangers/lore/antariksha/), the Compact's working foundry habitat, run in several languages with none of them official. [New London](/star-rangers/lore/new-london-space-habitat/) is in Earth orbit and is not a member.
 
