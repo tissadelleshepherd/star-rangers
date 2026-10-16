@@ -6,7 +6,7 @@ species: AI (Kernel-Compliant Heavy Repair Robot — EVA class)
 role: Exterior Repair, stations and starships; ship's complement, Karla Wender's command
 status: Active
 aliases: []
-tags: [ai, kernel-compliant, robot, eva, maintenance, star-rangers]
+tags: [ai, kernel-compliant, robot, eva, maintenance, star-rangers, season-1]
 description: "The largest member of Karla Wender's complement: a station-scale repair robot built to work open vacuum, gentle at a size where gentleness is a decision, and valued exactly as much as everything he can reach."
 image: "lumbarian.jpg"
 image_alt: "Lumbarian, a large repair machine of open pale grey truss and closed housings, resting on the plain grey hull of a starship in hard sunlight against a black sky, one long jointed manipulator laid flat and still along the plate. A small flush hatch beside the manipulator gives the scale."

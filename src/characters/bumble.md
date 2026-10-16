@@ -8,7 +8,7 @@ status: Active
 aliases:
   - "Bumbóg"
   - "the wool-shed bee"
-tags: [bumblebee, drithane, celtic-union, crossing-night, undercover-pets.com]
+tags: [bumblebee, drithane, celtic-union, crossing-night, undercover-pets.com, season-2]
 description: "The bumblebee queen whose nest is in the sweepings under the wool-shed sorting bench in Gleann na gCaorach — on no ledger the valley keeps, called by the Irish for what she is, and, by the valley's reckoning, the same bee for as long as there has been a shed."
 image: "bumble.jpg"
 image_alt: "A bumblebee feeding on the pale primrose-yellow pincushion head of a giant scabious, seen from below against a bright overcast sky, with dark out-of-focus conifers closing in on both sides and the flower's green stem running down out of the bottom of the frame."

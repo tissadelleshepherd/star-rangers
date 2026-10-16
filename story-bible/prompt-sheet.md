@@ -438,6 +438,26 @@ dense sharp star field behind it, no nebula colour; the dock a lit recess cut
 into the metal and nothing standing up from the surface; no visible tunnel or
 portal; no vessel, person or text in frame. Strike this when filed.
 
+### 2.15 Thirteen Codex-author portraits — prompts written (Fable, 16 October 2026); **run 16 October 2026**, twelve filed; Vhen still open after three rounds
+
+`marlow-calloway`, `perrin-ashgrove`, `vhen`, `ilvane`, `breanainn-o-se`,
+`aoibheann-ni-mheara`, `sile-ni-bhriain`, `mireille-achterberg`, `senna-okoye`,
+`kwame-reyes-osei`, `ione-marrec`, `meret-kolhaas`, `ottoline-farr`, in that
+order: the eight queued on 16 October and the five that gained a species line
+the same day. **All thirteen prompts are written and of record** under the
+ready list in [`images.md`](images.md) § 17, in the shape
+`scripts/image-prompts.js` parses (`--list` reports the thirteen keys as
+pending), with a record for each in [`image-prompts.md`](image-prompts.md);
+the fourteen kept bare (Option A, 16 October) stay listed in § 17 and take no
+prompt. Nothing is generated. On the desktop, run
+`node scripts/image-prompts.js --generate --only <name>` (the two pairs,
+`marlow-calloway,perrin-ashgrove` and `senna-okoye,kwame-reyes-osei`, in one
+call each so they are judged together; `ilvane` carries Syra's filed portrait
+as its reference), triage each variation in the order its entry gives, file
+through `import-image.ps1 -MaxEdge 1200`, and add `image:` and `image_alt` to
+the page from the filed frame, correcting the entry's proposed alt. Strike
+each when filed.
+
 ### 2.8 The Told — theme (queued 30 September 2026)
 
 The children's second door has played Five-O's track since 7 September as a

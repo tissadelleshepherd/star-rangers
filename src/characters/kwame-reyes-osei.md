@@ -2,13 +2,16 @@
 layout: character.njk
 title: "Kwame Reyes-Osei"
 id: kwame-reyes-osei
+species: Human
 role: "Drafting Officer, Contingency Division, AI Governance Commission"
 status: Historical
 aliases:
   - "Dr. Kwame Reyes-Osei"
-tags: [ai-governance-commission, contingency-division, redline-protocol, exploration-budget, governance, risk, kernel-accords, earth, author]
+tags: [ai-governance-commission, contingency-division, redline-protocol, exploration-budget, governance, risk, kernel-accords, earth, author, human]
 description: "The Contingency Division drafting officer who wrote the Redline Protocol of 2704 UCSD, the operating rule for when a generative system's contingent harm outruns its verified gain and command shifts from acceleration to containment."
 known_codex: [redline-protocol]
+image: "kwame-reyes-osei.jpg"
+image_alt: "Kwame Reyes-Osei, a grey-haired man with brown skin and a grey moustache, in a blue-grey high-collared jacket, standing and leaning with both hands on a broad wooden table over a single sheet in a pale stone room, a tall window beside him showing winter trees."
 ---
 
 Kwame Reyes-Osei drafted the Redline Protocol for the Contingency Division of the AI Governance Commission, issued in 2704 UCSD under the [Exploration Budget doctrine](/star-rangers/codex/exploration-budget-doctrine/) that [Senna Okoye](/star-rangers/characters/senna-okoye/) had written three years before, and under the Doctrine Office's authority as exercised within the [Kernel Accords](/star-rangers/lore/ai-safety-kernel/) invariant hierarchy.
@@ -24,7 +27,7 @@ Where the doctrine describes, the protocol decides. Its first sentence is its wh
 
 Reyes-Osei writes in imperatives and lists, and the shortest sentences on the page are the ones with the most weight. His third trigger, the incentive loop, is the one the record shows firing most often, and it is the only trigger of the three that names a human arrangement rather than a system's output. That is a choice about where to look for harm, and the hundred and twenty years of invocations since have borne it out. His closing test is written as an ethical question and filed as an operational one; he does not separate the two.
 
-The record places him at the Contingency Division in 2704 UCSD and nowhere else. It gives no birth, no age, no species, no earlier post and no later one, and does not say what became of him. Whether he and Okoye worked together, or ever met, the record does not say.
+The record places him at the Contingency Division in 2704 UCSD and nowhere else. He is human; the Commission of 2704 UCSD had met no one who was not. It gives no birth, no age, no earlier post and no later one, and does not say what became of him. Whether he and Okoye worked together, or ever met, the record does not say.
 
 ## See also
 

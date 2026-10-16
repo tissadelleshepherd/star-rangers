@@ -10,6 +10,8 @@ aliases:
 tags: [krenyi, boundary, boundary-analyst, survey-corps, survey-archive, doctrinal-division, champions, levril, wholecloth, selvage, cosmology, author]
 description: "A Krenyi boundary analyst of the Survey Corps, selected Champion by field signature, who set down in 2825 UCSD what a Levril taught her over four sittings: that the fold she was certifying was a privilege of the cloth, and that a formcluster with no fold in it has a name."
 known_codex: [the-cloth-as-taught]
+image: "ilvane.jpg"
+image_alt: "Ilvane, a slight woman with medium-brown skin and very short dark hair, in an olive-green Survey Corps jacket, standing in a dim instrument gallery beside a dark viewport, holding a single pale sheet and looking off to the side."
 ---
 
 Ilvane is [Krenyi](/star-rangers/lore/krenyi/), one of the Quiet-Built, and a boundary analyst of the [Survey Corps](/star-rangers/lore/star-rangers-survey-corps/). *Nai* before her name is the state-marker her people use, a courtesy meaning *still relevant here*, and not part of the name. She is the author of one document in the record, [The Cloth, as Taught](/star-rangers/codex/the-cloth-as-taught/), set down at the Division's request and received in 2825 UCSD, and the record holds her as a [Champion](/star-rangers/glossary/champions-heroes/), selected by field signature, as every selection is filed.

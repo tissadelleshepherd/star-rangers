@@ -6,7 +6,7 @@ species: AI (Kernel-Compliant Social Gynoid — classic design)
 role: Detective Assistant, Eden Space Habitat Civil Detective Bureau
 status: Active
 aliases: []
-tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact, undercover-pets.com]
+tags: [ai, kernel-compliant, investigative, eden, orbital-habitats-compact, undercover-pets.com, season-1]
 description: "Eden's other Detective Assistant: a social gynoid of a classic design — the least advanced mind in the bureau, the best reader of faces on the habitat, and a machine whose emotions are performed, flawless, and no impediment whatsoever."
 image: "lucene-9000.jpg"
 image_alt: "Lucene-9000, who looks like a real woman and almost too perfect: dark hair drawn back without a strand out of place, a calm, evenly symmetrical face, seated very still at an interview-room table in a collarless teal bureau jacket, hands folded, watching the person across from her, whose shoulder fills the foreground."

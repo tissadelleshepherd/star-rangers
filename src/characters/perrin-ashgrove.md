@@ -10,6 +10,8 @@ aliases:
 tags: [human, star-rangers, officer, musician-specialization, music-corps, slipwave, eden, anthem, music, culture, author]
 description: "Slipwave's percussionist, who enlisted after Tissadelle Shepherd did, holds Officer rank with the musician specialization, keeps the circulated master of Protectors of the Fold in his own audio stock, and is one of the two people cadet cohorts learned the anthem from."
 known_codex: [protectors-of-the-fold]
+image: "perrin-ashgrove.jpg"
+image_alt: "Perrin Ashgrove, a broad man with light olive skin, a short beard and curly dark hair tied back, in a dark plum-grey uniform, seated in the same wood-panelled common room playing a hand drum held on his knee and looking off to one side; a second drum and a stringed instrument rest nearby."
 ---
 
 Perrin Ashgrove played percussion in [Slipwave](/star-rangers/glossary/slipwave/), the three-person spacer-folk band that worked [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/)'s civilian arts circuit for a little under two years, mostly in dock-adjacent common rooms. The band's vocalist was [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/), who sang and wrote for it before her Cadet standing was confirmed, and whose Music Corps placement it was; her Cadet posting began in the summer of 2826 UCSD. Ashgrove and [Marlow Calloway](/star-rangers/characters/marlow-calloway/), the band's strings, enlisted not long after she did. Neither chased her career.

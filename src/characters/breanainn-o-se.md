@@ -10,6 +10,8 @@ aliases:
 tags: [celtic-union, saint-aoife, levril, threshold-station, dock-seven, chaplaincy, working-paper, author, human]
 description: "The Ridgemoot chaplain who keeps Saint Aoife's devotion at Threshold Station and co-wrote the Warm-Edge Correlation, contributing one caution: that the devotion has every reason to want the warm edge to mean mercy, which is precisely why it must not be the one to say so."
 known_codex: [the-warm-edge-correlation]
+image: "breanainn-o-se.jpg"
+image_alt: "Bréanainn Ó Sé, a grey-haired, grey-bearded man in a long dark coat, standing on a stone sea wall at dusk with his hands in his pockets and looking out to the side; the wall runs out past dark rocks to a low dock with a few lights on calm water."
 ---
 
 Bréanainn Ó Sé is a Ridgemoot chaplain of the [Celtic Union](/star-rangers/lore/celtic-union-of-planets/) who keeps [Saint Aoife's](/star-rangers/lore/saint-aoife/) devotion and serves [Threshold Station](/star-rangers/lore/threshold-station/) under the Union's devotional chaplaincy. The record holds one paper of his, written jointly with the Survey Archive's reconciliation desk, and his part in it is a single caution, offered in his own name and binding no one.

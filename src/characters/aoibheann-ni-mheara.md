@@ -9,6 +9,8 @@ aliases:
 tags: [celtic-union, tir-na-nog, registry, governance, titles, official-documents, author, human]
 description: "The Keeper of the Rolls on Tír na nÓg who declined the petition for courtesy recognition of ancestral titles, as every Keeper before her had, and minuted the reason in full so that the next Keeper need only sign."
 known_codex: [the-courtesy-that-was-withdrawn]
+image: "aoibheann-ni-mheara.jpg"
+image_alt: "Aoibheann Ní Mheara, a white-haired woman in a deep green wool dress and grey wrap, standing at a deep window in a limewashed room with a dark-bound volume under her arm and one hand on the stone sill, looking out over dry-stone walls and a cut field toward a misty upland, a tiny grey drone hanging far off in the sky."
 ---
 
 Aoibheann Ní Mheara keeps the Rolls on Tír na nÓg: the Registry of Rolls and Holdings, the office that holds what the [Celtic Union's](/star-rangers/lore/celtic-union-of-planets/) flagship world is prepared to write down about itself. The Rolls are believed; that is all a register is; and every line she holds is checkable against ground someone can walk — a boundary, a harvest, a billet, a grave.
