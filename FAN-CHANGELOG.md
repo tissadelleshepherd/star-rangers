@@ -10,6 +10,8 @@ on. The fork's own releases, if any, are tagged with a suffix, such as
 
 ## [Unreleased]
 
+- **A second fan thread, Crossing Nights, Season 91, with its first scene, [The Lamp on the Ridge](src/seasons/s91/e01/s91e01c01.md)** (`lib/storyline-threads.js`, `src/threads/fan-crossing-nights/`, `src/seasons/s91/`, 2026-10-20). Unofficial fan fiction, labelled as such on every page. On a crossing night on Drithane, a glasshouse keeper and the relay beacon tender on the ridge each see one light left burning at the other's place, while each has their own lights out. Two invented viewpoints, no `canon_facts`, no images, and on no edition's tier.
+
 ## [1.42.0+fan.1] — 2026-10-16
 
 The fork's first release: the original's 1.42.0 and its commits up to PR #1284, plus everything below.
