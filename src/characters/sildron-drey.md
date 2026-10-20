@@ -10,7 +10,7 @@ aliases:
 tags: [msc, mars, sol-system, solar-command, consolidation-hearing, founding, pre-charter, history, human]
 description: "The Military Space Command's Director of Operations through the Eden years — the officer who had argued the technocratic case in writing before General Krast ever said it out loud, held for nine years the post that had to execute it, and did not come back from the leave she took the spring after the hearing."
 image: "sildron-drey.jpg"
-image_alt: "Sildron Drey, a woman in her fifties with short grey hair, in a severe olive-grey service uniform, standing at a bare metal desk with both hands resting on it and looking down at the work. A tall window behind her opens onto flat rust-red Martian ground under a pale sky, with two figures outside."
+image_alt: "Sildron Drey, a woman in her fifties with short grey hair, in a dark brown-grey Military Space Command uniform with a short row of small collar stars and a line of dull braid at the cuffs, standing at a plain pale desk with her hands on it, looking down at a folio; through the window behind her, pale domes on the red plain of Mars."
 ---
 
 Sildron Drey wrote the careful version of General Krast's argument twenty-one years before Krast gave the careless one, and held the post that had to turn it into orders for nine years after that. The second experience is the reason nobody quotes the first.

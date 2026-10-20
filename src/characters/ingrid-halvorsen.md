@@ -22,7 +22,7 @@ Halvorsen does not listen to streams. Colleagues who run a source as audio, and 
 
 She does not say *anomaly*. The Survey retired the word for Counterpane within a week of the first calibration, and she retired it for herself at the same time. A discrepancy that survives correction is a reading. A reading at the width of one membrane is a reading at the width of one membrane. She files at that width and no wider, and will say so to a commanding officer who asks what the shape means, which is the only answer the shape permits until it is home.
 
-What she has not filed anywhere is the question six revisits have left her carrying: what else, at home, has been doing its one thing honestly in the grain every such thing carries, and has never been braided against a rule it was not drawn to. It is not a Survey question. She does not know whose it is. She did not ask it of the Chief Ranger who listened to her bench in the spring of 2829, and noticed that the Chief Ranger did not ask it either ([Honest Clocks (S03E02C02)](/star-rangers/seasons/s03/e02/s03e02c02/)).
+What she has not filed anywhere is the question six revisits have left her carrying: what else, at home, has been doing its one thing honestly in the grain every such thing carries, and has never been braided against a rule it was not drawn to. It is not a Survey question. She does not know whose it is. She did not ask it of the Chief Ranger who listened to her bench in the spring of 2829, and noticed that the Chief Ranger did not ask it either ([Honest Clocks (S03E02C03)](/star-rangers/seasons/s03/e02/s03e02c03/)).
 
 ## Known History
 
@@ -30,4 +30,4 @@ What she has not filed anywhere is the question six revisits have left her carry
 - Present on the Counterpane revisits from the second onward, running the three-source bench on each.
 - Spring 2829 UCSD: the seventh revisit, with Chief Ranger Tissadelle Shepherd commanding the general operations department — the first commanding officer in six revisits to ask for a stream.
 
-See also: [Counterpane: The Discrepant Archecluster](/star-rangers/lore/counterpane-archecluster/), [Inside an Archecluster](/star-rangers/lore/archecluster/), [The Scope of Physical Law](/star-rangers/lore/the-scope-of-physical-law/), [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/), [Honest Clocks (S03E02C02)](/star-rangers/seasons/s03/e02/s03e02c02/).
+See also: [Counterpane: The Discrepant Archecluster](/star-rangers/lore/counterpane-archecluster/), [Inside an Archecluster](/star-rangers/lore/archecluster/), [The Scope of Physical Law](/star-rangers/lore/the-scope-of-physical-law/), [Tissadelle Shepherd](/star-rangers/characters/tissadelle-shepherd/), [Honest Clocks (S03E02C03)](/star-rangers/seasons/s03/e02/s03e02c03/).

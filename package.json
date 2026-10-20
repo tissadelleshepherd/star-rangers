@@ -1,7 +1,7 @@
 {
   "name": "star-rangers",
-  "version": "1.42.0",
-  "description": "Fian Ilchruinne — a multi-viewpoint hard-science-fiction novel with one licensed deviation. The stars call us forward with hope; to protect what is good and to see what is true.",
+  "version": "1.44.0",
+  "description": "Fian Ilchruinne — an open-ended, multi-viewpoint hard-science-fiction story with one licensed deviation. The stars call us forward with hope; to protect what is good and to see what is true.",
   "main": "index.js",
   "scripts": {
     "build": "eleventy && pagefind --site _site",

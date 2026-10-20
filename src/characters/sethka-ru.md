@@ -6,7 +6,7 @@ species: Serephine Dunekin
 role: Long-Range Scout
 status: Active
 aliases: []
-tags: [alien, serephine, desert-world, thin-atmosphere, reconnaissance, season-1]
+tags: [serephine, desert-world, thin-atmosphere, reconnaissance, season-1]
 image: "sethka-ru.jpg"
 image_alt: "Sethka Ru, a Serephine Dunekin scout, on a high stony ridge at dusk. The body is a low pale sealed carapace held clear of the ground on six slender radial limbs, with several enormous thin translucent respiratory vanes unfurling from its upper surface, caught halfway open for the evening margin. Small dark eye-spots glazed with pale membranes ring the carapace."
 description: "A Serephine Dunekin scout from a cold desert planet with thin air and extreme day-night temperature swings."

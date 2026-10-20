@@ -294,17 +294,17 @@ permalink: /start/
   <figure class="lore-diagram">
 <svg viewBox="0 0 640 394" role="img" aria-labelledby="arranged-title arranged-desc">
 <title id="arranged-title">How the record is arranged</title>
-<desc id="arranged-desc">Four nested boxes show the reading tiers. Children, which reads interesting and playful, is innermost; young adult, mysterious, with exploration and adventure, contains it; general, deeper, contains that; and contemplative, free to question everything, contains them all. Each tier carries everything inside it and adds its own storylines.{% if edition.tier %} This edition sits at the {{ edition.tier | replace("-", " ") }} tier.{% endif %} Below, a row of six boxes shows the units inside a storyline, largest to smallest: thread, season, episode, chapter, scene, and viewpoint. A note under the season box says a season may run as two or more strands, parallel storylines that meet at a fixed point.</desc>
+<desc id="arranged-desc">Four nested boxes show the reading tiers. Children, which reads interesting and playful, is innermost; young adult, sensual and romantic, exploring, contains it; general, deeper, mysterious and strategic, contains that; and contemplative, free to question everything, contains them all. Each tier carries everything inside it and adds its own storylines.{% if edition.tier %} This edition sits at the {{ edition.tier | replace("-", " ") }} tier.{% endif %} Below, a row of six boxes shows the units inside a storyline, largest to smallest: thread, season, episode, chapter, scene, and viewpoint. A note under the season box says a season may run as two or more strands, parallel storylines that meet at a fixed point.</desc>
 <text x="20" y="28" class="sm mute">One record at four reading tiers: each carries everything inside it, and adds its own storylines</text>
 <rect x="20" y="44" width="600" height="196" rx="6" class="{% if edition.tier == "contemplative" %}box-1{% else %}box-2{% endif %}"/>
 <text x="34" y="66">Contemplative{% if edition.tier == "contemplative" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
 <text x="606" y="66" text-anchor="end" class="sm mute">free to question everything</text>
 <rect x="40" y="78" width="560" height="148" rx="6" class="{% if edition.tier == "general" %}box-1{% else %}box-2{% endif %}"/>
 <text x="54" y="100">General{% if edition.tier == "general" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
-<text x="586" y="100" text-anchor="end" class="sm mute">deeper</text>
+<text x="586" y="100" text-anchor="end" class="sm mute">deeper, mysterious and strategic</text>
 <rect x="60" y="112" width="520" height="100" rx="6" class="{% if edition.tier == "young-adult" %}box-1{% else %}box-2{% endif %}"/>
 <text x="74" y="134">Young adult{% if edition.tier == "young-adult" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
-<text x="566" y="134" text-anchor="end" class="sm mute">mysterious, with exploration and adventure</text>
+<text x="566" y="134" text-anchor="end" class="sm mute">sensual and romantic, exploring</text>
 <rect x="80" y="146" width="480" height="52" rx="6" class="{% if edition.tier == "children" %}box-1{% else %}box-2{% endif %}"/>
 <text x="94" y="168">Children{% if edition.tier == "children" %}<tspan class="sm fill-1"> · this edition</tspan>{% endif %}</text>
 <text x="546" y="168" text-anchor="end" class="sm mute">interesting and playful</text>

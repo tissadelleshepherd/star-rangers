@@ -329,6 +329,10 @@ module.exports = function(eleventyConfig) {
   // renders it so its Sitemap line can carry the right absolute domain
   // per deploy target (see src/_data/site.js and scripts/cpanel-deploy.sh).
   eleventyConfig.addPassthroughCopy({ "src/static/.well-known": ".well-known" });
+  // The IndexNow key, served at the site root as <key>.txt so Bing and the
+  // other IndexNow engines can confirm a submission came from this site. One
+  // key serves every domain; scripts/indexnow.js finds it in _site/.
+  eleventyConfig.addPassthroughCopy({ "src/static/indexnow": "/" });
 
   // Nunjucks' own built-in `slice` filter splits an array into N groups
   // (Jinja2's "columnize" behavior) rather than taking the first N items,

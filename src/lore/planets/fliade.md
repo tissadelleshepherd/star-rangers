@@ -2,6 +2,7 @@
 layout: lore-entry.njk
 title: "Fliade"
 revealed_by: s11e02c01
+revised_by: [s14e02c03]
 category: "Locations"
 tags: [fliade, pandoids, anstolik, survey-world, cavern-biosphere, first-contact, below-the-roof, star-rangers, locations]
 description: "A cold terrestrial world whose biodiversity lives underground, and whose deep-cavern people the survey found before anyone had proposed doing anything to the planet — the rare case where the sapience clause arrived early enough to matter."
@@ -34,9 +35,11 @@ They are large, powerfully built and upright, with thick fur that reads as grey 
 
 They are calm and reclusive by every account the survey has filed, and they hold the deep networks by advantages the deep networks reward: strength, and an intimacy with vertical broken ground that no visiting instrument has matched.
 
+The survey's sightings are not of one community. The deep networks are wider than anything it has mapped, and Pandoids have been filed in more than one cavern system that no mapped passage joins. The bodies filed are not all alike, in size, in coat or in the plan of the face, as a people kept apart by rock for long enough would not be. How many such communities there are, whether they know of one another, and what any of them calls itself, the record has not established.
+
 **They do not travel in space, and they keep their record by speaking it.** Those are two specific facts about what the Pandoids do, and the record states them as such — not as a level, a stage, or a distance behind anyone, because [there is no such scale to be behind on](/star-rangers/lore/what-the-record-refuses/). A people whose world is a warm sealed interior beneath a lethal surface was never presented with the sky as a problem to be solved. A people who keep what they know in speech and in the memory of a community have a record with different properties from a written one — one that cannot be seized, cannot be edited by a later hand, and does not survive the loss of the people who carry it. That is a different shape of record. It is not a smaller one.
 
-What the Archive holds about Fliade is, accordingly, **observational**. The survey watched, and what it learned it learned that way. Nothing here is an account the Pandoids gave of themselves, and the distinction is worth keeping in view every time this entry says *the Pandoids are* rather than *the Pandoids say*.
+What the Archive holds about Fliade is, accordingly, **observational**. The survey watched, and what it learned it learned that way. Nothing here is an account the Pandoids gave of themselves, and the distinction is worth keeping in view every time this entry says *the Pandoids are* rather than *the Pandoids say*. The one line the survey's log adds is kept as the log keeps it, which is as a fact and not an account: in 2834 UCSD, the survey's fourth year on the ground, something was said at the line by the one who answers to the one who knocked, for a stated interval, and was heard by the party, and was not recorded; the survey holds no word of it and asked for none, and the name in every filing stays the survey's, since nobody has yet been in a position to be told otherwise ([*Heard By*](/star-rangers/seasons/s14/e02/s14e02c03/)).
 
 ## Survey Status
 

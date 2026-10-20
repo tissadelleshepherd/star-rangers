@@ -6,7 +6,7 @@ species: "Vessik (Undersong burrow commensal, unaugmented)"
 role: Resident animal, Eden Space Habitat; no registered status of any kind
 status: Active
 aliases: []
-tags: [detective-agency, vessik, chthonari, eden, undercover-pets.com, alien-animal]
+tags: [detective-agency, vessik, chthonari, eden, undercover-pets.com, animal]
 description: "A small Undersong burrow animal left behind on Eden by a rotating Chthonari engineer — deaf to airborne sound, blind to a human face, and therefore the one resident on Deck 7 who cannot be charmed out of noticing something."
 image: "thrum.jpg"
 image_alt: "Thrum, a small animal with a dark, dusty, finely wrinkled hide and short stubby limbs, pressed flat against a metal plate in a narrow service void with no visible eyes or ears, occupied with the surface beneath it. Warm amber light leaks in from an open panel; cables and ducting recede into the dark."
@@ -14,7 +14,7 @@ image_alt: "Thrum, a small animal with a dark, dusty, finely wrinkled hide and s
 
 Thrum came to [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/) in a sealed transit burrow, in the luggage of a [Chthonari](/star-rangers/lore/chthonari/) fold-scaffold engineer posted in on a two-year Engineering Corps rotation, and did not leave with her. The paperwork on that is thinner than anyone has wanted to examine closely: a vessik is not livestock, not a companion animal under any Compact schedule, and not a [Smart Pet](/star-rangers/glossary/smart-pet/), so there was no form for bringing one aboard and consequently no form for taking one away again.
 
-A **vessik** is a burrow commensal from the [Undersong Belt](/star-rangers/lore/undersong-belt/) — small, low, six-limbed, and built on the same physical principle as the people whose tunnels it lives in. It has no ears worth the name. What it has is the vibration-sensing arrangement common to a great deal of Undersong life: it reads the structure it is standing on, continuously, without deciding to. Chthonari settlements tolerate vessik in the walls for the reason humans once tolerated cats in a granary, and for one other: a burrow whose vessik have gone still is a burrow with a stress fracture in it, and every Chthonari child learns to check that before they learn to read.
+A **vessik** is a burrow commensal from the [Undersong Belt](/star-rangers/lore/undersong-belt/) — small, low, six-limbed, and built on the same physical principle as the people whose tunnels it lives in. It is an animal in the record's general sense, a capable creature that is not sapient. It is not a metazoan: the word marks what it does and claims nothing about what it is made of ([*"Animal" Is a Translation Too*](/star-rangers/lore/cross-biosphere-taxonomy/#animal-is-a-translation-too)). It has no ears worth the name. What it has is the vibration-sensing arrangement common to a great deal of Undersong life: it reads the structure it is standing on, continuously, without deciding to. Chthonari settlements tolerate vessik in the walls for the reason humans once tolerated cats in a granary, and for one other: a burrow whose vessik have gone still is a burrow with a stress fracture in it, and every Chthonari child learns to check that before they learn to read.
 
 On Eden, Thrum lives in the service voids off the Deck 7 galley approach, comes out for warmth, and drums.
 

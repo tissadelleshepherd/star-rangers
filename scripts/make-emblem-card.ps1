@@ -34,7 +34,7 @@
 # a coined epithet, not a field of any page. Pass them in; do not invent them.
 #
 # Usage:
-#   .\scripts\make-emblem-card.ps1 -Page src\lore\mnemari.md -Device figure `
+#   .\scripts\make-emblem-card.ps1 -Page src\lore\mnemari.md -Device sundial `
 #       -Tint '#2A2440' -Accent '#C9A6C0' -Epithet 'Those Who Do Not Forget'
 #
 #   .\scripts\make-emblem-card.ps1 -List          # the device vocabulary

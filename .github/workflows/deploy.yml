@@ -69,6 +69,29 @@ jobs:
           SITE_PATH_PREFIX: ${{ vars.SITE_PATH_PREFIX || '/' }}
           SITE_DOMAIN: ${{ vars.SITE_DOMAIN || 'fianilchruinne.com' }}
 
+      # IndexNow, step one of two (scripts/indexnow.js): compare this build's
+      # sitemap pages with the manifest the live site is serving from the last
+      # deploy, write the new manifest into _site/, and keep the changed URLs
+      # for the indexnow job to send once this build is live. Only this
+      # repository's own build pings; a fork's Pages site does not.
+      - name: Prepare the IndexNow list
+        if: github.repository == 'dermot-r-cochran/star-rangers'
+        run: |
+          host="${SITE_DOMAIN:-fianilchruinne.com}"
+          node scripts/indexnow.js prepare --site _site --host "$host" \
+            --previous "https://$host/indexnow-manifest.json" --out indexnow-pending.json
+        env:
+          SITE_DOMAIN: ${{ vars.SITE_DOMAIN || 'fianilchruinne.com' }}
+
+      - name: Keep the IndexNow list for after the deploy
+        if: github.repository == 'dermot-r-cochran/star-rangers'
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-pending
+          path: indexnow-pending.json
+          if-no-files-found: ignore
+          retention-days: 1
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -84,3 +107,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # IndexNow, step two: the build is live now, so send the changed URLs.
+  # A failure here never fails the deploy; the script exits 0 on any error.
+  indexnow:
+    if: github.repository == 'dermot-r-cochran/star-rangers'
+    runs-on: ubuntu-latest
+    needs: deploy
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/indexnow.js
+          sparse-checkout-cone-mode: false
+
+      - name: Fetch the IndexNow list
+        uses: actions/download-artifact@v4
+        with:
+          name: indexnow-pending
+        continue-on-error: true
+
+      - name: Submit to IndexNow
+        run: node scripts/indexnow.js submit indexnow-pending.json

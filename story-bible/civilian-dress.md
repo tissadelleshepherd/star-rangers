@@ -136,6 +136,14 @@ and the record now holds no character who dresses old. See* Ashcombe, ruled
     *Dress by place* carries no Krenyi entry, and this principle stands in for
     one. On duty a Krenyi Ranger wears the uniform like anyone else (Toval); off
     duty, Syra's plain fitted high-necked garment is the worked example.
+    **The face follows the clothes** (Dermot, 17 October 2026, verbatim:
+    *"Krenyi will use protective hand and face cream sparingly as need, but
+    avoid make up in general"*): a protective cream for hands and face, used
+    sparingly where dry ship air, cold or weather calls for it, and no make-up
+    as a rule. Protection is something added that does something; make-up
+    presents, and a Krenyi face is not presented. *In general* leaves room for
+    a case the record has not met. In prompts a Krenyi face is bare and living,
+    which every Krenyi portrait prompt already asks for by negating make-up.
 
 15. **Every people dresses, marks and colours itself in its own medium, and
     colour is never a tell.** PROPOSED 14 October 2026, at Dermot's two
@@ -396,11 +404,11 @@ Three refusals hold for every block, from the trope default and the standing ima
 - **Prompt vocabulary:** *dark chitin with the iridescent sheen of cooled basalt, worn, grit in the joints; a single seated tab where the record gives one.*
 
 ### Ollune
-- **Conditions and body:** Mostly envelope, a translucent gas bladder several metres across with tendrils and filter-vanes beneath; buoyant only by continuous metabolic effort (`src/lore/ollune.md`). *Derived.*
+- **Conditions and body:** Mostly envelope, a broad low translucent gas bladder several metres across with a dark furred upper face, a ring of filter-vanes beneath the rim and fine tendrils hanging from the centre; buoyant only by continuous metabolic effort (`src/lore/ollune.md`; `species-design.md`, *Ollune — a body from Cirrane*, 20 October 2026). *Derived.*
 - **Coverings and worn things:** *Mass is a tax*: anything carried is lifted *hourly, forever*, and an Ollune holds only what it is using (`ollune.md`). So the people wear nothing that is not at work, and the rare traveller goes in a Federation-built pressure hull (`ollune.md`). *Derived.*
 - **Ornament and role marks:** Office exists only as a **near word**, a chemical mark attributable to the body that made it; the far word binds nothing (`ollune.md`). A role is therefore marked chemically, at close range, by consent, and is invisible to a camera. Ornament for its own sake would be weight, and the word for a rich individual is *heavy*, *and is not flattering*. *Derived.*
-- **Surface colour:** Translucent (`ollune.md`); what a viewer sees is mostly the light through the envelope, amber against the sun in the filed frame, *veined like a leaf held up to the sun* (`images.md`, `ollune.jpg`). The frame's glowing core was refused, since the page gives none. Variation: not stated; proposed: size and veining, not colour. *Derived, with practice.*
-- **Prompt vocabulary:** *translucent veined envelope lit from behind, a short fringe of tendrils and filter-vanes; no glowing core, nothing carried.*
+- **Surface colour:** Translucent (`ollune.md`); what a viewer sees is mostly the light through the envelope, amber against the sun in the filed frame, *veined like a leaf held up to the sun* (`images.md`, `ollune.jpg`). The frame's glowing core was refused, since the page gives none. The dark cap, russet and weathered, is the one opaque colour (`species-design.md`, 20 October 2026). Variation: proposed: size, lean and the cap's patching, not colour. *Derived, with practice.*
+- **Prompt vocabulary:** *a broad low lopsided envelope, a dark furred cap thinning to translucent amber membrane at a fat soft rim, a ring of living filter-vanes beneath, fine straight tendrils hanging like plumb lines; no glowing core, nothing carried.*
 
 ### Pandoids (the Told)
 - **Conditions and body:** Large, upright, powerfully built, thick fur that *reads as grey against the stone* (`src/lore/planets/fliade.md`); about the size of a suited human, round head on a round body, *cute giant teddy bears* rather than sloths (ruled 7 October, `species-design.md`). The deep networks are warm. *Derived.*
@@ -428,7 +436,7 @@ Three refusals hold for every block, from the trope default and the standing ima
 - **Coverings, ornament and surface colour:** Not stated, and nothing is proposed; the Doreth wait for a page.
 
 ### Mnemari, for contrast
-- **Conditions and body:** A humanoid people (`src/lore/mnemari.md`), so cloth and a worn mark are available, as for the Krenyi. *Derived.*
+- **Conditions and body:** Not a humanoid people: the species page's early *humanoid* was clarified on 19 October 2026 as the facilities standard's word, and the body, a level-backed six-limbed walker of Ilenne's cool dry uplands, is derived in `species-design.md`, *Mnemari — a body from Ilenne*. Cloth over a level back is possible and not proposed. *Derived* (the frame), *proposed* (the body).
 - **Dress and ornament:** Not stated. Principle 14 is the Krenyi's and does not transfer. The Setting-Down and the Held Roles are a civic change, not a dress one, and no garment or mark is proposed for them. Principles 1 to 7 apply as for anyone. *Proposed.*
 - **Surface colour:** Not stated, and the image is a card.
 

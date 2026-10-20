@@ -1,8 +1,8 @@
 # Narrative Gaps Checklist
 
-What's actually written versus what the story bible and site copy have committed to. **Re-derived from `src/seasons/` on 2026-10-03**, per this file's own standing instruction not to trust it once stale (the previous derivation, 2026-08-10, said 44 chapters; disk said 69). **Re-counted from disk on 2026-10-06**: the opening line below had still said 69, twelve and seven while the table under it said 86, fourteen and eight, and disk said 93. Open questions this raises are indexed in `open-questions.md`.
+What's actually written versus what the story bible and site copy have committed to. **Re-derived from `src/seasons/` on 2026-10-03**, per this file's own standing instruction not to trust it once stale (the previous derivation, 2026-08-10, said 44 chapters; disk said 69). **Re-counted from disk on 2026-10-06**: the opening line below had still said 69, twelve and seven while the table under it said 86, fourteen and eight, and disk said 93. **Re-derived from `src/seasons/` and `lib/storyline-threads.js` on 20 October 2026**, after the Arcs and Threads extractor (`scripts/extract-arcs.js`) reported the counts below as stale: the file said 93 and 94 chapters, disk said 114 (chapter files only, episode `index.md` files excluded). Open questions this raises are indexed in `open-questions.md`.
 
-**93 chapter files exist across fourteen seasons (0 to 13) and eight storyline threads** (counted 2026-10-06: Season 0 six, 1 eighteen, 2 fifteen, 3 five, 4 two, 5 five, 6 four, 7 three, 8 two, 9 five, 10 seven, 11 eight, 12 nine, 13 four).
+**114 chapter files exist across fifteen seasons (0 to 14) and eight storyline threads** (counted 2026-10-20: Season 0 six, 1 twenty-four, 2 fifteen, 3 eight, 4 six, 5 six, 6 four, 7 three, 8 two, 9 five, 10 seven, 11 eight, 12 nine, 13 four, 14 seven).
 
 ---
 
@@ -12,12 +12,12 @@ Against the 2026-08-10 list:
 
 | It said | Disk says |
 |---|---|
-| 44 chapters, nine seasons, five threads | **94 chapters, fourteen seasons, eight threads** (86 on 3 October; 93 by the 6 October count; 94 on 7 October with S01E01C04) |
-| **Orbital Five-O** — "a thread on one chapter" | **Nine chapters** across Seasons 4 and 10 (*What It Did Not Say*, *Docked Twice*; Season 10's seven) |
+| 44 chapters, nine seasons, five threads | **114 chapters, fifteen seasons, eight threads** (86 on 3 October; 93 by the 6 October count; 94 on 7 October with S01E01C04; 114 by the 20 October count, Season 14 among them) |
+| **Orbital Five-O** — "a thread on one chapter" | **Thirteen chapters** across Seasons 4 and 10 (Season 4's six, from *What It Did Not Say* to *Both Ends*; Season 10's seven) |
 | **Church Space** — "a thread on one chapter" | **Two** (*The Night Office*; *Asteria's Night*, the corpus's first `tier=contemplative` block) |
 | *(Young Star Rangers not listed)* | **Exists** — Season 9, five chapters, its own edition on young.fianilchruinne.com |
-| **Below the Roof** — three chapters | **Seventeen**, across two seasons |
-| **Season 3** — two chapters | **Five** (*What Meridian Asked* added; *Aware of Weather* opened Episode 2, 4 October 2026; *Honest Clocks* added 5 October 2026, the record's first chapter outside the local archecluster) |
+| **Below the Roof** — three chapters | **Twenty-four**, across three seasons (11, 12 and 14) |
+| **Season 3** — two chapters | **Eight** (*What Meridian Asked* added; *Aware of Weather* opened Episode 2, 4 October 2026; *Honest Clocks* added 5 October 2026, the record's first chapter outside the local archecluster; *For the Record*, *Standing Practice* and *Pending a Lead* added 18 October 2026) |
 
 **The lesson stands from last time: count threads, not seasons**, and re-derive before trusting any count here.
 
@@ -30,27 +30,27 @@ Per `lib/storyline-threads.js`. Each is a self-contained narrative with its own 
 | Thread | Seasons | Chapters | State |
 |---|---|---|---|
 | **Founding Era** | 0 | 6 | **Complete** — 2712 departure through the 2723 signing |
-| **Tissadelle Shepherd's Arc** | 1, 3, 5, 6, 7 | 36 | The spine. Ends written; middle thin (S3 four chapters, its Episode 2 opened 4 October 2026); S5 gained its E00 the same day; S1 gained her first viewpoint 7 October 2026 (*Station Time*, S01E01C04) — until then no Season 1 chapter named her |
+| **Tissadelle Shepherd's Arc** | 1, 3, 5, 6, 7 | 45 | The spine. Ends written; middle thin (S3 eight chapters, five in Episode 1 and three in Episode 2, which opened 4 October 2026); S5 gained its E00 the same day; S1 gained her first viewpoint 7 October 2026 (*Station Time*, S01E01C04) — until then no Season 1 chapter named her |
 | **Undercover Pets** | 2 | 15 | Substantial; eleven episodes |
-| **Orbital Five-O** | 4, 10 | 9 | Season 4 two chapters, its E00 the Shepherd guest (4 October 2026); Season 10 complete at seven (the Deputy's strand five, the crew's two), closed 3 October 2026 |
+| **Orbital Five-O** | 4, 10 | 13 | Season 4 six chapters, two in each of E00 (the Shepherd guest, 4 October 2026, and *Nobody at the Desk*), E01 and E02; Season 10 complete at seven (the Deputy's strand five, the crew's two), closed 3 October 2026 |
 | **Church Space** | 8 | 2 | The overlay's own thread; tier-gated to the contemplative editions |
 | **Young Star Rangers** | 9 | 5 | **Complete** — one episode, the corridor season; the fifth chapter (3 October 2026) pays the officer's silence, ruled complete the same day |
-| **Below the Roof** | 11, 12 | 17 | Two seasons, each two episodes, both complete (`below-the-roof-second-season-treatment.md`) |
+| **Below the Roof** | 11, 12, 14 | 24 | Seasons 11 and 12, each two episodes, both complete (`below-the-roof-second-season-treatment.md`); Season 14, the third season, drafted 19 October 2026, seven chapters in two episodes, four below and three above (`below-the-roof-third-season-treatment.md`) |
 | **The Infinite Castle and the Timeless Library** | 13 | 4 | Registered 3 October 2026; two chapters in each strand, the convergence closing both, all rulings landed 4 October; whether either strand grows is Dermot's (`five-islands-treatment.md`) |
 
 ---
 
 ## The actual gaps, in order of how much they cost
 
-### 1. Two threads are still thin
+### 1. Thin threads
 
-**Orbital Five-O** carries two seasons on nine chapters, Season 4 on two of them, and **Church Space** carries a deployment (church-space.site and .online, their own comments board) on two. Both are advertised as threads in their own right. Five-O's second season (`five-o-second-season-treatment.md`) and the Chthonari strand are treated and unwritten; the Five-O case mechanism and the three-rung ladder (bureau, Five-O, Rangers) were ruled 8 September and have one chapter pair to show for them.
+**Church Space** carries a deployment (church-space.site and .online, their own comments board) on two chapters, and is advertised as a thread in its own right. **Orbital Five-O**, listed here until 20 October 2026 on nine chapters with Season 4 on two, now carries thirteen, Season 4 on six. Its second season (`five-o-second-season-treatment.md`) is written as Season 10, seven chapters with the Chthonari crew's strand among them, closed 3 October 2026; the Five-O case mechanism and the three-rung ladder (bureau, Five-O, Rangers) were ruled 8 September.
 
-### 2. Season 3 is three chapters for a whole rank-era
+### 2. Season 3 is eight chapters for a whole rank-era
 
-*Filed Under Noise*, *Independent Verification* and *What Meridian Asked* stand in for Principal → Section Lead → Chief Ranger; *Aware of Weather* (Section Lead, summer 2828) and *Honest Clocks* (Chief Ranger, spring 2829, the Counterpane revisit) have since paid the two later rungs once each.
+*Filed Under Noise*, *Independent Verification* and *What Meridian Asked* stand in for Principal → Section Lead → Chief Ranger; *Aware of Weather* (Section Lead, summer 2828) and *Honest Clocks* (Chief Ranger, spring 2829, the Counterpane revisit) have since paid the two later rungs once each, and *For the Record*, *Standing Practice* and *Pending a Lead* were added 18 October 2026 (this heading said three until 20 October).
 
-- [ ] The Sentinel–Meridian connection: Sohrel has declined to raise it without stating a reason on the record. Either a declination that finally costs her something, or the raising.
+- [x] The Sentinel–Meridian connection: Sohrel has declined to raise it without stating a reason on the record. Either a declination that finally costs her something, or the raising. Paid 18 October 2026 by S03E01C04 *For the Record*: the declining costs her; the reason is stated and the question passes to the Prime Ganglion's office.
 
 ### 3. Season 5 opens at E01
 
@@ -62,7 +62,7 @@ Per `lib/storyline-threads.js`. Each is a self-contained narrative with its own 
 
 From `story-bible-summary.md`'s "Established future-canon waypoints" — hooks that exist in character entries and have never landed in prose:
 
-- [ ] **Karla Wender: Chief Pilot → High Captain.** Asserted on her page, dramatised nowhere.
+- [x] **Karla Wender: Chief Pilot → High Captain.** Asserted on her page, dramatised nowhere. Paid 18 October 2026 by S05E00C02 *Asked Across* (late spring 2831); the intermediate steps are dated on her page and held off the page.
 - [x] **The Tissadelle/Wender relationship**, developing "across early seasons" per her character entry; the early seasons are written and it isn't in them. *Part-paid 4 October 2026: the formal pairing and its first meeting (S05E00C01); the earlier, informal half, Wender in rooms the rooms did not require, is still told only by report.*
   **Paid 4 October 2026** by S03E02C01 *Aware of Weather*: the informal half
   on the page once, the summer of 2828 at Threshold, Wender in a room no
@@ -82,7 +82,8 @@ Added 2026-10-03 at Dermot's direction, after an inventory of unfinished
 arcs, storylines, threads and strands. The table above counts threads; this
 section counts the smaller units the registry has no row for, so the next
 re-derivation checks them too. Re-derive against `story-bible/` and
-`src/seasons/` before trusting it.
+`src/seasons/` before trusting it. Its chapter counts were re-checked
+against `src/seasons/` on 20 October 2026 and held.
 
 ### Convergences fixed and not yet on the page
 
@@ -139,7 +140,18 @@ Finished prose in the story-bible waiting for a slot; each stays out of
 
 ### Character arcs with promised beats
 
-- [ ] **Karla Wender, Chief Pilot → High Captain** — on her page, dramatised
+- [x] **Tissadelle as a Novice** — her page, the Music Corps page and the
+  Slipwave entry all said she was taken on provisionally and placed with the
+  band, and no chapter showed it. Paid 19 October 2026 by S01E00C06 *The Time
+  the Study Needs* (Dermot's direction, *"add at least one scene where
+  Tissadelle is still a novice or when she becomes a novice"*): late summer
+  2825 on Eden, the night the branch's Principal settles what she has been
+  hearing, the morning the form is filled and the one-bar tab seated, and the
+  band told before the set. Varga, Tissadelle and Ashgrove POVs. Whether any
+  other member of her system was present in 2825 is left unmarked, as her page
+  and Tobble's leave it.
+
+- [x] **Karla Wender, Chief Pilot → High Captain** — paid by S05E00C02 *Asked Across*; on her page, dramatised
   nowhere (also under *Standing waypoints* above).
 - [x] **Wender's mentorship of Shepherd** — placed between Seasons 3 and 5
   since 2026-10-03; paid 4 October 2026 by S05E00C01 *Not Asked*, the
@@ -164,9 +176,10 @@ Finished prose in the story-bible waiting for a slot; each stays out of
   Season 10's mount the same day, and Dermot ruled the same day
   (*Agreed*) that Season 9 is the corridor season, five chapters,
   complete in itself.
-- [ ] **Sohrel and the Sentinel–Meridian connection** — declined without a
+- [x] **Sohrel and the Sentinel–Meridian connection** — declined without a
   stated reason; either a declination that costs her something, or the
-  raising (also under *Season 3* above).
+  raising (also under *Season 3* above). Paid 18 October 2026 by S03E01C04
+  *For the Record*.
 
 ### Worlds from the July intake
 

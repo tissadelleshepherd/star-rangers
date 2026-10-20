@@ -22,7 +22,7 @@ permalink: /seasons/s11/e02/
   it was left: it is standing at the line where the party's own feet once stopped, facing them, and its log says
   it was carried, and woke, and was held, and slept. Two readings are filed and neither is chosen. And the one who
   knelt to it, last up the passage, turns round and asks the dark a question, and goes on asking. Then the count:
-  sixty-three shifts of nothing, while the unit's channels fill with what the party stopped seeing — a boulder on every
+  sixteen shifts of nothing, while the unit's channels fill with what the party stopped seeing — a boulder on every
   arrival, a withdrawal from the moving shadow and not the light, a voice at the bottom of the passage — until the
   one who knelt is asked, at last, what the third reading was, and gives it: like a thing at a door, and the
   boulders are the knock. And the morning after: a stone of the planet's own, carried through the squeeze by one

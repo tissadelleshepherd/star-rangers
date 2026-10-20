@@ -6,7 +6,7 @@ species: Chthonari
 role: "Cutter, Federation contractor crew — dock-ring understructure, Eden Space Habitat"
 status: Active
 aliases: []
-tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
+tags: [chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "The sharpest strike of a Chthonari crew of four, and the one who addresses Eden's mind from the deck, as part of the work, without waiting to be introduced — because to a people who listen to structures, a structure that can listen back is a completion."
 image: "tsikk.jpg"
 image_alt: "Tsikk, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, standing alone at the centre of a wide expanse of bare deck plating beneath a habitat's dock ring, all six legs planted and the body raised slightly at the front. The ring's understructure curves overhead, and a long line of walkway lights is coming on around it in the distance, as if the structure had noticed."

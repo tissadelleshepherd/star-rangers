@@ -9,7 +9,7 @@ aliases:
   - "Captain Kilbride"
 tags: [eden, founding, pre-charter, survey-corps, fold-transit, history, human]
 image: "beatrix-kilbride.jpg"
-image_alt: "Beatrix Kilbride, a woman of middle years with grey hair tied back, in a scuffed grey coverall, standing in the open hatch of a docking ring with one hand on the dark frame, looking along the ribbed passage beyond; hoses and pipes along the walls, a grating floor."
+image_alt: "Beatrix Kilbride, a woman of middle years with grey hair tied back, in a clean blue-grey coverall, standing in the open hatch of a pale composite ring passage with one hand on the frame, looking along the passage as it curves away and up with the spin."
 description: "The cargo captain who flew the first confirmed extrasolar transit in a modified hauler with two crew and no authorisation, and who was among the first pilots the Survey Corps recruited at its founding, to teach the corridor to people who would fly it under a charter."
 ---
 

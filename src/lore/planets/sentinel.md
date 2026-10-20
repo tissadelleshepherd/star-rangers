@@ -2,6 +2,7 @@
 layout: lore-entry.njk
 title: "The Sentinel"
 revealed_by: s03e01c01
+revised_by: [s03e01c04]
 category: "Locations"
 tags: [sentinel, halyx-system, meridian, cerebraun-hegemony, em-pulse, tissadelle-shepherd, anomaly, boundary-adjacent, locations]
 description: "An airless, uninhabited world in the Halyx System, catalogued for centuries as an automated hazard beacon — until a Star Ranger with a musician's ear caught the structure in its EM pulse that pattern-recognition software had been filtering out as noise."
@@ -32,7 +33,7 @@ Pattern-recognition software had correctly reported that the pulse matched no kn
 
 The finding forced the Sentinel's designation off "automated hazard beacon, low priority" and onto an active anomaly docket — the kind of reclassification that, elsewhere in Star Rangers institutional history, has taken far longer to happen than it should have. The Survey Corps has not yet determined origin, intent, or mechanism. Musical structure is not proof of intelligence behind it, and nobody working the case claims otherwise; it is proof only that the signal is not what everyone had been comfortable assuming it was.
 
-Whether the Sentinel is Meridian-built, older than Meridian's own reef-cities, or unconnected to Meridian entirely remains unresolved. The parallel to Meridian sapients' own claw-percussion communication — audible, rhythmic, readable at range — has not gone unnoticed by the analysts working the case. Administrator-Voice Sohrel, who holds the Halyx System liaison portfolio and authorised the independent verification that got the file reopened at all, has, on the diplomatic record, declined four separate Hegemony requests to raise the question with Meridian's reef-cities directly.
+Whether the Sentinel is Meridian-built, older than Meridian's own reef-cities, or unconnected to Meridian entirely remains unresolved. The parallel to Meridian sapients' own claw-percussion communication — audible, rhythmic, readable at range — has not gone unnoticed by the analysts working the case. Administrator-Voice Sohrel, who holds the Halyx System liaison portfolio and authorised the independent verification that got the file reopened at all, has, on the diplomatic record, declined four separate Hegemony requests to raise the question with Meridian's reef-cities directly. In the late spring of 2828 UCSD, directed to put the question or state why it was not put, Sohrel stated the reason for the first time: the Hegemony is not prepared to act on any answer the reef-cities could give. The Prime Ganglion's office recorded the reason and reserved the question to itself ([For the Record (S03E01C04)](/star-rangers/seasons/s03/e01/s03e01c04/)).
 
 The reclassification itself survived Survey Corps review six days after the catch — confirmed under supervision rather than taken on Shepherd's word alone, and on narrower grounds than the finding might have implied: structured repetition with variation, not proof of intelligent origin.
 

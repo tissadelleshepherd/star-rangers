@@ -41,9 +41,9 @@ Within the band itself, decades of frost-shatter and volcanic uplift have carved
 
 ## Fauna: the Ridge-Strider
 
-The Ridges are not empty. A native reptile the settlers named the **ridge-strider** — stone-grey, long-tailed, built low and broad-clawed for exactly this terrain — suns itself along the spires through the band's cold mornings, warmed as much by the volcanic rock underfoot as by Lyonesse's own light. Xenobiologists still argue whether its resemblance to Earth's own extinct giant lizards is convergent design for a similar niche or simple pattern-matching by observers who grew up expecting reptiles to look a certain way. The settlers, who named it before any xenobiologist arrived to object, have never much cared which.
+The Ridges are not empty. A native animal the settlers called a reptile and named the **ridge-strider** — stone-grey, long-tailed, built low and broad-clawed for exactly this terrain — suns itself along the spires through the band's cold mornings, warmed as much by the volcanic rock underfoot as by Lyonesse's own light. Xenobiologists still argue whether its resemblance to Earth's own extinct giant lizards is convergent design for a similar niche or simple pattern-matching by observers who grew up expecting reptiles to look a certain way. The settlers, who named it before any xenobiologist arrived to object, have never much cared which.
 
-![A ridge-strider, a large native reptile, sunning itself on a spire in the Sundered Ridges](/star-rangers/images/lore/highland-sentinel-lizard.jpg)
+![A ridge-strider, a large native animal the settlers called a reptile, sunning itself on a spire in the Sundered Ridges](/star-rangers/images/lore/highland-sentinel-lizard.jpg)
 
 ## Settlement Character
 

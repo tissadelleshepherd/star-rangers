@@ -36,7 +36,7 @@ const LORE_ANCHORS = [
   [2609, null, "The Imperium ends", "lore/the-imperium.md", "2609 UCSD"],
   [2689, null, "The Veritas Report reads the war's records", "lore/ai-safety-kernel.md", "2689 UCSD"],
   [2732, null, "Patience First found, the crew alive", "lore/eden-space-habitat.md", "2732 UCSD"],
-  [2790, null, "The Concord restyled; the Federation's Council seat first filled, 2791", "lore/solar-system-concord.md", "2790 UCSD"],
+  [2790, null, "The Concord restyled", "lore/solar-system-concord.md", "2790 UCSD"],
   [2813, null, "Threshold Station built, about", "lore/threshold-station.md", "2813 UCSD"],
   [2831, null, "Dock Seven, the Last Stand", "lore/fold-transit-catastrophic-failure.md", "2831 UCSD"],
   [2833, null, "Archwarden restyled", "lore/star-rangers-command-hierarchy.md", "2833 UCSD"],

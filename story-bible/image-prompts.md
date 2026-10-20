@@ -1633,7 +1633,7 @@ whom*, Dermot's to overrule, and none is written to a page.
 - **Prompt / recipe:** of record in `images.md` § 17; not duplicated here. The Rangers' shell in a dark muted plum-grey with the tab read as a mark and not a count, the instruments given by shape (a shallow-bodied fretted stringed instrument; hand drums as skins over rims) with the stage furniture of our century negated by name, the deck curving up as the hint.
 - **Notes:** triage the stage first (amplifier, microphone, cable, drum kit), then the second face, then the uniform, then the pair against each other. Readings: the date 2826 as the ready list gives it with the frame wide enough that the Officer's tab count cannot be read, so the picture asserts neither rank in that year nor a later one; the shell colour; the faces (Marlow tall and lean, dark brown skin, close-cropped black hair; Perrin broad, light olive skin, dark curly hair tied back, a short beard).
 
-### vhen.jpg — prompt written 16 October 2026, three rounds generated 16 October 2026, NOT FILED (each drew an elephant)
+### vhen.jpg — prompt written 16 October 2026; three whole-body rounds drew an elephant; round 4, a close frame, GENERATED AND FILED 16 October 2026 (variation 2)
 - **Type:** generation, a new portrait of the record's only named Ovruhn, a non-human body from `src/lore/ovruhn.md`
 - **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only vhen`
 - **Date:** prompt 2026-10-16; generation pending
@@ -1713,3 +1713,45 @@ whom*, Dermot's to overrule, and none is written to a page.
 - **Source:** `src/characters/ottoline-farr.md` (the record places her nowhere; the 2826 UCSD annotation its only date; the welfare-specialist method; her amusement in interview), `src/codex/bramble-and-the-backwards-key.md`, `src/glossary/smart-pet.md`, `story-bible/civilian-dress.md` (the habitat professional's default)
 - **Prompt / recipe:** of record in `images.md` § 17; not duplicated here. A small windowless room, a writer at a plain table with a pen on a sheet and one hand on a short stack of thin plain-covered volumes in muted single colours, a private half-smile down at the page; no ferret, no illustrated cover, no window, each refused by name.
 - **Notes:** triage the animal and the picture book first (a ferret, a plush toy or an illustrated cover fails), then the desk (typewriter, computer, lamp, mug), then any window (a view asserts a place), then the face against Kate Ukrainka's filed frame, the Codex's other Smart Pet author. Readings: forties; East Asian heritage, a round face, black hair in a loose low knot, small build, chosen against the filed cast since the page states none; an oatmeal high-necked jumper; no pet in frame, since the page says she writes one and not that she keeps one.
+
+## 2026-10-17 — Arashobal's portrait, prompt written (Fable), nothing generated
+
+One prompt written on Fable under the 11 October model split, for the
+character page rewritten the same day (`src/characters/arashobal.md`: a
+Chief Ranger of the Survey Corps who ran general operations beside Chief
+Pilot Wender, later chief of staff aboard High Captain Wender's command
+ship). It sits in `images.md` as § 18, in the one shape
+`scripts/image-prompts.js` parses, and `--list` reports `arashobal` as
+pending. Nothing generated and nothing filed; the page carries no `image:`
+until a frame is filed from the desktop. The form is § 17's: a documentary
+photograph taken inside the world by a 29th-century camera, 16:9 landscape
+at 1200×675 through `import-image.ps1 -MaxEdge 1200` at finish strength 1;
+the 28 July guardrails, the modesty bar and the standing negative inside the
+blockquote; render negatives; the kind carried by Syra's filed portrait as
+Ilvane's was, with the identity rule applied against every Krenyi filed and
+against Lucene-9000; one face in frame. Readings taken are Fable's under *Who
+approves whom*, Dermot's to overrule, and none is written to the page.
+
+### arashobal.jpg — prompt written 17 October 2026, GENERATED AND FILED 17 October 2026
+- **Type:** generation, a new portrait of the record's fourth Krenyi, the kind carried by Syra's filed portrait; a Ranger on duty, so in uniform
+- **Tool:** Gemini `gemini-3.1-flash-image`, 2K, two variations, planned; the desktop step is `node scripts/image-prompts.js --generate --only arashobal`
+- **Date:** prompt 2026-10-17; generation pending
+- **Source:** `src/characters/arashobal.md` (Chief Ranger, Survey Corps, general operations; chief of staff aboard the command ship; older than Syra by her people's reckoning; *no wasted gesture*; speaks at the listener's speed; *keeping the terms stated*), `src/lore/krenyi.md` (long-lived without apparent degradation, the stillness, the body as the instrument), `images.md` § 1 (Syra's entry as revised 14 October: symmetry, eye set, open pupils with the iris ring, living skin, born not made, never the gynoid Lucene-9000; the trope negatives), § 8 (Toval) and § 17 (Ilvane, whose prompt shape this follows), `src/lore/rank-insignia-and-uniform.md` (the Survey shell in deep olive, the Chief's bar-and-ring tab, shapes not words, no name on clothing, decorations a separate mark), `src/lore/star-rangers-command-hierarchy.md` (the tab colour keyed to track: general operations in slate blue; the command ship as a headquarters that moves), `src/characters/karla-wender.md` (High Captain by Season 5, 2831 UCSD)
+- **References:** `src/images/characters/syra.jpg`, for the kind's look only, with the sentence in the prompt that takes nothing else from it
+- **Prompt / recipe:** of record in `images.md` § 18; not duplicated here. A long low dim staff compartment aboard the command ship, plain matte pale-grey composite with everything stowed behind flush panels and no viewport; standing three-quarters at a chest-high worktable with several pale sheets and one sealed housing with a single unlit indicator, hands still and apart on the table's edge, face turned to a staff officer out of frame so both eyes show the carriers; the deep olive Survey shell with one plain-finished tab carrying a bar and a ring on a slate-blue insert and nothing else; the grey alien, the elf, the gynoid, the admiral's bridge, the medals, the braid and the adviser at a commander's shoulder refused by name.
+- **Negatives (the additions for this post, beside Syra's and Ilvane's guard):** wrinkles, grey hair, white hair, an elderly woman, a grandmother, stooped, frail, a fashion model, a young glamorous woman, make-up, a pointing finger, a raised hand; a plait, a braid, a bun, military braid, gold cord, aiguillette, medals, ribbons, decorations, insignia on the chest, a peaked cap, a military dress uniform; a starship bridge, a captain's chair, a command chair, a viewscreen, a star map, a holographic table, a shadowy adviser at a commander's shoulder, a second face in frame, a figure in the background; a window, a viewport, stars, a planet, a nebula.
+- **Notes:** triage the kind first (an ordinary human woman, or a grey alien, fails), then identity against Syra's, Ilvane's and Toval's filed frames and Lucene-9000's (dark hair drawn back or a seated pose at a table leaking back fails), then the post (bridge, viewscreen, hologram, star map, a window with stars, a second figure), then the uniform (medals, braid, paired tabs, chest badge, dress uniform), then the age (frail or elderly, or model-young). **Readings, each recorded so the face is nobody else's:** a woman, since the page says *she*; the year 2831 UCSD, Season 5's year, since the page dates neither the move nor the frame; older in bearing and of no placeable age, carried as weight (a fuller-set face, settled authority, the one being listened to) and never as wear, since the kind does not degrade; light warm-olive skin (Syra pale, Ilvane medium-brown); straight ash-brown hair between fair and brown, cut level at the jaw and tucked behind the ears (Syra and Lucene-9000 dark and drawn back, Ilvane cropped to the skull, Toval short and dark; not a plait, which is the military braid refused); a broad face with wide high cheekbones, a wide brow and a short square jaw (Ilvane oval with a long jaw); tall and solidly built, square through the shoulders (Ilvane slight); the iris ring dark grey; standing, since Syra and Lucene-9000 sit at a table; the corps badge left unspecified as Ilvane's and Toval's entries leave it, since a second device draws a chest badge; no decorations, since medals on a chief of staff are the admiral the record refuses.
+- **Run:** three rounds of two on Gemini `gemini-3.1-flash-image`, 2K, 17 October 2026, on Opus. Round 1 and 2 drew the frame too wide for the Krenyi carriers, and each round's first variation read as a shop dummy (Dermot); round 2 variation 2 carried the eyes but drew two collar tabs. Round 3 used that face as the reference (`story-bible/reference-art/arashobal-face-2026-10-17.jpg`) and asked for one tab; variation 1 filed at his pick, cropped to 16:9 to remove a foreground figure. The tab shows a ring only.
+
+## 2026-10-19 — *The Elves of Wood, Sky and Water*, codex title card
+
+No generator prompt: a deterministic card from `make-codex-cover.ps1`, in the
+house template, for the Codex entry filed at Dermot's *2 A* the same evening.
+The serif line carries the publisher and the capitals line the author, as on
+*Redline Protocol*. The word *elves* on the card is the title's, which is the
+author's; the record never adopts it. Checked at full size after drawing. The
+author's page carries no portrait, since the record says nothing of the body.
+
+```powershell
+.\scripts\make-codex-cover.ps1 -TitleLines "THE ELVES OF","WOOD, SKY AND WATER" -Category "CULTURAL RECORD" -Subtitle "A traveller's sorting, with the desk's note" -Institution "Westminster Ring Press, New London" -Author "ROSAMUND HALLAM" -Stamp "FILED WITH NOTE" -Motif rules -Out src\images\codex\the-elves-of-wood-sky-and-water.jpg
+```

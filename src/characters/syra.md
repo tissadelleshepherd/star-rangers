@@ -23,6 +23,10 @@ She arrived at Threshold Station in 2826 UCSD having identified a chronometer di
 
 It was not the first time. Twelve years earlier, a Section Lead on the Survey Corps' first party to the membrane of what was later registered as [Counterpane](/star-rangers/lore/counterpane-archecluster/), she ran the routine correlation calibration that returned a residual outside its budget, applied every correction anyone could predict, and filed three words under the raw statistics — *survives correction* — and declined to countersign a smaller one ([Survives Correction (S01E00C05)](/star-rangers/seasons/s01/e00/s01e00c05/)). The finding was accepted at home four months later by people who had never left, and the record's rule that nothing read on that membrane is a finding until it has come home and passed audit was written at that review. She does not mention it. Asked, she gives the material answer: a residual was measured, and it survived correction.
 
+## Fellow of the Survey Corps
+
+Syra is a Fellow of the Survey Corps, the guild's highest [distinction](/star-rangers/lore/guild-distinctions/). It is awarded by the guild's own Fellows on a body of work that has changed how a branch does something. On her certification plate the Survey figure stands up in relief. The record does not say in which branch she holds it, or when it was awarded, only that it came after her standing under Survey Corps jurisdiction was settled; the 2826 protocol note that has her certification *pending review* predates it. A distinction is not rank: she holds the desk at Threshold as a Section Lead or above, and on the question her plate names, Rangers who outrank her ask her first.
+
 ## Character Notes
 
 Syra resists ambiguity not because she dislikes uncertainty but because ambiguity is a feeding condition for certain kinds of entities. She keeps her models explicit. When she does not know something, she says so.

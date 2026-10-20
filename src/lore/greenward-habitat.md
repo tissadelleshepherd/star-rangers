@@ -5,13 +5,13 @@ category: "Locations"
 tags: [greenward, verdance, calyx-system, federation-of-sentient-beings, space-habitat, reciprocal-instrument, star-rangers, locations, human]
 description: "The human habitat in orbit around Verdance — one half of a reciprocal instrument with the Federation of Sentient Beings, and the half whose occupants could go down if the rule were only about air."
 image: "greenward-habitat.jpg"
-image_alt: "A single slender habitat ring, small and unlit, hanging above the cloud-banded limb of a blue-white world, the distance between the two the whole picture"
+image_alt: "Greenward, a plain grey habitat ring turning above the cloud-banded limb of a green and blue world, four thin spokes running in to a small central hub, with one flat radiator panel standing straight out from the hub along its axis; nothing docked, nothing lit, and nothing joining it to the ground"
 galaxy: "Milky Way"
 system: "Calyx System"
 locationType: "Habitat"
 ---
 
-**Greenward** is a single ring in a high circular orbit above [Verdance](/star-rangers/lore/planets/verdance/), holding two hundred and forty people, most of whom will never set foot on the world eight thousand kilometres beneath them. It is the human half of the reciprocal instrument the [Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/) and the [Star Rangers](/star-rangers/lore/formation-of-star-rangers/) concluded within a generation of first contact, and whose other half is [the Guest Ring](/star-rangers/lore/the-guest-ring/).
+**Greenward** is a single ring in a high circular orbit above [Verdance](/star-rangers/lore/planets/verdance/), holding two hundred and forty people, most of whom will never set foot on the world eight thousand kilometres beneath them. It is the human half of the reciprocal instrument the [Federation of Sentient Beings](/star-rangers/lore/federation-of-sentient-beings/) and the [Star Rangers](/star-rangers/lore/formation-of-star-rangers/) concluded in the second generation of contact, after the compact's first renewal, and whose other half is [the Guest Ring](/star-rangers/lore/the-guest-ring/).
 
 The shape is worth setting out plainly once, because the rest of this entry is about where it distorts. It is a mirror: in the Calyx System, Greenward, a human ring above Verdance, home world of the [Verdani](/star-rangers/lore/verdani/), with the Federation as host; in the Bríd System, the Guest Ring, a Federation ring above [Drithane](/star-rangers/lore/planets/drithane/), a charter world of the [Celtic Union of Planets](/star-rangers/lore/celtic-union-of-planets/). Between the two rings stands one document, and *instrument* is that document's word for itself — the drafting sense, a paper that does something, not a device that measures it.
 

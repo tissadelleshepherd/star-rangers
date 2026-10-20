@@ -6,7 +6,7 @@ species: Veyr Basaltborn
 role: Hull Systems Specialist
 status: Active
 aliases: []
-tags: [alien, veyr, high-gravity, volcanic-world, engineering, season-1]
+tags: [veyr, high-gravity, volcanic-world, engineering, season-1]
 description: "A Veyr Basaltborn engineer from a high-gravity volcanic planet, known for pressure-safe hull diagnostics and thermal systems work."
 image: "qiren-tal.jpg"
 image_alt: "Qiren Tal, a Veyr Basaltborn engineer, at work on a hull junction in a dim service space. The body is an open lattice of fine dark iridescent struts with no solid trunk — the bulkhead is visible through it — carried on many slender jointed limbs at irregular angles, several braced for load while others work a single point. Clusters of small compound eyes sit around the upper lattice."

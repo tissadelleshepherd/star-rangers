@@ -6,7 +6,7 @@ species: Chthonari
 role: "Apprentice cutter, Federation contractor crew — dock-ring understructure, Eden Space Habitat"
 status: Active
 aliases: []
-tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
+tags: [chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "The youngest of a Chthonari crew of four on a first off-Belt posting, and the first to hear Eden's third approach mount ring under more than it was left to carry — with nobody in the air to tell."
 image: "tikket.jpg"
 image_alt: "Tikket, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, pressed close against a heavy bolted mounting bracket on bare deck plating beneath a habitat's dock ring, every limb in contact with the metal as if listening through it. Girders, pipework and a distant walkway recede into shadow behind."

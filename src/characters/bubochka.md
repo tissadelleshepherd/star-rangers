@@ -9,7 +9,7 @@ aliases: []
 tags: [detective-agency, rabbit, eden, undercover-pets.com, trainee]
 description: "A trainee rabbit assigned to Agent Barsik at Eden Space Habitat, still learning the agency's oldest lesson: the best cover is being too adorable to interrogate."
 image: bubochka.jpg
-image_alt: "Bubochka, a fluffy white lop-eared rabbit, sitting inside a large brown speckled mug filled with pink and white marshmallows on a wooden table, more marshmallows on the saucer and the table, a linen cloth beside her. Behind her is a pale, seamless kitchen with flush cupboards and herbs on the sill, and through a curved window the habitat's green terraces."
+image_alt: "Bubochka, a fluffy white lop-eared rabbit, sitting inside a large brown speckled mug filled with pink and white marshmallows on a long wooden worktable, a blank folio beside the saucer. Behind her is the bureau filing room: a pale wall of sealed handleless record drawers, a lit ceiling slot, and a sliver of the habitat's terraces through a curved window."
 known_codex: [deck-rounds-and-first-tunnel-survey]
 ---
 
@@ -19,7 +19,7 @@ She reports, in the sense that matters, to [Agent Barsik](/star-rangers/characte
 
 Bubochka's training exercises so far have mostly involved sitting very still in places a working agent has no business being ignored in — a supply mug, a windowsill, the exact centre of someone's afternoon marshmallow break — and cataloguing who walks past without looking twice. For her first months she did not file a report anyone upstream needed to act on. Barsik told her, once, that this was the correct rate of progress.
 
-![Bubochka standing bolt upright on her hind legs on a wooden table in a pale, seamless Eden kitchen, lop ears hanging flat against her head, watching something off-frame, with the mug, saucer and scattered marshmallows beside her and the habitat's terraces through the window](/star-rangers/images/characters/bubochka-alert.jpg)
+![Bubochka sitting bolt upright on a rumpled blanket in her woven sleeping basket, in a floor-level niche of the bureau's wall of sealed record drawers, lop ears down, looking up and to the left; a small speckled bowl of marshmallows beside the basket, and the habitat's terraces through a window at the far end](/star-rangers/images/characters/bubochka-alert.jpg)
 
 ## The Unacceptable Cat
 

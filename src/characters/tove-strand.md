@@ -8,7 +8,7 @@ status: Active
 tags: [human, knarr-line, belt, sol-system, knarrheim, saltvik, the-tally, civilian]
 description: "A Knarrheim-born Knarr Line pilot who did her Saltvik season, has not been questioned on her piloting since, and now flies the far-edge prospecting run — the heading on which a Line convoy found a moored hull with lights in it two generations ago, and the run the Survey Corps rides when the Tally invite it out."
 image: "tove-strand.jpg"
-image_alt: "Tove Strand in a curving ring-deck cargo bay, a gloved hand resting on a rack of pale sealed cylinders: grey-blue coveralls over a cream knitted jumper, red-brown hair pinned up, looking along the bay away from the camera."
+image_alt: "Tove Strand in a habitat-ring cargo bay whose floor climbs away ahead of her, a gloved hand on one of a wall of round pale cylinder end-caps: blue-grey coveralls over a cream knitted jumper, red-brown hair plaited and pinned up, looking up the bay away from the camera."
 ---
 
 Tove Strand flies ice. That is the whole of her trade and she would not thank anyone for making more of it: a [Knarr Line](/star-rangers/lore/knarr-line/) hauler on the far-edge prospecting allocation, out past the last of the Belt's worked claims and back, a leg long enough that the crew gives the hull a name before the registry does.

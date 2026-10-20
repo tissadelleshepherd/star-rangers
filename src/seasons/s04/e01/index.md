@@ -15,7 +15,7 @@ permalink: /seasons/s04/e01/
 
 <h1 class="page-title">Season 4 · Episode 1</h1>
 <p class="page-intro">
-  A quarterly berth-registry reconciliation turns up a maintenance drone docked at two habitats in the same hour. Every ledger is internally right — which is exactly why the case belongs to nobody until Five-O takes it.
+  A quarterly berth-registry reconciliation turns up a maintenance drone docked at two habitats in the same hour. Every ledger is internally right — which is exactly why the case belongs to nobody until Five-O takes it. Afterwards, the one reader on Eden that never stopped seeing the task force's raven asks her a question nobody else had.
 </p>
 
 {% set seasonNumber = "4" %}

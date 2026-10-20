@@ -9,6 +9,8 @@ aliases:
 tags: [ovruhn, thavren, xenology, chorus-keeping, federation-of-sentient-beings, contact, author, non-humanoid]
 description: "The Ovruhn keeper of the meeting-chorus of Thavren whose chorus-held account of humans, the loud people whose bodies and words sing different songs, was rendered into text at one recital and found by its keeper to be quiet, but not wrong."
 known_codex: [the-two-songs-of-the-loud-people]
+image: "vhen.jpg"
+image_alt: "Part of Vhen, an Ovruhn, seen close: a great curved wall of matte, finely creased grey-brown hide fills most of the frame, and from its lower edge a fan of smooth boneless tendrils reaches out, their fine tips resting on a low kerb of pale worked stone; beyond, a pale bedrock floor runs into bright white haze, with a few soft grey masses far off."
 ---
 
 Vhen is a keeper of the meeting-chorus of Thavren: the [Ovruhn](/star-rangers/lore/ovruhn/) chorus that holds the keeping of the loud people, which is to say humans, the way the Ovruhn hold everything worth keeping — not written, but retold in overlapping voices, checked against every keeper present, and surviving as whatever survives the room. The record holds one account of theirs, and holds it only as a rendering. No archival master exists or can; the master is the chorus. The Archive's translation desk took the text at one recital, by consent, flattened one keeper's line through it to a single voice, and marked the under-song only where the chorus's response made its content unmistakable. Vhen reviewed the rendering and is recorded as finding it "quiet, but not wrong."

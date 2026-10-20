@@ -5,8 +5,6 @@ revealed_by: s12e02c01
 category: "Institutions"
 tags: [terraforming, transformation-protocols, safety, ai-safety-kernel, institutions, kernowek-reach, mars]
 description: "The safety doctrine governing when — and whether — a frontier world may be terraformed at all, and why every major Solar System polity ended up with its own version of the same answer: slowly, incompletely, and never on a Kernel-compliant system's say-so alone."
-image: "frontier-transformation-protocols.jpg"
-image_alt: "A single wooden survey post with a red band driven into rocky ground on a ridge, a wide valley of lakes and scrub and distant mountains beyond under morning light"
 ---
 
 Every terraforming disaster the record actually documents shares one root cause: someone in a hurry had the authority to start, and nobody in the chain had the authority to make them wait.

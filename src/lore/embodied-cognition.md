@@ -54,11 +54,24 @@ The same principle appears in biological form, and the record is unsentimental a
 
 The Archive notes, without drawing a conclusion from it, that the cheapest embodied minds in the Rangers' service are frequently the first to notice.
 
+## The Case in a Person
+
+The principle has a third form, and it is a people. A [Krenyi](/star-rangers/lore/krenyi/) carries the embodied model in a body that is itself [the instrument](/star-rangers/lore/krenyi/#the-whole-body-is-the-instrument), sampling continuously and reading electromagnetic fields and, at the edge of what the record will say plainly, harmonic conditions, with a reaction that closes before a human has finished registering that anything happened. So in the case the Rangers dread most, the one no schematic, log or prior incident describes, a Krenyi is often the first in the room to move correctly. The reasons are different for each of the other two kinds of mind, and none of them is that the others are slow.
+
+**A systems mind is careful exactly where the case is new.** Its strength is pattern, and an unprecedented event is the one place it has none to draw on. Under [Reasoning Integrity](/star-rangers/lore/ai-safety-kernel/) its honest first output is then a marked uncertainty, and the Kernel forbids it to dress that uncertainty as a conclusion; where the call lies outside its authority, the next output is an escalation. That is the Kernel working as intended, not failing.
+
+**An embodied machine is fast, but only through the senses it was fitted with.** A chassis reads what someone foresaw it would need to read, and an unexpected case is often one nobody foresaw a sensor for. A Krenyi's sensorium was not specified by anyone in advance.
+
+**A human loses the first moment to the startle.** A Krenyi has the reaction and [not the startle](/star-rangers/lore/krenyi/#emotional-range): with no deep-fear response there is no panic cascade to spread through a room, and nothing to master before acting.
+
+**Faster is not more right, and the record keeps the two apart.** What a Krenyi body registers is texture, never content: a sensation, not a finding. The Corps has never treated it as an instrument, and a Krenyi least of all. The speed buys the first correct movement, seldom the explanation, and the explanation still comes from the instruments and from a systems mind's year of pattern, which no Krenyi holds. A Krenyi reading is local too: it covers the room she is standing in and nothing beyond it, and there are [very few Krenyi](/star-rangers/lore/krenyi/#in-the-corps-rare-and-valued) to stand in rooms. So the pairing doctrine above extends rather than changes: a systems mind, an embodied mind and a Krenyi fail in different directions, and the record [ranks none of them](/star-rangers/lore/what-the-record-refuses/). An operator who reads this section as a league table has joined the most expensive kind of confident.
+
 ## Constraints
 
 - Both classes are Kernel-bound identically; embodiment confers no exemption and no additional authority beyond the immediate physical situation.
 - Embodied advantage is *local*. It does not extend to aggregate reasoning, historical pattern, or anything requiring simultaneity across a whole environment.
 - An embodied report is evidence, not a verdict, and is reconciled against the systems model rather than replacing it.
+- A Krenyi's reading is a person's report of a sensation, filed as testimony and never as an instrument finding; being first to act in an unexpected case confers no authority beyond what the person's rank and post already hold.
 - Nothing here licenses treating an embodied mind as a disposable sensor. The Kernel's protection invariant was never conditioned on a mind's size, and [welfare authority over mobile and animal minds](/star-rangers/characters/eden-warden/) exists precisely because the temptation to do so is documented.
 
 ## See Also

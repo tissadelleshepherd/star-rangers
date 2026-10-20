@@ -45,6 +45,7 @@ The 21st century is the anomaly. It is the **only era in which very high complex
 | Social structure | Feudal | Nation-state and corporate | Guild–parameter-based governance |
 | Infrastructure | Physical, visible | Massive and visible (roads, grids, data centres) | Embedded, extradimensional, unseen |
 | Transportation | Slow, local | Fast, global | Field-based, range-tiered (short-range ascent, medium-range harmonics, long-range fold-drift) |
+| Scarcity | Survival itself uncertain | Survival met for many, unevenly | Survival needs met everywhere; everything else allocated with care |
 | Failure mode | Famine, war, plague | System collapse, climate disruption, supply shocks | Invisible system drift → sudden catastrophic edge cases |
 
 ---
@@ -156,6 +157,14 @@ In the 21st century: a service vehicle arrives. Sensors scan. Parts come from in
 In the 29th century: the cart breaks, dissolves into light before it fully lands, and by evening a new one waits in its place.
 
 All three worlds solve the same problem. Only the third leaves the witnesses unable to say whether the hidden system is operating cleanly, drifting toward failure, or preserving a dangerous silence.
+
+## Enough, and Nothing Wasted
+
+In the 29th century, nobody in settled space goes without what survival needs: air, water, warmth, food, shelter and care. In that sense the age is past scarcity. It is not past budgeting. Materials, energy, hull time and skilled hands are still finite. They are allocated carefully, and very little of them is wasted. Nothing is wasted on purpose. The Reclaimers take back what use leaves behind, and a mend made in kind is the ordinary answer to wear, not a poor substitute for replacing a thing.
+
+A larger undertaking still has to be planned and paid for before it begins: a new ring, a survey season, a command ship, a hull taken out past the worked claims. Its makers argue it through, cost it and schedule it, as any age's builders did. A clean, quiet, well-kept room is the visible half of that discipline. The careful ledger behind it is the other half.
+
+Because survival is not what a working life is for, a career is chosen for what it offers: the opportunities, what it teaches, and the values a person holds. Routine or hazardous work that nobody wants to do can be done by machines. But a machine is never set to push aside someone who has chosen to work with their hands, whether as a craft or for the pleasure of it, and never to shut them out of that work. The stonemason above works with tools that help, and nobody has replaced them.
 
 ---
 

@@ -22,4 +22,6 @@ Petrakis treats Eden's fold-adjacent anomaly reports as a genuine civic hazard r
 
 She has never asked what Superintendent [Oyelaran](/star-rangers/characters/rasa-oyelaran/)'s bureau actually does with its station-mascot livestock line item, on the private theory — never stated in a public session — that a Mayor who asks every question she's entitled to ask stops being able to trust the answers she gets to the ones that matter.
 
+She holds facts to the same rule. In the deep winter of 2827 UCSD the Compact's task force filed a bonded cradle's unexplained reading on its own record, and she declined to put it before the budget committee in support of the review it had by then declined three times. The crossing had run dock to dock on the Compact's own instruments and touched nothing beside Eden, and she would not do with a Mayor's sentence what the task force had refused to do with a Commander's ([Both Ends (S04E02C02)](/star-rangers/seasons/s04/e02/s04e02c02/)).
+
 See also: [Space Commissioner Zara Wayland](/star-rangers/characters/zara-wayland/), [Superintendent Rasa Oyelaran](/star-rangers/characters/rasa-oyelaran/), [The Orbital Habitats Compact](/star-rangers/lore/orbital-habitats-compact/), [Eden Space Habitat](/star-rangers/lore/eden-space-habitat/), [The Ring-Rail](/star-rangers/lore/eden-ring-rail/).

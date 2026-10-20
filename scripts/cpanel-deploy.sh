@@ -780,6 +780,17 @@ build_and_deploy() {
       return 1
     fi
   fi
+  # IndexNow, step one of two: compare this build's sitemap pages with the
+  # manifest the previous deploy left in $dest, write the new manifest into
+  # _site/ so it ships with the rsync, and keep the changed URLs aside to send
+  # once they are live. It never fails the deploy (scripts/indexnow.js). A
+  # SITE_NOINDEX or non-ranking build has an empty sitemap and sends nothing.
+  local indexnow_pending
+  indexnow_pending=$(mktemp) || indexnow_pending=""
+  if [ -n "$indexnow_pending" ]; then
+    node "$REPOSITORY_ROOT/scripts/indexnow.js" prepare --site "$REPOSITORY_ROOT/_site" \
+      --host "$b_site_domain" --previous "${dest}indexnow-manifest.json" --out "$indexnow_pending"
+  fi
   # --exclude keeps AutoSSL/Let's Encrypt's domain-validation directory out
   # of rsync's view entirely - it's never part of the Eleventy build, so
   # without this, --delete-delay would remove it (and any in-progress
@@ -797,6 +808,12 @@ build_and_deploy() {
     || { echo "FAIL [$label]: post-deploy check - ${dest}.htaccess missing" >&2; return 1; }
   test -f "${dest}.well-known/security.txt" \
     || { echo "FAIL [$label]: post-deploy check - ${dest}.well-known/security.txt missing" >&2; return 1; }
+
+  # IndexNow, step two: the pages are live now, so send the list.
+  if [ -n "$indexnow_pending" ]; then
+    node "$REPOSITORY_ROOT/scripts/indexnow.js" submit "$indexnow_pending"
+    rm -f "$indexnow_pending"
+  fi
 
   echo "=== [$label] build + deploy completed successfully ==="
 }

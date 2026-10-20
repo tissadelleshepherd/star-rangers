@@ -113,8 +113,9 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
 <section class="thread-section" aria-labelledby="tier-young-adult">
   <h3 class="thread-section__title" id="tier-young-adult">2 · Young adult</h3>
   <p class="thread-section__description">
-    <strong>How it reads:</strong> more mysterious, with a sense of exploration and
-    adventure. The reader goes out into the record and finds things.
+    <strong>How it reads:</strong> sensual and romantic, as far as decency allows, with
+    exploration and adventure. The reader goes out into the record and finds things, and
+    finds what the senses and the heart make of them: longing, devotion, nearness, choice.
   </p>
   <p class="thread-section__description">
     Adds <a href="/star-rangers/threads/orbital-five-o/">Orbital Five-O</a>, Seasons 4 and 10 —
@@ -144,8 +145,9 @@ description: "The four reading tiers of Fian Ilchruinne — children, young adul
 <section class="thread-section" aria-labelledby="tier-general">
   <h3 class="thread-section__title" id="tier-general">3 · General</h3>
   <p class="thread-section__description">
-    <strong>How it reads:</strong> deeper. The same record with its reasons under it — the
-    institutions, the cost of a decision, and the Lore and Codex standing behind a chapter.
+    <strong>How it reads:</strong> deeper, mysterious and strategic. The same record with its
+    reasons under it — the institutions, the cost of a decision, the long game, and the Lore
+    and Codex standing behind a chapter.
   </p>
   <p class="thread-section__description">
     Adds the main sequence: the <a href="/star-rangers/threads/founding-era/">Founding

@@ -247,6 +247,53 @@ distinct histories, rather than five body plans with the same story attached.
   disagreement. The cast principles forbid it for humans and the same reasoning
   applies here. The Krenyi page is the standard to match — a whole practice, a
   named cost, a failure mode they would name themselves.
+- **The Krenyi read as Vulcans or as High Elves.** Dermot, 17 October 2026,
+  verbatim: *"Krenyi are very different from Vulcans or Tolkien's High
+  Elves"*. The two templates a reader brings to a calm, long-lived,
+  near-human people, and the record already refuses both point by point; the
+  public pages keep the Archive's voice and name neither, so the refusal is
+  written down here.
+  - *Not Vulcans.* A Vulcan's calm is discipline over strong feeling, logic as
+    a creed, and a quiet superiority about human emotion. A Krenyi's calm is
+    **structural, not suppression**: anxiety, annoyance and real grief are
+    all there, and what is missing is three extremes (deep fear, fury, grief
+    that will not close). *Clarity is not logic* (`krenyi.md`, *Emotional
+    Range*); they have never been recorded finding a human ridiculous for
+    being afraid, and their reading of human feeling is *a different
+    instrument, not a better grade*. Warm, polite, honest; never cold, never
+    lecturing.
+  - *Not High Elves.* An Elf is an elder race in its twilight: deathless,
+    luminous, melancholy, homesick for a lost West, bearing glamour and
+    lore, and fading as the younger peoples rise. A Krenyi is **long-lived,
+    not deathless**; a **present-tense people** for whom the past is not
+    sacred and who are poor keepers of what has not proved its use; they
+    **resist glamour and refuse mythification**; they **decline to be
+    placed** rather than mourn a homeland; they are neither elder nor fading
+    nor ranked above anyone; and their beauty is physical attractiveness by
+    humanoid standards, never radiance.
+  - *The nearest template, and still not it: the Haruchai.* Dermot, same day,
+    verbatim: *"The nearest but still different are the Haruchai of Thomas
+    Covenant Chronicles"*. What rhymes: reflexes and composure past the human
+    range, a near-absence of fear, plain honesty, few words to outsiders, a
+    way of passing things between themselves that others cannot follow,
+    service to another people offered by choice, and little said about
+    themselves. What does not: the Haruchai's in-group channel is mind-speech,
+    which this record refuses outright (*What the Record Refuses*,
+    psionics), where the Krenyi side channel is micro-expression, word
+    choice and small hand signals, deliberate and only ever adding to what
+    is said aloud; the Haruchai are warriors, and the Krenyi are not, in a
+    Corps no branch of which is military; the Haruchai are proud and judge
+    failure, their own above all, without mercy, where a Krenyi declines
+    glory and softens the delivery, never the fact, and is not recorded
+    holding anyone in contempt; the Haruchai are human, the Krenyi of
+    independent origin on the human frame. The useful lesson is the near
+    miss itself: the nearest template is the one most likely to leak into a
+    draft, so a Krenyi scene that turns martial, prideful or mind-to-mind has
+    drifted toward it.
+  - *For prompts and prose:* no pointed ears, no luminous skin, no sorrowful
+    or ancient gaze, no flowing robes or circlets; no clipped emotionless
+    delivery and no raised-eyebrow condescension. The existing Krenyi
+    negatives (*elf ears, Vulcan, glowing skin*) are this trap's prompt form.
 - **The humanoid frame with features applied.** The Qiren Tal portrait failed on
   exactly this: insectoid head and carapace on a bipedal two-armed body. Adding
   features to a human silhouette is not designing a species.
@@ -815,6 +862,327 @@ kraken*. A frame that draws any of them fails, however photographic it is.
 **Readings put to Dermot in the PR that carries this section.** Ruled 13 October
 2026: all as recommended (*"Approved"*). Recorded in `open-questions.md`;
 Sohrel's portrait re-rolled against it the same night.
+
+---
+
+## The Told — a second warm's body (19 October 2026, Dermot's *"Alternative body design for Pandoids?"*, then *"or at least for any new Pandoids from different clans"*)
+
+**Why.** Every Told portrait prompt so far has reached the body by resemblance, a young bear, a panda, a teddy bear, and then negated the same words. The generator answers with the nearest primate or sloth face: Teddy's four rounds of 7 September came back great apes, and all four Keeps-A-Hand-On-It variations of 19 October leaned to a young sloth. Dermot's direction keeps the four filed Told frames as they are (Stone-First, Teddy, Went-Round, Keeps-A-Hand-On-It) and gives any Pandoid of another community a body designed from structure instead.
+
+**What stays fixed** (DERIVED, `planets/fliade.md`): large, powerfully built and upright; thick fur that reads as grey against the stone; a hand; Endoskelia; *strength, gait, mass and face are all their own*. A second warm is the same people, so a surveyor would still file it as Pandoid.
+
+**What may differ** (PROPOSED). Separated warms, kept apart by the deep networks for long enough, would differ as island populations do: size, coat, and the plan of the face. The difference is a population's, never a sign of rank, worth or temperament, and never a tell for anything (the cast principles; the dialect device's *a difference is never a tell*).
+
+**Three face plans, studied 19 October 2026** (design studies by Opus, two each, no references, not prompts of record; kept with the session's scratch, not in `src/`):
+
+- **A, the facial disc.** A broad flat disc of close fur like an owl's ruff, slit nostrils, eyes deep under a brow fold. Escapes the bear; reads stern, an owl-monkey in one study, so it sits closest to the tone line.
+- **B, the whiskered face.** A blunt face with very small eyes nearly hidden in the fur and a fan of long pale sensory whiskers, a body that feels its way in the dark. Least primate of the three, gentle, and the one built from the cavern outward, as the 22 September rule asks a people's body to be. **Chosen** (Dermot, 19 October 2026, *"Yes Agreed"* to the recommendation).
+- **C, the domed head.** Short close fur on a smooth dome, large wet eyes set low, closable nostril slits, a wide lipless mouth: a seal's plan rather than any land animal's. Plainly alien; one study hid the face entirely.
+
+**Prompt rules for a second warm**, whichever plan is chosen: say the structure and never the resemblance (no *panda*, *teddy*, *bear-like* in the positive text); keep the negatives for bear, panda, ape, monkey, sloth and lemur; no reference frames from the first warm, since those carry its face back in.
+
+**Ruled, same evening** (*"Yes Agreed"*): plan B for a second warm, and the canon half, the extension to `planets/fliade.md` that the Pandoids are not one community, stands. The second warm itself, its place, its name and any character from it, waits for a chapter that needs one.
+
+---
+
+## Mnemari — a body from Ilenne (19 October 2026, Dermot's *"1 A"*)
+
+**Why.** `src/lore/mnemari.md` (11 July 2026) called the Mnemari *humanoid*.
+The 13 August ruling (the Krenyi the only other sapient humanoids), sharpened
+on 16 August to *the human frame*, the refusal page's *Bodies and Species*
+(the Mnemari among the peoples *genuinely otherwise*) and the singular-exception
+rule of 17 October all came after it, and Ulessa's page (PR #1366) left her
+portrait waiting on a body. Option A in `open-questions.md`, ruled *"1 A"*
+the same night: derive the body from the world first, then clarify the word.
+Drafted on Opus. Every point is marked **derived** (it follows from a page
+cited, or from physics applied to one) or **proposed** (a choice that fits,
+his to overrule under the dilemma-only rule; none met the bar for him).
+
+### What the rulings and pages force (derived)
+
+- **Not on the human frame.** The Krenyi are the only other people on it
+  (`what-the-record-refuses.md`; CLAUDE.md, *A singular exception stays
+  singular*). Endoskelia is allowed, and a third people in that row is *a
+  taxonomic neighbour and nothing more* (`cross-biosphere-taxonomy.md`).
+- **Not a metazoan**, and nothing about cells or a genetic molecule is
+  asserted (`cross-biosphere-taxonomy.md`, *It Goes Deeper Than Ancestry*;
+  `what-a-life-is-built-from.md`). The species page's *cellular damage* is the
+  record's translation, left as it stands.
+- **Shares a room, an atmosphere and a table without special arrangement**
+  (`mnemari.md`, *Interspecies Notes*: *fully compatible with standard
+  humanoid life-support… shared facilities*). So it breathes oxygen, tolerates
+  station air and near-standard gravity, and is of a size rooms and doors
+  built for others admit. The phrase names a facilities standard, as the same
+  phrase does on the Chthonari, Prismeri and Verdani pages.
+- **No senescence, death only by event; a child matures at an unremarkable
+  pace** (`mnemari.md`). An eleven-centuries elder shows *no biological
+  indicator* of being nearer death than a Mnemari fifty years out of
+  childhood, so whatever marks the years on a body cannot be ageing.
+- **It speaks, and gives words back in the order they were said**
+  (`mnemari.md`; `ulessa.md`, *The Work*): a voice that carries speech to a
+  room. The language is rendered only in translation.
+- **It takes a place at a table** as a witness (`the-ladder-in-other-tongues.md`,
+  *sit at compact tables as memory*; `ulessa.md`). *Sit* is the figure of
+  speech, not a posture the record fixes.
+- **Pronoun *she*** for the two individuals on record; existing usage stands.
+
+### What Ilenne derives (derived from `src/lore/planets/ilenne.md`)
+
+The world page is new in the same PR and every fact on it is an extension,
+chosen for what a body needs and nothing more. Each, with what it is for:
+
+| World fact (page) | What it is for |
+| --- | --- |
+| Old, quiet orange dwarf | A long, steady run for a slow biosphere; no stellar flares cutting lives short |
+| Gravity a little under 0.9 standard | A large walker of a big animal's mass; standard 1 g in a shared facility within reach |
+| Nitrogen-oxygen air near Earth's pressure, oxygen a little lower, carbon dioxide about 70 times Earth's (about 3 kPa) | Warmth under a dim star; oxygen breathers, so station air is inside the Mnemari envelope; a human needs a scrubber mask, so Tír na nÓg stays the one naturally human-compatible world |
+| Small shallow seas, high dry uplands, cool climate | A continental, water-limited world where life walks between scattered refuges |
+| Rain in wet runs, failing for dry spells of no period, three years to most of a century | Exact long memory pays: the last long drought is the only guide to the next |
+| Slow, sparse producers; few large hunters | Low death from outside, the condition under which a lineage has least reason to senesce (the evolutionary theory of ageing: where extrinsic mortality is low, repair keeps paying; on Earth, the long-lived cold, slow animals) |
+
+The page makes the link in the Archive's voice and stops at a reading (*a cause
+deserves caution, since nobody observes one*): a mind that loses no episode and
+a body that does not wear out are, on Ilenne, one answer. It gives no mechanism
+for either, which keeps `mnemari.md`'s *no mechanism… that "old age"
+describes* and the Achterberg codex's *mechanism-free* intact. The cost stays
+the species page's: memory is a liability carried, not a feat, and nothing new
+is said about the Setting-Down.
+
+### The body (re-made 20 October 2026; proposed unless marked)
+
+**Revision.** The first version of this section (19 October) drew a large,
+level-backed, six-limbed walker. Dermot rejected it after three rounds of
+Ulessa's portrait (*"none of these - reconsider the whole body design
+please"*), chose a tripod over a strider and a dome (*"A"*), rejected the
+headless version (*"the head is wrong and the whole image is too grey and
+muted"*), chose a head on a long neck (*"H2"*), and asked for that and the
+slung tripod to be merged (*"Merge the two kinds please"*), which is the body
+below. Ilenne's page needed no change: everything it states still holds.
+
+1. **What the world did to it.** A large walker that covers long distances
+   between scattered water and food, over broken upland where a large animal
+   is killed by the land far more than by anything living on it, a fall among
+   the causes (derived, `planets/ilenne.md`). **Three legs**, so it stands on a
+   stable triangle whatever the ground: three tall, thick, jointed legs rise
+   from broad soft padded feet with short splayed blunt toes, set wide apart,
+   arch up and meet at a **hub** above a standing human's head (proposed). The
+   legs walk one at a time, two always down. **Frame: Endoskelia** (derived,
+   as before: one body kept in repair for centuries wants a skeleton repaired
+   in place). **Scale:** about the mass of a pony, some 200 kg; the hub at
+   about 2.2 m; the feet wide enough apart that it fits a room only by drawing
+   them in (proposed).
+2. **The body slung.** The deep, rounded body hangs beneath the hub on a
+   **thick column** of the same hide, so that the weight rides low between the
+   legs like a load in a sling and the animal cannot topple (proposed). It is
+   one animal from foot to hub to head.
+3. **Head and neck.** From the front of the slung body a **long, curving neck**
+   sweeps out and forward beneath the arch of the legs, so the head hangs in
+   front at the height of a table (proposed). The head is smooth, rounded and
+   blunt, with **two small, dark, deep-set eyes** placed far apart on its
+   sides, calm and level, and two breathing slits; no mouth visible from the
+   side (it opens on the underside), no ears, no snout, no beak, no crest. A
+   Mnemari attends to someone by leaning the head toward them, which is how a
+   witness is seen to listen.
+4. **Senses.** *Far hearing, low and wide:* one broad oval **hearing
+   membrane** flush with the hide on each of the body's three sides, spaced as
+   far apart as the body allows (proposed, as before). *Smell into the wind*
+   through the slits, the head swung to read it. *Sight for the horizon:*
+   wide-set eyes, a wide field, little overlap. Close work is felt by the
+   working limbs' digits.
+5. **Working limbs.** **Three**, short and slender, hanging beneath the slung
+   body between the legs, carried curled while walking and reaching down to
+   work: picking, digging at roots, scooping at a seep. Each ends in a round
+   soft pad ringed by five short blunt many-jointed digits that close over it
+   like a bud at rest; one holds while another works (proposed). So a
+   Mnemari has six limbs, three to walk on and three to work with.
+6. **Symmetry.** Threefold in the legs, the working limbs and the hearing;
+   the neck and head give the body one front (proposed).
+7. **Life cycle, costs and the job** stand as written on 19 October:
+   determinate growth, no marks of age, healed injury as pale seams; a station
+   costs little in the body, though furniture built for bodies that sit means a
+   Mnemari stands at a table, leaning the head to it; the memory and the
+   witness's work are the record's, and the body adds nothing to them.
+
+**Covering** (proposed, re-made): a warm, rich hide, as an animal of a world
+under an old orange sun would wear: deep ochre and russet across the body,
+legs and neck, darker burnt-umber bands across the hub and back, paler sand
+on the underside, with a fine close velvety nap. Not grey. **Voice**
+(proposed): low, carrying across open country, quiet in a room.
+
+**Dress and marks: open, his, and not needed for a portrait** (unchanged).
+
+### Traps closed
+
+- **A human silhouette**: no torso, no upright part, no face a human reads.
+- **The Earth animal.** The four-legged level-backed walker returned a horse
+  or tapir in every round however the details were worded; a long neck alone
+  returns a llama or a sauropod. The arched tripod and the slung body are
+  what keep it from any Earth animal.
+- **The spider, the harvestman and the walking machine.** Three thick padded
+  legs, not eight thin ones; hide, not metal; no rivets, panels or seams of
+  manufacture.
+- **The frog.** A headless body with an eye collar reads as a frog's face;
+  hence the head on a neck.
+- **The cute alien.** Big round appealing eyes make it a film creature; the
+  eyes are small, dark, deep-set and calm.
+- **The Elf, the grey alien and the infallible witness** (as before): an
+  undying memory is a liability, never wisdom; no large bald head or black
+  eyes; the body grants nothing.
+
+### Prompt vocabulary and standard negative
+
+The prompt of record is Ulessa's in `images.md` § 20, the generator's input
+for the filed frame; a new Mnemari prompt starts from it. **Rules learned:**
+the working limbs hang curled beneath the body and touch nothing (a limb laid
+on a table returns a human hand); state *exactly three legs*; say the chairs
+are empty and nobody is in frame; ask for natural full colour and normal
+exposure, never *muted*.
+
+**Standard negative.** *grey, monochrome, desaturated, drab, people, a second
+figure, humanoid, human face, human hands, fingers, spider, harvestman,
+insect, crab, octopus, jellyfish, tentacles, war machine, tripod robot,
+walking machine, metal, horse, giraffe, elephant, dinosaur, bird, frog, toad,
+hooves, a tail, horns, teeth, an open mouth, clothing, big round eyes, cute
+face, readable text, screens, lit ceiling panels, visible lamps, windows, 3D
+render, CGI, cartoon, toy, concept art.*
+
+### Where this goes
+
+- **Published with this section:** `src/lore/planets/ilenne.md` (new, all
+  extension) and a clarification in `src/lore/mnemari.md`: *humanoid* removed
+  from the people's description, the early filing's word explained as the
+  facilities standard's, the frame given as Endoskelia and the human frame
+  refused. The species card, which drew a human head-and-shoulders outline,
+  was regenerated with the time device (`make-emblem-card.ps1 -Device
+  sundial`). No other body point is written to a public page; they wait for a
+  page that needs them, on the Cerebraun pattern.
+- **Ulessa's portrait** (`images.md` § 20): filed 20 October 2026 in the
+  re-made body, after nine rounds; the entry records what failed on the way.
+- **Ilenne's illustration** is owed (`images.md` § 5m), a world's prompt being
+  Opus's under the 16 October rule; not written here.
+
+---
+
+## Ollune — a body from Cirrane (20 October 2026, Dermot's *"Take A3-3 as the Ollune body"*)
+
+**Why.** Ilyare's portrait prompt (`images.md` § 21, PR #1375) asked for the
+people's page body as written: *a translucent gas bladder several metres
+across, trailing a fringe of manipulating tendrils and filter-vanes beneath
+it*. All four variations of the first round came back as a bell jellyfish
+with leaf-shaped veins. Dermot asked for the body-design study loop
+(`people-body-design`) the same day. Three plans were studied: a lens, a raft
+of fused cells and an upright envelope over a keel. He took the lens (*"Agreed"*),
+asked for a third round (*"the cap as living skin of the envelope, the vanes
+as living membrane"*), and then took frame A3-3. Drafted on Opus. Every point
+is marked **derived** (it follows from a page cited, or from physics applied
+to one) or **proposed** (a choice that fits, his to overrule).
+
+### What the rulings and pages force (derived)
+
+- **Mostly envelope, buoyant on warmth.** In a hydrogen-helium sky there is no
+  lighter gas, so an Ollune floats on gas *warmer* than the air around it,
+  held there *by continuous metabolic effort, every hour it is alive*. A body
+  that stops paying sinks (`ollune.md`, *Buoyancy as Metabolism*).
+- **No surface, no fire, no metal; mass is a tax** (`ollune.md`). Nothing
+  carried, nothing worn, no glowing core (`civilian-dress.md`, Ollune).
+- **Filter-feeders on the falling haze.** The shell's food web runs on
+  photochemical aerosol drifting down in sunlight. Its large fauna are
+  *overwhelmingly soft, buoyant, and translucent* (`planets/cirrane.md`, *The
+  Temperate Shell*).
+- **Holds.** Eight to thirty sleep *physically linked at the tendril*, the
+  waking carrying the sinking (`ollune.md`). So the tendrils must be able to
+  hold a neighbour.
+- **Not a metazoan, and not on the human frame** (`cross-biosphere-taxonomy.md`;
+  `what-the-record-refuses.md`). The two speech channels are the page's, and
+  the body adds nothing to them.
+
+### What Cirrane derives (physics applied to the page)
+
+- **What kills is heat lost.** An Ollune dies by going under, and it goes
+  under when it can no longer keep its envelope warm. So the body's first
+  economy is heat. A broad envelope gives the most lift for its skin.
+- **The sun is free heat.** A dark surface facing the sky takes the sun's
+  warmth without the body making it. So the upper face is dark and the bill is
+  smaller by day. That fits the page's *every hour*: the charge never stops,
+  and at night it is paid in full.
+- **The haze falls, so the vanes face out and down.** Feeding is from air the
+  body drifts through. The vanes stand at the rim, where the air meets the
+  body first.
+
+### The body (proposed unless marked)
+
+1. **Envelope.** One broad, low, lopsided gas envelope, about eight metres
+   across and two thick, much wider than tall, gently domed above and rounded
+   below. It is one continuous living skin, inflated and taut like a lung,
+   with no separate covering and no loose edge. **Translucent** (derived,
+   `ollune.md`) where it is thin.
+2. **The dark cap.** On the upper face the same skin thickens gradually into
+   a matte, finely furred russet-brown, patched and weathered, that drinks the
+   sunlight. Toward the rim it thins, with no line or edge, into translucent
+   membrane that glows amber against the sun, crossed by irregular branching
+   veins. The rim is a fat, soft, rounded edge of the same skin.
+3. **Filter-vanes.** A ring of soft vanes of living membrane, growing just
+   beneath the rim. Each vane is a translucent fan of fine radiating ribs on a
+   thick fleshy root, uneven in size and spacing, some spread and some
+   half-folded. They are the *filter-vanes* the page gives (derived), placed.
+4. **Tendrils.** About a dozen fine, straight, thread-thin tendrils of
+   different lengths, two or three metres long, hang from the centre of the
+   underside like plumb lines. They are the *manipulating tendrils* (derived)
+   and the hold's links: in a hold they reach sideways to a neighbour's.
+5. **No face, eyes, mouth, head or limbs.** The near word is chemical, at
+   close range. The far word is low-frequency pressure (derived, `ollune.md`),
+   and the envelope is the body's largest surface for both.
+6. **Variation.** Size, the shape of the lean and the cap's patching tell one
+   Ollune from another. Colour does not, beyond weathering. This replaces
+   `civilian-dress.md`'s proposed *size and veining*.
+
+**Colour.** Russet and ochre on the cap. Amber and gold where the sun comes
+through. A faint blush on the vanes. Never grey, and never glass.
+
+### Traps closed
+
+- **The jellyfish.** A bell or dome with tentacles beneath it returned a
+  medusa every time, with leaf-shaped veining. A broad low lens, a dark cap,
+  vanes at the rim and straight plumb-line tendrils keep it from one.
+- **The flying saucer and the pie.** A neat disc with a regular frill read as
+  a saucer or a pie crust. Lopsided and irregular, with the rim fat and soft.
+- **The pelt and the rags.** A cap described apart from the envelope came
+  back as a draped hide, with the vanes as torn cloth. One continuous skin,
+  and vanes that are whole living membrane.
+- **The octopus.** Tendrils described as a fringe curled like arms. They hang
+  straight and still.
+- **Fins on stalks.** Vanes described as rounded fans on a root, without the
+  ring, returned scallop shells or fish fins on stalks (the portrait round of
+  20 October). They are a ring under the rim, close-set.
+- **The balloon, the airship and the lantern** (as before), and the rendered
+  finish: ask for a long lens through real haze and visible grain.
+
+### Prompt vocabulary and standard negative
+
+The prompt of record is Ilyare's in `images.md` § 21, the generator's input
+for the filed frame. A new Ollune prompt starts from it. Send no reference
+image: the species frame `ollune.jpg` shows the old bell-shaped body and
+would bring it back.
+
+**Standard negative.** *jellyfish, medusa, bell shape, umbrella shape, long
+tentacles, trailing tentacles, curled or coiled tendrils, octopus arms,
+leaf-shaped vein pattern, flying saucer, UFO, pie crust, regular frill,
+scalloped edge, mushroom cap, an animal pelt or rug draped over it, fabric,
+rags, torn edges, fish fins, petals, hot-air balloon, airship, blimp,
+gondola, paper lantern, a glowing core, bioluminescence, faces, eyes, limbs,
+a second creature, a planet disc, grey, monochrome, desaturated, muted,
+drab, 3D render, CGI, clay, toy, glass sculpture.*
+
+### Where this goes
+
+- **Published with this section:** the body sentence in `src/lore/ollune.md`
+  (a clarification: the envelope's shape, the dark upper face and where the
+  vanes and tendrils sit, with one added sentence on the sun's share of the
+  bill), Ilyare's portrait and the line on their page that describes the body,
+  and `civilian-dress.md`'s Ollune entry.
+- **Owed:** the species frame `src/images/lore/ollune.jpg` still shows the
+  bell-shaped bladders and no dark cap. It is a re-make for the next image
+  pass, from this section, at a long lens with several beings far off.
 
 ---
 
@@ -1708,10 +2076,12 @@ disagreement between a rendering and a tab, the tab is right"* (same page).
   (`the-ladder-in-other-tongues.md`). The Music Corps' xenomusicology branch
   studies them, since *"music and mathematics are nearly the same thing"*
   (`star-rangers-music-corps.md`).
-- **Named Rangers on record.** None. Tsikk, Tekka, Tikket and Kattik are a
+- **Named Rangers on record.** One, since 19 October 2026: Kettsa, Senior
+  Officer, fold-scaffold specialization, the Earth–Sun L5 staging zone in
+  2826 (`characters/kettsa.md`, drafted at Dermot's direction to fill the
+  worklist gap filed below). Tsikk, Tekka, Tikket and Kattik are a
   Federation contractor crew on Eden, not Rangers (`characters/tsikk.md` and
-  the other three). The record's strongest Corps concentration has no named
-  member: a worklist gap, filed below.
+  the other three).
 - **Uniform equivalent and rank.** DERIVED: the modular shell fitted per body
   plan. PROPOSED, from the derived sense (`civilian-dress.md`, Chthonari): the
   fit leaves the limbs and the lower carapace in contact with the structure,
@@ -2089,7 +2459,8 @@ disagreement between a rendering and a tab, the tab is right"* (same page).
   The contrast is the point. The one people nearest the human frame is the one
   the Academy trains cadets on, *"not for any hazard the Krenyi present but for
   the assumptions the frame invites"* (`krenyi.md`).
-- **Mnemari** (humanoid by their page). No Ranger on record. DERIVED: they serve
+- **Mnemari** (not on the human frame; the page's early *humanoid* clarified
+  19 October 2026, body under *Mnemari — a body from Ilenne* above). No Ranger on record. DERIVED: they serve
   the Federation as mediators and treaty-witnesses (`mnemari.md`). They matter
   here for one reason: a people with no natural upper bound on lifespan meets
   the Corps' service ages (choice 1).
@@ -2170,7 +2541,7 @@ instance of a rule whose other instances it has not written.
 
 | People | Rangers on record | Corps / tracks | Uniform equivalent | Standing |
 |---|---|---|---|---|
-| Chthonari | none named | Engineering, fold-scaffold specialization; Liaison recruiters | shell fitted with limbs and underside on the structure; tab read by limb-tip | service derived; no Ranger: gap |
+| Chthonari | Kettsa (19 Oct) | Engineering, fold-scaffold specialization; Liaison recruiters | shell fitted with limbs and underside on the structure; tab read by limb-tip | derived; gap filled 19 Oct |
 | Ilveth | Suvra Kel | night survey, dark-side, search and rescue (corps not established) | shell as a cooling shell | derived |
 | Ovruhn | none named | structural and fatigue survey, search, acoustic watch, disaster mass care | shell as an instrument mount, flanks open | service derived; no Ranger: gap |
 | Veyr Basaltborn | Qiren Tal | stress-and-heat postings; certification (corps not established) | corps colour and tab seated on the lattice | derived (ruled 12 Oct) |

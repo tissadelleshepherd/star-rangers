@@ -99,6 +99,8 @@ resolve is what a question left open sounds like, and it belongs at the top of
 the ladder more than anywhere else. The ladder's invariant holds in audio too:
 a higher rung's theme adds, and never contradicts, what a lower rung's said.
 
+*Re-grounded 19 October 2026* (`intake-2026-10-19.md`): young adult is now *sensual and romantic as decency allows, with exploration and adventure*, and general is *deeper, mysterious and strategic*. A young-adult brief therefore gains warmth and longing in the melody, and the general theme gains a patient, strategic line. Courage with patience and discretion rather than violence holds at every rung, so no theme is martial.
+
 ### The canon boundary
 
 **Music is illustrative; the prose is canon** — the same rule the images carry.

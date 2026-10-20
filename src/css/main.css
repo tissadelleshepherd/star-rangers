@@ -2137,6 +2137,34 @@ a:focus {
   max-width: var(--max-prose);
 }
 .lore-entry__body p { margin-bottom: var(--spacing-md); }
+
+/* Tables in page bodies: the Markdown tables on lore pages (What the Record
+   Refuses' summary) and the hand-written ones (Forking This Site). There was
+   no table rule at all until 2026-10-17, so cells ran into each other with
+   the browser's default zero padding and centred headers. On a narrow screen
+   the table scrolls sideways inside its own box rather than widening the page. */
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: var(--spacing-md) 0 var(--spacing-lg);
+  font-size: 0.95em;
+}
+main th,
+main td {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+main th {
+  border-bottom-width: 2px;
+}
+@media (max-width: 640px) {
+  main table {
+    display: block;
+    overflow-x: auto;
+  }
+}
 .lore-entry__body h2 {
   font-size: 1.3rem;
   color: var(--color-accent);

@@ -94,6 +94,18 @@ Years later a single levril held a channel open to a mind stalled inside its own
 
 The lesson the Archive draws from setting those two side by side is stated plainly in the closing record of the second: the inability to reach in is a tier constraint, not a local circumstance. What differed between the two occasions was what was *permitted*, never what was possible — which is also the sharpest available answer to the mentorship question. A levril offers constraint literacy, not rescue, and the distinction is not modesty about its powers. It is the boundary of them.
 
+## The Limit on Intervention
+
+The rule the two occasions show is stated across several files, and it reads more plainly in one place. Nothing in this section is new; each line is the record's, cited where it lives.
+
+- **Levrils act inside a permitted function, and stop.** Coherence preservation, detection, containment, perimeter isolation, constraint-literacy mentorship and advisory intervention where permitted; never a Concordant rewrite, a moral judgement, or a way round a Celestial or Telearch directive (the table above; [The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), *Levrils*). A Higher Levril and a Dragon differ in what each is permitted, not in what either could do.
+- **Celestials enforce, and only the rules.** They execute rule-integrity actions at boundary and overlap interfaces, at a scale never smaller than a galaxy; they cannot revise the order of the hierarchy or set aside a Telearch's directive, and what they do is read by non-technical observers as supernatural punishment ([The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), *Celestials*). The Mediarchs above them do not enforce at all.
+- **Above the Celestials there is no selective intervention.** The upper strata act through structure, design, an avatar, a Champion or a prophet, never in a scene as themselves ([The Cosmic Cascade](/star-rangers/lore/cosmic-cascade/), *Through, Not As* and *Upper Structure*).
+- **The limit is a boundary of permission, not a measure of power.** What a Levril could not do at Dock Seven it could not do anywhere; it offers constraint literacy, not rescue (*Two Occasions, One Constraint*, above).
+- **Nothing here is leverage.** The record holds no way for a Material-layer actor to summon or direct a Levril or a Celestial, and it files appearances, not procedures.
+
+Whether the Dragon called [the Kept Line](/star-rangers/characters/the-kept-line/) was among the Levrils who stood the Dock Seven perimeter is not settled by any of this. The function matches and the occasion matches, no signature was caught, and the Archive keeps it unplaced.
+
 ## Where Levrils Sit Among Meta-Dimensional Beings
 
 Meta-dimensional existence is not unique to Levrils, and the distinction that

@@ -6,7 +6,7 @@ species: Ilveth
 role: Search and Rescue Specialist
 status: Active
 aliases: []
-tags: [alien, ilveth, sardain, cold-world, thermal-vision, search-and-rescue, night-survey]
+tags: [ilveth, sardain, cold-world, thermal-vision, search-and-rescue, night-survey]
 description: "An Ilveth search-and-rescue specialist who finds the living by their warmth — cold-bodied, unhurried, and never off watch."
 image: "suvra-kel.jpg"
 image_alt: "Suvra Kel keeping a night watch on a frozen plain: a long, low, segmented slate-grey body on several pairs of short limbs, broad vanes folded flat along the flanks, resting beside a dark frost-free outcrop. The forward crest carries wide round hollows holding faint reflections of the sky. A small dim sun sits low on the horizon under a handful of stars."

@@ -438,7 +438,7 @@ dense sharp star field behind it, no nebula colour; the dock a lit recess cut
 into the metal and nothing standing up from the surface; no visible tunnel or
 portal; no vessel, person or text in frame. Strike this when filed.
 
-### 2.15 Thirteen Codex-author portraits — prompts written (Fable, 16 October 2026); **run 16 October 2026**, twelve filed; Vhen still open after three rounds
+### 2.15 Thirteen Codex-author portraits — prompts written (Fable, 16 October 2026); **run 16 October 2026**, all thirteen filed (Vhen in round 4)
 
 `marlow-calloway`, `perrin-ashgrove`, `vhen`, `ilvane`, `breanainn-o-se`,
 `aoibheann-ni-mheara`, `sile-ni-bhriain`, `mireille-achterberg`, `senna-okoye`,
@@ -457,6 +457,25 @@ as its reference), triage each variation in the order its entry gives, file
 through `import-image.ps1 -MaxEdge 1200`, and add `image:` and `image_alt` to
 the page from the filed frame, correcting the entry's proposed alt. Strike
 each when filed.
+
+### 2.16 `arashobal.jpg` — the fourth Krenyi, Chief Ranger and chief of staff (queued 17 October 2026) — FILED 17 October 2026
+
+`src/characters/arashobal.md` was rewritten on 17 October and has no portrait.
+**The prompt is written and of record** in [`images.md`](images.md) § 18, in
+the shape `scripts/image-prompts.js` parses (`--list` reports `arashobal` as
+pending), with a record in [`image-prompts.md`](image-prompts.md); written on
+Fable under the 11 October split, since a person's presence carries the frame.
+Nothing is generated. On the desktop, run
+`node scripts/image-prompts.js --generate --only arashobal` (the entry carries
+Syra's filed portrait `src/images/characters/syra.jpg` as its reference, for
+the kind's look only, so the script sends it), triage the two variations in
+the order the entry gives (the kind; identity against Syra, Ilvane, Toval and
+Lucene-9000; the post, where a bridge, a viewscreen, a hologram, a star map,
+a window with stars or a second figure fails; the uniform, where medals,
+braid, paired tabs or a chest badge fails; the age, where frail or elderly, or
+model-young, fails), file through `import-image.ps1 -MaxEdge 1200`, and add
+`image:` and `image_alt` to the page from the filed frame, correcting the
+entry's proposed alt. Strike this when filed.
 
 ### 2.8 The Told — theme (queued 30 September 2026)
 

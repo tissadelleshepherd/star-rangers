@@ -15,6 +15,7 @@ permalink: /seasons/s04/e00/
 <h1 class="page-title">Season 4 · Episode 0</h1>
 <p class="page-intro">
   What came before <em>Docked Twice</em>. In the late autumn of 2826, a year before Five-O works its first case entirely in the open, a Deputy in her second week on Eden's fold-approach watch finds eleven seconds in the instruments' log that nobody cleared. She knows the hour better than the watch does, from a year on the dock circuit the posting has never been in, and she writes the notice without it. On the Compact side, the notice reaches the one man who can use it, and he reads why it could be used at all. The Deputy is Tissadelle Shepherd, guesting from the main line in the one year the chronology allows.
+  Eight days later, the berth log comes back, and the one man who could use the notice stands on the dock ring at the hour it names, having written first.
 </p>
 
 {% set seasonNumber = "4" %}

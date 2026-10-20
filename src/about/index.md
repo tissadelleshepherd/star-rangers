@@ -62,6 +62,9 @@ eleventyComputed:
 
 <h2 id="how-this-site-is-written">How this site is written</h2>
 <p>
+  All characters and story ideas are original to the author. The narrative prose is either his
+  own or written by Claude Fable under his direction and following his ideas, including some
+  prose carried over from Copilot or Sudowrite drafts that were also written from his prompts.
   The words on this site have been drafted and edited with the help of more than one tool over
   time, and the split is worth naming honestly. The early version of the site leaned on
   <a href="https://github.com/features/copilot">GitHub Copilot</a> and Microsoft 365 Copilot for
@@ -106,6 +109,28 @@ eleventyComputed:
   Definition Model (ADM)</a> is a framework for keeping the architecture of generative-AI systems
   explicit, human-owned, and auditable; the working agreement that governs how this site is
   written and reviewed is a live instance of it, and appears in that repository as a case study.
+</p>
+<p>
+  All three go back to the author's PhD,
+  <a href="https://researcher.itu.dk/ws/portalfiles/portal/109063637/130422_FINAL_for_PRINT_BOOK_FORMAT_dermotcochran_phd_dissertation_post_defense.pdf"><em>Formal
+  Specification and Analysis of Danish and Irish Ballot Counting Algorithms</em></a> (IT University
+  of Copenhagen, 2013), which followed a bachelor's degree in Mathematical Science (Trinity College
+  Dublin, 1992), a master's in Industrial Engineering (University College Dublin, 2003) and an MSc
+  in Advanced Software Engineering (University College Dublin, 2007). The thesis applied automated reasoning, the symbolic branch of artificial
+  intelligence, to software design. The Danish and Irish counting rules were specified in Alloy,
+  whose analyser hands a design to a SAT solver and asks it for a counterexample, and the Java
+  implementation was written against JML contracts, checked both statically, by automated provers
+  before the code ran, and at runtime, as assertions while it ran. The JML-annotated sources are
+  public as <a href="https://github.com/FreeAndFair/Votail">Votail</a>, from work within ITU's
+  <a href="https://demtech.dk">DemTech</a> research project, and the Alloy models are printed in
+  the thesis's appendices. Voting, above, is a fresh engine built on the same discipline. The lesson it taught
+  is that software looks correct until a machine finds the case where it is not, and that is the
+  problem generative AI has since made everyone's: a model can propose code, and specifications,
+  invariants and automated checks decide what ships. The author works as a software engineer,
+  latterly specialising in applied AI, which is where that problem now lives. The journal entry
+  <a href="/star-rangers/journal/the-external-codex/">The External Codex</a> says what this
+  record took from the thesis, and why the record itself never cites it. The author's publications
+  are listed on <a href="https://scholar.google.com/citations?user=LgLsr40AAAAJ">Google Scholar</a>.
 </p>
 
 <h2 id="fan-works">Fan fiction</h2>

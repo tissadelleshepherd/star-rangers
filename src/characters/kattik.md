@@ -6,7 +6,7 @@ species: Chthonari
 role: "Cutter and log-keeper, Federation contractor crew — dock-ring understructure, Eden Space Habitat"
 status: Active
 aliases: []
-tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
+tags: [chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "The one of four who keeps the crew's log, rarely wrong about what is true, and the one who wrote the line about Eden's third mount without believing it — because a record that says less than the structure is doing has been cut too far."
 image: "kattik.jpg"
 image_alt: "Kattik, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, standing on bare deck plating beneath a habitat's dock ring with the two forelegs resting on a plain flat slab of dull grey stone laid on the deck. A second Chthonari stands on a mounting bracket behind, out of focus, and a curve of walkway lights comes on around the ring in the distance."

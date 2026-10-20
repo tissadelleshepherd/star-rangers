@@ -3,7 +3,7 @@ layout: lore-entry.njk
 title: "Mars"
 category: "Locations"
 tags: [mars, sol-system, solar-command, ssdc, msc, imperium, locations, capital]
-description: "The Solar System's oldest permanently settled world beyond Earth, and the enduring seat of its government — from the Navigation and Trade Accords through the Imperium's Inner System Defence Fleet to the Solar System Defence Command's Solar Command headquarters today."
+description: "The Solar System's oldest permanently settled world beyond Earth, and the enduring seat of its governments — from the Navigation and Trade Accords through the Imperium's Inner System Defence Fleet and the Military Space Command to the Solar System Defence Command's Solar Command headquarters today."
 galaxy: "Milky Way"
 system: "Sol System"
 locationType: "Planet"
@@ -13,7 +13,7 @@ image_alt: "Designed cover for Mars: a rust-red planet disc with a dark terminat
 
 Every governing body the Solar System has produced — democratic, authoritarian, and technocratic in turn — has kept its command chair on the same red dust. None of them asked Mars first.
 
-**Mars** is the oldest permanently settled world beyond Earth, and the only one that has been the seat of interplanetary authority under all four of the Solar System's successive governments: the Navigation and Trade Accords, the [United Space Consortium](/star-rangers/lore/united-space-consortium/), [the Imperium](/star-rangers/lore/the-imperium/), and today's Solar System Defence Command. Whatever the Solar System calls its government in a given century, that government's command floor is on Mars.
+**Mars** is the oldest permanently settled world beyond Earth, and the only one that has been the seat of interplanetary authority under all five of the Solar System's successive governing arrangements: the Navigation and Trade Accords, the [United Space Consortium](/star-rangers/lore/united-space-consortium/), [the Imperium](/star-rangers/lore/the-imperium/), the [Military Space Command](/star-rangers/lore/military-space-command/), and today's government of the Solar System under the [Concord](/star-rangers/lore/solar-system-concord/)'s framework, whose military is the Solar System Defence Command. Whatever the Solar System calls its government in a given century, that government's command floor is on Mars. The Archive does not name that present civil government, and has not been asked to.
 
 ## A World Half-Finished on Purpose
 

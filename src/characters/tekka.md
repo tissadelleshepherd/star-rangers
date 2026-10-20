@@ -6,7 +6,7 @@ species: Chthonari
 role: "Cutter, Federation contractor crew — dock-ring understructure, Eden Space Habitat"
 status: Active
 aliases: []
-tags: [alien, chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
+tags: [chthonari, undersong-belt, federation-of-sentient-beings, eden, orbital-five-o, engineering, season-10]
 description: "One of a Chthonari crew of four on Eden, who agrees with the log-keeper about most things and disagrees about all of them — and who said, when the habitat's mind answered with the reading, that this settled it."
 image: "tekka.jpg"
 image_alt: "Tekka, a small six-legged Chthonari with a low, segmented slate-grey carapace and a smooth featureless head, standing on a low bolted platform beneath a habitat's dock ring, legs placed exactly between two bolted brackets, the dark steel understructure of the ring framing it behind."

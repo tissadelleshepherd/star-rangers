@@ -18,6 +18,8 @@ permalink: /seasons/s04/e02/
   A theft is charged on the deck it happened on, and the audit behind it leaves six crossings the thief's
   method cannot account for. Five resolve. The sixth is a sealed cradle two sound instruments disagree
   about — and the tidy thing to do with it is to call it the Star Rangers'.
+  Then the file comes down to Eden, where both of the Commissioner's offices get the same paragraph,
+  the Mayor keeps a sentence she could have spent, and the only line the habitat ever files is about two presses.
 </p>
 
 {% set seasonNumber = "4" %}

@@ -7,7 +7,7 @@ role: Environmental Surveyor
 status: Active
 aliases:
   - "Mira"
-tags: [alien, pelagene, ocean-world, pressure-adapted, survey, season-1]
+tags: [pelagene, ocean-world, pressure-adapted, survey, season-1]
 description: "A Pelagene Littoral surveyor from an ocean planet, specialized in pressure systems, salinity gradients, and fluid-boundary anomalies."
 image: "mira-of-brine.jpg"
 image_alt: "A Pelagene Ranger at work in a humid station corridor: a rounded, radially symmetrical body of wet, deeply folded grey-green tissue with no face or head, three small charcoal shell sections seated on top, and a fan of fine cirri reaching from its middle to lie along a seam in the pale coved wall."

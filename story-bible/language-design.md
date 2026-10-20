@@ -66,10 +66,16 @@ channel shapes the language more than anything else about it.
   across the body as glow. On a world where heat is the only wealth the
   channel is never free: *no thermal small talk exists, emphasis is
   expenditure*, and an Ilveth who warms a sentence for you has spent on you.
-- **Ollune** — a coherent low-frequency signal carried in air; crying out is
-  *free*, costs nothing, binds nothing. The two peoples are the record's
-  opposite poles on cost, and every other difference between their manners
-  follows from that one.
+- **Ollune** — two channels with opposite properties, in Cirrane's hydrogen
+  rather than in air (`src/lore/ollune.md`, *The Far Word and the Near Word*;
+  clarified 20 October 2026 to match that page, `contact-design.md`). The
+  **far word** is low-frequency sound in the dense hydrogen atmosphere,
+  heard by everyone in the band and recorded by no one: crying out in it is
+  *free*, costs nothing, binds nothing. The **near word** is chemical, read
+  at close range, slow to compose and attributable to the body that made it,
+  and it alone binds. On the far word, the Ollune and the Ilveth are the
+  record's opposite poles on cost, and every other difference between their
+  manners follows from that one.
 - **Cerebraun** — two simultaneous channels: speech or writing carrying the
   central brain's stated position, and skin-display carrying real-time
   affective and confirmatory signal from the limb-ganglia beneath it, plus a
@@ -86,6 +92,21 @@ channel shapes the language more than anything else about it.
 - **The Told** — a spoken record and no other; and, older than speech for the
   purpose of announcing oneself, *a stone moved*, so the ground says you are
   there before you are seen. Their first word to a stranger is not a word.
+- **Krenyi** — speech on the human frame, in the same air and often the same
+  language, at two speeds (Dermot, 17 October 2026): fast and clipped between
+  themselves, and slowed, filled in and pitched to the listener's expertise
+  and pace when addressing anyone else. The channel is cheap; what the clipped
+  register drops is the reasoning each Krenyi already reads in the other. The
+  failure it invites is *same language, lost at speed and shorthand*: a human who follows a
+  Krenyi's formal briefing loses two Krenyi in conversation, his own analogy
+  being formal spoken Danish against ordinary conversation in Copenhagen.
+  See `src/lore/krenyi.md`, *Social and Relational*. In a mixed room they
+  keep to the room's pace out of politeness and pass what else they need by
+  a second channel of micro-expression, word choice and small hand signals;
+  in an emergency the courtesy lapses and they speak at their own speed out
+  loud (Dermot, same day). Unlike the involuntary channels under question 4,
+  this one is deliberate, and its manner is that it only ever adds to what is
+  said aloud.
 
 *The question a season should ask first:* what does it cost this people to
 say a thing, and what is free? Everything in question 2 follows from it.
@@ -325,6 +346,46 @@ loose word; the exact one is *regime-wide*.
   the one-hat species the trope default refuses, said in grammar.
 - **No smoothing.** The interpretive layer's rule is the prose's rule: a
   reading arrives as a reading, the behaviour still visible behind it.
+
+---
+
+## How a Ranger crew talks on deck (20 October 2026, Dermot's *"B"*)
+
+His question: *"29th century working languages for humans and for the Star
+Rangers in general"*. Three options were put to him. He chose B, which records
+the practice without naming a language. This is story bible only and is not
+written to `src/`. Each point is marked **derived** (from a cited page) or
+**proposed** (a choice he can overrule).
+
+- **The Corps keeps no language of its own** (derived). No page names one.
+  Fable settled on 19 October 2026 that none is to be named, and this
+  paragraph keeps to that ruling: a working language would quietly rank one
+  tongue above the others, against the 28 September usage rule.
+- **Human working languages are local** (derived):
+  - Irish for administration on Tír na nÓg (`planets/tir-na-nog.md`) and
+    for Drithane under the Union's charter (`planets/drithane.md`);
+  - Norwegian, Swedish and Danish across the Knarr Line (`knarr-line.md`);
+  - at least eight languages and none official on Antariksha, whose council
+    sits with interpreters (`antariksha.md`).
+- **A crew works in whatever its members share** (proposed). Where the
+  posting has a working language of its own, the crew uses it on that
+  posting: a crew at a Union world works in Irish where it can. Where the
+  crew shares nothing, interpreters and the Xenolinguistics Branch carry the
+  meaning, with the error owned by the linguist, never the machine
+  (`codex/xenolinguistics-handbook-failure-modes.md`). Marks readable
+  without a language, on Plainmark's model, carry the rest (`plainmark.md`).
+- **The rank tabs already work without words** (derived). Ranks are shapes,
+  not words (`rank-insignia-and-uniform.md`), and every people keeps its
+  own rendering of the ladder (`the-ladder-in-other-tongues.md`). So rank
+  never waits on a shared language.
+- **The record renders all of it in translation** (derived). The site is
+  written in English as its canonical language, which is the reader's
+  language and not the world's. The same default turns pronouns and
+  calendars into the reader's terms. When a chapter shows a language
+  barrier, the prose shows the cost in time and error. It never shows a
+  universal fix.
+- **Traps:** a *Galactic Standard* or Corps tongue; English as the default
+  language of the future; a translator that never errs.
 
 ---
 

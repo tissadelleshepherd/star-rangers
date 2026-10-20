@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you cite Fian Ilchruinne, please cite it as below."
+type: software
+title: "Fian Ilchruinne: the site engine and the record"
+abstract: >-
+  The repository behind Fian Ilchruinne, a multi-viewpoint science-fiction
+  novel published on the web: the Eleventy engine (MIT) and the story
+  content (CC BY-NC-ND 4.0).
+authors:
+  - family-names: Cochran
+    given-names: Dermot
+    orcid: "https://orcid.org/0009-0002-9746-0187"
+repository-code: "https://github.com/dermot-r-cochran/star-rangers"
+url: "https://fianilchruinne.com/"
+license:
+  - MIT
+  - CC-BY-NC-ND-4.0
+keywords:
+  - science fiction
+  - web fiction
+  - multi-viewpoint novel
+  - human-AI creative writing
+preferred-citation:
+  type: website
+  title: "Fian Ilchruinne"
+  abstract: >-
+    A multi-viewpoint science-fiction novel published on the web, and an
+    ongoing human-AI creative writing project. The repository's intake
+    records, changelog, journal and git history document the process.
+  authors:
+    - family-names: Cochran
+      given-names: Dermot
+      orcid: "https://orcid.org/0009-0002-9746-0187"
+  url: "https://fianilchruinne.com/"
+  notes: >-
+    Published and revised continuously. Cite a chapter by its permanent
+    /c/ link, and give the date you accessed it.

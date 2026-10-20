@@ -2,7 +2,11 @@
 
 This licence covers the **story, world-building, and narrative content** of *Fian Ilchruinne* only — not the Eleventy site engine, layouts, or deployment tooling in this repository, which are separately licensed under MIT (see `LICENSE`).
 
-In scope: `src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `src/lore/`, `src/glossary/`, `src/codex/`, `story-bible/`, and `prompts/`. Everything else in this repository — the Eleventy config, layouts/CSS/JS, `lib/`, `scripts/`, and the About page's own prose — is MIT-licensed code/documentation, not narrative content.
+In scope: `src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `src/lore/`, `src/glossary/`, `src/codex/`, `src/journal/`, `src/story-engine/`, `src/images/` (except `src/images/icons/`), `src/audio/`, `src/video/`, `story-bible/`, and `prompts/`. Everything else in this repository — the Eleventy config, layouts/CSS/JS, `lib/`, `scripts/`, and the About page's own prose — is MIT-licensed code/documentation, not narrative content.
+
+All characters and story ideas are original to the author. The narrative prose is either his own or written by Claude Fable under his direction and following his ideas, including some prose carried over from Copilot or Sudowrite drafts that were also written from his prompts.
+
+The Journal (`src/journal/`) and the Story Engine page (`src/story-engine/`) are in scope although they are not narrative: they are the author's own writing about the story, its reasoning and its craft, not documentation of the engine. The pictures, music and clips in `src/images/`, `src/audio/` and `src/video/` are in scope as part of the work, to the extent the author holds rights in them; the favicons in `src/images/icons/` belong to the site's interface and stay MIT with it. Third-party images, audio and video are not covered by this licence: each follows its own existing licence and copyright. There is one such file at present, an image: `src/images/lore/noogenic-seeding-system.jpg`, the James Webb Space Telescope's image of the "Cosmic Cliffs" in the Carina Nebula, credit NASA, ESA, CSA and STScI, with a small motif added; only the added motif is the author's.
 
 ## Fan Works Policy
 

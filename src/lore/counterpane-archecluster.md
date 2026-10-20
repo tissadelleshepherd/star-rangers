@@ -2,7 +2,7 @@
 layout: lore-entry.njk
 title: "Counterpane: The Discrepant Archecluster"
 category: "Cosmology"
-revealed_by: s03e02c02
+revealed_by: s03e02c03
 tags: [counterpane, archecluster, quantum, cosmology, scope-of-physical-law, survey-corps, calibration]
 description: "The one surveyed archecluster whose quantum kernel is not ours: single systems behave identically — an atom is an atom, the second is the second — but correlations among independent sources obey a different composition rule. Fold-reachable, instrument-confirmed, and the reason 'identical at base' was always stated at cluster width and no wider."
 image: "counterpane-archecluster.jpg"

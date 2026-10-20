@@ -28,6 +28,10 @@ Asteria's mentorships bracket her retirement, one on either side, and neither wa
 
 [Karla Wender](/star-rangers/characters/karla-wender/) came first, while Asteria was still serving. Wender was climbing the certification ladder — a Novice around the turn of the century, a Chief by the early 2820s — and Asteria was a Star Captain in her nineties with no obligation whatever toward a junior pilot on the technical track. The Corps' formal mentoring policy does not begin until Starwarden, and Wender did not reach it until after Asteria had gone. So whatever passed between them was outside every structure the Corps maintains for the purpose, which is the only reason it tells you anything about Asteria.
 
+Until she retired, Asteria held at least one rank above Wender at every point in the record; across Wender's whole climb from Novice to Chief, Asteria was a Star Captain.
+
+The record holds one such room. In the late winter of 2809 UCSD she rode a Survey Corps relief hull into [Deadwater](/star-rangers/lore/universes/deadwater/) on a familiarisation no Line Captain had asked for, countersigned the station's relief list under the Medical Corps' stated ground, *radiation*, with the dose log beside it saying otherwise and no other word to offer, and went down to the pilot deck for a launch she had no business watching. She did not ask the Senior who ran it what she had seen ([Under Full Power (S01E00C09)](/star-rangers/seasons/s01/e00/s01e00c09/)).
+
 [Galahad Thorne](/star-rangers/characters/galahad-thorne/) came after, on a frontier posting during his twelve unbroken Survey Corps years, by which time she had withdrawn and had even less reason to bother.
 
 The pattern is the same in both directions and it is not sentimental: she taught the ones who arrived, held no post that required it, and kept no record of having done it. Wender now holds the assigned version of the same duty and had been discharging it unassigned for years before anyone wrote it down.

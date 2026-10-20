@@ -2,6 +2,7 @@
 layout: lore-entry.njk
 title: "Deadwater: The Silent Membrane"
 category: "Universes"
+revealed_by: s01e00c09
 tags: [deadwater, membranes, ftl, quantum-space-harmonics, teleportation, scope-of-physical-law, survey-corps]
 description: "The one documented membrane whose quantum-space harmonic regime is overdamped: no corridor has ever formed there, no relocation lock has ever held, and every journey between its stars is sublight. Reachable by a single certified fold route, and the standing proof that the record's scope hedges are not hedges."
 image: "universes/deadwater.jpg"

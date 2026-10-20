@@ -24,6 +24,7 @@ Isren's kinbeds run the deep chlorophyll green of a High-Reach Compact lineage, 
 - Seated as senior Fourfold Accord delegate for the Canopy Concord, 2819 UCSD.
 - First held Verdance's Federation assembly seat in 2822 UCSD; has returned to it twice since, most recently in 2826 UCSD.
 - Sponsored the Federation's first formal data-sharing proposal with Star Ranger Survey Corps fold-route mapping, on the grounds that a species whose own biology depends on knowing exactly which light a given patch of ground receives has an unusually direct stake in accurate boundary-zone data.
+- Early Summer 2826 UCSD: put that proposal to an assembly session revisiting the material-support compact, against Prismere's seat, and heard the Mnemari witness Ulessa give the compact's data term as it was first said, and the mark from Cirrane read after it ([Nobody Present](/star-rangers/seasons/s01/e00/s01e00c08/)). How the session decided is not on the record.
 
 ## Character Notes
 

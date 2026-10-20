@@ -26,6 +26,7 @@ Material-layer accounts converge on one detail across otherwise irreconcilable d
 - Consistently associated with post-instability advisory contact rather than active intervention — consistent with a Higher Levril's Cascade-permitted role, not a Dragon's.
 - No recorded case of the Turquoise Dove selecting a Champion directly; several cases exist of her mentoring a Champion selected by another Levril.
 - Cascade standing and subclass confirmed by field-signature analysis; no Material-layer archive holds a first-person account of an actual meeting.
+- Late Autumn 2825 UCSD: a settled narrow band in the register's own description, lasting about fourteen minutes, logged by the operations watch of a boundary-proximate post on the outward frontier in the hour after a thirty-one-hour dominance window turned, with a salvage hull just brought in and its crew's statements still being taken. The post's Starwarden filed it as an unclassified transient under the band and not the name, and the post holds no account of that hour beyond the transient. The record places the signature there and establishes nothing else. See [Which One First (S01E00C07)](/star-rangers/seasons/s01/e00/s01e00c07/).
 
 ## Character Notes
 

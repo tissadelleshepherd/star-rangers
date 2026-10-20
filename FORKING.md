@@ -7,7 +7,7 @@ Forking needs no permission and is actively encouraged. The one condition, and t
 ## The two licences (read this part first)
 
 - **Engine** (`.eleventy.js`, `lib/`, `src/_includes/`, `src/css/`, `src/js/`, `scripts/`): **MIT** — see [`LICENSE`](./LICENSE). Reuse it for anything, including a wholly original story with no connection to Fian Ilchruinne.
-- **Story content** (`src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `src/lore/`, `src/glossary/`, `src/codex/`, `story-bible/`, `prompts/`): **CC BY-NC-ND 4.0**, with an explicit **Fan Works Policy** exception for non-commercial fan fiction, fan art, and fan fiction clones of this site — see [`CONTENT-LICENSE.md`](./CONTENT-LICENSE.md) for the exact conditions.
+- **Story content** (`src/seasons/`, `src/threads/`, `src/characters/`, `src/timeline/`, `src/lore/`, `src/glossary/`, `src/codex/`, `src/journal/`, `src/story-engine/`, `src/images/` (except `src/images/icons/`), `src/audio/`, `src/video/`, `story-bible/`, `prompts/`): **CC BY-NC-ND 4.0**, with an explicit **Fan Works Policy** exception for non-commercial fan fiction, fan art, and fan fiction clones of this site — see [`CONTENT-LICENSE.md`](./CONTENT-LICENSE.md) for the exact conditions.
 
 That means:
 

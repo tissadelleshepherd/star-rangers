@@ -36,7 +36,7 @@ const path = require('path');
 
 const REPO_ROOT = process.cwd();
 const LORE_ROOT = path.join(REPO_ROOT, 'src', 'lore');
-const matter = require(path.join(REPO_ROOT, 'node_modules', 'gray-matter'));
+const matter = require('gray-matter');
 
 // ---------------------------------------------------------------------------
 // Rule tables
@@ -61,6 +61,18 @@ const POLITY_PAGES = [
 // One entry per place page (category "Locations", or a `system:`/`galaxy:`
 // field). `evidence` quotes are checked against the page text.
 const PLACE_RULES = {
+  'antariksha': {
+    polity: 'Solar System Concord / Orbital Habitats Compact',
+    polity_pages: ['orbital-habitats-compact'],
+    peoples: [],
+    evidence: ["is one of the five self-governing habitats of the Orbital Habitats Compact", "Antariksha joined it, with a Commissioner, a Mayor and a civil detective bureau of its own"]
+  },
+  'callisto-station': {
+    polity: 'unknown',
+    polity_pages: ['formation-of-star-rangers'],
+    peoples: [],
+    evidence: ["an installation, not a polity, and so the Corps' own ground"]
+  },
   'eden-space-habitat': {
     polity: 'Solar System Concord / Orbital Habitats Compact',
     polity_pages: ['solar-system-concord', 'orbital-habitats-compact'],
@@ -78,6 +90,12 @@ const PLACE_RULES = {
     polity_pages: ['knarr-line'],
     peoples: [],
     evidence: ["the largest hauler-mothership in the Knarr Line's founding fleet"]
+  },
+  'ligeia-habitat': {
+    polity: 'independent',
+    polity_pages: [],
+    peoples: [],
+    evidence: ["Ligeia is a polity above the threshold, so the Star Rangers enter only by invitation", "It is the seat of the Titan Settlement Authority"]
   },
   'new-cotswolds': {
     polity: 'unknown',
@@ -127,6 +145,12 @@ const PLACE_RULES = {
     peoples: ['Pandoids'],
     evidence: ['There is no settlement authorisation and none has been sought.', 'The deep networks belong to the Pandoids, and they are a people.']
   },
+  'planets/ilenne': {
+    polity: 'Federation of Sentient Beings',
+    polity_pages: ['federation-of-sentient-beings'],
+    peoples: ['Mnemari'],
+    evidence: ['Ilenne is the home world of the Mnemari and a member world of the Federation of Sentient Beings']
+  },
   'planets/kernowek-reach': {
     polity: 'Celtic Union of Planets',
     polity_pages: ['celtic-union-of-planets'],
@@ -143,7 +167,7 @@ const PLACE_RULES = {
     polity: 'Solar System Concord / Orbital Habitats Compact',
     polity_pages: ['solar-system-concord'],
     peoples: [],
-    evidence: ["the only one that has been the seat of interplanetary authority under all four of the Solar System's successive governments"]
+    evidence: ["the only one that has been the seat of interplanetary authority under all five of the Solar System's successive governing arrangements"]
   },
   'planets/meridian': {
     polity: 'Cerebraun Hegemony',
@@ -187,6 +211,12 @@ const PLACE_RULES = {
     peoples: ['Humans'],
     evidence: ['the flagship and most populous world of the Celtic Union of Planets', 'naturally human-compatible']
   },
+  'planets/titan': {
+    polity: 'independent',
+    polity_pages: [],
+    peoples: [],
+    evidence: ["by the Titan Settlement Authority"]
+  },
   'planets/trigrian': {
     polity: 'unknown',
     polity_pages: ['formation-of-star-rangers'],
@@ -223,11 +253,23 @@ const PLACE_RULES = {
     peoples: [],
     evidence: ['A Federation of Sentient Beings habitat in a high orbit above Drithane']
   },
+  'stillwater-station': {
+    polity: 'independent',
+    polity_pages: [],
+    peoples: [],
+    evidence: ["The Titan Settlement Authority's founding charter was signed in it"]
+  },
   'threshold-station': {
     polity: 'unknown',
     polity_pages: ['formation-of-star-rangers'],
     peoples: ['Krenyi'],
     evidence: ['a Survey Corps post with a Starwarden answering for it and a crew drawn from several peoples', 'the second Krenyi in the record to serve at Threshold']
+  },
+  'tsittak': {
+    polity: 'independent',
+    polity_pages: [],
+    peoples: ['Chthonari'],
+    evidence: ["settlement cut into a lone body of nickel-iron", "it answers in practice to no one but itself"]
   },
   'umbral-moon': {
     polity: 'unknown',
@@ -282,9 +324,9 @@ const PEOPLE_RULES = {
     evidence: ['Levrils are sapient meta-dimensional beings', 'A Levril has no form a time-bound observer could receive directly']
   },
   'mnemari': {
-    homeworld: 'Ilenne', homeworld_slug: null,
-    polity: 'Federation of Sentient Beings', frame: 'humanoid',
-    evidence: ['a sapient, humanoid people native to Ilenne', 'every other catalogued Federation species', 'tag: federation-of-sentient-beings']
+    homeworld: 'Ilenne', homeworld_slug: 'planets/ilenne',
+    polity: 'Federation of Sentient Beings', frame: 'Endoskelia, not the human frame',
+    evidence: ['a sapient people native to Ilenne', 'is filed in the frame Endoskelia, and is not on the human frame', 'every other catalogued Federation species', 'tag: federation-of-sentient-beings']
   },
   'ollune': {
     homeworld: 'Cirrane', homeworld_slug: 'planets/cirrane',
@@ -509,6 +551,9 @@ function build() {
   return out;
 }
 
+module.exports = { PEOPLE_RULES, EXTRA_PEOPLE_PAGES, PLACE_RULES, POLITY_PAGES, build };
+
+if (require.main === module) {
 const outfile = process.argv[2];
 if (!outfile) {
   console.error('usage: node extract-places-and-peoples.js <outfile>');
@@ -519,3 +564,4 @@ fs.writeFileSync(outfile, JSON.stringify(result, null, 2) + '\n');
 console.log(`wrote ${outfile}`);
 console.log('counts: ' + JSON.stringify(result.counts));
 console.log('categories: ' + result.categories.join(', '));
+}

@@ -155,8 +155,8 @@ reference for how a thing is done here:
   `careful-memory`, `world-model`, `foundation-model`, `shadow-architect`,
   `visual-llm`.
 - Five keep **architecture decision records**: `swarm`, `careful-memory`,
-  `world-model`, `shadow-architect`, the ADM. `swarm` guards three of its
-  four with a named test, so a breached decision fails CI rather than
+  `world-model`, `shadow-architect`, the ADM. `swarm` guards all four
+  with a named test, so a breached decision fails CI rather than
   drifting; `shadow-architect` guards one, and the others say in their own
   `CLAUDE.md` how far tests reach their decisions.
 

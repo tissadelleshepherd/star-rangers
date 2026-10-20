@@ -1224,6 +1224,509 @@ already on its page, and no more are added here.
    finding *is* the Corryn story, and the record's present silence matches
    a colony that has never asked.
 
+## Gender, kinship and the self, people by people (Dermot's direction, 20 October 2026)
+
+Dermot's line, verbatim: *"non-humanoid non-terrestrial non-metazoan gender
+and individual or collective identity and awareness"*; and, of the shapes put
+to him, *"Yes, gender and identity A as well: the mind-design section and the
+rendering notes for the Told and Ollune"*. Answered as the 14 October
+sections are: from the record first, every line marked. **DERIVED** means a
+cited page says it or plainly entails it, or it is biology or physics applied
+to one; **PROPOSED** means a reading the record allows and has not stated,
+his to overrule; **not established** means the record is silent, and the line
+says why the silence is the right shape where it is. Nothing here is canon.
+The one `src/` change made with this section is a rendering note on
+`src/lore/ollune.md`; the Told already carry theirs (below).
+
+### The rules already standing
+
+Five, all on the record before this section, and every block below is read
+under them.
+
+1. **Gender may exist and is never inferred** (`src/lore/the-shape-of-a-life.md`,
+   23 August 2026, `intake-2026-08-23.md`). The page's plain line:
+   *"Aliens may have gender, but nothing says they must, and it does not have
+   to work like ours."* Its body: gender *"does not follow from a body plan,
+   from a reproductive role, or from the observer's expectations, and a
+   survey that assigns it from any of those has recorded a fact about the
+   survey."* And on the unit: *"Some sapient civilisations do not have
+   individual personhood or identity in that sense, and the record states this
+   as a fact about them, not a deficiency in them."*
+2. **The ten concepts may be absent or unaskable, and plural personhood is
+   never a pathology** (this note, *The concepts a people may not share*,
+   14 September 2026). Individuality, personhood and family are among the ten,
+   each answered *present*, *shaped by the world*, *absent* or *unaskable*. A
+   people whose personhood is plural or shared is written in its own terms,
+   *"never as a disorder, a horror or a hive"*. And the first of the three
+   travelling rules: **derive, don't assign** (*"An alien with a hive mind
+   because hive minds are alien is the trope default"*).
+3. **Awareness and consciousness are kept apart** (`src/lore/what-a-mind-is-carried-by.md`).
+   *"Awareness is what a sensorium delivers"*; *"Consciousness is there being
+   somebody the registering is for"*; and *"it files what registers, it
+   recognises who is there, and it does not derive the second from the
+   first."* So each block below answers the two separately: what the people
+   registers without trying, and who the registering is for.
+4. **A people's pronoun is a once-only decision, translation by default**
+   (`CLAUDE.md`, 7 August 2026). Declared on the people's lore page, any coined
+   paradigm registered in the glossary; existing usage stands; *"the record's
+   default is translation"*, so *they* (or *she*, or *he*) on the page is a
+   rendering unless a page says otherwise.
+5. **Plural minds are the human-side case, and never the rule for another
+   people** (`src/glossary/plural-minds.md`; CLAUDE.md, the 23 September note
+   that the plural-minds link is speculative and never generalised). The
+   glossary is Concord law about a body that holds more than one person. The
+   cosmology's coupling rule under it is general (*The Shape of a Life* cites
+   it: identity need not stop at one body, *"nor required identity to be held
+   at the scale of a body at all"*), but the plural-minds category, its
+   registration and its joint responsibility are the Concord's institutions.
+   No people below is filed as a plural mind, and no plural system is read as
+   a model of one. *The Shape of a Life*'s own habit governs the casework:
+   *"translate the obligation, never the people"*.
+
+Two consequences, drawn once. **A silence about sex is not a finding of
+none.** A people whose page describes no sex is *not established*, never
+*genderless*: the second is a claim, and the trope's. **A pronoun on the page
+is evidence about the record, not the people**, until a lore page declares
+otherwise.
+
+The peoples come in the order the chapters lean on them, by chapter files
+naming them on 20 October 2026: the Told (24), the Chthonari (7), the
+Cerebraun (4), then the Mnemari and the Ollune (one each, and both re-made
+in body this week), then the rest in a table. The Krenyi are on the human
+frame and appear only where the record already speaks.
+
+### The Told (the Pandoids of Fliade)
+
+**What the record says.** The people are *"the Told"*; *"one is of the people
+by having been told the tellings"*, and *"There is no other way in"*. A person
+is called by *"the first true thing said of them that others went on
+repeating"*; a name *"is not replaced when a truer thing is said of a person
+later; the truer thing is added"*, and *"A long name is a grown one, and what
+it shows is clarity and maturity"* (`src/glossary/the-told.md`). Small ones
+are born: *"The smallest was born after the two stones"* (S12E01C01); the
+season's telling is for *"the ones who are not born yet"* (S12E01C04). The
+communities are several and unjoined, and their bodies differ (`src/lore/planets/fliade.md`).
+On sex the character pages mark the absence in so many words: *"Their age,
+and their sex. The party's log says he. The party's word is the party's, and
+the record does not follow it"* (`src/characters/teddy.md`); *"Their age, and
+their sex"* again on `stone-first.md`.
+
+**Sex, reproduction and gender. Not established, and the absence fits.**
+DERIVED: birth exists and the young are *small ones*, so a life has a start
+and a youth. DERIVED from Fliade's ecology (`ecology-design.md`, *Fliade*: a
+chemical base in a few warm places, *the large are few*): a warm holds few
+people, so births are few and each small one is known to everyone in it.
+DERIVED: in 24 chapter files no Told telling names a parent, a mate or a sex,
+and the survey's *he* for Carried-It-Sleeping is filed on the character page
+as the survey's. That is *The Shape of a Life*'s doctrine at work in a
+chapter: the party assigned a sex from a body, and the record kept it as a
+fact about the party. DERIVED: the naming practice cannot carry sex, because a
+name is a doing said and repeated (*Stone-First*, *Went-Round*,
+*Keeps-A-Hand-On-It*), never a kind. PROPOSED: if the Told hold any
+distinction of kind among persons, it is not in the names, and a chapter that
+needs one would show it in a telling, not in a pronoun. Why the absence is
+right: Fliade's page is observational (*"Nothing here is an account the
+Pandoids gave of themselves"*), the thread is *"a telling rendered, not a
+transcription"*, and the Told have told nobody.
+
+**Kinship.** DERIVED: belonging is by tellings, not by descent (*no other way
+in*). A small one becomes one of the Told when they *"can tell them all
+without a mistake"*. So the unit the record shows is the warm and the
+tellings, and kin by birth is **not established**. PROPOSED: kin may exist
+and be untold, since a telling is about what someone did; the record should
+not supply a family to fill the gap, nor declare that there is none.
+
+**Individual and collective.** DERIVED: individuals, named, who argue: the
+manners are argued for the first time in S11E01C03, and *"It is not settled
+by who talks best"*. The collective name is made the same way as a person's
+(*"the first true thing said of all of them is that they were told"*), so the
+people is a telling about everyone and never a mind above them. DERIVED: a
+person's name is held in other people's mouths, *what others went on
+repeating*, and a telling about somebody else *"names nobody"*
+(`the-told.md`; S14E01C04, where Keeps-A-Hand-On-It lets a thing go by
+*"because it was not the kind of thing that becomes a name. It was about the
+up-people"*). So a Told self is **partly carried by others, in speech**. That
+is the Ollune shape in a different medium (below), and the two must not be
+merged: the Told are *seen more exactly* by others; the Ollune are *held up*
+by them.
+
+**Awareness and sense of self.** DERIVED: certain without trying of the shape
+of warmth in a place and of stone under the body; unable to know the roof
+(this note, *The Pandoids, answered*, 1). The shadow ruling (8 September) is
+the awareness edge exactly: a shape without warmth is what the sensorium
+cannot place. Consciousness is the survey's to recognise and has been, at the
+line, by stated interval (`fliade.md`, 2834). DERIVED, sense of self: a person
+grows by being told more truly (*"the person has been seen more exactly, and
+has become more"*); youth is *"having every story and none of your own"*
+(this note, 7). PROPOSED: a Told self is known to its holder the way a telling
+is known, by having been heard; a person alone with an untold thing has
+something not yet theirs.
+
+**Pronoun.** *They*, and already a declared rendering, on four pages:
+`the-told.md` (*"The record's they for an individual is its translation
+default, not a claim about a pronoun system of their own"*), the canonical
+guide, `teddy.md` and `stone-first.md`. Settled by the first chapter's
+approval (`open-questions.md`, *Pronouns — settled by the approved chapter*).
+**No new note was needed**, and none is added: the glossary page is where the
+Chthonari and Ovruhn equivalents sit, on the page that renders the people in
+the people's own name, and Fliade's page is the survey's side, which has never
+heard the people speak.
+
+**Traps.** *The genderless alien*: refused by the first consequence above;
+the Told are not established, not sexless. *The hive*: closed by the argued
+manners and by names that are individual. *The savant*: memory is ordinary and
+unasserted (16 August). *The silhouette*: here the attractor is the bear and
+the ape, not the insect (`species-design.md`, *The Told — a second warm's
+body*), and a family den with a mother bear is that attractor in kinship form.
+*The noble primitive*: a people without parents named is not a commune
+without them; the record is silent, not utopian.
+
+**What a page would need.** If a chapter calls for a birth, a small one's
+first carer or a pairing, the fact goes in the chapter in the Told's voice,
+and `the-told.md` gains a clause by extension. A gender, if a chapter ever
+shows one, would be a vocabulary decision and declared there.
+
+### The Chthonari
+
+**What the record says.** *"Sustained work and reproduction both require a
+sealed, pressurized burrow"* (`src/lore/chthonari.md`). *"The record renders a
+Chthonari person as they. Nothing in the biology the survey has described
+sorts Chthonari persons by sex, and their own speech does not sort them that
+way either: the Undersong marks a person by contact — felt through the
+structure the speaker stands on, or not felt"* (same). A name is *"a short
+signature of strikes … told from every other name"* (same). In Akkit's own
+account, valid for its author: *"a child checks the vessik before it learns
+to read"*, and the cutters of a burrow *"are in it the way the load is in
+it"* (`src/codex/nothing-turned.md`).
+
+**Sex, reproduction and gender.** DERIVED: reproduction is tied to a sealed,
+pressurised burrow, and a burrow is tuned during excavation so that it is *"a
+resonating instrument its residents are never not partly listening to"*.
+So a young Chthonari begins inside a sounding structure. PROPOSED: the first
+thing a young one registers is a burrow's tuning, and a crew's off-Belt module
+is a question of what it is tuned to (this note, *The Chthonari, answered*, 6).
+DERIVED: gender is **not established**, and the page says why in the
+people's own terms: the Undersong's person-mark is contact, not sex. PROPOSED:
+if a distinction of kind exists, the Undersong does not carry it in its
+person-forms, so a reader would meet it, if ever, in what a person is felt to
+be doing in the structure, never in a pronoun. No proposal is made for a sex.
+
+**Individual and collective.** DERIVED: individuals who argue; *"a career
+choice made by a great many individuals"*; a crew's *"consensus is a tuning
+reached, never a state they start in"* (this note, *Traps*). Each name is a
+signature *told from every other name*, so individuality is acoustic and
+exact. DERIVED: the shared thing is a structure, not a mind: the Undersong is
+*"a vocabulary, not an empathy"* (this note, 2), and a crew on one deck
+shares it while *"One alone on a deck has the deck"* (`nothing-turned.md`).
+What persists of the dead is structural: the cutters are in the burrow as
+load. PROPOSED: that is the Chthonari answer to *legacy*, and it is a
+property of what was left, never of a group mind.
+
+**Awareness and sense of self.** DERIVED: awareness is the structure, read
+*"continuously and without conscious effort"*, and off structure it is
+silence (this note, *What a Chthonari cannot do*). Consciousness, the someone
+it is for, is individual and argues. PROPOSED, sense of self: a Chthonari is
+known to others by being felt through what both stand on, and knows itself
+there too, which is why the posting's loneliness is *"a shared structure
+nobody else in the room can feel"* rather than any unkindness.
+
+**Pronoun.** *They*, ruled 4 September 2026, with the rendering note on the
+lore page. *Nothing Turned* renders a child as *it* in the translating set's
+voice; that is the Codex author's rendering, valid for its author, and it is
+no precedent for the record's voice.
+
+**Traps.** *The insect silhouette*, in its kinship form: a burrow with a
+breeding queen, workers and drones. Refused twice over: *"No people in the
+record has a ruling breeder"* (this note, 14 October, *Traps*), and
+reproduction is stated only as needing a burrow, never as belonging to one
+member of it. *The hive*: closed above. *The savant*: structure is a
+contractor's competence until the case needs it.
+
+**What a page would need.** If a chapter shows a Chthonari young one at home,
+`chthonari.md` gains a sentence by extension on what a burrow holds for the
+young; nothing about sex is needed for that sentence.
+
+### The Cerebraun
+
+**What the record says.** Nine centres: a central brain and eight
+limb-ganglia, each with *"a measurable degree of localized preference and
+mood"*; the central brain *"does not fully override the limb-ganglia. It
+negotiates with them"*; skin display used *"for identity signaling,
+emotional broadcast, and a formal display-language"* (`src/lore/cerebraun.md`).
+*"A single Cerebraun can hold … several simultaneous, only partially
+reconciled trains of affect and intention"* (same). A Cerebraun is one person
+with nine centres, *"not nine persons"* (`species-design.md`, *Cerebraun*).
+Sohrel has held one post for about three centuries. Life cycle, and *"how a
+young Cerebraun comes by nine centres"*, are marked open (same). The
+Hegemony publishes little, its population included (`cerebraun-hegemony.md`).
+
+**Sex, reproduction and gender. Not established, and the absence fits.** The
+Hegemony shows the record its offices and not its households, and the
+Archive *"cannot see inside the council chamber"* (this note, 14 October).
+DERIVED: the skin carries *identity signalling*, and the second channel is the
+one no human reads (`cerebraun.md`, *Communication*). PROPOSED: if the
+Cerebraun hold a gender, its likeliest home is that display, so a human
+record would miss it entirely, and the record's silence would then be, in
+*The Shape of a Life*'s words, a fact about the survey. Nothing about
+reproduction is proposed; a chapter should find it, not a note.
+
+**Individual and collective.** DERIVED: one person in nine centres, which is
+not plurality (several persons in one body) and not a collective (several
+bodies as one). The record holds three distinct shapes here, and they stay
+three: a plural system (Sen), a Cerebraun, and the Hegemony's polity read as a
+body, which is the Hegemony's doctrine and ruled its own doctrine only (14
+October, *His choices*, 1A). DERIVED, the 14 October ruling (*Minds they make*, 1B): a
+Cerebraun-made mind is built as Cerebraun bodies are, *"a centre among
+centres that may decline the central voice"*, so the people's own self-model extends to what they make: a
+self is a negotiation that can be declined from inside and stay one self.
+
+**Awareness and sense of self.** DERIVED: awareness is ninefold, each
+ganglion seeing *"its own stretch of the room"*; consciousness is one,
+somebody the nine registerings are for, arrived at by negotiation and shown in
+the three-part answer *"in the order the centres finished thinking"*
+(`tavesh.md`). PROPOSED: a Cerebraun's sense of self is the voice's standing
+with its own limbs, so a limb that agrees *"outright"* (S03E01C03) is an event,
+and a single-centred mind looks to them like a voice with no one to answer it.
+
+**Pronoun. Undeclared, and proposed here as *they*** (a choice, his). Usage
+now: the three Sohrel chapters, `sohrel.md` and `tavesh.md` use the name and
+no pronoun, and Sixth Course's page uses the name throughout *"as the record does
+for the Cerebraun"*. But `cerebraun.md` uses *it* for a Cerebraun in four sentences
+(*"It sees through many small eyes"*, *"a danger it is protected from"*, *"its
+spoken language"*, *"It hears a ganglion"*) and *they* in the same paragraph
+as one of them (*"it is not toxic to them. It is not the air they would
+choose"*). The reasons for *they*: it is the translation default the record
+already uses for the Chthonari, Ovruhn, Ollune and Told; the record keeps *it*
+for an animal, an instrument and a part (*"a Smart Pet off its collar is
+simply an animal"*; *Sohrel's central brain … it*), so *it* for a person would
+file a person as one of those; and *they* can carry a short rendering note
+that closes its one risk, a plural reading, by saying the nine centres are one
+person. The name stays the first choice, as the chapters already do. This is
+put as the open item below, since the lore page cannot keep both.
+
+**Traps.** *The hive*, in the polity: subject administrations as limbs is
+Hegemony doctrine, and the record adopts no body-to-polity reading (14
+October, 1A). *The octopus*, in kinship form: an egg-guarding parent who dies
+at the hatching is an Earth animal's life, not theirs. *The savant*: holding a
+correct position and an unresolved one at once is the Administrator-Voice's
+craft, and costs (`sohrel.md`). *Villainy*: the Hegemony's account of humans
+is theirs, and never the record's reason to make them cold.
+
+**What a page would need.** A rendering sentence on `cerebraun.md` once the
+pronoun is ruled, and the four *it*s turned to match (open item 1). Anything
+on life cycle waits for a chapter set in a Cerebraun household or council.
+
+### The Mnemari
+
+**What the record says.** No senescence; *"no natural upper bound on
+lifespan"*; death by event (`src/lore/mnemari.md`). *"Mnemari birthrate is
+low by deliberate cultural design, not biological necessity"*; *"Bringing a
+new Mnemari mind into being is treated on Ilenne as a rare, weighty,
+multi-generational commitment rather than a private family matter, planned by
+kin-councils"*; *"A Mnemari child grows and matures at a pace outside
+observers find unremarkable"*; *"They cannot interbreed with humans or any
+other known species"* (same). Every Mnemari on record is *she*: the oldest
+confirmed, Ulessa (*"She is she on the Federation record"*), Osune (*"She is
+she in the reader's rendering, as every Mnemari on the record is"*), and the
+one who walked Osune between the springs (*"because she did not say it"*,
+`src/codex/by-the-chair-of-that-day.md`).
+
+**Sex, reproduction and gender.** DERIVED, and kept to the record: what makes
+births rare is a decision, not a body. The page says *by deliberate cultural
+design*, and the reasoning is the record's own: a people that loses no elders
+to time need not replace them at a mortal pace. Who decides is a kin-council,
+on a multi-generational timescale, and the act is *bringing a new mind into
+being*: the record's words avoid naming parents, a pair or a sex, and this
+section does not supply them. DERIVED from Ilenne (`ecology-design.md`,
+*Ilenne*: sparse producers, dry spells of no period): a world that feeds few
+large walkers and punishes a wrong route rewards few, well-placed lives,
+which fits the page's design reason without becoming its cause. Gender is
+**not established**. PROPOSED: the uniform *she* is the Federation record's
+rendering, and asserts no sex; a people who all render alike in one human
+register have shown the register, not a single sex.
+
+**Kinship.** DERIVED: kin-councils exist and decide births; *kin* is the
+record's word; the relation of a child to the kin who planned it is **not
+established**. PROPOSED: a Mnemari kin is a long-standing body that holds a
+new life as a commitment over generations, which the page's *rather than a
+private family matter* already implies.
+
+**Individual and collective.** DERIVED: individuals, emphatically: a self
+that loses no episode at all, and the Setting-Down judged by *"her people's
+own test and nobody else's to apply"* (`ulessa.md`). DERIVED: a Mnemari dates
+by *"the chair of that day"* and gives her birth as a room *"by who was in
+it"* (`by-the-chair-of-that-day.md`), so a self is located among the people
+who were present, in full and unfaded.
+
+**Awareness and sense of self.** DERIVED: awareness on Ilenne's terms, far
+hearing, smell into the wind, a horizon's sight (`species-design.md`,
+*Mnemari*); consciousness carrying every episode at full resolution, *"a
+liability they have learned, slowly, to carry"*. The self is the one thing the
+people judge from inside: when the load *"is beginning to crowd out their
+capacity to act well in the present"*, they Set Down.
+
+**Pronoun.** *She*, existing usage, stands. PROPOSED and settled here by
+recommendation (his to overrule): when `mnemari.md` is next touched, one
+rendering sentence on the Chthonari pattern, that *she* is the Federation
+record's rendering of a Mnemari person and claims no sex, since the record has
+described none. That is a clarification and changes no usage.
+
+**Traps.** *The single-sex people*, the genderless alien's twin: a uniform
+*she* read as *all female*. Refused by the rendering note above. *The
+elephant that never forgets* and *the infallible witness* (`species-design.md`;
+`ecology-design.md`): memory is a cost. *Fertility as the price of
+immortality*: the page puts the low birthrate in design, not biology, and a
+writer should not move it into the body.
+
+**What a page would need.** The rendering sentence above; anything on how a
+kin-council decides waits for a chapter on Ilenne.
+
+### The Ollune
+
+**What the record says.** They sleep in **holds**, *"tethered clusters of
+eight to thirty, physically linked at the tendril, in which the waking carry
+the sinking. Every Ollune alive has been held unconscious by others, nightly,
+since infancy"*; trust *"is a load being borne, by named individuals, right
+now"*; and *"the Ollune language has no separate words for falling asleep and
+going under"* (`src/lore/ollune.md`). The far word *"carries no speaker's
+identity"*; the near word is *"individually distinct to the body that
+produced them"*, and *"Agreement, consent, debt, office and judgement exist
+only as near words"* (same). Standing is *"a claim on the lift of others"*
+(same). The page says nothing of sex, birth or parentage beyond *infancy*.
+
+**Sex, reproduction and gender. Not established.** DERIVED: there is an
+infancy, and an infant is held from the first night. DERIVED from the physics
+(`species-design.md`, *Ollune*; `ecology-design.md`, *Cirrane*): nothing can
+be set down, every mass is lifted by a body, and below the shell is *the
+direction in which things stop*. PROPOSED: so whatever an Ollune birth is, it
+happens in the air and inside a hold, and a newborn's lift is paid by others
+before it is paid by itself. Nothing about sex is proposed. DERIVED, for the
+grammar: the far word cannot mark who spoke, and the near word cannot be made
+without marking who did. PROPOSED: if an Ollune grammar marks persons, the
+distinction it can afford is attributable or unattributable, as the
+Chthonari's is felt or unfelt, and sex is not a channel either word is built
+on. Why the absence fits: the record knows the Ollune through hulls,
+viewports and carried marks, and no visitor has been inside a hold.
+
+**Kinship.** DERIVED: the hold is the unit of belonging the record shows,
+eight to thirty, and whom it holds the page does not say (`ilyare.md`: *"the
+people's page says a hold is eight to thirty and does not say who"*). Whether
+a hold is kin, chosen or both is **not established**.
+
+**Individual and collective. Personhood carried by others; not a collective
+mind.** DERIVED: every Ollune is a named individual with a body-distinct near
+word, and office is one body's mark (Ilyare's crossing). What the hold does is
+**carry a person**, not merge one: the sleeper is held up by others who are
+awake, and is no less a person for being carried. That is *The Shape of a
+Life*'s *identity held in … a working* in its most literal form, and it is
+not the case that page names of a civilisation without individual
+personhood. PROPOSED: the Ollune hold one standing truth about the self that
+no other people on the record holds as plainly: a person is someone others
+have kept from going under, tonight and every night, and so personhood is
+never had alone.
+
+**Awareness and sense of self.** DERIVED: consciousness lapses nightly, and
+the language does not tell sleep from going under, so the self's continuity
+is supplied by others' lift; awareness is pressure at range and chemistry at
+hand. DERIVED: the ones who sleep unheld off-world and *"cannot afterwards
+settle back into a hold"* have a word, *"old, gentle"*, first used of
+survivors of a fall. PROPOSED: that word is the Ollune record of a changed
+self, a person who has learned they can be set down.
+
+**Pronoun.** *They*, the people's page's own usage (`ilyare.md`: *"The
+pronoun is the people's page's own usage of an Ollune: they"*), with *it* in
+the body paragraph for the envelope's physics. The rendering note now on
+`src/lore/ollune.md`, a clarification on the Ovruhn and Chthonari pattern,
+reads:
+
+> A note on rendering: an Ollune individual is **they** in the record's
+> translation register, the ordinary conversion, the one that turns a
+> passing's interval into the record's years. It claims nothing about how the
+> Ollune themselves mark a person. The far word carries no speaker's identity
+> and the near word cannot be made without one, and the record has not been
+> told what either does with a person spoken of; nor has it described an
+> Ollune sex. Where this page says *it*, it is speaking of the body: the
+> envelope, and the bill it pays.
+
+**Traps.** *The hive*: a hold is persons carrying persons (14 October, *What
+holds generally*). *The parable*: the page itself warns that the Ollune are
+*"very easy to romanticise"*, and a hold read as a lesson in trust is the
+register the Krenyi are restful for refusing. *The jellyfish life cycle*: a
+polyp, a budding and a medusa is an Earth animal's, and the body was re-made
+this week to escape exactly that attractor. *The genderless alien*: not
+established is not none.
+
+**What a page would need.** A birth in a hold, if a chapter needs one, goes on
+`ollune.md` by extension under *Buoyancy as Metabolism*.
+
+### The rest of the peoples
+
+One row each, from the record; every cell is DERIVED unless marked. *Pronoun*
+is the usage on the record and whether a page calls it a rendering.
+
+| People | Sex, reproduction, kin on record | Individual or collective | Pronoun | Trap to keep closed |
+| --- | --- | --- | --- | --- |
+| Ovruhn (`ovruhn.md`) | Nothing on sex or birth; memory *"deep, ordered and slow to fade"* | Individuals whose state is public; authority is how many *"living memories hold it and how well they agree"*; the chorus is keepers checking one another | *they*, with a rendering note (29 August 2026) | The chorus as a hive; empathy taken for a shared mind |
+| Ilveth (`ilveth.md`) | Nothing; *"Sardain's cultures agree on very little"* | Not established at home | *she* for Suvra Kel, *"in the record's translation register"* (`open-questions.md`) | One culture standing for Sardain |
+| Prismeri (`prismeri.md`) | Two adult forms of one life, with *"no hierarchy between them"* (`the-shape-of-a-life.md`); kinship records proved them one person; cannot interbreed | Individuals; guild status *"not hereditary and cannot be"* | No individual on record | Two forms read as two sexes, or the Emergence as a change of gender. Neither is on record (PROPOSED as a trap) |
+| Verdani (`verdani.md`) | Kin by symbiont lineage; the kinbed bond *"more binding in practice than shared residence or even shared parentage"*, so parentage exists; cannot interbreed | Individuals in kinstrains and four countries | *she* for Isren Farrowkin | Coloration read as sex or caste; it is kinstrain, and `species-design.md` bars it as a mark of role |
+| Veyr Basaltborn (`veyr-basaltborn.md`) | Nothing | Not established; the truss sentence is about bodies (14 October) | *they* for Qiren Tal, existing usage | The lattice body read as a collective |
+| Pelagene Littoral (`pelagene-littoral.md`) | Nothing | Not established | *she* for Mira of Brine | A radial body read as a colony |
+| Serephine Dunekin (`serephine-dunekin.md`) | Nothing | Not established | *he* for Sethka Ru, existing usage | None specific |
+| Meridian sapients (`planets/meridian.md`) | Nothing | A city is *"also an instrument"*; councils and analysts, city by city | Name only (`sixth-course.md`) | The reef-city as a colonial organism with one mind |
+| Spiralites (`planets/corryn.md`) | Speech is electromagnetic pulse, and *"Their reproduction depends on it too"*; so the colony's interference is a harm to both | No person on record | None | A people with no person on record filed as a collective; the absence is the record's, not theirs |
+| Doreth (`planets/aspenar.md`) | One sentence; nothing | Not established | None | None yet |
+| Krenyi, for the record only (`krenyi.md`) | *"children come seldom and far apart across a long life"*; cannot interbreed, *"will not consent"* to, and immunity *"destroys foreign genetic material outright"* | Individuals | *she* for Syra, existing usage | Nothing added here: the human frame is theirs alone, and this section does not extend it |
+
+### What holds across the peoples
+
+**No people on the record has a sex the record has described.** DERIVED from
+the blocks above: the Chthonari page says the biology described sorts no one
+by sex, and every other page is silent. The pronouns on the record (*she*
+for Syra, Suvra Kel, Isren Farrowkin, Mira and every Mnemari; *he* for
+Sethka Ru; *they* for the rest) are renderings or existing usage, and none
+asserts a sex. That is the 23 August doctrine already obeyed, not a gap.
+
+**No people on the record lacks individual persons.** DERIVED: every people
+with a person on record has named individuals who argue, decline or judge
+for themselves. The nearest shapes to shared personhood, the Ollune hold, the
+Told name, the Ovruhn chorus and the Chthonari deck, are each persons held,
+told, checked or felt by others. So *The Shape of a Life*'s civilisation
+without individual personhood **is not yet any people in the record**, and
+none of these four should be conscripted to stand for it. The worklist line
+for such a people stays open as a worklist line (`open-questions.md`, *The
+shape of alien lives*, 19 October triage).
+
+**Each people's self is held in its own medium.** Felt through structure,
+told and repeated, negotiated among centres, carried unfaded, held up by
+others. The same medium that gives each its standing (14 October, *What holds
+generally*) gives each its self, and the record states both only where a
+page shows the people doing something.
+
+### Open, and his
+
+One item meets the genuine-dilemma bar, because a published page holds two
+commitments that cannot both stand: the 7 August rule that a people's
+pronoun is applied consistently, and `cerebraun.md`'s mixed *it* and *they*.
+
+1. **The Cerebraun pronoun.** (A) **They**, the record's translation default,
+   declared on `cerebraun.md` in one rendering sentence (*the nine centres are
+   one person*), the four generic *it*s turned to *they* as a clarification,
+   and the name kept first in prose as the chapters already have it. (B)
+   **It**, declared as the record's rendering and the page's *they* turned to
+   match. (C) **No pronoun**: the name or *a Cerebraun* in every sentence, the
+   page recast to need none, and nothing declared. **Recommended: A.** It is
+   the default every other people has had, it costs one sentence and four
+   words, it leaves the chapters exactly as they stand, and B would make the
+   Cerebraun the one people the record calls by the pronoun it keeps for an
+   animal, an instrument and a part. C is honest but cannot hold in a
+   generic sentence about the people, which is where the *it*s are.
+
+Settled by recommendation in the blocks above, each his to overrule and none
+a dilemma: the Mnemari rendering sentence (*she* claims no sex), written when
+`mnemari.md` is next touched; the Ollune note, written now; no new note for
+the Told, who already carry one; and no sex proposed for any people.
+
 ## Where this goes
 
 When the species' crew is cast, each member's page can answer the seven

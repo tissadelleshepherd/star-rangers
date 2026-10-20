@@ -14,7 +14,7 @@ permalink: /seasons/s05/e00/
 
 <h1 class="page-title">Season 5 · Episode 0</h1>
 <p class="page-intro">
-  What came between Season 3 and Season 5. Three years separate the Chief Ranger who left the Hegemony's review chamber from the Line Captain who opens Season 5, and in them Shepherd crosses the hinge rank into command, where nothing can be examined and the Corps assigns a mentor instead. The officer it assigns her is the one who came to command from the other side, and who had been reading her silences for years before anyone made it a duty.
+  What came between Season 3 and Season 5. Three years separate the Chief Ranger who left the Hegemony's review chamber from the Line Captain who opens Season 5, and in them Shepherd crosses the hinge rank into command, where nothing can be examined and the Corps assigns a mentor instead. The officer it assigns her is the one who came to command from the other side, and who had been reading her silences for years before anyone made it a duty. In the spring of 2831 that officer is made High Captain, given a command ship built not to arrive first, and goes in person to ask one Chief across.
 </p>
 
 {% set seasonNumber = "5" %}

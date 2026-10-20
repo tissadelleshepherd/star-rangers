@@ -184,7 +184,9 @@ Compact on some standing business is plausible without new history. The mind
 is the interest — a witness who cannot forget, in a case about records — and
 "young" is meaningful for a people whose custom turns institutions over on a
 schedule biology does not impose. **Costs:** humanoid, so the body does less
-work; the strand tends toward a hearing-room, which is Strand A's register
+work (superseded 19 October 2026: the species page's *humanoid* was clarified
+and the body derived in `species-design.md`, *Mnemari — a body from Ilenne*,
+re-made on 20 October as a tripod with a slung body and a long neck, so this cost no longer holds); the strand tends toward a hearing-room, which is Strand A's register
 already; and a memory that never decays is a shape the trope default watches
 closely (the infallible witness).
 
